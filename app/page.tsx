@@ -1,6 +1,8 @@
 import { prisma } from "@/lib/prisma";
 import CatalogueClient from "@/components/CatalogueClient";
 
+const BASE_URL = "https://clubs-actionnaires.vercel.app";
+
 export default async function HomePage() {
   const companies = await prisma.company.findMany({
     include: { benefits: true },
@@ -12,13 +14,36 @@ export default async function HomePage() {
 
   const totalBenefits = companies.reduce((acc, c) => acc + c.benefits.length, 0);
 
+  const itemListJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Clubs actionnaires – Catalogue des entreprises",
+    description:
+      "Liste des clubs d'actionnaires avec leurs avantages exclusifs",
+    numberOfItems: companies.length,
+    itemListElement: companies.map((company, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: `Club Actionnaires ${company.name}`,
+      url: `${BASE_URL}/entreprises/${company.slug}`,
+    })),
+  };
+
   return (
     <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
+      />
+
       {/* Hero — Nothing style: asymmetric, display type, data-driven */}
       <section className="border-b border-border">
         <div className="max-w-7xl mx-auto px-[var(--space-md)] sm:px-[var(--space-lg)] lg:px-[var(--space-xl)] py-[var(--space-3xl)] md:py-[var(--space-4xl)]">
           {/* Primary layer — Display typography */}
-          <h1 className="font-[family-name:var(--font-display)] text-[48px] md:text-[72px] font-bold text-text-display leading-[1.0] tracking-[-0.03em] mb-[var(--space-lg)]">
+          <h1
+            aria-label="CLUBS ACTIONNAIRES"
+            className="font-[family-name:var(--font-display)] text-[48px] md:text-[72px] font-bold text-text-display leading-[1.0] tracking-[-0.03em] mb-[var(--space-lg)]"
+          >
             CLUBS
             <br />
             ACTIONNAIRES
@@ -66,6 +91,7 @@ export default async function HomePage() {
         id="catalogue"
         className="max-w-7xl mx-auto px-[var(--space-md)] sm:px-[var(--space-lg)] lg:px-[var(--space-xl)] py-[var(--space-2xl)]"
       >
+        <h2 className="sr-only">Catalogue des clubs actionnaires</h2>
         <CatalogueClient
           companies={companies}
           sectors={sectors}
