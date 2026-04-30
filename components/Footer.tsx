@@ -11,7 +11,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-[14px] text-text-secondary leading-relaxed max-w-sm">
-              Catalogue des avantages actionnaires des grandes entreprises francaises.
+              Catalogue des avantages actionnaires des plus grandes entreprises mondiales.
             </p>
           </div>
           <div className="text-right">

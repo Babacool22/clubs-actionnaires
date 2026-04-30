@@ -26,7 +26,7 @@ export default async function HomePage() {
 
           {/* Secondary layer */}
           <p className="text-[18px] text-text-secondary leading-[1.6] max-w-lg mb-[var(--space-2xl)]">
-            Tous les avantages reserves aux actionnaires des grandes entreprises europeennes. Un catalogue pour tout comparer.
+            Tous les avantages réservés aux actionnaires des plus grandes entreprises mondiales. Un catalogue pour tout comparer.
           </p>
 
           {/* Data metrics — tertiary layer */}
@@ -84,12 +84,12 @@ export default async function HomePage() {
               Qu&apos;est-ce qu&apos;un club d&apos;actionnaires ?
             </h2>
             <p className="text-[16px] text-text-secondary leading-[1.6]">
-              De nombreuses grandes entreprises europeennes proposent a leurs
+              De nombreuses grandes entreprises mondiales proposent à leurs
               actionnaires individuels de rejoindre un club d&apos;actionnaires.
-              Ces programmes offrent des avantages exclusifs : reductions sur les
-              produits et services de l&apos;entreprise, cadeaux annuels, invitations a
-              des evenements prives, visites de sites industriels, et bien plus.
-              Cette plateforme recense tous ces avantages pour vous aider a faire
+              Ces programmes offrent des avantages exclusifs : réductions sur les
+              produits et services de l&apos;entreprise, cadeaux annuels, invitations à
+              des événements privés, visites de sites industriels, et bien plus.
+              Cette plateforme recense tous ces avantages pour vous aider à faire
               valoir vos droits.
             </p>
           </div>
@@ -108,8 +108,8 @@ export default async function HomePage() {
             </h2>
             <p className="text-[18px] text-text-secondary leading-[1.6] mb-[var(--space-2xl)]">
               Pour profiter des avantages d&apos;un club d&apos;actionnaires, vous devez
-              d&apos;abord etre inscrit au registre des actionnaires de l&apos;entreprise.
-              Voici comment faire, etape par etape, meme si vous n&apos;avez jamais
+              d&apos;abord être inscrit au registre des actionnaires de l&apos;entreprise.
+              Voici comment faire, étape par étape, même si vous n&apos;avez jamais
               investi en Bourse.
             </p>
 
@@ -129,10 +129,10 @@ export default async function HomePage() {
                   Rendez-vous chez votre banque ou chez un courtier en ligne
                   (Boursorama, Degiro, Trade Republic, Fortuneo...).
                   Demandez l&apos;ouverture d&apos;un <strong className="text-text-primary">compte-titres ordinaire (CTO)</strong> ou
-                  d&apos;un <strong className="text-text-primary">Plan d&apos;Epargne en Actions (PEA)</strong>.
-                  Le PEA offre des avantages fiscaux apres 5 ans de detention, mais
-                  il est limite aux actions europeennes. Le CTO est plus flexible.
-                  L&apos;ouverture est generalement gratuite et se fait en ligne en
+                  d&apos;un <strong className="text-text-primary">Plan d&apos;Épargne en Actions (PEA)</strong>.
+                  Le PEA offre des avantages fiscaux après 5 ans de détention, mais
+                  il est limité aux actions européennes. Le CTO est plus flexible.
+                  L&apos;ouverture est généralement gratuite et se fait en ligne en
                   quelques minutes.
                 </p>
               </div>
@@ -149,10 +149,10 @@ export default async function HomePage() {
                 </div>
                 <p className="text-[15px] text-text-secondary leading-[1.7]">
                   Depuis votre compte, recherchez l&apos;entreprise par son nom ou
-                  son code ISIN / mnemonique (ex. : <strong className="text-text-primary">MC</strong> pour LVMH, <strong className="text-text-primary">OR</strong> pour
-                  L&apos;Oreal). Passez un ordre d&apos;achat au marche pour le nombre
-                  d&apos;actions souhaite. La plupart des clubs ne demandent
-                  qu&apos;<strong className="text-text-primary">une seule action</strong> pour adherer, soit parfois
+                  son code ISIN / mnémonique (ex. : <strong className="text-text-primary">MC</strong> pour LVMH, <strong className="text-text-primary">OR</strong> pour
+                  L&apos;Oréal). Passez un ordre d&apos;achat au marché pour le nombre
+                  d&apos;actions souhaité. La plupart des clubs ne demandent
+                  qu&apos;<strong className="text-text-primary">une seule action</strong> pour adhérer, soit parfois
                   seulement quelques dizaines d&apos;euros.
                 </p>
               </div>
@@ -168,26 +168,26 @@ export default async function HomePage() {
                   </h3>
                 </div>
                 <p className="text-[15px] text-text-secondary leading-[1.7]">
-                  C&apos;est l&apos;etape que beaucoup ignorent. Vos actions peuvent etre
-                  detenues sous deux formes :
+                  C&apos;est l&apos;étape que beaucoup ignorent. Vos actions peuvent être
+                  détenues sous deux formes :
                 </p>
                 <ul className="mt-[var(--space-sm)] space-y-[var(--space-sm)]">
                   <li className="text-[15px] text-text-secondary leading-[1.7] pl-[var(--space-md)] border-l border-border-visible">
                     <strong className="text-text-primary">Au porteur</strong> : vos actions restent chez votre
-                    courtier. L&apos;entreprise ne sait pas que vous etes actionnaire.
-                    C&apos;est le mode par defaut.
+                    courtier. L&apos;entreprise ne sait pas que vous êtes actionnaire.
+                    C&apos;est le mode par défaut.
                   </li>
                   <li className="text-[15px] text-text-secondary leading-[1.7] pl-[var(--space-md)] border-l border-border-visible">
-                    <strong className="text-text-primary">Au nominatif administre</strong> : vos actions restent
+                    <strong className="text-text-primary">Au nominatif administré</strong> : vos actions restent
                     chez votre courtier, mais votre nom est inscrit dans le registre
-                    de l&apos;entreprise. C&apos;est la condition pour acceder a la plupart
+                    de l&apos;entreprise. C&apos;est la condition pour accéder à la plupart
                     des clubs d&apos;actionnaires.
                   </li>
                   <li className="text-[15px] text-text-secondary leading-[1.7] pl-[var(--space-md)] border-l border-border-visible">
-                    <strong className="text-text-primary">Au nominatif pur</strong> : vos actions sont gerees
+                    <strong className="text-text-primary">Au nominatif pur</strong> : vos actions sont gérées
                     directement par l&apos;entreprise (via son teneur de registre,
-                    souvent la Societe Generale Securities Services ou CACEIS).
-                    Frais de garde souvent gratuits et acces complet aux avantages.
+                    souvent la Société Générale Securities Services ou CACEIS).
+                    Frais de garde souvent gratuits et accès complet aux avantages.
                   </li>
                 </ul>
                 <p className="text-[15px] text-text-secondary leading-[1.7] mt-[var(--space-sm)]">
@@ -207,11 +207,11 @@ export default async function HomePage() {
                   </h3>
                 </div>
                 <p className="text-[15px] text-text-secondary leading-[1.7]">
-                  Une fois vos actions acquises (et, si necessaire, passees en
+                  Une fois vos actions acquises (et, si nécessaire, passées en
                   nominatif), rendez-vous sur le site de l&apos;entreprise dans la
                   rubrique &laquo;&nbsp;Actionnaires&nbsp;&raquo; ou &laquo;&nbsp;Investisseurs&nbsp;&raquo;.
                   Remplissez le formulaire d&apos;inscription au club. Vous recevrez
-                  generalement une confirmation par e-mail sous quelques jours.
+                  généralement une confirmation par e-mail sous quelques jours.
                   Certaines entreprises envoient un kit de bienvenue avec votre
                   carte de membre.
                 </p>
@@ -228,10 +228,10 @@ export default async function HomePage() {
                   </h3>
                 </div>
                 <p className="text-[15px] text-text-secondary leading-[1.7]">
-                  Reductions, cadeaux, invitations a des evenements exclusifs,
+                  Réductions, cadeaux, invitations à des événements exclusifs,
                   visites de sites... Les avantages varient selon les entreprises
-                  mais sont souvent meconnus. Consultez notre catalogue ci-dessus
-                  pour decouvrir tout ce a quoi vous avez droit.
+                  mais sont souvent méconnus. Consultez notre catalogue ci-dessus
+                  pour découvrir tout ce à quoi vous avez droit.
                 </p>
               </div>
             </div>
@@ -243,11 +243,11 @@ export default async function HomePage() {
               </p>
               <p className="text-[15px] text-text-secondary leading-[1.7]">
                 L&apos;inscription au registre des actionnaires est <strong className="text-text-primary">totalement
-                gratuite</strong>. Pourtant, la majorite des actionnaires individuels
-                ne le font jamais et passent a cote de centaines d&apos;euros
-                d&apos;avantages chaque annee. Une seule action suffit souvent pour
-                rejoindre un club : le cout d&apos;entree peut etre aussi bas que
-                10 a 20 euros selon l&apos;entreprise.
+                gratuite</strong>. Pourtant, la majorité des actionnaires individuels
+                ne le font jamais et passent à côté de centaines d&apos;euros
+                d&apos;avantages chaque année. Une seule action suffit souvent pour
+                rejoindre un club : le coût d&apos;entrée peut être aussi bas que
+                10 à 20 euros selon l&apos;entreprise.
               </p>
             </div>
           </div>
@@ -261,10 +261,10 @@ export default async function HomePage() {
             NE LAISSEZ PLUS<br />VOS AVANTAGES DORMIR
           </h2>
           <p className="text-[18px] text-text-secondary leading-[1.6] max-w-xl mx-auto mb-[var(--space-xl)]">
-            Des milliers d&apos;actionnaires ignorent qu&apos;ils ont droit a des
-            reductions, des cadeaux et des invitations exclusives.
+            Des milliers d&apos;actionnaires ignorent qu&apos;ils ont droit à des
+            réductions, des cadeaux et des invitations exclusives.
             Inscrivez-vous au registre des actionnaires de vos entreprises
-            et commencez a en profiter des aujourd&apos;hui.
+            et commencez à en profiter dès aujourd&apos;hui.
           </p>
           <a
             href="#catalogue"

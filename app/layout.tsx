@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "CLUBS ACTIONNAIRES",
   description:
-    "Catalogue des avantages actionnaires des grandes entreprises francaises.",
+    "Catalogue des avantages actionnaires des plus grandes entreprises mondiales.",
 };
 
 export default function RootLayout({
