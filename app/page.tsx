@@ -1,65 +1,279 @@
-import Image from "next/image";
+import { prisma } from "@/lib/prisma";
+import CatalogueClient from "@/components/CatalogueClient";
 
-export default function Home() {
+export default async function HomePage() {
+  const companies = await prisma.company.findMany({
+    include: { benefits: true },
+    orderBy: { name: "asc" },
+  });
+
+  const sectors = [...new Set(companies.map((c) => c.sector))].sort();
+  const indexes = [...new Set(companies.map((c) => c.stockIndex))].sort();
+
+  const totalBenefits = companies.reduce((acc, c) => acc + c.benefits.length, 0);
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
+    <div>
+      {/* Hero — Nothing style: asymmetric, display type, data-driven */}
+      <section className="border-b border-border">
+        <div className="max-w-7xl mx-auto px-[var(--space-md)] sm:px-[var(--space-lg)] lg:px-[var(--space-xl)] py-[var(--space-3xl)] md:py-[var(--space-4xl)]">
+          {/* Primary layer — Display typography */}
+          <h1 className="font-[family-name:var(--font-display)] text-[48px] md:text-[72px] font-bold text-text-display leading-[1.0] tracking-[-0.03em] mb-[var(--space-lg)]">
+            CLUBS
+            <br />
+            ACTIONNAIRES
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+
+          {/* Secondary layer */}
+          <p className="text-[18px] text-text-secondary leading-[1.6] max-w-lg mb-[var(--space-2xl)]">
+            Tous les avantages reserves aux actionnaires des grandes entreprises europeennes. Un catalogue pour tout comparer.
           </p>
+
+          {/* Data metrics — tertiary layer */}
+          <div className="flex items-end gap-[var(--space-2xl)]">
+            <div>
+              <p className="font-[family-name:var(--font-display)] text-[48px] font-bold text-text-display leading-none">
+                {companies.length}
+              </p>
+              <p className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]">
+                ENTREPRISES
+              </p>
+            </div>
+            <div className="w-px h-10 bg-border-visible" />
+            <div>
+              <p className="font-[family-name:var(--font-display)] text-[48px] font-bold text-text-display leading-none">
+                {totalBenefits}
+              </p>
+              <p className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]">
+                AVANTAGES
+              </p>
+            </div>
+            <div className="w-px h-10 bg-border-visible" />
+            <div>
+              <p className="font-[family-name:var(--font-display)] text-[48px] font-bold text-text-display leading-none">
+                {sectors.length}
+              </p>
+              <p className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]">
+                SECTEURS
+              </p>
+            </div>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
+      </section>
+
+      {/* Catalogue */}
+      <section
+        id="catalogue"
+        className="max-w-7xl mx-auto px-[var(--space-md)] sm:px-[var(--space-lg)] lg:px-[var(--space-xl)] py-[var(--space-2xl)]"
+      >
+        <CatalogueClient
+          companies={companies}
+          sectors={sectors}
+          indexes={indexes}
+        />
+      </section>
+
+      {/* About — minimal, text-only */}
+      <section id="about" className="border-t border-border">
+        <div className="max-w-7xl mx-auto px-[var(--space-md)] sm:px-[var(--space-lg)] lg:px-[var(--space-xl)] py-[var(--space-3xl)]">
+          <div className="max-w-2xl">
+            <p className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled mb-[var(--space-lg)]">
+              A PROPOS
+            </p>
+            <h2 className="font-[family-name:var(--font-body)] text-[24px] font-medium text-text-display leading-[1.2] tracking-[-0.01em] mb-[var(--space-md)]">
+              Qu&apos;est-ce qu&apos;un club d&apos;actionnaires ?
+            </h2>
+            <p className="text-[16px] text-text-secondary leading-[1.6]">
+              De nombreuses grandes entreprises europeennes proposent a leurs
+              actionnaires individuels de rejoindre un club d&apos;actionnaires.
+              Ces programmes offrent des avantages exclusifs : reductions sur les
+              produits et services de l&apos;entreprise, cadeaux annuels, invitations a
+              des evenements prives, visites de sites industriels, et bien plus.
+              Cette plateforme recense tous ces avantages pour vous aider a faire
+              valoir vos droits.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Comment s'inscrire au registre */}
+      <section id="inscription" className="border-t border-border">
+        <div className="max-w-7xl mx-auto px-[var(--space-md)] sm:px-[var(--space-lg)] lg:px-[var(--space-xl)] py-[var(--space-3xl)]">
+          <div className="max-w-3xl">
+            <p className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled mb-[var(--space-lg)]">
+              GUIDE PRATIQUE
+            </p>
+            <h2 className="font-[family-name:var(--font-body)] text-[32px] md:text-[40px] font-medium text-text-display leading-[1.1] tracking-[-0.02em] mb-[var(--space-lg)]">
+              Comment s&apos;inscrire au registre des actionnaires
+            </h2>
+            <p className="text-[18px] text-text-secondary leading-[1.6] mb-[var(--space-2xl)]">
+              Pour profiter des avantages d&apos;un club d&apos;actionnaires, vous devez
+              d&apos;abord etre inscrit au registre des actionnaires de l&apos;entreprise.
+              Voici comment faire, etape par etape, meme si vous n&apos;avez jamais
+              investi en Bourse.
+            </p>
+
+            {/* Steps */}
+            <div className="space-y-[var(--space-xl)]">
+              {/* Step 1 */}
+              <div className="border-l-2 border-accent pl-[var(--space-lg)]">
+                <div className="flex items-baseline gap-[var(--space-md)] mb-[var(--space-sm)]">
+                  <span className="font-[family-name:var(--font-display)] text-[32px] font-bold text-accent leading-none">
+                    01
+                  </span>
+                  <h3 className="font-[family-name:var(--font-body)] text-[20px] font-medium text-text-display leading-[1.2]">
+                    Ouvrir un compte-titres ou un PEA
+                  </h3>
+                </div>
+                <p className="text-[15px] text-text-secondary leading-[1.7]">
+                  Rendez-vous chez votre banque ou chez un courtier en ligne
+                  (Boursorama, Degiro, Trade Republic, Fortuneo...).
+                  Demandez l&apos;ouverture d&apos;un <strong className="text-text-primary">compte-titres ordinaire (CTO)</strong> ou
+                  d&apos;un <strong className="text-text-primary">Plan d&apos;Epargne en Actions (PEA)</strong>.
+                  Le PEA offre des avantages fiscaux apres 5 ans de detention, mais
+                  il est limite aux actions europeennes. Le CTO est plus flexible.
+                  L&apos;ouverture est generalement gratuite et se fait en ligne en
+                  quelques minutes.
+                </p>
+              </div>
+
+              {/* Step 2 */}
+              <div className="border-l-2 border-accent pl-[var(--space-lg)]">
+                <div className="flex items-baseline gap-[var(--space-md)] mb-[var(--space-sm)]">
+                  <span className="font-[family-name:var(--font-display)] text-[32px] font-bold text-accent leading-none">
+                    02
+                  </span>
+                  <h3 className="font-[family-name:var(--font-body)] text-[20px] font-medium text-text-display leading-[1.2]">
+                    Acheter des actions de l&apos;entreprise
+                  </h3>
+                </div>
+                <p className="text-[15px] text-text-secondary leading-[1.7]">
+                  Depuis votre compte, recherchez l&apos;entreprise par son nom ou
+                  son code ISIN / mnemonique (ex. : <strong className="text-text-primary">MC</strong> pour LVMH, <strong className="text-text-primary">OR</strong> pour
+                  L&apos;Oreal). Passez un ordre d&apos;achat au marche pour le nombre
+                  d&apos;actions souhaite. La plupart des clubs ne demandent
+                  qu&apos;<strong className="text-text-primary">une seule action</strong> pour adherer, soit parfois
+                  seulement quelques dizaines d&apos;euros.
+                </p>
+              </div>
+
+              {/* Step 3 */}
+              <div className="border-l-2 border-accent pl-[var(--space-lg)]">
+                <div className="flex items-baseline gap-[var(--space-md)] mb-[var(--space-sm)]">
+                  <span className="font-[family-name:var(--font-display)] text-[32px] font-bold text-accent leading-none">
+                    03
+                  </span>
+                  <h3 className="font-[family-name:var(--font-body)] text-[20px] font-medium text-text-display leading-[1.2]">
+                    Choisir le nominatif ou rester au porteur
+                  </h3>
+                </div>
+                <p className="text-[15px] text-text-secondary leading-[1.7]">
+                  C&apos;est l&apos;etape que beaucoup ignorent. Vos actions peuvent etre
+                  detenues sous deux formes :
+                </p>
+                <ul className="mt-[var(--space-sm)] space-y-[var(--space-sm)]">
+                  <li className="text-[15px] text-text-secondary leading-[1.7] pl-[var(--space-md)] border-l border-border-visible">
+                    <strong className="text-text-primary">Au porteur</strong> : vos actions restent chez votre
+                    courtier. L&apos;entreprise ne sait pas que vous etes actionnaire.
+                    C&apos;est le mode par defaut.
+                  </li>
+                  <li className="text-[15px] text-text-secondary leading-[1.7] pl-[var(--space-md)] border-l border-border-visible">
+                    <strong className="text-text-primary">Au nominatif administre</strong> : vos actions restent
+                    chez votre courtier, mais votre nom est inscrit dans le registre
+                    de l&apos;entreprise. C&apos;est la condition pour acceder a la plupart
+                    des clubs d&apos;actionnaires.
+                  </li>
+                  <li className="text-[15px] text-text-secondary leading-[1.7] pl-[var(--space-md)] border-l border-border-visible">
+                    <strong className="text-text-primary">Au nominatif pur</strong> : vos actions sont gerees
+                    directement par l&apos;entreprise (via son teneur de registre,
+                    souvent la Societe Generale Securities Services ou CACEIS).
+                    Frais de garde souvent gratuits et acces complet aux avantages.
+                  </li>
+                </ul>
+                <p className="text-[15px] text-text-secondary leading-[1.7] mt-[var(--space-sm)]">
+                  Pour passer au nominatif, contactez votre courtier ou
+                  directement le service actionnaires de l&apos;entreprise.
+                </p>
+              </div>
+
+              {/* Step 4 */}
+              <div className="border-l-2 border-accent pl-[var(--space-lg)]">
+                <div className="flex items-baseline gap-[var(--space-md)] mb-[var(--space-sm)]">
+                  <span className="font-[family-name:var(--font-display)] text-[32px] font-bold text-accent leading-none">
+                    04
+                  </span>
+                  <h3 className="font-[family-name:var(--font-body)] text-[20px] font-medium text-text-display leading-[1.2]">
+                    S&apos;inscrire au club d&apos;actionnaires
+                  </h3>
+                </div>
+                <p className="text-[15px] text-text-secondary leading-[1.7]">
+                  Une fois vos actions acquises (et, si necessaire, passees en
+                  nominatif), rendez-vous sur le site de l&apos;entreprise dans la
+                  rubrique &laquo;&nbsp;Actionnaires&nbsp;&raquo; ou &laquo;&nbsp;Investisseurs&nbsp;&raquo;.
+                  Remplissez le formulaire d&apos;inscription au club. Vous recevrez
+                  generalement une confirmation par e-mail sous quelques jours.
+                  Certaines entreprises envoient un kit de bienvenue avec votre
+                  carte de membre.
+                </p>
+              </div>
+
+              {/* Step 5 */}
+              <div className="border-l-2 border-accent pl-[var(--space-lg)]">
+                <div className="flex items-baseline gap-[var(--space-md)] mb-[var(--space-sm)]">
+                  <span className="font-[family-name:var(--font-display)] text-[32px] font-bold text-accent leading-none">
+                    05
+                  </span>
+                  <h3 className="font-[family-name:var(--font-body)] text-[20px] font-medium text-text-display leading-[1.2]">
+                    Profiter de vos avantages
+                  </h3>
+                </div>
+                <p className="text-[15px] text-text-secondary leading-[1.7]">
+                  Reductions, cadeaux, invitations a des evenements exclusifs,
+                  visites de sites... Les avantages varient selon les entreprises
+                  mais sont souvent meconnus. Consultez notre catalogue ci-dessus
+                  pour decouvrir tout ce a quoi vous avez droit.
+                </p>
+              </div>
+            </div>
+
+            {/* Important note */}
+            <div className="mt-[var(--space-2xl)] bg-surface-raised border border-border-visible p-[var(--space-lg)]">
+              <p className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-accent mb-[var(--space-sm)]">
+                BON A SAVOIR
+              </p>
+              <p className="text-[15px] text-text-secondary leading-[1.7]">
+                L&apos;inscription au registre des actionnaires est <strong className="text-text-primary">totalement
+                gratuite</strong>. Pourtant, la majorite des actionnaires individuels
+                ne le font jamais et passent a cote de centaines d&apos;euros
+                d&apos;avantages chaque annee. Une seule action suffit souvent pour
+                rejoindre un club : le cout d&apos;entree peut etre aussi bas que
+                10 a 20 euros selon l&apos;entreprise.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="border-t border-border bg-surface">
+        <div className="max-w-7xl mx-auto px-[var(--space-md)] sm:px-[var(--space-lg)] lg:px-[var(--space-xl)] py-[var(--space-3xl)] text-center">
+          <h2 className="font-[family-name:var(--font-display)] text-[36px] md:text-[48px] font-bold text-text-display leading-[1.0] tracking-[-0.03em] mb-[var(--space-md)]">
+            NE LAISSEZ PLUS<br />VOS AVANTAGES DORMIR
+          </h2>
+          <p className="text-[18px] text-text-secondary leading-[1.6] max-w-xl mx-auto mb-[var(--space-xl)]">
+            Des milliers d&apos;actionnaires ignorent qu&apos;ils ont droit a des
+            reductions, des cadeaux et des invitations exclusives.
+            Inscrivez-vous au registre des actionnaires de vos entreprises
+            et commencez a en profiter des aujourd&apos;hui.
+          </p>
           <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#catalogue"
+            className="inline-flex items-center gap-[var(--space-sm)] bg-accent text-text-display px-[var(--space-xl)] py-[var(--space-md)] font-[family-name:var(--font-data)] text-[13px] tracking-[0.08em] uppercase hover:opacity-90 transition-opacity duration-[var(--duration-micro)]"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
+            DECOUVRIR LES AVANTAGES →
           </a>
         </div>
-      </main>
+      </section>
     </div>
   );
 }

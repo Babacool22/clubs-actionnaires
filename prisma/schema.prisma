@@ -1,0 +1,35 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../app/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model Company {
+  id          Int       @id @default(autoincrement())
+  slug        String    @unique
+  name        String
+  description String
+  sector      String
+  stockIndex  String    // CAC40, SBF120, CAC Mid 60, etc.
+  ticker      String?
+  website     String?
+  clubUrl     String?
+  logoUrl     String?
+  minShares   Int?
+  benefits    Benefit[]
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+}
+
+model Benefit {
+  id          Int     @id @default(autoincrement())
+  company     Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  companyId   Int
+  type        String  // reduction, cadeau, evenement, service, priorite
+  title       String
+  description String
+  value       String? // ex: "20% de réduction", "Cadeau d'une valeur de 50€"
+}

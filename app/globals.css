@@ -1,26 +1,122 @@
 @import "tailwindcss";
 
+/* ── Nothing Design Tokens ── */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Surfaces */
+  --black: #000000;
+  --surface: #111111;
+  --surface-raised: #1A1A1A;
+
+  /* Text */
+  --text-display: #FFFFFF;
+  --text-primary: #E8E8E8;
+  --text-secondary: #999999;
+  --text-disabled: #666666;
+  --text-ghost: rgba(255, 255, 255, 0.26);
+
+  /* Borders */
+  --border: #222222;
+  --border-visible: #333333;
+
+  /* Accent */
+  --accent: #D71921;
+  --accent-subtle: rgba(215, 25, 33, 0.15);
+
+  /* Status */
+  --success: #4A9E5C;
+  --warning: #D4A843;
+  --error: #D71921;
+
+  /* Interactive */
+  --interactive: #5B9BF6;
+
+  /* Spacing (8px base) */
+  --space-2xs: 2px;
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  --space-4xl: 96px;
+
+  /* Motion */
+  --ease: cubic-bezier(0.25, 0.1, 0.25, 1);
+  --duration-micro: 150ms;
+  --duration-transition: 300ms;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --color-black: var(--black);
+  --color-surface: var(--surface);
+  --color-surface-raised: var(--surface-raised);
+  --color-text-display: var(--text-display);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-disabled: var(--text-disabled);
+  --color-text-ghost: var(--text-ghost);
+  --color-border: var(--border);
+  --color-border-visible: var(--border-visible);
+  --color-accent: var(--accent);
+  --color-accent-subtle: var(--accent-subtle);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-error: var(--error);
+  --color-interactive: var(--interactive);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-display: 'Doto', 'Space Mono', monospace;
+  --font-body: 'Space Grotesk', 'DM Sans', sans-serif;
+  --font-data: 'Space Mono', 'JetBrains Mono', monospace;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--black);
+  color: var(--text-primary);
+  font-family: 'Space Grotesk', 'DM Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Nothing Utilities ── */
+
+.label {
+  font-family: 'Space Mono', monospace;
+  font-size: 11px;
+  line-height: 1.2;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.caption {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 12px;
+  line-height: 1.4;
+  letter-spacing: 0.04em;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--black);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-visible);
+}
+
+/* Selection */
+::selection {
+  background: var(--accent);
+  color: var(--text-display);
+}
+
+/* Focus */
+:focus-visible {
+  outline: 1px solid var(--text-primary);
+  outline-offset: 2px;
 }
