@@ -3,7 +3,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-const BASE_URL = "https://clubs-actionnaires.vercel.app";
+const BASE_URL = "https://clubsactionnaires.fr";
 
 const TITLE = "Clubs Actionnaires – Avantages exclusifs pour actionnaires";
 const DESCRIPTION =
