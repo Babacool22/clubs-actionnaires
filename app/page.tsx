@@ -1,7 +1,7 @@
 import { prisma } from "@/lib/prisma";
 import CatalogueClient from "@/components/CatalogueClient";
 
-const BASE_URL = "https://clubs-actionnaires.vercel.app";
+const BASE_URL = "https://clubsactionnaires.fr";
 
 export default async function HomePage() {
   const companies = await prisma.company.findMany({
