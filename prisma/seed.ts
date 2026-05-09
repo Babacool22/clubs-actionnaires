@@ -1,4 +1,5 @@
 import "dotenv/config";
+import fs from "fs";
 import { PrismaClient } from "../app/generated/prisma/client";
 import { PrismaLibSql } from "@prisma/adapter-libsql";
 import path from "path";
@@ -6,6 +7,33 @@ import path from "path";
 const dbPath = path.resolve(process.cwd(), "dev.db");
 const adapter = new PrismaLibSql({ url: `file:${dbPath}` });
 const prisma = new PrismaClient({ adapter } as any);
+
+type FaqEntry = { question: string; answer: string };
+type FaqBatchItem = { slug: string; faq: FaqEntry[] };
+
+function loadFaqs(): Map<string, FaqEntry[]> {
+  const dir = path.resolve(process.cwd(), "prisma/seed-data/faqs");
+  const batches = ["batch-a.json", "batch-b.json", "batch-c.json"];
+  const merged = new Map<string, FaqEntry[]>();
+  const sourceBatch = new Map<string, string>();
+
+  for (const file of batches) {
+    const fullPath = path.join(dir, file);
+    const raw = fs.readFileSync(fullPath, "utf-8");
+    const data = JSON.parse(raw) as FaqBatchItem[];
+    for (const entry of data) {
+      if (merged.has(entry.slug)) {
+        const previous = sourceBatch.get(entry.slug);
+        throw new Error(
+          `Slug FAQ dupliqué : "${entry.slug}" présent dans ${previous} et ${file}`
+        );
+      }
+      merged.set(entry.slug, entry.faq);
+      sourceBatch.set(entry.slug, file);
+    }
+  }
+  return merged;
+}
 
 const companies = [
   {
@@ -2100,10 +2128,23 @@ const companies = [
 async function main() {
   console.log("🌱 Démarrage du seed...");
 
+  const faqsBySlug = loadFaqs();
+  const companySlugs = new Set(companies.map((c) => c.slug));
+  for (const faqSlug of faqsBySlug.keys()) {
+    if (!companySlugs.has(faqSlug)) {
+      console.warn(
+        `⚠️  FAQ pour slug "${faqSlug}" mais aucune company correspondante`
+      );
+    }
+  }
+
+  let withFaq = 0;
+  let withoutFaq = 0;
+
   for (const company of companies) {
     const { benefits, ...companyData } = company;
 
-    await prisma.company.upsert({
+    const upserted = await prisma.company.upsert({
       where: { slug: companyData.slug },
       update: { clubUrl: companyData.clubUrl },
       create: {
@@ -2114,10 +2155,29 @@ async function main() {
       },
     });
 
+    const faq = faqsBySlug.get(companyData.slug);
+    if (faq && faq.length > 0) {
+      await prisma.faq.deleteMany({ where: { companyId: upserted.id } });
+      await prisma.faq.createMany({
+        data: faq.map((f, i) => ({
+          companyId: upserted.id,
+          question: f.question,
+          answer: f.answer,
+          order: i,
+        })),
+      });
+      withFaq++;
+    } else {
+      withoutFaq++;
+    }
+
     console.log(`✅ ${companyData.name} ajouté`);
   }
 
   console.log(`\n🎉 Seed terminé ! ${companies.length} entreprises ajoutées.`);
+  console.log(
+    `📚 ${withFaq} entreprises avec FAQ, ${withoutFaq} entreprises sans FAQ.`
+  );
 }
 
 main()
