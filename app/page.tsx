@@ -38,50 +38,67 @@ export default async function HomePage() {
 
       {/* Hero — Nothing style: asymmetric, display type, data-driven */}
       <section className="border-b border-border">
-        <div className="max-w-7xl mx-auto px-[var(--space-md)] sm:px-[var(--space-lg)] lg:px-[var(--space-xl)] py-[var(--space-3xl)] md:py-[var(--space-4xl)]">
-          {/* Primary layer — Display typography */}
-          <h1
-            aria-label="CLUBS ACTIONNAIRES"
-            className="font-[family-name:var(--font-display)] text-[48px] md:text-[72px] font-bold text-text-display leading-[1.0] tracking-[-0.03em] mb-[var(--space-lg)]"
-          >
-            CLUBS
-            <br />
-            ACTIONNAIRES
-          </h1>
+        <div className="max-w-7xl mx-auto px-[var(--space-md)] sm:px-[var(--space-lg)] lg:px-[var(--space-xl)] py-[var(--space-3xl)] md:py-[var(--space-4xl)] grid grid-cols-1 lg:grid-cols-2 gap-[var(--space-2xl)] items-center">
+          <div>
+            {/* Primary layer — Display typography */}
+            <h1
+              aria-label="CLUBS ACTIONNAIRES"
+              className="font-[family-name:var(--font-display)] text-[48px] md:text-[72px] font-bold text-text-display leading-[1.0] tracking-[-0.03em] mb-[var(--space-lg)]"
+            >
+              CLUBS
+              <br />
+              ACTIONNAIRES
+            </h1>
 
-          {/* Secondary layer */}
-          <p className="text-[18px] text-text-secondary leading-[1.6] max-w-lg mb-[var(--space-2xl)]">
-            Tous les avantages réservés aux actionnaires des plus grandes entreprises mondiales. Un catalogue pour tout comparer.
-          </p>
+            {/* Secondary layer */}
+            <p className="text-[18px] text-text-secondary leading-[1.6] max-w-lg mb-[var(--space-2xl)]">
+              Tous les avantages réservés aux actionnaires des plus grandes entreprises mondiales. Un catalogue pour tout comparer.
+            </p>
 
-          {/* Data metrics — tertiary layer */}
-          <div className="flex items-end gap-[var(--space-2xl)]">
-            <div>
-              <p className="font-[family-name:var(--font-display)] text-[48px] font-bold text-text-display leading-none">
-                {companies.length}
-              </p>
-              <p className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]">
-                ENTREPRISES
-              </p>
+            {/* Data metrics — tertiary layer */}
+            <div className="flex items-end gap-[var(--space-2xl)]">
+              <div>
+                <p className="font-[family-name:var(--font-display)] text-[48px] font-bold text-text-display leading-none">
+                  {companies.length}
+                </p>
+                <p className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]">
+                  ENTREPRISES
+                </p>
+              </div>
+              <div className="w-px h-10 bg-border-visible" />
+              <div>
+                <p className="font-[family-name:var(--font-display)] text-[48px] font-bold text-text-display leading-none">
+                  {totalBenefits}
+                </p>
+                <p className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]">
+                  AVANTAGES
+                </p>
+              </div>
+              <div className="w-px h-10 bg-border-visible" />
+              <div>
+                <p className="font-[family-name:var(--font-display)] text-[48px] font-bold text-text-display leading-none">
+                  {sectors.length}
+                </p>
+                <p className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]">
+                  SECTEURS
+                </p>
+              </div>
             </div>
-            <div className="w-px h-10 bg-border-visible" />
-            <div>
-              <p className="font-[family-name:var(--font-display)] text-[48px] font-bold text-text-display leading-none">
-                {totalBenefits}
-              </p>
-              <p className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]">
-                AVANTAGES
-              </p>
-            </div>
-            <div className="w-px h-10 bg-border-visible" />
-            <div>
-              <p className="font-[family-name:var(--font-display)] text-[48px] font-bold text-text-display leading-none">
-                {sectors.length}
-              </p>
-              <p className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]">
-                SECTEURS
-              </p>
-            </div>
+          </div>
+
+          <div className="w-full">
+            <video
+              src="/presentation.mp4"
+              autoPlay
+              muted
+              loop
+              playsInline
+              preload="metadata"
+              className="w-full h-auto aspect-video border border-border-visible"
+              aria-label="Vidéo de présentation Clubs Actionnaires"
+            >
+              Votre navigateur ne prend pas en charge la lecture vidéo.
+            </video>
           </div>
         </div>
       </section>
