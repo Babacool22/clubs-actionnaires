@@ -3,7 +3,10 @@ import Link from "next/link";
 import { prisma } from "@/lib/prisma";
 import BenefitBadge from "@/components/BenefitBadge";
 import { StockPrice, MinSharesCost } from "@/components/StockPrice";
+import Faq from "@/components/Faq";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import { toYahooSymbol } from "@/lib/yahoo";
+import { BASE_URL } from "@/lib/seo";
 import type { Metadata } from "next";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -35,7 +38,7 @@ export default async function EntreprisePage({ params }: Props) {
   const { slug } = await params;
   const company = await prisma.company.findUnique({
     where: { slug },
-    include: { benefits: true },
+    include: { benefits: true, faqs: { orderBy: { order: "asc" } } },
   });
 
   if (!company) notFound();
@@ -64,6 +67,16 @@ export default async function EntreprisePage({ params }: Props) {
           {company.name.toUpperCase()}
         </span>
       </nav>
+
+      <BreadcrumbSchema
+        items={[
+          { name: "Catalogue", url: `${BASE_URL}/` },
+          {
+            name: company.name,
+            url: `${BASE_URL}/entreprises/${company.slug}`,
+          },
+        ]}
+      />
 
       {/* Company Header */}
       <div className="mb-[var(--space-3xl)]">
@@ -199,6 +212,11 @@ export default async function EntreprisePage({ params }: Props) {
           })}
         </div>
       </div>
+
+      {/* FAQ */}
+      {company.faqs.length > 0 && (
+        <Faq items={company.faqs} companyName={company.name} />
+      )}
 
       {/* CTA */}
       <div className="border-t border-border pt-[var(--space-xl)]">
