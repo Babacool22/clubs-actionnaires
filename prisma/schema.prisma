@@ -20,6 +20,7 @@ model Company {
   logoUrl     String?
   minShares   Int?
   benefits    Benefit[]
+  faqs        Faq[]
   createdAt   DateTime  @default(now())
   updatedAt   DateTime  @updatedAt
 }
@@ -32,4 +33,14 @@ model Benefit {
   title       String
   description String
   value       String? // ex: "20% de réduction", "Cadeau d'une valeur de 50€"
+}
+
+model Faq {
+  id        Int     @id @default(autoincrement())
+  company   Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  companyId Int
+  question  String
+  answer    String
+  order     Int     @default(0)
+  @@index([companyId, order])
 }
