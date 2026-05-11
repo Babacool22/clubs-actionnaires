@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-
-const BASE_URL = "https://clubs-actionnaires.vercel.app";
+import { BASE_URL } from "@/lib/seo";
 
 const TITLE = "Clubs Actionnaires – Avantages exclusifs pour actionnaires";
 const DESCRIPTION =

@@ -1,7 +1,6 @@
 import type { MetadataRoute } from "next";
 import { prisma } from "@/lib/prisma";
-
-const BASE_URL = "https://clubs-actionnaires.vercel.app";
+import { BASE_URL } from "@/lib/seo";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const companies = await prisma.company.findMany({
