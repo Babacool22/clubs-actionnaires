@@ -20,7 +20,7 @@ export async function GET(_req: Request, { params }: Props) {
     const res = await fetch(url, {
       headers: {
         "User-Agent":
-          "Mozilla/5.0 (compatible; clubs-actionnaires/1.0; +https://clubs-actionnaires.vercel.app)",
+          "Mozilla/5.0 (compatible; clubs-actionnaires/1.0; +https://clubsactionnaires.fr)",
         Accept: "application/json",
       },
       next: { revalidate: 60 },
