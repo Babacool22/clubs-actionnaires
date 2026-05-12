@@ -1,5 +1,6 @@
 import { prisma } from "@/lib/prisma";
 import CatalogueClient from "@/components/CatalogueClient";
+import HeroVideo from "@/components/HeroVideo";
 import { BASE_URL } from "@/lib/seo";
 
 export default async function HomePage() {
@@ -86,18 +87,7 @@ export default async function HomePage() {
           </div>
 
           <div className="w-full">
-            <video
-              src="/presentation.mp4"
-              autoPlay
-              muted
-              loop
-              playsInline
-              preload="metadata"
-              className="w-full h-auto aspect-video border border-border-visible"
-              aria-label="Vidéo de présentation Clubs Actionnaires"
-            >
-              Votre navigateur ne prend pas en charge la lecture vidéo.
-            </video>
+            <HeroVideo />
           </div>
         </div>
       </section>
