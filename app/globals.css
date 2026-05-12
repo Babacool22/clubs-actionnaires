@@ -125,9 +125,10 @@ body {
 
 .hero-video-frame {
   background: #ffffff;
-  padding: 12px;
+  padding: 6px;
   width: 100%;
-  box-shadow: 0 20px 60px -20px rgba(0, 0, 0, 0.6);
+  border-radius: 14px;
+  box-shadow: 0 12px 40px -16px rgba(0, 0, 0, 0.5);
 }
 
 .hero-video-inner {
@@ -135,6 +136,7 @@ body {
   aspect-ratio: 16 / 9;
   background: #000;
   overflow: hidden;
+  border-radius: 9px;
 }
 
 .hero-video-inner video {
@@ -143,6 +145,16 @@ body {
   display: block;
   object-fit: cover;
   background: #000;
+}
+
+.hero-video-poster {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 2;
+  pointer-events: none;
 }
 
 .hero-video-badge {
@@ -235,8 +247,9 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  padding: 10px 6px 4px;
+  padding: 8px 8px 4px;
   background: #ffffff;
+  border-radius: 0 0 9px 9px;
 }
 
 .hero-video-bar-dots {

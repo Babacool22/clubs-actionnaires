@@ -68,6 +68,15 @@ export default function HeroVideo() {
           Votre navigateur ne prend pas en charge la lecture vidéo.
         </video>
 
+        {paused && (
+          <img
+            src="/presentation-poster.jpg"
+            alt=""
+            aria-hidden="true"
+            className="hero-video-poster"
+          />
+        )}
+
         <div
           className={`hero-video-badge ${paused ? "is-paused" : ""}`}
           aria-hidden="true"
