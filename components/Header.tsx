@@ -1,8 +1,9 @@
 import Link from "next/link";
+import ThemeToggle from "./ThemeToggle";
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-50 bg-black border-b border-border">
+    <header className="sticky top-0 z-50 bg-[var(--black)] border-b border-border">
       <div className="max-w-7xl mx-auto px-[var(--space-md)] sm:px-[var(--space-lg)] lg:px-[var(--space-xl)]">
         <div className="flex items-center justify-between h-14">
           <Link href="/" className="flex items-center gap-[var(--space-sm)]">
@@ -34,6 +35,7 @@ export default function Header() {
             >
               A propos
             </Link>
+            <ThemeToggle />
           </nav>
         </div>
       </div>
