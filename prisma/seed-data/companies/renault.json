@@ -1,0 +1,121 @@
+{
+  "slug": "renault",
+  "name": "Renault",
+  "sector": "Automobile",
+  "stockIndex": "CAC40",
+  "ticker": "RNO",
+  "clubName": "Club des Actionnaires Renault",
+  "clubUrl": "https://www.renaultgroup.com/en/finance/shareholders/shareholders-club/",
+  "minShares": 1,
+  "lastVerifiedAt": "2026-05-15",
+  "benefits": [
+    {
+      "type": "publication",
+      "title": "Magazine Renault Actu",
+      "description": "Dès 1 action — Réception du magazine Renault Actu, lettre d'information dédiée aux actionnaires individuels, publiée deux fois par an (éditions hiver et printemps) avec actualités financières, stratégie et innovations du Groupe.",
+      "value": "2 numéros / an",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.renaultgroup.com/en/finance/shareholders/shareholders-club/"
+    },
+    {
+      "type": "guide",
+      "title": "Guide de l'actionnaire",
+      "description": "Dès 1 action — Accès au Guide de l'actionnaire Renault Group, document PDF disponible sur la section actionnaires du site, mis à jour une fois par an.",
+      "value": "Document annuel",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.renaultgroup.com/en/finance/shareholders/"
+    },
+    {
+      "type": "event",
+      "title": "Journée des Actionnaires",
+      "description": "Dès 1 action — Participation possible à la Journée des Actionnaires annuelle au siège du Groupe à Boulogne-Billancourt, en présence du Président et du CEO. Places limitées (30 personnes en 2026), attribution par tirage au sort parmi les membres du Club inscrits, 1 place par membre.",
+      "value": "1 journée / an, places limitées",
+      "requiredShares": 1,
+      "sourceUrl": "https://club-actionnaire.com/le-club-des-actionnaires-de-renault-est-a-labandon/"
+    },
+    {
+      "type": "visit",
+      "title": "Visites de sites industriels et centres de recherche",
+      "description": "Dès 1 action — Visites organisées chaque année de sites de production et de centres de recherche du Groupe Renault, réservées aux membres du Club.",
+      "value": "Plusieurs sessions / an",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.renaultgroup.com/en/finance/shareholders/shareholders-club/"
+    },
+    {
+      "type": "event",
+      "title": "Petits-déjeuners actionnaires",
+      "description": "Dès 1 action — Petits-déjeuners thématiques organisés tout au long de l'année pour les membres du Club, l'occasion d'échanger avec les équipes du Groupe.",
+      "value": "Plusieurs sessions / an",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.renaultgroup.com/en/finance/shareholders/shareholders-club/"
+    },
+    {
+      "type": "event",
+      "title": "Réunions d'actionnaires en région",
+      "description": "Dès 1 action — Réunions organisées à Paris et en province permettant de rencontrer les dirigeants et de s'informer sur la stratégie du Groupe.",
+      "value": "Calendrier annuel",
+      "requiredShares": 1,
+      "sourceUrl": "https://club-actionnaire.com/le-club-des-actionnaires-de-renault-est-a-labandon/"
+    },
+    {
+      "type": "service",
+      "title": "Numéro vert dédié actionnaires",
+      "description": "Dès 1 action — Ligne téléphonique gratuite 0 800 650 650 pour toute question relative à l'actionnariat individuel et à la vie du titre.",
+      "value": "Service gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://club-actionnaire.com/le-club-des-actionnaires-de-renault-est-a-labandon/"
+    },
+    {
+      "type": "governance",
+      "title": "Comité Consultatif des Actionnaires",
+      "description": "Dès 1 action — Possibilité de candidater au Comité Consultatif des Actionnaires, composé de 10 membres représentant la diversité de l'actionnariat individuel, qui conseille le Groupe sur sa communication financière.",
+      "value": "10 sièges",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.renaultgroup.com/en/finance/shareholders/shareholders-club/"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Combien d'actions Renault faut-il pour accéder au club ?",
+      "answer": "Une seule action Renault suffit. L'adhésion au Club des Actionnaires Renault est gratuite, ouverte à tout actionnaire majeur disposant d'une adresse email valide, qu'il détienne ses titres au nominatif ou au porteur."
+    },
+    {
+      "question": "Les actionnaires Renault bénéficient-ils de remises sur les véhicules ?",
+      "answer": "Non. Le Club des Actionnaires Renault ne propose aucune remise commerciale sur l'achat de véhicules neufs ni d'essais privilégiés. Les tarifs préférentiels et essais sont réservés aux salariés du Groupe via le programme Vente au Personnel, distinct du Club."
+    },
+    {
+      "question": "Comment adhérer au Club des Actionnaires Renault ?",
+      "answer": "L'adhésion se fait par email à communication.actionnaires@renault.com. Il faut justifier de la détention d'au moins une action Renault, être majeur et disposer d'une adresse email. L'adhésion est gratuite."
+    },
+    {
+      "question": "Quels sont les principaux avantages du Club ?",
+      "answer": "Le magazine Renault Actu deux fois par an, les visites de sites de production et de centres de recherche, les petits-déjeuners thématiques, la Journée des Actionnaires annuelle, les réunions en région et l'accès à un numéro vert dédié."
+    },
+    {
+      "question": "Faut-il détenir ses actions au nominatif pour rejoindre le Club ?",
+      "answer": "Non. Le Club est ouvert aux actionnaires au nominatif comme au porteur. Une attestation de détention délivrée par l'intermédiaire financier peut être demandée pour valider l'inscription."
+    },
+    {
+      "question": "Comment participer à la Journée des Actionnaires Renault ?",
+      "answer": "Les membres du Club manifestent leur intérêt avant la date limite d'inscription. Les places étant limitées (30 personnes en 2026), elles sont attribuées par tirage au sort, à raison d'une place par membre."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Club des Actionnaires - Renault Group (page officielle)",
+      "url": "https://www.renaultgroup.com/en/finance/shareholders/shareholders-club/"
+    },
+    {
+      "title": "Actionnaires individuels - Renault Group",
+      "url": "https://www.renaultgroup.com/en/finance/shareholders/"
+    },
+    {
+      "title": "Renault : Avantages et événements du Club Actionnaires en 2026 - Club-Actionnaire.com",
+      "url": "https://club-actionnaire.com/le-club-des-actionnaires-de-renault-est-a-labandon/"
+    },
+    {
+      "title": "Conditions d'adhésion au Club des Actionnaires de Renault (PDF)",
+      "url": "https://club-actionnaire.com/wp-content/uploads/2024/04/conditions-dadhesion-au-club-des-actionnaires.pdf"
+    }
+  ]
+}

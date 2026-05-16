@@ -1,0 +1,116 @@
+{
+  "slug": "vinci",
+  "name": "Vinci",
+  "sector": "BTP / Concessions",
+  "stockIndex": "CAC40",
+  "ticker": "DG",
+  "description": "Leader mondial des concessions et de la construction (autoroutes, aéroports, Eurovia, Vinci Energies). Cercle Vinci Action accessible dès 1 action.",
+  "website": "https://www.vinci.com",
+  "clubName": "Cercle Vinci Action",
+  "clubUrl": "https://actionnaires.vinci.com/",
+  "minShares": 1,
+  "lastVerifiedAt": "2026-05-15",
+  "benefits": [
+    {
+      "type": "service",
+      "title": "Adhésion au Cercle Vinci Action",
+      "description": "Dès 1 action — adhésion gratuite au Cercle Vinci Action sur simple inscription en ligne avec justificatif de détention. Environ 4 000 actionnaires individuels participent chaque année aux rendez-vous du club.",
+      "value": null,
+      "requiredShares": 1,
+      "sourceUrl": "https://actionnaires.vinci.com/user/register"
+    },
+    {
+      "type": "service",
+      "title": "Lettre trimestrielle \"À plus d'un titre\"",
+      "description": "Dès 1 action — e-lettre trimestrielle dédiée aux actionnaires individuels : actualités, contrats remportés par les divisions du Groupe, interventions médias du Comex et chiffres clés des derniers résultats.",
+      "value": null,
+      "requiredShares": 1,
+      "sourceUrl": "https://www.vinci.com/en/finance/shareholders/club"
+    },
+    {
+      "type": "service",
+      "title": "Espace membre et numéro vert",
+      "description": "Dès 1 action — espace personnel sur actionnaires.vinci.com pour s'inscrire aux événements et accéder aux publications. Numéro vert gratuit depuis la France : 0 800 015 025.",
+      "value": null,
+      "requiredShares": 1,
+      "sourceUrl": "https://actionnaires.vinci.com/"
+    },
+    {
+      "type": "evenement",
+      "title": "Visites de chantiers et infrastructures Vinci",
+      "description": "Dès 1 action — visites exclusives de chantiers et projets Vinci : siège social l'Archipel à Nanterre, coulisses de Radio Vinci Autoroutes (FM 107.7), infrastructures emblématiques du Groupe.",
+      "value": null,
+      "requiredShares": 1,
+      "sourceUrl": "https://www.vinci.com/en/finance/shareholders/club"
+    },
+    {
+      "type": "evenement",
+      "title": "Croisières culturelles \"Redécouvrir sa ville\"",
+      "description": "Dès 1 action — croisières culturelles animées par architectes, urbanistes et historiens à Paris, Lyon, Marseille et Strasbourg, dans le cadre des opérations de mécénat du Groupe.",
+      "value": null,
+      "requiredShares": 1,
+      "sourceUrl": "https://www.vinci.com/en/finance/shareholders/club"
+    },
+    {
+      "type": "evenement",
+      "title": "Visites de sites patrimoniaux",
+      "description": "Dès 1 action — invitations à des visites de sites culturels en partenariat avec Vinci : Cité du Vin à Bordeaux, MuCEM à Marseille, tour fluviale en Seine à Paris. Inscription via l'espace membre, places limitées.",
+      "value": null,
+      "requiredShares": 1,
+      "sourceUrl": "https://club-actionnaire.com/2023-evenements-du-club-des-actionnaires-de-vinci-epa-dg/"
+    },
+    {
+      "type": "evenement",
+      "title": "Assemblée Générale annuelle",
+      "description": "Dès 1 action — participation à l'Assemblée Générale annuelle de Vinci, en présentiel ou à distance, avec accès aux présentations stratégiques, résultats et droits de vote.",
+      "value": null,
+      "requiredShares": 1,
+      "sourceUrl": "https://www.vinci.com/finances/actionnaires"
+    },
+    {
+      "type": "evenement",
+      "title": "Réunions d'actionnaires en région",
+      "description": "Dès 1 action — réunions d'information organisées partout en France pour les actionnaires individuels, avec présentation de la stratégie, des résultats et échanges avec des dirigeants du Groupe.",
+      "value": null,
+      "requiredShares": 1,
+      "sourceUrl": "https://www.vinci.com/en/finance/shareholders/club"
+    },
+    {
+      "type": "evenement",
+      "title": "Concours \"En privé avec Vinci\"",
+      "description": "Dès 1 action — concours annuel organisé depuis 2013 : les lauréats sont invités à un déjeuner avec des membres du Comex de Vinci à l'Archipel, le siège du Groupe à Nanterre.",
+      "value": null,
+      "requiredShares": 1,
+      "sourceUrl": "https://www.vinci.com/en/finance/shareholders/club"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Combien d'actions Vinci pour accéder au Cercle Vinci Action ?",
+      "answer": "Une seule action Vinci suffit pour adhérer gratuitement au Cercle Vinci Action. L'inscription se fait en ligne sur actionnaires.vinci.com avec une adresse email valide et un justificatif de détention. Sur la base d'un cours récent autour de 100 €, le ticket d'entrée est donc d'environ 100 €."
+    },
+    {
+      "question": "Quelles sont les conditions du dividende majoré Vinci ?",
+      "answer": "Vinci ne propose pas de dividende majoré ni de prime de fidélité pour les actions détenues au nominatif sur la durée, contrairement à L'Oréal, Air Liquide ou Crédit Agricole. Le dividende est identique pour tous les actionnaires : 5 € par action au titre de l'exercice 2025, avec un solde de 3,95 € versé le 23 avril 2026 après l'acompte de 1,05 € d'octobre 2025."
+    },
+    {
+      "question": "Les actionnaires Vinci ont-ils des réductions sur les péages ou parkings ?",
+      "answer": "Non. Le Cercle Vinci Action ne donne droit à aucune réduction sur les péages des autoroutes Vinci Autoroutes (ASF, Cofiroute, Escota) ni sur les parkings Vinci Park / Indigo. Les avantages sont centrés sur l'information financière, les événements culturels, les visites de chantiers et l'accès à l'AG."
+    },
+    {
+      "question": "Y a-t-il des cadeaux pour les actionnaires Vinci à l'AG ?",
+      "answer": "Non en 2026. Les éditions 2024 et 2025 prévoyaient des cadeaux artisanaux (confitures, goodies de marque) pour les actionnaires présents en AG, mais aucun cadeau n'est annoncé pour 2026. Les actionnaires Vinci bénéficient en revanche des événements culturels et visites du club."
+    },
+    {
+      "question": "Comment contacter le service actionnaires Vinci ?",
+      "answer": "Le service actionnaires Vinci est joignable au numéro vert 0 800 015 025 (gratuit depuis la France), ou au +33 1 57 98 61 00 depuis l'étranger, du lundi au vendredi de 7h30 à 20h sur rendez-vous. Adresse postale : Service Actionnaires Vinci, 1973 boulevard de La Défense, CS 10268, 92757 Nanterre."
+    }
+  ],
+  "sources": [
+    "https://www.vinci.com/finances/actionnaires",
+    "https://www.vinci.com/en/finance/shareholders/club",
+    "https://actionnaires.vinci.com/",
+    "https://club-actionnaire.com/2023-evenements-du-club-des-actionnaires-de-vinci-epa-dg/",
+    "https://dividendes-actions.fr/dividende-vinci"
+  ]
+}

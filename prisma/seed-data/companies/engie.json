@@ -1,0 +1,114 @@
+{
+  "slug": "engie",
+  "name": "Engie",
+  "sector": "Énergie",
+  "stockIndex": "CAC40",
+  "ticker": "ENGI",
+  "description": "Club des actionnaires Engie accessible dès 1 action : visites de sites énergétiques, événements, lettre, e-club et dividende majoré de 10% au nominatif.",
+  "website": "https://www.engie.com/finance",
+  "clubName": "Club des actionnaires Engie",
+  "clubUrl": "https://clubactionnaires.engie.com/fr/",
+  "minShares": 1,
+  "lastVerifiedAt": "2026-05-15",
+  "benefits": [
+    {
+      "type": "priorite",
+      "title": "Dividende majoré de 10% au nominatif",
+      "description": "Dès 1 action — Prime de fidélité de +10% sur le dividende pour les actions inscrites au nominatif pendant au moins deux exercices complets consécutifs. Éligible PEA. À vérifier auprès de l'émetteur.",
+      "value": "+10% (soit +0,135 € par action sur dividende 2025 de 1,35 €)",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.engie.com/en/shareholder-area/dividend-loyalty-bonus"
+    },
+    {
+      "type": "evenement",
+      "title": "Visites de sites énergétiques Engie",
+      "description": "Dès 1 action — Visites privilégiées de sites industriels du groupe (centrales, parcs éoliens, installations gaz et énergies renouvelables) pour découvrir les métiers et la stratégie de transition.",
+      "value": "Gratuit, sur inscription et tirage au sort",
+      "requiredShares": 1,
+      "sourceUrl": "https://clubactionnaires.engie.com/fr/"
+    },
+    {
+      "type": "evenement",
+      "title": "Conférences sur la transition énergétique",
+      "description": "Dès 1 action — Rencontres et conférences avec les dirigeants et experts du groupe sur la stratégie, les résultats et les enjeux de la transition énergétique.",
+      "value": "Gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://static-actionnaires.engie.com/documents/pdf/Programme%20du%20club%202023/ENGIE_Programme_club_FR.pdf"
+    },
+    {
+      "type": "evenement",
+      "title": "Événements culturels et sportifs sponsorisés",
+      "description": "Dès 1 action — Invitations à des manifestations culturelles et sportives sponsorisées par Engie, attribuées sur tirage au sort selon les places disponibles.",
+      "value": "Gratuit, places limitées",
+      "requiredShares": 1,
+      "sourceUrl": "https://clubactionnaires.engie.com/fr/cms/news/5/conditions-dadhesion"
+    },
+    {
+      "type": "evenement",
+      "title": "Assemblée Générale annuelle",
+      "description": "Dès 1 action — Participation à l'Assemblée Générale d'Engie (prochaine AG le 29 avril 2026), avec présentations stratégiques et vote des résolutions.",
+      "value": "Gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.engie.com/finance"
+    },
+    {
+      "type": "service",
+      "title": "Espace formation et contenus en ligne",
+      "description": "Dès 1 action — Plateforme dédiée avec articles, formations en ligne et contenus pédagogiques sur Engie, ses métiers et sa stratégie de transition énergétique.",
+      "value": "Gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://clubactionnaires.engie.com/fr/"
+    },
+    {
+      "type": "service",
+      "title": "e-Club et lettre des actionnaires",
+      "description": "Dès 1 action — Inscription au e-club Engie pour recevoir la lettre des actionnaires, les invitations aux événements et les communications financières du groupe.",
+      "value": "Gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "http://eclub.engie.com/inscription/"
+    },
+    {
+      "type": "service",
+      "title": "Numéro vert Relations Actionnaires",
+      "description": "Dès 1 action — Service dédié aux actionnaires individuels : 0 800 30 00 30 (France), 0 800 25 125 (Belgique), email club@actionnaires.engie.com.",
+      "value": "Gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.engie.com/finance"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Combien d'actions Engie pour accéder au Cercle ?",
+      "answer": "Une seule action Engie suffit pour adhérer au Club des actionnaires. L'inscription est ouverte à tout actionnaire individuel, qu'il détienne ses titres au nominatif ou au porteur. L'adhésion et la participation aux événements sont gratuites."
+    },
+    {
+      "question": "Les actionnaires Engie ont-ils des réductions sur leur facture d'énergie ?",
+      "answer": "Non. Engie ne propose pas de remise commerciale sur les contrats d'électricité, de gaz ou de services énergétiques pour ses actionnaires. Le Club est centré sur l'information, les visites de sites et les événements, pas sur des avantages tarifaires."
+    },
+    {
+      "question": "Comment s'inscrire au Cercle Engie ?",
+      "answer": "L'inscription se fait en ligne sur clubactionnaires.engie.com ou eclub.engie.com avec un justificatif de détention d'actions (avis d'opéré ou attestation de votre intermédiaire financier). L'adhésion est gratuite et valable tant que vous conservez vos actions."
+    },
+    {
+      "question": "Comment bénéficier du dividende majoré de 10% ?",
+      "answer": "Les actions doivent être inscrites au nominatif (pur ou administré) pendant au moins deux exercices complets consécutifs avant la date de mise en paiement du dividende. Les actions logées en PEA sont éligibles. Le bonus s'élève à +10% du dividende standard, plafond légal."
+    },
+    {
+      "question": "Quels événements organise le Club des actionnaires Engie ?",
+      "answer": "Visites de sites industriels (centrales, éolien, gaz), conférences sur la transition énergétique avec les dirigeants, événements culturels et sportifs sponsorisés par Engie, Assemblée Générale annuelle et réunions d'actionnaires en région."
+    },
+    {
+      "question": "Quelle différence entre actions au nominatif et au porteur chez Engie ?",
+      "answer": "Au nominatif, les actions sont inscrites directement dans les registres d'Engie : communications directes et éligibilité au dividende majoré +10% après deux ans. Au porteur, les actions sont logées chez votre courtier sans accès à la prime de fidélité."
+    }
+  ],
+  "sources": [
+    "https://www.engie.com/finance",
+    "https://clubactionnaires.engie.com/fr/",
+    "https://clubactionnaires.engie.com/fr/cms/news/5/conditions-dadhesion",
+    "https://www.engie.com/en/shareholder-area/dividend-loyalty-bonus",
+    "http://eclub.engie.com/inscription/",
+    "https://static-actionnaires.engie.com/documents/pdf/Reglement_interieur_CLUB2023.pdf",
+    "https://club-actionnaire.com/2023-s1-pas-devenements-de-prevue-au-club-actionnaires-dengie-epa-engi/"
+  ]
+}

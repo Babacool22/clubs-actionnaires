@@ -1,0 +1,130 @@
+{
+  "slug": "societe-generale",
+  "name": "Société Générale",
+  "sector": "Banque",
+  "stockIndex": "CAC40",
+  "ticker": "GLE",
+  "description": "Le Club des Actionnaires Société Générale réunit depuis 1992 les actionnaires détenant au moins 100 titres au porteur ou 50 au nominatif autour d'événements culturels et sportifs.",
+  "website": "https://investors.societegenerale.com/fr",
+  "clubName": "Club des Actionnaires Société Générale",
+  "clubUrl": "https://monespaceactionnaire.societegenerale.com/club-offer",
+  "minShares": 100,
+  "lastVerifiedAt": "2026-05-15",
+  "sources": [
+    "https://monespaceactionnaire.societegenerale.com/",
+    "https://monespaceactionnaire.societegenerale.com/club-offer",
+    "https://monespaceactionnaire.societegenerale.com/join-club",
+    "https://static.actionnaires-societegenerale.com/documents/pdf/SG_Conditions_adhesion_Club_090318.pdf",
+    "https://club-actionnaire.com/2023-evenements-du-club-actionnaires-societe-generale-epagle/",
+    "https://www.societegenerale.com/sites/default/files/AI/GUIDE_NOMINATIF_SG.pdf",
+    "https://investors.societegenerale.com/en/individual-shareholders/being-a-shareholder"
+  ],
+  "benefits": [
+    {
+      "type": "evenement",
+      "title": "Invitations à des événements culturels et sportifs",
+      "description": "À partir de 100 actions au porteur ou 50 au nominatif — Invitations gratuites à Paris et en régions à des concerts, spectacles, expositions, rugby, golf et cinéma en lien avec le mécénat du Groupe.",
+      "value": "Places offertes",
+      "requiredShares": 100,
+      "sourceUrl": "https://monespaceactionnaire.societegenerale.com/club-offer"
+    },
+    {
+      "type": "evenement",
+      "title": "Rugby Top 14 : demi-finales et finale",
+      "description": "À partir de 100 actions au porteur ou 50 au nominatif — Places offertes pour les demi-finales du Top 14 au Stade Vélodrome de Marseille et la finale au Stade de France, dans le cadre du partenariat SG-FFR.",
+      "value": "Places offertes",
+      "requiredShares": 100,
+      "sourceUrl": "https://club-actionnaire.com/2023-evenements-du-club-actionnaires-societe-generale-epagle/"
+    },
+    {
+      "type": "evenement",
+      "title": "Concerts et spectacles (Philharmonie, Bouffes du Nord)",
+      "description": "À partir de 100 actions au porteur ou 50 au nominatif — Invitations à des concerts à la Philharmonie de Paris, au Théâtre des Bouffes du Nord et à des visites chantées du Théâtre du Châtelet.",
+      "value": "Places offertes",
+      "requiredShares": 100,
+      "sourceUrl": "https://club-actionnaire.com/2023-evenements-du-club-actionnaires-societe-generale-epagle/"
+    },
+    {
+      "type": "evenement",
+      "title": "Visites de la collection d'art SG et de musées",
+      "description": "À partir de 100 actions au porteur ou 50 au nominatif — Visites guidées de la collection d'art contemporain Société Générale et de musées partenaires, encadrées par des conférenciers.",
+      "value": "Visites offertes",
+      "requiredShares": 100,
+      "sourceUrl": "https://monespaceactionnaire.societegenerale.com/club-offer"
+    },
+    {
+      "type": "evenement",
+      "title": "Rencontres actionnaires et Assemblée Générale",
+      "description": "Dès 1 action — Participation à l'Assemblée Générale annuelle et aux rencontres actionnaires organisées à Paris et en régions pour échanger avec la Direction sur la stratégie et les résultats.",
+      "value": "Accès libre",
+      "requiredShares": 1,
+      "sourceUrl": "https://investors.societegenerale.com/en/individual-shareholders/being-a-shareholder"
+    },
+    {
+      "type": "service",
+      "title": "Webconférences thématiques et formations",
+      "description": "À partir de 100 actions au porteur ou 50 au nominatif — Webconférences sur la stratégie, les résultats et l'actualité du Groupe, visionnables en direct ou en différé, plus formations financières.",
+      "value": "Gratuit",
+      "requiredShares": 100,
+      "sourceUrl": "https://monespaceactionnaire.societegenerale.com/"
+    },
+    {
+      "type": "service",
+      "title": "Lettre de l'Actionnaire",
+      "description": "Dès 1 action — Lettre périodique sur les résultats financiers, la stratégie et la vie du Groupe Société Générale, accessible en ligne et par abonnement.",
+      "value": "Gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://monespaceactionnaire.societegenerale.com/"
+    },
+    {
+      "type": "service",
+      "title": "Portail Mon Espace Actionnaire",
+      "description": "Dès 1 action — Site sécurisé et personnalisé donnant accès aux publications, webconférences, inscriptions aux événements du Club et au suivi de l'actualité actionnariale.",
+      "value": "Accès en ligne",
+      "requiredShares": 1,
+      "sourceUrl": "https://monespaceactionnaire.societegenerale.com/"
+    },
+    {
+      "type": "service",
+      "title": "Numéro vert et contact dédié actionnaires",
+      "description": "Dès 1 action — Service de relation actionnaires joignable au 0 800 850 820 (numéro vert) ou par email à relations@actionnaires-societegenerale.com.",
+      "value": "0 800 850 820",
+      "requiredShares": 1,
+      "sourceUrl": "https://club-actionnaire.com/2023-evenements-du-club-actionnaires-societe-generale-epagle/"
+    },
+    {
+      "type": "service",
+      "title": "Service Sharinbox pour le nominatif pur",
+      "description": "Dès 1 action au nominatif pur — Plateforme en ligne Société Générale Securities Services pour consulter son portefeuille, passer des ordres et gérer ses titres nominatifs.",
+      "value": "Accès en ligne",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.societegenerale.com/sites/default/files/AI/GUIDE_NOMINATIF_SG.pdf"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Combien d'actions Société Générale pour accéder au Club ?",
+      "answer": "Il faut détenir au minimum 100 actions Société Générale au porteur ou 50 actions au nominatif. L'adhésion au Club est gratuite et nécessite de fournir un justificatif de détention des titres."
+    },
+    {
+      "question": "Comment s'inscrire au Club des Actionnaires Société Générale ?",
+      "answer": "L'inscription se fait en ligne via le portail Mon Espace Actionnaire (monespaceactionnaire.societegenerale.com/join-club) en créant un profil et en joignant un justificatif récent de détention d'au moins 100 titres au porteur ou 50 au nominatif. La relation actionnaires est joignable au 0 800 850 820."
+    },
+    {
+      "question": "Les actionnaires SG ont-ils des frais bancaires réduits ?",
+      "answer": "Non. Le Club des Actionnaires Société Générale ne propose aucune réduction sur les produits ni les frais bancaires du Groupe. Les avantages se limitent à des invitations à des événements culturels et sportifs et à des services d'information."
+    },
+    {
+      "question": "Société Générale verse-t-elle un dividende majoré aux actionnaires fidèles ?",
+      "answer": "Non. Société Générale ne propose pas de dividende majoré ni de prime de fidélité pour la détention au nominatif. Le dividende est identique pour tous les actionnaires."
+    },
+    {
+      "question": "Y a-t-il des cadeaux pour les membres du Club ou à l'Assemblée Générale ?",
+      "answer": "Non. Le Club ne distribue pas de cadeaux à ses membres. Les avantages prennent la forme d'invitations à des événements en places limitées (10 à 20 par événement), attribuées par tirage au sort après inscription préalable."
+    },
+    {
+      "question": "Comment les invitations aux événements sont-elles attribuées ?",
+      "answer": "Les inscriptions se font en ligne plusieurs semaines avant chaque événement via Mon Espace Actionnaire. Les places étant limitées, l'attribution se fait par tirage au sort parmi les membres inscrits."
+    }
+  ]
+}

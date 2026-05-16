@@ -1,0 +1,130 @@
+{
+  "slug": "axa",
+  "name": "AXA",
+  "sector": "Assurance",
+  "stockIndex": "CAC40",
+  "ticker": "CS",
+  "description": "Le Cercle des Actionnaires AXA est ouvert dès 1 action et propose événements culturels, conférences, tarifs préférentiels AXA Millésimes et formations financières.",
+  "website": "https://www.axa.com/fr/investisseurs",
+  "clubName": "Cercle des Actionnaires AXA",
+  "clubUrl": "https://www.axa.com/fr/investisseurs/cercle-des-actionnaires",
+  "minShares": 1,
+  "lastVerifiedAt": "2026-05-15",
+  "sources": [
+    "https://www.axa.com/fr/investisseurs",
+    "https://www.axa.com/fr/investisseurs/cercle-des-actionnaires",
+    "https://www.axa.com/fr/investisseurs/cercle-des-actionnaires/signup",
+    "https://www.axa.com/fr/investisseurs/etre-actionnaire",
+    "https://www.axa.com/fr/investisseurs/nominatif-pur",
+    "https://www.axa.com/fr/investisseurs/assemblee-generale",
+    "https://club-actionnaire.com/2023-evenements-du-club-des-actionnaires-de-axa-epa-cs/"
+  ],
+  "benefits": [
+    {
+      "type": "evenement",
+      "title": "Conférences thématiques et culturelles",
+      "description": "Dès 1 action — Accès privilégié à des conférences culturelles, scientifiques et thématiques animées par des experts AXA et des intervenants invités, au siège du Groupe ou en région.",
+      "value": "Invitations gratuites",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.axa.com/fr/investisseurs/cercle-des-actionnaires"
+    },
+    {
+      "type": "evenement",
+      "title": "Visites privées de musées et monuments",
+      "description": "Dès 1 action — Visites guidées exclusives (Archives Nationales, Manufacture des Gobelins, expositions) réservées aux membres du Cercle.",
+      "value": "Visites offertes",
+      "requiredShares": 1,
+      "sourceUrl": "https://club-actionnaire.com/2023-evenements-du-club-des-actionnaires-de-axa-epa-cs/"
+    },
+    {
+      "type": "evenement",
+      "title": "Réunions d'information en région",
+      "description": "Dès 1 action — Rencontres avec la Direction d'AXA dans les grandes villes (Strasbourg, Lyon, Bordeaux…) pour échanger sur les résultats et la stratégie du Groupe.",
+      "value": "Plusieurs rendez-vous/an",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.axa.com/fr/investisseurs/cercle-des-actionnaires"
+    },
+    {
+      "type": "evenement",
+      "title": "Assemblée Générale annuelle",
+      "description": "Dès 1 action — Participation à l'AG d'AXA avec présentation des résultats par le Président et le Directeur Général, suivie d'un cocktail.",
+      "value": "Accès actionnaire",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.axa.com/fr/investisseurs/assemblee-generale"
+    },
+    {
+      "type": "reduction",
+      "title": "Tarifs préférentiels AXA Millésimes",
+      "description": "Dès 1 action — Remises de 15 à 20 % sur les grands crus issus des propriétés viticoles d'AXA Millésimes (Château Pichon Baron, Suduiraut…) via un site de vente dédié.",
+      "value": "15 à 20 %",
+      "requiredShares": 1,
+      "sourceUrl": "https://club-actionnaire.com/2023-evenements-du-club-des-actionnaires-de-axa-epa-cs/"
+    },
+    {
+      "type": "service",
+      "title": "Investisseurs Academy",
+      "description": "Dès 1 action — Accès gratuit à la plateforme de formation financière (actions, ETF, PEA, immobilier, obligations, private equity), sans publicité.",
+      "value": "Gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.axa.com/fr/investisseurs/cercle-des-actionnaires"
+    },
+    {
+      "type": "service",
+      "title": "Magazine des actionnaires et newsletters",
+      "description": "Dès 1 action — Magazine des actionnaires AXA, newsletters régulières et alertes e-mail sur les annonces du Groupe et la vie du Cercle.",
+      "value": "Inclus",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.axa.com/fr/investisseurs/cercle-des-actionnaires"
+    },
+    {
+      "type": "service",
+      "title": "Numéro vert dédié actionnaires",
+      "description": "Dès 1 action — Service téléphonique gratuit depuis la France au 0 800 43 48 43 (ou +33 1 40 75 48 43 depuis l'étranger) pour les questions des actionnaires individuels.",
+      "value": "0 800 43 48 43",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.axa.com/fr/investisseurs/cercle-des-actionnaires"
+    },
+    {
+      "type": "service",
+      "title": "Espace nominatif pur en ligne",
+      "description": "Dès 1 action au nominatif pur — Site dédié pour consulter son portefeuille, passer des ordres de Bourse, sans droits de garde et avec gestion gratuite par AXA.",
+      "value": "Gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.axa.com/fr/investisseurs/nominatif-pur"
+    },
+    {
+      "type": "priorite",
+      "title": "Droit de vote double au nominatif",
+      "description": "Dès 1 action au nominatif depuis 2 ans — Droit de vote double en Assemblée Générale pour toute action détenue de manière continue au nominatif depuis au moins deux exercices.",
+      "value": "x2 droits de vote",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.axa.com/fr/investisseurs/nominatif-pur"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Combien d'actions AXA pour accéder au Cercle ?",
+      "answer": "Une seule action AXA suffit. Le Cercle des Actionnaires est ouvert à tout actionnaire individuel majeur, détenant au moins 1 titre AXA (au porteur ou au nominatif) et disposant d'une adresse e-mail valide. L'adhésion est gratuite."
+    },
+    {
+      "question": "Les actionnaires AXA ont-ils des réductions sur les assurances ?",
+      "answer": "Non. Le Cercle des Actionnaires AXA ne propose pas de réduction sur les contrats d'assurance ni sur les produits bancaires AXA. Les seules remises commerciales documentées concernent les grands crus AXA Millésimes (15 à 20 %)."
+    },
+    {
+      "question": "Comment s'inscrire au Cercle des Actionnaires AXA ?",
+      "answer": "L'inscription se fait en ligne sur axa.com/fr/investisseurs/cercle-des-actionnaires/signup en remplissant le formulaire. Il faut être majeur, détenir au moins 1 action AXA et fournir une adresse e-mail valide. L'inscription est gratuite et immédiate."
+    },
+    {
+      "question": "AXA verse-t-elle un dividende majoré aux actionnaires fidèles ?",
+      "answer": "Non. AXA ne propose pas de prime de fidélité ni de dividende majoré pour la détention longue d'actions au nominatif. Tous les actionnaires perçoivent le même dividende par action."
+    },
+    {
+      "question": "Quels cadeaux pour les actionnaires AXA à l'Assemblée Générale ?",
+      "answer": "AXA distribue traditionnellement un cadeau de marque à ses actionnaires présents à l'AG (parapluie en 2025, ballon de football et thermos en 2024). Cette pratique n'est pas garantie chaque année et a été ponctuellement suspendue."
+    },
+    {
+      "question": "Quels sont les avantages du nominatif pur AXA ?",
+      "answer": "Le nominatif pur offre la gratuité des droits de garde et des frais de gestion, un droit de vote double après 2 ans de détention continue, un espace en ligne dédié et une plate-forme téléphonique directe avec AXA pour la gestion du portefeuille."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "publicis",
+  "name": "Publicis",
+  "sector": "Publicité / Communication",
+  "stockIndex": "CAC40",
+  "ticker": "PUB",
+  "description": "Publicis Groupe est l'un des leaders mondiaux de la communication, présent dans plus de 100 pays, couvrant publicité, médias, data et transformation digitale.",
+  "website": "https://www.publicisgroupe.com",
+  "clubName": "Relations actionnaires Publicis",
+  "clubUrl": "https://www.publicisgroupe.com/fr/investisseurs/actionnaires/message-du-president",
+  "minShares": 1,
+  "lastVerifiedAt": "2026-05-15",
+  "benefits": [
+    {
+      "type": "service",
+      "title": "Nominatif pur sans frais de garde",
+      "description": "Dès 1 action — Inscription au nominatif pur auprès d'Uptevia, mandataire de Publicis Groupe. Aucun droit de garde, seuls les frais d'opérations de bourse s'appliquent (0,60% minimum 10€). Réception directe des convocations et rapports annuels.",
+      "value": "0€ de frais de garde",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.publicisgroupe.com/fr/investisseurs/actionnaires/devenir-actionnaire"
+    },
+    {
+      "type": "priorite",
+      "title": "Droit de vote double après 2 ans au nominatif",
+      "description": "Dès 1 action — Les actions détenues au nominatif (pur ou administré) depuis au moins deux ans bénéficient automatiquement d'un droit de vote double en Assemblée Générale, conformément aux statuts de Publicis Groupe.",
+      "value": "Vote x2 après 2 ans",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.publicisgroupe.com/fr/investisseurs/actionnaires/devenir-actionnaire"
+    },
+    {
+      "type": "evenement",
+      "title": "Assemblée Générale annuelle au PublicisCinémas",
+      "description": "Dès 1 action — Participation à l'AG annuelle (tenue le 27 mai 2025 au PublicisCinémas) avec droit de vote, échange avec le Président Maurice Lévy et le Directeur Général Arthur Sadoun. Convocation directe pour les actionnaires au nominatif.",
+      "value": "Gratuit, sur convocation",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.publicisgroupe.com/fr/investisseurs/actionnaires/assemblee-generale"
+    },
+    {
+      "type": "service",
+      "title": "Communications financières et documentation actionnaire",
+      "description": "Dès 1 action — Réception des convocations, du Document d'Enregistrement Universel, de la brochure de convocation AG et des communiqués financiers. Diffusion automatique aux nominatifs ; abonnement newsletter pour les porteurs.",
+      "value": "Gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.publicisgroupe.com/fr/investisseurs/actionnaires/tout-sur-laction"
+    },
+    {
+      "type": "evenement",
+      "title": "Réunions investisseurs et webcasts résultats",
+      "description": "Dès 1 action — Accès aux présentations trimestrielles de résultats, conférences sectorielles et webcasts organisés par Publicis Groupe pour les investisseurs et analystes. Calendrier publié sur la rubrique Investisseurs & Analystes.",
+      "value": "Gratuit, en ligne",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.publicisgroupe.com/fr/investisseurs/investisseurs-analystes/evenements"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Publicis Groupe propose-t-il un club des actionnaires ?",
+      "answer": "Non. Publicis Groupe ne dispose pas d'un club des actionnaires individuels comparable à ceux d'Air Liquide, TotalEnergies ou Orange. Les avantages sont concentrés sur le nominatif pur (zéro frais de garde, droit de vote double après 2 ans) et l'accès direct à l'information financière via la rubrique Investisseurs du site publicisgroupe.com."
+    },
+    {
+      "question": "Combien d'actions Publicis pour accéder aux avantages ?",
+      "answer": "Une seule action suffit. Les avantages — nominatif pur sans frais de garde, participation à l'Assemblée Générale, réception des communications financières — sont accessibles dès la première action détenue. Le droit de vote double s'acquiert après 2 ans de détention au nominatif."
+    },
+    {
+      "question": "Comment recevoir les communications actionnaires Publicis ?",
+      "answer": "Les actionnaires au nominatif reçoivent automatiquement les convocations, rapports annuels et communiqués. Les actionnaires au porteur peuvent s'abonner à la newsletter via le site publicisgroupe.com, rubrique Investisseurs / Actionnaires, ou suivre les comptes officiels du groupe (LinkedIn, X)."
+    },
+    {
+      "question": "Publicis verse-t-il un dividende majoré aux actionnaires fidèles ?",
+      "answer": "Non. Publicis Groupe ne verse pas de prime de fidélité ni de dividende majoré. Le dividende est identique pour tous les détenteurs : 3,60€ par action au titre de l'exercice 2024 (versé le 3 juillet 2025) et 3,75€ proposé au titre de 2025."
+    },
+    {
+      "question": "Y a-t-il un cadeau aux actionnaires lors de l'AG Publicis ?",
+      "answer": "Aucun cadeau actionnaire n'est documenté dans les communications officielles de Publicis Groupe pour l'Assemblée Générale 2025. Le groupe ne figure pas parmi les sociétés du CAC 40 distribuant des cadeaux à leurs actionnaires en AG."
+    },
+    {
+      "question": "Comment passer ses actions Publicis au nominatif pur ?",
+      "answer": "Il faut adresser un formulaire de demande de transfert dûment complété à son gestionnaire de compte-titres actuel, qui contactera ensuite Uptevia (mandataire de Publicis). L'opération peut générer des frais auprès du teneur de compte d'origine, mais les actions ne supporteront plus de droits de garde une fois au nominatif pur."
+    }
+  ],
+  "sources": [
+    "https://www.publicisgroupe.com/fr/investisseurs/actionnaires/message-du-president",
+    "https://www.publicisgroupe.com/fr/investisseurs/actionnaires/devenir-actionnaire",
+    "https://www.publicisgroupe.com/fr/investisseurs/actionnaires/tout-sur-laction",
+    "https://www.publicisgroupe.com/fr/investisseurs/actionnaires/assemblee-generale",
+    "https://www.publicisgroupe.com/fr/news-fr/communiques-de-presse/assemblee-generale-de-publicis-groupe-s-a-du-27-mai-2025"
+  ]
+}

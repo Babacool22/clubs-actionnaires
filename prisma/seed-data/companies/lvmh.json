@@ -1,0 +1,128 @@
+{
+  "slug": "lvmh",
+  "name": "LVMH",
+  "description": "Numéro un mondial du luxe (Louis Vuitton, Dior, Moët & Chandon, Hennessy, Tiffany, Tag Heuer, Sephora...). LVMH anime un Club des Actionnaires ouvert dès 1 action, offrant tarifs préférentiels sur vins/spiritueux et presse, billets coupe-file Fondation Louis Vuitton et visites de maisons.",
+  "sector": "Luxe",
+  "stockIndex": "CAC40",
+  "ticker": "MC",
+  "website": "https://www.lvmh.fr",
+  "clubUrl": "https://www.clublvmh-actionnaires.fr",
+  "clubName": "Club Actionnaires LVMH",
+  "minShares": 1,
+  "lastVerifiedAt": "2026-05-15",
+  "sources": [
+    "https://www.clublvmh-actionnaires.fr/",
+    "https://www.lvmh.com/en/investors/shareholders-club",
+    "https://www.lvmh.com/en/investors/being-a-lvmh-shareholder",
+    "https://club-actionnaire.com/2023-evenements-et-avantages-du-club-actionnaires-de-lvmh-epa-mc/",
+    "https://rankia.fr/club-actionnaires-lvmh/"
+  ],
+  "benefits": [
+    {
+      "type": "reduction",
+      "title": "Tarifs préférentiels vins, champagnes & spiritueux",
+      "description": "À partir de 1 action — Accès au site moethennessy.clublvmh-actionnaires.fr proposant la gamme Moët Hennessy à tarif réduit : Moët & Chandon Impérial 186€ le carton de 6, Ruinart Brut 270€ le carton de 6, Hennessy V.S.O.P. 47€ la bouteille. Produits personnalisables, livraison France métropolitaine standard.",
+      "value": "Tarifs membres sur la gamme Moët Hennessy",
+      "requiredShares": 1,
+      "sourceUrl": "https://club-actionnaire.com/2023-evenements-et-avantages-du-club-actionnaires-de-lvmh-epa-mc/"
+    },
+    {
+      "type": "reduction",
+      "title": "Abonnement Les Echos Digital Premium -50%",
+      "description": "À partir de 1 action — Abonnement annuel à Les Echos Digital Premium à 234€ TTC/an au lieu du tarif public, soit environ 50% de remise. Souscription via l'espace membre du club.",
+      "value": "234€/an (-50%)",
+      "requiredShares": 1,
+      "sourceUrl": "https://club-actionnaire.com/2023-evenements-et-avantages-du-club-actionnaires-de-lvmh-epa-mc/"
+    },
+    {
+      "type": "reduction",
+      "title": "Abonnement Investir Privilège -50%",
+      "description": "À partir de 1 action — Abonnement annuel Investir Privilège à 138€ TTC/an au lieu du tarif public, soit environ 50% de remise. Réservé aux membres du club via l'espace personnel.",
+      "value": "138€/an (-50%)",
+      "requiredShares": 1,
+      "sourceUrl": "https://club-actionnaire.com/2023-evenements-et-avantages-du-club-actionnaires-de-lvmh-epa-mc/"
+    },
+    {
+      "type": "reduction",
+      "title": "Abonnement Connaissance des Arts -40%",
+      "description": "À partir de 1 action — Abonnement annuel à Connaissance des Arts à 69€/an, environ 40% de remise sur le tarif public. Accessible depuis l'espace membre du club.",
+      "value": "69€/an (-40%)",
+      "requiredShares": 1,
+      "sourceUrl": "https://club-actionnaire.com/2023-evenements-et-avantages-du-club-actionnaires-de-lvmh-epa-mc/"
+    },
+    {
+      "type": "reduction",
+      "title": "Abonnement Le Parisien Papier+Numérique -60%",
+      "description": "À partir de 1 action — Formule Le Parisien Papier+Numérique à 29,95€/mois, environ 60% de remise sur le tarif standard.",
+      "value": "29,95€/mois (-60%)",
+      "requiredShares": 1,
+      "sourceUrl": "https://club-actionnaire.com/2023-evenements-et-avantages-du-club-actionnaires-de-lvmh-epa-mc/"
+    },
+    {
+      "type": "reduction",
+      "title": "Billets Fondation Louis Vuitton à 10€",
+      "description": "À partir de 1 action — Billets d'entrée Premium coupe-file à la Fondation Louis Vuitton à 10€ l'unité, limités à 2 billets par an et par membre. Y-Pass annuel à 150€ au lieu de 180€.",
+      "value": "10€/billet (max 2/an) ou Y-Pass à 150€",
+      "requiredShares": 1,
+      "sourceUrl": "https://club-actionnaire.com/2023-evenements-et-avantages-du-club-actionnaires-de-lvmh-epa-mc/"
+    },
+    {
+      "type": "evenement",
+      "title": "Visites de maisons et caves de champagne",
+      "description": "À partir de 1 action — Visites gratuites ou à tarif réduit des maisons du groupe : Hennessy (Cognac) et Veuve Clicquot (Reims) gratuites pour 2 personnes, Ruinart (Reims) à 35€/personne au lieu de 75€, Moët & Chandon (Épernay) visite et dégustation gratuites, Mercier (Épernay) visite + flûte offerte. Réservation directe auprès des maisons sur présentation de la carte membre.",
+      "value": "Gratuit à -50% selon maison",
+      "requiredShares": 1,
+      "sourceUrl": "https://club-actionnaire.com/2023-evenements-et-avantages-du-club-actionnaires-de-lvmh-epa-mc/"
+    },
+    {
+      "type": "evenement",
+      "title": "Événements privés (boutiques flagship, ateliers)",
+      "description": "À partir de 1 action — Invitations à des événements privés organisés ponctuellement dans les maisons du groupe : Guerlain (Champs-Élysées), Louis Vuitton (atelier d'Asnières), Le Bon Marché, Officine Universelle Buly. Inscription préalable obligatoire, places limitées attribuées par ordre d'arrivée.",
+      "value": "Gratuit, sur inscription",
+      "requiredShares": 1,
+      "sourceUrl": "https://club-actionnaire.com/2023-evenements-et-avantages-du-club-actionnaires-de-lvmh-epa-mc/"
+    },
+    {
+      "type": "service",
+      "title": "Carte de membre du Club Actionnaires",
+      "description": "À partir de 1 action — Carte nominative valable 2 ans, renouvelable, donnant accès à l'ensemble des avantages du club. Délivrée après inscription en ligne sur présentation d'un justificatif de détention de moins de 3 mois et d'une pièce d'identité.",
+      "value": "Gratuit, valable 2 ans",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.clublvmh-actionnaires.fr/"
+    },
+    {
+      "type": "service",
+      "title": "Service Relations Actionnaires dédié",
+      "description": "À partir de 1 action — Ligne téléphonique dédiée au 01 44 13 21 50 (lundi-vendredi 9h30-18h) et e-mail clubactionnaires@lvmh.com pour toute question sur la détention, l'inscription au club ou les événements.",
+      "value": "Gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.lvmh.com/en/investors/being-a-lvmh-shareholder"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Combien d'actions LVMH faut-il détenir pour accéder au club ?",
+      "answer": "Une seule action LVMH suffit pour adhérer au Club des Actionnaires. L'adhésion est gratuite et la carte de membre est valable 2 ans, renouvelable. Le cours d'une action s'établit autour de 480€ (mai 2025), ce qui constitue le ticket d'entrée minimum."
+    },
+    {
+      "question": "Les avantages sont-ils réservés aux actions nominatives ?",
+      "answer": "Non, le Club Actionnaires LVMH est ouvert aux détenteurs d'actions au porteur comme au nominatif. Aucune obligation de passage au nominatif n'est exigée pour bénéficier des avantages, contrairement à d'autres sociétés du CAC 40."
+    },
+    {
+      "question": "Comment s'inscrire au Club Actionnaires LVMH ?",
+      "answer": "L'inscription se fait en ligne sur clublvmh-actionnaires.fr en transmettant une attestation de détention d'actions de moins de 3 mois (fournie par votre courtier) et une pièce d'identité. La carte est envoyée sous 2 à 3 semaines."
+    },
+    {
+      "question": "Existe-t-il une durée minimale de détention des actions ?",
+      "answer": "Aucune durée minimale n'est imposée pour adhérer : il suffit de détenir au moins 1 action au moment de l'inscription et de pouvoir le justifier. LVMH ne propose pas de dividende majoré ni de prime de fidélité liée à la durée de détention."
+    },
+    {
+      "question": "Quels sont les principaux avantages chiffrés du club ?",
+      "answer": "Les avantages les plus tangibles sont les abonnements presse à -40 à -60% (Les Echos, Investir, Connaissance des Arts, Le Parisien), les billets Fondation Louis Vuitton à 10€ (max 2/an), des tarifs membres sur les vins et spiritueux Moët Hennessy, et des visites gratuites ou à tarif réduit des maisons de champagne."
+    },
+    {
+      "question": "Le club offre-t-il des remises sur les produits Louis Vuitton ou Dior ?",
+      "answer": "Non. Les remises portent essentiellement sur les vins et spiritueux Moët Hennessy, la presse partenaire et la Fondation Louis Vuitton. Aucune réduction directe n'est proposée sur la maroquinerie Louis Vuitton, la mode ou la parfumerie Dior, contrairement à certaines rumeurs."
+    }
+  ]
+}

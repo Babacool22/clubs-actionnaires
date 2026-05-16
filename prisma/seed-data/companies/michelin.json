@@ -1,0 +1,104 @@
+{
+  "slug": "michelin",
+  "name": "Michelin",
+  "sector": "Pneumatiques",
+  "stockIndex": "CAC40",
+  "ticker": "ML",
+  "description": "Michelin n'a pas de club des actionnaires formalisé ni de dividende majoré. Le Groupe propose néanmoins un dispositif de relations actionnaires individuels : cadeau d'AG, numéro vert, lettre, événements régionaux.",
+  "website": "https://www.michelin.com/finance/",
+  "clubName": "Relations actionnaires individuels Michelin",
+  "clubUrl": "https://www.michelin.com/finance/actionnaire-individuel/",
+  "minShares": 1,
+  "lastVerifiedAt": "2026-05-15",
+  "benefits": [
+    {
+      "type": "cadeau",
+      "title": "Cadeau remis lors de l'Assemblée Générale",
+      "description": "Dès 1 action — Cadeau remis aux actionnaires présents à l'AG annuelle de Clermont-Ferrand. Édition 2024 : livre 'Visiter les villages de France' (valeur ≈ 25€). Édition 2025 : livre 'La France de Secrets d'Histoire – Michelin' co-édité avec Stéphane Bern.",
+      "value": "≈ 25€ (livre, édition annuelle)",
+      "requiredShares": 1,
+      "sourceUrl": "https://club-actionnaire.com/michelin-pas-de-club-des-actionnaires/"
+    },
+    {
+      "type": "evenement",
+      "title": "Assemblée Générale annuelle",
+      "description": "Dès 1 action — Convocation individuelle à l'AG annuelle (prochaine édition prévue le 22 mai 2026). Vote, échange direct avec la direction et remise du cadeau actionnaire. Convocation automatique pour les titres inscrits au nominatif.",
+      "value": "Gratuit, sur convocation",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.michelin.com/finance/"
+    },
+    {
+      "type": "evenement",
+      "title": "Réunions d'actionnaires en région et salons",
+      "description": "Dès 1 action — Rencontres en région (Paris, Lyon, Clermont-Ferrand, etc.) et présence aux salons Actionaria. Conférences, cocktails et échanges avec les dirigeants. Inscription via le service Relations actionnaires individuels.",
+      "value": "Gratuit, sur inscription",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.michelin.com/en/investors/shareholder/michelin-listens"
+    },
+    {
+      "type": "priorite",
+      "title": "Comité Consultatif des Actionnaires",
+      "description": "Dès 1 action — Possibilité de candidater au Comité Consultatif des Actionnaires (10 membres) qui conseille la direction sur la communication financière et les attentes des actionnaires individuels. Mandat de 3 ans renouvelable.",
+      "value": "Sur candidature et sélection",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.michelin.com/en/investors/shareholder/michelin-listens"
+    },
+    {
+      "type": "service",
+      "title": "Numéro vert dédié aux actionnaires",
+      "description": "Dès 1 action — Ligne téléphonique gratuite 0 800 716 161 (depuis la France) pour toute question sur la détention, le passage au nominatif, la succession ou le dividende. Service Relations actionnaires individuels basé à Clermont-Ferrand.",
+      "value": "Numéro vert gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://club-actionnaire.com/michelin-pas-de-club-des-actionnaires/"
+    },
+    {
+      "type": "service",
+      "title": "Lettre aux actionnaires et alertes e-mail",
+      "description": "Dès 1 action — Réception de la lettre aux actionnaires, des publications financières et des invitations aux événements. Inscription aux alertes e-mail depuis le site michelin.com pour suivre l'actualité du Groupe.",
+      "value": "Gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.michelin.com/en/investors/shareholder/michelin-listens"
+    },
+    {
+      "type": "service",
+      "title": "Nominatif pur géré par Société Générale Securities",
+      "description": "Dès 1 action — Inscription au nominatif pur auprès de Société Générale Securities Services (ISIN FR001400AJ45) au +33 (0)2 51 85 67 89. Identification directe auprès de Michelin, convocation automatique à l'AG, suppression des frais de garde côté courtier.",
+      "value": "Gestion directe sans intermédiaire",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.michelin.com/en/investors/shareholder/guide-investment"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Combien d'actions Michelin pour accéder aux avantages ?",
+      "answer": "Une seule action suffit pour recevoir le cadeau de l'AG, la lettre aux actionnaires, accéder au numéro vert et participer aux réunions en région. Michelin n'impose pas de seuil minimum de détention."
+    },
+    {
+      "question": "Quelles sont les conditions du dividende majoré Michelin ?",
+      "answer": "Michelin ne propose pas de dividende majoré ni de prime de fidélité, contrairement à L'Oréal ou Air Liquide. Le Groupe estime que la distribution régulière du dividende ordinaire (1,38€ par action au titre de 2024) récompense déjà la fidélité des actionnaires."
+    },
+    {
+      "question": "Les actionnaires Michelin ont-ils des remises sur les pneus ?",
+      "answer": "Non. Michelin ne propose aucune remise commerciale sur les pneus ou autres produits aux actionnaires individuels, pour des raisons fiscales et d'équité avec le réseau de distribution."
+    },
+    {
+      "question": "Michelin a-t-il un club des actionnaires ?",
+      "answer": "Non, Michelin n'a pas de club des actionnaires formalisé. Le Groupe propose un dispositif équivalent via son service Relations actionnaires individuels : cadeau d'AG, événements en région, Comité Consultatif des Actionnaires, numéro vert et lettre."
+    },
+    {
+      "question": "Comment contacter le service actionnaires Michelin ?",
+      "answer": "Numéro vert 0 800 716 161 (gratuit depuis la France), e-mail actionnaires-individuels@michelin.com, courrier au 23 place des Carmes Déchaux, 63000 Clermont-Ferrand. Pour le nominatif pur : Société Générale Securities Services au +33 (0)2 51 85 67 89."
+    },
+    {
+      "question": "Quel est l'intérêt du nominatif chez Michelin sans dividende majoré ?",
+      "answer": "Le nominatif (pur ou administré) donne une convocation individuelle à l'AG, une communication directe avec Michelin et la suppression des frais de garde au nominatif pur. Il ne donne pas droit à un dividende majoré, qui n'existe pas chez Michelin."
+    }
+  ],
+  "sources": [
+    "https://www.michelin.com/finance/",
+    "https://www.michelin.com/en/investors/shareholder/michelin-listens",
+    "https://www.michelin.com/en/investors/shareholder/guide-investment",
+    "https://club-actionnaire.com/michelin-pas-de-club-des-actionnaires/",
+    "https://club-actionnaire.com/tradition-francaise-les-cadeaux-en-assemblee-generale-pour-les-actionnaires/"
+  ]
+}

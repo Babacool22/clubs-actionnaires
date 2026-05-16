@@ -1,0 +1,125 @@
+{
+  "slug": "loreal",
+  "name": "L'Oréal",
+  "sector": "Cosmétiques",
+  "stockIndex": "CAC40",
+  "ticker": "OR",
+  "clubName": "Relations actionnaires individuels L'Oréal",
+  "clubUrl": "https://www.loreal-finance.com/fr/actionnaires-individuels",
+  "minShares": 1,
+  "lastVerifiedAt": "2026-05-15",
+  "benefits": [
+    {
+      "type": "dividend",
+      "title": "Dividende majoré +10% (prime de fidélité)",
+      "description": "Dès 1 action — Majoration de 10% du dividende pour toute action inscrite au nominatif (pur ou administré) de manière continue pendant au moins deux années civiles complètes. La prime s'applique dans la limite de 0,5% du capital social par actionnaire ; au-delà, le dividende ordinaire s'applique.",
+      "value": "+10% sur le dividende (ex. 7,00€ → 7,70€ sur exercice 2024)",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.loreal-finance.com/fr/guide-actionnaire-2025/fr/article/4/"
+    },
+    {
+      "type": "gift",
+      "title": "Cadeaux cosmétiques lors de l'Assemblée Générale",
+      "description": "Dès 1 action — Coffret de trois produits cosmétiques remis aux actionnaires présents à l'AG annuelle. Valeur 2025 estimée à environ 100€ (parfum Ralph Lauren Polo, sérum Age Perfect, shampoing Dercos).",
+      "value": "≈ 100€ (3 produits, édition 2025)",
+      "requiredShares": 1,
+      "sourceUrl": "https://club-actionnaire.com/club-des-actionnaires-de-loreal/"
+    },
+    {
+      "type": "event",
+      "title": "Visites d'usines et de laboratoires de recherche",
+      "description": "Dès 1 action — Invitations à visiter les sites de production et laboratoires R&D du Groupe. Les places sont attribuées par rotation selon la zone géographique de l'actionnaire ; l'invitation n'est pas garantie chaque année.",
+      "value": "Accès sur invitation",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.loreal-finance.com/fr/guide-actionnaire-2025/fr/article/4/"
+    },
+    {
+      "type": "event",
+      "title": "Conférences et webinaires avec les dirigeants",
+      "description": "Dès 1 action — Participation à des conférences en ligne et en présentiel (Lyon, Lille, etc.) animées par les membres du Comité Exécutif. Programme étendu en 2026 autour des 115 ans du Groupe.",
+      "value": "Gratuit, sur inscription",
+      "requiredShares": 1,
+      "sourceUrl": "https://club-actionnaire.com/club-des-actionnaires-de-loreal/"
+    },
+    {
+      "type": "event",
+      "title": "Événements culturels (Louvre, défilés)",
+      "description": "Dès 1 action — Accès prioritaire à des partenariats culturels (musée du Louvre, défilés de mode) et expériences immersives réservés aux actionnaires individuels. Nombre de places limité par rotation géographique.",
+      "value": "Accès prioritaire sur invitation",
+      "requiredShares": 1,
+      "sourceUrl": "https://club-actionnaire.com/club-des-actionnaires-de-loreal/"
+    },
+    {
+      "type": "communication",
+      "title": "Lettre aux actionnaires et informations financières",
+      "description": "Dès 1 action — Réception par e-mail de la lettre aux actionnaires, des communications financières et des invitations aux événements. Inscription via le service Relations actionnaires individuels.",
+      "value": "Gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.loreal-finance.com/fr/actionnaires-individuels"
+    },
+    {
+      "type": "service",
+      "title": "Numéro vert dédié aux actionnaires",
+      "description": "Dès 1 action — Ligne téléphonique gratuite depuis la France (0 800 66 66 66) et internationale (+33 1 40 14 80 50) pour toute question sur la détention, le passage au nominatif ou le dividende.",
+      "value": "Numéro vert gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.loreal-finance.com/fr/actionnaires-individuels"
+    },
+    {
+      "type": "service",
+      "title": "Nominatif pur sans frais de garde",
+      "description": "Dès 1 action — Inscription au nominatif pur auprès d'Uptevia (mandataire de L'Oréal) sans frais de tenue de compte ni droits de garde. Condition pour accéder au dividende majoré après 2 ans de détention.",
+      "value": "0€ de frais de garde",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.loreal-finance.com/fr/guide-actionnaire-2025/fr/article/9/"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Combien d'actions L'Oréal faut-il pour accéder aux avantages ?",
+      "answer": "Une seule action suffit pour bénéficier de l'ensemble des avantages : cadeaux lors de l'AG, invitations aux événements, conférences, lettre aux actionnaires et dividende majoré (sous condition de nominatif et 2 ans de détention)."
+    },
+    {
+      "question": "Comment bénéficier du dividende majoré L'Oréal ?",
+      "answer": "Il faut inscrire ses actions au nominatif (pur ou administré) et les conserver pendant deux années civiles complètes consécutives. La majoration de 10% s'applique ensuite chaque année, dans la limite de 0,5% du capital social par actionnaire."
+    },
+    {
+      "question": "Quelle différence entre nominatif et porteur chez L'Oréal ?",
+      "answer": "Au porteur, l'actionnaire est anonyme pour la société et reçoit le dividende standard. Au nominatif (pur chez Uptevia ou administré chez son courtier), il est identifié, reçoit directement les communications et peut prétendre au dividende majoré de +10% après 2 ans."
+    },
+    {
+      "question": "Quel est le plafond du dividende majoré L'Oréal ?",
+      "answer": "La prime de fidélité de +10% s'applique uniquement sur la fraction d'actions représentant jusqu'à 0,5% du capital social par actionnaire. Au-delà, le dividende ordinaire est versé sur l'excédent."
+    },
+    {
+      "question": "L'Oréal a-t-il un véritable club des actionnaires ?",
+      "answer": "Non, L'Oréal n'a pas de club des actionnaires officiel comme certaines sociétés du CAC 40. Le Groupe propose néanmoins un programme équivalent via son service Relations actionnaires individuels : cadeaux AG, événements, visites, conférences et numéro vert."
+    },
+    {
+      "question": "Comment s'inscrire aux avantages actionnaires L'Oréal ?",
+      "answer": "Contacter le service Relations actionnaires individuels au 0 800 66 66 66 (gratuit depuis la France) ou par e-mail à relations_actionnaires_individuels@loreal-finance.com. L'inscription à la newsletter se fait depuis loreal-finance.com."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Guide de l'actionnaire L'Oréal 2025/2026 — Politique dynamique envers les actionnaires",
+      "url": "https://www.loreal-finance.com/fr/guide-actionnaire-2025/fr/article/4/"
+    },
+    {
+      "title": "L'Oréal Finance — Loyalty Bonus and Registered Shares",
+      "url": "https://www.loreal-finance.com/eng/loyalty-bonus-and-registered-shares"
+    },
+    {
+      "title": "Guide de l'actionnaire L'Oréal — Inscrire ou transférer ses actions au nominatif",
+      "url": "https://www.loreal-finance.com/fr/guide-actionnaire-2025/fr/article/9/"
+    },
+    {
+      "title": "Club-Actionnaire.com — L'Oréal : Un club des actionnaires en 2026 ?",
+      "url": "https://club-actionnaire.com/club-des-actionnaires-de-loreal/"
+    },
+    {
+      "title": "Guide de l'actionnaire L'Oréal 2024/2025 (PDF)",
+      "url": "https://club-actionnaire.com/wp-content/uploads/2025/05/LOREAL-BROCHURE-AUX-ACTIONNAIRES-2024.pdf"
+    }
+  ]
+}

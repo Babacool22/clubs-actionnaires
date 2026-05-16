@@ -1,0 +1,104 @@
+{
+  "slug": "hermes",
+  "name": "Hermès",
+  "description": "Maison française de luxe (sellerie, maroquinerie, soie, parfum). Hermès n'a pas de club actionnaires ni de dividende majoré, mais est réputée pour la générosité des cadeaux remis en Assemblée générale.",
+  "sector": "Luxe",
+  "stockIndex": "CAC40",
+  "ticker": "RMS",
+  "website": "https://finance.hermes.com/fr/",
+  "clubUrl": "https://finance.hermes.com/fr/",
+  "clubName": "Relations actionnaires Hermès",
+  "minShares": 1,
+  "lastVerifiedAt": "2026-05-15",
+  "sources": [
+    "https://finance.hermes.com/fr/action-et-dividendes/",
+    "https://finance.hermes.com/en/shareholders-guide/",
+    "https://club-actionnaire.com/hermes-pas-de-club-des-actionnaires/",
+    "https://pea.fr/guides/cadeaux-avantages-actionnaires-ag-guide-complet-2026/",
+    "https://divaltis.com/euronext-paris/dividendes-hermes/"
+  ],
+  "benefits": [
+    {
+      "type": "cadeau",
+      "title": "Cadeau d'Assemblée générale 2026",
+      "description": "Dès 1 action — Lors de l'AG du 17 avril 2026, deux jeux de bridge Cheval Natté Hermès d'une valeur d'environ 165€ ont été remis aux actionnaires présents physiquement. Inscription préalable obligatoire (3 jours ouvrés minimum avant l'AG) sur justificatif de détention.",
+      "value": "≈ 165€",
+      "requiredShares": 1,
+      "sourceUrl": "https://pea.fr/guides/cadeaux-avantages-actionnaires-ag-guide-complet-2026/"
+    },
+    {
+      "type": "cadeau",
+      "title": "Historique des cadeaux d'AG Hermès",
+      "description": "Dès 1 action — Hermès est régulièrement citée comme l'entreprise la plus généreuse du CAC 40 en cadeaux d'AG : pochette en soie en 2024 (≈180€), plateau à sushi en 2023 (≈171€), baume à lèvres Rouge Hermès en 2022 (≈70€), livre en 2025 (≈23€). Remis uniquement aux actionnaires présents physiquement à l'AG.",
+      "value": "23€ à 180€ selon l'année",
+      "requiredShares": 1,
+      "sourceUrl": "https://club-actionnaire.com/hermes-pas-de-club-des-actionnaires/"
+    },
+    {
+      "type": "evenement",
+      "title": "Participation à l'Assemblée générale annuelle",
+      "description": "Dès 1 action — Accès à l'AG annuelle d'Hermès International (généralement en avril, Paris), seule occasion d'échanger directement avec la gérance et de recevoir le cadeau actionnaire. Inscription requise au moins 3 jours ouvrés avant. Détention au nominatif ou attestation de détention au porteur acceptée.",
+      "value": "Gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://finance.hermes.com/fr/action-et-dividendes/"
+    },
+    {
+      "type": "service",
+      "title": "Inscription au nominatif sans frais de garde",
+      "description": "Dès 1 action — Détention au nominatif pur (géré par Uptevia, mandataire d'Hermès) sans aucun frais de tenue de compte. Ordre de bourse facturé 7,62€ + courtage 0,45% (minimum 6,10€). Permet d'être identifié personnellement par l'émetteur.",
+      "value": "0€ de droits de garde",
+      "requiredShares": 1,
+      "sourceUrl": "https://finance.hermes.com/en/shareholders-guide/"
+    },
+    {
+      "type": "service",
+      "title": "Lettre aux actionnaires Hermès",
+      "description": "Dès 1 action — Réception automatique de la Lettre aux actionnaires signée par le Président-gérant (dernière édition mars 2026) pour les détenteurs au nominatif administré ou pur. Disponible aussi en téléchargement sur finance.hermes.com.",
+      "value": "Gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://finance.hermes.com/en/shareholders-guide/"
+    },
+    {
+      "type": "service",
+      "title": "Convocation à l'AG et rapport annuel",
+      "description": "Dès 1 action — Envoi automatique des avis de convocation à l'AG et formulaire de demande du rapport annuel intégral pour les actionnaires au nominatif. Au porteur, ces documents restent accessibles en ligne sur finance.hermes.com.",
+      "value": "Gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://finance.hermes.com/en/shareholders-guide/"
+    },
+    {
+      "type": "service",
+      "title": "Contact direct Relations actionnaires",
+      "description": "Dès 1 action — Accès à l'équipe Relations investisseurs Hermès (Alexandra Boucheron, directrice) pour toute question sur la détention, l'AG ou les opérations sur titres. Coordonnées disponibles sur finance.hermes.com.",
+      "value": "Gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://finance.hermes.com/en/shareholders-guide/"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Combien d'actions Hermès pour accéder aux avantages actionnaires ?",
+      "answer": "Une seule action Hermès (RMS) suffit pour participer à l'Assemblée générale, recevoir le cadeau remis aux actionnaires présents et accéder aux services Relations actionnaires. Compte tenu du cours élevé de l'action (≈ 2 100€ en mai 2026), c'est néanmoins un ticket d'entrée parmi les plus chers du CAC 40."
+    },
+    {
+      "question": "Quelles sont les conditions du dividende majoré Hermès ?",
+      "answer": "Hermès International ne propose pas de dividende majoré ni de prime de fidélité pour les actions détenues au nominatif sur une longue durée, contrairement à L'Oréal ou Air Liquide. Tous les actionnaires perçoivent le même dividende, soit 18€ par action au titre de l'exercice 2025 (acompte 5€ versé le 18/02/2026, solde 13€ versé le 23/04/2026)."
+    },
+    {
+      "question": "Les actionnaires Hermès ont-ils des remises sur les produits ?",
+      "answer": "Non. Hermès ne propose aucune réduction sur ses produits (maroquinerie, soie, parfum, prêt-à-porter) à ses actionnaires individuels. La maison applique une politique de prix stricte sans remise, y compris pour les actionnaires, employés ou clients fidèles."
+    },
+    {
+      "question": "Hermès a-t-il un club des actionnaires comme LVMH ou Kering ?",
+      "answer": "Non, Hermès International n'a pas de club des actionnaires structuré. La relation actionnaire passe uniquement par l'Assemblée générale annuelle, la Lettre aux actionnaires et le service Relations investisseurs. Cette absence rend la présence physique à l'AG d'autant plus stratégique pour bénéficier du cadeau actionnaire."
+    },
+    {
+      "question": "Quel a été le cadeau Hermès en AG 2026 ?",
+      "answer": "Lors de l'AG du 17 avril 2026, Hermès a offert aux actionnaires présents deux jeux de bridge Cheval Natté d'une valeur estimée à environ 165€. Un retour à une générosité élevée après le livre à 23€ remis en 2025, qui avait déçu une partie des actionnaires."
+    },
+    {
+      "question": "Comment passer ses actions Hermès au nominatif ?",
+      "answer": "Le passage au nominatif pur s'effectue via Uptevia, mandataire d'Hermès International, sur simple demande. La détention au nominatif est gratuite (0€ de droits de garde), donne automatiquement droit à la Lettre aux actionnaires, aux convocations d'AG et au rapport annuel. Ordres de bourse facturés 7,62€ + 0,45% de courtage (minimum 6,10€)."
+    }
+  ]
+}

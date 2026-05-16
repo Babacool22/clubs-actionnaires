@@ -1,0 +1,96 @@
+{
+  "slug": "sanofi",
+  "name": "Sanofi",
+  "sector": "Pharmacie",
+  "stockIndex": "CAC40",
+  "ticker": "SAN",
+  "description": "Sanofi ne propose pas de club des actionnaires formel. Les actionnaires individuels bénéficient des services Relations actionnaires, du nominatif et du droit de vote double.",
+  "website": "https://www.sanofi.com/fr/investisseurs",
+  "clubName": "Relations actionnaires individuels Sanofi",
+  "clubUrl": "https://www.sanofi.com/fr/investisseurs/actionnaires-prives",
+  "minShares": 1,
+  "lastVerifiedAt": "2026-05-15",
+  "benefits": [
+    {
+      "type": "priorite",
+      "title": "Droit de vote double après 2 ans au nominatif",
+      "description": "Dès 1 action — Attribution d'un droit de vote double pour toute action entièrement libérée inscrite au nominatif (pur ou administré) au nom du même actionnaire depuis au moins deux ans. Sanofi ne verse pas de dividende majoré.",
+      "value": "Vote x2 après 2 ans",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.sanofi.com/fr/investisseurs/action-sanofi-et-adrs/shares-structure-vote"
+    },
+    {
+      "type": "service",
+      "title": "Nominatif pur sans frais de garde via Uptevia",
+      "description": "Dès 1 action — Inscription au nominatif pur auprès d'Uptevia (mandataire de Sanofi) sans frais de tenue de compte ni droits de garde. Commission bancaire 7,62€ par ordre, courtage 0,45% (min. 6,10€).",
+      "value": "0€ de frais de garde",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.sanofi.com/fr/investisseurs/actionnaires-prives"
+    },
+    {
+      "type": "service",
+      "title": "Service Relations actionnaires individuels",
+      "description": "Dès 1 action — Contact direct par e-mail (relations.actionnaires@sanofi.com) ou courrier (46 avenue de la Grande Armée, 75017 Paris) pour toute question sur la détention, le nominatif, le dividende ou l'AG.",
+      "value": "Gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.sanofi.com/fr/investisseurs/contacts"
+    },
+    {
+      "type": "service",
+      "title": "Lettre aux actionnaires et communications financières",
+      "description": "Dès 1 action — Réception de la lettre aux actionnaires, des communiqués financiers et des invitations aux événements. Inscription via l'espace Actionnaires privés sur sanofi.com.",
+      "value": "Gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.sanofi.com/fr/investisseurs/actionnaires-prives"
+    },
+    {
+      "type": "evenement",
+      "title": "Webinaires et revues de pipeline scientifique",
+      "description": "Dès 1 action — Participation aux webinaires dédiés aux actionnaires individuels, dont la revue annuelle du pipeline pharmaceutique (dernière édition : « Year-end pipeline review », 16 décembre 2025).",
+      "value": "Gratuit, sur inscription",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.sanofi.com/fr/investisseurs/actionnaires-prives"
+    },
+    {
+      "type": "evenement",
+      "title": "Assemblée Générale annuelle",
+      "description": "Dès 1 action — Accès à l'AG annuelle (édition 2026 tenue le 29 avril 2026) en présentiel ou à distance. Vote sur les résolutions, échanges avec les dirigeants, présentation de la stratégie.",
+      "value": "Accès libre actionnaires",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.sanofi.com/fr/investisseurs"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Combien d'actions Sanofi pour accéder au Cercle ?",
+      "answer": "Sanofi n'a pas de Cercle des Actionnaires formel. Une seule action suffit pour bénéficier des services proposés : Relations actionnaires individuels, lettre, webinaires, AG et droit de vote double après 2 ans au nominatif."
+    },
+    {
+      "question": "Quelles sont les conditions du dividende majoré Sanofi ?",
+      "answer": "Sanofi ne verse pas de dividende majoré, contrairement à L'Oréal ou Air Liquide. Tous les actionnaires reçoivent le même dividende (4,12€ versé le 5 mai 2026, 31e année consécutive de hausse), quelle que soit la forme de détention."
+    },
+    {
+      "question": "Quels types d'événements le Cercle Sanofi organise-t-il ?",
+      "answer": "Sanofi propose principalement des webinaires thématiques (revue de pipeline scientifique, résultats financiers) et l'Assemblée Générale annuelle. Il n'y a pas de visites de sites industriels ouvertes aux actionnaires individuels au programme régulier."
+    },
+    {
+      "question": "Comment passer ses actions Sanofi au nominatif ?",
+      "answer": "Contactez Uptevia, mandataire de Sanofi, pour le nominatif pur (sans frais de garde) ou demandez à votre courtier le passage au nominatif administré. Cela ouvre le droit de vote double après 2 ans de détention continue."
+    },
+    {
+      "question": "Comment contacter le service actionnaires Sanofi ?",
+      "answer": "Par e-mail à relations.actionnaires@sanofi.com ou par courrier à Sanofi — Relations Actionnaires, 46 avenue de la Grande Armée, 75017 Paris. Sanofi ne dispose pas de numéro vert dédié actuellement."
+    },
+    {
+      "question": "Y a-t-il un cadeau pour les actionnaires à l'AG Sanofi ?",
+      "answer": "Non, Sanofi ne distribue pas de cadeau ni de coffret produits aux actionnaires présents à l'Assemblée Générale, à la différence de L'Oréal ou LVMH. L'AG reste un événement informatif et de gouvernance."
+    }
+  ],
+  "sources": [
+    "https://www.sanofi.com/fr/investisseurs",
+    "https://www.sanofi.com/fr/investisseurs/actionnaires-prives",
+    "https://www.sanofi.com/fr/investisseurs/action-sanofi-et-adrs/shares-structure-vote",
+    "https://www.sanofi.com/fr/investisseurs/contacts",
+    "https://club-actionnaire.com/sanofi-pas-de-club-des-actionnaires-en-2024/"
+  ]
+}

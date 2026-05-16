@@ -1,0 +1,101 @@
+{
+  "slug": "carrefour",
+  "name": "Carrefour",
+  "sector": "Grande distribution",
+  "stockIndex": "CAC40",
+  "ticker": "CA",
+  "description": "Leader européen de la grande distribution. Le Club des Actionnaires Carrefour existe formellement mais reste très peu actif depuis 2018, sans cadeaux ni programme structuré.",
+  "website": "https://www.carrefour.com/fr/finance",
+  "clubName": "Club des Actionnaires Carrefour",
+  "clubUrl": "https://www.clubactionnaires.carrefour.com/",
+  "minShares": 1,
+  "lastVerifiedAt": "2026-05-15",
+  "benefits": [
+    {
+      "type": "service",
+      "title": "Adhésion au Club des Actionnaires",
+      "description": "Dès 1 action — adhésion gratuite au Club des Actionnaires Carrefour pour les détenteurs d'au moins 1 action au nominatif ou 100 actions au porteur. Inscription sur clubactionnaires.carrefour.com avec justificatif de détention.",
+      "value": null,
+      "requiredShares": 1,
+      "sourceUrl": "https://www.clubactionnaires.carrefour.com/fr/security/register"
+    },
+    {
+      "type": "service",
+      "title": "Service dédié aux actionnaires individuels",
+      "description": "Dès 1 action — accès à un service relations actionnaires dédié, joignable au 0 805 902 902 (appel gratuit depuis un poste fixe en France) et par email à club@actionnaires.carrefour.com pour toute question sur le titre, la fiscalité ou l'AG.",
+      "value": null,
+      "requiredShares": 1,
+      "sourceUrl": "https://www.clubactionnaires.carrefour.com/fr/help"
+    },
+    {
+      "type": "service",
+      "title": "Lettre et publications actionnaires",
+      "description": "Dès 1 action — envoi des publications financières du groupe : lettre aux actionnaires, communiqués de résultats, rapport intégré, guide de l'actionnaire. Diffusion par email pour les inscrits au Club.",
+      "value": null,
+      "requiredShares": 1,
+      "sourceUrl": "https://www.carrefour.com/fr/finance"
+    },
+    {
+      "type": "service",
+      "title": "Détention au nominatif via Sharinbox",
+      "description": "Dès 1 action — gestion gratuite des titres au nominatif pur via la plateforme Sharinbox de Société Générale Securities Services : suivi du portefeuille, convocations électroniques à l'AG, vote en ligne, fiscalité automatisée.",
+      "value": null,
+      "requiredShares": 1,
+      "sourceUrl": "https://www.carrefour.com/fr/finance"
+    },
+    {
+      "type": "evenement",
+      "title": "Assemblée Générale annuelle",
+      "description": "Dès 1 action — participation à l'Assemblée Générale annuelle (mai), en présentiel ou à distance, avec accès aux votes, à la présentation stratégique et aux échanges avec la direction.",
+      "value": null,
+      "requiredShares": 1,
+      "sourceUrl": "https://www.carrefour.com/en/finance/assemblee-generale"
+    },
+    {
+      "type": "cadeau",
+      "title": "Cadeau de présence à l'Assemblée Générale",
+      "description": "Dès 1 action — sac de produits Carrefour remis aux actionnaires présents physiquement à l'AG. Édition 2025 : sac en jean contenant chips, crème pour le visage, huile d'olive et avoine. Distribution non garantie chaque année.",
+      "value": "Sac de produits Carrefour",
+      "requiredShares": 1,
+      "sourceUrl": "https://pea.fr/guides/cadeaux-avantages-actionnaires-ag-guide-complet-2026/"
+    },
+    {
+      "type": "evenement",
+      "title": "Visites de sites (historique, peu actives)",
+      "description": "Dès 1 action — programme historique de visites d'hypermarchés et de centrales logistiques réservé aux membres du Club. À noter : aucune visite n'a été organisée de façon régulière depuis 2018, le Club étant largement en sommeil.",
+      "value": null,
+      "requiredShares": 1,
+      "sourceUrl": "https://club-actionnaire.com/2023-evenements-du-club-des-actionnaires-de-carrefour-epa-ca/"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Combien d'actions Carrefour pour accéder au Cercle ?",
+      "answer": "Il faut détenir au minimum 1 action au nominatif ou 100 actions au porteur pour adhérer au Club des Actionnaires Carrefour. L'inscription est gratuite et se fait sur clubactionnaires.carrefour.com avec un justificatif de détention. À noter : le Club est très peu actif depuis 2018, sans programme structuré d'événements ou de cadeaux."
+    },
+    {
+      "question": "Les actionnaires Carrefour ont-ils des réductions en magasin ?",
+      "answer": "Non. Le Club des Actionnaires Carrefour ne donne droit à aucune réduction en magasin ni sur Carrefour Banque. Aucun bon d'achat, aucune carte fidélité spécifique ni avantage tarifaire n'est attaché à la qualité d'actionnaire. C'est l'un des points faibles du dispositif face à des groupes comme L'Oréal ou Hermès."
+    },
+    {
+      "question": "Quels événements le Cercle Carrefour organise-t-il ?",
+      "answer": "Très peu. L'Assemblée Générale annuelle (mai) reste le principal rendez-vous, avec parfois un cadeau de présence (sac de produits maison en 2025). Historiquement, le Club proposait des visites d'hypermarchés et de centrales logistiques, mais ce programme est quasi à l'arrêt depuis 2018. Aucun événement régulier n'est planifié."
+    },
+    {
+      "question": "Carrefour propose-t-il un dividende majoré pour les actionnaires fidèles ?",
+      "answer": "Non. Carrefour ne verse pas de dividende majoré (prime de fidélité de 10 % généralement réservée aux titres détenus au nominatif depuis plus de 2 ans). Tous les actionnaires reçoivent le même dividende, quel que soit le mode de détention ou l'ancienneté. Un dividende exceptionnel a toutefois été versé en 2024 (0,23 €/action en plus de l'ordinaire de 0,92 €)."
+    },
+    {
+      "question": "Le Club des Actionnaires Carrefour est-il toujours actif en 2026 ?",
+      "answer": "Formellement oui, le site clubactionnaires.carrefour.com fonctionne et les inscriptions restent ouvertes. Dans les faits, le Club est en sommeil depuis 2018 : pas de programme d'événements, pas de cadeaux dédiés, pas de communication régulière au-delà des publications financières standard. L'adhésion a peu de valeur ajoutée comparée aux services de relations actionnaires classiques."
+    }
+  ],
+  "sources": [
+    "https://www.carrefour.com/fr/finance",
+    "https://www.clubactionnaires.carrefour.com/",
+    "https://www.clubactionnaires.carrefour.com/fr/help",
+    "https://club-actionnaire.com/2023-evenements-du-club-des-actionnaires-de-carrefour-epa-ca/",
+    "https://pea.fr/guides/cadeaux-avantages-actionnaires-ag-guide-complet-2026/",
+    "https://www.carrefour.com/en/finance/assemblee-generale"
+  ]
+}

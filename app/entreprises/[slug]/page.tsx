@@ -13,11 +13,28 @@ type Props = { params: Promise<{ slug: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const company = await prisma.company.findUnique({ where: { slug } });
+  const company = await prisma.company.findUnique({
+    where: { slug },
+    include: { benefits: { select: { id: true } } },
+  });
   if (!company) return { title: "Introuvable" };
+  const url = `${BASE_URL}/entreprises/${company.slug}`;
+  const minPart = company.minShares
+    ? ` Dès ${company.minShares} action${company.minShares > 1 ? "s" : ""}.`
+    : "";
+  const description = `${company.benefits.length} avantages actionnaires ${company.name} (${company.sector}) : réductions, cadeaux, événements, services.${minPart} Source vérifiée.`;
   return {
-    title: `${company.name} — CLUBS ACTIONNAIRES`,
-    description: `Avantages actionnaires de ${company.name}.`,
+    title: `Avantages actionnaires ${company.name} — Clubs Actionnaires`,
+    description,
+    alternates: { canonical: url },
+    openGraph: {
+      title: `Avantages actionnaires ${company.name}`,
+      description,
+      url,
+      type: "article",
+      locale: "fr_FR",
+    },
+    twitter: { card: "summary", title: company.name, description },
   };
 }
 
@@ -77,6 +94,49 @@ export default async function EntreprisePage({ params }: Props) {
           },
         ]}
       />
+
+      {/* Corporation JSON-LD (invisible) */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Corporation",
+            name: company.name,
+            description: company.description,
+            url: company.website ?? undefined,
+            tickerSymbol: company.ticker ?? undefined,
+            logo: company.logoUrl ?? undefined,
+            sameAs: [company.website, company.clubUrl].filter(Boolean),
+          }),
+        }}
+      />
+
+      {/* ItemList JSON-LD des avantages (invisible) */}
+      {company.benefits.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "ItemList",
+              name: `Avantages actionnaires ${company.name}`,
+              numberOfItems: company.benefits.length,
+              itemListElement: company.benefits.map((b, i) => ({
+                "@type": "ListItem",
+                position: i + 1,
+                item: {
+                  "@type": "Offer",
+                  name: b.title,
+                  description: b.description,
+                  category: b.type,
+                  ...(b.value ? { priceSpecification: { "@type": "PriceSpecification", description: b.value } } : {}),
+                },
+              })),
+            }),
+          }}
+        />
+      )}
 
       {/* Company Header */}
       <div className="mb-[var(--space-3xl)]">

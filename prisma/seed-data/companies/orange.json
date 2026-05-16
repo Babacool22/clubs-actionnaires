@@ -1,0 +1,112 @@
+{
+  "slug": "orange",
+  "name": "Orange",
+  "sector": "Télécommunications",
+  "stockIndex": "CAC40",
+  "ticker": "ORA",
+  "description": "Orange est un opérateur télécom français présent dans 26 pays, leader sur la connectivité fixe et mobile, les services aux entreprises et la cybersécurité.",
+  "website": "https://www.orange.com",
+  "clubName": "Club des investisseurs individuels Orange",
+  "clubUrl": "https://investisseurs-individuels.orange.com/fr/",
+  "minShares": 1,
+  "lastVerifiedAt": "2026-05-15",
+  "benefits": [
+    {
+      "type": "evenement",
+      "title": "After Hours — événements actionnaires toute l'année",
+      "description": "Dès 1 action — Invitations à des soirées, concerts (David Guetta, Bruno Mars en 2026) et événements culturels organisés en France métropolitaine, ouverts à tout actionnaire au porteur ou au nominatif. Accès attribué par tirage au sort, inscription via le site du Club.",
+      "value": "Gratuit, sur tirage au sort",
+      "requiredShares": 1,
+      "sourceUrl": "https://investisseurs-individuels.orange.com/fr/event/list"
+    },
+    {
+      "type": "evenement",
+      "title": "After Hours Premium — événements trimestriels exclusifs",
+      "description": "À partir de 1500 actions — Un événement Premium par trimestre réservé aux actionnaires détenant au moins 1500 titres : soirée privée au Château de Chantilly, cocktail dans la loge Orange à Roland-Garros, concerts d'artistes internationaux. Réservé aux résidents de France métropolitaine.",
+      "value": "1 événement Premium par trimestre",
+      "requiredShares": 1500,
+      "sourceUrl": "https://investisseurs-individuels.orange.com/fr/event/premium/list"
+    },
+    {
+      "type": "evenement",
+      "title": "Assemblée Générale annuelle",
+      "description": "Dès 1 action — Participation à l'AG d'Orange avec droit de vote, accès aux présentations stratégiques du Comité Exécutif et échanges directs avec la direction. Convocation envoyée aux actionnaires au nominatif ; les actionnaires au porteur reçoivent l'avis via leur intermédiaire financier.",
+      "value": "Gratuit, sur convocation",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.orange.com/fr/assemblee-generale"
+    },
+    {
+      "type": "evenement",
+      "title": "Conférences et webinaires investisseurs",
+      "description": "Dès 1 action — Accès à des conférences en présentiel et en ligne animées par des experts sur la gestion de portefeuille, la transmission patrimoniale et le suivi sectoriel télécom. Programme communiqué via la newsletter et le site du Club.",
+      "value": "Gratuit, sur inscription",
+      "requiredShares": 1,
+      "sourceUrl": "https://investisseurs-individuels.orange.com/fr/"
+    },
+    {
+      "type": "service",
+      "title": "Numéro vert dédié aux actionnaires individuels",
+      "description": "Dès 1 action — Ligne téléphonique gratuite (0 800 05 10 10) opérée par l'équipe Relations actionnaires individuels d'Orange. Informations sur la détention, le passage au nominatif, le dividende et le Club.",
+      "value": "0 800 05 10 10 (gratuit)",
+      "requiredShares": 1,
+      "sourceUrl": "https://investisseurs-individuels.orange.com/fr/"
+    },
+    {
+      "type": "service",
+      "title": "Lettre aux actionnaires et flux d'information sectoriel",
+      "description": "Dès 1 action — Réception par e-mail de la lettre aux actionnaires, des communications financières et d'un flux d'information sectoriel télécom réservé aux membres. Inscription gratuite sur le portail investisseurs individuels.",
+      "value": "Gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://investisseurs-individuels.orange.com/fr/"
+    },
+    {
+      "type": "service",
+      "title": "Espace Club en ligne et inscription gratuite",
+      "description": "Dès 1 action — Adhésion gratuite et 100% en ligne au Club via l'Espace Club. Réservé aux personnes physiques majeures, actionnaires au porteur ou au nominatif, résidant en France métropolitaine avec une adresse e-mail valide.",
+      "value": "Gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://club-actionnaires.orange.com/page/conditions"
+    },
+    {
+      "type": "service",
+      "title": "Nominatif pur sans frais de garde",
+      "description": "Dès 1 action — Inscription au nominatif pur auprès de l'établissement mandaté par Orange, sans frais de tenue de compte ni droits de garde. Permet la réception directe des convocations et communications de la société.",
+      "value": "0€ de frais de garde",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.orange.com/fr/finance"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Combien d'actions Orange pour accéder au club ?",
+      "answer": "Une seule action Orange suffit pour adhérer gratuitement au Club des investisseurs individuels et accéder aux événements After Hours, conférences, lettre actionnaire et numéro vert. Le palier Premium (événements trimestriels exclusifs) requiert au minimum 1500 actions."
+    },
+    {
+      "question": "Comment s'inscrire au Cercle des actionnaires Orange ?",
+      "answer": "L'adhésion s'effectue uniquement en ligne via l'Espace Club sur investisseurs-individuels.orange.com. Il faut être une personne physique majeure, actionnaire (porteur ou nominatif), résider en France métropolitaine et disposer d'une adresse e-mail valide."
+    },
+    {
+      "question": "Existe-t-il un dividende majoré chez Orange ?",
+      "answer": "Non. Contrairement à L'Oréal ou Air Liquide, Orange ne verse pas de prime de fidélité (dividende majoré) aux actionnaires au nominatif. Le dividende est identique pour tous les détenteurs ; il s'élève à 0,75€ par action proposé au titre de l'exercice 2025."
+    },
+    {
+      "question": "Quels événements propose le Club Orange en 2026 ?",
+      "answer": "Le Club propose des concerts (David Guetta, Bruno Mars), des conférences investisseurs et, pour les détenteurs de 1500 actions et plus, des After Hours Premium trimestriels : Château de Chantilly, cocktail à Roland-Garros, concerts internationaux."
+    },
+    {
+      "question": "Le Club Orange propose-t-il des réductions sur les forfaits mobiles ?",
+      "answer": "Non. Les réductions commerciales historiques (-15% sur les produits et forfaits Orange) ont été supprimées. Le Club est aujourd'hui centré sur les événements, l'information financière et les conférences."
+    },
+    {
+      "question": "Comment contacter le Club des actionnaires Orange ?",
+      "answer": "Par téléphone au numéro vert 0 800 05 10 10 (gratuit depuis la France) ou par e-mail à contact@investisseurs-individuels.orange.com. Le site officiel est investisseurs-individuels.orange.com."
+    }
+  ],
+  "sources": [
+    "https://investisseurs-individuels.orange.com/fr/",
+    "https://club-actionnaires.orange.com/page/conditions",
+    "https://investisseurs-individuels.orange.com/fr/event/premium/list",
+    "https://club-actionnaire.com/2023-evenements-du-club-actionnaires-dorange-epa-ora/",
+    "https://www.orange.com/fr/finance"
+  ]
+}

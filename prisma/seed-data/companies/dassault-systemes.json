@@ -1,0 +1,88 @@
+{
+  "slug": "dassault-systemes",
+  "name": "Dassault Systèmes",
+  "description": "Éditeur français de logiciels 3D, PLM et jumeaux numériques (CATIA, SOLIDWORKS, 3DEXPERIENCE). Pas de club des actionnaires individuels ni de dividende majoré : relation actionnaire centrée sur l'AG annuelle et les communications IR.",
+  "sector": "Logiciels",
+  "stockIndex": "CAC40",
+  "ticker": "DSY",
+  "website": "https://investor.3ds.com/fr",
+  "clubUrl": "https://investor.3ds.com/fr",
+  "clubName": "Relations actionnaires Dassault Systèmes",
+  "minShares": 1,
+  "lastVerifiedAt": "2026-05-15",
+  "sources": [
+    "https://investor.3ds.com/fr",
+    "https://investor.3ds.com/shareholders-meeting/home/",
+    "https://www.webdisclosure.fr/press-release/dassault-systemes-epa-dsy-assemblee-generale-mixte-du-20-mai-2026-modalites-de-mise-a-disposition-des-documents-preparatoires-yfGdpaHtKEn",
+    "https://revenusetdividendes.com/dividende-dassault-systemes-montant-rendement-historique-dates/",
+    "https://divaltis.com/euronext-paris/dividendes-dassault-systemes/"
+  ],
+  "benefits": [
+    {
+      "type": "evenement",
+      "title": "Assemblée générale mixte annuelle",
+      "description": "Dès 1 action — Participation à l'AG mixte de Dassault Systèmes (édition 2026 le 20 mai à 15h00 au siège de Vélizy-Villacoublay, 10 rue Marcel Dassault). Présentiel, vote à distance ou pouvoir au président. Détention au nominatif ou attestation de participation au porteur (J-2 ouvré) requise.",
+      "value": "Gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://investor.3ds.com/shareholders-meeting/home/"
+    },
+    {
+      "type": "service",
+      "title": "Détention au nominatif pur (Uptevia)",
+      "description": "Dès 1 action — Inscription au nominatif pur géré par Uptevia, mandataire de Dassault Systèmes, sans frais de tenue de compte. Permet d'être identifié directement par l'émetteur, de recevoir les convocations d'AG et d'avoir un interlocuteur dédié pour les opérations sur titres.",
+      "value": "0€ de droits de garde",
+      "requiredShares": 1,
+      "sourceUrl": "https://investor.3ds.com/fr"
+    },
+    {
+      "type": "service",
+      "title": "Documents préparatoires AG et rapport intégré",
+      "description": "Dès 1 action — Accès au Document d'enregistrement universel, au rapport intégré, à la brochure de convocation et aux résolutions de l'AG sur investor.3ds.com. Envoi automatique de la brochure papier sur demande pour les actionnaires au nominatif.",
+      "value": "Gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://investor.3ds.com/shareholders-meeting/home/"
+    },
+    {
+      "type": "service",
+      "title": "Contact direct Investor Relations",
+      "description": "Dès 1 action — Accès à l'équipe Investor Relations Dassault Systèmes (investors@3ds.com) pour toute question sur la détention, le dividende, l'AG ou les opérations financières. Alertes email sur les publications via inscription sur investor.3ds.com.",
+      "value": "Gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://investor.3ds.com/fr"
+    },
+    {
+      "type": "service",
+      "title": "Publications financières et webcasts résultats",
+      "description": "Dès 1 action — Diffusion des résultats trimestriels en webcast (audio + slides) accessibles sur investor.3ds.com, communiqués réglementés, présentations Capital Markets Day et politique ESG/CSR. Replay disponible.",
+      "value": "Gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://investor.3ds.com/regulated-information/"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Dassault Systèmes propose-t-il un club des actionnaires ?",
+      "answer": "Non. Dassault Systèmes ne dispose pas d'un club des actionnaires individuels structuré comme L'Oréal, Air Liquide ou LVMH. La relation actionnaire passe exclusivement par l'Assemblée générale annuelle, le site Investor Relations (investor.3ds.com) et l'équipe IR joignable à investors@3ds.com. Les actionnaires individuels représentent environ 29% du capital."
+    },
+    {
+      "question": "Combien d'actions Dassault Systèmes pour accéder aux avantages ?",
+      "answer": "Une seule action Dassault Systèmes (DSY, ISIN FR0014003TT8) suffit pour participer à l'AG mixte annuelle, voter les résolutions, percevoir le dividende et accéder aux services Investor Relations. Le cours de l'action permet un ticket d'entrée modéré (environ 30-35€ par action en mai 2026)."
+    },
+    {
+      "question": "Comment recevoir les communications actionnaires Dassault Systèmes ?",
+      "answer": "Trois options : (1) s'inscrire au nominatif pur via Uptevia pour recevoir automatiquement les convocations d'AG et brochures papier, (2) activer les alertes email sur investor.3ds.com pour les communiqués et résultats trimestriels, (3) suivre les publications réglementées dans la rubrique Information réglementée du site IR."
+    },
+    {
+      "question": "Existe-t-il un dividende majoré pour les actionnaires fidèles Dassault Systèmes ?",
+      "answer": "Non. Dassault Systèmes ne propose pas de dividende majoré (prime de fidélité) pour les actions détenues au nominatif sur longue durée. Tous les actionnaires perçoivent le même dividende, soit 0,27€ par action au titre de 2025 (détachement 27 mai 2026, paiement 29 mai 2026), en hausse de +3,8% sur un an."
+    },
+    {
+      "question": "Y a-t-il un cadeau pour les actionnaires présents à l'AG Dassault Systèmes ?",
+      "answer": "Non, Dassault Systèmes ne remet pas de cadeau aux actionnaires présents à son Assemblée générale, contrairement à Hermès ou LVMH. L'AG 2026 se tient le 20 mai à 15h00 au siège de Vélizy-Villacoublay, avec présentation stratégique et session de questions-réponses comme principale contrepartie de la présence."
+    },
+    {
+      "question": "Les actionnaires Dassault Systèmes bénéficient-ils de réductions sur les logiciels (CATIA, SOLIDWORKS) ?",
+      "answer": "Non. Dassault Systèmes ne propose aucune remise aux actionnaires individuels sur ses logiciels professionnels (CATIA, SOLIDWORKS, 3DEXPERIENCE, DELMIA). Ces solutions sont commercialisées exclusivement en B2B via réseau partenaire, avec des tarifs licence indépendants du statut d'actionnaire."
+    }
+  ]
+}

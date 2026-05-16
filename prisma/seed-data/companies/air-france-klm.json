@@ -1,0 +1,102 @@
+{
+  "slug": "air-france-klm",
+  "name": "Air France-KLM",
+  "sector": "Transport aérien",
+  "stockIndex": "CAC40",
+  "ticker": "AF",
+  "clubName": "Club des Actionnaires Air France-KLM",
+  "clubUrl": "https://www.airfranceklm.com/en/finance/shareholders/shareholders-club/air-france-klm-shareholdersclub",
+  "minShares": 5,
+  "lastVerifiedAt": "2026-05-15",
+  "benefits": [
+    {
+      "type": "service",
+      "title": "Adhésion au Club des Actionnaires",
+      "description": "À partir de 5 actions — adhésion gratuite au Club des Actionnaires Air France-KLM, ouverte aux actionnaires individuels au nominatif comme au porteur. Inscription via formulaire en ligne, aucun justificatif de détention demandé à l'inscription.",
+      "value": null,
+      "requiredShares": 5,
+      "sourceUrl": "https://www.airfranceklm.com/en/finance/shareholders/shareholders-club/registration"
+    },
+    {
+      "type": "service",
+      "title": "Lettre aux actionnaires",
+      "description": "À partir de 5 actions — envoi par email de la Lettre aux Actionnaires, environ 4 éditions par an (4 en 2025). Contient indicateurs clés, actualités du groupe, calendrier financier et information sur les assemblées générales.",
+      "value": null,
+      "requiredShares": 5,
+      "sourceUrl": "https://www.airfranceklm.com/sites/default/files/2025-03/air-france-klm-lettre-aux-actionnaires-mars-2025.pdf"
+    },
+    {
+      "type": "evenement",
+      "title": "Visites thématiques des métiers du groupe",
+      "description": "À partir de 5 actions — invitations à des visites thématiques présentant les métiers d'Air France-KLM (maintenance, opérations, etc.), incluant des visites virtuelles. Accès par tirage au sort ou sur invitation, places limitées.",
+      "value": null,
+      "requiredShares": 5,
+      "sourceUrl": "https://www.airfranceklm.com/en/finance/shareholders/shareholders-club/air-france-klm-shareholdersclub"
+    },
+    {
+      "type": "evenement",
+      "title": "Rencontres avec le management",
+      "description": "À partir de 5 actions — réunions avec des dirigeants du groupe sur les enjeux du transport aérien. En 2025, tirage au sort de 12 places pour une rencontre suivie d'un déjeuner avec le Directeur Stratégie et Développement Commercial d'Air France Industries KLM E&M.",
+      "value": null,
+      "requiredShares": 5,
+      "sourceUrl": "https://www.airfranceklm.com/en/finance/shareholders/shareholders-club/air-france-klm-shareholdersclub"
+    },
+    {
+      "type": "evenement",
+      "title": "Réunions d'information en région",
+      "description": "À partir de 5 actions — invitations aux réunions de présentation du groupe organisées en régions, animées par la direction financière et l'équipe des relations actionnaires individuels.",
+      "value": null,
+      "requiredShares": 5,
+      "sourceUrl": "https://www.airfranceklm.com/en/finance/shareholders/shareholders-club/air-france-klm-shareholdersclub"
+    },
+    {
+      "type": "evenement",
+      "title": "Invitations à des événements culturels et sportifs",
+      "description": "À partir de 5 actions — tirages au sort ponctuels donnant accès à des événements sponsorisés par le groupe (ex. tournois de tennis en 2026, salons aéronautiques type SIAE/Le Bourget). Nombre de places très limité.",
+      "value": null,
+      "requiredShares": 5,
+      "sourceUrl": "https://www.flyingsmart.info/club-actionnaires-air-france/"
+    },
+    {
+      "type": "service",
+      "title": "Portail actionnaires en ligne",
+      "description": "À partir de 5 actions — accès à un espace privé hébergeant publications réglementaires, documents financiers et informations réservées aux membres du Club.",
+      "value": null,
+      "requiredShares": 5,
+      "sourceUrl": "https://www.airfranceklm.com/en/finance/shareholders/shareholders-club/login"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Combien d'actions Air France-KLM faut-il pour accéder au club ?",
+      "answer": "Il faut détenir au minimum 5 actions Air France-KLM, au nominatif ou au porteur. L'adhésion est gratuite et se fait via un formulaire en ligne sur le site institutionnel du groupe. Aucun justificatif de détention n'est exigé à l'inscription."
+    },
+    {
+      "question": "Les avantages incluent-ils des réductions sur les vols ?",
+      "answer": "Non. Le Club des Actionnaires Air France-KLM ne propose pas de réduction tarifaire sur les vols Air France ou KLM. Les avantages se limitent à l'information financière, aux invitations à des événements et aux rencontres avec le management."
+    },
+    {
+      "question": "Faut-il détenir ses actions au nominatif pour adhérer ?",
+      "answer": "Non, le Club est ouvert aux actionnaires au nominatif comme au porteur. Aucune durée minimale de détention n'est imposée pour l'adhésion."
+    },
+    {
+      "question": "L'adhésion au Club est-elle payante ?",
+      "answer": "Non, l'adhésion est entièrement gratuite. Seule la détention d'au moins 5 actions Air France-KLM est requise."
+    },
+    {
+      "question": "Comment recevoir les invitations aux événements du Club ?",
+      "answer": "Les invitations sont envoyées par email aux membres inscrits, généralement par tirage au sort en raison du nombre limité de places. Une partie des places est attribuée lors d'événements en région ou via le portail en ligne."
+    },
+    {
+      "question": "Quelle est la fréquence de la Lettre aux Actionnaires ?",
+      "answer": "La Lettre aux Actionnaires est diffusée environ 4 fois par an (4 éditions en 2025), par email. Elle synthétise les résultats, l'actualité du groupe et le calendrier financier à venir."
+    }
+  ],
+  "sources": [
+    "https://www.airfranceklm.com/en/finance/shareholders/shareholders-club/air-france-klm-shareholdersclub",
+    "https://www.airfranceklm.com/en/finance/shareholders/shareholders-club/registration",
+    "https://www.airfranceklm.com/en/investor-relations/individual-shareholders",
+    "https://www.flyingsmart.info/club-actionnaires-air-france/",
+    "https://www.airfranceklm.com/sites/default/files/2025-03/air-france-klm-lettre-aux-actionnaires-mars-2025.pdf"
+  ]
+}

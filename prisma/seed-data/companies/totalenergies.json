@@ -1,0 +1,111 @@
+{
+  "slug": "totalenergies",
+  "name": "TotalEnergies",
+  "sector": "Énergie",
+  "stockIndex": "CAC40",
+  "ticker": "TTE",
+  "clubName": "Cercle des Actionnaires TotalEnergies",
+  "clubUrl": "https://e-cercle.totalenergies.com/",
+  "minShares": 50,
+  "lastVerifiedAt": "2026-05-15",
+  "benefits": [
+    {
+      "type": "publication",
+      "title": "Journal des actionnaires et Webzine",
+      "description": "Dès 1 action — Publications électroniques destinées aux actionnaires (Journal des actionnaires, Webzine, lettres et invitations). L'adhésion au Cercle est requise pour la réception automatique.",
+      "value": "Gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://e-cercle.totalenergies.com/faq"
+    },
+    {
+      "type": "evenement",
+      "title": "Visites de sites industriels TotalEnergies",
+      "description": "À partir de 50 actions au nominatif (ou 100 au porteur) — Invitations sur tirage au sort à visiter raffineries, sites industriels et installations du groupe TotalEnergies.",
+      "value": "Tirage au sort",
+      "requiredShares": 50,
+      "sourceUrl": "https://e-cercle.totalenergies.com/faq"
+    },
+    {
+      "type": "evenement",
+      "title": "Événements culturels et sportifs",
+      "description": "À partir de 50 actions au nominatif (ou 100 au porteur) — Invitations à des expositions, visites guidées de lieux soutenus par TotalEnergies Foundation, événements sportifs (rugby Top 14, 24 Heures du Mans).",
+      "value": "Tirage au sort, généralement 2 places par membre",
+      "requiredShares": 50,
+      "sourceUrl": "https://club-actionnaire.com/2023-evenements-du-club-actionnaires-de-total-energies-epa-tte/"
+    },
+    {
+      "type": "conference",
+      "title": "Webconférences thématiques",
+      "description": "À partir de 50 actions au nominatif (ou 100 au porteur) — Accès aux webconférences animées par des dirigeants et experts du groupe. Exclues du calcul de l'indice de priorité, donc participation illimitée.",
+      "value": "Gratuit",
+      "requiredShares": 50,
+      "sourceUrl": "https://e-cercle.totalenergies.com/faq"
+    },
+    {
+      "type": "reunion",
+      "title": "Réunions d'actionnaires et salons",
+      "description": "Dès 1 action — Invitations aux réunions d'actionnaires en région et participations au Salon Actionaria. Exclues de l'indice de priorité du Cercle.",
+      "value": "Gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://e-cercle.totalenergies.com/faq"
+    },
+    {
+      "type": "plateforme",
+      "title": "Espace en ligne e-cercle",
+      "description": "À partir de 50 actions au nominatif (ou 100 au porteur) — Plateforme personnelle e-cercle.totalenergies.com pour s'inscrire aux événements, consulter publications, sondages et contenus exclusifs.",
+      "value": "Gratuit",
+      "requiredShares": 50,
+      "sourceUrl": "https://e-cercle.totalenergies.com/login"
+    },
+    {
+      "type": "concours",
+      "title": "Concours et jeux exclusifs",
+      "description": "À partir de 50 actions au nominatif (ou 100 au porteur) — Concours réguliers permettant de gagner des lots (livres, maillots, goodies du groupe).",
+      "value": "Variable",
+      "requiredShares": 50,
+      "sourceUrl": "https://club-actionnaire.com/2023-evenements-du-club-actionnaires-de-total-energies-epa-tte/"
+    },
+    {
+      "type": "service",
+      "title": "Service Relations Actionnaires",
+      "description": "Dès 1 action — Numéro vert dédié (0 800 039 039) et email cercledesactionnaires@totalenergies.com pour toute question sur les actions, le Cercle et la vie de l'actionnariat.",
+      "value": "Gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://totalenergies.com/investors/individual-shareholders/shareholders-club"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Combien d'actions TotalEnergies faut-il pour accéder au Cercle ?",
+      "answer": "Il faut détenir au minimum 50 actions au nominatif (inscrites dans les registres de l'établissement mandataire du groupe) ou 100 actions au porteur (chez votre intermédiaire financier). L'adhésion reste valable tant que vous conservez ce seuil."
+    },
+    {
+      "question": "TotalEnergies propose-t-il un dividende majoré pour les actionnaires fidèles ?",
+      "answer": "Non. Contrairement à certaines sociétés du CAC 40 (L'Oréal, Air Liquide, Hermès), TotalEnergies ne propose pas de dividende majoré ni de prime de fidélité pour la détention longue de ses actions au nominatif. Le dividende est identique pour tous les actionnaires."
+    },
+    {
+      "question": "Quelles conférences et événements le Cercle organise-t-il ?",
+      "answer": "Une trentaine d'événements par an : visites de sites industriels TotalEnergies, expositions et visites guidées soutenues par TotalEnergies Foundation, événements sportifs (Top 14, 24 Heures du Mans), webconférences thématiques avec dirigeants, réunions d'actionnaires en région et Salon Actionaria."
+    },
+    {
+      "question": "Comment s'inscrire au Cercle des Actionnaires TotalEnergies ?",
+      "answer": "L'inscription se fait sur e-cercle.totalenergies.com avec une adresse email et un justificatif de détention d'actions (avis d'opéré ou attestation de l'intermédiaire financier). L'adhésion est gratuite."
+    },
+    {
+      "question": "Comment fonctionne le tirage au sort pour participer aux événements ?",
+      "answer": "Un indice de priorité est calculé en fonction des événements auxquels vous avez déjà participé : moins vous avez participé, plus votre priorité est élevée. À égalité d'indice, un tirage aléatoire départage les candidats. Les webconférences, réunions d'actionnaires et salons sont exclus du calcul."
+    },
+    {
+      "question": "Quelle différence entre actions au nominatif et au porteur chez TotalEnergies ?",
+      "answer": "Au nominatif, les actions sont inscrites directement dans les registres de TotalEnergies (établissement mandataire), permettant l'accès au Cercle dès 50 actions et la réception directe des communications. Au porteur, les actions sont logées chez votre courtier ou banque, et il faut 100 actions minimum pour adhérer."
+    }
+  ],
+  "sources": [
+    "https://e-cercle.totalenergies.com/faq",
+    "https://e-cercle.totalenergies.com/login",
+    "https://totalenergies.com/investors/individual-shareholders/shareholders-club",
+    "https://totalenergies.com/fr/actionnaires",
+    "https://club-actionnaire.com/2023-evenements-du-club-actionnaires-de-total-energies-epa-tte/",
+    "https://prd-backoffice.totalenergies.com/sites/g/files/nytnzq121/files/documents/2021-06/reglement-cercle-actionnaires-total-mai-2021-fr-vdef.pdf"
+  ]
+}

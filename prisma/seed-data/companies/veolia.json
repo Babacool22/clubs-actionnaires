@@ -1,0 +1,113 @@
+{
+  "slug": "veolia",
+  "name": "Veolia",
+  "sector": "Environnement / Services aux collectivités",
+  "stockIndex": "CAC40",
+  "ticker": "VIE",
+  "description": "Veolia n'a pas de Club d'actionnaires formel mais propose dès 1 action : services dédiés, lettre, AG, et un Comité consultatif avec visites de sites.",
+  "website": "https://www.veolia.com/fr/groupe/finance/actionnaires",
+  "clubName": "Espace Actionnaires Veolia",
+  "clubUrl": "https://www.veolia.com/fr/groupe/finance/actionnaires",
+  "minShares": 1,
+  "lastVerifiedAt": "2026-05-15",
+  "benefits": [
+    {
+      "type": "evenement",
+      "title": "Assemblée Générale annuelle",
+      "description": "Dès 1 action — Participation à l'Assemblée Générale mixte de Veolia Environnement (prochaine AG prévue le 23 avril 2026), avec présentations stratégiques, résultats et vote des résolutions.",
+      "value": "Gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.veolia.com/fr/groupe/finance/actionnaires"
+    },
+    {
+      "type": "evenement",
+      "title": "Visites de sites Veolia (Comité consultatif)",
+      "description": "Dès 1 action — Visites de sites industriels du groupe (usines de traitement, stations, sites SARPI comme Limay) réservées aux 13 membres du Comité consultatif des actionnaires, sur candidature avec CV et lettre de motivation.",
+      "value": "Gratuit, sélection sur dossier",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.veolia.com/fr/groupe/finance/actionnaires/comite-consultatif"
+    },
+    {
+      "type": "evenement",
+      "title": "Réunions du Comité consultatif des actionnaires",
+      "description": "Dès 1 action — Pour ses 13 membres, échanges réguliers avec la direction de Veolia sur la communication financière, la stratégie Green Up et les enjeux ESG du groupe.",
+      "value": "Gratuit, sélection sur dossier",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.veolia.com/fr/groupe/finance/actionnaires/comite-consultatif/postuler-au-comite-consultatif-des-actionnaires"
+    },
+    {
+      "type": "service",
+      "title": "Lettre aux Actionnaires trimestrielle",
+      "description": "Dès 1 action — Réception de la Lettre aux Actionnaires (publication trimestrielle) couvrant résultats, stratégie Green Up, projets industriels et reportages sur les sites du groupe.",
+      "value": "Gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.veolia.com/fr/groupe/finance/actionnaires"
+    },
+    {
+      "type": "service",
+      "title": "Guide de l'actionnaire et rapport annuel",
+      "description": "Dès 1 action — Mise à disposition du Guide de l'actionnaire Veolia et du rapport annuel intégré, accessibles depuis l'espace actionnaires en ligne.",
+      "value": "Gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.veolia.com/fr/groupe/finance/actionnaires"
+    },
+    {
+      "type": "service",
+      "title": "Numéro vert Service Actionnaires",
+      "description": "Dès 1 action — Service dédié aux actionnaires individuels : 0 805 800 000 (gratuit depuis un poste fixe en France), email service.actionnaires@veolia.com, adresse 30 rue Madeleine Vionnet, 93300 Aubervilliers.",
+      "value": "Gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.veolia.com/fr/groupe/finance/actionnaires"
+    },
+    {
+      "type": "service",
+      "title": "Frais de garde offerts au nominatif",
+      "description": "Dès 1 action — Pour les actions inscrites au nominatif pur, les droits de garde et frais de gestion courante sont pris en charge par Veolia Environnement auprès de la Société Générale Securities Services.",
+      "value": "Frais de garde 0 €",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.veolia.com/en/veolia-group/finance/shareholders/manage-your-shares/ways-holding-shares"
+    },
+    {
+      "type": "service",
+      "title": "Support Nomilia gestion des titres",
+      "description": "Dès 1 action — Plateforme Nomilia (Société Générale) pour gérer les titres au nominatif : 0 825 820 000 en France, +33 (0)2 51 85 67 89 depuis l'étranger.",
+      "value": "Gratuit (hors coût d'appel)",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.veolia.com/en/veolia-group/finance/shareholders/manage-your-shares/ways-holding-shares"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Combien d'actions Veolia pour accéder au Cercle ?",
+      "answer": "Veolia ne dispose pas d'un Club ou Cercle des actionnaires formel comme TotalEnergies ou Engie. Une seule action Veolia suffit toutefois pour accéder à l'Espace Actionnaires, recevoir la Lettre aux Actionnaires, participer à l'Assemblée Générale et postuler au Comité consultatif des actionnaires."
+    },
+    {
+      "question": "Quels types d'événements le Cercle Veolia organise-t-il ?",
+      "answer": "Veolia organise principalement l'Assemblée Générale annuelle (prévue le 23 avril 2026) ouverte à tous les actionnaires, ainsi que des visites de sites industriels (usines de traitement, stations, sites SARPI) et des réunions stratégiques réservées aux 13 membres du Comité consultatif des actionnaires."
+    },
+    {
+      "question": "Comment s'inscrire au Cercle Veolia ?",
+      "answer": "Il n'existe pas d'inscription à un club. Vous accédez automatiquement aux services actionnaires dès la détention d'une action. Pour rejoindre le Comité consultatif (13 membres), envoyez CV et lettre de motivation via le formulaire dédié sur veolia.com/fr/groupe/finance/actionnaires/comite-consultatif."
+    },
+    {
+      "question": "Veolia propose-t-il un dividende majoré pour ses actionnaires fidèles ?",
+      "answer": "Non. À la différence d'Air Liquide ou de L'Oréal, Veolia ne propose pas de prime de fidélité ni de dividende majoré pour les actions inscrites au nominatif. Le dividende est identique pour tous les actionnaires. Information à vérifier lors de chaque AG."
+    },
+    {
+      "question": "Quels avantages au nominatif pur chez Veolia ?",
+      "answer": "Les actions inscrites au nominatif pur chez Société Générale Securities Services bénéficient de la prise en charge des droits de garde et frais de gestion courante par Veolia. Vous recevez aussi directement les communications financières et avez un accès simplifié au vote en AG."
+    },
+    {
+      "question": "Comment contacter le service actionnaires Veolia ?",
+      "answer": "Numéro vert 0 805 800 000 (gratuit depuis un fixe France), email service.actionnaires@veolia.com, adresse 30 rue Madeleine Vionnet, 93300 Aubervilliers. Pour la gestion des titres au nominatif : Nomilia au 0 825 820 000."
+    }
+  ],
+  "sources": [
+    "https://www.veolia.com/fr/groupe/finance/actionnaires",
+    "https://www.veolia.com/fr/groupe/finance/actionnaires/comite-consultatif",
+    "https://www.veolia.com/fr/groupe/finance/actionnaires/comite-consultatif/postuler-au-comite-consultatif-des-actionnaires",
+    "https://www.veolia.com/en/veolia-group/finance/shareholders/manage-your-shares/ways-holding-shares",
+    "https://club-actionnaire.com/veolia-absence-de-club-des-actionnaires/",
+    "https://www.boursorama.com/cours/actionnaires/1rPVIE/"
+  ]
+}

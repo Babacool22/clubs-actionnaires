@@ -1,0 +1,108 @@
+{
+  "slug": "accor",
+  "name": "Accor",
+  "sector": "Hôtellerie",
+  "stockIndex": "CAC40",
+  "ticker": "AC",
+  "description": "Premier groupe hôtelier européen (Sofitel, Pullman, Novotel, Mercure, Ibis). Le Cercle des Actionnaires donne accès au statut ALL Gold dès 50 actions au porteur.",
+  "website": "https://group.accor.com/fr-FR",
+  "clubName": "Cercle des Actionnaires Accor",
+  "clubUrl": "https://group.accor.com/fr-FR/finance",
+  "minShares": 50,
+  "lastVerifiedAt": "2026-05-15",
+  "benefits": [
+    {
+      "type": "service",
+      "title": "Adhésion au Cercle des Actionnaires",
+      "description": "À partir de 50 actions — adhésion gratuite au Cercle des Actionnaires Accor pour les détenteurs de 50 actions au porteur minimum (ou 1 action au nominatif selon la pratique du groupe). Inscription par envoi du justificatif de détention à Communication.Financiere@accor.com.",
+      "value": null,
+      "requiredShares": 50,
+      "sourceUrl": "https://milesopedia.com/guides/tutoriels/statut-gold-accor-club-actionnaires/"
+    },
+    {
+      "type": "service",
+      "title": "Statut ALL Gold offert",
+      "description": "À partir de 50 actions — attribution automatique du statut Gold du programme de fidélité ALL - Accor Live Limitless. Carte valable jusqu'au 31 décembre de l'année suivant l'adhésion. Renouvelable si 30 nuits ou 7 000 points statut accumulés.",
+      "value": "Statut Gold ALL (valeur ~500 €/an)",
+      "requiredShares": 50,
+      "sourceUrl": "https://www.flyingsmart.info/allaccor-club-actionnaires-statut-gold/"
+    },
+    {
+      "type": "reduction",
+      "title": "Réductions sur les nuits d'hôtel Accor",
+      "description": "À partir de 50 actions — via le statut Gold ALL : tarifs préférentiels jusqu'à -7 % sur les réservations dans les enseignes du groupe (Sofitel, Pullman, Novotel, Mercure, Ibis, etc.) et accès aux promotions membres ALL.",
+      "value": "Jusqu'à -7 % sur les nuitées",
+      "requiredShares": 50,
+      "sourceUrl": "https://club-actionnaire.com/2023-evenements-du-club-des-actionnaires-daccor-epa-ac/"
+    },
+    {
+      "type": "service",
+      "title": "Bonus 25 % sur les points statut",
+      "description": "À partir de 50 actions — bonus de 25 % sur les points statut ALL accumulés à chaque séjour, accélérant la progression vers les statuts supérieurs (Platinum, Diamond).",
+      "value": "+25 % de points statut",
+      "requiredShares": 50,
+      "sourceUrl": "https://milesopedia.com/guides/tutoriels/statut-gold-accor-club-actionnaires/"
+    },
+    {
+      "type": "priorite",
+      "title": "Surclassement et services VIP en hôtel",
+      "description": "À partir de 50 actions — via le statut Gold ALL : surclassement de chambre selon disponibilité, check-in prioritaire, late check-out jusqu'à 14h, welcome amenity et accueil VIP dans les hôtels Accor.",
+      "value": null,
+      "requiredShares": 50,
+      "sourceUrl": "https://all.accor.com/loyalty-program/cards-status-benefits-details/index.en.shtml"
+    },
+    {
+      "type": "evenement",
+      "title": "Visites privées d'hôtels Accor",
+      "description": "À partir de 50 actions — invitations à des visites exclusives d'hôtels du groupe (ouvertures, rénovations, établissements emblématiques), annoncées par email et dans la webzine actionnaires. Places limitées.",
+      "value": null,
+      "requiredShares": 50,
+      "sourceUrl": "https://club-actionnaire.com/2023-evenements-du-club-des-actionnaires-daccor-epa-ac/"
+    },
+    {
+      "type": "evenement",
+      "title": "Assemblée Générale annuelle",
+      "description": "À partir de 1 action — participation à l'Assemblée Générale annuelle du groupe Accor, en présentiel ou à distance, avec accès aux résultats, présentations stratégiques et droits de vote.",
+      "value": null,
+      "requiredShares": 1,
+      "sourceUrl": "https://group.accor.com/fr-FR/finance"
+    },
+    {
+      "type": "service",
+      "title": "Webzine et lettre des actionnaires",
+      "description": "À partir de 50 actions — abonnement automatique à la webzine des actionnaires Accor et envoi par email d'informations dédiées : résultats, actualités du groupe, calendrier financier, agenda des événements du Cercle.",
+      "value": null,
+      "requiredShares": 50,
+      "sourceUrl": "https://club-actionnaire.com/2023-evenements-du-club-des-actionnaires-daccor-epa-ac/"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Combien d'actions Accor pour accéder au Cercle ?",
+      "answer": "Il faut détenir au minimum 50 actions au porteur (ou 1 action au nominatif selon la pratique) pour adhérer au Cercle des Actionnaires Accor. Sur la base du cours récent, cela représente un investissement d'environ 2 300 €. L'adhésion est gratuite et se fait en envoyant un justificatif de détention à Communication.Financiere@accor.com."
+    },
+    {
+      "question": "Les actionnaires Accor ont-ils des réductions sur les hôtels ?",
+      "answer": "Oui, indirectement via le statut Gold ALL offert aux membres du Cercle. Ce statut donne accès aux tarifs préférentiels du programme de fidélité (jusqu'à -7 % sur les nuitées), aux promotions membres et à des avantages en hôtel (surclassement, late check-out). Aucune réduction directe supplémentaire n'est attachée à la qualité d'actionnaire."
+    },
+    {
+      "question": "Comment fonctionne le statut ALL pour les actionnaires Accor ?",
+      "answer": "Les membres du Cercle reçoivent automatiquement le statut Gold du programme ALL - Accor Live Limitless. La carte est valable jusqu'au 31 décembre de l'année suivant l'adhésion. Pour maintenir le statut Gold ensuite, il faut accumuler 30 nuits ou 7 000 points statut sur l'année. À défaut, le statut est ajusté selon l'activité réelle."
+    },
+    {
+      "question": "Y a-t-il une prime de fidélité ou un dividende majoré chez Accor ?",
+      "answer": "Non, à la différence d'autres groupes du CAC 40 (L'Oréal, Air Liquide), Accor ne propose pas de dividende majoré ni de prime de fidélité pour les actions détenues au nominatif sur la durée. L'avantage principal pour les actionnaires individuels reste le statut Gold ALL via le Cercle des Actionnaires."
+    },
+    {
+      "question": "Y a-t-il des cadeaux ou événements pour les actionnaires Accor en 2026 ?",
+      "answer": "Non, en 2026 Accor n'a pas annoncé d'événements spécifiques ni de cadeaux pour les actionnaires en dehors des visites d'hôtels ponctuelles, de l'AG annuelle et des avantages liés au statut Gold ALL. L'offre du Cercle est centrée sur l'information financière et le programme de fidélité hôtelier."
+    }
+  ],
+  "sources": [
+    "https://group.accor.com/fr-FR/finance",
+    "https://club-actionnaire.com/2023-evenements-du-club-des-actionnaires-daccor-epa-ac/",
+    "https://www.flyingsmart.info/allaccor-club-actionnaires-statut-gold/",
+    "https://milesopedia.com/guides/tutoriels/statut-gold-accor-club-actionnaires/",
+    "https://all.accor.com/loyalty-program/cards-status-benefits-details/index.en.shtml"
+  ]
+}
