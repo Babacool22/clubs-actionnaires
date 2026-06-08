@@ -1,3 +1,7 @@
+"use client";
+
+import { track } from "@vercel/analytics";
+
 type FaqItem = { question: string; answer: string };
 
 export default function Faq({
@@ -27,6 +31,14 @@ export default function Faq({
           <details
             key={i}
             className="group border-b border-border py-[var(--space-lg)] px-[var(--space-md)]"
+            onToggle={(event) => {
+              if (event.currentTarget.open) {
+                track("Open FAQ", {
+                  company: companyName,
+                  question: it.question,
+                });
+              }
+            }}
           >
             <summary className="flex items-start justify-between gap-[var(--space-lg)] cursor-pointer list-none">
               <h3 className="text-[16px] font-medium text-text-display flex-1">

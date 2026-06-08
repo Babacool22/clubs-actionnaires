@@ -1,31 +1,42 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useSyncExternalStore } from "react";
 
 type Theme = "dark" | "light";
+const THEME_EVENT = "clubs-actionnaires-theme-change";
+
+function subscribe(callback: () => void) {
+  window.addEventListener(THEME_EVENT, callback);
+  return () => window.removeEventListener(THEME_EVENT, callback);
+}
+
+function getSnapshot(): Theme {
+  return localStorage.getItem("theme") === "light" ? "light" : "dark";
+}
+
+function getServerSnapshot(): Theme {
+  return "dark";
+}
 
 export default function ThemeToggle() {
-  const [theme, setTheme] = useState<Theme>("dark");
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    const stored = (typeof window !== "undefined" && (localStorage.getItem("theme") as Theme | null)) || "dark";
-    setTheme(stored);
-    setMounted(true);
-  }, []);
+  const theme = useSyncExternalStore(
+    subscribe,
+    getSnapshot,
+    getServerSnapshot
+  );
 
   const toggle = () => {
     const next: Theme = theme === "dark" ? "light" : "dark";
-    setTheme(next);
     if (next === "dark") {
       document.documentElement.removeAttribute("data-theme");
     } else {
       document.documentElement.setAttribute("data-theme", "light");
     }
     localStorage.setItem("theme", next);
+    window.dispatchEvent(new Event(THEME_EVENT));
   };
 
-  const isLight = mounted && theme === "light";
+  const isLight = theme === "light";
 
   return (
     <button
@@ -33,11 +44,11 @@ export default function ThemeToggle() {
       onClick={toggle}
       aria-label={isLight ? "Activer le mode sombre" : "Activer le mode clair"}
       aria-pressed={isLight}
-      className="relative inline-flex items-center w-12 h-6 border border-border-visible hover:border-text-primary transition-colors duration-[var(--duration-micro)] cursor-pointer"
+      className="relative inline-flex items-center justify-center w-11 h-11 sm:w-12 sm:h-6 border border-border-visible hover:border-text-primary transition-colors duration-[var(--duration-micro)] cursor-pointer"
     >
       <span
         className="absolute top-1/2 -translate-y-1/2 w-4 h-4 bg-text-display transition-[left] duration-[var(--duration-micro)]"
-        style={{ left: isLight ? "26px" : "2px" }}
+        style={{ left: isLight ? "calc(100% - 19px)" : "3px" }}
       />
       <span className="sr-only">{isLight ? "Light" : "Dark"}</span>
     </button>

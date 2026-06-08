@@ -2,6 +2,7 @@ import { prisma } from "@/lib/prisma";
 import CatalogueClient from "@/components/CatalogueClient";
 import HeroVideo from "@/components/HeroVideo";
 import { BASE_URL } from "@/lib/seo";
+import { Suspense } from "react";
 
 export default async function HomePage() {
   const companies = await prisma.company.findMany({
@@ -38,12 +39,12 @@ export default async function HomePage() {
 
       {/* Hero — Nothing style: asymmetric, display type, data-driven */}
       <section className="border-b border-border">
-        <div className="max-w-7xl mx-auto px-[var(--space-md)] sm:px-[var(--space-lg)] lg:px-[var(--space-xl)] py-[var(--space-3xl)] md:py-[var(--space-4xl)] grid grid-cols-1 lg:grid-cols-2 gap-[var(--space-2xl)] items-center">
+        <div className="max-w-7xl mx-auto px-[var(--space-md)] sm:px-[var(--space-lg)] lg:px-[var(--space-xl)] py-[var(--space-2xl)] sm:py-[var(--space-3xl)] md:py-[var(--space-4xl)] grid grid-cols-1 lg:grid-cols-2 gap-[var(--space-xl)] sm:gap-[var(--space-2xl)] items-center">
           <div>
             {/* Primary layer — Display typography */}
             <h1
               aria-label="CLUBS ACTIONNAIRES"
-              className="font-[family-name:var(--font-display)] text-[48px] md:text-[72px] font-bold text-text-display leading-[1.0] tracking-[-0.03em] mb-[var(--space-lg)]"
+              className="font-[family-name:var(--font-display)] text-[42px] sm:text-[48px] md:text-[72px] font-bold text-text-display leading-[1.0] tracking-[-0.03em] mb-[var(--space-lg)]"
             >
               CLUBS
               <br />
@@ -51,35 +52,35 @@ export default async function HomePage() {
             </h1>
 
             {/* Secondary layer */}
-            <p className="text-[18px] text-text-secondary leading-[1.6] max-w-lg mb-[var(--space-2xl)]">
+            <p className="text-[16px] sm:text-[18px] text-text-secondary leading-[1.6] max-w-lg mb-[var(--space-xl)] sm:mb-[var(--space-2xl)]">
               Tous les avantages réservés aux actionnaires des plus grandes entreprises mondiales. Un catalogue pour tout comparer.
             </p>
 
             {/* Data metrics — tertiary layer */}
-            <div className="flex items-end gap-[var(--space-2xl)]">
-              <div>
-                <p className="font-[family-name:var(--font-display)] text-[48px] font-bold text-text-display leading-none">
+            <div className="grid grid-cols-3 gap-[var(--space-sm)] sm:flex sm:items-end sm:gap-[var(--space-2xl)]">
+              <div className="min-w-0">
+                <p className="font-[family-name:var(--font-display)] text-[34px] sm:text-[48px] font-bold text-text-display leading-none">
                   {companies.length}
                 </p>
-                <p className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]">
+                <p className="font-[family-name:var(--font-data)] text-[9px] sm:text-[11px] tracking-[0.05em] sm:tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]">
                   ENTREPRISES
                 </p>
               </div>
-              <div className="w-px h-10 bg-border-visible" />
-              <div>
-                <p className="font-[family-name:var(--font-display)] text-[48px] font-bold text-text-display leading-none">
+              <div className="hidden sm:block w-px h-10 bg-border-visible" />
+              <div className="min-w-0 border-l border-border-visible pl-[var(--space-sm)] sm:border-0 sm:pl-0">
+                <p className="font-[family-name:var(--font-display)] text-[34px] sm:text-[48px] font-bold text-text-display leading-none">
                   {totalBenefits}
                 </p>
-                <p className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]">
+                <p className="font-[family-name:var(--font-data)] text-[9px] sm:text-[11px] tracking-[0.05em] sm:tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]">
                   AVANTAGES
                 </p>
               </div>
-              <div className="w-px h-10 bg-border-visible" />
-              <div>
-                <p className="font-[family-name:var(--font-display)] text-[48px] font-bold text-text-display leading-none">
+              <div className="hidden sm:block w-px h-10 bg-border-visible" />
+              <div className="min-w-0 border-l border-border-visible pl-[var(--space-sm)] sm:border-0 sm:pl-0">
+                <p className="font-[family-name:var(--font-display)] text-[34px] sm:text-[48px] font-bold text-text-display leading-none">
                   {sectors.length}
                 </p>
-                <p className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]">
+                <p className="font-[family-name:var(--font-data)] text-[9px] sm:text-[11px] tracking-[0.05em] sm:tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]">
                   SECTEURS
                 </p>
               </div>
@@ -98,11 +99,17 @@ export default async function HomePage() {
         className="max-w-7xl mx-auto px-[var(--space-md)] sm:px-[var(--space-lg)] lg:px-[var(--space-xl)] py-[var(--space-2xl)]"
       >
         <h2 className="sr-only">Catalogue des clubs actionnaires</h2>
-        <CatalogueClient
-          companies={companies}
-          sectors={sectors}
-          indexes={indexes}
-        />
+        <Suspense
+          fallback={
+            <div className="h-40 border border-border bg-surface animate-pulse" />
+          }
+        >
+          <CatalogueClient
+            companies={companies}
+            sectors={sectors}
+            indexes={indexes}
+          />
+        </Suspense>
       </section>
 
       {/* About — minimal, text-only */}

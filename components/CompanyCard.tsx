@@ -1,15 +1,32 @@
-import Link from "next/link";
 import BenefitBadge from "./BenefitBadge";
+import { TrackedLink } from "./TrackedLink";
 import type { Company, Benefit } from "@/app/generated/prisma/client";
 
 type CompanyWithBenefits = Company & { benefits: Benefit[] };
 
-export default function CompanyCard({ company }: { company: CompanyWithBenefits }) {
+export default function CompanyCard({
+  company,
+  catalogueReturnPath,
+}: {
+  company: CompanyWithBenefits;
+  catalogueReturnPath: string;
+}) {
   const benefitTypes = [...new Set(company.benefits.map((b) => b.type))];
 
   return (
-    <Link href={`/entreprises/${company.slug}`} className="group block">
-      <div className="bg-surface border border-border p-[var(--space-lg)] h-full hover:border-border-visible transition-colors duration-[var(--duration-micro)]">
+    <TrackedLink
+      href={`/entreprises/${company.slug}`}
+      eventName="Open Company"
+      eventProperties={{
+        company: company.slug,
+        sector: company.sector,
+        index: company.stockIndex,
+        benefits: company.benefits.length,
+      }}
+      catalogueReturnPath={catalogueReturnPath}
+      className="group block"
+    >
+      <div className="bg-surface border border-border p-[var(--space-md)] sm:p-[var(--space-lg)] h-full hover:border-border-visible transition-colors duration-[var(--duration-micro)]">
         {/* Top row: ticker + index */}
         <div className="flex items-start justify-between mb-[var(--space-lg)]">
           {company.ticker && (
@@ -33,7 +50,7 @@ export default function CompanyCard({ company }: { company: CompanyWithBenefits 
         </p>
 
         {/* Description — tertiary */}
-        <p className="text-[14px] text-text-disabled leading-[1.6] line-clamp-2 mb-[var(--space-lg)]">
+        <p className="text-[14px] text-text-disabled leading-[1.6] line-clamp-3 sm:line-clamp-2 mb-[var(--space-lg)]">
           {company.description}
         </p>
 
@@ -48,7 +65,7 @@ export default function CompanyCard({ company }: { company: CompanyWithBenefits 
         </div>
 
         {/* Bottom row */}
-        <div className="flex items-center justify-between">
+        <div className="flex items-end justify-between gap-[var(--space-sm)]">
           <span className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled">
             {company.benefits.length} AVANTAGE{company.benefits.length > 1 ? "S" : ""}
             {company.minShares && (
@@ -62,6 +79,6 @@ export default function CompanyCard({ company }: { company: CompanyWithBenefits 
           </span>
         </div>
       </div>
-    </Link>
+    </TrackedLink>
   );
 }

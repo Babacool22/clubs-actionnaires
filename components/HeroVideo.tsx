@@ -1,6 +1,8 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { track } from "@vercel/analytics";
+import Image from "next/image";
 
 export default function HeroVideo() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -24,12 +26,14 @@ export default function HeroVideo() {
     video.currentTime = 0;
     video.pause();
     setPaused(true);
+    track("Complete Hero Video");
   };
 
   const handleReplay = () => {
     const video = videoRef.current;
     if (!video) return;
     video.currentTime = 0;
+    track("Replay Hero Video");
     const play = video.play();
     if (play && typeof play.catch === "function") {
       play.then(() => setPaused(false)).catch(() => setPaused(true));
@@ -60,7 +64,7 @@ export default function HeroVideo() {
           poster="/presentation-poster.jpg"
           muted
           playsInline
-          preload="auto"
+          preload="metadata"
           onEnded={handleEnded}
           onTimeUpdate={handleTimeUpdate}
           aria-label="Vidéo de présentation Clubs Actionnaires"
@@ -69,11 +73,13 @@ export default function HeroVideo() {
         </video>
 
         {paused && (
-          <img
+          <Image
             src="/presentation-poster.jpg"
             alt=""
             aria-hidden="true"
             className="hero-video-poster"
+            fill
+            sizes="(max-width: 1024px) 100vw, 50vw"
           />
         )}
 

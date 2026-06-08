@@ -1,6 +1,8 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useEffect, useState, useMemo } from "react";
+import { track } from "@vercel/analytics";
+import { useSearchParams } from "next/navigation";
 import CompanyCard from "./CompanyCard";
 import type { Company, Benefit } from "@/app/generated/prisma/client";
 
@@ -22,10 +24,17 @@ export default function CatalogueClient({
   sectors: string[];
   indexes: string[];
 }) {
-  const [search, setSearch] = useState("");
-  const [selectedSector, setSelectedSector] = useState("");
-  const [selectedIndex, setSelectedIndex] = useState("");
-  const [selectedBenefitType, setSelectedBenefitType] = useState("");
+  const searchParams = useSearchParams();
+  const [search, setSearch] = useState(() => searchParams.get("q") ?? "");
+  const [selectedSector, setSelectedSector] = useState(
+    () => searchParams.get("sector") ?? ""
+  );
+  const [selectedIndex, setSelectedIndex] = useState(
+    () => searchParams.get("index") ?? ""
+  );
+  const [selectedBenefitType, setSelectedBenefitType] = useState(
+    () => searchParams.get("benefit") ?? ""
+  );
 
   const filtered = useMemo(() => {
     return companies.filter((company) => {
@@ -50,6 +59,56 @@ export default function CatalogueClient({
   const hasFilters =
     search || selectedSector || selectedIndex || selectedBenefitType;
 
+  const catalogueQuery = useMemo(() => {
+    const params = new URLSearchParams();
+    if (search.trim()) params.set("q", search.trim());
+    if (selectedSector) params.set("sector", selectedSector);
+    if (selectedIndex) params.set("index", selectedIndex);
+    if (selectedBenefitType) params.set("benefit", selectedBenefitType);
+    return params.toString();
+  }, [search, selectedSector, selectedIndex, selectedBenefitType]);
+
+  const catalogueReturnPath = useMemo(() => {
+    const params = new URLSearchParams(catalogueQuery);
+    params.set("restore", "1");
+    return `/?${params.toString()}#catalogue`;
+  }, [catalogueQuery]);
+
+  useEffect(() => {
+    if (searchParams.get("restore") !== "1") return;
+
+    const scrollY = Number(sessionStorage.getItem("catalogue-scroll-y"));
+    if (Number.isFinite(scrollY) && scrollY > 0) {
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => window.scrollTo({ top: scrollY }));
+      });
+    }
+
+    sessionStorage.removeItem("catalogue-scroll-y");
+  }, [searchParams]);
+
+  useEffect(() => {
+    const nextUrl = catalogueQuery ? `/?${catalogueQuery}#catalogue` : "/";
+    const currentUrl = `${window.location.pathname}${window.location.search}${window.location.hash}`;
+    if (currentUrl !== nextUrl) {
+      window.history.replaceState(null, "", nextUrl);
+    }
+  }, [catalogueQuery]);
+
+  useEffect(() => {
+    const query = search.trim();
+    if (query.length < 2) return;
+
+    const timeout = window.setTimeout(() => {
+      track("Search Catalogue", {
+        query: query.toLowerCase(),
+        results: filtered.length,
+      });
+    }, 600);
+
+    return () => window.clearTimeout(timeout);
+  }, [search, filtered.length]);
+
   function resetFilters() {
     setSearch("");
     setSelectedSector("");
@@ -60,9 +119,11 @@ export default function CatalogueClient({
   return (
     <div>
       {/* Search */}
-      <div className="mb-[var(--space-lg)]">
+      <div className="mb-[var(--space-md)] sm:mb-[var(--space-lg)]">
         <input
           type="text"
+          inputMode="search"
+          aria-label="Rechercher une entreprise ou un secteur"
           placeholder="RECHERCHER..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
@@ -71,12 +132,20 @@ export default function CatalogueClient({
       </div>
 
       {/* Filters row */}
-      <div className="flex flex-wrap items-center gap-[var(--space-md)] mb-[var(--space-xl)]">
+      <div className="grid grid-cols-2 sm:flex sm:flex-wrap items-center gap-[var(--space-sm)] sm:gap-[var(--space-md)] mb-[var(--space-xl)]">
         {/* Index */}
         <select
           value={selectedIndex}
-          onChange={(e) => setSelectedIndex(e.target.value)}
-          className="bg-transparent border border-border-visible px-[var(--space-md)] py-[var(--space-sm)] font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] uppercase text-text-secondary cursor-pointer focus:outline-none focus:border-text-primary transition-colors duration-[var(--duration-micro)] appearance-none"
+          onChange={(e) => {
+            const value = e.target.value;
+            setSelectedIndex(value);
+            track("Filter Catalogue", {
+              filter: "index",
+              value: value || "all",
+            });
+          }}
+          aria-label="Filtrer par indice"
+          className="w-full min-h-11 bg-transparent border border-border-visible px-[var(--space-sm)] sm:px-[var(--space-md)] py-[var(--space-sm)] font-[family-name:var(--font-data)] text-[10px] sm:text-[11px] tracking-[0.05em] sm:tracking-[0.08em] uppercase text-text-secondary cursor-pointer focus:outline-none focus:border-text-primary transition-colors duration-[var(--duration-micro)] appearance-none"
         >
           <option value="">TOUS LES INDICES</option>
           {indexes.map((idx) => (
@@ -89,8 +158,16 @@ export default function CatalogueClient({
         {/* Sector */}
         <select
           value={selectedSector}
-          onChange={(e) => setSelectedSector(e.target.value)}
-          className="bg-transparent border border-border-visible px-[var(--space-md)] py-[var(--space-sm)] font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] uppercase text-text-secondary cursor-pointer focus:outline-none focus:border-text-primary transition-colors duration-[var(--duration-micro)] appearance-none"
+          onChange={(e) => {
+            const value = e.target.value;
+            setSelectedSector(value);
+            track("Filter Catalogue", {
+              filter: "sector",
+              value: value || "all",
+            });
+          }}
+          aria-label="Filtrer par secteur"
+          className="w-full min-h-11 bg-transparent border border-border-visible px-[var(--space-sm)] sm:px-[var(--space-md)] py-[var(--space-sm)] font-[family-name:var(--font-data)] text-[10px] sm:text-[11px] tracking-[0.05em] sm:tracking-[0.08em] uppercase text-text-secondary cursor-pointer focus:outline-none focus:border-text-primary transition-colors duration-[var(--duration-micro)] appearance-none"
         >
           <option value="">TOUS LES SECTEURS</option>
           {sectors.map((sector) => (
@@ -104,12 +181,16 @@ export default function CatalogueClient({
         {BENEFIT_TYPES.map((type) => (
           <button
             key={type.value}
-            onClick={() =>
-              setSelectedBenefitType(
-                selectedBenefitType === type.value ? "" : type.value
-              )
-            }
-            className={`px-[var(--space-md)] py-[var(--space-sm)] font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] border transition-colors duration-[var(--duration-micro)] ${
+            onClick={() => {
+              const value =
+                selectedBenefitType === type.value ? "" : type.value;
+              setSelectedBenefitType(value);
+              track("Filter Catalogue", {
+                filter: "benefit",
+                value: value || "all",
+              });
+            }}
+            className={`min-h-11 px-[var(--space-sm)] sm:px-[var(--space-md)] py-[var(--space-sm)] font-[family-name:var(--font-data)] text-[10px] sm:text-[11px] tracking-[0.05em] sm:tracking-[0.08em] border transition-colors duration-[var(--duration-micro)] ${
               selectedBenefitType === type.value
                 ? "bg-text-display text-black border-text-display"
                 : "bg-transparent text-text-secondary border-border-visible hover:border-text-secondary"
@@ -122,8 +203,11 @@ export default function CatalogueClient({
         {/* Reset */}
         {hasFilters && (
           <button
-            onClick={resetFilters}
-            className="px-[var(--space-md)] py-[var(--space-sm)] font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-accent border border-accent hover:bg-accent-subtle transition-colors duration-[var(--duration-micro)]"
+            onClick={() => {
+              track("Reset Catalogue");
+              resetFilters();
+            }}
+            className="col-span-2 sm:col-span-1 min-h-11 px-[var(--space-md)] py-[var(--space-sm)] font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-accent border border-accent hover:bg-accent-subtle transition-colors duration-[var(--duration-micro)]"
           >
             REINITIALISER
           </button>
@@ -142,7 +226,11 @@ export default function CatalogueClient({
       {filtered.length > 0 ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-px bg-border">
           {filtered.map((company) => (
-            <CompanyCard key={company.id} company={company} />
+            <CompanyCard
+              key={company.id}
+              company={company}
+              catalogueReturnPath={catalogueReturnPath}
+            />
           ))}
         </div>
       ) : (
@@ -154,7 +242,10 @@ export default function CatalogueClient({
             AUCUN RESULTAT
           </p>
           <button
-            onClick={resetFilters}
+            onClick={() => {
+              track("Reset Empty Search");
+              resetFilters();
+            }}
             className="px-[var(--space-lg)] py-[var(--space-sm)] font-[family-name:var(--font-data)] text-[13px] tracking-[0.08em] uppercase bg-text-display text-black hover:opacity-80 transition-opacity duration-[var(--duration-micro)]"
           >
             REINITIALISER

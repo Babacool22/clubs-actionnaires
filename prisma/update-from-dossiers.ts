@@ -6,7 +6,7 @@ import { PrismaLibSql } from "@prisma/adapter-libsql";
 
 const dbPath = path.resolve(process.cwd(), "dev.db");
 const adapter = new PrismaLibSql({ url: `file:${dbPath}` });
-const prisma = new PrismaClient({ adapter } as any);
+const prisma = new PrismaClient({ adapter });
 
 const VALID_BENEFIT_TYPES = new Set([
   "reduction",

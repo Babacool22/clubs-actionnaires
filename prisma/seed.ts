@@ -6,7 +6,7 @@ import path from "path";
 
 const dbPath = path.resolve(process.cwd(), "dev.db");
 const adapter = new PrismaLibSql({ url: `file:${dbPath}` });
-const prisma = new PrismaClient({ adapter } as any);
+const prisma = new PrismaClient({ adapter });
 
 type FaqEntry = { question: string; answer: string };
 type FaqBatchItem = { slug: string; faq: FaqEntry[] };
