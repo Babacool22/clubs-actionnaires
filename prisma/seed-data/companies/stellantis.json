@@ -1,0 +1,52 @@
+{
+  "slug": "stellantis",
+  "name": "Stellantis",
+  "description": "Stellantis N.V. est le constructeur automobile néerlandais issu de la fusion de Peugeot S.A. et de Fiat Chrysler Automobiles N.V. Il conçoit, fabrique et commercialise des véhicules sous 14 marques. Son action ordinaire est cotée à New York, Milan et Paris et fait partie du CAC 40.",
+  "sector": "Automobile",
+  "stockIndex": "CAC40",
+  "ticker": "STLA",
+  "website": "https://www.stellantis.com/",
+  "minShares": 1,
+  "lastVerifiedAt": "2026-06-09",
+  "benefits": [],
+  "faqs": [
+    {
+      "question": "Stellantis possède-t-il un club ou un programme pour ses actionnaires individuels ?",
+      "answer": "Stellantis ne publie pas de club commercial pour actionnaires individuels. La société maintient toutefois un programme formel nommé Loyalty Voting Program, aussi décrit comme Loyalty Voting Structure, qui sert à inscrire des actions au registre de fidélité afin d'obtenir ultérieurement des actions spéciales de vote."
+    },
+    {
+      "question": "Combien d'actions faut-il détenir et pendant combien de temps ?",
+      "answer": "Une personne détenant une ou plusieurs actions ordinaires peut demander l'inscription de tout ou partie de ses titres. Il n'existe pas de durée préalable pour déposer la demande, mais chaque action doit rester inscrite sans interruption pendant au moins trois ans avant de devenir éligible à une action spéciale de vote de classe A."
+    },
+    {
+      "question": "Le nominatif pur ou administré suffit-il pour participer automatiquement ?",
+      "answer": "Non. La détention au porteur, chez un intermédiaire, au nominatif ou en DRS ne remplace pas l'inscription spécifique au Loyalty Register. La procédure exige un Election Form, une procuration et généralement une confirmation de l'intermédiaire; les actions sont ensuite inscrites au nom propre de l'actionnaire dans le registre de fidélité."
+    },
+    {
+      "question": "Que reçoit l'actionnaire après trois ans au registre de fidélité ?",
+      "answer": "Pour chaque action ordinaire devenue qualifiante, l'actionnaire reçoit sans contrepartie une action spéciale de vote de classe A. Celle-ci sert au vote et n'ouvre pas droit aux dividendes ordinaires attachés aux actions communes. Ce mécanisme de gouvernance n'est donc pas recensé ici comme bénéfice commercial ou économique."
+    },
+    {
+      "question": "Les actionnaires Stellantis bénéficient-ils d'une remise sur l'achat d'un véhicule ?",
+      "answer": "Aucune remise automobile réservée aux actionnaires n'a été établie dans les sources officielles examinées au 9 juin 2026. Les offres de ventes de véhicules du Stellantis Club concernent les salariés, retraités et certains proches; la campagne américaine de 2025 étendait temporairement un prix salarié à des clients, pas aux actionnaires en cette qualité."
+    },
+    {
+      "question": "Peut-on vendre les actions inscrites et quels frais faut-il prévoir ?",
+      "answer": "Les actions inscrites au Loyalty Register ne sont pas immédiatement négociables. L'actionnaire peut demander leur désinscription et leur retour vers DTC, Monte Titoli ou Euroclear France, mais il perd alors les actions spéciales de vote associées. Stellantis prend en charge les coûts de l'agent; les autres frais éventuels de courtier restent à la charge de l'actionnaire."
+    }
+  ],
+  "sources": [
+    "https://www.stellantis.com/content/dam/stellantis-corporate/investors/financial-reports/Stellantis-NV-20251231-Annual-Report.pdf",
+    "https://www.stellantis.com/en/investors/stock-and-shareholder-info/stock-info",
+    "https://www.stellantis.com/en/investors/stock-and-shareholder-info/special-voting-shares",
+    "https://www.stellantis.com/content/dam/stellantis-corporate/investors/stock-and-shareholder-info/special-voting-shares/Special_Voting_Shares_Terms_and_Conditions.pdf",
+    "https://www.stellantis.com/content/dam/stellantis-corporate/investors/stock-and-shareholder-info/shareholder-meetings/agm-2026/Notice-Stellantis-NV-2026-AGM.pdf",
+    "https://live.euronext.com/en/product/indices/FR0003500008-XPAR/market-information",
+    "https://www.stellantis.com/en/news/press-releases/2025/december/stellantis-shares-to-win-employee-purchase-plan-reaches-22-million-shares-subscribed-in-over-three-years",
+    "https://www.stellantis.com/content/dam/stellantis-corporate/investors/events-and-presentations/other-documents/Stellantis-Q12025-Shipments-and-Revenues-Transcript.pdf",
+    "https://thestellantisclub.com/world-pass",
+    "https://www.stellantis.com/content/dam/stellantis-corporate/archives/psa/financial-documents/2013/fr/2013_document-de-reference_fr.pdf",
+    "https://www.stellantis.com/en/news/press-releases/2021/january/the-merger-of-fca-and-groupe-psa-has-been-completed",
+    "https://www.stellantis.com/en/investors/individual-shareholders"
+  ]
+}

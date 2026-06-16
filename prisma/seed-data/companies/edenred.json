@@ -1,0 +1,69 @@
+{
+  "slug": "edenred",
+  "name": "Edenred",
+  "description": "Edenred est un groupe mondial spécialisé dans les avantages aux salariés, la mobilité professionnelle et les solutions de paiement. Sa plateforme relie plus de 60 millions d'utilisateurs à plus de 2 millions de commerçants partenaires dans 44 pays.",
+  "sector": "Services aux entreprises",
+  "stockIndex": "CAC Next 20",
+  "ticker": "EDEN",
+  "website": "https://www.edenred.com/fr",
+  "clubName": "E-club des actionnaires individuels d'Edenred",
+  "clubUrl": "https://www.edenred.com/fr/investisseurs-actionnaires/e-club-actionnaires",
+  "minShares": 1,
+  "lastVerifiedAt": "2026-06-09",
+  "benefits": [
+    {
+      "type": "reduction",
+      "title": "Gratuité des droits de garde au nominatif pur",
+      "description": "Pour les actions Edenred inscrites au nominatif pur auprès de Société Générale Securities Services, Edenred prend entièrement en charge les droits de garde ainsi que certains frais de gestion courante, notamment ceux liés au paiement des dividendes et aux opérations sur titres. Aucun seuil minimal propre à cet avantage n'est publié. La gratuité ne s'applique ni au nominatif administré ni au porteur; les frais de courtage et les éventuels frais facturés par l'intermédiaire d'origine pour le transfert restent dus. Aucun barème de courtage actuel ni délai standard de transfert ne sont publiés.",
+      "value": "Droits de garde gratuits et certains frais de gestion courante pris en charge",
+      "requiredShares": null,
+      "sourceUrl": "https://www.edenred.com/fr/investisseurs-actionnaires/devenir-actionnaire"
+    },
+    {
+      "type": "evenement",
+      "title": "Invitations ponctuelles aux événements de l'E-club",
+      "description": "Les membres de l'E-club peuvent recevoir par courriel des invitations ponctuelles et discrétionnaires à des rencontres d'actionnaires, visites, événements ou réunions au siège. Edenred a notamment accueilli quelques membres lors d'un petit-déjeuner au siège le 15 janvier 2026 consacré à la stratégie Amplify 25-28. L'adhésion gratuite est réservée aux personnes physiques actionnaires individuelles, hors salariés, détenant au moins une action au nominatif pur ou administré, ou trente actions au porteur; dans ce dernier cas, une attestation financière de moins d'un mois est exigée. Aucune fréquence, place ou participation n'est garantie: la capacité, la sélection et les modalités de réponse peuvent varier selon l'invitation. Les frais de transport, stationnement, hébergement et restauration restent à la charge du membre, sauf indication contraire.",
+      "value": null,
+      "requiredShares": null,
+      "sourceUrl": "https://www.edenred.com/fr/investisseurs-actionnaires/e-club-actionnaires"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Edenred dispose-t-elle d'un véritable club d'actionnaires ?",
+      "answer": "Oui. Edenred exploite un dispositif formel nommé « E-club des actionnaires individuels d'Edenred », avec une adhésion en ligne, un règlement, des conditions de membre et des invitations dédiées. Il ne s'agit donc pas uniquement d'un espace de relations investisseurs."
+    },
+    {
+      "question": "Combien d'actions faut-il détenir pour adhérer à l'E-club Edenred ?",
+      "answer": "La page officielle actuelle exige une action au nominatif pur ou administré, ou trente actions au porteur, avec une adresse électronique active. Le règlement PDF de 2023 affiche « 1 actions au porteur », mais cette mention est contredite par les pages française et anglaise actuelles; le seuil opérationnel retenu est donc trente actions au porteur."
+    },
+    {
+      "question": "Comment un actionnaire au porteur s'inscrit-il à l'E-club ?",
+      "answer": "Il remplit le formulaire en ligne, choisit le mode « au porteur » et joint une attestation de son établissement financier datée de moins d'un mois, précisant le nombre d'actions Edenred détenues. Edenred peut demander ultérieurement une nouvelle attestation pour vérifier le maintien de l'éligibilité."
+    },
+    {
+      "question": "Les membres sont-ils certains de participer à des événements Edenred ?",
+      "answer": "Non. Le règlement prévoit des invitations ponctuelles, et la page de l'E-club montre que quelques membres ont participé à des petits-déjeuners au siège. Aucun calendrier minimal, quota de places ni droit automatique à participer n'est publié; la disponibilité dépend donc de chaque invitation et reste discrétionnaire."
+    },
+    {
+      "question": "Quel avantage existe pour les actions Edenred au nominatif pur ?",
+      "answer": "Edenred prend en charge les droits de garde et certains frais de gestion courante pour les titres au nominatif pur gérés par Société Générale Securities Services. Les frais de courtage et les éventuels frais facturés par la banque lors du transfert restent toutefois à la charge de l'actionnaire."
+    },
+    {
+      "question": "Les communiqués, le dividende et l'assemblée générale sont-ils des bénéfices de l'E-club ?",
+      "answer": "Non. Les communiqués et lettres sont des informations publiques ou des services ordinaires de relations investisseurs. Le dividende ordinaire, le vote, le droit de participer à l'assemblée générale et le droit de vote double au nominatif après deux ans sont des droits génériques, pas des avantages à recenser dans cette fiche."
+    }
+  ],
+  "sources": [
+    "https://www.edenred.com/fr/investisseurs-actionnaires/devenir-actionnaire",
+    "https://www.edenred.com/fr/investisseurs-actionnaires/e-club-actionnaires",
+    "https://www.edenred.com/system/files/documents/guide_nominatif_fr_0_0.pdf",
+    "https://www.edenred.com/system/files/documents/reglement-eclub-des-actionnaires-edenred-19042023_vf.pdf",
+    "https://www.edenred.com/en/investors-shareholders/shareholders-e-club",
+    "https://www.edenred.com/system/files/documents/avantages_eclubactionnairesedenred_2020.pdf",
+    "https://www.edenred.com/fr/investisseurs-actionnaires/cotation",
+    "https://www.edenred.com/fr/investisseurs-actionnaires/rendez-vous",
+    "https://media.edenred.com/en-roumanie-la-hausse-de-la-valeur-faciale-des-titres-restaurant-renforce-le-pouvoir-d-achat-des-salaries/",
+    "https://www.edenred.com/system/files/documents/2024-2025-fr-deu-edenred-mel.pdf.pdf"
+  ]
+}

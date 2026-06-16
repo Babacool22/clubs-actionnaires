@@ -1,0 +1,60 @@
+{
+  "slug": "legrand",
+  "name": "Legrand",
+  "description": "Legrand est un spécialiste mondial des infrastructures électriques et numériques du bâtiment. Le Groupe équipe les bâtiments résidentiels, tertiaires et industriels ainsi que les centres de données, avec des solutions de distribution électrique, de câblage, de pilotage et de connectivité.",
+  "sector": "Industrie & Équipements",
+  "stockIndex": "CAC40",
+  "ticker": "LR",
+  "website": "https://www.legrand.com/",
+  "minShares": null,
+  "lastVerifiedAt": "2026-06-09",
+  "benefits": [
+    {
+      "type": "reduction",
+      "title": "Droits de garde et frais de gestion gratuits au nominatif pur",
+      "description": "Les actions Legrand inscrites au nominatif pur sont tenues par Société Générale Securities Services sans droits de garde ni frais ordinaires de gestion. Restent dus les frais de courtage ainsi que 150 euros pour certains dossiers de mutation, selon le barème officiel daté du 1er mai 2024.",
+      "value": "Droits de garde et frais ordinaires de gestion gratuits; courtage et frais de mutation exclus.",
+      "requiredShares": null,
+      "sourceUrl": "https://www.legrand.com/fr/investisseurs-et-actionnaires/espace-actionnaires/etre-actionnaire-de-legrand"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Legrand possède-t-il un club ou un programme formel pour ses actionnaires individuels ?",
+      "answer": "Non. Au 9 juin 2026, l'espace actionnaires, le guide, les lettres et les formulaires officiels ne donnent aucun nom de club, règlement, statut de membre ou procédure d'adhésion. Legrand propose des services de relations actionnaires et un avantage lié au nominatif pur, sans programme formel."
+    },
+    {
+      "question": "Quel avantage financier actuel est prouvé pour un actionnaire Legrand ?",
+      "answer": "Legrand indique que les droits de garde et les frais ordinaires de gestion sont gratuits lorsque les actions sont détenues au nominatif pur chez Société Générale Securities Services. Les frais de courtage restent dus et certains dossiers de mutation sont facturés 150 euros selon le barème daté du 1er mai 2024."
+    },
+    {
+      "question": "Comment placer des actions Legrand au nominatif pur pour obtenir cette gratuité ?",
+      "answer": "Pour un premier achat, Legrand demande de contacter Société Générale Securities Services au +33 (0)2 51 85 67 89 afin de recevoir un kit premier achat. Pour des titres déjà détenus ailleurs, il faut contacter son intermédiaire et Société Générale Securities Services; aucun formulaire précis ni délai standard n'est publié sur la page officielle."
+    },
+    {
+      "question": "Combien d'actions faut-il détenir et pendant combien de temps ?",
+      "answer": "Aucun seuil global, nombre minimal d'actions ou délai minimal de détention n'est publié pour la gratuité au nominatif pur. Ces champs restent donc à null: la qualité d'actionnaire implique la détention d'actions, mais la recherche ne doit pas transformer cette évidence en seuil officiel d'une action."
+    },
+    {
+      "question": "Des visites de sites ou conférences sont-elles actuellement réservables par les actionnaires ?",
+      "answer": "Non au 9 juin 2026. Une visite du Legrand Campus Paris a bien été annoncée comme exclusivement réservée aux actionnaires en 2025 et s'est tenue le 8 décembre 2025. La page actuelle promet de nouvelles dates prochainement, mais ne donne ni date, ni formulaire, ni procédure de réservation; aucune visite ou conférence ne peut donc être présentée comme disponible."
+    },
+    {
+      "question": "Legrand offre-t-il une prime de fidélité, un dividende majoré ou une lettre réservée aux actionnaires ?",
+      "answer": "Aucun dividende majoré ni prime de fidélité n'est officiellement publié. Les statuts du 27 mai 2026 précisent même que deux années d'inscription nominative ne donnent pas de droit de vote double. Le dividende ordinaire est exclu des bénéfices, et le formulaire de la lettre accepte aussi les personnes déclarant ne pas être actionnaires."
+    }
+  ],
+  "sources": [
+    "https://www.legrand.com/fr/investisseurs-et-actionnaires/espace-actionnaires/etre-actionnaire-de-legrand",
+    "https://www.legrand.com/fr/investisseurs-et-actionnaires/espace-actionnaires",
+    "https://www.legrand.com/fr/le-groupe/lessentiel-de-legrand",
+    "https://www.legrand.com/fr/investisseurs-et-actionnaires/cours-de-laction",
+    "https://www.legrand.com/fr/investisseurs-et-actionnaires/espace-actionnaires/visite-de-site",
+    "https://www.legrandgroup.com/sites/default/files/Documents_PDF_Legrand/Finance/Lettres/FR_Legrand-LA-juin-2025_1750669411.pdf",
+    "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/News/2025/FR_LA-Legrand-decembre-2025-V2_1766065084.pdf",
+    "https://www.legrand.com/fr/investisseurs-et-actionnaires/espace-actionnaires/abonnement-lettre-aux-actionnaires",
+    "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2026/AG/Statuts%20LEGRAND_27052026_FR_VDEF_1779867404.pdf",
+    "https://www.legrand.com/fr/investisseurs-et-actionnaires/espace-actionnaires/dividende",
+    "https://www.legrand.com/fr/investisseurs-et-actionnaires/espace-actionnaires/questions-reponses"
+  ]
+}

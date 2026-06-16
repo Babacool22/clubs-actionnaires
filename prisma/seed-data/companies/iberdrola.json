@@ -1,0 +1,79 @@
+{
+  "slug": "iberdrola",
+  "name": "Iberdrola",
+  "description": "Iberdrola est un groupe énergétique espagnol actif dans les réseaux de transport et de distribution, la production renouvelable, le stockage et la fourniture d'énergie. Son action IBE est cotée sur les marchés espagnols et appartient à l'indice IBEX 35.",
+  "sector": "Énergie",
+  "stockIndex": "IBEX 35",
+  "ticker": "IBE",
+  "website": "https://www.iberdrola.com/",
+  "clubName": "OLA Club del Accionista",
+  "clubUrl": "https://www.iberdrola.com/accionistas-inversores/accionistas/club-accionista",
+  "minShares": null,
+  "lastVerifiedAt": "2026-06-09",
+  "benefits": [
+    {
+      "type": "evenement",
+      "title": "Invitations discrétionnaires à des événements réservés",
+      "description": "Les membres actifs du Club OLA peuvent recevoir, au cas par cas, des invitations à des événements corporatifs, culturels ou de loisirs organisés par Iberdrola. Aucun calendrier public, quota, fréquence ni droit automatique à une invitation n'est publié, et aucune invitation ouverte précise n'a été identifiée au 9 juin 2026. La participation dépend des conditions de chaque événement; le transport, l'hébergement et les autres frais annexes ne sont pas annoncés comme pris en charge.",
+      "value": null,
+      "requiredShares": null,
+      "sourceUrl": "https://www.iberdrola.com/accionistas-inversores/accionistas/club-accionista/condiciones-uso"
+    },
+    {
+      "type": "evenement",
+      "title": "Visites discrétionnaires d'installations Iberdrola",
+      "description": "Les conditions du Club prévoient la possibilité de participer aux visites d'installations proposées ponctuellement par Iberdrola. Aucune visite réservable, fréquence, capacité ou place garantie n'était publiée au 9 juin 2026. Les membres doivent surveiller les communications du Club et suivre les instructions propres à chaque visite; les éventuelles contraintes de sécurité, d'âge, de mobilité ou de déplacement ne sont pas définies dans les conditions générales.",
+      "value": null,
+      "requiredShares": null,
+      "sourceUrl": "https://www.iberdrola.com/accionistas-inversores/accionistas/club-accionista/condiciones-uso"
+    },
+    {
+      "type": "cadeau",
+      "title": "Participation à des tirages ponctuels",
+      "description": "Les membres peuvent participer aux tirages organisés ponctuellement par Iberdrola selon le règlement de chaque campagne, sans aucun gain garanti. Aucun tirage n'acceptait encore de nouvelles inscriptions au 9 juin 2026: le kit technologique avait clôturé le 28 avril 2026 et les vélos électriques le 28 mai 2026. Le tirage de trente vélos prévu le 17 juin 2026 concernait uniquement les participants déjà inscrits. Les conditions de territoire, de détention, de vote ou de représentation, ainsi que les obligations fiscales, varient selon le règlement.",
+      "value": "Aucun gain garanti; lot, valeur, territoire et fiscalité définis par chaque règlement",
+      "requiredShares": null,
+      "sourceUrl": "https://www.iberdrola.com/accionistas-inversores/accionistas/club-accionista/condiciones-uso"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "OLA Club del Accionista est-il encore actif au 9 juin 2026 ?",
+      "answer": "Oui. Iberdrola publie une page active du Club, un formulaire d'inscription, des conditions d'utilisation mises à jour le 26 février 2025 et une politique officielle du 25 mars 2025. Le dispositif est donc classé comme club actionnaire formel, tout en comportant aussi de nombreuses fonctions de relations actionnaires."
+    },
+    {
+      "question": "Combien d'actions Iberdrola faut-il détenir pour s'inscrire au Club OLA ?",
+      "answer": "Aucun seuil numérique n'est publié dans les conditions, le formulaire ou la politique de confidentialité actuels. Il faut être actionnaire et indiquer son nombre d'actions, mais cela ne permet pas de conclure officiellement qu'une seule action suffit. Le seuil global reste donc inconnu."
+    },
+    {
+      "question": "Comment l'inscription et la vérification de l'actionnariat fonctionnent-elles ?",
+      "answer": "L'inscription se fait en ligne en choisissant le profil personne physique, personne morale, ADR ou CDI, puis en fournissant l'identité ou la référence d'actionnaire, le nombre d'actions et les coordonnées. Iberdrola compare notamment l'identifiant déclaré aux données des teneurs du registre et peut demander des justificatifs selon le profil."
+    },
+    {
+      "question": "Le Club OLA est-il accessible depuis l'étranger ou avec des ADR et CDI ?",
+      "answer": "Le formulaire accepte des pays étrangers et prévoit les profils ADR et CDI, ainsi que les personnes morales. Toutefois, la voie ordinaire des personnes physiques exige des actions déposées auprès d'une entité espagnole et inscrites à leur nom. La version espagnole précise en outre que les personnes morales et porteurs d'ADR ou CDI peuvent n'accéder qu'à certaines fonctionnalités."
+    },
+    {
+      "question": "Quels tirages Iberdrola étaient encore ouverts au 9 juin 2026 ?",
+      "answer": "Aucun des deux tirages 2026 identifiés n'acceptait encore de nouvelles inscriptions. Le kit technologique avait clôturé le 28 avril 2026. Le tirage de cinquante vélos avait clôturé le 28 mai 2026; les tirages quotidiens étaient passés et le tirage de trente vélos restait programmé au 17 juin 2026 pour les personnes déjà inscrites."
+    },
+    {
+      "question": "L'assistance du Club OLA est-elle réellement disponible vingt-quatre heures sur vingt-quatre ?",
+      "answer": "Le portail permet de déposer des questions toute l'année, mais la ligne téléphonique n'est pas ouverte en continu. Iberdrola publie un horaire du lundi au vendredi, de 9 h à 19 h de septembre à juillet et de 9 h à 14 h en août. Le délai maximal de deux jours ouvrés figurait dans un communiqué du 30 avril 2024, mais n'est pas repris comme garantie dans les conditions actuelles."
+    }
+  ],
+  "sources": [
+    "https://www.iberdrola.com/accionistas-inversores/accionistas/club-accionista/condiciones-uso",
+    "https://www.iberdrola.com/accionistas-inversores/accionistas/club-accionista",
+    "https://www.iberdrola.com/accionistas-inversores/accionistas/club-accionista/alta-club-accionista",
+    "https://www.iberdrola.com/shareholders-investors/shareholders/shareholders-club/new-shareholders-club/legal-conditions",
+    "https://www.iberdrola.com/documents/20125/3709241/bases-sorteo-ola-club-accionista.pdf",
+    "https://www.iberdrola.com/documents/20125/3000360/jga-bases-legales-sorteo.pdf",
+    "https://www.iberdrola.com/shareholders-investors/shareholders/shareholders-club/new-shareholders-club",
+    "https://www.iberdrola.com/accionistas-inversores/accionistas/oficina-accionista",
+    "https://www.iberdrola.com/sala-comunicacion/noticias/detalle/intensificamos-la-relacion-con-nuestros-accionistas-a-traves-del-club-ola",
+    "https://www.iberdrola.com/documents/20125/41815/politica_comunicacion_y_contactos.pdf",
+    "https://www.iberdrola.com/about-us/our-company",
+    "https://www.iberdrola.com/shareholders-investors/share/price"
+  ]
+}

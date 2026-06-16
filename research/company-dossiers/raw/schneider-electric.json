@@ -1,0 +1,629 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "schneider-electric",
+    "name": "Schneider Electric",
+    "description": "Schneider Electric est un leader mondial des technologies de l'énergie. Le Groupe fournit des produits connectés, logiciels, systèmes et services pour électrifier, automatiser et digitaliser les bâtiments, centres de données, usines, infrastructures et réseaux électriques.",
+    "sector": "Industrie & Équipements",
+    "stockIndex": "CAC40",
+    "ticker": "SU",
+    "website": "https://www.se.com/",
+    "clubName": null,
+    "clubUrl": null
+  },
+  "offerClassification": {
+    "primaryKind": "shareholder_benefit",
+    "otherKinds": [
+      "shareholder_program",
+      "investor_relations_only"
+    ],
+    "officialProgrammeName": "Comité Consultatif des Actionnaires",
+    "status": "active",
+    "statusReason": "Schneider Electric ne publie pas de club ouvert à tous les actionnaires. La société anime un Comité Consultatif des Actionnaires limité à environ dix membres sélectionnés et propose séparément un avantage de coût au nominatif pur. Les événements publics, l'Assemblée Générale et les publications financières ne constituent pas des avantages réservés.",
+    "sourceIds": [
+      "S03",
+      "S04",
+      "S05",
+      "S06"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": null,
+    "eligibleShareClasses": [
+      "Actions ordinaires Schneider Electric SE, ISIN FR0000121972"
+    ],
+    "holdingModes": [
+      "bearer",
+      "registered_administered",
+      "registered_pure"
+    ],
+    "minimumHoldingPeriod": "Aucune durée minimale globale. La gratuité retenue exige seulement le nominatif pur, sans durée publiée. Pour le Comité Consultatif, les 25 actions requises doivent être conservées pendant tout le mandat.",
+    "residencyRestrictions": [],
+    "accountRestrictions": [
+      "La gratuité des droits de garde et des frais de gestion courante est réservée au compte-titres au nominatif pur tenu par Uptevia.",
+      "La candidature au Comité Consultatif est réservée aux actionnaires individuels détenant les actions à titre personnel, au nominatif ou au porteur.",
+      "Le Comité est limité à environ dix membres désignés par Schneider Electric après sélection; la détention de 25 actions ne garantit pas la nomination."
+    ],
+    "proofRequired": [
+      "Pour le nominatif pur, ouverture ou transfert du compte auprès d'Uptevia au moyen des formulaires disponibles dans l'espace documentaire Uptevia.",
+      "Pour le Comité Consultatif, dossier de candidature complété et signé indiquant notamment le nombre d'actions détenues; les sources publiques ne précisent pas si une attestation de détention doit être jointe."
+    ],
+    "fees": {
+      "membershipFee": null,
+      "applicationFee": null,
+      "otherFees": [
+        "Les frais de courtage liés aux ordres d'achat ou de vente ne sont pas inclus dans l'exonération des droits de garde et frais de gestion courante.",
+        "Les frais éventuellement facturés par l'établissement d'origine pour transférer les titres au nominatif pur ne sont pas précisés par Schneider Electric."
+      ],
+      "notes": "Aucune cotisation de club n'est applicable puisqu'il n'existe pas de club ouvert. Aucun frais de candidature au Comité n'est publié. Au nominatif pur, les droits de garde et les frais de gestion courante listés sont pris en charge par Schneider Electric."
+    },
+    "sourceIds": [
+      "S04",
+      "S05",
+      "S07",
+      "S08"
+    ]
+  },
+  "enrollment": {
+    "required": true,
+    "method": "transfer_agent",
+    "applicationUrl": "https://www.se.com/ww/fr/about-us/investor-relations/individual-shareholders/becoming-shareholder/",
+    "contact": "Nominatif pur : Uptevia, https://www.investors.uptevia.com, +33 1 49 37 82 36 ou 0 800 00 75 35 depuis la France. Comité Consultatif : actionnaires@se.com, 0805 651 650, Schneider Electric SE - Direction de la Communication Financière et de l'Actionnariat, 35 rue Joseph Monier - CS 30323, 92506 Rueil-Malmaison Cedex.",
+    "steps": [
+      "Pour obtenir la gratuité retenue, ouvrir un compte au nominatif pur ou demander le transfert des actions Schneider Electric vers Uptevia.",
+      "Utiliser le formulaire d'ouverture ou de transfert au nominatif pur disponible dans la section documents du site Uptevia.",
+      "Finaliser l'inscription des titres au registre de Schneider Electric; aucun délai standard de traitement n'est publié.",
+      "Pour candidater au Comité Consultatif, détenir personnellement au moins 25 actions au nominatif ou au porteur et accepter de les conserver pendant le mandat.",
+      "Télécharger, compléter et signer le dossier de candidature lié depuis la page officielle du Comité.",
+      "Envoyer le dossier au contact actuel actionnaires@se.com ou par courrier; Schneider Electric sélectionne les candidats et peut convoquer les personnes présélectionnées à un entretien."
+    ],
+    "processingTime": null,
+    "renewal": "Le compte au nominatif pur ne fait pas l'objet d'un renouvellement publié. Le mandat au Comité dure trois ans et peut être renouvelé une fois avec l'accord de Schneider Electric.",
+    "deadlines": [
+      "Aucune date limite de candidature au Comité n'est publiée au 9 juin 2026; la page officielle demande de compléter le dossier « sans attendre »."
+    ],
+    "sourceIds": [
+      "S04",
+      "S05",
+      "S07",
+      "S12"
+    ]
+  },
+  "benefits": [
+    {
+      "id": "B01",
+      "type": "reduction",
+      "title": "Droits de garde et gestion courante pris en charge",
+      "description": "Pour les actions Schneider Electric détenues au nominatif pur sur un compte tenu par Uptevia, l'actionnaire est exonéré des droits de garde et des frais de gestion courante listés par la société, notamment certains transferts, dossiers juridiques, opérations sur titres et paiements de dividendes.",
+      "value": "Exonération totale des droits de garde et des frais de gestion courante listés; frais de courtage exclus.",
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "registered_pure"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "guaranteed",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Contacter Uptevia pour ouvrir un compte au nominatif pur ou transférer des actions existantes.",
+        "Utiliser le formulaire approprié disponible dans la section documents du site Uptevia.",
+        "Achever l'inscription des titres au nominatif pur dans le registre Schneider Electric tenu par Uptevia."
+      ],
+      "limitsAndExclusions": [
+        "Aucun nombre minimal d'actions n'est publié pour cette exonération.",
+        "Aucune durée minimale de détention n'est publiée pour cette exonération.",
+        "L'avantage ne s'applique pas au porteur ni au nominatif administré, dont les frais dépendent de la banque ou de l'établissement financier.",
+        "Les frais de courtage et les coûts liés à la passation d'ordres ne sont pas présentés comme gratuits.",
+        "La page officielle est active mais non datée et ne publie pas de date de fin."
+      ],
+      "primarySourceId": "S04",
+      "supportingSourceIds": [
+        "S12"
+      ],
+      "sourceUrl": "https://www.se.com/ww/fr/about-us/investor-relations/individual-shareholders/becoming-shareholder/",
+      "evidenceGrade": "B",
+      "uncertainty": "La prise en charge est explicitement publiée sur la page actuelle, mais aucun seuil, délai de détention, barème de courtage ni date d'effet n'est indiqué."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Schneider Electric possède-t-il un club ouvert à tous ses actionnaires ?",
+      "answer": "Non. Les pages officielles actuelles ne présentent aucun club avec adhésion générale, carte de membre ou seuil d'une action. Schneider Electric dispose d'un Comité Consultatif des Actionnaires, mais celui-ci est limité à environ dix bénévoles sélectionnés pour représenter les attentes des actionnaires individuels.",
+      "sourceIds": [
+        "S03",
+        "S05",
+        "S06"
+      ]
+    },
+    {
+      "question": "Comment candidater au Comité Consultatif des Actionnaires ?",
+      "answer": "Le candidat doit être un actionnaire individuel détenant à titre personnel au moins 25 actions Schneider Electric, au nominatif ou au porteur, et s'engager à les conserver pendant tout le mandat. Il doit compléter le dossier officiel et l'envoyer au contact actuel actionnaires@se.com ou par courrier. La sélection reste à la discrétion de Schneider Electric.",
+      "sourceIds": [
+        "S05",
+        "S07",
+        "S08"
+      ]
+    },
+    {
+      "question": "Quel avantage concret est réservé aux actions Schneider Electric au nominatif pur ?",
+      "answer": "Schneider Electric prend en charge les droits de garde et les frais de gestion courante du compte au nominatif pur tenu par Uptevia. La page cite notamment certains transferts, dossiers juridiques, opérations sur titres et paiements de dividendes. Les frais de courtage ne sont pas annoncés comme gratuits.",
+      "sourceIds": [
+        "S04"
+      ]
+    },
+    {
+      "question": "Comment passer au nominatif pur et combien d'actions faut-il détenir ?",
+      "answer": "Il faut contacter Uptevia et utiliser les formulaires d'ouverture ou de transfert disponibles dans son espace documentaire. Schneider Electric ne publie ni seuil minimal d'actions ni durée minimale pour la gratuité des droits de garde et frais de gestion courante; ces valeurs restent donc à null et ne doivent pas être remplacées par une action.",
+      "sourceIds": [
+        "S04",
+        "S12"
+      ]
+    },
+    {
+      "question": "Des visites de sites sont-elles proposées à tous les actionnaires au 9 juin 2026 ?",
+      "answer": "Aucune visite actuellement réservable pour l'ensemble des actionnaires n'est prouvée. Le calendrier 2026 de la page du Comité ne liste que l'Assemblée Générale du 7 mai 2026, qui est exclue des bénéfices. Une visite du site Horizon à Carros a eu lieu en 2022 dans le cadre du Comité, mais elle ne démontre pas une offre générale ou reconduite en 2026.",
+      "sourceIds": [
+        "S05",
+        "S09"
+      ]
+    },
+    {
+      "question": "Les Innovation Talks, publications, dividendes et droits de vote sont-ils des avantages réservés ?",
+      "answer": "Non. Les Innovation Talks sont présentés par Schneider Electric comme des événements et webinaires destinés à accompagner la transformation des entreprises, sans condition d'actionnariat. Les publications financières sont publiques. Le dividende ordinaire, l'Assemblée Générale, le vote et le droit de vote double au nominatif sont des droits ou informations génériques exclus de cette fiche.",
+      "sourceIds": [
+        "S03",
+        "S04",
+        "S10"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "Schneider Electric SE est cotée sur Euronext Paris sous le symbole SU, porte l'ISIN FR0000121972 et appartient au CAC 40.",
+      "status": "verified",
+      "sourceIds": [
+        "S02",
+        "S03"
+      ],
+      "notes": "La page officielle affiche le code mnémonique de marché sous la forme SU.PA; le dossier utilise le symbole court SU conformément au manifeste et aux données existantes."
+    },
+    {
+      "id": "C02",
+      "statement": "Aucun club d'actionnaires ouvert par simple inscription ou détention d'une action n'est publié par Schneider Electric.",
+      "status": "partially_verified",
+      "sourceIds": [
+        "S03",
+        "S05"
+      ],
+      "notes": "Il s'agit d'un constat sur les ressources officielles actuelles. Le Comité Consultatif est un dispositif distinct, sélectif et limité."
+    },
+    {
+      "id": "C03",
+      "statement": "Le Comité Consultatif des Actionnaires est un programme actif d'environ dix membres désignés pour trois ans, renouvelable une fois.",
+      "status": "verified",
+      "sourceIds": [
+        "S05",
+        "S06"
+      ],
+      "notes": "La page actuelle publie la liste des membres et un appel à candidatures."
+    },
+    {
+      "id": "C04",
+      "statement": "La candidature au Comité exige au moins 25 actions détenues personnellement au nominatif ou au porteur et conservées pendant tout le mandat.",
+      "status": "verified",
+      "sourceIds": [
+        "S05",
+        "S07",
+        "S08"
+      ],
+      "notes": "Le seuil concerne uniquement le Comité et ne doit pas devenir le minimum global de la fiche."
+    },
+    {
+      "id": "C05",
+      "statement": "Le Comité se réunit trois à quatre fois par an et contribue notamment aux supports de communication et à la définition d'événements dédiés.",
+      "status": "verified",
+      "sourceIds": [
+        "S06",
+        "S07",
+        "S08"
+      ],
+      "notes": "Les anciens documents français parlent d'environ trois réunions; la page anglaise actuelle indique trois à quatre réunions."
+    },
+    {
+      "id": "C06",
+      "statement": "Au nominatif pur, Schneider Electric prend en charge les droits de garde et les frais inhérents à la gestion courante des titres.",
+      "status": "verified",
+      "sourceIds": [
+        "S04"
+      ],
+      "notes": "La page ne publie aucun seuil minimal ni durée minimale et n'étend pas la gratuité aux frais de courtage."
+    },
+    {
+      "id": "C07",
+      "statement": "Uptevia tient les comptes-titres au nominatif pur Schneider Electric et fournit les formulaires d'ouverture et de transfert.",
+      "status": "verified",
+      "sourceIds": [
+        "S04",
+        "S12"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C08",
+      "statement": "Une visite du site Horizon à Carros a été organisée pour le Comité en 2022, sans preuve d'une offre générale de visites active en 2026.",
+      "status": "partially_verified",
+      "sourceIds": [
+        "S05",
+        "S09"
+      ],
+      "notes": "La visite historique est officielle. L'absence d'offre générale active résulte du calendrier 2026 disponible, qui ne liste que l'Assemblée Générale."
+    },
+    {
+      "id": "C09",
+      "statement": "Les Innovation Talks sont des événements professionnels généraux et non un avantage réservé aux actionnaires Schneider Electric.",
+      "status": "verified",
+      "sourceIds": [
+        "S10"
+      ],
+      "notes": "La page officielle les présente avec les Innovation Summits et Innovation Days pour les entreprises, clients et professionnels, sans critère d'actionnariat."
+    },
+    {
+      "id": "C10",
+      "statement": "Les règles de 2016 prévoient le remboursement de certains frais des membres du Comité, mais les plafonds chiffrés ne sont pas confirmés pour 2026.",
+      "status": "partially_verified",
+      "sourceIds": [
+        "S05",
+        "S08"
+      ],
+      "notes": "La page actuelle lie toujours les règles, mais le document indique lui-même que les montants sont révisables annuellement."
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "Schneider Electric exploite un club gratuit accessible dès la détention d'une action.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S03",
+        "S05",
+        "S07"
+      ]
+    },
+    {
+      "claim": "Le seuil global pour accéder aux avantages Schneider Electric est d'une action.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S04",
+        "S05"
+      ]
+    },
+    {
+      "claim": "Les Innovation Talks sont des webinaires exclusifs envoyés aux actionnaires inscrits.",
+      "reason": "not_shareholder_specific",
+      "sourceIds": [
+        "S10"
+      ]
+    },
+    {
+      "claim": "Les actionnaires peuvent actuellement réserver des visites du siège de Rueil-Malmaison, de Grenoble ou de l'usine du Vaudreuil.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S03",
+        "S05",
+        "S09",
+        "S11"
+      ]
+    },
+    {
+      "claim": "Les visites d'usines organisées pendant la Semaine de l'industrie constituent un avantage actionnaire.",
+      "reason": "not_shareholder_specific",
+      "sourceIds": [
+        "S11"
+      ]
+    },
+    {
+      "claim": "La lettre aux actionnaires et l'accès aux publications stratégiques publiques constituent des bénéfices réservés.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S03"
+      ]
+    },
+    {
+      "claim": "Le Comité Consultatif est un club auquel tout détenteur de 25 actions peut adhérer automatiquement.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S05",
+        "S07",
+        "S08"
+      ]
+    },
+    {
+      "claim": "Les plafonds de remboursement de 124 euros d'hôtel et 30 euros de repas sont garantis aux membres du Comité en 2026.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S08"
+      ]
+    },
+    {
+      "claim": "La participation à l'Assemblée Générale, le vote en ligne et le droit de vote double constituent des avantages commerciaux.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "claim": "Le dividende ordinaire de Schneider Electric constitue un avantage du programme actionnaires.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S03"
+      ]
+    },
+    {
+      "claim": "L'accès au portail Uptevia et la tenue du registre constituent à eux seuls des bénéfices commerciaux distincts.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S04",
+        "S12"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.se.com/ww/fr/about-us/company-profile/",
+      "title": "Profil du groupe - Qui sommes-nous ?",
+      "publisher": "Schneider Electric",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Présentation officielle actuelle du Groupe, de ses activités d'électrification, d'automatisation et de digitalisation, de ses marchés, de ses 160 000 collaborateurs et de son chiffre d'affaires 2025."
+    },
+    {
+      "id": "S02",
+      "url": "https://www.se.com/ww/fr/about-us/investor-relations/share-information/share-price/",
+      "title": "Cours de l'action - Profil boursier",
+      "publisher": "Schneider Electric",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Fiche boursière officielle indiquant Schneider Electric SE, l'ISIN FR0000121972, le code SU.PA, Euronext Paris et le secteur des composants et équipements électriques."
+    },
+    {
+      "id": "S03",
+      "url": "https://www.se.com/ww/fr/about-us/investor-relations/individual-shareholders/",
+      "title": "Actionnaires individuels",
+      "publisher": "Schneider Electric",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page centrale actuelle des actionnaires individuels, renvoyant vers les modes de détention, l'Assemblée Générale, le dividende, le Comité Consultatif et les FAQ. Elle ne présente aucun club, abonnement à des visites ou Innovation Talks réservés."
+    },
+    {
+      "id": "S04",
+      "url": "https://www.se.com/ww/fr/about-us/investor-relations/individual-shareholders/becoming-shareholder/",
+      "title": "Devenir actionnaire",
+      "publisher": "Schneider Electric",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle comparant porteur, nominatif administré et nominatif pur. Elle désigne Uptevia, décrit l'ouverture et le transfert et confirme la prise en charge des droits de garde et frais de gestion courante au nominatif pur."
+    },
+    {
+      "id": "S05",
+      "url": "https://www.se.com/ww/fr/about-us/investor-relations/individual-shareholders/advisory-committee/",
+      "title": "Comité Consultatif des Actionnaires",
+      "publisher": "Schneider Electric",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page actuelle donnant la mission, la liste d'environ dix membres, le mandat de trois ans renouvelable une fois, l'appel à candidatures, le seuil de 25 actions, les contacts et le calendrier 2026 limité à l'Assemblée Générale."
+    },
+    {
+      "id": "S06",
+      "url": "https://www.se.com/ww/en/about-us/investor-relations/individual-shareholders/advisory-committee/",
+      "title": "Shareholders' Advisory Committee",
+      "publisher": "Schneider Electric",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Version anglaise actuelle précisant jusqu'à dix bénévoles indépendants, trois à quatre réunions annuelles, le travail sur les supports de communication et les événements dédiés, le mandat et le seuil de 25 actions."
+    },
+    {
+      "id": "S07",
+      "url": "https://www.se.com/ww/fr/assets/342/document/43630/formulaire-candidature-comite-consultatif-actionnaire-2019.pdf",
+      "title": "Formulaire de candidature au Comité Consultatif des Actionnaires",
+      "publisher": "Schneider Electric",
+      "sourceType": "official_form",
+      "official": true,
+      "publishedAt": "2019",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Formulaire ancien mais toujours lié depuis la page actuelle. Il détaille les données demandées, la présélection avec entretien, environ trois réunions annuelles, la participation ponctuelle à des manifestations et l'engagement de conserver 25 actions."
+    },
+    {
+      "id": "S08",
+      "url": "https://www.se.com/ww/fr/assets/342/document/32670/organisation-fonctionnement-comite-consultatif-actionnaires.pdf",
+      "title": "Organisation et fonctionnement du Comité Consultatif d'Actionnaires",
+      "publisher": "Schneider Electric",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": "2016",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Règles anciennes toujours liées depuis la page actuelle : missions, sélection, mandat, seuil de 25 actions, obligations, bénévolat et remboursement de frais. Les montants financiers y sont expressément indiqués comme révisables annuellement."
+    },
+    {
+      "id": "S09",
+      "url": "https://www.se.com/ww/fr/assets/342/document/401916/presentation-ag-2023-fr.pdf",
+      "title": "Présentation de l'Assemblée Générale du 4 mai 2023",
+      "publisher": "Schneider Electric",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2023-05-04",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "archived",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Présentation officielle indiquant trois réunions du Comité en 2022, des travaux sur les outils de communication et une visite du site Horizon à Carros. Elle prouve une activité historique du Comité, pas une visite générale active en 2026."
+    },
+    {
+      "id": "S10",
+      "url": "https://www.se.com/ww/en/about-us/events/",
+      "title": "Events, Webinars & Innovation Experiences",
+      "publisher": "Schneider Electric",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page publique des événements présentant les Innovation Talks avec les Innovation Summits et Innovation Days comme contenus destinés à aider les entreprises à rester compétitives, sans condition d'actionnariat."
+    },
+    {
+      "id": "S11",
+      "url": "https://www.se.com/ww/fr/about-us/newsroom/news/press-releases/schneider-electric-ouvre-ses-usines-pour-la-13%C3%A8me-%C3%A9dition-de-la-semaine-de-l%E2%80%99industrie-avec-l%E2%80%99objectif-de-faire-changer-le-regard-des-jeunes-sur-l%E2%80%99industrie-6730e443cf5bf1a12b07769f",
+      "title": "Schneider Electric ouvre ses usines pour la 13e édition de la Semaine de l'industrie",
+      "publisher": "Schneider Electric",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": "2024-11-12",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "archived",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Communiqué officiel sur des visites publiques de sites en novembre 2024 destinées à faire découvrir l'industrie aux jeunes. Ces visites ne sont pas présentées comme un avantage réservé aux actionnaires."
+    },
+    {
+      "id": "S12",
+      "url": "https://www.se.com/ww/fr/about-us/investor-relations/contact/",
+      "title": "Informations supplémentaires et contact",
+      "publisher": "Schneider Electric",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page actuelle de contact confirmant Uptevia pour les demandes liées à l'actionnariat, les identifiants du portail, le formulaire de contact et les numéros +33 1 49 37 82 36 et 0 800 00 75 35."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Nombre annuel de réunions du Comité",
+      "sourceIds": [
+        "S06",
+        "S07",
+        "S08"
+      ],
+      "positions": [
+        "La page anglaise actuelle indique que le Comité se réunit trois à quatre fois par an.",
+        "Le formulaire de 2019 et les règles de 2016 évoquent environ ou exactement trois réunions par an."
+      ],
+      "resolution": "Retenir la formulation actuelle « trois à quatre fois par an » et considérer les anciens documents comme une description historique minimale.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Adresse électronique de candidature au Comité",
+      "sourceIds": [
+        "S05",
+        "S07"
+      ],
+      "positions": [
+        "La page officielle actuelle indique actionnaires@se.com.",
+        "Le formulaire de 2019 indique encore actionnaires@schneider-electric.com."
+      ],
+      "resolution": "Utiliser actionnaires@se.com, contact publié sur la page actuelle, et signaler l'adresse du formulaire comme ancienne.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Montants de remboursement des frais du Comité",
+      "sourceIds": [
+        "S05",
+        "S08"
+      ],
+      "positions": [
+        "La page actuelle continue de lier les règles de fonctionnement de 2016.",
+        "Les règles chiffrent certains remboursements mais précisent que les montants sont révisables annuellement et aucune grille 2026 n'est publiée."
+      ],
+      "resolution": "Reconnaître l'existence historique d'une prise en charge de frais liés au mandat, sans publier les plafonds de 2016 comme avantage actif ou garanti en 2026.",
+      "impact": "benefit_excluded"
+    },
+    {
+      "topic": "Disponibilité de visites pour les actionnaires",
+      "sourceIds": [
+        "S05",
+        "S09",
+        "S11"
+      ],
+      "positions": [
+        "Une visite du site Horizon à Carros a été réalisée en 2022 pour le Comité Consultatif.",
+        "Le calendrier actionnaires individuels 2026 ne liste que l'Assemblée Générale du 7 mai 2026.",
+        "Des visites d'usines ont existé lors de la Semaine de l'industrie 2024, mais elles visaient un public jeune et non les actionnaires."
+      ],
+      "resolution": "Ne retenir aucune visite active comme bénéfice au 9 juin 2026. La visite de Carros reste un fait historique réservé au Comité et les visites de la Semaine de l'industrie ne sont pas spécifiques aux actionnaires.",
+      "impact": "benefit_excluded"
+    }
+  ],
+  "handoff": {
+    "researchStatus": "complete_with_uncertainties",
+    "readyForDevelopment": true,
+    "benefitCount": 1,
+    "faqCount": 6,
+    "blockingIssues": [],
+    "developerNotes": [
+      "Ne pas créer de clubName ni de clubUrl : le Comité Consultatif n'est pas un club ouvert et ses membres sont sélectionnés.",
+      "Conserver eligibility.globalMinimumShares et B01.requiredShares à null. Le seuil de 25 actions concerne uniquement la candidature au Comité.",
+      "Retenir un seul bénéfice : la prise en charge des droits de garde et frais de gestion courante au nominatif pur chez Uptevia.",
+      "Ne pas transformer le Comité, ses réunions, son rôle à l'Assemblée Générale ou ses remboursements de frais de mandat en bénéfices commerciaux.",
+      "Ne pas ajouter les Innovation Talks, les publications, le portail Uptevia, le dividende ordinaire, le vote, le droit de vote double ou l'Assemblée Générale.",
+      "Ne pas ajouter de visite de site : Carros 2022 est historique et réservé au Comité; aucune visite générale n'était ouverte au 9 juin 2026.",
+      "Pour la candidature au Comité, utiliser le contact actuel actionnaires@se.com plutôt que l'adresse ancienne du formulaire de 2019.",
+      "Le dossier final Prisma ne doit pas être créé par le chercheur."
+    ]
+  }
+}

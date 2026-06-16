@@ -1,0 +1,540 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "3m",
+    "name": "3M",
+    "description": "3M Company est un groupe industriel américain de science des matériaux. Depuis la scission de Solventum en 2024, ses activités sont organisées autour de la sécurité et de l'industrie, du transport et de l'électronique, ainsi que des produits de consommation.",
+    "sector": "Industrie & Équipements",
+    "stockIndex": "S&P 500",
+    "ticker": "MMM",
+    "website": "https://www.3m.com/",
+    "clubName": null,
+    "clubUrl": null
+  },
+  "offerClassification": {
+    "primaryKind": "shareholder_benefit",
+    "otherKinds": [
+      "investor_relations_only"
+    ],
+    "officialProgrammeName": "3M Holiday Gift Box Offer",
+    "status": "unclear",
+    "statusReason": "Une offre saisonnière réservée aux actionnaires est officiellement prouvée pour 2025 et son portail partenaire reste accessible en 2026. Toutefois, les dernières conditions précises ont expiré le 31 décembre 2025 et aucune condition 2026 n'était publiée au 9 juin 2026.",
+    "sourceIds": [
+      "S01",
+      "S05",
+      "S06",
+      "S07"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": null,
+    "eligibleShareClasses": [],
+    "holdingModes": [
+      "unspecified"
+    ],
+    "minimumHoldingPeriod": null,
+    "residencyRestrictions": [],
+    "accountRestrictions": [
+      "Le portail exige un code promotionnel, mais la méthode publique d'obtention de ce code et les critères d'adressage ne sont pas précisés pour 2026."
+    ],
+    "proofRequired": [
+      "Code promotionnel demandé par le portail de commande.",
+      "Aucune procédure publique 2026 ne précise le justificatif de détention accepté."
+    ],
+    "fees": {
+      "membershipFee": null,
+      "applicationFee": null,
+      "otherFees": [],
+      "notes": "Aucune adhésion formelle n'est établie. Le prix de la box 2026 et les frais éventuels ne sont pas publiés. Les conditions 2025 indiquaient que la taxe, l'expédition et la manutention étaient incluses dans le prix de la box, sans afficher ce prix."
+    },
+    "sourceIds": [
+      "S05",
+      "S06"
+    ]
+  },
+  "enrollment": {
+    "required": false,
+    "method": "not_applicable",
+    "applicationUrl": "https://apfco.com/secure/W1309/Home/EnterPromoCode",
+    "contact": "Service 3M Holiday Gift Box Offer : 1-866-541-1711 ou HolidayGiftBox_T2422@apfco.com. Ces coordonnées proviennent des conditions 2025 et leur validité pour une éventuelle campagne 2026 n'est pas confirmée.",
+    "steps": [
+      "Aucune inscription à un club d'actionnaires n'est publiée.",
+      "Pour l'offre 2025, l'actionnaire devait accéder au portail avec un code promotionnel, accepter les conditions et payer en ligne par carte; cette procédure n'est pas confirmée pour 2026."
+    ],
+    "processingTime": null,
+    "renewal": "Aucune adhésion n'est à renouveler; la reconduction de l'offre elle-même pour 2026 n'est pas confirmée.",
+    "deadlines": [
+      "Dernière échéance officielle trouvée : 31 décembre 2025 ou épuisement des stocks; elle est expirée.",
+      "Aucune échéance 2026 n'était publiée au 9 juin 2026."
+    ],
+    "sourceIds": [
+      "S05",
+      "S06",
+      "S07"
+    ]
+  },
+  "benefits": [],
+  "faqs": [
+    {
+      "question": "3M dispose-t-elle d'un club d'actionnaires formel ?",
+      "answer": "Aucun club formel avec adhésion, carte de membre ou seuil global n'a été trouvé dans les ressources officielles consultées. 3M exploite surtout un espace de relations investisseurs et renvoie les détenteurs inscrits vers EQ Shareowner Services pour la tenue des comptes, les transferts et les dividendes.",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "question": "La 3M Holiday Gift Box est-elle disponible au 9 juin 2026 ?",
+      "answer": "Sa disponibilité 2026 n'est pas prouvée. Le portail partenaire 3M reste accessible et demande un code promotionnel, mais les dernières conditions trouvées limitaient l'offre au 31 décembre 2025 ou à l'épuisement des stocks. La FAQ liée au portail mentionne même encore l'échéance 2024. Aucun bénéfice actif n'est donc retenu au 9 juin 2026.",
+      "sourceIds": [
+        "S05",
+        "S06",
+        "S07"
+      ]
+    },
+    {
+      "question": "Quelles étaient les conditions d'accès à la dernière offre Holiday Gift Box prouvée ?",
+      "answer": "Les conditions 2025 réservaient l'achat aux actionnaires de 3M et interdisaient la revente ou la distribution commerciale. Elles ne précisaient ni nombre minimal d'actions, ni durée de détention, ni mode de conservation des titres. Il serait donc injustifié de remplacer ces inconnues par un seuil d'une action.",
+      "sourceIds": [
+        "S06"
+      ]
+    },
+    {
+      "question": "Le prix de 27 dollars et la valeur de 53 dollars de produits sont-ils confirmés pour 2026 ?",
+      "answer": "Non. Aucun document officiel accessible ne confirme ces montants pour une campagne 2026. Les conditions 2025 indiquent seulement que taxe, expédition et manutention sont incluses dans le prix, sans chiffrer ce prix ni la valeur des produits. Aucun prix ni contenu 2026 ne doit être publié sans nouveau document officiel.",
+      "sourceIds": [
+        "S05",
+        "S06"
+      ]
+    },
+    {
+      "question": "Le plan EQ de réinvestissement ou d'achat d'actions constitue-t-il un avantage actionnaire ?",
+      "answer": "Non pour cette fiche. 3M indique ne pas proposer de plan d'achat direct initial, mais son plan de réinvestissement permet aux actionnaires inscrits d'ajouter des achats en espèces et 3M prend en charge certains frais d'achat. Il s'agit d'un service standard de tenue et d'investissement administré par EQ, explicitement exclu des bénéfices génériques par le contrat de recherche.",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "question": "Les dividendes, l'assemblée générale et les publications financières sont-ils des bénéfices ?",
+      "answer": "Non. Le dividende ordinaire, le vote, l'assemblée générale et l'accès aux publications publiques ne sont pas des avantages commerciaux réservés. De plus, l'ancienne présentation de 3M comme « Dividend King » n'est plus actuelle : le dividende a été réinitialisé après la scission de Solventum en 2024 et 3M a été retirée de l'indice S&P 500 Dividend Aristocrats.",
+      "sourceIds": [
+        "S03",
+        "S12",
+        "S13"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "3M Company est cotée sous le symbole MMM et exerce des activités industrielles de science des matériaux.",
+      "status": "verified",
+      "sourceIds": [
+        "S08",
+        "S09"
+      ],
+      "notes": "Le rapport annuel 2025 et les résultats du premier trimestre 2026 confirment l'identité, le symbole et le périmètre opérationnel actuel."
+    },
+    {
+      "id": "C02",
+      "statement": "Aucun club formel d'actionnaires 3M n'est identifié dans les ressources officielles actuelles.",
+      "status": "uncertain",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "notes": "Il s'agit d'un constat de recherche sur les pages officielles disponibles, non d'une preuve absolue d'inexistence."
+    },
+    {
+      "id": "C03",
+      "statement": "3M a proposé une Holiday Gift Box réservée à ses actionnaires au cours de la saison 2025.",
+      "status": "verified",
+      "sourceIds": [
+        "S06"
+      ],
+      "notes": "Les conditions 2025 définissent explicitement l'acheteur comme actionnaire et fixent l'expiration au 31 décembre 2025 ou à l'épuisement des stocks."
+    },
+    {
+      "id": "C04",
+      "statement": "La reconduction et les conditions de la Holiday Gift Box pour 2026 ne sont pas confirmées.",
+      "status": "uncertain",
+      "sourceIds": [
+        "S05",
+        "S06",
+        "S07"
+      ],
+      "notes": "Le portail subsiste en 2026, mais ses documents visibles sont expirés ou obsolètes."
+    },
+    {
+      "id": "C05",
+      "statement": "Les relations actionnaires courantes de 3M sont assurées par l'espace investisseurs et EQ Shareowner Services.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "notes": "EQ traite notamment les registres, transferts, changements de propriétaire et opérations liées aux dividendes."
+    },
+    {
+      "id": "C06",
+      "statement": "3M n'offre pas de plan d'achat direct initial, mais son DRIP permet des achats additionnels aux actionnaires inscrits.",
+      "status": "verified",
+      "sourceIds": [
+        "S02",
+        "S04"
+      ],
+      "notes": "La distinction résout l'apparente contradiction entre la FAQ et la brochure : le plan n'ouvre pas un premier achat direct aux non-actionnaires."
+    },
+    {
+      "id": "C07",
+      "statement": "3M reste une composante du S&P 500 au 9 juin 2026.",
+      "status": "verified",
+      "sourceIds": [
+        "S10",
+        "S11"
+      ],
+      "notes": "S&P DJI a confirmé le maintien après la scission de 2024; le portefeuille réglementaire du SPDR S&P 500 ETF Trust au 31 mars 2026 contient toujours 3M."
+    },
+    {
+      "id": "C08",
+      "statement": "L'affirmation historique selon laquelle 3M augmente son dividende chaque année depuis plus de soixante ans n'est plus actuelle.",
+      "status": "verified",
+      "sourceIds": [
+        "S12",
+        "S13"
+      ],
+      "notes": "3M a réinitialisé le dividende après la scission de Solventum et a été retirée de l'indice S&P 500 Dividend Aristocrats en juin 2024."
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "La 3M Holiday Gift Box est un bénéfice actif et commandable au 9 juin 2026.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S05",
+        "S06",
+        "S07"
+      ]
+    },
+    {
+      "claim": "La box 2026 coûte 27 dollars et contient environ 53 dollars de produits.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S05",
+        "S06"
+      ]
+    },
+    {
+      "claim": "Une seule action suffit et chaque actionnaire reçoit automatiquement une brochure et un code au quatrième trimestre.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S05",
+        "S06"
+      ]
+    },
+    {
+      "claim": "Le Direct Stock Purchase Plan ou le DRIP administré par EQ est un bénéfice actionnaire distinct.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "claim": "Le dividende trimestriel ordinaire de 3M constitue un avantage actionnaire.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S03"
+      ]
+    },
+    {
+      "claim": "3M est encore un Dividend King avec plus de soixante années consécutives de hausse du dividende.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S12",
+        "S13"
+      ]
+    },
+    {
+      "claim": "Le vote, l'assemblée générale et l'accès aux rapports publics sont des bénéfices réservés.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://investors.3m.com/",
+      "title": "3M Investor Relations",
+      "publisher": "3M Company",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page investisseurs actuelle présentant les rubriques financières et de gouvernance, ainsi que les coordonnées d'EQ Shareowner Services et du service relations investisseurs. Aucun club d'actionnaires n'y est présenté."
+    },
+    {
+      "id": "S02",
+      "url": "https://investors.3m.com/resources/faq",
+      "title": "FAQ - 3M Company",
+      "publisher": "3M Company",
+      "sourceType": "official_faq",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "FAQ officielle actuelle : EQ est l'agent de transfert; 3M déclare ne pas avoir de plan d'achat direct initial; un plan automatique de réinvestissement permet aussi des achats additionnels; le symbole est MMM."
+    },
+    {
+      "id": "S03",
+      "url": "https://investors.3m.com/stock-information/dividends",
+      "title": "Dividends - 3M Company",
+      "publisher": "3M Company",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle actuelle indiquant plus de cent ans de versements ininterrompus et renvoyant au Dividend Reinvestment Plan administré par EQ. Ces éléments sont des services financiers génériques, pas des bénéfices retenus."
+    },
+    {
+      "id": "S04",
+      "url": "https://d1io3yog0oux5.cloudfront.net/3m/files/pages/stock-information/dividends/3M-DRIP-Plan.pdf",
+      "title": "3M Shareowner Services Plus Plan - Dividend Reinvestment Plan",
+      "publisher": "3M Company et EQ Shareowner Services",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Brochure liée depuis la page officielle 2026. Elle réserve l'inscription en ligne aux actionnaires déjà inscrits, prévoit des achats facultatifs dès 10 dollars et précise les frais d'achat pris en charge par 3M ainsi que les frais de vente."
+    },
+    {
+      "id": "S05",
+      "url": "https://apfco.com/secure/W1309/Home/EnterPromoCode",
+      "title": "3M Holiday Gift Box Offer - Enter Promo Code",
+      "publisher": "3M Company et APFCO",
+      "sourceType": "official_partner",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "C",
+      "evidenceSummary": "Portail partenaire 3M encore accessible en 2026, accueillant les actionnaires et demandant le code promotionnel de leur brochure. La page ne publie pas les critères, le prix, le contenu ou les dates d'une offre 2026."
+    },
+    {
+      "id": "S06",
+      "url": "https://apfco.com/secure/W1309/Content/assets/terms_and_conditions.pdf?v=EYRZTWXEGAY6DK1SZCHCADKM05UPESMD",
+      "title": "3M Holiday Gift Box Offer - Purchase Agreement",
+      "publisher": "3M Company et APFCO",
+      "sourceType": "official_partner",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "expired",
+      "evidenceGrade": "C",
+      "evidenceSummary": "Conditions précises de la campagne 2025 : achat réservé aux actionnaires de 3M pour usage personnel, commande en ligne par carte, taxes et transport inclus, quantités discrétionnaires, expiration le 31 décembre 2025 ou à épuisement."
+    },
+    {
+      "id": "S07",
+      "url": "https://apfco.com/secure/W1309/Content/assets/faqs.pdf?v=U50F66UG1SU0V7UUX4GCV3RU8A634UA1",
+      "title": "3M Holiday Gift Box Offer - FAQ",
+      "publisher": "3M Company et APFCO",
+      "sourceType": "official_partner",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "expired",
+      "evidenceGrade": "C",
+      "evidenceSummary": "FAQ encore liée au portail mais datée par son contenu de la saison 2024. Elle décrit commande, paiement, délai de trois à quatre semaines et contact, tout en fixant une échéance expirée au 31 décembre 2024."
+    },
+    {
+      "id": "S08",
+      "url": "https://investors.3m.com/financials/sec-filings/content/0000066740-26-000014/mmm-20251231.htm",
+      "title": "3M Company Annual Report on Form 10-K for 2025",
+      "publisher": "3M Company",
+      "sourceType": "regulatory_filing",
+      "official": true,
+      "publishedAt": "2026-02-03",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Dépôt réglementaire annuel le plus récent, confirmant la structure actuelle de 3M et ses trois groupes d'activités : Safety and Industrial, Transportation and Electronics, et Consumer."
+    },
+    {
+      "id": "S09",
+      "url": "https://investors.3m.com/news-events/press-releases/detail/1924/3m-reports-first-quarter-2026-results",
+      "title": "3M Reports First-Quarter 2026 Results",
+      "publisher": "3M Company",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": "2026-04-21",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Communiqué officiel daté confirmant l'activité courante de 3M, sa cotation NYSE sous le symbole MMM et ses résultats du premier trimestre 2026."
+    },
+    {
+      "id": "S10",
+      "url": "https://www.sec.gov/Archives/edgar/data/884394/000119312526247066/d75559dn30d.htm",
+      "title": "SPDR S&P 500 ETF Trust - Schedule of Investments, March 31, 2026",
+      "publisher": "SPDR S&P 500 ETF Trust et U.S. Securities and Exchange Commission",
+      "sourceType": "regulatory_filing",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2026-03-31",
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "C",
+      "evidenceSummary": "État réglementaire du fonds répliquant le S&P 500 au 31 mars 2026, dont le portefeuille comprend 3M Co. Il corrobore le maintien de 3M dans l'indice à une date proche de la recherche."
+    },
+    {
+      "id": "S11",
+      "url": "https://www.spglobal.com/spdji/en/documents/indexnews/announcements/20240327-1471355/1471355_5gemmm.pdf",
+      "title": "GE Vernova and Solventum Set to Join S&P 500",
+      "publisher": "S&P Dow Jones Indices",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2024-03-27",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "archived",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Annonce officielle de l'opérateur d'indice confirmant que 3M, composante du S&P 500 et du S&P 100, resterait dans les deux indices après la scission de Solventum le 1er avril 2024."
+    },
+    {
+      "id": "S12",
+      "url": "https://investors.3m.com/financials/sec-filings/content/0000066740-25-000006/0000066740-25-000006.pdf",
+      "title": "3M Company Annual Report on Form 10-K for 2024",
+      "publisher": "3M Company",
+      "sourceType": "regulatory_filing",
+      "official": true,
+      "publishedAt": "2025-02-05",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "archived",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Le rapport indique que le dividende trimestriel est passé de 1,51 dollar au premier trimestre 2024 à 0,70 dollar au deuxième trimestre, présenté comme une réinitialisation après la scission de Solventum."
+    },
+    {
+      "id": "S13",
+      "url": "https://www.spglobal.com/spdji/en/documents/indexnews/announcements/20240524-1472363/1472363_s%26p500dividendaristocratsmay242024.pdf",
+      "title": "Constituent Change Announced for the S&P 500 Dividend Aristocrats Index",
+      "publisher": "S&P Dow Jones Indices",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2024-05-24",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "archived",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Annonce officielle retirant 3M de l'indice S&P 500 Dividend Aristocrats avant l'ouverture du 3 juin 2024, ce qui contredit l'usage actuel de l'ancienne étiquette de croissance annuelle continue."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Statut 2026 de la Holiday Gift Box",
+      "sourceIds": [
+        "S05",
+        "S06",
+        "S07"
+      ],
+      "positions": [
+        "Le portail partenaire reste accessible en 2026, porte la marque 3M et demande un code promotionnel.",
+        "Les conditions les plus récentes trouvées expirent le 31 décembre 2025 ou à l'épuisement des stocks.",
+        "La FAQ liée au même portail conserve une échéance encore plus ancienne au 31 décembre 2024."
+      ],
+      "resolution": "Considérer l'existence récente de l'offre comme prouvée, mais exclure tout bénéfice actif tant que des conditions 2026 précises et datées ne sont pas publiées.",
+      "impact": "benefit_excluded"
+    },
+    {
+      "topic": "Méthodes de commande de la Holiday Gift Box",
+      "sourceIds": [
+        "S06",
+        "S07"
+      ],
+      "positions": [
+        "Les conditions 2025 imposent une commande en ligne et un paiement par carte uniquement.",
+        "La FAQ 2024 autorise aussi une commande postale payée par chèque."
+      ],
+      "resolution": "Pour 2025, les conditions plus récentes et expressément supérieures doivent prévaloir. Aucune méthode ne peut être affirmée pour 2026.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Existence d'un plan d'achat direct d'actions",
+      "sourceIds": [
+        "S02",
+        "S04"
+      ],
+      "positions": [
+        "La FAQ 3M déclare qu'il n'existe pas de plan d'achat direct à ce jour.",
+        "La brochure DRIP permet aux actionnaires déjà inscrits d'effectuer des achats facultatifs en espèces."
+      ],
+      "resolution": "3M ne propose pas de premier achat direct aux non-actionnaires; le DRIP permet seulement aux actionnaires inscrits d'ajouter des achats. Ce service reste exclu des bénéfices.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Continuité et croissance du dividende",
+      "sourceIds": [
+        "S03",
+        "S12",
+        "S13"
+      ],
+      "positions": [
+        "3M affirme avoir versé un dividende sans interruption depuis plus de cent ans.",
+        "Le rapport 2024 documente une réinitialisation du montant trimestriel de 1,51 dollar à 0,70 dollar après la scission.",
+        "S&P DJI a retiré 3M de l'indice Dividend Aristocrats en juin 2024."
+      ],
+      "resolution": "La continuité des versements ne signifie pas une hausse annuelle continue. L'étiquette historique « Dividend King » ne doit plus être utilisée comme avantage actuel.",
+      "impact": "benefit_excluded"
+    }
+  ],
+  "handoff": {
+    "researchStatus": "complete_with_uncertainties",
+    "readyForDevelopment": true,
+    "benefitCount": 0,
+    "faqCount": 6,
+    "blockingIssues": [],
+    "developerNotes": [
+      "Ne pas créer de club 3M : clubName et clubUrl restent null.",
+      "Conserver une liste de bénéfices vide au 9 juin 2026; les dernières conditions Holiday Gift Box sont expirées.",
+      "Ne pas transformer le DRIP, les achats additionnels EQ, le dividende, l'assemblée générale, le vote ou les publications publiques en bénéfices.",
+      "La Holiday Gift Box pourra être réévaluée uniquement sur publication de conditions officielles 2026 précisant prix, dates, seuil, preuve, territoires et procédure.",
+      "Le dossier final Prisma ne doit pas être créé par le chercheur."
+    ]
+  }
+}

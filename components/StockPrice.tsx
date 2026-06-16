@@ -20,6 +20,37 @@ const CURRENCY_SYMBOL: Record<string, string> = {
   GBp: "p",
 };
 
+const QUOTE_CACHE_DURATION = 55_000;
+const quoteCache = new Map<
+  string,
+  { quote: Quote; fetchedAt: number }
+>();
+const quoteRequests = new Map<string, Promise<Quote>>();
+
+async function fetchQuote(symbol: string) {
+  const cached = quoteCache.get(symbol);
+  if (cached && Date.now() - cached.fetchedAt < QUOTE_CACHE_DURATION) {
+    return cached.quote;
+  }
+
+  const pendingRequest = quoteRequests.get(symbol);
+  if (pendingRequest) return pendingRequest;
+
+  const request = fetch(`/api/quote/${encodeURIComponent(symbol)}`)
+    .then(async (response) => {
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const quote = (await response.json()) as Quote;
+      quoteCache.set(symbol, { quote, fetchedAt: Date.now() });
+      return quote;
+    })
+    .finally(() => {
+      quoteRequests.delete(symbol);
+    });
+
+  quoteRequests.set(symbol, request);
+  return request;
+}
+
 function formatPrice(price: number, currency: string): string {
   if (currency === "GBp") return `${price.toFixed(2)}p`;
   const sym = CURRENCY_SYMBOL[currency] ?? currency;
@@ -98,20 +129,41 @@ export function StockPrice({ symbol }: { symbol: string }) {
 export function MinSharesCost({
   symbol,
   minShares,
+  compact = false,
+  label = "COÛT MIN.",
 }: {
   symbol: string;
   minShares: number;
+  compact?: boolean;
+  label?: string;
 }) {
   const quote = useQuote(symbol);
+  const valueClass = compact
+    ? "text-[18px] sm:text-[20px]"
+    : "text-[36px]";
+  const labelClass = compact ? "text-[9px]" : "text-[11px]";
 
-  if (quote === "error" || !quote) {
+  if (quote === "error") {
     return (
       <div>
-        <p className="font-[family-name:var(--font-display)] text-[36px] font-bold text-text-disabled leading-none">
+        <p className={`font-[family-name:var(--font-display)] ${valueClass} font-bold text-text-disabled leading-none`}>
           —
         </p>
-        <p className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]">
-          COÛT MIN.
+        <p className={`font-[family-name:var(--font-data)] ${labelClass} tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]`}>
+          INDISPONIBLE
+        </p>
+      </div>
+    );
+  }
+
+  if (!quote) {
+    return (
+      <div>
+        <p className={`font-[family-name:var(--font-display)] ${valueClass} font-bold text-text-disabled leading-none animate-pulse`}>
+          ···
+        </p>
+        <p className={`font-[family-name:var(--font-data)] ${labelClass} tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]`}>
+          COURS EN CHARGEMENT
         </p>
       </div>
     );
@@ -121,11 +173,11 @@ export function MinSharesCost({
 
   return (
     <div>
-      <p className="font-[family-name:var(--font-display)] text-[36px] font-bold text-text-display leading-none">
+      <p className={`font-[family-name:var(--font-display)] ${valueClass} font-bold text-text-display leading-none`}>
         {formatTotal(total, quote.currency)}
       </p>
-      <p className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]">
-        COÛT MIN.
+      <p className={`font-[family-name:var(--font-data)] ${labelClass} tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]`}>
+        {label}
       </p>
     </div>
   );
@@ -139,10 +191,8 @@ function useQuote(symbol: string): Quote | "error" | null {
 
     async function load() {
       try {
-        const res = await fetch(`/api/quote/${encodeURIComponent(symbol)}`);
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        const data: Quote = await res.json();
-        if (!cancelled) setState(data);
+        const quote = await fetchQuote(symbol);
+        if (!cancelled) setState(quote);
       } catch {
         if (!cancelled) setState("error");
       }

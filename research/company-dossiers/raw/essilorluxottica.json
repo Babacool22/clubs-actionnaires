@@ -1,0 +1,420 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "essilorluxottica",
+    "name": "EssilorLuxottica",
+    "description": "EssilorLuxottica est un groupe mondial de conception, fabrication et distribution de produits de soin de la vue, de lunettes et de solutions medtech. Son portefeuille associe technologies de verres, marques comme Ray-Ban et Oakley, lunettes connectées et réseaux de distribution.",
+    "sector": "Santé & Pharmacie",
+    "stockIndex": "CAC40",
+    "ticker": "EL",
+    "website": "https://www.essilorluxottica.com/",
+    "clubName": null,
+    "clubUrl": null
+  },
+  "offerClassification": {
+    "primaryKind": "shareholder_benefit",
+    "otherKinds": [
+      "investor_relations_only"
+    ],
+    "officialProgrammeName": null,
+    "status": "active",
+    "statusReason": "Aucun club ni programme d'adhésion n'est actuellement prouvé. La page officielle documente toutefois un avantage économique précis pour les actions inscrites au nominatif pur auprès de la Société : l'absence de frais de garde et d'administration.",
+    "sourceIds": [
+      "S01",
+      "S05"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": null,
+    "eligibleShareClasses": [
+      "Actions ordinaires EssilorLuxottica, ISIN FR0000121667"
+    ],
+    "holdingModes": [
+      "registered_pure"
+    ],
+    "minimumHoldingPeriod": null,
+    "residencyRestrictions": [],
+    "accountRestrictions": [
+      "Les actions doivent être inscrites au nominatif pur auprès de la Société, par l'intermédiaire de son mandataire Uptevia, et non conservées au porteur ou au nominatif administré chez une banque ou un courtier."
+    ],
+    "proofRequired": [
+      "L'inscription des actions au nom de l'actionnaire dans le registre tenu pour EssilorLuxottica constitue la preuve de la détention au nominatif pur."
+    ],
+    "fees": {
+      "membershipFee": null,
+      "applicationFee": null,
+      "otherFees": [],
+      "notes": "Il n'existe pas de cotisation de club documentée. EssilorLuxottica indique qu'aucuns frais de garde ni frais d'administration ne sont dus lorsque les actions sont inscrites auprès de la Société; les éventuels frais de transaction, de transfert ou facturés par un intermédiaire ne sont pas précisés."
+    },
+    "sourceIds": [
+      "S01",
+      "S08"
+    ]
+  },
+  "enrollment": {
+    "required": true,
+    "method": "transfer_agent",
+    "applicationUrl": "https://www.investors.uptevia.com/investor/#/login",
+    "contact": "Uptevia, 90-110 Esplanade du Général de Gaulle, 92931 Paris La Défense Cedex; France : 0 800 007 535; étranger : +33 (0)1 49 37 82 36.",
+    "steps": [
+      "Pour acheter directement au nominatif pur, contacter Uptevia par son espace investisseurs ou par téléphone afin d'ouvrir ou d'utiliser le compte nominatif tenu pour EssilorLuxottica.",
+      "Si les actions sont déjà détenues au porteur, demander à la banque ou au courtier de les convertir au nominatif; seule l'inscription auprès de la Société ouvre droit à l'exonération de frais de garde et d'administration décrite."
+    ],
+    "processingTime": null,
+    "renewal": null,
+    "deadlines": [],
+    "sourceIds": [
+      "S01"
+    ]
+  },
+  "benefits": [
+    {
+      "id": "B01",
+      "type": "reduction",
+      "title": "Absence de frais de garde au nominatif pur",
+      "description": "Les actions inscrites directement auprès d'EssilorLuxottica, au nominatif pur via Uptevia, ne supportent pas de frais de garde ni de frais d'administration. Cet avantage ne s'applique pas aux titres conservés au porteur ou au nominatif administré chez une banque ou un courtier.",
+      "value": "Aucuns frais de garde ni frais d'administration pour les actions inscrites auprès de la Société.",
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "registered_pure"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "guaranteed",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Faire inscrire les actions au nominatif pur auprès d'EssilorLuxottica par l'intermédiaire d'Uptevia.",
+        "Pour des actions déjà détenues au porteur, demander la conversion à la banque ou au courtier."
+      ],
+      "limitsAndExclusions": [
+        "L'exonération publiée vise les frais de garde et d'administration, sans indication sur les frais de courtage, de transfert, de conversion, les taxes ou d'autres frais éventuels.",
+        "Aucun nombre minimal d'actions ni aucune durée minimale de détention ne sont publiés pour cet avantage.",
+        "Le nominatif administré et la détention au porteur ne bénéficient pas de l'exonération décrite pour l'inscription auprès de la Société."
+      ],
+      "primarySourceId": "S01",
+      "supportingSourceIds": [],
+      "sourceUrl": "https://www.essilorluxottica.com/en/investors/stock-and-shareholder-information/",
+      "evidenceGrade": "B",
+      "uncertainty": "La page officielle est actuelle mais non datée et ne publie pas de grille détaillée des autres frais éventuellement applicables."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "EssilorLuxottica dispose-t-elle d'un club ou d'un programme pour les actionnaires individuels ?",
+      "answer": "Aucun club formel, nom de programme, formulaire d'adhésion ou statut de membre n'a été trouvé dans les pages officielles actuelles au 9 juin 2026. L'ancienne URL dédiée aux actionnaires individuels renvoie une page 404. La société propose surtout un espace d'information investisseurs et un avantage lié au nominatif pur.",
+      "sourceIds": [
+        "S01",
+        "S05",
+        "S07"
+      ]
+    },
+    {
+      "question": "Quel avantage concret est actuellement prouvé pour un actionnaire individuel ?",
+      "answer": "Le seul avantage économique permanent clairement documenté est l'absence de frais de garde et de frais d'administration lorsque les actions sont inscrites directement auprès d'EssilorLuxottica, au nominatif pur via Uptevia. La page ne précise pas les autres frais de transaction ou de transfert éventuellement applicables.",
+      "sourceIds": [
+        "S01"
+      ]
+    },
+    {
+      "question": "Quelles formes de détention des actions EssilorLuxottica sont possibles ?",
+      "answer": "Les actions peuvent être détenues au porteur, auquel cas EssilorLuxottica ne connaît pas le nom du détenteur, ou au nominatif. Le nominatif peut être tenu directement pour la Société par Uptevia, ou rester géré dans un compte ouvert auprès d'une banque ou d'un courtier. L'exonération de frais publiée concerne uniquement l'inscription auprès de la Société.",
+      "sourceIds": [
+        "S01"
+      ]
+    },
+    {
+      "question": "Comment inscrire ses actions EssilorLuxottica au nominatif pur ?",
+      "answer": "Pour acheter ou détenir les actions directement au nominatif pur, l'actionnaire doit contacter Uptevia, mandataire d'EssilorLuxottica, via son espace investisseurs ou les numéros dédiés. Un détenteur d'actions au porteur peut demander à sa banque ou à son courtier leur conversion au nominatif.",
+      "sourceIds": [
+        "S01"
+      ]
+    },
+    {
+      "question": "Combien d'actions faut-il détenir pour obtenir l'avantage du nominatif pur ?",
+      "answer": "La page officielle ne fixe aucun seuil minimal propre à l'exonération des frais de garde et d'administration, ni aucune durée minimale de détention. Il ne faut donc pas transformer l'hypothèse historique d'une action en seuil d'adhésion : le rapport conserve le nombre requis à `null`.",
+      "sourceIds": [
+        "S01"
+      ]
+    },
+    {
+      "question": "Les visites de sites, l'assemblée générale ou le dividende en actions sont-ils des avantages actifs ?",
+      "answer": "Aucune visite de site ou de centre d'innovation réservée aux actionnaires n'est actuellement prouvée. La participation à l'assemblée générale relève des droits ordinaires de l'actionnaire et n'est pas retenue comme bénéfice. L'option 2026 de paiement du dividende en actions était saisonnière : elle a fermé le 28 mai 2026, avec livraison le 3 juin 2026, donc elle n'était plus disponible au 9 juin 2026.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03",
+        "S06"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "Aucun club ou programme d'adhésion actuel pour les actionnaires individuels n'est identifié sur les pages officielles consultées.",
+      "status": "partially_verified",
+      "sourceIds": [
+        "S01",
+        "S05",
+        "S07"
+      ],
+      "notes": "Il s'agit d'un constat d'absence dans les canaux officiels actuels, renforcé par la suppression de l'ancienne URL, et non d'une déclaration explicite de la société selon laquelle aucun club n'existe."
+    },
+    {
+      "id": "C02",
+      "statement": "Les actions EssilorLuxottica peuvent être détenues au porteur ou au nominatif, directement auprès de la Société ou dans un compte géré par une banque ou un courtier.",
+      "status": "verified",
+      "sourceIds": [
+        "S01"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C03",
+      "statement": "L'inscription des actions auprès de la Société dispense le détenteur des frais de garde et des frais d'administration.",
+      "status": "verified",
+      "sourceIds": [
+        "S01"
+      ],
+      "notes": "La page ne détaille pas les frais de transaction, de transfert ou de conversion éventuellement facturés par Uptevia ou un intermédiaire."
+    },
+    {
+      "id": "C04",
+      "statement": "Uptevia est le mandataire indiqué par EssilorLuxottica pour l'achat et la tenue des actions inscrites directement auprès de la Société.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S06"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C05",
+      "statement": "Aucun seuil minimal d'actions ni aucune durée minimale de détention ne sont publiés pour l'exonération des frais de garde et d'administration au nominatif pur.",
+      "status": "partially_verified",
+      "sourceIds": [
+        "S01"
+      ],
+      "notes": "La source décrit l'avantage sans seuil; l'absence de seuil est donc conservée comme donnée inconnue plutôt que remplacée par une action."
+    },
+    {
+      "id": "C06",
+      "statement": "L'option 2026 de paiement du dividende en actions a fermé le 28 mai 2026 et les actions nouvelles ont été livrées le 3 juin 2026.",
+      "status": "verified",
+      "sourceIds": [
+        "S03",
+        "S06"
+      ],
+      "notes": "Les échéances étaient avancées au 26 mai par courrier ou au 27 mai en ligne pour les détenteurs au nominatif pur."
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "EssilorLuxottica exploite un club actionnaires gratuit accessible dès une action.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01",
+        "S05"
+      ]
+    },
+    {
+      "claim": "Les actionnaires individuels peuvent visiter les centres d'innovation ou de recherche d'EssilorLuxottica.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S07"
+      ]
+    },
+    {
+      "claim": "La participation à l'assemblée générale annuelle constitue un avantage du club actionnaires.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S06"
+      ]
+    },
+    {
+      "claim": "L'accès aux publications financières, aux webcasts et aux communications investisseurs constitue un avantage réservé aux membres.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S07"
+      ]
+    },
+    {
+      "claim": "L'option de recevoir le dividende 2025 en actions est encore disponible au 9 juin 2026.",
+      "reason": "expired",
+      "sourceIds": [
+        "S03",
+        "S06"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.essilorluxottica.com/en/investors/stock-and-shareholder-information/",
+      "title": "Stock and Shareholder Information",
+      "publisher": "EssilorLuxottica",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle décrivant la cotation, les codes EL et FR0000121667, la détention au porteur ou au nominatif, les coordonnées d'Uptevia et les avantages du nominatif. Elle indique explicitement l'absence de frais de garde et d'administration pour les actions inscrites auprès de la Société."
+    },
+    {
+      "id": "S02",
+      "url": "https://www.essilorluxottica.com/en/investors/annual-shareholders-meetings/2026/",
+      "title": "Shareholders' Meeting of April 28, 2026",
+      "publisher": "EssilorLuxottica",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle de l'assemblée générale 2026 donnant la date, le lieu, le webcast et les documents publics. Elle ne documente pas de visite ou d'événement distinct réservé à un club d'actionnaires."
+    },
+    {
+      "id": "S03",
+      "url": "https://www.essilorluxottica.com/en/newsroom/press-releases/result-payment-dividends-2026/",
+      "title": "Result of the payment of dividends in shares and record of the corresponding capital increase",
+      "publisher": "EssilorLuxottica",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": "2026-06-01",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Communiqué daté confirmant que l'option de paiement du dividende en actions était ouverte du 7 au 28 mai 2026, avec des échéances anticipées au nominatif pur, et que le règlement-livraison est intervenu le 3 juin 2026."
+    },
+    {
+      "id": "S04",
+      "url": "https://www.essilorluxottica.com/en/group/",
+      "title": "Who We Are",
+      "publisher": "EssilorLuxottica",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Présentation officielle actuelle du groupe, de ses activités dans le soin de la vue, les lunettes, les technologies médicales et connectées, ainsi que de son modèle intégré."
+    },
+    {
+      "id": "S05",
+      "url": "https://www.essilorluxottica.com/en/investors/individual-shareholders/",
+      "title": "Individual Shareholders - ancienne URL",
+      "publisher": "EssilorLuxottica",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "unavailable",
+      "evidenceGrade": "E",
+      "evidenceSummary": "L'ancienne URL utilisée dans les données historiques du site renvoie une page 404 indiquant que le lien est cassé ou que la page a été supprimée. Elle ne peut plus prouver l'existence d'un club, d'un programme ou d'une inscription."
+    },
+    {
+      "id": "S06",
+      "url": "https://www.essilorluxottica.com/en/newsroom/press-releases/2026-annual-shareholders-meeting/",
+      "title": "EssilorLuxottica 2026 Annual Shareholders' Meeting",
+      "publisher": "EssilorLuxottica",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": "2026-04-28",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Communiqué daté confirmant la tenue de l'assemblée le 28 avril 2026 et détaillant l'option de dividende en actions, ses dates, la procédure via les intermédiaires ou Uptevia et la livraison prévue le 3 juin 2026."
+    },
+    {
+      "id": "S07",
+      "url": "https://www.essilorluxottica.com/en/investors/financial-publications/",
+      "title": "Financial Publications",
+      "publisher": "EssilorLuxottica",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Bibliothèque officielle et publique des communiqués, rapports, présentations et webcasts financiers. Elle confirme qu'il s'agit de relations investisseurs générales et ne présente pas ces contenus comme des avantages réservés à des membres."
+    },
+    {
+      "id": "S08",
+      "url": "https://www.essilorluxottica.com/en/newsroom/press-releases/2025-universal-registration-document-filed/",
+      "title": "2025 Universal Registration Document filed",
+      "publisher": "EssilorLuxottica",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": "2026-03-06",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Communiqué officiel daté annonçant le dépôt du document d'enregistrement universel 2025 sous la référence AMF D.26-0067. Il décrit le groupe, confirme sa cotation sur Euronext Paris, son appartenance au CAC 40 et à l'Euro Stoxx 50, ainsi que son ISIN."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "URL officielle des actionnaires individuels",
+      "sourceIds": [
+        "S01",
+        "S05"
+      ],
+      "positions": [
+        "La page officielle actuelle centralise les informations actionnaires dans la rubrique Stock and Shareholder Information, sans club ni formulaire d'adhésion.",
+        "L'ancienne URL individual-shareholders utilisée par les données historiques renvoie désormais une page 404."
+      ],
+      "resolution": "Retenir la page actuelle S01, supprimer toute référence à l'ancienne URL comme page de club et classer l'existence d'un club gratuit dès une action comme non prouvée.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Statut temporel de l'assemblée générale 2026",
+      "sourceIds": [
+        "S02",
+        "S06"
+      ],
+      "positions": [
+        "La page documentaire S02 emploie encore le futur pour annoncer une assemblée le 28 avril 2026.",
+        "Le communiqué daté S06 confirme que l'assemblée s'est effectivement tenue le 28 avril 2026."
+      ],
+      "resolution": "Utiliser le communiqué daté S06 pour le statut de l'événement et considérer le futur de S02 comme un libellé non actualisé.",
+      "impact": "none"
+    }
+  ],
+  "handoff": {
+    "researchStatus": "complete_with_uncertainties",
+    "readyForDevelopment": true,
+    "benefitCount": 1,
+    "faqCount": 6,
+    "blockingIssues": [],
+    "developerNotes": [
+      "Ne pas présenter EssilorLuxottica comme exploitant un club ou un programme d'adhésion.",
+      "Conserver `minShares` à `null` : aucun seuil global ou seuil propre à l'avantage n'est publié.",
+      "Ne retenir qu'un bénéfice : l'absence de frais de garde et d'administration au nominatif pur auprès de la Société.",
+      "Exclure les visites de sites, l'assemblée générale, les publications financières et l'option 2026 de dividende en actions des bénéfices actifs."
+    ]
+  }
+}

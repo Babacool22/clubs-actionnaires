@@ -1,0 +1,60 @@
+{
+  "slug": "coca-cola",
+  "name": "The Coca-Cola Company",
+  "description": "The Coca-Cola Company est un groupe américain de boissons dont les marques sont vendues dans plus de 200 pays et territoires. Il commercialise notamment Coca-Cola, Sprite, Fanta, Coca-Cola Zero Sugar et Diet Coke, en s'appuyant principalement sur un réseau d'embouteilleurs indépendants.",
+  "sector": "Boissons & Agroalimentaire",
+  "stockIndex": "S&P 500",
+  "ticker": "KO",
+  "website": "https://www.coca-colacompany.com/",
+  "minShares": null,
+  "lastVerifiedAt": "2026-06-09",
+  "benefits": [
+    {
+      "type": "service",
+      "title": "Plantation d'un arbre après inscription à l'e-delivery",
+      "description": "The Coca-Cola Company fait planter un arbre au nom de chaque actionnaire qui choisit de recevoir électroniquement les documents de vote et autres communications. Le dispositif est une contrepartie environnementale réservée aux actionnaires inscrits à l'e-delivery, sans versement, remise ou bien livré à l'actionnaire.",
+      "value": "Un arbre planté au nom de l'actionnaire lors de son inscription aux communications électroniques.",
+      "requiredShares": null,
+      "sourceUrl": "https://investors.coca-colacompany.com/_assets/_b57fa0fbc981aa2e0565114026432054/cocacolacompany/db/892/11104/proxy_statement/0001104659-26-028215.pdf"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Coca-Cola dispose-t-elle d'un club ou d'un programme réservé aux actionnaires ?",
+      "answer": "Aucun club formel avec adhésion, carte de membre ou seuil global n'est présenté. Le seul programme réservé et encore prouvé au 9 juin 2026 est le dispositif de plantation d'un arbre lié au choix des communications électroniques. Le reste de l'espace Shareowners relève principalement des relations investisseurs et de la gestion des titres."
+    },
+    {
+      "question": "Quel avantage concret un actionnaire de The Coca-Cola Company peut-il obtenir en 2026 ?",
+      "answer": "Lorsqu'un actionnaire choisit de recevoir électroniquement les documents de vote et les autres communications, The Coca-Cola Company fait planter un arbre en son nom. Il ne reçoit ni argent, ni produit, ni coupon, ni certificat annoncé. Aucun nombre minimal d'actions ou délai de détention n'est publié pour ce dispositif."
+    },
+    {
+      "question": "Comment demander la plantation d'un arbre avec des actions KO ?",
+      "answer": "L'actionnaire inscrit au registre choisit l'e-delivery dans son compte Coca-Cola auprès de Computershare, notamment au cours du vote en ligne. La plupart des propriétaires bénéficiaires peuvent aussi choisir la livraison électronique en suivant les instructions de leur banque ou courtier. Aucune demande séparée de plantation n'est décrite."
+    },
+    {
+      "question": "Les actionnaires Coca-Cola ont-ils encore une entrée gratuite au World of Coca-Cola ?",
+      "answer": "Aucune entrée gratuite réservée aux actionnaires n'est active au 9 juin 2026. Coca-Cola a officiellement offert une admission gratuite à l'actionnaire et à un invité lors de journées précises, notamment en 2016 et 2019. L'événement physique prévu en 2020 a été remplacé par une assemblée entièrement virtuelle, et le proxy 2026 comme la page actuelle des offres du musée ne publient aucun tarif actionnaire."
+    },
+    {
+      "question": "Les tickets Coke ON ou les cadeaux de boissons japonais sont-ils accessibles aux détenteurs de KO ?",
+      "answer": "Non. Le programme Coke ON 2026 appartient à Coca-Cola Bottlers Japan Holdings et exige ses propres actions, au moins 100 titres et une durée de détention déterminée. Cette société d'embouteillage est distincte de The Coca-Cola Company cotée à New York sous KO. Ses tickets et ses anciens cadeaux de produits ne doivent pas être attribués aux actionnaires de KO."
+    },
+    {
+      "question": "Le dividende, l'assemblée, le DSPP, le DRIP ou le DRS sont-ils des avantages retenus ?",
+      "answer": "Non. Le dividende ordinaire et l'assemblée relèvent des droits usuels de l'actionnaire. Le Direct Stock Purchase Plan, le réinvestissement des dividendes, le DRS, les transferts et la gestion de compte sont des services de registre ou d'investissement administrés par Computershare. Ils sont explicitement exclus des bénéfices de cette fiche, même lorsqu'ils sont pratiques."
+    }
+  ],
+  "sources": [
+    "https://investors.coca-colacompany.com/_assets/_b57fa0fbc981aa2e0565114026432054/cocacolacompany/db/892/11104/proxy_statement/0001104659-26-028215.pdf",
+    "https://investors.coca-colacompany.com/shareowners/faqs",
+    "https://investors.coca-colacompany.com/filings-reports/all-sec-filings/content/0001628280-26-010047/ko-20251231.htm",
+    "https://investors.coca-colacompany.com/shareowners",
+    "https://investors.coca-colacompany.com/filings-reports/all-sec-filings/content/0001308179-16-000228/lcocacola2016_defa14a.htm",
+    "https://www.sec.gov/Archives/edgar/data/21344/000120677419000735/ko3422831-def14a.htm",
+    "https://investors.coca-colacompany.com/filings-reports/all-sec-filings/content/0001206774-20-001104/ko3748711-defa14a.htm?TB_iframe=true&height=auto&preload=false&width=auto",
+    "https://www.worldofcoca-cola.com/plan-your-visit/special-offers",
+    "https://en.ccbj-holdings.com/ir/stockholder/preferential.php",
+    "https://www.ssga.com/us/en/intermediary/etfs/state-street-consumer-staples-select-sector-spdr-etf-xlp",
+    "https://www.computershare.com/coca-cola"
+  ]
+}

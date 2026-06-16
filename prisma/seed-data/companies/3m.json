@@ -1,0 +1,53 @@
+{
+  "slug": "3m",
+  "name": "3M",
+  "description": "3M Company est un groupe industriel américain de science des matériaux. Depuis la scission de Solventum en 2024, ses activités sont organisées autour de la sécurité et de l'industrie, du transport et de l'électronique, ainsi que des produits de consommation.",
+  "sector": "Industrie & Équipements",
+  "stockIndex": "S&P 500",
+  "ticker": "MMM",
+  "website": "https://www.3m.com/",
+  "minShares": null,
+  "lastVerifiedAt": "2026-06-09",
+  "benefits": [],
+  "faqs": [
+    {
+      "question": "3M dispose-t-elle d'un club d'actionnaires formel ?",
+      "answer": "Aucun club formel avec adhésion, carte de membre ou seuil global n'a été trouvé dans les ressources officielles consultées. 3M exploite surtout un espace de relations investisseurs et renvoie les détenteurs inscrits vers EQ Shareowner Services pour la tenue des comptes, les transferts et les dividendes."
+    },
+    {
+      "question": "La 3M Holiday Gift Box est-elle disponible au 9 juin 2026 ?",
+      "answer": "Sa disponibilité 2026 n'est pas prouvée. Le portail partenaire 3M reste accessible et demande un code promotionnel, mais les dernières conditions trouvées limitaient l'offre au 31 décembre 2025 ou à l'épuisement des stocks. La FAQ liée au portail mentionne même encore l'échéance 2024. Aucun bénéfice actif n'est donc retenu au 9 juin 2026."
+    },
+    {
+      "question": "Quelles étaient les conditions d'accès à la dernière offre Holiday Gift Box prouvée ?",
+      "answer": "Les conditions 2025 réservaient l'achat aux actionnaires de 3M et interdisaient la revente ou la distribution commerciale. Elles ne précisaient ni nombre minimal d'actions, ni durée de détention, ni mode de conservation des titres. Il serait donc injustifié de remplacer ces inconnues par un seuil d'une action."
+    },
+    {
+      "question": "Le prix de 27 dollars et la valeur de 53 dollars de produits sont-ils confirmés pour 2026 ?",
+      "answer": "Non. Aucun document officiel accessible ne confirme ces montants pour une campagne 2026. Les conditions 2025 indiquent seulement que taxe, expédition et manutention sont incluses dans le prix, sans chiffrer ce prix ni la valeur des produits. Aucun prix ni contenu 2026 ne doit être publié sans nouveau document officiel."
+    },
+    {
+      "question": "Le plan EQ de réinvestissement ou d'achat d'actions constitue-t-il un avantage actionnaire ?",
+      "answer": "Non pour cette fiche. 3M indique ne pas proposer de plan d'achat direct initial, mais son plan de réinvestissement permet aux actionnaires inscrits d'ajouter des achats en espèces et 3M prend en charge certains frais d'achat. Il s'agit d'un service standard de tenue et d'investissement administré par EQ, explicitement exclu des bénéfices génériques par le contrat de recherche."
+    },
+    {
+      "question": "Les dividendes, l'assemblée générale et les publications financières sont-ils des bénéfices ?",
+      "answer": "Non. Le dividende ordinaire, le vote, l'assemblée générale et l'accès aux publications publiques ne sont pas des avantages commerciaux réservés. De plus, l'ancienne présentation de 3M comme « Dividend King » n'est plus actuelle : le dividende a été réinitialisé après la scission de Solventum en 2024 et 3M a été retirée de l'indice S&P 500 Dividend Aristocrats."
+    }
+  ],
+  "sources": [
+    "https://investors.3m.com/",
+    "https://investors.3m.com/resources/faq",
+    "https://investors.3m.com/stock-information/dividends",
+    "https://d1io3yog0oux5.cloudfront.net/3m/files/pages/stock-information/dividends/3M-DRIP-Plan.pdf",
+    "https://apfco.com/secure/W1309/Home/EnterPromoCode",
+    "https://apfco.com/secure/W1309/Content/assets/terms_and_conditions.pdf?v=EYRZTWXEGAY6DK1SZCHCADKM05UPESMD",
+    "https://apfco.com/secure/W1309/Content/assets/faqs.pdf?v=U50F66UG1SU0V7UUX4GCV3RU8A634UA1",
+    "https://investors.3m.com/financials/sec-filings/content/0000066740-26-000014/mmm-20251231.htm",
+    "https://investors.3m.com/news-events/press-releases/detail/1924/3m-reports-first-quarter-2026-results",
+    "https://www.sec.gov/Archives/edgar/data/884394/000119312526247066/d75559dn30d.htm",
+    "https://www.spglobal.com/spdji/en/documents/indexnews/announcements/20240327-1471355/1471355_5gemmm.pdf",
+    "https://investors.3m.com/financials/sec-filings/content/0000066740-25-000006/0000066740-25-000006.pdf",
+    "https://www.spglobal.com/spdji/en/documents/indexnews/announcements/20240524-1472363/1472363_s%26p500dividendaristocratsmay242024.pdf"
+  ]
+}

@@ -1,0 +1,847 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "saint-gobain",
+    "name": "Saint-Gobain",
+    "description": "Saint-Gobain conçoit, produit et distribue des matériaux et services pour la construction et l'industrie. Le Groupe se présente comme un leader mondial de la construction durable, avec 46,5 milliards d'euros de chiffre d'affaires en 2025, 162 000 collaborateurs et une présence dans 80 pays.",
+    "sector": "Industrie & Équipements",
+    "stockIndex": "CAC40",
+    "ticker": "SGO",
+    "website": "https://www.saint-gobain.com/",
+    "clubName": "Club des actionnaires de Saint-Gobain",
+    "clubUrl": "https://www.saint-gobain.com/fr/finance/actionnaires-individuels/club-des-actionnaires"
+  },
+  "offerClassification": {
+    "primaryKind": "shareholder_club",
+    "otherKinds": [
+      "shareholder_benefit",
+      "investor_relations_only"
+    ],
+    "officialProgrammeName": "Club des actionnaires de Saint-Gobain",
+    "status": "active",
+    "statusReason": "Saint-Gobain maintient un Club formel, gratuit et facultatif, avec inscription en ligne et espace membre actif. Une action suffit. Les pages et conditions actuelles ne décrivent ni un « Cercle des actionnaires » séparé, ni un second niveau à 100 actions.",
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": 1,
+    "eligibleShareClasses": [
+      "Action ordinaire Compagnie de Saint-Gobain, ISIN FR0000125007"
+    ],
+    "holdingModes": [
+      "bearer",
+      "registered_administered",
+      "registered_pure"
+    ],
+    "minimumHoldingPeriod": "Aucune ancienneté minimale n'est exigée pour adhérer au Club. Le membre doit toutefois rester propriétaire d'au moins une action; les deux années de nominatif concernent seulement le droit de vote double, qui n'est pas un bénéfice du Club.",
+    "residencyRestrictions": [
+      "Aucune restriction de résidence propre au Club n'est publiée dans les conditions générales ou le formulaire d'adhésion consultés."
+    ],
+    "accountRestrictions": [
+      "L'adhésion est réservée aux personnes physiques actionnaires.",
+      "Une adresse électronique est nécessaire pour créer le compte et recevoir les communications du Club.",
+      "Le nominatif n'est pas obligatoire: les actions au porteur, au nominatif administré et au nominatif pur sont admises.",
+      "Les avantages de tenue de compte et de courtage décrits séparément exigent le nominatif pur chez Uptevia."
+    ],
+    "proofRequired": [
+      "Le formulaire public d'adhésion ne comporte ni téléversement de justificatif, ni champ relatif au nombre d'actions ou au mode de détention.",
+      "Saint-Gobain se réserve le droit de demander périodiquement un justificatif de détention d'au moins une action.",
+      "Le membre doit signaler à Saint-Gobain toute perte de sa qualité d'actionnaire."
+    ],
+    "fees": {
+      "membershipFee": "Gratuit",
+      "applicationFee": "Aucun frais d'inscription publié",
+      "otherFees": [
+        "Les frais de déplacement vers les événements restent à la charge du membre.",
+        "Au nominatif pur, les droits de garde et frais de gestion courante sont pris en charge par Saint-Gobain.",
+        "Au nominatif pur, les ordres de Bourse sont facturés 0,30 % HT du montant brut, avec un minimum de 6,10 euros HT par ordre exécuté."
+      ],
+      "notes": "L'adhésion au Club ne crée pas de cotisation. Les frais éventuels de transfert vers le nominatif pur facturés par l'établissement financier d'origine ne sont pas chiffrés par Saint-Gobain."
+    },
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S03",
+      "S07",
+      "S08"
+    ]
+  },
+  "enrollment": {
+    "required": true,
+    "method": "online_form",
+    "applicationUrl": "https://actionnaires.saint-gobain.com/fr/security/register",
+    "contact": "Service Actionnaires de Saint-Gobain: actionnaires@saint-gobain.com; +33 1 88 54 05 05 depuis l'étranger; Tour Saint-Gobain, 12 place de l'Iris, 92400 Courbevoie, France.",
+    "steps": [
+      "Détenir au moins une action Compagnie de Saint-Gobain, au porteur ou au nominatif.",
+      "Ouvrir le formulaire public « Devenez membre du Club des actionnaires ».",
+      "Renseigner les champs obligatoires d'identité, de contact, d'adresse et de mot de passe.",
+      "Choisir les abonnements souhaités puis valider la création du compte.",
+      "Se connecter à l'espace membre et demander une place lorsqu'un événement ouvre aux inscriptions.",
+      "Conserver un justificatif de détention disponible si Saint-Gobain le demande ultérieurement."
+    ],
+    "processingTime": null,
+    "renewal": "Aucun renouvellement périodique n'est publié. L'adhésion reste valable tant que le membre respecte les conditions, conserve au moins une action et n'est pas radié ou désinscrit.",
+    "deadlines": [
+      "Aucune échéance générale d'adhésion n'est publiée.",
+      "Chaque activité possède sa propre période d'inscription et peut être clôturée dès que la capacité est atteinte."
+    ],
+    "sourceIds": [
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06"
+    ]
+  },
+  "benefits": [
+    {
+      "id": "B01",
+      "type": "evenement",
+      "title": "Visites de sites industriels et de la Tour Saint-Gobain",
+      "description": "Les membres peuvent demander à visiter des sites industriels du Groupe et la Tour Saint-Gobain avec son showroom. La page actuelle cite notamment des visites d'usines et de centres de recherche; les conditions prévoient une attribution selon les places et des critères de participation.",
+      "value": null,
+      "requiredShares": 1,
+      "requiredHoldingModes": [
+        "bearer",
+        "registered_administered",
+        "registered_pure"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "subject_to_capacity",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": "Variable selon chaque visite; fermeture possible dès que la capacité est atteinte.",
+      "procedure": [
+        "Adhérer au Club et se connecter à l'espace membre.",
+        "Sélectionner une visite ouverte dans la rubrique des événements.",
+        "Déposer la demande pendant la période d'inscription et attendre la confirmation de Saint-Gobain."
+      ],
+      "limitsAndExclusions": [
+        "Une ou deux places au maximum peuvent être attribuées par membre selon l'événement.",
+        "Saint-Gobain peut retenir l'ordre d'arrivée, la participation antérieure et le fait de n'avoir encore bénéficié d'aucune activité.",
+        "Les frais de transport restent à la charge du membre.",
+        "Une annulation ou un report ne donne droit à aucune indemnisation.",
+        "Aucun créneau 2026 daté et publiquement accessible n'était affiché sur la page des événements au 9 juin 2026."
+      ],
+      "primarySourceId": "S01",
+      "supportingSourceIds": [
+        "S02",
+        "S05"
+      ],
+      "sourceUrl": "https://www.saint-gobain.com/fr/finance/actionnaires-individuels/club-des-actionnaires",
+      "evidenceGrade": "B",
+      "uncertainty": "L'offre générale de visites est actuelle, mais le calendrier détaillé, les sites ouverts et les capacités ne sont visibles qu'au fil des inscriptions dans l'espace du Club."
+    },
+    {
+      "id": "B02",
+      "type": "evenement",
+      "title": "Conférences et rencontres avec le Groupe",
+      "description": "Le Club propose des conférences et des occasions de rencontrer des dirigeants de Saint-Gobain. La plateforme officielle classe aussi les activités possibles comme conférences, webconférences, réunions d'actionnaires, formations ou chats vidéo.",
+      "value": null,
+      "requiredShares": 1,
+      "requiredHoldingModes": [
+        "bearer",
+        "registered_administered",
+        "registered_pure"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "subject_to_capacity",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": "Variable selon chaque conférence ou rencontre.",
+      "procedure": [
+        "Adhérer au Club et consulter la rubrique des événements.",
+        "S'inscrire à l'activité pendant la période ouverte.",
+        "Attendre la confirmation ou les instructions de connexion envoyées par Saint-Gobain."
+      ],
+      "limitsAndExclusions": [
+        "Le nombre de places peut être limité.",
+        "Les critères d'attribution peuvent inclure l'ordre d'arrivée et l'historique de participation.",
+        "Les thèmes, formats, dates et intervenants ne sont pas garantis à l'avance.",
+        "Aucune programmation datée complète n'était publiquement visible au 9 juin 2026."
+      ],
+      "primarySourceId": "S05",
+      "supportingSourceIds": [
+        "S01",
+        "S02",
+        "S04"
+      ],
+      "sourceUrl": "https://actionnaires.saint-gobain.com/fr/event",
+      "evidenceGrade": "B",
+      "uncertainty": "La plateforme prouve que ces catégories font partie du programme, sans publier de fréquence minimale ni de calendrier annuel garanti."
+    },
+    {
+      "id": "B03",
+      "type": "evenement",
+      "title": "Activités et visites culturelles",
+      "description": "Les membres ont accès à des activités culturelles pouvant prendre la forme de visites de monuments ou de visites guidées. Les conditions générales citent notamment des visites guidées du château de Versailles parmi les exemples d'activités organisées pour le Club.",
+      "value": null,
+      "requiredShares": 1,
+      "requiredHoldingModes": [
+        "bearer",
+        "registered_administered",
+        "registered_pure"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "subject_to_capacity",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": "Variable selon chaque activité culturelle.",
+      "procedure": [
+        "Être membre du Club.",
+        "Consulter les activités culturelles disponibles dans l'espace événements.",
+        "Déposer une demande de participation avant la clôture des inscriptions."
+      ],
+      "limitsAndExclusions": [
+        "Les places sont limitées et attribuées selon les critères prévus par les conditions du Club.",
+        "Une ou deux places au maximum peuvent être attribuées par membre selon l'activité.",
+        "Les frais de déplacement ne sont pas remboursés.",
+        "Les exemples historiques ne garantissent pas la reconduction d'un lieu précis en 2026."
+      ],
+      "primarySourceId": "S04",
+      "supportingSourceIds": [
+        "S02",
+        "S05"
+      ],
+      "sourceUrl": "https://actionnaires.saint-gobain.com/fr/login",
+      "evidenceGrade": "B",
+      "uncertainty": "Le type d'activité est actuel, mais aucun programme culturel daté et complet n'était accessible sans compte au 9 juin 2026."
+    },
+    {
+      "id": "B04",
+      "type": "cadeau",
+      "title": "Jeux pour gagner des entrées gratuites",
+      "description": "La page officielle du Club indique que les membres peuvent jouer et tenter de gagner des entrées gratuites pour des lieux culturels ou des événements sportifs dont Saint-Gobain est partenaire. L'attribution dépend donc du résultat du jeu et non de la seule adhésion.",
+      "value": "Entrées gratuites variables selon l'opération",
+      "requiredShares": 1,
+      "requiredHoldingModes": [
+        "bearer",
+        "registered_administered",
+        "registered_pure"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "lottery",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": "Variable selon le règlement de chaque jeu.",
+      "procedure": [
+        "Adhérer au Club.",
+        "Participer au jeu proposé pendant sa période d'ouverture.",
+        "Respecter les modalités et attendre l'annonce ou la notification des gagnants."
+      ],
+      "limitsAndExclusions": [
+        "Le gain n'est pas garanti.",
+        "Le lieu, l'événement, le nombre d'entrées et la période varient selon l'opération.",
+        "Les règlements particuliers et restrictions de chaque jeu s'ajoutent aux conditions générales du Club.",
+        "Aucun jeu précis avec dates et dotation n'était publiquement affiché au 9 juin 2026."
+      ],
+      "primarySourceId": "S01",
+      "supportingSourceIds": [
+        "S02"
+      ],
+      "sourceUrl": "https://www.saint-gobain.com/fr/finance/actionnaires-individuels/club-des-actionnaires",
+      "evidenceGrade": "B",
+      "uncertainty": "Le principe des jeux est publié sur la page actuelle, mais aucune fréquence ni dotation minimale annuelle n'est garantie."
+    },
+    {
+      "id": "B05",
+      "type": "reduction",
+      "title": "Droits de garde offerts au nominatif pur",
+      "description": "Pour les actions Saint-Gobain inscrites au nominatif pur et administrées par Uptevia, Saint-Gobain prend en charge les droits de garde ainsi que les frais de gestion courante du compte. Cette gratuité ne s'applique pas aux frais de courtage ni aux frais facturés par une banque lors d'un transfert.",
+      "value": "0 euro de droits de garde et de frais de gestion courante chez Uptevia",
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "registered_pure"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "guaranteed",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Demander à son intermédiaire financier le transfert des actions Saint-Gobain au nominatif pur.",
+        "Utiliser le formulaire de transfert et les coordonnées Uptevia publiés par Saint-Gobain.",
+        "Finaliser l'ouverture du compte au nominatif pur auprès d'Uptevia."
+      ],
+      "limitsAndExclusions": [
+        "Aucun seuil minimal propre à cette gratuité n'est publié.",
+        "Les frais de courtage restent dus.",
+        "L'établissement financier d'origine peut facturer le transfert.",
+        "Saint-Gobain indique que l'inscription au nominatif pur d'actions placées dans un PEA est difficilement compatible avec la conservation des avantages du PEA."
+      ],
+      "primarySourceId": "S07",
+      "supportingSourceIds": [
+        "S08"
+      ],
+      "sourceUrl": "https://www.saint-gobain.com/fr/finance/actionnaires-individuels/devenir-actionnaire",
+      "evidenceGrade": "B",
+      "uncertainty": "La page officielle active n'est pas datée et ne précise pas la date de début ni une éventuelle date de fin de la prise en charge."
+    },
+    {
+      "id": "B06",
+      "type": "reduction",
+      "title": "Courtage à 0,30 % HT au nominatif pur",
+      "description": "Les actionnaires dont les titres sont gérés au nominatif pur par Uptevia peuvent transmettre des ordres de Bourse au tarif publié de 0,30 % HT du montant brut de la négociation, avec un minimum de 6,10 euros HT par ordre exécuté.",
+      "value": "0,30 % HT, minimum 6,10 € HT par ordre exécuté",
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "registered_pure"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "guaranteed",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Détenir les actions Saint-Gobain au nominatif pur chez Uptevia.",
+        "Transmettre l'ordre selon les canaux et modalités du compte-titres nominatif.",
+        "Régler les frais de courtage et taxes applicables lors de l'exécution."
+      ],
+      "limitsAndExclusions": [
+        "Le minimum de 6,10 euros HT s'applique à chaque ordre exécuté.",
+        "Les taxes et prélèvements légalement applicables s'ajoutent au courtage.",
+        "Le tarif ne s'applique pas aux actions au porteur ou au nominatif administré conservées chez une banque.",
+        "Aucun seuil minimal d'actions ni durée minimale n'est publié pour ce tarif."
+      ],
+      "primarySourceId": "S07",
+      "supportingSourceIds": [
+        "S08"
+      ],
+      "sourceUrl": "https://www.saint-gobain.com/fr/finance/actionnaires-individuels/devenir-actionnaire",
+      "evidenceGrade": "B",
+      "uncertainty": "Le tarif est affiché sur la page officielle actuelle, mais cette page n'est pas datée et ne publie pas de durée de validité."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Saint-Gobain possède-t-il un Club, un Cercle ou deux communautés d'actionnaires ?",
+      "answer": "Au 9 juin 2026, le dispositif officiel est un seul « Club des actionnaires de Saint-Gobain ». Il est ouvert dès une action. Aucun « Cercle des actionnaires » séparé à 100 actions et aucun niveau premium distinct de la communauté générale ne figurent dans la page actuelle, les conditions ou le formulaire d'adhésion.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "question": "Combien d'actions faut-il et quels modes de détention sont acceptés pour adhérer ?",
+      "answer": "Une seule action ordinaire Saint-Gobain suffit. L'actionnaire individuel peut la détenir au porteur, au nominatif administré ou au nominatif pur. Aucune ancienneté minimale n'est exigée et le nominatif n'est pas une condition d'accès au Club. Les conditions précisent que l'adhérent doit être une personne physique.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S07"
+      ]
+    },
+    {
+      "question": "Comment s'inscrire, combien de temps dure l'adhésion et faut-il fournir un justificatif ?",
+      "answer": "L'inscription est gratuite et s'effectue sur le formulaire en ligne du Club. Le formulaire public demande l'identité, les coordonnées, l'adresse et un mot de passe, mais ne prévoit pas de pièce jointe ni de déclaration du nombre d'actions. Saint-Gobain peut toutefois demander périodiquement une preuve de détention. L'adhésion dure tant que le membre conserve au moins une action et respecte les conditions.",
+      "sourceIds": [
+        "S02",
+        "S03"
+      ]
+    },
+    {
+      "question": "Les visites, conférences et activités culturelles sont-elles garanties aux membres ?",
+      "answer": "Non. L'adhésion donne le droit de demander à participer aux activités proposées, mais les places restent limitées. Saint-Gobain peut appliquer l'ordre d'arrivée, l'historique de participation et la priorité aux membres n'ayant encore bénéficié d'aucune activité. Une ou deux places au maximum peuvent être attribuées par membre, et les déplacements restent à sa charge.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S05"
+      ]
+    },
+    {
+      "question": "Saint-Gobain verse-t-il une prime de fidélité ou un dividende majoré après deux ans au nominatif ?",
+      "answer": "Non. Les statuts mis à jour le 19 mai 2026 prévoient une répartition du dividende entre toutes les actions, sans clause de majoration de fidélité. L'assemblée générale du 4 juin 2026 a approuvé un dividende uniforme de 2,20 euros par action. Deux années de nominatif ouvrent seulement un droit de vote double, qui n'est ni un dividende majoré ni un bénéfice commercial.",
+      "sourceIds": [
+        "S09",
+        "S10"
+      ]
+    },
+    {
+      "question": "Quels avantages financiers procure le nominatif pur et comment y transférer les titres ?",
+      "answer": "Au nominatif pur chez Uptevia, Saint-Gobain prend en charge les droits de garde et frais de gestion courante. Le courtage publié est de 0,30 % HT, avec un minimum de 6,10 euros HT par ordre exécuté. Le transfert se demande à la banque au moyen du formulaire indiqué par Saint-Gobain; la banque d'origine peut facturer l'opération. Ces avantages de compte ne modifient pas le seuil d'une action du Club.",
+      "sourceIds": [
+        "S07",
+        "S08"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "L'action Compagnie de Saint-Gobain porte l'ISIN FR0000125007, le symbole SGO et appartient au CAC 40.",
+      "status": "verified",
+      "sourceIds": [
+        "S11",
+        "S14"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C02",
+      "statement": "Le Club des actionnaires de Saint-Gobain est actif et dispose d'un formulaire d'inscription et d'un espace membre en fonctionnement.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S03",
+        "S04",
+        "S05"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C03",
+      "statement": "Une personne physique détenant au moins une action au porteur ou au nominatif peut adhérer gratuitement au Club.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "notes": "La page générale emploie une formulation large, tandis que les conditions précisent la qualité de personne physique."
+    },
+    {
+      "id": "C04",
+      "statement": "Aucun Cercle distinct, seuil de 100 actions ou niveau premium séparé n'est présenté dans les conditions et parcours actuels du Club.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "notes": "La conclusion porte sur les ressources officielles actuelles consultées et contredit les anciennes données internes du site."
+    },
+    {
+      "id": "C05",
+      "statement": "Le formulaire public permet de créer un compte sans téléverser de justificatif, mais Saint-Gobain peut demander périodiquement une preuve de détention.",
+      "status": "verified",
+      "sourceIds": [
+        "S02",
+        "S03"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C06",
+      "statement": "Le programme du Club comprend des visites de sites, des conférences, des rencontres, des activités culturelles et des jeux donnant une chance de gagner des entrées gratuites.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S04",
+        "S05"
+      ],
+      "notes": "La présence de ces catégories est prouvée; leur fréquence annuelle et les dates 2026 ne sont pas garanties publiquement."
+    },
+    {
+      "id": "C07",
+      "statement": "Les places aux activités sont limitées et attribuées notamment selon l'ordre d'arrivée, les participations antérieures et la priorité aux nouveaux bénéficiaires.",
+      "status": "verified",
+      "sourceIds": [
+        "S02"
+      ],
+      "notes": "Les conditions prévoient généralement une ou deux places au maximum par membre."
+    },
+    {
+      "id": "C08",
+      "statement": "Au nominatif pur, Saint-Gobain prend en charge les droits de garde et frais de gestion courante, et publie un courtage de 0,30 % HT avec un minimum de 6,10 euros HT.",
+      "status": "verified",
+      "sourceIds": [
+        "S07",
+        "S08"
+      ],
+      "notes": "Les pages ne fixent ni seuil minimal propre à ces conditions, ni date de fin."
+    },
+    {
+      "id": "C09",
+      "statement": "Saint-Gobain ne prévoit pas de prime de fidélité ou de dividende majoré pour les actions détenues deux ans au nominatif.",
+      "status": "verified",
+      "sourceIds": [
+        "S09",
+        "S10"
+      ],
+      "notes": "Le dividende 2026 est uniforme; les statuts réservent l'ancienneté de deux ans au droit de vote double."
+    },
+    {
+      "id": "C10",
+      "statement": "L'adhésion actuelle au Club exige une démarche volontaire en ligne et n'est pas automatique pour les actionnaires au nominatif.",
+      "status": "verified",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "notes": "Une ancienne brochure officielle présentait autrefois l'adhésion au nominatif comme automatique, mais cette procédure est dépassée."
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "Saint-Gobain exploite un Cercle des actionnaires réservé aux détenteurs d'au moins 100 actions.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "claim": "Il existe une communauté générale dès une action et un Cercle premium distinct à partir de 100 actions.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03"
+      ]
+    },
+    {
+      "claim": "Saint-Gobain verse une prime de fidélité de 10 % après deux années civiles pleines au nominatif.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S09",
+        "S10"
+      ]
+    },
+    {
+      "claim": "Les actionnaires au nominatif deviennent automatiquement membres du Club sans inscription.",
+      "reason": "discontinued",
+      "sourceIds": [
+        "S03",
+        "S04",
+        "S13"
+      ]
+    },
+    {
+      "claim": "Les visites et événements sont garantis, illimités et accessibles sans réservation à chaque membre.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S02",
+        "S05"
+      ]
+    },
+    {
+      "claim": "Le Club garantit actuellement des visites de Pont-à-Mousson, de Saint-Gobain Glass et de chaque centre de recherche cité dans d'anciennes communications.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01",
+        "S05",
+        "S13"
+      ]
+    },
+    {
+      "claim": "La Lettre aux actionnaires et les documents financiers publics constituent des avantages exclusifs du Club.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S01",
+        "S06"
+      ]
+    },
+    {
+      "claim": "La participation à l'assemblée générale, le vote et le dividende ordinaire sont des avantages du Club.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S09",
+        "S10"
+      ]
+    },
+    {
+      "claim": "Le droit de vote double après deux ans au nominatif est une prime de fidélité économique.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S10"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.saint-gobain.com/fr/finance/actionnaires-individuels/club-des-actionnaires",
+      "title": "Club des actionnaires",
+      "publisher": "Saint-Gobain",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle actuelle établissant le nom du Club, sa gratuité, le seuil d'une action, l'accès pour les actions au porteur ou au nominatif, l'inscription en ligne et les principaux types d'activités et de jeux."
+    },
+    {
+      "id": "S02",
+      "url": "https://www.saint-gobain.com/sites/saint-gobain.com/files/Conditions-generales-Club-actionnaires.pdf",
+      "title": "Conditions générales de fonctionnement du Club des actionnaires",
+      "publisher": "Saint-Gobain",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "undated",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Conditions officielles liées depuis la page actuelle: personne physique, une action au porteur ou au nominatif, gratuité, adhésion facultative, preuve périodique possible, durée, radiation, critères d'attribution, limites de places et frais de déplacement."
+    },
+    {
+      "id": "S03",
+      "url": "https://actionnaires.saint-gobain.com/fr/security/register",
+      "title": "Devenez membre du Club des actionnaires",
+      "publisher": "Saint-Gobain",
+      "sourceType": "official_form",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Formulaire public actif demandant identité, coordonnées, adresse, langue, mot de passe et abonnements. Il confirme l'inscription volontaire en ligne et ne demande publiquement ni justificatif joint, ni nombre d'actions, ni mode de détention."
+    },
+    {
+      "id": "S04",
+      "url": "https://actionnaires.saint-gobain.com/fr/login",
+      "title": "Le Club des actionnaires - espace membre",
+      "publisher": "Saint-Gobain",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page de connexion active distinguant l'inscription et l'identification. Elle décrit le Club comme réservé aux actionnaires individuels et présente les visites culturelles, visites de sites industriels et rencontres avec les dirigeants."
+    },
+    {
+      "id": "S05",
+      "url": "https://actionnaires.saint-gobain.com/fr/event",
+      "title": "Au programme - événements du Club des actionnaires",
+      "publisher": "Saint-Gobain",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page publique active indiquant aux membres la possibilité de visiter des sites industriels, participer à des activités culturelles et rencontrer les dirigeants. Les filtres listent notamment visites de site, conférences, formations, webconférences et visites culturelles, sans créneau public daté au 9 juin 2026."
+    },
+    {
+      "id": "S06",
+      "url": "https://www.saint-gobain.com/fr/finance/actionnaires-individuels/un-service-votre-disposition",
+      "title": "Actionnariat individuel : un service à votre disposition",
+      "publisher": "Saint-Gobain",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle actuelle donnant l'adresse électronique, le numéro depuis l'étranger, l'adresse postale du service actionnaires et l'accès à l'agenda et aux publications actionnariales."
+    },
+    {
+      "id": "S07",
+      "url": "https://www.saint-gobain.com/fr/finance/actionnaires-individuels/devenir-actionnaire",
+      "title": "Devenir actionnaire",
+      "publisher": "Saint-Gobain",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle comparant porteur, nominatif administré et nominatif pur. Elle confirme Uptevia, la prise en charge des droits de garde et frais de gestion courante, le courtage de 0,30 % HT avec minimum de 6,10 euros HT et la procédure de transfert."
+    },
+    {
+      "id": "S08",
+      "url": "https://www.saint-gobain.com/sites/saint-gobain.com/files/media/document/Convention%20de%20compte%20titres%20nominatifs%20-%20Octobre%202023.pdf",
+      "title": "Convention de compte-titres nominatif - octobre 2023",
+      "publisher": "Saint-Gobain et Uptevia",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": "2023-10",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Convention officielle toujours liée depuis la page actuelle, décrivant l'ouverture et le fonctionnement du compte-titres nominatif géré par Uptevia, les ordres, frais, justificatifs et obligations du titulaire."
+    },
+    {
+      "id": "S09",
+      "url": "https://www.saint-gobain.com/fr/finance/actionnaires-individuels/le-dividende-en-quelques-mots",
+      "title": "Le dividende en quelques mots",
+      "publisher": "Saint-Gobain",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": "2026-06-04",
+      "lastUpdatedAt": "2026-06-04",
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Page officielle datée confirmant l'approbation le 4 juin 2026 d'un dividende uniforme de 2,20 euros par action, avec détachement le 8 juin et paiement à partir du 10 juin 2026, sans montant majoré."
+    },
+    {
+      "id": "S10",
+      "url": "https://www.saint-gobain.com/sites/saint-gobain.com/files/csg_statuts_vf.pdf",
+      "title": "Statuts de la Compagnie de Saint-Gobain au 19 mai 2026",
+      "publisher": "Saint-Gobain",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": "2026-05-19",
+      "lastUpdatedAt": "2026-05-19",
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Statuts certifiés à jour définissant l'égalité des actions, le droit de vote double après deux ans au nominatif et la répartition du dividende entre les actions. Aucune clause de dividende majoré ou prime de fidélité n'y figure."
+    },
+    {
+      "id": "S11",
+      "url": "https://www.saint-gobain.com/fr/finance/actionnaires-individuels/laction-saint-gobain-en-bourse",
+      "title": "L'action Saint-Gobain en Bourse",
+      "publisher": "Saint-Gobain",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page boursière officielle actuelle présentant le titre Compagnie de Saint-Gobain, son cours, l'ISIN FR0000125007 et sa comparaison avec l'indice CAC 40."
+    },
+    {
+      "id": "S12",
+      "url": "https://www.saint-gobain.com/fr/finance/le-groupe-en-chiffres",
+      "title": "Le Groupe en chiffres",
+      "publisher": "Saint-Gobain",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page financière officielle actuelle donnant les chiffres 2025: présence dans 80 pays, 162 000 salariés, 46,5 milliards d'euros de chiffre d'affaires et 5,29 milliards d'euros de résultat d'exploitation."
+    },
+    {
+      "id": "S13",
+      "url": "https://www.saint-gobain.com/sites/saint-gobain.com/files/Club-actionnaires-SG.pdf",
+      "title": "Ancienne brochure du Club des actionnaires Saint-Gobain",
+      "publisher": "Saint-Gobain",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "archived",
+      "evidenceGrade": "D",
+      "evidenceSummary": "Brochure officielle ancienne présentant des exemples d'activités autour de 2010 et une adhésion alors décrite comme automatique au nominatif. Elle sert uniquement à identifier une procédure historique désormais remplacée par l'inscription en ligne."
+    },
+    {
+      "id": "S14",
+      "url": "https://live.euronext.com/en/product/equities/FR0000125007-XPAR",
+      "title": "SAINT GOBAIN - FR0000125007 - Euronext Paris",
+      "publisher": "Euronext",
+      "sourceType": "official_partner",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "C",
+      "evidenceSummary": "Fiche de l'opérateur de marché confirmant la cotation de Compagnie de Saint-Gobain sur Euronext Paris, l'ISIN FR0000125007 et le symbole SGO."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Inscription automatique ou volontaire au Club",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S04",
+        "S13"
+      ],
+      "positions": [
+        "Une ancienne brochure indiquait que les actionnaires au nominatif devenaient automatiquement membres du Club.",
+        "Les conditions, le formulaire et l'espace actuels prévoient une adhésion facultative et une inscription volontaire en ligne."
+      ],
+      "resolution": "Retenir la procédure actuelle: tout actionnaire individuel admissible doit s'inscrire en ligne. L'ancienne automaticité au nominatif est classée comme procédure abandonnée.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Justificatif lors de l'adhésion",
+      "sourceIds": [
+        "S02",
+        "S03"
+      ],
+      "positions": [
+        "Les conditions permettent à Saint-Gobain de demander périodiquement la preuve que le membre possède au moins une action.",
+        "Le formulaire public initial ne propose aucun champ de nombre d'actions, mode de détention ou téléversement de justificatif."
+      ],
+      "resolution": "Décrire l'inscription initiale comme déclarative, tout en avertissant qu'un justificatif peut être demandé ultérieurement et que la qualité d'actionnaire doit être conservée.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Portée de la formule « tous les actionnaires »",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S04"
+      ],
+      "positions": [
+        "La page générale indique que le Club s'adresse à tous les actionnaires détenant au moins une action au porteur ou au nominatif.",
+        "Les conditions et l'espace membre précisent qu'il s'agit des actionnaires individuels et que l'adhérent est une personne physique."
+      ],
+      "resolution": "Appliquer la condition la plus précise du règlement: le Club est ouvert aux personnes physiques actionnaires, dans les trois modes de détention usuels.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Exemples historiques et calendrier actuel des visites",
+      "sourceIds": [
+        "S01",
+        "S05",
+        "S13"
+      ],
+      "positions": [
+        "L'ancienne brochure cite des visites et activités précises organisées autour de 2010.",
+        "Les pages actuelles confirment les catégories de visites et d'activités, mais n'affichent publiquement aucun calendrier complet avec lieux et dates au 9 juin 2026."
+      ],
+      "resolution": "Retenir les catégories de bénéfices encore publiées, sans promettre la reconduction d'un site, d'un monument ou d'une fréquence issus de l'ancienne brochure.",
+      "impact": "wording_only"
+    }
+  ],
+  "handoff": {
+    "researchStatus": "complete_with_uncertainties",
+    "readyForDevelopment": true,
+    "benefitCount": 6,
+    "faqCount": 6,
+    "blockingIssues": [],
+    "developerNotes": [
+      "Utiliser « Club des actionnaires de Saint-Gobain » comme nom officiel; ne pas créer de « Cercle des actionnaires ».",
+      "Conserver eligibility.globalMinimumShares à 1. Le seuil historique interne de 100 actions est contredit par les sources officielles actuelles.",
+      "Ne pas créer deux niveaux entre une communauté générale et un Cercle premium: un seul Club formel est prouvé.",
+      "Exclure toute prime de fidélité ou dividende majoré. Le dividende 2026 est uniforme et les statuts ne prévoient qu'un droit de vote double après deux ans au nominatif.",
+      "Présenter les visites, conférences et activités comme des opportunités soumises aux places et à confirmation, jamais comme des prestations garanties.",
+      "Ne pas reprendre comme actuels les lieux précis de l'ancienne brochure; aucun calendrier public complet n'était disponible au 9 juin 2026.",
+      "Distinguer l'inscription au Club, ouverte au porteur comme au nominatif, des avantages de compte B05 et B06 qui exigent le nominatif pur chez Uptevia.",
+      "Ne pas transformer la Lettre aux actionnaires, l'assemblée générale, le vote, le dividende ordinaire ou les publications publiques en bénéfices."
+    ]
+  }
+}

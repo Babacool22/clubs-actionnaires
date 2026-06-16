@@ -1,0 +1,443 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "thales",
+    "name": "Thales",
+    "description": "Thales est un groupe français de hautes technologies spécialisé dans la défense et la sécurité, l'aéronautique et l'espace, ainsi que la cybersécurité et l'identité numérique. Son action ordinaire est cotée sur Euronext Paris et appartient notamment à l'indice CAC 40.",
+    "sector": "Aéronautique, défense et hautes technologies",
+    "stockIndex": "CAC 40",
+    "ticker": "HO",
+    "website": "https://www.thalesgroup.com/fr",
+    "clubName": null,
+    "clubUrl": null
+  },
+  "offerClassification": {
+    "primaryKind": "shareholder_benefit",
+    "otherKinds": [
+      "investor_relations_only"
+    ],
+    "officialProgrammeName": null,
+    "status": "active",
+    "statusReason": "Thales ne présente ni club, ni cercle, ni programme formel nommé. La page officielle actuelle prouve toutefois un avantage économique actif : l'exonération des droits de garde pour les actions détenues au nominatif pur chez SGSS.",
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": null,
+    "eligibleShareClasses": [
+      "Action ordinaire Thales, ISIN FR0000121329"
+    ],
+    "holdingModes": [
+      "registered_administered",
+      "registered_pure"
+    ],
+    "minimumHoldingPeriod": null,
+    "residencyRestrictions": [],
+    "accountRestrictions": [
+      "Le nominatif pur est tenu par Société Générale Securities Services dans un compte de titres nominatifs.",
+      "Le nominatif administré reste conservé et géré par l'intermédiaire financier choisi par l'actionnaire.",
+      "L'exonération des droits de garde documentée concerne uniquement le nominatif pur."
+    ],
+    "proofRequired": [
+      "Pour un transfert, formulaire signé adressé à l'intermédiaire financier qui détient les titres.",
+      "Pour un achat direct, formulaire d'ordre d'achat Thales et justificatif des coordonnées bancaires ou mandat de prélèvement SEPA.",
+      "Un justificatif d'identité en cours de validité est demandé en cas de changement de situation.",
+      "Un justificatif de résidence de moins d'un an est demandé en cas de changement d'adresse."
+    ],
+    "fees": {
+      "membershipFee": "Non applicable : aucun club ni aucune adhésion séparée ne sont présentés.",
+      "applicationFee": null,
+      "otherFees": [
+        "Les ordres d'achat et de vente restent soumis aux frais de courtage, commissions et taxes applicables.",
+        "Les éventuels frais facturés par l'intermédiaire financier pour un transfert ne sont pas précisés par Thales.",
+        "Le barème détaillé applicable au compte nominatif pur est consultable dans Sharinbox."
+      ],
+      "notes": "Au nominatif pur, les droits de garde et certains frais de gestion courants sont pris en charge par l'émetteur. Cette gratuité ne couvre pas les frais de transaction."
+    },
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ]
+  },
+  "enrollment": {
+    "required": true,
+    "method": "broker_or_bank",
+    "applicationUrl": "https://www.thalesgroup.com/sites/default/files/2025-07/investisseur-conversion-transfert-nominatif-francais.pdf",
+    "contact": "Centre de Relations Client Nomilia de Société Générale Securities Services : +33 (0)2 51 85 67 89, du lundi au vendredi de 9 h à 18 h, heure de Paris.",
+    "steps": [
+      "Pour convertir des titres au porteur au nominatif administré ou transférer des titres au nominatif pur, compléter le formulaire officiel.",
+      "Envoyer le formulaire signé à l'établissement financier qui conserve actuellement les actions.",
+      "Pour acheter directement au nominatif pur, compléter l'ordre d'achat Thales et l'adresser à SGSS par courrier ou par fax avec les éléments de paiement requis.",
+      "Attendre l'avis d'inscription de SGSS confirmant le transfert effectif et l'ouverture ou l'alimentation du compte nominatif pur."
+    ],
+    "processingTime": "Le délai dépend principalement du temps d'exécution de l'ordre de conversion par l'intermédiaire financier.",
+    "renewal": "Aucun renouvellement distinct n'est publié ; le dispositif reste lié au maintien des actions sous la forme nominative choisie.",
+    "deadlines": [
+      "Un ordre d'achat papier est valable jusqu'au dernier jour de bourse du mois suivant sa réception, dans la limite maximale de deux mois.",
+      "Après exécution d'un achat réglé par virement, le solde doit parvenir à SGSS dans un délai de cinq jours ouvrés."
+    ],
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ]
+  },
+  "benefits": [
+    {
+      "id": "B01",
+      "type": "reduction",
+      "title": "Exonération des droits de garde au nominatif pur",
+      "description": "Thales indique que les actions détenues au nominatif pur bénéficient d'une exonération des droits de garde. Le guide lié à la page officielle ajoute que certains frais de gestion courants sont également pris en charge, tandis que les frais de courtage, commissions et taxes sur les transactions restent dus.",
+      "value": "Droits de garde exonérés ; montant des autres économies non chiffré publiquement",
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "registered_pure"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "guaranteed",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Acheter directement les actions au nominatif pur auprès de SGSS ou demander à son intermédiaire financier le transfert de titres existants.",
+        "Faire inscrire effectivement les actions dans le registre Thales tenu par SGSS.",
+        "Consulter dans Sharinbox les conditions tarifaires applicables aux opérations qui restent payantes."
+      ],
+      "limitsAndExclusions": [
+        "L'exonération ne s'applique pas aux actions au porteur ni au nominatif administré.",
+        "Les frais de courtage, commissions et taxes liés aux achats et ventes restent à la charge de l'actionnaire.",
+        "Aucun seuil minimal de titres propre à cet avantage n'est publié ; il ne doit pas être remplacé par une hypothèse d'une action.",
+        "Les éventuels frais de transfert prélevés par la banque ou le courtier d'origine ne sont pas documentés."
+      ],
+      "primarySourceId": "S01",
+      "supportingSourceIds": [
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "sourceUrl": "https://www.thalesgroup.com/fr/relations-investisseurs/actionnaires-individuels",
+      "evidenceGrade": "A",
+      "uncertainty": "Le barème complet des frais de transaction est accessible dans l'espace Sharinbox et n'est pas intégralement détaillé sur la page publique."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Thales possède-t-il un club ou un cercle des actionnaires individuels ?",
+      "answer": "Aucun club ou cercle formel n'est présenté dans les sources officielles actuelles consultées au 9 juin 2026. Thales propose plutôt un espace pour les actionnaires individuels et un dispositif de détention au nominatif, géré pour le nominatif pur par Société Générale Securities Services.",
+      "sourceIds": [
+        "S01",
+        "S06"
+      ]
+    },
+    {
+      "question": "Quel avantage concret est actuellement prouvé pour un actionnaire individuel de Thales ?",
+      "answer": "L'avantage économique clairement prouvé est l'exonération des droits de garde pour les actions détenues au nominatif pur. Certains frais de gestion courants sont aussi pris en charge, mais les achats et ventes restent soumis aux frais de courtage, commissions et taxes applicables.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03"
+      ]
+    },
+    {
+      "question": "Combien d'actions faut-il détenir pour bénéficier du dispositif au nominatif ?",
+      "answer": "Thales ne publie aucun seuil global d'adhésion ni nombre minimal chiffré pour l'exonération des droits de garde. Il faut naturellement détenir des actions Thales et les faire inscrire sous la forme requise, mais le rapport conserve donc le seuil à null au lieu de supposer une action.",
+      "sourceIds": [
+        "S01",
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "question": "Quelle différence existe entre le nominatif pur et le nominatif administré chez Thales ?",
+      "answer": "Au nominatif pur, les titres sont inscrits dans le registre Thales et conservés sur un compte géré par SGSS ; c'est ce mode qui ouvre l'exonération des droits de garde. Au nominatif administré, les titres sont identifiés dans le registre mais restent conservés et gérés par la banque ou le courtier de l'actionnaire.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S04"
+      ]
+    },
+    {
+      "question": "Comment transférer ou acheter des actions Thales au nominatif pur ?",
+      "answer": "Pour transférer des titres existants, l'actionnaire complète le formulaire officiel et l'envoie à son intermédiaire financier. Pour un achat direct, il utilise l'ordre d'achat Thales et l'adresse à SGSS par courrier ou fax avec le paiement et les justificatifs requis. SGSS confirme ensuite l'inscription en compte.",
+      "sourceIds": [
+        "S01",
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "question": "Les visites de sites, conférences et réunions régionales sont-elles garanties aux actionnaires Thales ?",
+      "answer": "Non. Aucun programme Thales daté et actuel de visites de sites ou de conférences réservées aux actionnaires individuels n'a été trouvé. Le guide nominatif lié par Thales évoque génériquement des invitations à des réunions régionales, mais sans calendrier ni conditions propres à Thales ; cet élément n'est donc pas retenu comme bénéfice actif.",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "Les sources officielles actuelles ne présentent ni club ni cercle formel des actionnaires individuels Thales.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S06"
+      ],
+      "notes": "La classification retenue est shareholder_benefit, et non shareholder_club ou shareholder_program."
+    },
+    {
+      "id": "C02",
+      "statement": "Thales maintient un dispositif actif de détention au nominatif pur géré par Société Générale Securities Services.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C03",
+      "statement": "Aucun seuil minimal chiffré d'adhésion ou d'accès à l'exonération des droits de garde n'est publié.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S03",
+        "S04"
+      ],
+      "notes": "Le fait qu'une détention suppose au moins une action ne constitue pas une preuve d'un seuil officiel de programme."
+    },
+    {
+      "id": "C04",
+      "statement": "Les droits de garde sont exonérés pour les actions Thales détenues au nominatif pur.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "notes": "Les frais de transaction restent applicables."
+    },
+    {
+      "id": "C05",
+      "statement": "Le guide nominatif lié par Thales mentionne des invitations à des réunions d'actionnaires dans les régions.",
+      "status": "partially_verified",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "notes": "Le guide est générique à SGSS et aucun programme Thales daté pour 2025 ou 2026 n'a été identifié."
+    },
+    {
+      "id": "C06",
+      "statement": "Les titres inscrits au nominatif depuis au moins deux ans bénéficient d'un droit de vote double.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S06"
+      ],
+      "notes": "Ce droit statutaire n'est pas retenu comme bénéfice conformément au contrat de recherche."
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "Thales exploite un club des actionnaires accessible à partir d'une action.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01"
+      ]
+    },
+    {
+      "claim": "Les actionnaires Thales peuvent actuellement visiter les sites de Toulouse, Cannes ou Vélizy.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "claim": "Thales organise actuellement pour ses actionnaires des conférences thématiques sur la défense, l'espace ou la cybersécurité.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "claim": "Des réunions régionales régulières constituent un avantage actif et programmé pour les actionnaires Thales.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "claim": "La réception d'informations financières et d'une lettre d'information constitue un avantage exclusif du programme.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "claim": "Le droit de vote double après deux ans au nominatif doit être présenté comme un bénéfice actionnaire.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S01",
+        "S06"
+      ]
+    },
+    {
+      "claim": "La participation à l'assemblée générale annuelle est un bénéfice réservé par un club Thales.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S07"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.thalesgroup.com/fr/relations-investisseurs/actionnaires-individuels",
+      "title": "Actionnaires individuels",
+      "publisher": "Thales",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2025-07-29",
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Page officielle spécifique aux actionnaires individuels. Elle décrit l'achat et le transfert au nominatif, SGSS, l'exonération des droits de garde, le droit de vote double après deux ans, les contacts et les formulaires actuels. Elle ne présente aucun club, cercle ou programme de visites."
+    },
+    {
+      "id": "S02",
+      "url": "https://www.thalesgroup.com/sites/default/files/2025-07/investisseur-guide-actionnaire-nominatif-francais.pdf",
+      "title": "Guide de l'actionnaire au nominatif",
+      "publisher": "Société Générale Securities Services, hébergé par Thales",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2024-10",
+      "lastUpdatedAt": "2025-07-08",
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Guide lié par la page Thales. Il détaille les modes de détention, la gratuité des droits de garde et de certains frais courants au nominatif pur, les frais restant dus, le transfert, Sharinbox et Nomilia. Sa mention des réunions régionales est générique et non accompagnée d'un calendrier Thales."
+    },
+    {
+      "id": "S03",
+      "url": "https://www.thalesgroup.com/sites/default/files/2025-09/01740_THALES_ORDRED%27ACHATDETITRESENNOMINATIFPUR_FR_20250327_094641.pdf",
+      "title": "Ordre d'achat de titres en nominatif pur - Thales",
+      "publisher": "Société Générale Securities Services pour Thales",
+      "sourceType": "official_form",
+      "official": true,
+      "publishedAt": "2025-03-27",
+      "lastUpdatedAt": "2025-09-03",
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Formulaire Thales nominatif pur actuellement lié par la page officielle. Il précise l'envoi par courrier ou fax, le paiement, les justificatifs, les délais, la validité de l'ordre et le maintien de frais de courtage, commissions et taxes."
+    },
+    {
+      "id": "S04",
+      "url": "https://www.thalesgroup.com/sites/default/files/2025-07/investisseur-conversion-transfert-nominatif-francais.pdf",
+      "title": "Conversion au nominatif administré - Transfert au nominatif pur",
+      "publisher": "Société Générale Securities Services, hébergé par Thales",
+      "sourceType": "official_form",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2025-07-08",
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Formulaire actuel à adresser à l'intermédiaire financier. Il permet de demander la conversion de titres au porteur au nominatif administré ou le transfert de titres au porteur ou administré vers le nominatif pur chez SGSS."
+    },
+    {
+      "id": "S05",
+      "url": "https://www.thalesgroup.com/fr/relations-investisseurs/action-et-actionnariat",
+      "title": "Action et actionnariat",
+      "publisher": "Thales",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "undated",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle de cotation indiquant notamment le code Bloomberg HO FP et l'appartenance de l'action Thales à plusieurs indices, dont le CAC 40."
+    },
+    {
+      "id": "S06",
+      "url": "https://www.thalesgroup.com/sites/default/files/2026-04/Franc%CC%A7ais%20-%20DEU%202025_INT_0.pdf",
+      "title": "Document d'enregistrement universel 2025",
+      "publisher": "Thales",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2026-04-02",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Document officiel 2025 présentant les activités du Groupe, sa cotation, son capital et les droits de vote doubles attachés aux actions inscrites au nominatif depuis au moins deux ans. Il ne décrit pas de club public d'actionnaires individuels."
+    },
+    {
+      "id": "S07",
+      "url": "https://www.thalesgroup.com/sites/default/files/2026-04/AGM%2012%20mai%202026%20-%20Brochure%20de%20convocation.pdf",
+      "title": "Assemblée générale mixte 2026 - Brochure de convocation",
+      "publisher": "Thales",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2026-04-03",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Brochure officielle de l'assemblée générale du 12 mai 2026. Elle documente les modalités légales de participation, de justification de la détention et de vote, qui ne constituent pas un avantage de club."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Réunions régionales d'actionnaires",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "positions": [
+        "Le guide SGSS lié par Thales indique que les détenteurs au nominatif pur seront invités aux réunions d'actionnaires organisées dans leur région.",
+        "La page Thales dédiée ne publie ni calendrier, ni conditions, ni inscription à un programme de réunions régionales, et aucune annonce officielle Thales datée de 2025 ou 2026 n'a été identifiée."
+      ],
+      "resolution": "Conserver la mention comme affirmation partiellement vérifiée, mais exclure les réunions des bénéfices tant qu'un programme Thales actuel et précis n'est pas publié.",
+      "impact": "benefit_excluded"
+    }
+  ],
+  "handoff": {
+    "researchStatus": "complete_with_uncertainties",
+    "readyForDevelopment": true,
+    "benefitCount": 1,
+    "faqCount": 6,
+    "blockingIssues": [],
+    "developerNotes": [
+      "Ne pas créer de club ou de cercle Thales : clubName et clubUrl doivent rester absents du dossier final.",
+      "Conserver globalMinimumShares et requiredShares à null ; aucun seuil officiel chiffré n'a été trouvé.",
+      "Retenir uniquement l'exonération des droits de garde au nominatif pur comme bénéfice concret.",
+      "Ne pas réintroduire les anciennes affirmations de visites à Toulouse, Cannes ou Vélizy, de conférences thématiques ou de réunions régionales régulières.",
+      "Ne pas transformer le droit de vote double, la participation à l'assemblée générale ou l'information financière standard en bénéfices.",
+      "La page publique ne chiffre pas l'ensemble des frais restant dus ; renvoyer aux conditions tarifaires Sharinbox sans inventer de montant."
+    ]
+  }
+}

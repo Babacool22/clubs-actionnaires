@@ -1,0 +1,527 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "danone",
+    "name": "Danone",
+    "description": "Danone est un groupe alimentaire mondial présent dans les produits laitiers et d'origine végétale, la nutrition spécialisée et les eaux. L'action ordinaire Danone est cotée sur Euronext Paris et fait partie du CAC 40.",
+    "sector": "Boissons & Agroalimentaire",
+    "stockIndex": "CAC40",
+    "ticker": "BN",
+    "website": "https://www.danone.com/",
+    "clubName": null,
+    "clubUrl": null
+  },
+  "offerClassification": {
+    "primaryKind": "shareholder_benefit",
+    "otherKinds": [
+      "investor_relations_only"
+    ],
+    "officialProgrammeName": null,
+    "status": "active",
+    "statusReason": "Aucun club ni programme formel avec adhésion n'est présenté dans les ressources officielles actuelles. Danone propose toutefois un avantage économique actif au nominatif pur, la gratuité des droits de garde, parallèlement à des services ordinaires de relations actionnaires.",
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S04",
+      "S06"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": null,
+    "eligibleShareClasses": [
+      "Action ordinaire Danone S.A., ISIN FR0000120644"
+    ],
+    "holdingModes": [
+      "registered_pure"
+    ],
+    "minimumHoldingPeriod": null,
+    "residencyRestrictions": [],
+    "accountRestrictions": [
+      "Les titres doivent être inscrits au nominatif pur et leur gestion administrative est confiée par Danone à Uptevia.",
+      "Le nominatif administré ne bénéficie pas de la gratuité des droits de garde publiée par Danone; ces frais restent facturés par l'intermédiaire financier.",
+      "La page officielle avertit qu'un portefeuille composé de plusieurs lignes au nominatif pur peut produire plusieurs relevés de comptes-titres pour la déclaration fiscale."
+    ],
+    "proofRequired": [
+      "Demande signée d'inscription des titres en compte nominatif pur remise à l'établissement financier.",
+      "Références du compte-titres, identité du titulaire et quantité d'actions Danone à transférer, selon le formulaire inclus dans la brochure de convocation 2026."
+    ],
+    "fees": {
+      "membershipFee": null,
+      "applicationFee": null,
+      "otherFees": [
+        "Les statuts précisent que la conversion entre la forme au porteur et la forme nominative s'opère à la demande de l'actionnaire et à ses frais.",
+        "Aucun tarif actuel de transfert ou de négociation n'est publié dans les sources consultées; ces coûts peuvent dépendre de l'établissement financier et d'Uptevia.",
+        "Les droits de garde sont gratuits une fois les actions inscrites au nominatif pur."
+      ],
+      "notes": "La gratuité prouvée porte sur les droits de garde au nominatif pur, pas nécessairement sur le transfert initial ni sur les ordres de bourse."
+    },
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S06"
+    ]
+  },
+  "enrollment": {
+    "required": true,
+    "method": "broker_or_bank",
+    "applicationUrl": "https://www.danone.com/content/dam/corp/global/danonecom/investors/fr-all-publications/2026/shareholders-meeting/Danonebrochuredeconvocationsetresolutions.pdf",
+    "contact": "Service Relation Actionnaires Uptevia : 0 800 320 323 depuis la France ou +33 (0)1 58 16 71 75 depuis l'étranger, du lundi au vendredi de 8 h 45 à 18 h, heure de Paris.",
+    "steps": [
+      "Compléter la demande d'inscription de titres Danone en compte nominatif pur incluse dans la brochure de convocation 2026.",
+      "Remettre la demande signée à l'établissement financier qui conserve les actions.",
+      "Faire transférer les titres vers le compte nominatif pur géré par Uptevia pour Danone.",
+      "Vérifier auprès de l'établissement d'origine les éventuels frais de conversion ou de transfert."
+    ],
+    "processingTime": null,
+    "renewal": "Aucun renouvellement d'adhésion n'est applicable; la gratuité des droits de garde demeure liée au maintien des titres au nominatif pur.",
+    "deadlines": [],
+    "sourceIds": [
+      "S01",
+      "S05",
+      "S06"
+    ]
+  },
+  "benefits": [
+    {
+      "id": "B01",
+      "type": "reduction",
+      "title": "Droits de garde gratuits au nominatif pur",
+      "description": "Danone indique qu'aucun droit de garde n'est demandé lorsque les actions sont inscrites au nominatif pur et administrées par Uptevia. La gratuité ne s'étend pas explicitement au transfert initial ni aux ordres de bourse.",
+      "value": "0 € de droits de garde au nominatif pur",
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "registered_pure"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "guaranteed",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Compléter la demande officielle d'inscription en compte nominatif pur.",
+        "Remettre la demande à l'établissement financier détenant les titres.",
+        "Faire inscrire les actions dans le compte nominatif pur administré par Uptevia pour Danone."
+      ],
+      "limitsAndExclusions": [
+        "Aucun nombre minimal d'actions n'est publié; le seuil ne doit pas être remplacé par une action.",
+        "Aucune durée minimale de détention n'est publiée pour la gratuité des droits de garde.",
+        "Le nominatif administré reste soumis aux droits de garde facturés par l'intermédiaire financier.",
+        "La conversion ou le transfert peut être réalisé aux frais de l'actionnaire selon les statuts.",
+        "Les frais de courtage et autres frais de transaction ne sont pas annoncés comme gratuits."
+      ],
+      "primarySourceId": "S01",
+      "supportingSourceIds": [
+        "S02",
+        "S06"
+      ],
+      "sourceUrl": "https://www.danone.com/fr/investisseurs/comprendre-danone/laction-danone.html",
+      "evidenceGrade": "B",
+      "uncertainty": "La page officielle actuelle est précise sur l'absence de droits de garde, mais elle n'est pas datée et ne publie ni seuil minimal, ni délai de transfert, ni barème des autres frais."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Danone dispose-t-il d'un club ou d'un programme pour ses actionnaires individuels ?",
+      "answer": "Aucun club ni programme formel avec adhésion, règlement ou statut de membre n'est présenté dans les ressources officielles actuelles. Danone maintient une rubrique de relations actionnaires et propose la gratuité des droits de garde au nominatif pur, sans que cet avantage constitue un club.",
+      "sourceIds": [
+        "S01",
+        "S04",
+        "S05"
+      ]
+    },
+    {
+      "question": "Quel avantage concret est officiellement prouvé pour un actionnaire Danone ?",
+      "answer": "Le seul avantage économique retenu est l'absence de droits de garde pour les actions inscrites au nominatif pur et gérées par Uptevia. Le transfert initial et les ordres de bourse ne sont pas annoncés comme gratuits, et aucun seuil minimal d'actions n'est publié.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S06"
+      ]
+    },
+    {
+      "question": "Danone verse-t-il une prime de fidélité ou un dividende majoré après deux ans au nominatif ?",
+      "answer": "Non. Les statuts à jour du 26 mai 2026 prévoient une part de bénéfices proportionnelle par action et la vocation de chaque action à une même somme nette. L'Assemblée Générale du 23 avril 2026 a approuvé un dividende unique de 2,25 euros par action. Les deux ans au nominatif concernent le droit de vote double, pas une majoration du dividende.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03"
+      ]
+    },
+    {
+      "question": "Que donne une détention de deux ans au nominatif chez Danone ?",
+      "answer": "Une action entièrement libérée, inscrite au nominatif pur ou administré au nom du même titulaire depuis au moins deux ans, bénéficie d'un droit de vote double. Ce droit statutaire de vote n'est pas compté comme un avantage commercial ou un bénéfice de programme dans ce rapport.",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "question": "Comment passer des actions Danone au nominatif pur et quels frais peuvent subsister ?",
+      "answer": "L'actionnaire complète la demande incluse dans la brochure de convocation 2026 et la remet à son établissement financier, qui organise le transfert vers Uptevia. Danone ne facture ensuite aucun droit de garde, mais les statuts indiquent que la conversion peut s'effectuer aux frais de l'actionnaire; il faut donc vérifier les coûts auprès de la banque.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S05",
+        "S06"
+      ]
+    },
+    {
+      "question": "Les lettres, assemblées, visites d'usines et événements Danone sont-ils des avantages réservés ?",
+      "answer": "La lettre aux actionnaires est accessible publiquement et l'assemblée générale relève des droits ordinaires de l'actionnaire. Aucun programme actuel de visites d'Évian, Volvic ou d'usines laitières réservé aux actionnaires n'a été trouvé. La visite de site officielle identifiée concernait des analystes sell-side, pas un club d'actionnaires.",
+      "sourceIds": [
+        "S04",
+        "S07",
+        "S08"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "L'action ordinaire Danone porte l'ISIN FR0000120644, le symbole BN, est cotée sur Euronext Paris et appartient au CAC 40.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S10"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C02",
+      "statement": "Aucun club ou programme formel destiné aux actionnaires individuels n'est présenté dans les ressources officielles actuelles de Danone.",
+      "status": "partially_verified",
+      "sourceIds": [
+        "S01",
+        "S04",
+        "S05",
+        "S09"
+      ],
+      "notes": "La conclusion porte sur l'absence de dispositif formel publié au 9 juin 2026; elle ne peut exclure une invitation privée ponctuelle non publiée."
+    },
+    {
+      "id": "C03",
+      "statement": "Les actions Danone inscrites au nominatif pur et administrées par Uptevia bénéficient de droits de garde gratuits.",
+      "status": "verified",
+      "sourceIds": [
+        "S01"
+      ],
+      "notes": "La gratuité ne couvre pas explicitement le transfert initial ni les ordres de bourse."
+    },
+    {
+      "id": "C04",
+      "statement": "Danone ne prévoit pas de prime de fidélité ni de dividende majoré pour les actions détenues deux ans au nominatif.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "notes": "Les statuts actuels prévoient une même vocation économique par action et le dividende 2025 approuvé en 2026 est fixé uniformément à 2,25 euros par action."
+    },
+    {
+      "id": "C05",
+      "statement": "Les actions entièrement libérées inscrites au nominatif depuis au moins deux ans au nom du même titulaire bénéficient d'un droit de vote double.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "notes": "Ce droit statutaire est exclu des bénéfices conformément au contrat de recherche."
+    },
+    {
+      "id": "C06",
+      "statement": "Aucun événement ou visite de site actuellement réservé aux seuls actionnaires individuels n'a été identifié.",
+      "status": "uncertain",
+      "sourceIds": [
+        "S04",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "notes": "Les pages publiques ne présentent pas de programme réservé avec seuil, inscription ou calendrier; des invitations ponctuelles non publiées restent théoriquement possibles."
+    },
+    {
+      "id": "C07",
+      "statement": "La demande d'inscription au nominatif pur doit être transmise à l'établissement financier, qui organise le transfert des titres vers Uptevia.",
+      "status": "verified",
+      "sourceIds": [
+        "S02",
+        "S06"
+      ],
+      "notes": "Les frais de conversion ou de transfert doivent être vérifiés auprès de l'établissement financier."
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "Danone verse une prime de fidélité de 10 % aux actionnaires détenant leurs actions au nominatif depuis deux années civiles pleines.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03"
+      ]
+    },
+    {
+      "claim": "Une action suffit pour adhérer à un club des actionnaires Danone.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01",
+        "S04",
+        "S05"
+      ]
+    },
+    {
+      "claim": "Danone propose un club ou une communauté d'actionnaires avec adhésion gratuite.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S04",
+        "S05",
+        "S09"
+      ]
+    },
+    {
+      "claim": "Les actionnaires Danone bénéficient de visites réservées des sites Évian, Volvic et des usines laitières.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S08"
+      ]
+    },
+    {
+      "claim": "La lettre aux actionnaires, les alertes et les publications financières publiques sont des avantages exclusifs.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S04",
+        "S07",
+        "S09"
+      ]
+    },
+    {
+      "claim": "La participation à l'Assemblée Générale, le vote et la convocation électronique sont des bénéfices du programme actionnaires.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S02",
+        "S06"
+      ]
+    },
+    {
+      "claim": "Le droit de vote double après deux ans au nominatif constitue un avantage commercial du programme Danone.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "claim": "Le versement rapide du dividende par Uptevia constitue un bénéfice économique distinct et garanti.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01"
+      ]
+    },
+    {
+      "claim": "Le dividende ordinaire de 2,25 euros par action versé en 2026 est un avantage réservé aux membres d'un programme.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S03"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.danone.com/fr/investisseurs/comprendre-danone/laction-danone.html",
+      "title": "L'action Danone",
+      "publisher": "Danone",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle actuelle détaillant le porteur, le nominatif administré et le nominatif pur. Elle identifie Uptevia, confirme la gratuité des droits de garde au nominatif pur, le maintien des frais au nominatif administré et le droit de vote double après deux ans."
+    },
+    {
+      "id": "S02",
+      "url": "https://www.danone.com/content/dam/corp/global/danonecom/investors/fr-by-laws/2026/statutsdanone26052026.pdf",
+      "title": "Statuts Danone à jour au 26 mai 2026",
+      "publisher": "Danone",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2026-05-26",
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Statuts actuels définissant la conversion au nominatif à la demande et aux frais de l'actionnaire, l'égalité économique des actions, le droit de vote double après deux ans au nominatif et les règles uniformes d'affectation du dividende."
+    },
+    {
+      "id": "S03",
+      "url": "https://www.danone.com/fr/newsroom/communiques-de-presse/press-release-detail/danone-shareholders-meeting-2026.html",
+      "title": "Assemblée Générale 2026 de Danone : approbation de toutes les résolutions",
+      "publisher": "Danone",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": "2026-04-23",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Communiqué officiel daté confirmant l'approbation d'un dividende unique de 2,25 euros par action, détaché le 4 mai 2026 et payé le 6 mai 2026, sans prime de fidélité ni montant majoré."
+    },
+    {
+      "id": "S04",
+      "url": "https://www.danone.com/fr/investisseurs/lettrr.html",
+      "title": "Actionnaires",
+      "publisher": "Danone",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Rubrique officielle actuelle limitée à la lettre aux actionnaires, l'Assemblée Générale et la FAQ avec contact. Aucun club, règlement, formulaire d'adhésion, seuil de membre ou agenda d'événements réservés n'y est présenté."
+    },
+    {
+      "id": "S05",
+      "url": "https://www.danone.com/fr/investisseurs/lettrr/questions-frequentes-et-contacts.html",
+      "title": "Questions fréquentes et Contact",
+      "publisher": "Danone",
+      "sourceType": "official_faq",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "FAQ officielle actuelle donnant les codes du titre et les coordonnées du service Relation Actionnaires Uptevia, joignable en semaine. Elle ne décrit aucun club, seuil d'adhésion, prime de fidélité ou événement réservé."
+    },
+    {
+      "id": "S06",
+      "url": "https://www.danone.com/content/dam/corp/global/danonecom/investors/fr-all-publications/2026/shareholders-meeting/Danonebrochuredeconvocationsetresolutions.pdf",
+      "title": "Brochure de convocation et résolutions 2026",
+      "publisher": "Danone",
+      "sourceType": "official_form",
+      "official": true,
+      "publishedAt": "2026-04",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Brochure officielle 2026 contenant la demande d'inscription de titres en compte nominatif pur à remettre à l'établissement financier et les coordonnées d'Uptevia. Elle documente la procédure pratique sans créer de statut de membre."
+    },
+    {
+      "id": "S07",
+      "url": "https://www.danone.com/content/dam/corp/global/danonecom/investors/fr-shareholders-letters/2025/danonenewsletterjuillet.pdf.coredownload.pdf",
+      "title": "Lettre aux actionnaires - Juillet 2025",
+      "publisher": "Danone",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2025-07",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "archived",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Lettre officielle accessible publiquement, consacrée aux résultats et actualités du Groupe. Elle fournit le contact Uptevia mais ne prouve aucun avantage exclusif, club, visite réservée ou prime de fidélité."
+    },
+    {
+      "id": "S08",
+      "url": "https://www.danone.com/fr/investisseurs/publications-et-evenements/evenements-et-seminaires-investisseurs.html",
+      "title": "Evénements et séminaires investisseurs",
+      "publisher": "Danone",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle présentant des séminaires investisseurs et une visite de Saclay en 2023 destinée aux analystes sell-side. Elle ne publie aucun programme 2026 de visites de sites réservé aux actionnaires individuels."
+    },
+    {
+      "id": "S09",
+      "url": "https://www.danone.com/content/dam/corp/global/danonecom/investors/fr-all-publications/2026/registrationdocuments/deu2025.pdf",
+      "title": "Document d'Enregistrement Universel 2025",
+      "publisher": "Danone",
+      "sourceType": "regulatory_filing",
+      "official": true,
+      "publishedAt": "2026-03-04",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Dépôt réglementaire officiel décrivant les activités de Danone, ses catégories de produits, l'actionnariat et la gouvernance. Il ne présente aucun club ni programme d'avantages réservé aux actionnaires individuels."
+    },
+    {
+      "id": "S10",
+      "url": "https://live.euronext.com/de/product/equities/FR0000120644-XPAR",
+      "title": "DANONE - FR0000120644 - Euronext Paris",
+      "publisher": "Euronext",
+      "sourceType": "official_partner",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "de",
+      "status": "current",
+      "evidenceGrade": "C",
+      "evidenceSummary": "Fiche de l'opérateur de marché confirmant Danone, l'ISIN FR0000120644, le symbole BN, la cotation à Paris et l'appartenance aux actions du CAC 40."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Montant du dernier dividende affiché",
+      "sourceIds": [
+        "S01",
+        "S03"
+      ],
+      "positions": [
+        "La page générale de l'action affiche encore le dividende de 2,15 euros distribué au titre de l'exercice 2024.",
+        "Le communiqué de l'Assemblée Générale du 23 avril 2026 confirme l'approbation et le paiement d'un dividende de 2,25 euros par action au titre de l'exercice 2025."
+      ],
+      "resolution": "Retenir 2,25 euros comme dernier dividende approuvé et payé à la date de référence. L'affichage de 2,15 euros sur la page générale est une information historique non encore actualisée, sans incidence sur l'absence de prime de fidélité.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Étendue de la gratuité du nominatif pur",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "positions": [
+        "La page actionnaires indique qu'aucun droit de garde n'est demandé au nominatif pur.",
+        "Les statuts précisent que la conversion entre porteur et nominatif s'opère à la demande et aux frais de l'actionnaire."
+      ],
+      "resolution": "Distinguer la tenue courante gratuite du compte nominatif pur des éventuels frais initiaux de conversion ou de transfert facturés par l'établissement financier. Ne pas annoncer une gratuité totale de la démarche.",
+      "impact": "wording_only"
+    }
+  ],
+  "handoff": {
+    "researchStatus": "complete_with_uncertainties",
+    "readyForDevelopment": true,
+    "benefitCount": 1,
+    "faqCount": 6,
+    "blockingIssues": [],
+    "developerNotes": [
+      "Ne pas créer de clubName ni de clubUrl: aucun club ou programme formel n'est prouvé.",
+      "Conserver uniquement B01, la gratuité des droits de garde au nominatif pur.",
+      "Laisser eligibility.globalMinimumShares et B01.requiredShares à null: aucun seuil minimal n'est publié.",
+      "Ne pas transformer le droit de vote double après deux ans au nominatif en bénéfice; il s'agit d'un droit statutaire.",
+      "Rejeter explicitement l'ancienne affirmation d'une prime de fidélité de 10 %: les statuts au 26 mai 2026 et le dividende uniforme de 2,25 euros la contredisent.",
+      "Ne pas convertir la lettre aux actionnaires, les publications, l'Assemblée Générale, VOTACCESS, le contact Uptevia ou le paiement ordinaire du dividende en bénéfices.",
+      "Ne pas publier de visites Évian, Volvic ou d'usines laitières: aucun programme réservé aux actionnaires avec conditions actuelles n'est prouvé.",
+      "Préciser que les droits de garde sont gratuits mais que le transfert initial et les ordres de bourse peuvent rester payants."
+    ]
+  }
+}

@@ -1,0 +1,566 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "walmart",
+    "name": "Walmart",
+    "description": "Walmart Inc. est un groupe américain de distribution omnicanale exploitant notamment Walmart et Sam's Club aux États-Unis ainsi que des activités internationales. Son action ordinaire, incluse dans le S&P 500, est cotée au Nasdaq Global Select Market sous le symbole WMT depuis le 9 décembre 2025.",
+    "sector": "Distribution & Retail",
+    "stockIndex": "S&P 500",
+    "ticker": "WMT",
+    "website": "https://corporate.walmart.com",
+    "clubName": null,
+    "clubUrl": null
+  },
+  "offerClassification": {
+    "primaryKind": "investor_relations_only",
+    "otherKinds": [],
+    "officialProgrammeName": null,
+    "status": "active",
+    "statusReason": "Walmart maintient un espace de relations investisseurs et des services d'agent de transfert, mais aucun club, programme commercial ou avantage économique réservé aux actionnaires externes n'était officiellement disponible au 9 juin 2026. L'accès physique des actionnaires à l'Associate Celebration est prouvé pour 2025 seulement et ne peut pas être reconduit par analogie.",
+    "sourceIds": [
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S07"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": null,
+    "eligibleShareClasses": [],
+    "holdingModes": [],
+    "minimumHoldingPeriod": null,
+    "residencyRestrictions": [],
+    "accountRestrictions": [],
+    "proofRequired": [],
+    "fees": {
+      "membershipFee": "Non applicable : aucun club ni programme actionnaire commercial actuel n'est publié.",
+      "applicationFee": null,
+      "otherFees": [],
+      "notes": "Les éventuels frais du plan direct proposé par Computershare relèvent d'un service générique non sponsorisé par Walmart et ne sont pas des frais d'adhésion à un programme actionnaire Walmart."
+    },
+    "sourceIds": [
+      "S03",
+      "S06",
+      "S07",
+      "S13"
+    ]
+  },
+  "enrollment": {
+    "required": false,
+    "method": "not_applicable",
+    "applicationUrl": null,
+    "contact": "Relations investisseurs : IR@walmart.com. Agent de transfert pour les comptes de titres : Computershare, 1-800-438-6278.",
+    "steps": [],
+    "processingTime": null,
+    "renewal": null,
+    "deadlines": [],
+    "sourceIds": [
+      "S02",
+      "S03"
+    ]
+  },
+  "benefits": [],
+  "faqs": [
+    {
+      "question": "Walmart propose-t-il un club ou un avantage commercial actif aux actionnaires externes en 2026 ?",
+      "answer": "Non. Les sources officielles disponibles au 9 juin 2026 présentent des relations investisseurs, une assemblée annuelle virtuelle et les services de Computershare, mais aucun club, remise, cadeau, adhésion Walmart+ ou autre avantage économique accordé du seul fait de détenir l'action WMT.",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06"
+      ]
+    },
+    {
+      "question": "Les actionnaires externes pouvaient-ils assister à une Associate Celebration Walmart en 2026 ?",
+      "answer": "Aucune page officielle d'admission des actionnaires ni aucune Associate Celebration 2026 ne figurait dans le calendrier public de Walmart au 9 juin 2026. Une Associates Week 2026 est bien attestée par un événement sportif destiné aux associés, mais cette source n'ouvre aucun accès aux actionnaires externes. Il faut donc considérer l'avantage 2026 comme non prouvé.",
+      "sourceIds": [
+        "S06",
+        "S11"
+      ]
+    },
+    {
+      "question": "Quelles étaient les conditions d'accès des actionnaires à l'Associate Celebration 2025 ?",
+      "answer": "Pour l'édition du 6 juin 2025 au Bud Walton Arena, Walmart exigeait d'avoir détenu des actions à la clôture du 11 avril 2025, de présenter une preuve de détention admise et une pièce d'identité avec photo. L'admission restait limitée par la capacité disponible. Ces conditions ont expiré avec l'événement et ne prouvent aucune disponibilité en 2026.",
+      "sourceIds": [
+        "S07"
+      ]
+    },
+    {
+      "question": "La record date du 10 avril 2026 donnait-elle accès à une célébration physique Walmart ?",
+      "answer": "Non. Le 10 avril 2026 était la record date de l'assemblée annuelle du 4 juin 2026, organisée uniquement en ligne. Les actionnaires disposant d'un numéro de contrôle à 16 chiffres pouvaient écouter, voter et poser des questions, tandis que le public pouvait seulement écouter. Walmart n'a associé cette date à aucune Associate Celebration physique en 2026.",
+      "sourceIds": [
+        "S04",
+        "S05"
+      ]
+    },
+    {
+      "question": "Le plan d'achat direct proposé par Computershare est-il un bénéfice actionnaire Walmart ?",
+      "answer": "Non. Walmart indique expressément que le plan d'achat direct proposé par Computershare n'est pas sponsorisé par Walmart. Il s'agit d'un moyen générique d'acheter ou de gérer des actions, avec ses propres modalités et frais, et non d'une remise ou d'un avantage réservé aux actionnaires existants. Les anciens montants de frais ne doivent pas être présentés comme actuels.",
+      "sourceIds": [
+        "S03",
+        "S12",
+        "S13"
+      ]
+    },
+    {
+      "question": "Le plan d'achat d'actions, la remise salarié ou Walmart+ sont-ils accessibles aux simples actionnaires ?",
+      "answer": "Non. L'Associate Stock Purchase Plan et son abondement de 15 % sur les premiers 1 800 dollars versés par année de plan sont réservés aux associés salariés éligibles. Les documents 2026 rattachent aussi l'Associate Discount Card et l'adhésion Walmart+ sans coût aux avantages des associés. Un actionnaire externe n'y accède pas par la seule détention de WMT.",
+      "sourceIds": [
+        "S08",
+        "S09",
+        "S10"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "L'action ordinaire Walmart Inc. est cotée au Nasdaq Global Select Market sous le symbole WMT depuis le 9 décembre 2025.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "notes": "Les anciennes données mentionnant encore le NYSE sont dépassées."
+    },
+    {
+      "id": "C02",
+      "statement": "Aucun club ni avantage commercial actuel réservé aux actionnaires externes n'est publié dans l'espace investisseurs Walmart.",
+      "status": "partially_verified",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06"
+      ],
+      "notes": "Conclusion négative fondée sur les sources officielles actuelles. Une offre privée ou non indexée ne peut être exclue absolument, mais aucun dispositif exploitable n'a été trouvé."
+    },
+    {
+      "id": "C03",
+      "statement": "L'Associate Celebration du 6 juin 2025 acceptait les actionnaires ayant détenu des actions Walmart à la clôture du 11 avril 2025, sous réserve de justificatifs et de capacité.",
+      "status": "verified",
+      "sourceIds": [
+        "S07"
+      ],
+      "notes": "La page ne publie pas de nombre minimal d'actions et ne doit pas être convertie en seuil officiel d'une action."
+    },
+    {
+      "id": "C04",
+      "statement": "Aucune condition officielle d'admission des actionnaires externes à une Associate Celebration 2026 n'était disponible au 9 juin 2026.",
+      "status": "partially_verified",
+      "sourceIds": [
+        "S06",
+        "S11"
+      ],
+      "notes": "Le calendrier public ne liste aucune édition 2026. Associates Week existait, mais la source 2026 trouvée décrit un événement pour associés sans invitation des actionnaires externes."
+    },
+    {
+      "id": "C05",
+      "statement": "La record date du 10 avril 2026 concernait l'assemblée annuelle virtuelle du 4 juin 2026 et non une célébration physique.",
+      "status": "verified",
+      "sourceIds": [
+        "S04",
+        "S05"
+      ],
+      "notes": "L'assemblée annuelle est documentée seulement pour éviter la confusion avec l'Associate Celebration ; elle n'est pas retenue comme bénéfice."
+    },
+    {
+      "id": "C06",
+      "statement": "Computershare est l'agent de transfert de Walmart et son plan direct d'achat d'actions n'est pas sponsorisé par Walmart.",
+      "status": "verified",
+      "sourceIds": [
+        "S02",
+        "S03"
+      ],
+      "notes": "Ce service générique est exclu des bénéfices conformément au contrat de recherche."
+    },
+    {
+      "id": "C07",
+      "statement": "L'Associate Stock Purchase Plan avec abondement de 15 % est un avantage réservé aux associés salariés éligibles.",
+      "status": "verified",
+      "sourceIds": [
+        "S08",
+        "S09"
+      ],
+      "notes": "Il ne doit pas être présenté comme un avantage des actionnaires externes."
+    },
+    {
+      "id": "C08",
+      "statement": "L'Associate Discount Card et l'adhésion Walmart+ sans coût relèvent des avantages des associés et non de la qualité d'actionnaire externe.",
+      "status": "verified",
+      "sourceIds": [
+        "S10"
+      ],
+      "notes": null
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "L'Associates Celebration au Bud Walton Arena constitue un avantage actionnaire actif et disponible en 2026.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S06",
+        "S07",
+        "S11"
+      ]
+    },
+    {
+      "claim": "La record date du 10 avril 2026 permettait aux actionnaires d'entrer à une célébration physique.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S04",
+        "S05"
+      ]
+    },
+    {
+      "claim": "La participation à l'assemblée annuelle virtuelle, le vote et les questions constituent un bénéfice actionnaire commercial.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S04",
+        "S05"
+      ]
+    },
+    {
+      "claim": "Le plan direct d'achat, le réinvestissement et la détention en compte chez Computershare sont des avantages réservés aux actionnaires Walmart.",
+      "reason": "not_shareholder_specific",
+      "sourceIds": [
+        "S03",
+        "S12"
+      ]
+    },
+    {
+      "claim": "Le plan direct Computershare offre actuellement des frais réduits prouvés par Walmart.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S03",
+        "S13"
+      ]
+    },
+    {
+      "claim": "L'abondement de 15 % du plan d'achat d'actions est accordé à tout détenteur de WMT.",
+      "reason": "not_shareholder_specific",
+      "sourceIds": [
+        "S08",
+        "S09"
+      ]
+    },
+    {
+      "claim": "La remise associé, Walmart+ sans coût ou l'adhésion Sam's Club sont des avantages commerciaux des actionnaires externes.",
+      "reason": "not_shareholder_specific",
+      "sourceIds": [
+        "S10"
+      ]
+    },
+    {
+      "claim": "Le dividende ordinaire de Walmart doit être recensé comme avantage du programme actionnaire.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S01"
+      ]
+    },
+    {
+      "claim": "Les rapports, alertes, webcasts et informations financières publics sont des avantages exclusifs des actionnaires.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S02",
+        "S04",
+        "S06"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000055/wmt-20260131.htm",
+      "title": "Walmart Inc. Form 10-K for the fiscal year ended January 31, 2026",
+      "publisher": "Walmart Inc.",
+      "sourceType": "regulatory_filing",
+      "official": true,
+      "publishedAt": "2026-03-13",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Le dépôt réglementaire confirme l'entité Walmart Inc., le symbole WMT et le transfert de la cotation principale du NYSE vers le Nasdaq Global Select Market à compter du 9 décembre 2025. Il décrit aussi les avantages et plans d'actionnariat comme des éléments de rémunération des associés américains."
+    },
+    {
+      "id": "S02",
+      "url": "https://stock.walmart.com/company-information",
+      "title": "Company Info",
+      "publisher": "Walmart Inc.",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La page officielle présente Walmart Inc. comme distributeur omnicanal coté au Nasdaq sous WMT, décrit son secteur et fournit les contacts de relations investisseurs ainsi que Computershare comme agent de transfert. Elle ne publie ni club ni avantage commercial pour les actionnaires."
+    },
+    {
+      "id": "S03",
+      "url": "https://stock.walmart.com/company-information/faq",
+      "title": "Investor FAQ",
+      "publisher": "Walmart Inc.",
+      "sourceType": "official_faq",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La FAQ identifie Computershare et son numéro de contact, précise que le plan direct proposé par Computershare n'est pas sponsorisé par Walmart et sépare le service des actionnaires ordinaires du Walmart Participant Service Center destiné aux associés actuels ou anciens."
+    },
+    {
+      "id": "S04",
+      "url": "https://corporate.walmart.com/news/2026/04/23/walmart-releases-2026-annual-report-and-proxy-statement",
+      "title": "Walmart Releases 2026 Annual Report and Proxy Statement",
+      "publisher": "Walmart Inc.",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": "2026-04-23",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Le communiqué officiel fixe l'assemblée annuelle au 4 juin 2026, uniquement en ligne, et la record date au 10 avril 2026. Il décrit les moyens de vote et ne mentionne aucune Associate Celebration ou admission physique des actionnaires en 2026."
+    },
+    {
+      "id": "S05",
+      "url": "https://corporate.walmart.com/news/events/2026-annual-shareholders-meeting",
+      "title": "2026 Annual Shareholders' Meeting",
+      "publisher": "Walmart Inc.",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "La page de l'événement confirme l'absence de lieu physique, l'accès des actionnaires avec un numéro de contrôle à 16 chiffres pour écouter, voter et poser des questions, l'écoute publique sans vote et la record date du 10 avril 2026."
+    },
+    {
+      "id": "S06",
+      "url": "https://corporate.walmart.com/news/events",
+      "title": "Walmart Events",
+      "publisher": "Walmart Inc.",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Le calendrier officiel consulté au 9 juin 2026 liste l'assemblée annuelle 2026 et les événements investisseurs, mais aucune Associates Week ou Associate Celebration 2026. Il conserve les pages des éditions 2025, 2024 et 2023, ce qui rend l'absence de page 2026 significative sans constituer une annonce formelle d'arrêt définitif."
+    },
+    {
+      "id": "S07",
+      "url": "https://corporate.walmart.com/news/events/2025-associates-week-and-associate-celebration",
+      "title": "2025 Associates Week and Associate Celebration",
+      "publisher": "Walmart Inc.",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "expired",
+      "evidenceGrade": "A",
+      "evidenceSummary": "La page officielle de l'édition du 6 juin 2025 autorisait l'accès physique des actionnaires détenant des actions à la clôture du 11 avril 2025. Elle détaille les preuves admises pour les détenteurs inscrits ou via intermédiaire, la pièce d'identité, les restrictions de sécurité et la limite de capacité."
+    },
+    {
+      "id": "S08",
+      "url": "https://corporate.walmart.com/about/working-at-walmart/benefits",
+      "title": "Our Benefits",
+      "publisher": "Walmart Inc.",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "La page indique que les avantages décrits s'appliquent en 2026 et concernent les associés. Elle attribue aux associés éligibles l'Associate Stock Purchase Plan avec un abondement de 15 % sur les premiers 1 800 dollars versés par année de plan."
+    },
+    {
+      "id": "S09",
+      "url": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000055/wmtexhibit103fy26.htm",
+      "title": "Walmart Inc. 2016 Associate Stock Purchase Plan, as amended effective February 4, 2026",
+      "publisher": "Walmart Inc.",
+      "sourceType": "regulatory_filing",
+      "official": true,
+      "publishedAt": "2026-03-13",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "L'annexe réglementaire contient le plan d'achat d'actions des associés dans sa version modifiée en 2026. Son intitulé, ses définitions et ses règles d'éligibilité établissent qu'il s'agit d'un plan d'emploi et non d'un avantage ouvert à tout actionnaire externe."
+    },
+    {
+      "id": "S10",
+      "url": "https://one.walmart.com/content/dam/themepage/pdfs/FY27-Financial-Wellbeing-Poster-English.pdf",
+      "title": "FY27 Financial Wellbeing Poster - English",
+      "publisher": "Walmart Inc.",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Le document 2026 destiné aux associés présente l'ASPP avec abondement, l'Associate Discount Card et l'adhésion Walmart+ sans coût ou l'adhésion Sam's Club comme avantages liés à l'emploi. Il ne les rattache pas à la simple détention d'actions WMT."
+    },
+    {
+      "id": "S11",
+      "url": "https://corporate.walmart.com/news/2026/02/11/walmart-international-triathlon",
+      "title": "Just Tri It: The Walmart International Triathlon Returns in 2026",
+      "publisher": "Walmart Inc.",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": "2026-02-11",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Cette publication confirme l'existence d'Associates Week en 2026, mais décrit un triathlon réunissant des associés et des bénévoles Walmart. Elle ne fournit aucune invitation, record date ou procédure d'accès pour les actionnaires externes."
+    },
+    {
+      "id": "S12",
+      "url": "https://www.computershare.com/us/personal/information-for-tax-filing/cost-basis-fatca/walmart",
+      "title": "Walmart Cost Basis Information Center",
+      "publisher": "Computershare",
+      "sourceType": "transfer_agent",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "C",
+      "evidenceSummary": "La page de l'agent de transfert fournit des ressources de coût fiscal pour les actions Walmart et un portail distinct pour les participants au plan salarié. Elle documente des services de tenue de compte et d'information, pas une remise commerciale réservée aux actionnaires."
+    },
+    {
+      "id": "S13",
+      "url": "https://www-us.computershare.com/Content/Download.asp?bhjs=1&cc=US&docId=%7BFBA729FD-A34A-452B-9DF7-43E490EB3FF1%7D&lang=en&theme=cpu",
+      "title": "Direct Stock Purchase Plan - Initial Enrollment Form - WMT",
+      "publisher": "Computershare Trust Company, N.A.",
+      "sourceType": "transfer_agent",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "archived",
+      "evidenceGrade": "D",
+      "evidenceSummary": "Ancien formulaire Computershare pour WMT mentionnant achat direct, réinvestissement, frais d'inscription et limites d'investissement. Son ancienneté empêche d'utiliser ses montants comme conditions actuelles ; il sert seulement à rejeter les affirmations non datées de frais réduits."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Disponibilité de l'Associate Celebration en 2026",
+      "sourceIds": [
+        "S06",
+        "S07",
+        "S11"
+      ],
+      "positions": [
+        "La page 2025 prouve un accès physique des actionnaires externes sous conditions de record date, de justificatifs, d'identité et de capacité.",
+        "Associates Week existait en 2026, mais le calendrier officiel ne publiait aucune Associate Celebration 2026 et aucune source 2026 ne donnait de conditions d'admission aux actionnaires externes."
+      ],
+      "resolution": "Traiter l'accès 2025 comme expiré et exclure l'Associate Celebration des bénéfices 2026. Conserver l'incertitude sur une éventuelle reprise future, faute d'annonce formelle d'arrêt.",
+      "impact": "benefit_excluded"
+    },
+    {
+      "topic": "Confusion entre les record dates 2025 et 2026",
+      "sourceIds": [
+        "S04",
+        "S05",
+        "S07"
+      ],
+      "positions": [
+        "Le 11 avril 2025 était la date de détention utilisée pour l'admission à l'Associate Celebration du 6 juin 2025.",
+        "Le 10 avril 2026 était la record date de l'assemblée annuelle virtuelle du 4 juin 2026, sans annonce de célébration physique."
+      ],
+      "resolution": "Ne pas transposer la record date 2026 ni les droits d'assemblée aux conditions d'un événement physique. Aucun seuil ou justificatif de Celebration 2026 ne peut être publié.",
+      "impact": "benefit_excluded"
+    },
+    {
+      "topic": "Sens du terme associates",
+      "sourceIds": [
+        "S07",
+        "S08",
+        "S09",
+        "S10",
+        "S11"
+      ],
+      "positions": [
+        "L'Associate Celebration 2025 était un événement centré sur les salariés mais ouvrait explicitement l'admission à certains actionnaires externes.",
+        "Les avantages 2026 de l'ASPP, de la carte de remise et de Walmart+ sont expressément rattachés aux associates, c'est-à-dire aux salariés Walmart éligibles."
+      ],
+      "resolution": "Traduire associates par associés salariés dans le contexte des avantages sociaux et ne jamais étendre ces avantages aux actionnaires externes. Seule une règle d'admission actionnaire explicite peut créer un bénéfice distinct.",
+      "impact": "benefit_excluded"
+    },
+    {
+      "topic": "Plans d'achat d'actions Computershare et Walmart",
+      "sourceIds": [
+        "S03",
+        "S08",
+        "S09",
+        "S12",
+        "S13"
+      ],
+      "positions": [
+        "Computershare propose un plan direct générique que Walmart déclare ne pas sponsoriser ; un ancien formulaire contient des frais et modalités aujourd'hui non datés.",
+        "Walmart exploite séparément un Associate Stock Purchase Plan avec abondement pour les associés salariés éligibles."
+      ],
+      "resolution": "Exclure le plan direct, le DRIP et la tenue de compte comme services génériques. Exclure aussi l'abondement ASPP des bénéfices actionnaires externes, car son éligibilité dépend de l'emploi.",
+      "impact": "benefit_excluded"
+    },
+    {
+      "topic": "Ancienne cotation NYSE et cotation actuelle Nasdaq",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "positions": [
+        "Les anciennes données du projet et les pages antérieures à décembre 2025 présentent Walmart comme une société cotée au NYSE.",
+        "Le rapport 2026 et la page investisseurs actuelle confirment la cotation au Nasdaq Global Select Market sous WMT depuis le 9 décembre 2025."
+      ],
+      "resolution": "Conserver WMT mais utiliser Nasdaq comme marché de cotation actuel. L'indice du manifeste reste S&P 500.",
+      "impact": "wording_only"
+    }
+  ],
+  "handoff": {
+    "researchStatus": "complete_with_uncertainties",
+    "readyForDevelopment": true,
+    "benefitCount": 0,
+    "faqCount": 6,
+    "blockingIssues": [],
+    "developerNotes": [
+      "Classer Walmart en investor_relations_only et ne créer ni clubName ni clubUrl.",
+      "Laisser minShares à null et benefits vide : aucun avantage commercial actionnaire externe n'est prouvé au 9 juin 2026.",
+      "Ne pas reprendre l'Associate Celebration 2025 comme avantage actif ; ses conditions et sa record date ont expiré.",
+      "Ne pas utiliser la record date du 10 avril 2026 comme condition d'une célébration : elle concernait uniquement l'assemblée virtuelle.",
+      "Exclure l'assemblée annuelle, le vote, le dividende, le DSPP, le DRIP, le DRS et les services génériques de Computershare.",
+      "Ne pas attribuer aux actionnaires externes l'ASPP, son abondement de 15 %, l'Associate Discount Card, Walmart+ sans coût ou l'adhésion Sam's Club : ces avantages reposent sur le statut de salarié éligible.",
+      "Utiliser Nasdaq, et non NYSE, comme marché de cotation actuel tout en conservant le ticker WMT et l'indice S&P 500 du manifeste.",
+      "L'absence de page Celebration 2026 est probante pour l'exclusion actuelle mais ne constitue pas une annonce de suppression définitive ; une future édition devra être recherchée à nouveau."
+    ]
+  }
+}

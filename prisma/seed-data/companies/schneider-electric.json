@@ -1,0 +1,61 @@
+{
+  "slug": "schneider-electric",
+  "name": "Schneider Electric",
+  "description": "Schneider Electric est un leader mondial des technologies de l'énergie. Le Groupe fournit des produits connectés, logiciels, systèmes et services pour électrifier, automatiser et digitaliser les bâtiments, centres de données, usines, infrastructures et réseaux électriques.",
+  "sector": "Industrie & Équipements",
+  "stockIndex": "CAC40",
+  "ticker": "SU",
+  "website": "https://www.se.com/",
+  "minShares": null,
+  "lastVerifiedAt": "2026-06-09",
+  "benefits": [
+    {
+      "type": "reduction",
+      "title": "Droits de garde et gestion courante pris en charge",
+      "description": "Pour les actions Schneider Electric détenues au nominatif pur sur un compte tenu par Uptevia, l'actionnaire est exonéré des droits de garde et des frais de gestion courante listés par la société, notamment certains transferts, dossiers juridiques, opérations sur titres et paiements de dividendes.",
+      "value": "Exonération totale des droits de garde et des frais de gestion courante listés; frais de courtage exclus.",
+      "requiredShares": null,
+      "sourceUrl": "https://www.se.com/ww/fr/about-us/investor-relations/individual-shareholders/becoming-shareholder/"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Schneider Electric possède-t-il un club ouvert à tous ses actionnaires ?",
+      "answer": "Non. Les pages officielles actuelles ne présentent aucun club avec adhésion générale, carte de membre ou seuil d'une action. Schneider Electric dispose d'un Comité Consultatif des Actionnaires, mais celui-ci est limité à environ dix bénévoles sélectionnés pour représenter les attentes des actionnaires individuels."
+    },
+    {
+      "question": "Comment candidater au Comité Consultatif des Actionnaires ?",
+      "answer": "Le candidat doit être un actionnaire individuel détenant à titre personnel au moins 25 actions Schneider Electric, au nominatif ou au porteur, et s'engager à les conserver pendant tout le mandat. Il doit compléter le dossier officiel et l'envoyer au contact actuel actionnaires@se.com ou par courrier. La sélection reste à la discrétion de Schneider Electric."
+    },
+    {
+      "question": "Quel avantage concret est réservé aux actions Schneider Electric au nominatif pur ?",
+      "answer": "Schneider Electric prend en charge les droits de garde et les frais de gestion courante du compte au nominatif pur tenu par Uptevia. La page cite notamment certains transferts, dossiers juridiques, opérations sur titres et paiements de dividendes. Les frais de courtage ne sont pas annoncés comme gratuits."
+    },
+    {
+      "question": "Comment passer au nominatif pur et combien d'actions faut-il détenir ?",
+      "answer": "Il faut contacter Uptevia et utiliser les formulaires d'ouverture ou de transfert disponibles dans son espace documentaire. Schneider Electric ne publie ni seuil minimal d'actions ni durée minimale pour la gratuité des droits de garde et frais de gestion courante; ces valeurs restent donc à null et ne doivent pas être remplacées par une action."
+    },
+    {
+      "question": "Des visites de sites sont-elles proposées à tous les actionnaires au 9 juin 2026 ?",
+      "answer": "Aucune visite actuellement réservable pour l'ensemble des actionnaires n'est prouvée. Le calendrier 2026 de la page du Comité ne liste que l'Assemblée Générale du 7 mai 2026, qui est exclue des bénéfices. Une visite du site Horizon à Carros a eu lieu en 2022 dans le cadre du Comité, mais elle ne démontre pas une offre générale ou reconduite en 2026."
+    },
+    {
+      "question": "Les Innovation Talks, publications, dividendes et droits de vote sont-ils des avantages réservés ?",
+      "answer": "Non. Les Innovation Talks sont présentés par Schneider Electric comme des événements et webinaires destinés à accompagner la transformation des entreprises, sans condition d'actionnariat. Les publications financières sont publiques. Le dividende ordinaire, l'Assemblée Générale, le vote et le droit de vote double au nominatif sont des droits ou informations génériques exclus de cette fiche."
+    }
+  ],
+  "sources": [
+    "https://www.se.com/ww/fr/about-us/investor-relations/individual-shareholders/becoming-shareholder/",
+    "https://www.se.com/ww/fr/about-us/company-profile/",
+    "https://www.se.com/ww/fr/about-us/investor-relations/share-information/share-price/",
+    "https://www.se.com/ww/fr/about-us/investor-relations/individual-shareholders/",
+    "https://www.se.com/ww/fr/about-us/investor-relations/individual-shareholders/advisory-committee/",
+    "https://www.se.com/ww/en/about-us/investor-relations/individual-shareholders/advisory-committee/",
+    "https://www.se.com/ww/fr/assets/342/document/43630/formulaire-candidature-comite-consultatif-actionnaire-2019.pdf",
+    "https://www.se.com/ww/fr/assets/342/document/32670/organisation-fonctionnement-comite-consultatif-actionnaires.pdf",
+    "https://www.se.com/ww/fr/assets/342/document/401916/presentation-ag-2023-fr.pdf",
+    "https://www.se.com/ww/en/about-us/events/",
+    "https://www.se.com/ww/fr/about-us/newsroom/news/press-releases/schneider-electric-ouvre-ses-usines-pour-la-13%C3%A8me-%C3%A9dition-de-la-semaine-de-l%E2%80%99industrie-avec-l%E2%80%99objectif-de-faire-changer-le-regard-des-jeunes-sur-l%E2%80%99industrie-6730e443cf5bf1a12b07769f",
+    "https://www.se.com/ww/fr/about-us/investor-relations/contact/"
+  ]
+}

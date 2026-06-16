@@ -1,0 +1,105 @@
+{
+  "slug": "saint-gobain",
+  "name": "Saint-Gobain",
+  "description": "Saint-Gobain conçoit, produit et distribue des matériaux et services pour la construction et l'industrie. Le Groupe se présente comme un leader mondial de la construction durable, avec 46,5 milliards d'euros de chiffre d'affaires en 2025, 162 000 collaborateurs et une présence dans 80 pays.",
+  "sector": "Industrie & Équipements",
+  "stockIndex": "CAC40",
+  "ticker": "SGO",
+  "website": "https://www.saint-gobain.com/",
+  "minShares": 1,
+  "lastVerifiedAt": "2026-06-09",
+  "benefits": [
+    {
+      "type": "evenement",
+      "title": "Visites de sites industriels et de la Tour Saint-Gobain",
+      "description": "Les membres peuvent demander à visiter des sites industriels du Groupe et la Tour Saint-Gobain avec son showroom. La page actuelle cite notamment des visites d'usines et de centres de recherche; les conditions prévoient une attribution selon les places et des critères de participation.",
+      "value": null,
+      "requiredShares": 1,
+      "sourceUrl": "https://www.saint-gobain.com/fr/finance/actionnaires-individuels/club-des-actionnaires"
+    },
+    {
+      "type": "evenement",
+      "title": "Conférences et rencontres avec le Groupe",
+      "description": "Le Club propose des conférences et des occasions de rencontrer des dirigeants de Saint-Gobain. La plateforme officielle classe aussi les activités possibles comme conférences, webconférences, réunions d'actionnaires, formations ou chats vidéo.",
+      "value": null,
+      "requiredShares": 1,
+      "sourceUrl": "https://actionnaires.saint-gobain.com/fr/event"
+    },
+    {
+      "type": "evenement",
+      "title": "Activités et visites culturelles",
+      "description": "Les membres ont accès à des activités culturelles pouvant prendre la forme de visites de monuments ou de visites guidées. Les conditions générales citent notamment des visites guidées du château de Versailles parmi les exemples d'activités organisées pour le Club.",
+      "value": null,
+      "requiredShares": 1,
+      "sourceUrl": "https://actionnaires.saint-gobain.com/fr/login"
+    },
+    {
+      "type": "cadeau",
+      "title": "Jeux pour gagner des entrées gratuites",
+      "description": "La page officielle du Club indique que les membres peuvent jouer et tenter de gagner des entrées gratuites pour des lieux culturels ou des événements sportifs dont Saint-Gobain est partenaire. L'attribution dépend donc du résultat du jeu et non de la seule adhésion.",
+      "value": "Entrées gratuites variables selon l'opération",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.saint-gobain.com/fr/finance/actionnaires-individuels/club-des-actionnaires"
+    },
+    {
+      "type": "reduction",
+      "title": "Droits de garde offerts au nominatif pur",
+      "description": "Pour les actions Saint-Gobain inscrites au nominatif pur et administrées par Uptevia, Saint-Gobain prend en charge les droits de garde ainsi que les frais de gestion courante du compte. Cette gratuité ne s'applique pas aux frais de courtage ni aux frais facturés par une banque lors d'un transfert.",
+      "value": "0 euro de droits de garde et de frais de gestion courante chez Uptevia",
+      "requiredShares": null,
+      "sourceUrl": "https://www.saint-gobain.com/fr/finance/actionnaires-individuels/devenir-actionnaire"
+    },
+    {
+      "type": "reduction",
+      "title": "Courtage à 0,30 % HT au nominatif pur",
+      "description": "Les actionnaires dont les titres sont gérés au nominatif pur par Uptevia peuvent transmettre des ordres de Bourse au tarif publié de 0,30 % HT du montant brut de la négociation, avec un minimum de 6,10 euros HT par ordre exécuté.",
+      "value": "0,30 % HT, minimum 6,10 € HT par ordre exécuté",
+      "requiredShares": null,
+      "sourceUrl": "https://www.saint-gobain.com/fr/finance/actionnaires-individuels/devenir-actionnaire"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Saint-Gobain possède-t-il un Club, un Cercle ou deux communautés d'actionnaires ?",
+      "answer": "Au 9 juin 2026, le dispositif officiel est un seul « Club des actionnaires de Saint-Gobain ». Il est ouvert dès une action. Aucun « Cercle des actionnaires » séparé à 100 actions et aucun niveau premium distinct de la communauté générale ne figurent dans la page actuelle, les conditions ou le formulaire d'adhésion."
+    },
+    {
+      "question": "Combien d'actions faut-il et quels modes de détention sont acceptés pour adhérer ?",
+      "answer": "Une seule action ordinaire Saint-Gobain suffit. L'actionnaire individuel peut la détenir au porteur, au nominatif administré ou au nominatif pur. Aucune ancienneté minimale n'est exigée et le nominatif n'est pas une condition d'accès au Club. Les conditions précisent que l'adhérent doit être une personne physique."
+    },
+    {
+      "question": "Comment s'inscrire, combien de temps dure l'adhésion et faut-il fournir un justificatif ?",
+      "answer": "L'inscription est gratuite et s'effectue sur le formulaire en ligne du Club. Le formulaire public demande l'identité, les coordonnées, l'adresse et un mot de passe, mais ne prévoit pas de pièce jointe ni de déclaration du nombre d'actions. Saint-Gobain peut toutefois demander périodiquement une preuve de détention. L'adhésion dure tant que le membre conserve au moins une action et respecte les conditions."
+    },
+    {
+      "question": "Les visites, conférences et activités culturelles sont-elles garanties aux membres ?",
+      "answer": "Non. L'adhésion donne le droit de demander à participer aux activités proposées, mais les places restent limitées. Saint-Gobain peut appliquer l'ordre d'arrivée, l'historique de participation et la priorité aux membres n'ayant encore bénéficié d'aucune activité. Une ou deux places au maximum peuvent être attribuées par membre, et les déplacements restent à sa charge."
+    },
+    {
+      "question": "Saint-Gobain verse-t-il une prime de fidélité ou un dividende majoré après deux ans au nominatif ?",
+      "answer": "Non. Les statuts mis à jour le 19 mai 2026 prévoient une répartition du dividende entre toutes les actions, sans clause de majoration de fidélité. L'assemblée générale du 4 juin 2026 a approuvé un dividende uniforme de 2,20 euros par action. Deux années de nominatif ouvrent seulement un droit de vote double, qui n'est ni un dividende majoré ni un bénéfice commercial."
+    },
+    {
+      "question": "Quels avantages financiers procure le nominatif pur et comment y transférer les titres ?",
+      "answer": "Au nominatif pur chez Uptevia, Saint-Gobain prend en charge les droits de garde et frais de gestion courante. Le courtage publié est de 0,30 % HT, avec un minimum de 6,10 euros HT par ordre exécuté. Le transfert se demande à la banque au moyen du formulaire indiqué par Saint-Gobain; la banque d'origine peut facturer l'opération. Ces avantages de compte ne modifient pas le seuil d'une action du Club."
+    }
+  ],
+  "sources": [
+    "https://www.saint-gobain.com/fr/finance/actionnaires-individuels/club-des-actionnaires",
+    "https://actionnaires.saint-gobain.com/fr/event",
+    "https://actionnaires.saint-gobain.com/fr/login",
+    "https://www.saint-gobain.com/fr/finance/actionnaires-individuels/devenir-actionnaire",
+    "https://www.saint-gobain.com/sites/saint-gobain.com/files/Conditions-generales-Club-actionnaires.pdf",
+    "https://actionnaires.saint-gobain.com/fr/security/register",
+    "https://www.saint-gobain.com/fr/finance/actionnaires-individuels/un-service-votre-disposition",
+    "https://www.saint-gobain.com/sites/saint-gobain.com/files/media/document/Convention%20de%20compte%20titres%20nominatifs%20-%20Octobre%202023.pdf",
+    "https://www.saint-gobain.com/fr/finance/actionnaires-individuels/le-dividende-en-quelques-mots",
+    "https://www.saint-gobain.com/sites/saint-gobain.com/files/csg_statuts_vf.pdf",
+    "https://www.saint-gobain.com/fr/finance/actionnaires-individuels/laction-saint-gobain-en-bourse",
+    "https://www.saint-gobain.com/fr/finance/le-groupe-en-chiffres",
+    "https://www.saint-gobain.com/sites/saint-gobain.com/files/Club-actionnaires-SG.pdf",
+    "https://live.euronext.com/en/product/equities/FR0000125007-XPAR"
+  ],
+  "clubName": "Club des actionnaires de Saint-Gobain",
+  "clubUrl": "https://www.saint-gobain.com/fr/finance/actionnaires-individuels/club-des-actionnaires"
+}

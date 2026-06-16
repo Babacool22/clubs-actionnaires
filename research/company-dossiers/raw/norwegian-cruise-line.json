@@ -1,0 +1,514 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "norwegian-cruise-line",
+    "name": "Norwegian Cruise Line Holdings",
+    "description": "Norwegian Cruise Line Holdings Ltd. est un groupe mondial de croisières coté au NYSE, opérant Norwegian Cruise Line, Oceania Cruises et Regent Seven Seas Cruises. Au 8 juin 2026, il annonçait 35 navires, environ 75 000 couchettes et près de 700 destinations.",
+    "sector": "Hôtellerie & Tourisme",
+    "stockIndex": "S&P 500",
+    "ticker": "NCLH",
+    "website": "https://www.nclhltd.com/",
+    "clubName": null,
+    "clubUrl": null
+  },
+  "offerClassification": {
+    "primaryKind": "shareholder_benefit",
+    "otherKinds": [
+      "shareholder_program",
+      "investor_relations_only"
+    ],
+    "officialProgrammeName": "Shareholder Benefit",
+    "status": "active",
+    "statusReason": "NCLH publie au 9 juin 2026 un crédit à bord formel réservé aux détenteurs d'au moins 100 actions, applicable aux trois marques du groupe. Il ne s'agit pas d'un club avec adhésion distincte; chaque croisière nécessite une demande en ligne.",
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S03"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": 100,
+    "eligibleShareClasses": [
+      "Actions ordinaires Norwegian Cruise Line Holdings Ltd. cotées au New York Stock Exchange sous le symbole NCLH"
+    ],
+    "holdingModes": [
+      "broker_account",
+      "transfer_agent"
+    ],
+    "minimumHoldingPeriod": "Aucune durée minimale de détention n'est publiée. L'actionnaire doit toutefois posséder au moins 100 actions NCLH au moment de la croisière.",
+    "residencyRestrictions": [],
+    "accountRestrictions": [
+      "Le crédit est réservé à la cabine ou suite occupée par l'actionnaire admissible.",
+      "Un seul crédit actionnaire est accordé par cabine ou suite et un seul crédit par actionnaire sur une même croisière.",
+      "Pour plusieurs cabines ou suites réservées avec des actions détenues conjointement, il faut au moins 100 actions par cabine ou suite.",
+      "Les voyageurs seuls payant 200 % du tarif applicable reçoivent la valeur intégrale du crédit."
+    ],
+    "proofRequired": [
+      "Copie de la carte de procuration de l'actionnaire ou d'un relevé de courtage actuel prouvant la détention d'au moins 100 actions NCLH.",
+      "Le numéro du compte de courtage doit être masqué avant l'envoi.",
+      "Le formulaire actuel impose une pièce jointe de moins de 3 Mo et accepte les formats XLSX, XLS, CSV, PNG, DOC, DOCX, PDF, JPEG et JPG."
+    ],
+    "fees": {
+      "membershipFee": null,
+      "applicationFee": null,
+      "otherFees": [],
+      "notes": "Aucun droit d'adhésion ni frais de demande n'est publié. Les éventuels frais de courtage ou de production du justificatif dépendent de l'intermédiaire financier."
+    },
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S03",
+      "S05"
+    ]
+  },
+  "enrollment": {
+    "required": true,
+    "method": "online_form",
+    "applicationUrl": "https://nclh.my.salesforce-sites.com/mynclh?formtype=ShareholderRequest",
+    "contact": null,
+    "steps": [
+      "Ouvrir le formulaire officiel Shareholder Benefit Request et sélectionner Norwegian Cruise Line, Oceania Cruises ou Regent Seven Seas Cruises.",
+      "Renseigner le numéro de réservation, le prénom et le nom du passager, le téléphone, l'adresse électronique et sa confirmation, le navire et la date de départ; un commentaire est facultatif.",
+      "Joindre une carte de procuration ou un relevé de courtage actuel prouvant au moins 100 actions, après avoir masqué le numéro de compte.",
+      "Envoyer une demande distincte pour chaque croisière admissible, de façon qu'elle soit reçue au moins quinze jours avant le départ."
+    ],
+    "processingTime": null,
+    "renewal": "Il n'existe pas d'adhésion annuelle. L'actionnaire peut demander l'avantage chaque fois qu'il voyage sur l'une des trois marques, hors croisières exclues, mais doit déposer une nouvelle demande pour chaque réservation.",
+    "deadlines": [
+      "La demande doit être reçue par NCLH au moins quinze jours avant la date de départ.",
+      "L'actionnaire doit encore détenir au moins 100 actions NCLH au moment de la croisière.",
+      "L'offre ne vise que les nouvelles réservations effectuées à compter du 7 janvier 2019."
+    ],
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S03"
+    ]
+  },
+  "benefits": [
+    {
+      "id": "B01",
+      "type": "reduction",
+      "title": "Crédit à bord selon la durée de la croisière",
+      "description": "Un actionnaire détenant au moins 100 actions NCLH au moment du voyage peut recevoir un crédit à bord en dollars américains par cabine ou suite occupée : 50 dollars pour une croisière de 6 jours ou moins, 100 dollars de 7 à 14 jours et 250 dollars à partir de 15 jours. Le même barème couvre Norwegian Cruise Line, Oceania Cruises et Regent Seven Seas Cruises.",
+      "value": "≤ 6 jours : 50 US$; 7-14 jours : 100 US$; ≥ 15 jours : 250 US$",
+      "requiredShares": 100,
+      "requiredHoldingModes": [
+        "Compte de courtage attesté par un relevé actuel",
+        "Détention enregistrée attestée par une carte de procuration"
+      ],
+      "requiredHoldingPeriod": "Aucune durée minimale publiée; les 100 actions doivent être détenues au moment de la croisière.",
+      "availability": "discretionary",
+      "validFrom": "2019-01-07 pour les nouvelles réservations",
+      "validUntil": null,
+      "requestDeadline": "La demande doit être reçue au moins quinze jours avant la date de départ.",
+      "procedure": [
+        "Détenir au moins 100 actions ordinaires NCLH et conserver ce seuil jusqu'à la date de la croisière.",
+        "Utiliser le formulaire officiel en ligne et sélectionner la marque concernée.",
+        "Fournir les informations de réservation et de contact demandées.",
+        "Téléverser une carte de procuration ou un relevé de courtage actuel, avec le numéro de compte masqué et une taille inférieure à 3 Mo.",
+        "Soumettre la demande au moins quinze jours avant le départ."
+      ],
+      "limitsAndExclusions": [
+        "L'offre couvre Norwegian Cruise Line, Oceania Cruises et Regent Seven Seas Cruises, mais exclut les croisières affrétées, les dates charter et les groupes de type incentive.",
+        "Le crédit est calculé en dollars américains, attribué par cabine ou suite en occupation double, non transférable, non convertible en espèces et perdu s'il n'est pas utilisé.",
+        "Un seul crédit est permis par cabine ou suite et un seul crédit par actionnaire sur une même croisière; l'actionnaire doit occuper la cabine bénéficiaire.",
+        "En cas de détention conjointe et de demande pour plusieurs cabines ou suites, il faut au moins 100 actions par cabine ou suite.",
+        "Les voyageurs seuls payant 200 % du tarif applicable ont droit à la valeur intégrale.",
+        "Sont exclus les programmes à tarif réduit, notamment les tarifs salariés, interline, amis et famille, fournisseurs, agents de voyages, voyagistes, voyages obtenus via un certificat de crédit de croisière et croisières gratuites issues des avantages de fidélité Oceania.",
+        "Le crédit ne peut pas payer les frais de service à bord ni les activités achetées avant la croisière; les taxes et frais gouvernementaux restent dus.",
+        "La FAQ officielle indique que l'avantage n'est cumulable avec aucune autre offre et impose de choisir. La page principale indique toutefois que le cumul dépend de la décision de chaque marque; il ne faut donc présumer aucun cumul sans confirmation.",
+        "NCLH et ses trois marques peuvent modifier ou retirer l'offre à tout moment sans préavis."
+      ],
+      "primarySourceId": "S01",
+      "supportingSourceIds": [
+        "S02",
+        "S03",
+        "S07"
+      ],
+      "sourceUrl": "https://www.nclhltd.com/investors/shareholder-benefits",
+      "evidenceGrade": "B",
+      "uncertainty": "Aucune date de fin calendaire n'est publiée. L'offre était active au 9 juin 2026 et ne s'applique qu'aux nouvelles réservations effectuées depuis le 7 janvier 2019. Les deux pages corporate se contredisent sur le cumul; la règle prudente est de traiter le crédit comme non cumulable sauf confirmation écrite de la marque."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Combien d'actions NCLH faut-il détenir et jusqu'à quelle date faut-il les conserver ?",
+      "answer": "Il faut détenir au moins 100 actions ordinaires Norwegian Cruise Line Holdings Ltd. Aucun délai minimal de détention n'est publié, mais les conditions exigent que l'actionnaire possède encore les 100 actions au moment de la croisière, et non seulement au dépôt de la demande.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S05"
+      ]
+    },
+    {
+      "question": "Quel est le montant du crédit à bord selon la durée et la marque ?",
+      "answer": "Le barème unique est de 50 US$ par cabine ou suite pour 6 jours ou moins, 100 US$ pour 7 à 14 jours et 250 US$ à partir de 15 jours. Il s'applique à Norwegian Cruise Line, Oceania Cruises et Regent Seven Seas Cruises, sous réserve des exclusions officielles.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S07"
+      ]
+    },
+    {
+      "question": "Comment demander le crédit actionnaire NCLH en 2026 ?",
+      "answer": "La demande passe par le formulaire Salesforce officiel de NCLH. Il faut sélectionner la marque, indiquer la réservation, l'identité du passager, le téléphone, l'e-mail, le navire et la date de départ, puis joindre le justificatif. Le formulaire doit être envoyé séparément pour chaque croisière.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03"
+      ]
+    },
+    {
+      "question": "Quel justificatif d'actions faut-il fournir avec le formulaire ?",
+      "answer": "NCLH accepte une copie de la carte de procuration ou un relevé de courtage actuel montrant au moins 100 actions. Le numéro de compte doit être masqué. Le formulaire limite le fichier à moins de 3 Mo et accepte notamment PDF, images, documents Word, feuilles Excel et CSV.",
+      "sourceIds": [
+        "S02",
+        "S03"
+      ]
+    },
+    {
+      "question": "Quelle est la date limite de demande et jusqu'à quand l'offre est-elle valable ?",
+      "answer": "La demande doit être reçue au moins quinze jours avant le départ. L'offre était active au 9 juin 2026 et ne publiait aucune date de fin. Elle est limitée aux nouvelles réservations effectuées à compter du 7 janvier 2019 et peut être modifiée ou retirée à tout moment sans préavis.",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "question": "Le crédit NCLH est-il cumulable et quelles réservations sont exclues ?",
+      "answer": "Il ne faut pas présumer le cumul. La FAQ impose de choisir entre le crédit actionnaire et toute autre offre, tandis que la page principale renvoie le cumul à la décision de chaque marque. Les charters, groupes incentive, tarifs salariés, interline, amis et famille, fournisseurs, agents, voyagistes et plusieurs voyages gratuits ou à tarif réduit sont exclus.",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "Norwegian Cruise Line Holdings Ltd. est cotée au NYSE sous le symbole NCLH et appartient au S&P 500.",
+      "status": "verified",
+      "sourceIds": [
+        "S05",
+        "S06"
+      ],
+      "notes": "Le rapport annuel confirme la cotation et le ticker; la page officielle du conseil qualifie actuellement NCLH de société du S&P 500."
+    },
+    {
+      "id": "C02",
+      "statement": "Le seuil officiel du crédit à bord est de 100 actions NCLH détenues au moment de la croisière.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "notes": "Aucune durée minimale antérieure au voyage n'est publiée."
+    },
+    {
+      "id": "C03",
+      "statement": "Le barème officiel est de 50 US$ jusqu'à 6 jours, 100 US$ de 7 à 14 jours et 250 US$ à partir de 15 jours.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S07"
+      ],
+      "notes": "Les trois montants sont des variantes d'un même crédit et non trois bénéfices distincts."
+    },
+    {
+      "id": "C04",
+      "statement": "Le même avantage couvre Norwegian Cruise Line, Oceania Cruises et Regent Seven Seas Cruises, hors croisières affrétées.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S07"
+      ],
+      "notes": "Les dates charter et les groupes incentive sont également exclus par les conditions détaillées."
+    },
+    {
+      "id": "C05",
+      "statement": "La demande actuelle se fait par un formulaire en ligne unique permettant de sélectionner l'une des trois marques.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "notes": "Aucune procédure actuelle par e-mail ou fax n'est publiée sur les pages corporate consultées."
+    },
+    {
+      "id": "C06",
+      "statement": "La preuve acceptée est une carte de procuration ou un relevé de courtage actuel montrant au moins 100 actions, avec le numéro de compte masqué.",
+      "status": "verified",
+      "sourceIds": [
+        "S02",
+        "S03"
+      ],
+      "notes": "Le formulaire actuel impose en plus une taille inférieure à 3 Mo."
+    },
+    {
+      "id": "C07",
+      "statement": "Toute demande doit être reçue au moins quinze jours avant la date de départ.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C08",
+      "statement": "L'offre était active au 9 juin 2026 sans date de fin publiée et vise les nouvelles réservations effectuées depuis le 7 janvier 2019.",
+      "status": "partially_verified",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "notes": "L'activité est constatée sur les pages et le formulaire courants, mais ceux-ci ne comportent ni date de mise à jour ni échéance future."
+    },
+    {
+      "id": "C09",
+      "statement": "Le crédit ne doit pas être présenté comme cumulable par défaut avec d'autres promotions.",
+      "status": "partially_verified",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "notes": "La FAQ interdit le cumul et impose un choix, tandis que la page principale indique que la décision dépend de la marque."
+    },
+    {
+      "id": "C10",
+      "statement": "Le crédit est limité à une attribution par cabine ou suite et par actionnaire sur une même croisière.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "notes": "L'actionnaire doit occuper la cabine; les voyageurs seuls payant 200 % reçoivent la valeur entière."
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "Les trois montants de crédit et les trois marques constituent plusieurs bénéfices indépendants.",
+      "reason": "duplicate",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "claim": "La demande standard actuelle doit être envoyée par e-mail ou par fax.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03"
+      ]
+    },
+    {
+      "claim": "Il suffit de détenir les 100 actions au jour de la demande et elles peuvent être vendues avant le départ.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "claim": "Le crédit actionnaire est garanti comme cumulable avec toutes les promotions des trois marques.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "claim": "L'avantage expire automatiquement le 31 décembre 2026.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "claim": "Les croisières charter et les groupes incentive sont admissibles au crédit.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "claim": "Le crédit peut servir à payer les frais de service à bord ou les activités achetées avant la croisière.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "claim": "NCLH propose un club d'actionnaires avec une adhésion et des services distincts du crédit à bord.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.nclhltd.com/investors/shareholder-benefits",
+      "title": "Shareholder Benefits",
+      "publisher": "Norwegian Cruise Line Holdings Ltd.",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Conditions corporate actuelles donnant le seuil de 100 actions, les trois montants, les trois marques, la détention au moment du voyage, le délai de quinze jours, la date initiale des réservations, les limites par cabine, les exclusions et les usages interdits."
+    },
+    {
+      "id": "S02",
+      "url": "https://www.nclhltd.com/investors/shareholder-benefits/shareholder-benefit-faqs",
+      "title": "Shareholder Benefit FAQs",
+      "publisher": "Norwegian Cruise Line Holdings Ltd.",
+      "sourceType": "official_faq",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "FAQ officielle précisant le seuil au moment du voyage, la preuve par carte de procuration ou relevé actuel, le numéro de compte à masquer, la réutilisation à chaque croisière, les règles de cabine et une interdiction générale de cumul."
+    },
+    {
+      "id": "S03",
+      "url": "https://nclh.my.salesforce-sites.com/mynclh?formtype=ShareholderRequest",
+      "title": "Shareholder Benefit Request",
+      "publisher": "Norwegian Cruise Line Holdings Ltd.",
+      "sourceType": "official_form",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Formulaire officiel commun aux trois marques. Il demande la réservation, l'identité, le téléphone, l'e-mail, le navire, la date de départ et une preuve de moins de 3 Mo; il rappelle le seuil et l'obligation de masquer le numéro de compte."
+    },
+    {
+      "id": "S04",
+      "url": "https://www.nclhltd.com/news-media/press-releases/detail/798/nclh-releases-latest-sail-sustain-report-advancing",
+      "title": "NCLH Releases Latest Sail & Sustain Report",
+      "publisher": "Norwegian Cruise Line Holdings Ltd.",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": "2026-06-08",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Communiqué officiel daté du 8 juin 2026 confirmant l'identité de NCLH, sa cotation NYSE, ses trois marques et les données récentes de flotte, de couchettes et de destinations utilisées dans la description."
+    },
+    {
+      "id": "S05",
+      "url": "https://www.nclhltd.com/investors/sec-filings/all-sec-filings/content/0001104659-26-022067/0001104659-26-022067.pdf",
+      "title": "Norwegian Cruise Line Holdings Ltd. Annual Report on Form 10-K for 2025",
+      "publisher": "Norwegian Cruise Line Holdings Ltd. et U.S. Securities and Exchange Commission",
+      "sourceType": "regulatory_filing",
+      "official": true,
+      "publishedAt": "2026-03-02",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Dernier rapport annuel disponible à la date de référence, confirmant les actions ordinaires, la cotation au NYSE sous NCLH, l'identité du groupe et l'exploitation de Norwegian Cruise Line, Oceania Cruises et Regent Seven Seas Cruises."
+    },
+    {
+      "id": "S06",
+      "url": "https://www.nclhltd.com/investors/corporate-governance/board-of-directors",
+      "title": "Board of Directors",
+      "publisher": "Norwegian Cruise Line Holdings Ltd.",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page de gouvernance actuelle dont la biographie du président-directeur général décrit Norwegian Cruise Line Holdings Ltd. comme une société du S&P 500 cotée au NYSE sous NCLH."
+    },
+    {
+      "id": "S07",
+      "url": "https://www.ncl.com/ca/en/cruise-faq/does-norwegian-cruise-line-offer-benefits-shareholders",
+      "title": "Does Norwegian Cruise Line offer benefits to shareholders?",
+      "publisher": "Norwegian Cruise Line",
+      "sourceType": "official_faq",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "FAQ de la marque Norwegian corroborant le barème de 50, 100 et 250 dollars, le seuil de 100 actions au moment du voyage, les trois marques couvertes et l'exclusion des charters."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Cumul du crédit avec d'autres promotions",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "positions": [
+        "La FAQ officielle affirme que le bénéfice n'est cumulable avec aucune autre offre et que l'actionnaire doit choisir entre le crédit actionnaire et l'autre offre.",
+        "La page principale indique que l'offre et sa combinabilité peuvent changer à tout moment selon la décision de Norwegian Cruise Line, Oceania Cruises ou Regent Seven Seas Cruises."
+      ],
+      "resolution": "Appliquer la formulation la plus prudente et la plus précise : ne présumer aucun cumul et demander une confirmation de la marque pour la réservation concernée. Ne jamais promettre un cumul universel.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Champs décrits par la FAQ et formulaire en ligne actuel",
+      "sourceIds": [
+        "S02",
+        "S03"
+      ],
+      "positions": [
+        "La FAQ indique que le demandeur devra fournir notamment son nom, son adresse, son e-mail, son téléphone, le navire et la date de départ.",
+        "Le formulaire en ligne actuel ne montre pas de champ d'adresse, mais demande la marque, le numéro de réservation et une confirmation de l'adresse électronique en plus des autres informations."
+      ],
+      "resolution": "Suivre les champs affichés par le formulaire en ligne au moment du dépôt. Considérer la liste de la FAQ comme indicative et partiellement ancienne.",
+      "impact": "wording_only"
+    }
+  ],
+  "handoff": {
+    "researchStatus": "complete_with_uncertainties",
+    "readyForDevelopment": true,
+    "benefitCount": 1,
+    "faqCount": 6,
+    "blockingIssues": [],
+    "developerNotes": [
+      "Ne pas créer de club : company.clubName et company.clubUrl restent null.",
+      "Conserver un seul bénéfice. Les trois montants, les trois durées et les trois marques sont des variantes du même crédit à bord.",
+      "Employer exactement les tranches corporate : 6 jours ou moins, 7 à 14 jours et 15 jours ou plus.",
+      "Conserver le seuil de 100 actions au moment de la croisière, sans inventer de durée minimale de détention.",
+      "Utiliser le formulaire Salesforce actuel, et non une ancienne procédure par e-mail ou fax.",
+      "Mentionner le délai de réception de quinze jours et la preuve avec numéro de compte masqué.",
+      "Ne pas publier de date d'expiration en 2026 : aucune date de fin n'est officielle au 9 juin 2026.",
+      "Présenter le crédit comme non cumulable par défaut en raison de la FAQ, tout en signalant la discrétion des marques.",
+      "Ne pas créer le dossier final Prisma à cette étape."
+    ]
+  }
+}

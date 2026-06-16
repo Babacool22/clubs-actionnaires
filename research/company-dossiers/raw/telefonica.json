@@ -1,0 +1,877 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "telefonica",
+    "name": "Telefónica",
+    "description": "Telefónica est un groupe espagnol de télécommunications qui fournit de la connectivité et des services numériques avancés, avec une présence consolidée notamment en Espagne, en Allemagne, au Royaume-Uni et au Brésil. Son action TEF appartient à l'indice IBEX 35.",
+    "sector": "Télécommunications",
+    "stockIndex": "IBEX 35",
+    "ticker": "TEF",
+    "website": "https://www.telefonica.com/",
+    "clubName": "Zona Accionistas",
+    "clubUrl": "https://www.telefonica.com/es/zona-accionistas/"
+  },
+  "offerClassification": {
+    "primaryKind": "shareholder_program",
+    "otherKinds": [
+      "shareholder_benefit",
+      "investor_relations_only"
+    ],
+    "officialProgrammeName": "Zona Accionistas / Área Ofertas Accionistas",
+    "status": "active",
+    "statusReason": "Au 9 juin 2026, Telefónica maintient une Zone Actionnaires active, un portail d'offres à inscription contrôlée, un tirage ouvert et un formulaire de visite réservé aux actionnaires. Le dispositif n'est toutefois pas présenté par Telefónica comme un club formel unique.",
+    "sourceIds": [
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S07",
+      "S09"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": null,
+    "eligibleShareClasses": [
+      "Actions ordinaires Telefónica, S.A., ISIN ES0178430E18"
+    ],
+    "holdingModes": [
+      "broker_account",
+      "unspecified"
+    ],
+    "minimumHoldingPeriod": null,
+    "residencyRestrictions": [
+      "Aucune condition générale de résidence n'est publiée pour la Zona Accionistas.",
+      "Le portail Área Ofertas Accionistas exige un DNI et ne propose pas de champ pays dans son formulaire; l'accès d'un actionnaire étranger sans DNI espagnol n'est donc pas officiellement établi.",
+      "Le tirage ouvert au 9 juin 2026 ne publie pas son territoire dans la page ou le dépliant en ligne; Telefónica renvoie au 900 111 004 pour consulter le règlement complet.",
+      "Les offres commerciales ont leur propre portée géographique: l'offre NH vise des hôtels d'Europe et des Amériques, tandis que les autres conditions dépendent du fournisseur.",
+      "Le numéro gratuit 900 111 004 est annoncé pour les appels depuis l'Espagne."
+    ],
+    "accountRestrictions": [
+      "Telefónica vérifie la qualité d'actionnaire à partir de l'identité fournie et peut obtenir des données auprès d'Iberclear ou des établissements dépositaires.",
+      "L'éligibilité des titulaires d'ADS ou d'ADR au programme d'avantages n'est pas précisée, même si Telefónica confirme séparément l'existence d'ADS représentant chacun une action.",
+      "Aucune source officielle ne confirme qu'une action détenue auprès de n'importe quel courtier étranger ou dans un PEA français permet l'inscription au portail."
+    ],
+    "proofRequired": [
+      "Portail d'offres: adresse électronique, mot de passe, nom, prénom et DNI; le code postal est facultatif.",
+      "Le partenaire transmet mensuellement le numéro du document d'identité à Telefónica afin de vérifier le maintien dans le collectif bénéficiaire.",
+      "Communications actionnaires: nom, prénom, DNI, adresse électronique et téléphone.",
+      "Tirages et visites: identité et coordonnées; Telefónica indique vérifier la qualité d'actionnaire."
+    ],
+    "fees": {
+      "membershipFee": "0 € pour l'accès et l'inscription au portail Área Ofertas Accionistas",
+      "applicationFee": null,
+      "otherFees": [
+        "Les achats, réservations, taxes, frais d'envoi et autres coûts dépendent de chaque fournisseur.",
+        "En cas de fin du service, le remboursement d'un solde confirmé de la hucha peut être diminué de 5 € de frais de transfert et d'administration."
+      ],
+      "notes": "Telefónica ne publie pas de cotisation générale à la Zona Accionistas. La gratuité contractuelle trouvée concerne l'accès, l'inscription et l'usage du portail de remises, non les produits ou services achetés."
+    },
+    "sourceIds": [
+      "S01",
+      "S04",
+      "S05",
+      "S10",
+      "S13"
+    ]
+  },
+  "enrollment": {
+    "required": true,
+    "method": "online_form",
+    "applicationUrl": "https://telefonica-accionistas.contigomas.com/signup",
+    "contact": "Oficina del Accionista: 900 111 004 depuis l'Espagne; accionistas@telefonica.com; Distrito Telefónica, Edificio Central, planta 2, C/Ronda de la Comunicación s/n, 28050 Madrid, Espagne. Assistance par e-mail du lundi au vendredi de 9 h à 18 h, hors jours fériés.",
+    "steps": [
+      "Détenir des actions Telefónica sans seuil numérique officiellement publié.",
+      "Pour le portail de remises, remplir le formulaire avec une adresse électronique, un mot de passe, le nom, le prénom et le DNI.",
+      "Accepter les conditions d'utilisation et la politique de confidentialité du partenaire Inspiring Benefits.",
+      "Confirmer l'inscription au moyen du courrier électronique reçu.",
+      "Conserver sa qualité d'actionnaire, vérifiée mensuellement à partir du document d'identité transmis à Telefónica.",
+      "Pour les communications, tirages ou visites, utiliser le formulaire distinct correspondant et fournir les données demandées."
+    ],
+    "processingTime": null,
+    "renewal": "Aucun renouvellement manuel n'est publié. Pour le portail, l'appartenance au collectif actionnaires est vérifiée chaque mois et l'accès peut être retiré si elle cesse ou si Telefónica modifie les critères.",
+    "deadlines": [
+      "Aucune échéance générale d'inscription à la Zona Accionistas ou au portail d'offres n'est publiée.",
+      "Le tirage en cours accepte les inscriptions du 8 juin 2026 au 24 juillet 2026 inclus.",
+      "Les offres des fournisseurs ont leurs propres dates, disponibilités et conditions."
+    ],
+    "sourceIds": [
+      "S03",
+      "S04",
+      "S05",
+      "S07",
+      "S09",
+      "S13"
+    ]
+  },
+  "benefits": [
+    {
+      "id": "B01",
+      "type": "reduction",
+      "title": "Portail de remises et de cashback",
+      "description": "L'Área Ofertas Accionistas donne aux actionnaires inscrits accès à plusieurs centaines de remises sur des achats, voyages, services, loisirs et autres catégories. Selon les offres, l'économie prend la forme d'un code, d'une remise directe ou d'un cashback versé dans une hucha.",
+      "value": "Montant variable selon l'offre; transfert du cashback à partir de 10 €",
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "Qualité d'actionnaire vérifiée par Telefónica",
+        "Inscription personnelle au portail Área Ofertas Accionistas"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "guaranteed",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Créer un compte avec une adresse électronique, un mot de passe, le nom, le prénom et le DNI.",
+        "Accepter les conditions d'utilisation et la politique de confidentialité, puis confirmer l'inscription par courrier électronique.",
+        "Ouvrir l'offre depuis le portail et utiliser le lien, le code ou le coupon indiqué avant de finaliser l'achat.",
+        "Pour un cashback, attendre la validation du fournisseur puis demander un virement, un chèque cadeau Amazon ou un don à une ONG selon les options disponibles."
+      ],
+      "limitsAndExclusions": [
+        "L'inscription et l'accès sont réservés aux personnes majeures appartenant au collectif défini par Telefónica.",
+        "L'usage est personnel, non transférable et interdit à des fins commerciales.",
+        "Chaque offre est soumise aux conditions, exclusions, stocks, dates et canaux du fournisseur et peut être modifiée ou supprimée.",
+        "Le cashback est calculé hors TVA, frais de gestion, taxes et frais d'envoi; certaines offres ne produisent qu'une remise directe.",
+        "Une transaction absente doit être réclamée au plus tard trente jours après l'achat.",
+        "Une hucha inactive pendant douze mois consécutifs peut être clôturée sans restitution des remises accumulées.",
+        "L'accès général au portail est maintenu tant que l'utilisateur reste éligible; la disponibilité de chaque remise n'est pas garantie."
+      ],
+      "primarySourceId": "S03",
+      "supportingSourceIds": [
+        "S04",
+        "S05",
+        "S06",
+        "S12"
+      ],
+      "sourceUrl": "https://www.telefonica.com/es/zona-accionistas/ofertas/",
+      "evidenceGrade": "B",
+      "uncertainty": "La page espagnole annonce plus de 300 remises, tandis que la version anglaise en annonce plus de 400. Le portail partenaire parle de milliers d'offres; le volume exact et la disponibilité géographique changent donc dans le temps."
+    },
+    {
+      "id": "B02",
+      "type": "cadeau",
+      "title": "Tirage iPhone 17 et équipements Movistar Team",
+      "description": "Les actionnaires pouvaient s'inscrire dès le 8 juin 2026 à trois tirages portant sur un iPhone 17 5G 256 Go, un équipement cycliste masculin Movistar Team 2026 taille L et un équipement féminin taille M. Le tirage est prévu le 28 juillet 2026.",
+      "value": "Une chance de gagner l'un des trois lots annoncés; gain non garanti",
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "Qualité d'actionnaire Telefónica vérifiée lors de la participation"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "lottery",
+      "validFrom": "2026-06-08",
+      "validUntil": "2026-07-28",
+      "requestDeadline": "2026-07-24",
+      "procedure": [
+        "Remplir le formulaire officiel avec le nom, le prénom, l'adresse électronique et le téléphone; le champ document d'identité n'est pas marqué obligatoire.",
+        "Choisir un tirage ou l'option permettant de participer à tous les tirages.",
+        "Accepter l'avis juridique et envoyer le formulaire avant le 24 juillet 2026 inclus.",
+        "Il est également possible de s'inscrire par le 900 111 004 selon le dépliant officiel."
+      ],
+      "limitsAndExclusions": [
+        "Le tirage est exclusivement réservé aux actionnaires de Telefónica.",
+        "Le règlement intégral n'est pas publié en ligne; Telefónica demande d'appeler le 900 111 004 pour le consulter.",
+        "Le territoire, l'âge minimal, le nombre maximal de participations, la remise des lots, la fiscalité et les exclusions ne peuvent pas être établis à partir des sources en ligne.",
+        "La participation ne garantit aucun lot."
+      ],
+      "primarySourceId": "S07",
+      "supportingSourceIds": [
+        "S08",
+        "S10"
+      ],
+      "sourceUrl": "https://www.telefonica.com/es/zona-accionistas/ofertas/apuntate-a-nuestros-sorteos/",
+      "evidenceGrade": "A",
+      "uncertainty": "La campagne et ses dates sont officiellement prouvées, mais les bases juridiques complètes ne sont disponibles que par téléphone."
+    },
+    {
+      "id": "B03",
+      "type": "reduction",
+      "title": "Remise supplémentaire de 10 % chez Meliá",
+      "description": "Une offre publiée par Telefónica accorde aux actionnaires une remise supplémentaire de 10 % sur les offres exclusives du programme de fidélité MeliáRewards. L'offre est annoncée comme valable pendant toute l'année 2026.",
+      "value": "10 % supplémentaires",
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "Qualité d'actionnaire Telefónica déclarée lors de la réservation",
+        "Accès aux offres exclusives MeliáRewards"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "subject_to_capacity",
+      "validFrom": "2026-01-01",
+      "validUntil": "2026-12-31",
+      "requestDeadline": "2026-12-31",
+      "procedure": [
+        "Contacter Meliá au 91 122 04 58 ou à kareservas@melia.com.",
+        "Demander l'offre actionnaire Telefónica sur une offre exclusive MeliáRewards.",
+        "Utiliser le code publié 00601225DHV lorsque le canal de réservation le demande."
+      ],
+      "limitsAndExclusions": [
+        "La remise ne se cumule pas avec d'autres promotions.",
+        "Elle s'applique aux offres exclusives MeliáRewards, non à tous les tarifs publics.",
+        "Les hôtels, dates, chambres et tarifs restent soumis à disponibilité.",
+        "Le document ne détaille pas la méthode de contrôle de la qualité d'actionnaire ni une liste territoriale exhaustive."
+      ],
+      "primarySourceId": "S11",
+      "supportingSourceIds": [
+        "S03"
+      ],
+      "sourceUrl": "https://www.telefonica.com/en/wp-content/uploads/sites/5/2026/03/Ofertas-revista-marzo-2026.pdf",
+      "evidenceGrade": "A",
+      "uncertainty": "La durée et le taux sont précis, mais les conditions complètes de réservation et le périmètre territorial ne figurent pas dans le document Telefónica."
+    },
+    {
+      "id": "B04",
+      "type": "reduction",
+      "title": "Remise de 15 % chez NH Collection",
+      "description": "Telefónica publie une remise de 15 % destinée à ses actionnaires dans les hôtels NH Collection Hotels & Resorts d'Europe et des Amériques, à demander avec le code TELEFONICA26.",
+      "value": "15 %",
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "Qualité d'actionnaire Telefónica déclarée lors de la réservation"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "subject_to_capacity",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Réserver auprès de NH Collection sur le canal indiqué par l'offre.",
+        "Saisir le code TELEFONICA26 avant de confirmer la réservation.",
+        "Vérifier le tarif, l'hôtel, les dates et les autres conditions affichées par le fournisseur."
+      ],
+      "limitsAndExclusions": [
+        "L'offre vise les établissements NH Collection Hotels & Resorts d'Europe et des Amériques.",
+        "Les réservations restent soumises aux disponibilités et aux conditions du fournisseur.",
+        "La page Telefónica et le document de mars 2026 ne publient pas de date de début ou de fin explicite.",
+        "La méthode de vérification de la qualité d'actionnaire et les règles de cumul ne sont pas détaillées dans la source Telefónica."
+      ],
+      "primarySourceId": "S12",
+      "supportingSourceIds": [
+        "S11"
+      ],
+      "sourceUrl": "https://www.telefonica.com/en/shareholders-area/offers/",
+      "evidenceGrade": "B",
+      "uncertainty": "Le code contient « 26 » et l'offre est publiée en 2026, mais aucune date contractuelle ne permet d'affirmer qu'elle reste valable jusqu'au 31 décembre 2026."
+    },
+    {
+      "id": "B05",
+      "type": "evenement",
+      "title": "Demande de visite de Distrito Telefónica",
+      "description": "Un actionnaire peut demander à visiter les installations de Distrito Telefónica à Madrid par courrier électronique ou au moyen du formulaire officiel. Telefónica traite les données fournies pour vérifier la qualité d'actionnaire et organiser la visite.",
+      "value": null,
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "Qualité d'actionnaire Telefónica vérifiée avant l'organisation de la visite"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "subject_to_capacity",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Écrire à accionistas@telefonica.com avec ses coordonnées ou utiliser le formulaire de visite.",
+        "Fournir le nom, le prénom, le document d'identité, l'adresse électronique et le téléphone.",
+        "Accepter l'avis juridique et attendre la vérification de la qualité d'actionnaire ainsi qu'une proposition d'organisation."
+      ],
+      "limitsAndExclusions": [
+        "Aucun calendrier, nombre de places, fréquence, délai de réponse ou droit automatique à une visite n'est publié.",
+        "La visite concerne Distrito Telefónica à Madrid; aucun transport, hébergement ou coût annexe n'est annoncé comme pris en charge.",
+        "La page ne précise pas les conditions d'accès des actionnaires étrangers ni les éventuelles exigences de sécurité ou d'âge.",
+        "Les expositions et activités publiques de Fundación Telefónica ne sont pas incluses dans ce bénéfice."
+      ],
+      "primarySourceId": "S09",
+      "supportingSourceIds": [
+        "S02",
+        "S10"
+      ],
+      "sourceUrl": "https://www.telefonica.com/en/shareholders-area/events-and-visits/visit-our-facilities/",
+      "evidenceGrade": "B",
+      "uncertainty": "Le formulaire de demande est actif, mais aucune date de visite disponible ni capacité garantie n'est publiée au 9 juin 2026."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "La Zona Accionistas de Telefónica est-elle un club actionnaire formel ?",
+      "answer": "Non au sens strict retenu par ce dossier. Telefónica présente une Zone Actionnaires avec information, communications, offres, tirages et visites, ainsi qu'un portail Área Ofertas Accionistas nécessitant une inscription. L'ensemble est classé comme programme actionnaire actif, pas comme club formel unique doté d'une adhésion générale.",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S04",
+        "S05"
+      ]
+    },
+    {
+      "question": "Combien d'actions Telefónica faut-il détenir pour accéder aux avantages ?",
+      "answer": "Aucun seuil numérique n'est publié dans les pages, formulaires ou conditions consultés. Il faut avoir la qualité d'actionnaire, mais cela ne suffit pas à prouver officiellement qu'une seule action ouvre tous les avantages. Le seuil global et les seuils propres aux offres restent donc à null.",
+      "sourceIds": [
+        "S03",
+        "S04",
+        "S05",
+        "S07",
+        "S09"
+      ]
+    },
+    {
+      "question": "Comment s'inscrire au portail de remises et comment Telefónica vérifie-t-elle l'actionnariat ?",
+      "answer": "L'inscription demande une adresse électronique, un mot de passe, le nom, le prénom et un DNI, puis l'acceptation des conditions et la confirmation par courrier électronique. Inspiring Benefits transmet ensuite chaque mois le numéro du document d'identité à Telefónica pour vérifier que l'utilisateur appartient toujours au collectif bénéficiaire.",
+      "sourceIds": [
+        "S04",
+        "S05",
+        "S10"
+      ]
+    },
+    {
+      "question": "Un actionnaire résidant hors d'Espagne peut-il utiliser le programme ?",
+      "answer": "Aucune interdiction générale de résidence n'est publiée, mais l'accès international n'est pas garanti. Le portail exige un DNI sans champ pays, le numéro gratuit est annoncé pour l'Espagne et les bases territoriales du tirage ne sont pas en ligne. Certaines offres ont une portée propre, comme NH Collection en Europe et dans les Amériques. Un détenteur étranger doit donc faire confirmer son éligibilité par l'Oficina del Accionista.",
+      "sourceIds": [
+        "S04",
+        "S07",
+        "S11",
+        "S12",
+        "S13"
+      ]
+    },
+    {
+      "question": "Quels avantages étaient réellement disponibles le 9 juin 2026 ?",
+      "answer": "Le portail de remises et cashback acceptait les inscriptions, les offres Meliá et NH Collection étaient publiées, le tirage iPhone et équipements Movistar Team était ouvert depuis le 8 juin et les demandes de visite de Distrito Telefónica restaient possibles. Les conditions et disponibilités des fournisseurs doivent être vérifiées avant tout achat ou déplacement.",
+      "sourceIds": [
+        "S03",
+        "S04",
+        "S07",
+        "S08",
+        "S09",
+        "S11",
+        "S12"
+      ]
+    },
+    {
+      "question": "L'assemblée générale, la revue Acción et les contenus publics sont-ils des avantages ?",
+      "answer": "Non. Le vote, la participation ordinaire à l'assemblée et l'information financière relèvent des droits ou services génériques aux actionnaires. La revue, la newsletter et les alertes servent à diffuser l'information et les offres mais ne sont pas retenues comme bénéfices autonomes. Les cours, podcasts, expositions et activités ouverts au public sont également exclus.",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S13"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "L'action ordinaire Telefónica porte le ticker TEF, appartient à l'IBEX 35 et des ADS représentant chacun une action sont négociés aux États-Unis.",
+      "status": "verified",
+      "sourceIds": [
+        "S01"
+      ],
+      "notes": "L'éligibilité des titulaires d'ADS aux avantages de la Zona Accionistas n'est pas précisée."
+    },
+    {
+      "id": "C02",
+      "statement": "Telefónica maintient un programme actionnaire actif comprenant une zone dédiée, des offres, des tirages et des demandes de visite.",
+      "status": "verified",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S07",
+        "S09"
+      ],
+      "notes": "Le dispositif est classé comme shareholder_program et non comme shareholder_club."
+    },
+    {
+      "id": "C03",
+      "statement": "Le portail Área Ofertas Accionistas est gratuit à l'inscription et réserve ses avantages aux utilisateurs enregistrés appartenant au collectif défini par Telefónica.",
+      "status": "verified",
+      "sourceIds": [
+        "S03",
+        "S04",
+        "S05"
+      ],
+      "notes": "Les produits et services achetés restent payants et soumis aux conditions de leurs fournisseurs."
+    },
+    {
+      "id": "C04",
+      "statement": "Le maintien dans le collectif bénéficiaire du portail est vérifié mensuellement par transmission à Telefónica du numéro du document d'identité.",
+      "status": "verified",
+      "sourceIds": [
+        "S04",
+        "S05"
+      ],
+      "notes": "Le formulaire utilise le libellé DNI et ne prévoit pas de champ pays."
+    },
+    {
+      "id": "C05",
+      "statement": "Le tirage iPhone 17 et équipements Movistar Team était ouvert le 9 juin 2026, avec une clôture le 24 juillet et un tirage le 28 juillet 2026.",
+      "status": "verified",
+      "sourceIds": [
+        "S07",
+        "S08"
+      ],
+      "notes": "Le règlement complet n'est accessible que par téléphone."
+    },
+    {
+      "id": "C06",
+      "statement": "Telefónica publie en 2026 une remise Meliá de 10 % supplémentaires et une remise NH Collection de 15 % pour ses actionnaires.",
+      "status": "verified",
+      "sourceIds": [
+        "S11",
+        "S12"
+      ],
+      "notes": "Meliá est explicitement valable toute l'année 2026; aucune date contractuelle explicite n'a été trouvée pour NH Collection."
+    },
+    {
+      "id": "C07",
+      "statement": "Un formulaire officiel permet aux actionnaires de demander une visite des installations de Distrito Telefónica à Madrid.",
+      "status": "verified",
+      "sourceIds": [
+        "S09",
+        "S10"
+      ],
+      "notes": "Aucune date, capacité ou acceptation automatique n'est garantie."
+    },
+    {
+      "id": "C08",
+      "statement": "Aucun seuil minimal chiffré d'actions ni aucune durée minimale de détention n'est publié pour le programme.",
+      "status": "verified",
+      "sourceIds": [
+        "S03",
+        "S04",
+        "S05",
+        "S07",
+        "S09"
+      ],
+      "notes": "La qualité d'actionnaire est exigée et contrôlée, mais le nombre d'actions n'est pas précisé."
+    },
+    {
+      "id": "C09",
+      "statement": "L'accès des actionnaires étrangers sans DNI espagnol et celui des titulaires d'ADS aux avantages ne sont pas officiellement établis.",
+      "status": "uncertain",
+      "sourceIds": [
+        "S01",
+        "S04",
+        "S10"
+      ],
+      "notes": "Aucune exclusion explicite n'est publiée, mais les formulaires et mécanismes de vérification ne permettent pas de confirmer leur accès."
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "La détention d'une seule action Telefónica suffit officiellement pour accéder à tous les avantages.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S03",
+        "S04",
+        "S05",
+        "S07",
+        "S09"
+      ]
+    },
+    {
+      "claim": "Une action détenue auprès de n'importe quel courtier étranger ou dans un PEA français garantit l'inscription.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S04",
+        "S10"
+      ]
+    },
+    {
+      "claim": "Les tirages technologiques Telefónica sont réservés aux actionnaires ayant voté à l'assemblée générale.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S07",
+        "S08"
+      ]
+    },
+    {
+      "claim": "La revue Acción Telefónica constitue à elle seule un bénéfice commercial distinct.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S02",
+        "S13"
+      ]
+    },
+    {
+      "claim": "Les rapports publics, résultats, alertes financières et informations de l'assemblée sont des avantages actionnaires.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S02",
+        "S13"
+      ]
+    },
+    {
+      "claim": "Le vote, l'assistance ordinaire à l'assemblée et le dividende ordinaire sont des bénéfices du programme.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S02"
+      ]
+    },
+    {
+      "claim": "Les cours Campus 42 et Conecta Empleo, podcasts, expositions et activités de Fundación Telefónica sont réservés aux actionnaires.",
+      "reason": "not_shareholder_specific",
+      "sourceIds": [
+        "S02",
+        "S12"
+      ]
+    },
+    {
+      "claim": "Le programme garantit exactement plus de 400 remises actives à tout moment.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S03",
+        "S04",
+        "S12"
+      ]
+    },
+    {
+      "claim": "Toutes les offres Telefónica sont disponibles mondialement et aux mêmes conditions.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S03",
+        "S05",
+        "S11",
+        "S12"
+      ]
+    },
+    {
+      "claim": "Les rencontres vidéo déjà publiées et les visites culturelles ouvertes au public sont des événements exclusifs encore disponibles.",
+      "reason": "not_shareholder_specific",
+      "sourceIds": [
+        "S02",
+        "S09"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.telefonica.com/en/shareholders-investors/share/",
+      "title": "Share",
+      "publisher": "Telefónica",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La page confirme la cotation des actions Telefónica sur les marchés espagnols, leur présence dans l'IBEX 35 et les ADS négociés aux États-Unis, chacun représentant une action."
+    },
+    {
+      "id": "S02",
+      "url": "https://www.telefonica.com/es/zona-accionistas/",
+      "title": "Zona Accionistas",
+      "publisher": "Telefónica",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La page centrale présente la Zone Actionnaires, le portail d'offres, les tirages, événements et visites, mais aussi de nombreux contenus publics ou de relations investisseurs qui ne constituent pas des bénéfices."
+    },
+    {
+      "id": "S03",
+      "url": "https://www.telefonica.com/es/zona-accionistas/ofertas/",
+      "title": "Ofertas",
+      "publisher": "Telefónica",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La page espagnole annonce plus de 300 remises gratuites d'accès pour les actionnaires, des codes promotionnels, du cashback transférable, des offres saisonnières, des tirages ainsi que des communications sur les événements et visites."
+    },
+    {
+      "id": "S04",
+      "url": "https://telefonica-accionistas.contigomas.com/signup",
+      "title": "Área Ofertas Accionistas - Registro",
+      "publisher": "Inspiring Benefits pour Telefónica Accionistas",
+      "sourceType": "official_form",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "C",
+      "evidenceSummary": "Le formulaire partenaire demande e-mail, mot de passe, nom, prénom et DNI, puis annonce une transmission mensuelle du document d'identité à Telefónica pour vérifier le maintien dans le collectif bénéficiaire."
+    },
+    {
+      "id": "S05",
+      "url": "https://telefonica-accionistas.contigomas.com/terms",
+      "title": "Área Ofertas Accionistas - Condiciones de uso",
+      "publisher": "Inspiring Benefits pour Telefónica Accionistas",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "C",
+      "evidenceSummary": "Les conditions rendent l'accès, l'inscription et l'usage gratuits, imposent la majorité, l'inscription et l'appartenance au collectif, détaillent les exclusions, la sortie du programme et le fonctionnement des remises et du cashback."
+    },
+    {
+      "id": "S06",
+      "url": "https://telefonica-accionistas.contigomas.com/faq",
+      "title": "Área Ofertas Accionistas - Preguntas frecuentes",
+      "publisher": "Inspiring Benefits pour Telefónica Accionistas",
+      "sourceType": "official_faq",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "C",
+      "evidenceSummary": "La FAQ explique l'usage des liens et codes, les offres modifiables, les réclamations, le cashback et le seuil de 10 € pour transférer l'argent accumulé dans la hucha."
+    },
+    {
+      "id": "S07",
+      "url": "https://www.telefonica.com/es/zona-accionistas/ofertas/apuntate-a-nuestros-sorteos/",
+      "title": "Apúntate a nuestros sorteos",
+      "publisher": "Telefónica",
+      "sourceType": "official_form",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "La page ouvre les inscriptions du 8 juin au 24 juillet 2026 pour un iPhone 17 et deux équipements Movistar Team, fixe le tirage au 28 juillet et indique la vérification de la qualité d'actionnaire."
+    },
+    {
+      "id": "S08",
+      "url": "https://www.telefonica.com/en/wp-content/uploads/sites/5/2026/06/Sorteo-accionistas-revista-junio-2026.pdf",
+      "title": "Sorteo accionistas - Revista junio 2026",
+      "publisher": "Telefónica",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Le dépliant confirme les trois lots, la période du 8 juin au 24 juillet, le tirage du 28 juillet 2026, l'exclusivité actionnaire et l'inscription possible par le 900 111 004."
+    },
+    {
+      "id": "S09",
+      "url": "https://www.telefonica.com/en/shareholders-area/events-and-visits/visit-our-facilities/",
+      "title": "Visit our facilities",
+      "publisher": "Telefónica",
+      "sourceType": "official_form",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La page invite les actionnaires à demander une visite de Distrito Telefónica par e-mail ou formulaire et indique que leurs données servent à vérifier leur qualité d'actionnaire et à gérer la visite."
+    },
+    {
+      "id": "S10",
+      "url": "https://www.telefonica.com/es/zona-accionistas/proteccion-de-datos-de-caracter-personal/",
+      "title": "Protección de datos de carácter personal",
+      "publisher": "Telefónica",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La politique confirme les traitements destinés aux tirages, visites de Distrito Telefónica, événements et offres exclusives, ainsi que la vérification possible auprès d'Iberclear et des établissements dépositaires."
+    },
+    {
+      "id": "S11",
+      "url": "https://www.telefonica.com/en/wp-content/uploads/sites/5/2026/03/Ofertas-revista-marzo-2026.pdf",
+      "title": "Ofertas revista marzo 2026",
+      "publisher": "Telefónica",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2026-03",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Le document officiel publie notamment 15 % chez NH Collection en Europe et dans les Amériques avec TELEFONICA26, ainsi que 10 % supplémentaires sur les offres MeliáRewards, non cumulables et valables toute l'année 2026."
+    },
+    {
+      "id": "S12",
+      "url": "https://www.telefonica.com/en/shareholders-area/offers/",
+      "title": "Offers",
+      "publisher": "Telefónica",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La version anglaise confirme le portail, les remises, codes et cashback, mais annonce plus de 400 remises contre plus de 300 en espagnol. Elle publie aussi l'offre NH de 15 % avec le code TELEFONICA26."
+    },
+    {
+      "id": "S13",
+      "url": "https://www.telefonica.com/es/zona-accionistas/newsletters-y-comunicaciones/",
+      "title": "Newsletters y Comunicaciones para Accionistas",
+      "publisher": "Telefónica",
+      "sourceType": "official_form",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Le formulaire de communications demande nom, prénom, DNI, e-mail et téléphone afin de vérifier la qualité d'actionnaire; la page publie aussi le contact, l'adresse et les horaires de l'Oficina del Accionista."
+    },
+    {
+      "id": "S14",
+      "url": "https://www.telefonica.com/en/about-us/",
+      "title": "About us",
+      "publisher": "Telefónica",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La page décrit Telefónica comme un opérateur fournissant connectivité et services avancés, avec une présence consolidée en Espagne, en Allemagne, au Royaume-Uni et au Brésil."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Nombre de remises du portail",
+      "sourceIds": [
+        "S03",
+        "S04",
+        "S12"
+      ],
+      "positions": [
+        "La page espagnole de Telefónica annonce plus de 300 remises.",
+        "La page anglaise annonce plus de 400 remises.",
+        "La page d'accueil du partenaire emploie la formule plus générale « miles de ofertas »."
+      ],
+      "resolution": "Employer « plusieurs centaines de remises » et ne garantir aucun nombre exact, le catalogue étant dynamique.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Seuil minimal d'actions",
+      "sourceIds": [
+        "S03",
+        "S04",
+        "S05",
+        "S07",
+        "S09"
+      ],
+      "positions": [
+        "Les données historiques du projet affirment qu'une action suffit.",
+        "Les sources officielles actuelles exigent la qualité d'actionnaire sans publier de seuil numérique."
+      ],
+      "resolution": "Conserver globalMinimumShares et tous les requiredShares à null; rejeter la formule « dès une action ».",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Accès depuis l'étranger",
+      "sourceIds": [
+        "S01",
+        "S04",
+        "S07",
+        "S10",
+        "S12",
+        "S13"
+      ],
+      "positions": [
+        "Telefónica a des actionnaires et des titres représentatifs négociés hors d'Espagne, et certaines offres couvrent l'Europe et les Amériques.",
+        "Le portail et le formulaire de communications exigent un DNI, ne proposent pas de pays, et le numéro gratuit est réservé aux appels depuis l'Espagne.",
+        "Aucune exclusion explicite de résidence ou des titulaires d'ADS n'est publiée."
+      ],
+      "resolution": "Ne pas limiter officiellement le programme aux résidents espagnols, mais signaler que l'inscription des actionnaires étrangers sans DNI et des titulaires d'ADS n'est pas prouvée.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Conditions complètes du tirage",
+      "sourceIds": [
+        "S07",
+        "S08"
+      ],
+      "positions": [
+        "La page et le dépliant publient les lots, les dates et l'exclusivité actionnaire.",
+        "Telefónica ne publie pas les bases en ligne et demande de les consulter par téléphone."
+      ],
+      "resolution": "Retenir le tirage comme bénéfice actif, mais laisser inconnus le territoire, l'âge, le nombre de participations, la fiscalité et les autres exclusions.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Lien supposé entre tirage et vote à l'assemblée",
+      "sourceIds": [
+        "S07",
+        "S08"
+      ],
+      "positions": [
+        "Les données historiques du projet présentent les tirages comme réservés aux actionnaires ayant voté à l'assemblée générale.",
+        "La campagne ouverte le 8 juin 2026 exige seulement la qualité d'actionnaire dans ses informations publiques et ne mentionne ni vote ni assemblée."
+      ],
+      "resolution": "Ne pas reprendre le lien avec l'assemblée pour la campagne 2026 faute de preuve actuelle; ne pas inventer d'autres conditions absentes des sources en ligne.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Événements réservés et activités publiques",
+      "sourceIds": [
+        "S02",
+        "S09",
+        "S10"
+      ],
+      "positions": [
+        "La Zone Actionnaires regroupe sous « Eventos y Visitas » des rencontres actionnaires et une demande de visite de Distrito Telefónica.",
+        "La même rubrique renvoie aussi vers des expositions, podcasts et ateliers de Fundación Telefónica accessibles au public."
+      ],
+      "resolution": "Conserver uniquement la demande de visite dont le formulaire prévoit la vérification de l'actionnariat; exclure les contenus et activités publics.",
+      "impact": "benefit_excluded"
+    },
+    {
+      "topic": "Terminologie club ou programme",
+      "sourceIds": [
+        "S02",
+        "S04",
+        "S05"
+      ],
+      "positions": [
+        "Le partenaire intitule techniquement sa page d'accès « acceso al club » et utilise des conditions génériques destinées à différents collectifs.",
+        "Telefónica nomme officiellement son dispositif « Zona Accionistas » et « Área Ofertas Accionistas », sans présenter une adhésion générale à un club."
+      ],
+      "resolution": "Classer Telefónica en shareholder_program; conserver Zona Accionistas comme nom d'affichage sans la décrire comme un club formel.",
+      "impact": "wording_only"
+    }
+  ],
+  "handoff": {
+    "researchStatus": "complete_with_uncertainties",
+    "readyForDevelopment": true,
+    "benefitCount": 5,
+    "faqCount": 6,
+    "blockingIssues": [],
+    "developerNotes": [
+      "Présenter Telefónica comme un programme actionnaire actif, non comme un club formel.",
+      "Conserver minShares à null: aucune source officielle actuelle ne fixe un seuil d'une action.",
+      "Ne pas promettre l'accès depuis n'importe quel courtier, un PEA français ou un ADS; l'inscription étrangère sans DNI n'est pas établie.",
+      "Employer « plusieurs centaines de remises » en raison du conflit entre plus de 300 en espagnol et plus de 400 en anglais.",
+      "Pour le portail, préciser que l'accès est gratuit mais que les achats, taxes et frais propres aux fournisseurs restent dus.",
+      "Le tirage était ouvert au 9 juin 2026, du 8 juin au 24 juillet, avec tirage le 28 juillet; ne pas le relier au vote ou à l'assemblée générale.",
+      "Ne pas inventer les conditions territoriales, d'âge, de participation ou de fiscalité du tirage, dont les bases complètes ne sont disponibles que par téléphone.",
+      "L'offre Meliá est valable toute l'année 2026; ne pas attribuer une date de fin à l'offre NH, qui n'en publie pas.",
+      "Conserver la visite de Distrito Telefónica comme demande soumise à organisation, sans promettre de place ni de date.",
+      "Ne pas réintroduire la revue Acción, les newsletters, les rapports publics, l'AG, le vote, le dividende, Campus 42, Conecta Empleo, les podcasts ou les expositions publiques dans les bénéfices."
+    ]
+  }
+}

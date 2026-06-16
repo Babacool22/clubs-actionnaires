@@ -103,6 +103,10 @@ function renderBenefitValue(b: DossierBenefit): string | null {
   return b.value;
 }
 
+function hasField<T extends object>(value: T, key: PropertyKey): boolean {
+  return Object.prototype.hasOwnProperty.call(value, key);
+}
+
 async function main() {
   const dossiers = loadDossiers();
   if (dossiers.length === 0) {
@@ -128,10 +132,10 @@ async function main() {
         description: d.description ?? company.description,
         sector: d.sector,
         stockIndex: d.stockIndex,
-        ticker: d.ticker ?? company.ticker,
-        website: d.website ?? company.website,
-        clubUrl: d.clubUrl ?? company.clubUrl,
-        minShares: d.minShares ?? company.minShares,
+        ticker: hasField(d, "ticker") ? d.ticker ?? null : company.ticker,
+        website: hasField(d, "website") ? d.website ?? null : company.website,
+        clubUrl: hasField(d, "clubUrl") ? d.clubUrl ?? null : null,
+        minShares: hasField(d, "minShares") ? d.minShares ?? null : null,
       },
     });
 

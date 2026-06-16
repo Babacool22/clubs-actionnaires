@@ -1,0 +1,123 @@
+{
+  "slug": "banco-santander",
+  "name": "Banco Santander",
+  "description": "Banco Santander est un groupe bancaire commercial mondial fondé en Espagne, organisé autour de cinq métiers globaux et présent sur neuf marchés clés en Europe et en Amérique. Son action ordinaire, identifiée par le symbole SAN en Espagne, appartient à l'indice IBEX 35.",
+  "sector": "Banque & Finance",
+  "stockIndex": "IBEX 35",
+  "ticker": "SAN",
+  "website": "https://www.santander.com/",
+  "clubName": "Yo soy Accionista Santander",
+  "clubUrl": "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/informacion-general",
+  "minShares": null,
+  "lastVerifiedAt": "2026-06-09",
+  "benefits": [
+    {
+      "type": "service",
+      "title": "Assurance individuelle accidents gratuite",
+      "description": "Santander indique qu'une assurance individuelle accidents gratuite couvre les personnes physiques actionnaires âgées de plus de 14 ans, sans seuil minimal d'actions publié ni obligation publique d'être client de la banque. En cas de copropriété des titres, chaque cotitulaire est assuré en proportion de sa quote-part. La page actuelle ne précise ni le capital assuré, ni les risques couverts, ni les exclusions de police, ni la portée territoriale; ces conditions doivent être demandées à la Línea Personal al Accionista ou en agence.",
+      "value": "Gratuite; capital assuré et barème non publiés",
+      "requiredShares": null,
+      "sourceUrl": "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/ventajas-financieras/seguro-accidentes-gratuito"
+    },
+    {
+      "type": "reduction",
+      "title": "Exonérations et réduction de commissions sur l'action Santander",
+      "description": "Lorsque les actions Santander sont déposées sur un compte de titres Banco Santander, les commissions d'administration et de garde, d'encaissement des dividendes, d'opérations sur capital et de certaines transmissions sont exonérées. Les achats numériques d'actions Santander bénéficient aussi d'une commission réduite pouvant atteindre 40 %: 1,80 € jusqu'à 2 000 €, 3,60 € de 2 000,01 € à 15 000 €, puis 0,15 % au-delà. Aucun seuil minimal d'actions n'est publié; les taxes, frais de marché et commissions non listés restent dus.",
+      "value": "Commissions listées à 0 €; jusqu'à 40 % de réduction sur l'achat numérique",
+      "requiredShares": null,
+      "sourceUrl": "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/ventajas-financieras/exencion-comisiones"
+    },
+    {
+      "type": "reduction",
+      "title": "Exonération de maintenance de la Cuenta Santander",
+      "description": "La Cuenta Santander utilisée comme compte de paiement du compte de titres est exonérée de commission de maintenance lorsqu'au moins un titulaire conserve à son nom au moins 1 000 actions Santander déposées chez Banco Santander. Les actions détenues séparément par plusieurs cotitulaires ne sont pas additionnées pour atteindre ce seuil. L'exonération concerne le compte associé, pas automatiquement les autres comptes, et la Cuenta Santander reste non rémunérée.",
+      "value": "0 € par mois au lieu d'une commission pouvant atteindre 20 € par mois",
+      "requiredShares": 1000,
+      "sourceUrl": "https://www.santander.com/content/dam/santander-com/es/contenido-paginas/accionistas-e-inversores/yo-soy-accionista/ventajas-financieras/doc-ysa-detalles-de-la-cuenta-santander.pdf"
+    },
+    {
+      "type": "service",
+      "title": "Compte rémunéré de réinvestissement des dividendes",
+      "description": "La Cuenta de Reinversión del Dividendo reçoit la part choisie des dividendes Santander et l'investit automatiquement en actions Santander. Elle exige que les actions soient déposées sur un compte de titres Banco Santander et que le solde serve exclusivement à l'achat d'actions Santander. Le solde est rémunéré à 10 % TIN, soit 10,25 % TAE dans l'exemple officiel, avec maintenance à 0 € et achat automatique sans frais ni commissions le onzième jour de bourse suivant le paiement. Aucun seuil minimal d'actions ni date de fin ne sont publiés.",
+      "value": "10 % TIN, 10,25 % TAE dans l'exemple officiel; maintenance et réinvestissement à 0 €",
+      "requiredShares": null,
+      "sourceUrl": "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/ventajas-financieras/cuenta-de-reinversion-del-dividendo"
+    },
+    {
+      "type": "reduction",
+      "title": "Remise de 15 % chez Paradores",
+      "description": "Les titulaires d'actions Santander en Espagne peuvent obtenir 15 % de remise sur la « Tarifa Parador » jusqu'au 29 décembre 2026. L'offre passe par l'Área en Acción: l'actionnaire doit s'y authentifier, récupérer le code promotionnel puis l'indiquer lors de la réservation. La remise concerne ce tarif précis dans le réseau Paradores en Espagne et ne s'applique pas nécessairement aux autres tarifs; aucun seuil minimal d'actions n'est publié.",
+      "value": "15 % sur la Tarifa Parador jusqu'au 29 décembre 2026",
+      "requiredShares": null,
+      "sourceUrl": "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/promociones/paradores"
+    },
+    {
+      "type": "reduction",
+      "title": "Tarifs actionnaires au Golf Santander",
+      "description": "Le Golf Santander de Boadilla del Monte, à Madrid, publie des green-fees réduits pour les titulaires d'actions Santander en Espagne et leurs accompagnants jouant dans la même partie. L'accès à l'offre passe par l'Área en Acción et la réservation s'effectue auprès du golf. La réduction annoncée peut atteindre 69 %, avec des tarifs web de 55 € ou 81 € pour l'actionnaire selon le jour et l'heure. Aucun seuil minimal d'actions ni date de fin ne sont publiés; le tarif doit être revérifié lors de la réservation.",
+      "value": "Jusqu'à 69 %; tarifs web publiés de 55 € ou 81 € selon le créneau",
+      "requiredShares": null,
+      "sourceUrl": "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/promociones/golf-santander"
+    },
+    {
+      "type": "reduction",
+      "title": "Tarifs spéciaux sur l'assurance santé ASISA",
+      "description": "Jusqu'au 31 décembre 2026, ASISA propose aux actionnaires Santander et à leurs bénéficiaires familiaux des primes spéciales selon l'âge, sans frais de gestion et avec suppression de délais de carence sous réserve d'exceptions. La souscription passe par l'Área en Acción et impose de domicilier les cotisations dans une agence Santander. Le conjoint, les enfants, les parents et les frères ou sœurs peuvent être bénéficiaires sans que l'actionnaire soit lui-même assuré. Le réseau médical principal est espagnol et l'assistance d'urgence à l'étranger est plafonnée à 14 000 € par assuré et par voyage.",
+      "value": "Tarifs selon l'âge et frais de gestion supprimés jusqu'au 31 décembre 2026",
+      "requiredShares": null,
+      "sourceUrl": "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/promociones/seguros-asisa"
+    },
+    {
+      "type": "reduction",
+      "title": "Remise de 10 % chez Consorcio",
+      "description": "Les titulaires d'actions Santander en Espagne disposent de 10 % de remise sur la boutique en ligne Consorcio consacrée aux conserves et produits gourmets. L'accès à l'offre passe par l'Área en Acción, où l'actionnaire récupère le lien ou le code réservé avant de commander. La page annonce aussi la gratuité des frais d'envoi, retenue prudemment pour la péninsule Ibérique car le texte mentionne ailleurs toute l'Espagne; l'éligibilité des îles doit être confirmée. Aucun seuil minimal d'actions ni date de fin ne sont publiés.",
+      "value": "10 % de remise et frais d'envoi gratuits dans la zone éligible",
+      "requiredShares": null,
+      "sourceUrl": "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/promociones/consorcio"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Yo soy Accionista Santander est-il un club et existe-t-il un seuil global d'adhésion ?",
+      "answer": "Il s'agit d'un programme officiel d'avantages et d'information, pas d'un club formel avec cotisation et règlement général public. Santander exige la qualité d'actionnaire, mais les pages actuelles ne publient pas un seuil global explicite d'une action. Le seuil doit donc rester inconnu au niveau du programme et être indiqué séparément pour chaque avantage."
+    },
+    {
+      "question": "Un actionnaire dont les titres sont chez un autre courtier peut-il profiter des avantages ?",
+      "answer": "Certains avantages ne requièrent pas publiquement un compte Santander, notamment l'assurance accidents. En revanche, les exonérations sur titres, la Cuenta de Reinversión et l'exonération de maintenance de la Cuenta Santander imposent le dépôt des actions chez Banco Santander. Les promotions visent les titulaires d'actions Santander en Espagne et passent par l'Área en Acción, qui prévoit un accès client et non-client."
+    },
+    {
+      "question": "Que couvre exactement l'assurance accidents gratuite de Santander ?",
+      "answer": "La page officielle confirme la gratuité pour les personnes physiques actionnaires âgées de plus de 14 ans et précise la répartition proportionnelle entre cotitulaires. Elle ne publie toutefois ni capital assuré, ni barème selon le nombre d'actions, ni exclusions, ni territoire de couverture. Ces détails doivent être demandés à la Línea Personal al Accionista ou en agence."
+    },
+    {
+      "question": "Combien d'actions faut-il détenir pour obtenir les exonérations de commissions ?",
+      "answer": "Aucun nombre minimal n'est publié pour l'exonération des commissions de garde et des opérations listées, mais les actions doivent être déposées chez Banco Santander. Pour supprimer la commission de maintenance de la Cuenta Santander associée au compte de titres, les conditions détaillées exigent au moins 1 000 actions détenues par un même titulaire; les actions de plusieurs cotitulaires ne se cumulent pas."
+    },
+    {
+      "question": "Quelles promotions commerciales sont encore prouvées au 9 juin 2026 ?",
+      "answer": "Les sources officielles actuelles prouvent notamment 15 % chez Paradores jusqu'au 29 décembre 2026, des tarifs ASISA jusqu'au 31 décembre 2026, des tarifs actionnaires au Golf Santander et 10 % chez Consorcio. Apple, Samsung, le Museo del Prado et Santander Renting figurent aussi dans le catalogue, mais les huit avantages retenus privilégient ceux dont la valeur et les conditions publiques sont les plus précises."
+    },
+    {
+      "question": "Le dividende et les services bancaires ordinaires sont-ils comptés comme avantages actionnaire ?",
+      "answer": "Le dividende ordinaire, le vote, l'assemblée et les publications financières sont exclus. Les fonctions générales de la Cuenta Santander ne sont pas retenues non plus. La Cuenta de Reinversión est conservée uniquement parce qu'elle offre des conditions économiques spécifiques et prouvées aux actionnaires: rémunération de 10 % TIN, absence de frais et réinvestissement automatique sans commission."
+    }
+  ],
+  "sources": [
+    "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/informacion-general",
+    "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/ventajas-financieras/seguro-accidentes-gratuito",
+    "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/ventajas-financieras/exencion-comisiones",
+    "https://www.santander.com/content/dam/santander-com/es/contenido-paginas/accionistas-e-inversores/yo-soy-accionista/ventajas-financieras/doc-ysa-detalles-de-la-cuenta-santander.pdf",
+    "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/ventajas-financieras/cuenta-de-reinversion-del-dividendo",
+    "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/promociones/paradores",
+    "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/promociones/golf-santander",
+    "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/promociones/seguros-asisa",
+    "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/promociones/consorcio",
+    "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/promociones",
+    "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/ventajas-financieras/cuenta-santander-nuevo",
+    "https://www.bancosantander.es/particulares/ahorro-inversion/bolsa-inversion/accionistas-santander",
+    "https://areaenaccion.santander.com/",
+    "https://www.santander.com/es/sobre-nosotros/principales-datos",
+    "https://www.santander.com/es/accionistas-e-inversores/accion-santander/presencia-en-los-indices",
+    "https://www.santander.com/es/accionistas-e-inversores/accion-santander/cotizacion"
+  ]
+}

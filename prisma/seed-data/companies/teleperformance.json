@@ -1,0 +1,55 @@
+{
+  "slug": "teleperformance",
+  "name": "Teleperformance",
+  "description": "Teleperformance, qui utilise la marque TP, est un groupe mondial de services aux entreprises en solutions digitales. Il combine technologies avancées et expertise humaine pour gérer l'expérience client, le back-office, le conseil et des services spécialisés tels que l'interprétariat, le recouvrement et les services de visas.",
+  "sector": "Services aux entreprises",
+  "stockIndex": "CAC Large 60",
+  "ticker": "TEP",
+  "website": "https://www.tp.com/",
+  "minShares": null,
+  "lastVerifiedAt": "2026-06-09",
+  "benefits": [
+    {
+      "type": "reduction",
+      "title": "Droits de garde et gestion courante gratuits",
+      "description": "Les actions Teleperformance détenues au nominatif pur chez Uptevia sont exonérées de droits de garde et des frais liés à la gestion courante des titres, notamment certains transferts, changements de statut, opérations sur titres et le paiement des dividendes. Cet avantage ne constitue pas un club et ne s'applique pas au nominatif administré.",
+      "value": "Gratuité des droits de garde et des frais de gestion courante au nominatif pur",
+      "requiredShares": null,
+      "sourceUrl": "https://www.tp.com/media/msvfbns0/tp-urd-2025.pdf"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Teleperformance propose-t-elle un club ou un programme formel pour ses actionnaires ?",
+      "answer": "Aucun club, programme avec statut de membre, règlement d'adhésion ou formulaire d'inscription dédié n'a été identifié au 9 juin 2026. TP dispose d'un espace public pour les actionnaires individuels et publie un avantage distinct lié à la détention au nominatif pur."
+    },
+    {
+      "question": "Quel avantage concret est retenu pour les actionnaires individuels de Teleperformance ?",
+      "answer": "Le seul avantage économique spécifique retenu est la gratuité des droits de garde et des frais de gestion courante pour les actions inscrites au nominatif pur chez Uptevia. Les ordres de bourse et les éventuels frais de transfert ne sont pas annoncés comme gratuits."
+    },
+    {
+      "question": "Combien d'actions faut-il détenir pour bénéficier de la gratuité au nominatif pur ?",
+      "answer": "TP ne publie aucun seuil minimal propre à cet avantage. Il faut détenir des actions Teleperformance et les inscrire au nominatif pur, mais le rapport conserve donc le nombre requis à null au lieu de déduire arbitrairement un seuil d'une action."
+    },
+    {
+      "question": "Comment inscrire ses actions Teleperformance au nominatif pur ?",
+      "answer": "Il faut contacter Uptevia, mandataire de Teleperformance, au +33 1 49 37 82 36 ou via son espace investisseurs afin d'obtenir les instructions d'inscription ou de conversion. La procédure détaillée, les pièces à fournir et le délai de traitement ne sont pas publiés par TP."
+    },
+    {
+      "question": "Le nominatif administré donne-t-il droit aux mêmes frais gratuits que le nominatif pur ?",
+      "answer": "Non pour les droits de garde. Au nominatif administré, les titres restent gérés par la banque ou le courtier et les frais dépendent de cet intermédiaire. La gratuité des droits de garde publiée par TP est réservée au nominatif pur tenu par Uptevia."
+    },
+    {
+      "question": "La newsletter, l'assemblée générale ou Investir Day sont-ils des avantages réservés ?",
+      "answer": "Non. Les newsletters et publications sont accessibles dans l'espace public de relations investisseurs. L'assemblée générale et le vote relèvent des droits ordinaires des actionnaires. Investir Day 2024 accueillait aussi des étudiants et d'autres participants, et aucun événement 2026 réservé aux seuls actionnaires n'est publié."
+    }
+  ],
+  "sources": [
+    "https://www.tp.com/media/msvfbns0/tp-urd-2025.pdf",
+    "https://www.tp.com/fr-fr/investisseurs/actionnaires-individuels/devenir-actionnaire/",
+    "https://www.tp.com/media/kbcer5z2/fact-sheet_different-ways-of-holding-teleperformance-shares_.pdf",
+    "https://www.tp.com/fr-fr/investisseurs/actionnaires-individuels/evenements/",
+    "https://www.tp.com/fr-fr/investisseurs/actionnaires-individuels/faq-et-glossaire/",
+    "https://live.euronext.com/fr/products/equities/company-news/2026-06-01-tp-information-mensuelle-relative-au-nombre-total"
+  ]
+}

@@ -1,0 +1,536 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "mcdonalds",
+    "name": "McDonald's",
+    "description": "McDonald's Corporation est le premier groupe mondial de restauration rapide, avec plus de 45 000 établissements dans plus de 100 pays au 7 mai 2026. Environ 95 % des restaurants sont exploités par des entrepreneurs locaux indépendants dans le cadre du modèle de franchise du groupe.",
+    "sector": "Restauration",
+    "stockIndex": "S&P 500",
+    "ticker": "MCD",
+    "website": "https://corporate.mcdonalds.com/",
+    "clubName": null,
+    "clubUrl": null
+  },
+  "offerClassification": {
+    "primaryKind": "investor_relations_only",
+    "otherKinds": [],
+    "officialProgrammeName": null,
+    "status": "active",
+    "statusReason": "Au 9 juin 2026, McDonald's Corporation maintient un espace de relations investisseurs, des ressources actionnaires et des services administratifs assurés par Computershare. Aucun club, programme d'adhésion ou avantage commercial réservé aux détenteurs de l'action NYSE MCD n'est officiellement prouvé.",
+    "sourceIds": [
+      "S02",
+      "S03",
+      "S04",
+      "S05"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": null,
+    "eligibleShareClasses": [],
+    "holdingModes": [],
+    "minimumHoldingPeriod": null,
+    "residencyRestrictions": [],
+    "accountRestrictions": [],
+    "proofRequired": [],
+    "fees": {
+      "membershipFee": null,
+      "applicationFee": null,
+      "otherFees": [],
+      "notes": "Sans objet : aucun club ou programme d'avantages n'est prouvé. Les frais éventuels du plan d'investissement, du courtier ou des services administratifs de Computershare ne constituent pas une cotisation à un dispositif d'avantages. McDonald's annonce séparément des frais sur les chèques de dividende papier à compter du troisième trimestre 2026."
+    },
+    "sourceIds": [
+      "S03",
+      "S04",
+      "S08"
+    ]
+  },
+  "enrollment": {
+    "required": false,
+    "method": "not_applicable",
+    "applicationUrl": null,
+    "contact": null,
+    "steps": [],
+    "processingTime": null,
+    "renewal": null,
+    "deadlines": [],
+    "sourceIds": [
+      "S02",
+      "S03",
+      "S04"
+    ]
+  },
+  "benefits": [],
+  "faqs": [
+    {
+      "question": "McDonald's Corporation propose-t-elle un club ou des avantages réservés aux actionnaires ?",
+      "answer": "Aucun club, programme d'adhésion ou avantage commercial réservé aux détenteurs de l'action McDonald's Corporation cotée à New York sous le symbole MCD n'est officiellement prouvé au 9 juin 2026. Les pages officielles présentent uniquement des informations financières, des contacts et des services administratifs.",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S04",
+        "S05"
+      ]
+    },
+    {
+      "question": "Les actionnaires de McDonald's Corporation reçoivent-ils des coupons ou des repas gratuits ?",
+      "answer": "Non pour l'action NYSE MCD d'après les sources officielles examinées. Des carnets de repas existent au Japon, mais ils sont réservés aux actionnaires de McDonald's Holdings Company (Japan), Ltd., société distincte cotée à Tokyo sous le code 2702. L'offre japonaise exige au moins 100 actions détenues depuis un an et n'est utilisable que dans des restaurants participants au Japon.",
+      "sourceIds": [
+        "S03",
+        "S09",
+        "S10"
+      ]
+    },
+    {
+      "question": "Le Computershare Investment Plan constitue-t-il un avantage actionnaire McDonald's ?",
+      "answer": "Non dans le cadre de cette fiche. McDonald's désigne Computershare comme agent de transfert et propose par son intermédiaire un plan d'achat direct d'actions et de réinvestissement des dividendes. Le contrat de recherche exclut expressément les DSPP, DRIP et services de tenue de registre lorsqu'aucun avantage économique propre n'est démontré.",
+      "sourceIds": [
+        "S03",
+        "S04",
+        "S07"
+      ]
+    },
+    {
+      "question": "L'assemblée annuelle de McDonald's est-elle comptée comme un bénéfice réservé ?",
+      "answer": "Non. La page Events & Presentations publie les ressources de l'assemblée annuelle 2026, notamment la rediffusion, les résultats de vote, la déclaration de procuration et le rapport annuel. La participation et le vote relèvent des droits ordinaires de l'actionnaire et ne sont pas un avantage commercial ou de fidélité.",
+      "sourceIds": [
+        "S05"
+      ]
+    },
+    {
+      "question": "Le dividende croissant de McDonald's est-il retenu comme avantage actionnaire ?",
+      "answer": "Non. Le rapport annuel 2025 indique une quarante-neuvième année consécutive d'augmentation du dividende, mais il s'agit d'un dividende ordinaire versé aux actionnaires éligibles. Ni le dividende, ni son versement direct, ni son réinvestissement ne sont retenus comme bénéfices spécifiques dans cette recherche.",
+      "sourceIds": [
+        "S04",
+        "S06",
+        "S08"
+      ]
+    },
+    {
+      "question": "Les offres McValue et MyMcDonald's Rewards sont-elles des privilèges d'actionnaires ?",
+      "answer": "Non. Les offres américaines McValue et MyMcDonald's Rewards sont des promotions destinées aux clients, soumises notamment à l'utilisation de l'application, à un achat, à l'adhésion au programme de fidélité ou à la participation des restaurants. La détention d'actions MCD n'est pas une condition publiée.",
+      "sourceIds": [
+        "S11"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "McDonald's Corporation est cotée au New York Stock Exchange sous le symbole MCD et appartient au S&P 500.",
+      "status": "verified",
+      "sourceIds": [
+        "S02",
+        "S12"
+      ],
+      "notes": "La page de S&P Dow Jones Indices identifie McDonald's Corp., symbole MCD, comme constituant du secteur Consumer Discretionary du S&P 500."
+    },
+    {
+      "id": "C02",
+      "statement": "McDonald's compte plus de 45 000 établissements dans plus de 100 pays et environ 95 % de ses restaurants sont exploités par des entrepreneurs locaux indépendants.",
+      "status": "verified",
+      "sourceIds": [
+        "S01"
+      ],
+      "notes": "Données publiées dans le communiqué officiel des résultats du premier trimestre 2026 daté du 7 mai 2026."
+    },
+    {
+      "id": "C03",
+      "statement": "Les ressources officielles de McDonald's Corporation relèvent des relations investisseurs et ne publient aucun club ou avantage commercial réservé aux détenteurs de l'action MCD.",
+      "status": "verified",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S04",
+        "S05"
+      ],
+      "notes": "Conclusion négative fondée sur l'examen du portail investisseurs et de ses rubriques actuelles; elle n'exclut pas une offre locale appartenant à un autre émetteur."
+    },
+    {
+      "id": "C04",
+      "statement": "Computershare est officiellement désigné comme agent de transfert de McDonald's Corporation pour les actionnaires inscrits.",
+      "status": "verified",
+      "sourceIds": [
+        "S03",
+        "S07"
+      ],
+      "notes": "McDonald's renvoie directement vers Computershare pour la gestion des comptes et le plan d'investissement."
+    },
+    {
+      "id": "C05",
+      "statement": "Le Computershare Investment Plan est un plan d'achat direct d'actions et de réinvestissement des dividendes de McDonald's Corporation.",
+      "status": "verified",
+      "sourceIds": [
+        "S04",
+        "S07"
+      ],
+      "notes": "Le plan est actif, mais il est exclu des bénéfices car il s'agit d'un DSPP/DRIP et aucun rabais, abondement ou avantage économique réservé n'est établi."
+    },
+    {
+      "id": "C06",
+      "statement": "La page officielle Events & Presentations publie les ressources de l'assemblée annuelle 2026 de McDonald's Corporation.",
+      "status": "verified",
+      "sourceIds": [
+        "S05"
+      ],
+      "notes": "Ces ressources correspondent à la gouvernance et aux droits ordinaires des actionnaires, non à un événement de club."
+    },
+    {
+      "id": "C07",
+      "statement": "McDonald's Holdings Company (Japan), Ltd. maintient une offre de carnets de repas pour ses propres actionnaires au Japon.",
+      "status": "verified",
+      "sourceIds": [
+        "S09",
+        "S10"
+      ],
+      "notes": "L'émetteur japonais est distinct de McDonald's Corporation : code 2702 à Tokyo, seuil de 100 actions, détention continue d'au moins un an, dates de référence au 30 juin et au 31 décembre, utilisation dans des restaurants japonais participants."
+    },
+    {
+      "id": "C08",
+      "statement": "Les offres McValue et MyMcDonald's Rewards publiées aux États-Unis sont destinées aux clients et non réservées aux actionnaires.",
+      "status": "verified",
+      "sourceIds": [
+        "S11"
+      ],
+      "notes": "Les conditions publiées reposent sur l'application, les achats, l'adhésion au programme de fidélité et la participation des restaurants, sans condition de détention d'actions."
+    },
+    {
+      "id": "C09",
+      "statement": "McDonald's prévoit des frais sur les chèques de dividende papier des actionnaires inscrits à compter du troisième trimestre 2026.",
+      "status": "verified",
+      "sourceIds": [
+        "S03",
+        "S08"
+      ],
+      "notes": "L'émetteur fixe la date d'entrée en vigueur. La FAQ Computershare précise un montant égal à 20 % du dividende brut, plafonné à 1,75 dollar par chèque, et indique que le dépôt direct permet d'éviter ces frais."
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "MCDirect Shares ou le Computershare Investment Plan est un avantage actionnaire McDonald's.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S03",
+        "S04",
+        "S07"
+      ]
+    },
+    {
+      "claim": "Le plan McDonald's applique encore des frais d'inscription de 5 dollars et permet des investissements récurrents sans courtier selon les conditions historiques du projet.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S04",
+        "S07"
+      ]
+    },
+    {
+      "claim": "La participation à l'assemblée annuelle de McDonald's constitue un bénéfice du programme actionnaire.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S05"
+      ]
+    },
+    {
+      "claim": "Le droit de vote et l'accès aux documents de procuration sont des avantages réservés.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S05"
+      ]
+    },
+    {
+      "claim": "Le dividende trimestriel et son historique d'augmentation constituent un avantage de fidélité.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S04",
+        "S06"
+      ]
+    },
+    {
+      "claim": "Les détenteurs de l'action NYSE MCD reçoivent les carnets de repas McDonald's proposés au Japon.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S02",
+        "S09",
+        "S10"
+      ]
+    },
+    {
+      "claim": "Les promotions McValue, coupons de l'application et points MyMcDonald's Rewards sont réservés aux actionnaires.",
+      "reason": "not_shareholder_specific",
+      "sourceIds": [
+        "S11"
+      ]
+    },
+    {
+      "claim": "L'Investor Center, les relevés, les contacts ou l'envoi du rapport annuel sont des bénéfices actionnaires.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S03"
+      ]
+    },
+    {
+      "claim": "L'inscription au dépôt direct des dividendes sans frais constitue un avantage commercial du club McDonald's.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S03",
+        "S08"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Q1%202026%20Exhibit%2099.1%20-%203.31.26.pdf",
+      "title": "McDonald's Reports First Quarter 2026 Results",
+      "publisher": "McDonald's Corporation",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2026-05-07",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Communiqué officiel daté du 7 mai 2026. Il décrit McDonald's comme le premier groupe mondial de restauration rapide, avec plus de 45 000 établissements dans plus de 100 pays et environ 95 % de restaurants exploités par des entrepreneurs locaux indépendants."
+    },
+    {
+      "id": "S02",
+      "url": "https://corporate.mcdonalds.com/corpmcd/investors.html",
+      "title": "McDonald's Investor Information and Resources",
+      "publisher": "McDonald's Corporation",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Portail investisseurs actuel identifiant la cotation NYSE MCD et orientant vers résultats, événements, informations boursières, ressources actionnaires et gouvernance. Il ne présente aucun club, statut de membre, remise ou avantage commercial."
+    },
+    {
+      "id": "S03",
+      "url": "https://corporate.mcdonalds.com/corpmcd/investors/shareholder-resources.html",
+      "title": "Investor Relations and Shareholder Information",
+      "publisher": "McDonald's Corporation",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Distingue actionnaires bénéficiaires et inscrits, désigne Computershare comme agent de transfert et décrit les services de compte, relevés, transactions, DSPP/DRIP et rapports. Annonce des frais sur les chèques papier à compter du troisième trimestre 2026, sans publier d'avantage commercial."
+    },
+    {
+      "id": "S04",
+      "url": "https://corporate.mcdonalds.com/corpmcd/investors/stock-information.html",
+      "title": "McDonald's Stock Information",
+      "publisher": "McDonald's Corporation",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle sur le cours, les divisions d'actions, l'historique du dividende et l'achat d'actions. Elle décrit le Computershare Investment Plan comme DSPP/DRIP et renvoie vers Computershare, sans rabais ou avantage économique réservé."
+    },
+    {
+      "id": "S05",
+      "url": "https://corporate.mcdonalds.com/corpmcd/investors/events-and-presentations.html",
+      "title": "Events & Presentations",
+      "publisher": "McDonald's Corporation",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Publie les ressources de l'assemblée annuelle 2026, dont la rediffusion, les résultats de vote, la déclaration de procuration et le rapport annuel 2025. Aucun événement de club ni avantage commercial réservé n'est indiqué."
+    },
+    {
+      "id": "S06",
+      "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/MCD%202025%20Annual%20Report.pdf",
+      "title": "McDonald's Annual Report 2025",
+      "publisher": "McDonald's Corporation",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Rapport annuel officiel 2025 lié depuis les ressources de l'assemblée 2026. Il mentionne une quarante-neuvième année consécutive d'augmentation du dividende, versement ordinaire exclu des bénéfices spécifiques."
+    },
+    {
+      "id": "S07",
+      "url": "https://www-us.computershare.com/Investor/3x/Plans/PlansList.asp?bhjs=0&cc=US&fla=0&lang=en&planid=132&state=eStateRequestPlanInformationByMail&theme=cpu",
+      "title": "Request for Plan Information - McDonald's Corporation",
+      "publisher": "Computershare",
+      "sourceType": "transfer_agent",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "C",
+      "evidenceSummary": "Page Computershare de demande d'informations identifiant un plan pour McDonald's Corporation. Computershare est utilisé ici uniquement parce que McDonald's le désigne officiellement comme agent de transfert et administrateur du plan."
+    },
+    {
+      "id": "S08",
+      "url": "https://www-us.computershare.com/webcontent/Doc.aspx?docid=%7Bb30656a4-c5bd-4ac6-8aa5-28a3bbecb1e7%7D&source=document",
+      "title": "Check Issuance Fee - Shareholder FAQ",
+      "publisher": "Computershare",
+      "sourceType": "official_faq",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "undated",
+      "evidenceGrade": "C",
+      "evidenceSummary": "FAQ Computershare liée directement par McDonald's. Elle précise des frais de 20 % du dividende brut, plafonnés à 1,75 dollar par chèque papier, et explique le dépôt direct gratuit. La date d'effet est fournie plus précisément par McDonald's : troisième trimestre 2026."
+    },
+    {
+      "id": "S09",
+      "url": "https://www.mcd-holdings.co.jp/ir/individual/shareholder_benefits/",
+      "title": "Shareholder Benefits and Dividends",
+      "publisher": "McDonald's Holdings Company (Japan), Ltd.",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "ja",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Décrit l'offre japonaise active : un, trois ou cinq carnets contenant chacun six coupons burger, accompagnement et boisson pour 100, 300 ou 500 actions, avec au moins un an de détention continue. Dates de référence au 30 juin et au 31 décembre; utilisation limitée aux restaurants participants au Japon."
+    },
+    {
+      "id": "S10",
+      "url": "https://www.mcd-holdings.co.jp/en/profile/",
+      "title": "Company Profile",
+      "publisher": "McDonald's Holdings Company (Japan), Ltd.",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2026-03-26",
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Identifie formellement l'émetteur japonais comme McDonald's Holdings Company (Japan), Ltd., société distincte portant le code 2702 sur le marché Standard de Tokyo. La fiche est indiquée à jour au 26 mars 2026."
+    },
+    {
+      "id": "S11",
+      "url": "https://www.mcdonalds.com/us/en-us/deals.html",
+      "title": "McValue and App Exclusive Deals",
+      "publisher": "McDonald's USA",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Présente des promotions américaines pour les clients, dont McValue, des offres dans l'application et MyMcDonald's Rewards. Les conditions portent sur les achats, l'application et les restaurants participants, jamais sur la qualité d'actionnaire."
+    },
+    {
+      "id": "S12",
+      "url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500-consumer-discretionary-sector/",
+      "title": "S&P 500 Consumer Discretionary",
+      "publisher": "S&P Dow Jones Indices",
+      "sourceType": "reputable_secondary",
+      "official": false,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "D",
+      "evidenceSummary": "Page de l'administrateur d'indice listant McDonald's Corp., symbole MCD, parmi les constituants du secteur Consumer Discretionary du S&P 500. Cette source sert uniquement à confirmer l'indice, pas un avantage actionnaire."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Qualification du DSPP, de l'assemblée et du dividende",
+      "sourceIds": [
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07"
+      ],
+      "positions": [
+        "Les données historiques du projet présentent le plan Computershare, l'assemblée annuelle et l'historique du dividende comme des bénéfices actionnaires.",
+        "Les sources officielles les décrivent respectivement comme un DSPP/DRIP, des ressources de gouvernance et un dividende ordinaire, catégories explicitement exclues par le contrat de recherche."
+      ],
+      "resolution": "Ces trois éléments sont conservés comme faits vérifiés mais placés dans les revendications rejetées; aucun n'est intégré au tableau des bénéfices.",
+      "impact": "benefit_excluded"
+    },
+    {
+      "topic": "Coupons de repas McDonald's au Japon",
+      "sourceIds": [
+        "S02",
+        "S09",
+        "S10"
+      ],
+      "positions": [
+        "Une offre commerciale officielle de carnets de repas existe sous la marque McDonald's au Japon.",
+        "L'offre appartient à McDonald's Holdings Company (Japan), Ltd., code 2702 à Tokyo, et non à McDonald's Corporation, symbole MCD à New York."
+      ],
+      "resolution": "L'offre japonaise est documentée pour prévenir la confusion mais exclue du dossier McDonald's Corporation. Elle ne doit être attribuée ni aux détenteurs de MCD, ni à un club mondial McDonald's.",
+      "impact": "benefit_excluded"
+    },
+    {
+      "topic": "Frais historiques de 5 dollars du plan",
+      "sourceIds": [
+        "S04",
+        "S07"
+      ],
+      "positions": [
+        "Les données historiques du projet affirment des frais d'inscription de 5 dollars et des investissements récurrents sans courtier.",
+        "La page actuelle de McDonald's confirme l'existence du plan et la page Computershare permet d'en demander les informations, mais les sources accessibles ne confirment pas ces conditions tarifaires au 9 juin 2026."
+      ],
+      "resolution": "Ne pas reprendre le montant de 5 dollars ni les modalités tarifaires historiques. Le plan est de toute façon exclu des bénéfices comme DSPP/DRIP.",
+      "impact": "benefit_excluded"
+    },
+    {
+      "topic": "Date d'application des frais sur les chèques de dividende",
+      "sourceIds": [
+        "S03",
+        "S08"
+      ],
+      "positions": [
+        "La page McDonald's précise que les frais commenceront au troisième trimestre 2026.",
+        "La FAQ Computershare, non datée, emploie le présent pour décrire les frais et leur montant sans indiquer de date d'entrée en vigueur."
+      ],
+      "resolution": "À la date de référence du 9 juin 2026, retenir l'indication temporelle plus précise de l'émetteur : frais annoncés pour le troisième trimestre 2026, et non déjà applicables sans réserve.",
+      "impact": "wording_only"
+    }
+  ],
+  "handoff": {
+    "researchStatus": "complete_with_uncertainties",
+    "readyForDevelopment": true,
+    "benefitCount": 0,
+    "faqCount": 6,
+    "blockingIssues": [],
+    "developerNotes": [
+      "Créer le dossier final sans clubName, sans clubUrl, avec minShares à null et un tableau benefits vide.",
+      "Conserver la classification investor_relations_only et ne pas transformer le Computershare Investment Plan en programme d'avantages.",
+      "Ne pas réintroduire le DSPP/DRIP, l'assemblée annuelle, le vote, le dividende ordinaire, l'Investor Center, les contacts ou les rapports comme bénéfices.",
+      "Ne pas attribuer les carnets de repas japonais aux détenteurs de l'action MCD; ils concernent l'émetteur distinct McDonald's Holdings Company (Japan), Ltd., code 2702.",
+      "Ne pas reprendre les frais historiques de 5 dollars du plan sans nouvelle preuve officielle actuelle.",
+      "Les promotions McValue et MyMcDonald's Rewards sont des offres clients et non des avantages actionnaires.",
+      "Aucun dossier final n'a été créé dans le cadre de cette recherche."
+    ]
+  }
+}

@@ -1,0 +1,412 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "airbus",
+    "name": "Airbus SE",
+    "description": "Airbus SE est un groupe aérospatial européen qui conçoit, fabrique et fournit des avions commerciaux, des hélicoptères ainsi que des solutions de défense et d'espace. Son action ordinaire, identifiée par l'ISIN NL0000235190 et le symbole AIR, est notamment cotée à Paris et intégrée au CAC 40.",
+    "sector": "Aéronautique, défense et espace",
+    "stockIndex": "CAC 40",
+    "ticker": "AIR",
+    "website": "https://www.airbus.com/",
+    "clubName": null,
+    "clubUrl": null
+  },
+  "offerClassification": {
+    "primaryKind": "shareholder_benefit",
+    "otherKinds": [
+      "investor_relations_only"
+    ],
+    "officialProgrammeName": null,
+    "status": "active",
+    "statusReason": "Aucun club d'actionnaires ni programme formel avec adhésion, règlement ou statut de membre n'a été trouvé dans les ressources officielles Airbus. Airbus propose toutefois un avantage économique isolé aux actionnaires au nominatif pur, en plus de services classiques de relations investisseurs.",
+    "sourceIds": [
+      "S01",
+      "S03",
+      "S04"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": null,
+    "eligibleShareClasses": [
+      "Actions ordinaires Airbus SE, ISIN NL0000235190"
+    ],
+    "holdingModes": [
+      "registered_pure"
+    ],
+    "minimumHoldingPeriod": null,
+    "residencyRestrictions": [],
+    "accountRestrictions": [
+      "Pour bénéficier de l'absence de droits de garde et de frais de gestion annoncée par Airbus, les actions doivent être détenues au nominatif pur et gérées par Société Générale Securities Services pour le compte d'Airbus."
+    ],
+    "proofRequired": [
+      "Formulaire de conversion ou de transfert au nominatif pur transmis à l'intermédiaire financier qui détient actuellement les actions.",
+      "Informations d'identification du titulaire et références du compte détenant les actions."
+    ],
+    "fees": {
+      "membershipFee": null,
+      "applicationFee": null,
+      "otherFees": [
+        "L'intermédiaire financier d'origine peut facturer le transfert des actions au nominatif.",
+        "Les frais de courtage restent dus lors des achats et ventes."
+      ],
+      "notes": "Il n'existe pas de cotisation d'adhésion documentée puisqu'aucun club ou programme formel n'est proposé. Airbus annonce l'absence de droits de garde et de frais de gestion au nominatif pur, sans publier sur la page actuelle un barème de courtage à jour."
+    },
+    "sourceIds": [
+      "S01",
+      "S02"
+    ]
+  },
+  "enrollment": {
+    "required": true,
+    "method": "broker_or_bank",
+    "applicationUrl": "https://www.airbus.com/sites/g/files/jlcbta136/files/2021-06/CONVERSION%20ON%20PURE%20REGISTERED%20FORM.pdf",
+    "contact": "Société Générale Securities Services, mandatée par Airbus; contact sécurisé depuis Sharinbox après connexion.",
+    "steps": [
+      "Télécharger le formulaire Airbus de conversion ou de transfert au nominatif pur.",
+      "Compléter les informations du titulaire, du compte, du titre et du nombre d'actions concernées.",
+      "Envoyer le formulaire à l'intermédiaire financier qui détient actuellement les actions.",
+      "L'intermédiaire transfère les actions à Société Générale Securities Services, membre Euroclear n° 42, compte 009."
+    ],
+    "processingTime": null,
+    "renewal": null,
+    "deadlines": [],
+    "sourceIds": [
+      "S01",
+      "S02"
+    ]
+  },
+  "benefits": [
+    {
+      "id": "B01",
+      "type": "reduction",
+      "title": "Absence de droits de garde et de frais de gestion",
+      "description": "Airbus annonce que les actions détenues au nominatif pur ne supportent ni droits de garde ni frais de gestion. Cet avantage concerne le compte de titres nominatifs géré par Société Générale Securities Services pour Airbus; les frais de courtage sur les ordres d'achat ou de vente restent dus.",
+      "value": "Droits de garde et frais de gestion non facturés; frais de courtage exclus.",
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "registered_pure"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "guaranteed",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Demander à son intermédiaire financier la conversion ou le transfert des actions Airbus au nominatif pur au moyen du formulaire officiel.",
+        "Après le transfert, la tenue du compte nominatif est assurée par Société Générale Securities Services pour Airbus."
+      ],
+      "limitsAndExclusions": [
+        "Aucun nombre minimal d'actions n'est indiqué dans les sources officielles consultées; il ne faut pas remplacer cette donnée inconnue par une action.",
+        "Les frais éventuellement facturés par l'intermédiaire pour le transfert au nominatif ne sont pas pris en charge dans l'offre publiée.",
+        "Les achats et ventes restent soumis à des frais de courtage.",
+        "Le barème de courtage figurant sur un formulaire ancien, applicable au 23 décembre 2019, n'est pas retenu comme tarif actuel."
+      ],
+      "primarySourceId": "S01",
+      "supportingSourceIds": [
+        "S02"
+      ],
+      "sourceUrl": "https://www.airbus.com/en/investors/individual-shareholders",
+      "evidenceGrade": "A",
+      "uncertainty": "Airbus ne publie pas de conditions séparées et datées précisant un seuil minimal, une durée de détention ou une date de fin. La page officielle était néanmoins en ligne et mise à jour lors de la vérification du 9 juin 2026."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Airbus dispose-t-il d'un club d'actionnaires au 9 juin 2026 ?",
+      "answer": "Non. Les pages officielles consultées ne présentent ni club avec adhésion, ni règlement, ni statut de membre. Airbus maintient un espace pour les actionnaires individuels et un dispositif de détention au nominatif, mais ces éléments ne doivent pas être renommés en club d'actionnaires.",
+      "sourceIds": [
+        "S01",
+        "S03"
+      ]
+    },
+    {
+      "question": "Existe-t-il malgré tout un programme actionnarial Airbus ?",
+      "answer": "Aucun programme formel portant un nom officiel et assorti d'une procédure d'adhésion distincte n'est prouvé. La qualification la plus exacte est celle d'un avantage actionnarial isolé pour le nominatif pur, accompagné de services ordinaires de relations investisseurs.",
+      "sourceIds": [
+        "S01",
+        "S03"
+      ]
+    },
+    {
+      "question": "Quel avantage concret est officiellement prouvé pour un actionnaire Airbus ?",
+      "answer": "L'avantage retenu est l'absence de droits de garde et de frais de gestion pour les actions détenues au nominatif pur auprès du mandataire d'Airbus. Les frais de courtage restent dus, et Airbus ne publie pas sur la page actuelle de barème chiffré à utiliser comme tarif en vigueur.",
+      "sourceIds": [
+        "S01",
+        "S07"
+      ]
+    },
+    {
+      "question": "Combien d'actions Airbus faut-il détenir pour obtenir cet avantage ?",
+      "answer": "Les sources officielles consultées ne fixent aucun seuil minimal. Il faut donc conserver un seuil inconnu et ne pas affirmer qu'une seule action suffit, même si le formulaire permet d'indiquer librement le nombre d'actions à transférer.",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "question": "Comment passer ses actions Airbus au nominatif pur ?",
+      "answer": "L'actionnaire télécharge le formulaire officiel de conversion ou de transfert au nominatif pur, le complète puis l'adresse à l'intermédiaire financier qui détient les titres. Celui-ci organise le transfert vers Société Générale Securities Services, mandatée par Airbus pour gérer les comptes nominatifs.",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "question": "Pourquoi la newsletter, Sharinbox, le dividende et l'assemblée générale ne sont-ils pas comptés comme avantages ?",
+      "answer": "La newsletter et le Retail Investors' Hub relèvent de l'information financière, tandis que Sharinbox et le service d'ordres sont des outils ordinaires de gestion du nominatif. Le dividende, le vote et la participation à l'assemblée générale sont des droits ou mécanismes génériques liés à l'action, pas des bénéfices exclusifs à recenser.",
+      "sourceIds": [
+        "S01",
+        "S03",
+        "S04",
+        "S05"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "Airbus SE est coté sous le symbole AIR, avec l'ISIN NL0000235190, et figure notamment dans le CAC 40.",
+      "status": "verified",
+      "sourceIds": [
+        "S04"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C02",
+      "statement": "L'offre officielle destinée aux actionnaires individuels n'est pas présentée comme un club ou un programme avec adhésion.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S03"
+      ],
+      "notes": "La conclusion repose sur les rubriques officielles consacrées aux actionnaires individuels, au nominatif, à la newsletter et aux relations investisseurs."
+    },
+    {
+      "id": "C03",
+      "statement": "Airbus annonce l'absence de droits de garde et de frais de gestion pour ses actionnaires au nominatif pur, tout en maintenant des frais de courtage.",
+      "status": "verified",
+      "sourceIds": [
+        "S01"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C04",
+      "statement": "Le passage au nominatif pur s'effectue par un formulaire envoyé à l'intermédiaire financier, avec transfert vers Société Générale Securities Services.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C05",
+      "statement": "Aucun seuil minimal d'actions ni durée minimale de détention n'est publié pour l'avantage retenu.",
+      "status": "uncertain",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "notes": "Cette absence est constatée dans les documents officiels disponibles; elle ne permet pas de conclure qu'un seuil d'une action existe."
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "Le dividende ordinaire, son paiement direct et la politique de distribution constituent des avantages du dispositif.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S01",
+        "S04"
+      ]
+    },
+    {
+      "claim": "Le droit de participer à l'assemblée générale et le droit de vote sont des bénéfices réservés par Airbus.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S05"
+      ]
+    },
+    {
+      "claim": "L'accès à Sharinbox constitue à lui seul un avantage actionnarial distinct.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S01"
+      ]
+    },
+    {
+      "claim": "Le service permettant d'acheter ou de vendre des actions par internet, téléphone, fax ou courrier est un bénéfice exclusif.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S01",
+        "S07"
+      ]
+    },
+    {
+      "claim": "Aero-notes et le Retail Investors' Hub sont des avantages réservés aux membres d'un club Airbus.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S03"
+      ]
+    },
+    {
+      "claim": "Les mentions d'invitations à des événements dans le consentement marketing garantissent des événements exclusifs aux actionnaires.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S03"
+      ]
+    },
+    {
+      "claim": "Les actionnaires au nominatif administré bénéficient d'avantages identifiables et équivalents à ceux du nominatif pur.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01"
+      ]
+    },
+    {
+      "claim": "Le courtage coûte actuellement 0,30 % avec un minimum de 9 euros par ordre.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S07"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.airbus.com/en/investors/individual-shareholders",
+      "title": "Investors | Individual shareholders",
+      "publisher": "Airbus",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": "2025-01-08",
+      "lastUpdatedAt": "2026-06-09",
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Page officielle actuelle consacrée aux actionnaires individuels. Elle décrit le nominatif pur et administré, annonce l'absence de droits de garde et de frais de gestion, précise que le courtage reste dû, présente Sharinbox et renvoie vers les formulaires de conversion."
+    },
+    {
+      "id": "S02",
+      "url": "https://www.airbus.com/sites/g/files/jlcbta136/files/2021-06/CONVERSION%20ON%20PURE%20REGISTERED%20FORM.pdf",
+      "title": "Conversion to registered shares - Transfer on pure registered shares",
+      "publisher": "Airbus / Société Générale Securities Services",
+      "sourceType": "official_form",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "undated",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Formulaire officiel lié depuis la page Airbus actuelle. Il doit être envoyé à l'intermédiaire financier et prévoit le transfert des actions au nominatif pur vers Société Générale Securities Services, membre Euroclear n° 42, compte 009."
+    },
+    {
+      "id": "S03",
+      "url": "https://www.airbus.com/en/investors/aero-notes-newsletter",
+      "title": "Investors | Aero-notes Newsletter",
+      "publisher": "Airbus",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": "2025-01-16",
+      "lastUpdatedAt": "2026-06-09",
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Page officielle de la lettre aux actionnaires individuels, avec l'édition de mai 2026, le Retail Investors' Hub et un formulaire d'abonnement. Le contenu relève de l'information investisseurs et ne comporte ni adhésion à un club ni bénéfice commercial garanti."
+    },
+    {
+      "id": "S04",
+      "url": "https://www.airbus.com/en/investors/share-price-and-information",
+      "title": "Investors | Share price & information",
+      "publisher": "Airbus",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": "2025-01-12",
+      "lastUpdatedAt": "2026-06-04",
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Page officielle donnant les places de cotation, l'ISIN NL0000235190, le symbole AIR, les principaux indices dont le CAC 40 et la nature ordinaire des actions. Les données de capital affichées étaient mises à jour au 4 juin 2026."
+    },
+    {
+      "id": "S05",
+      "url": "https://www.airbus.com/en/about-us/our-governance/shareholders-meeting",
+      "title": "Shareholders' Meeting",
+      "publisher": "Airbus",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": "2025-01-21",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle de gouvernance indiquant que l'assemblée générale 2026 s'est tenue le 14 avril 2026 et expliquant les modalités générales de réunion, d'inscription et de vote. Ces éléments relèvent des droits ordinaires des actionnaires."
+    },
+    {
+      "id": "S06",
+      "url": "https://www.airbus.com/en/about-us",
+      "title": "About us",
+      "publisher": "Airbus",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": "2024-04-15",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Présentation officielle d'Airbus comme groupe européen actif dans les avions commerciaux, les hélicoptères, la défense et l'espace; utilisée pour la description et le secteur de l'entreprise."
+    },
+    {
+      "id": "S07",
+      "url": "https://www.airbus.com/sites/g/files/jlcbta136/files/2021-06/PURCHASE%20ORDER%20IN%20A%20REGISTERED%20ACCOUNT.pdf",
+      "title": "Purchase order in a registered account - Airbus SE",
+      "publisher": "Airbus / Société Générale Securities Services",
+      "sourceType": "official_form",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2019-12-23",
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "archived",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Formulaire officiel encore lié depuis la page Airbus, mais dont les conditions d'exécution sont expressément données comme applicables au 23 décembre 2019 et susceptibles d'être modifiées. Son ancien tarif de courtage n'est donc pas traité comme actuel."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Actualité du barème de courtage au nominatif pur",
+      "sourceIds": [
+        "S01",
+        "S07"
+      ],
+      "positions": [
+        "La page actuelle des actionnaires individuels indique seulement que les frais de courtage restent dus, sans montant.",
+        "Le formulaire d'achat indique 0,30 % avec un minimum de 9 euros, mais précise que ces conditions étaient applicables au 23 décembre 2019 et pouvaient être modifiées."
+      ],
+      "resolution": "Ne pas publier le taux ni le minimum de 2019 comme conditions actuelles. Le bénéfice mentionne uniquement que le courtage reste facturé.",
+      "impact": "wording_only"
+    }
+  ],
+  "handoff": {
+    "researchStatus": "complete_with_uncertainties",
+    "readyForDevelopment": true,
+    "benefitCount": 1,
+    "faqCount": 6,
+    "blockingIssues": [],
+    "developerNotes": [
+      "Ne pas créer de clubName ou de clubUrl: aucun club ni programme formel n'est prouvé.",
+      "Présenter Airbus comme offrant un avantage actionnarial isolé au nominatif pur, avec un espace de relations investisseurs distinct.",
+      "Conserver uniquement B01 dans les bénéfices et laisser minShares à null.",
+      "Ne pas reprendre le barème de courtage daté du 23 décembre 2019.",
+      "Exclure le dividende, son paiement direct, l'assemblée générale, le vote, Sharinbox, le service d'ordres, Aero-notes et les invitations marketing vagues."
+    ]
+  }
+}

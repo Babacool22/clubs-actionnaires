@@ -1,0 +1,49 @@
+{
+  "slug": "procter-gamble",
+  "name": "Procter & Gamble",
+  "description": "Procter & Gamble est un groupe américain de biens de consommation courante. Son portefeuille couvre dix catégories de produits de nettoyage, d'hygiène, de beauté, de santé et de soins, organisées en cinq segments : Beauty, Grooming, Health Care, Fabric & Home Care et Baby, Feminine & Family Care.",
+  "sector": "Biens de consommation",
+  "stockIndex": "S&P 500",
+  "ticker": "PG",
+  "website": "https://us.pg.com/",
+  "minShares": null,
+  "lastVerifiedAt": "2026-06-09",
+  "benefits": [],
+  "faqs": [
+    {
+      "question": "Procter & Gamble dispose-t-elle d'un club d'actionnaires formel ?",
+      "answer": "Aucun club formel avec adhésion, carte de membre, seuil global ou catalogue d'avantages n'est présenté dans les ressources officielles actuelles consultées. P&G propose un espace investisseurs et renvoie les services de registre et de plan d'achat d'actions à EQ Shareowner Services."
+    },
+    {
+      "question": "Existe-t-il une réduction ou un cadeau actif réservé aux actionnaires P&G au 9 juin 2026 ?",
+      "answer": "Aucune réduction, aucun produit gratuit et aucun cadeau actif réservé aux actionnaires n'est officiellement prouvé au 9 juin 2026. Les pages investisseurs, le rapport annuel et les documents de l'assemblée décrivent la gouvernance et les services sur titres, sans conditions d'une offre commerciale actionnaire."
+    },
+    {
+      "question": "Les actionnaires reçoivent-ils des produits ou un sac-cadeau lors de l'assemblée annuelle ?",
+      "answer": "Ce n'est pas un avantage actuel prouvé. Une source secondaire de 2020 affirme que les anciennes assemblées physiques comportaient habituellement des sacs de produits, mais elle ne publie ni règlement, ni seuil, ni procédure. L'assemblée 2025 était entièrement virtuelle et son proxy ne promettait aucun cadeau ou envoi de produits."
+    },
+    {
+      "question": "Les coupons et remboursements P&G brandSAVER sont-ils des avantages actionnaires ?",
+      "answer": "Non. P&G brandSAVER propose au public des coupons, remboursements et récompenses liés aux achats de produits P&G. La page d'inscription annonce une adhésion gratuite et ne demande aucune détention d'actions. Ces offres consommateurs ne sont donc pas spécifiques aux actionnaires."
+    },
+    {
+      "question": "Le Direct Stock Purchase Plan administré par EQ constitue-t-il un bénéfice actionnaire ?",
+      "answer": "Non pour cette fiche. Le DSPP permet l'achat direct d'actions et le réinvestissement des dividendes, mais il est ouvert aux actionnaires actuels comme aux nouveaux investisseurs. Il s'agit d'un service d'investissement et de registre générique, expressément exclu des bénéfices par le contrat de recherche."
+    },
+    {
+      "question": "Qui est l'agent de transfert actuel et quels éléments doivent rester exclus ?",
+      "answer": "L'agent de transfert et administrateur du DSPP est EQ Shareowner Services, et non Computershare, selon les sources officielles actuelles. Le DRS, le DSPP, le DRIP, le dividende ordinaire, le vote, l'assemblée annuelle et les publications financières restent des services ou droits génériques, pas des avantages commerciaux."
+    }
+  ],
+  "sources": [
+    "https://www.pginvestor.com/resources/investor-contacts/default.aspx",
+    "https://s204.q4cdn.com/332108499/files/doc_financials/2025/ar/2025_annual_report.pdf",
+    "https://www.sec.gov/Archives/edgar/data/80424/000008042426000056/fy2526q3jfm8-kexhibit991.htm",
+    "https://s204.q4cdn.com/332108499/files/doc_financials/2025/ar/2025-Proxy-PG.pdf",
+    "https://www.spglobal.com/spdji/en/landing/investment-themes/the-500/",
+    "https://www.sec.gov/Archives/edgar/data/884394/000119312526247066/d75559dn30d.htm",
+    "https://pgbrandsaver.com/",
+    "https://www.soundboardgovernance.com/post/the-procter-gamble-company-2020-virtual-annual-meeting",
+    "https://www.betterinvesting.org/meet-our-community/our-corporate-partners/procter-gamble-company"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "norwegian-cruise-line",
+  "name": "Norwegian Cruise Line Holdings",
+  "description": "Norwegian Cruise Line Holdings Ltd. est un groupe mondial de croisières coté au NYSE, opérant Norwegian Cruise Line, Oceania Cruises et Regent Seven Seas Cruises. Au 8 juin 2026, il annonçait 35 navires, environ 75 000 couchettes et près de 700 destinations.",
+  "sector": "Hôtellerie & Tourisme",
+  "stockIndex": "S&P 500",
+  "ticker": "NCLH",
+  "website": "https://www.nclhltd.com/",
+  "minShares": 100,
+  "lastVerifiedAt": "2026-06-09",
+  "benefits": [
+    {
+      "type": "reduction",
+      "title": "Crédit à bord selon la durée de la croisière",
+      "description": "L'actionnaire qui détient encore au moins 100 actions NCLH au moment du voyage peut recevoir, par cabine ou suite qu'il occupe, un crédit à bord de 50 US$ pour une croisière de 6 jours ou moins, 100 US$ de 7 à 14 jours et 250 US$ à partir de 15 jours. Le même barème couvre Norwegian Cruise Line, Oceania Cruises et Regent Seven Seas Cruises. Une demande distincte doit être envoyée pour chaque réservation avec le formulaire officiel en ligne, au moins quinze jours avant le départ, en joignant une carte de procuration ou un relevé de courtage actuel montrant les 100 actions; le numéro de compte doit être masqué et le fichier doit peser moins de 3 Mo. L'offre est limitée à un crédit par cabine ou suite et par actionnaire sur une même croisière; avec des actions détenues conjointement, plusieurs cabines exigent au moins 100 actions chacune. Le voyageur seul payant 200 % du tarif reçoit la valeur entière. Le crédit est non transférable, non convertible en espèces et perdu s'il n'est pas utilisé; il ne paie ni les frais de service à bord, ni les activités achetées avant la croisière, et les taxes et frais gouvernementaux restent dus. Sont exclus les croisières affrétées, les dates charter, les groupes incentive, les tarifs salariés, interline, amis et famille, fournisseurs, agents de voyages et voyagistes, les voyages obtenus avec un certificat de crédit de croisière et les croisières gratuites issues des avantages de fidélité Oceania. Aucun cumul avec une autre offre ne doit être présumé sans confirmation de la marque. L'avantage était actif au 9 juin 2026, sans date de fin publiée, pour les nouvelles réservations effectuées depuis le 7 janvier 2019; NCLH et ses marques peuvent le modifier ou le retirer sans préavis.",
+      "value": "≤ 6 jours : 50 US$; 7-14 jours : 100 US$; ≥ 15 jours : 250 US$",
+      "requiredShares": 100,
+      "sourceUrl": "https://www.nclhltd.com/investors/shareholder-benefits"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Combien d'actions NCLH faut-il détenir et jusqu'à quelle date faut-il les conserver ?",
+      "answer": "Il faut détenir au moins 100 actions ordinaires Norwegian Cruise Line Holdings Ltd. Aucune durée minimale de détention n'est publiée, mais l'actionnaire doit encore posséder les 100 actions au moment de la croisière, et pas seulement lors du dépôt de la demande."
+    },
+    {
+      "question": "Quel est le montant du crédit à bord selon la durée et la marque ?",
+      "answer": "Le barème unique par cabine ou suite est de 50 US$ pour une croisière de 6 jours ou moins, 100 US$ de 7 à 14 jours et 250 US$ à partir de 15 jours. Il s'applique à Norwegian Cruise Line, Oceania Cruises et Regent Seven Seas Cruises, sous réserve des exclusions officielles."
+    },
+    {
+      "question": "Comment demander le crédit actionnaire NCLH en 2026 ?",
+      "answer": "La demande passe par le formulaire Salesforce officiel de NCLH. Il faut sélectionner la marque, indiquer le numéro de réservation, l'identité du passager, le téléphone, l'adresse électronique, le navire et la date de départ, puis joindre le justificatif. Une demande distincte est nécessaire pour chaque croisière."
+    },
+    {
+      "question": "Quel justificatif d'actions faut-il fournir avec le formulaire ?",
+      "answer": "NCLH accepte une copie de la carte de procuration ou un relevé de courtage actuel montrant au moins 100 actions. Le numéro de compte doit être masqué. Le formulaire limite la pièce jointe à moins de 3 Mo et accepte les formats XLSX, XLS, CSV, PNG, DOC, DOCX, PDF, JPEG et JPG."
+    },
+    {
+      "question": "Quelle est la date limite de demande et jusqu'à quand l'offre est-elle valable ?",
+      "answer": "La demande doit être reçue au moins quinze jours avant le départ. L'offre était active au 9 juin 2026 sans date de fin publiée. Elle concerne les nouvelles réservations effectuées à compter du 7 janvier 2019 et peut être modifiée ou retirée à tout moment sans préavis."
+    },
+    {
+      "question": "Le crédit NCLH est-il cumulable et quelles réservations sont exclues ?",
+      "answer": "Aucun cumul ne doit être présumé sans confirmation de la marque: la FAQ impose de choisir entre le crédit actionnaire et une autre offre, tandis que la page principale laisse cette décision à chaque marque. Sont notamment exclus les charters, les groupes incentive, les tarifs salariés, interline, amis et famille, fournisseurs, agents de voyages et voyagistes, ainsi que certains voyages gratuits ou obtenus à tarif réduit."
+    }
+  ],
+  "sources": [
+    "https://www.nclhltd.com/investors/shareholder-benefits",
+    "https://www.nclhltd.com/investors/shareholder-benefits/shareholder-benefit-faqs",
+    "https://nclh.my.salesforce-sites.com/mynclh?formtype=ShareholderRequest",
+    "https://www.ncl.com/ca/en/cruise-faq/does-norwegian-cruise-line-offer-benefits-shareholders",
+    "https://www.nclhltd.com/investors/sec-filings/all-sec-filings/content/0001104659-26-022067/0001104659-26-022067.pdf",
+    "https://www.nclhltd.com/news-media/press-releases/detail/798/nclh-releases-latest-sail-sustain-report-advancing",
+    "https://www.nclhltd.com/investors/corporate-governance/board-of-directors"
+  ]
+}

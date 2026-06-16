@@ -1,0 +1,98 @@
+{
+  "slug": "mapfre",
+  "name": "Mapfre",
+  "description": "MAPFRE, S.A. est la société mère d'un groupe espagnol d'assurance et de réassurance actif en Espagne, dans l'Espace économique européen et dans des pays tiers. Son action ordinaire, identifiée par l'ISIN ES0124244E34 et le symbole MAP, est cotée sur le marché continu espagnol et appartient à l'IBEX 35.",
+  "sector": "Assurance & Finance",
+  "stockIndex": "IBEX 35",
+  "ticker": "MAP",
+  "website": "https://www.mapfre.com/",
+  "clubName": "Club MAPFRE Accionista",
+  "clubUrl": "https://www.mapfre.com/en/shareholders-loyalty-plan/",
+  "minShares": 1000,
+  "lastVerifiedAt": "2026-06-09",
+  "benefits": [
+    {
+      "type": "service",
+      "title": "Conseiller bien-être gratuit et illimité",
+      "description": "Réservé aux membres du Club MAPFRE Accionista, personnes physiques résidant en Espagne qui maintiennent au moins 1 000 actions, ce service de catégorie Plata donne accès gratuitement et sans limite de consultations à des psychologues, nutritionnistes et entraîneurs personnels par vidéo, chat ou téléphone, ainsi qu'à des programmes de mindfulness, d'exercice et de menus. Il couvre le membre et ses proches jusqu'au deuxième degré de consanguinité vivant dans la même unité familiale. Les demandes et documents doivent être en espagnol. Le service est annoncé 24 h sur 24, mais les vidéoconsultations psychologiques sont proposées du lundi au vendredi selon les créneaux disponibles. L'ancienne orientation médicale ou pédiatrique 24 h sur 24 n'est pas incluse dans l'offre actuelle prouvée.",
+      "value": "Consultations gratuites et illimitées",
+      "requiredShares": 1000,
+      "sourceUrl": "https://www.mapfretecuidamos.com/particulares/expertos-asesores/asesor-bienestar/"
+    },
+    {
+      "type": "reduction",
+      "title": "6 % en Tréboles sur les cartes carburant Repsol",
+      "description": "Le membre du Club MAPFRE Accionista, personne physique résidant en Espagne et conservant en permanence au moins 1 000 actions, doit aussi être inscrit dans l'Área de Clientes Internet pour acheter une carte Repsol Carburante de 25, 50 ou 100 € et recevoir 6 % de sa valeur en Tréboles. La carte est limitée aux stations Repsol de l'Espagne péninsulaire et des Baléares jusqu'au 31 décembre 2026; la variante Canaries est exclue en raison de son échéance officielle impossible. Le QR doit être présenté avant le plein, le solde doit couvrir la totalité du paiement et aucun autre moyen de paiement ou réduction ne se cumule. Les achats sont plafonnés à 300 € par utilisateur et par mois, sans échange ni remboursement, et la carte expire un an après l'achat. Les Tréboles ne réduisent que certaines polices MAPFRE lorsque le membre est preneur d'au moins une police éligible et dispose d'au moins 6 Tréboles.",
+      "value": "6 % en Tréboles; 1 Trébol = 1 € de réduction sur une assurance MAPFRE éligible",
+      "requiredShares": 1000,
+      "sourceUrl": "https://descuentosgrandesmarcas.mapfretecuidamos.com/descuento/carburante_repsol"
+    },
+    {
+      "type": "reduction",
+      "title": "Plateforme de remises sur marques et loisirs",
+      "description": "Les membres du Club MAPFRE Accionista, personnes physiques résidant en Espagne et conservant en permanence au moins 1 000 actions, accèdent après inscription dans l'Área de Clientes Internet à une plateforme de remises directes, coupons, cartes cadeaux et offres générant des Tréboles sur des achats, voyages, services et loisirs. Chaque promotion conserve ses propres produits éligibles, limites géographiques, dates, modalités et exclusions: le membre doit les consulter avant de télécharger un coupon, suivre un lien partenaire ou acheter une carte cadeau. Les coupons sont généralement à usage unique, les achats effectués sur la plateforme ne sont pas remboursables et une carte cadeau ou un produit reste payant; seul l'avantage expressément affiché est accordé. Le catalogue et les taux varient et aucune promotion particulière n'est garantie comme permanente.",
+      "value": "Variable selon l'offre; remises directes ou Tréboles",
+      "requiredShares": 1000,
+      "sourceUrl": "https://descuentosgrandesmarcas.mapfretecuidamos.com/preguntas-frecuentes"
+    },
+    {
+      "type": "cadeau",
+      "title": "Tirages au sort réservés aux membres",
+      "description": "Les membres du Club MAPFRE Accionista, personnes physiques résidant en Espagne et conservant en permanence au moins 1 000 actions, peuvent s'inscrire aux tirages annoncés dans l'espace privé, le bulletin ou l'application MAPFRE. Les lots peuvent notamment comprendre des produits technologiques, des cartes carburant ou des packs de Tréboles, sans valeur ni probabilité de gain garantie. Chaque participant doit consulter le règlement et s'inscrire avant l'échéance propre au tirage. La participation ne garantit aucun lot; les conditions d'âge, le territoire, le nombre de participations, le calendrier et les modalités de remise dépendent de chaque règlement et peuvent changer au cours de l'année.",
+      "value": "Lots variables; aucune valeur ni probabilité garantie",
+      "requiredShares": 1000,
+      "sourceUrl": "https://www.mapfretecuidamos.com/preguntas-frecuentes/"
+    },
+    {
+      "type": "evenement",
+      "title": "Invitations à des événements culturels et sportifs",
+      "description": "Les membres du Club MAPFRE Accionista, personnes physiques résidant en Espagne et conservant en permanence au moins 1 000 actions, peuvent consulter dans l'espace privé, le bulletin ou l'application des invitations à des événements culturels et sportifs, puis s'inscrire ou réserver selon les modalités et les places disponibles. La FAQ cite notamment des expériences avec Fundación MAPFRE à Madrid et Barcelone. Aucun calendrier minimal, nombre de places ou gratuité systématique n'est garanti. Certains services lors d'événements moto exigent en plus une moto assurée chez MAPFRE. Les deux entrées gratuites par saison publiées par Fundación MAPFRE sont réservées aux assurés MAPFRE et ne constituent pas un droit autonome du seul actionnaire.",
+      "value": null,
+      "requiredShares": 1000,
+      "sourceUrl": "https://www.mapfretecuidamos.com/preguntas-frecuentes/"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Combien d'actions MAPFRE faut-il détenir pour rejoindre le club ?",
+      "answer": "Le plan d'information « MAPFRE Shareholders. A unique value » est ouvert dès une action. Les avantages du Club MAPFRE Accionista exigent en revanche au moins 1 000 actions MAPFRE et une résidence en Espagne. Ces deux conditions doivent être maintenues en permanence."
+    },
+    {
+      "question": "Qui peut adhérer au Club MAPFRE Accionista ?",
+      "answer": "Le club est réservé aux personnes physiques résidant en Espagne, propriétaires d'au moins 1 000 actions MAPFRE et qui ne sont pas déjà membres du Club MAPFRE comme clients de l'assureur. Aucun mode de détention ni délai minimal préalable n'est publié."
+    },
+    {
+      "question": "Comment se déroule l'inscription au programme actionnaire MAPFRE ?",
+      "answer": "L'actionnaire remplit d'abord le formulaire en ligne avec son adresse, ses coordonnées et son DNI ou NIE. S'il remplit les conditions du club, MAPFRE lui envoie un code par courriel. Ce code et le DNI permettent ensuite de finaliser l'inscription et d'accéder aux avantages. Aucun téléversement d'attestation de courtier n'est demandé publiquement."
+    },
+    {
+      "question": "Quels services de santé et de maison sont réellement inclus en 2026 ?",
+      "answer": "Le service actuel prouvé pour la catégorie Plata est l'Asesor en Bienestar: psychologie, nutrition et entraînement gratuits et illimités, avec certaines limites familiales et linguistiques. Les anciennes mentions d'orientation médicale 24 h et de dépannage urgent à domicile ne sont pas confirmées. Le service Yo Me Ocupo est désormais affiché pour les catégories Oro et Platino, pas Plata."
+    },
+    {
+      "question": "Comment fonctionne l'avantage carburant et quels frais restent à payer ?",
+      "answer": "Le membre achète une carte Repsol de 25, 50 ou 100 euros et reçoit 6 % en Tréboles. La carte retenue est valable en Espagne péninsulaire et aux Baléares, coûte sa valeur faciale, ne se combine pas avec un autre paiement et est plafonnée à 300 euros par mois. Les Tréboles réduisent seulement certaines assurances MAPFRE et nécessitent un solde minimal de 6."
+    },
+    {
+      "question": "Les avantages culturels sont-ils gratuits et accessibles hors d'Espagne ?",
+      "answer": "Le club annonce des invitations et événements culturels, notamment avec Fundación MAPFRE à Madrid et Barcelone, mais les pages actuelles ne garantissent pas la gratuité ni un nombre de places. Les entrées gratuites publiées par la Fondation concernent les assurés MAPFRE. Le club actionnaire exige une résidence en Espagne et aucune extension internationale de ses avantages n'est publiée."
+    }
+  ],
+  "sources": [
+    "https://www.mapfre.com/en/shareholders-loyalty-plan/",
+    "https://www.formulariomapfreaccionistas.com/bases/bases_EN.pdf",
+    "https://www.formulariomapfreaccionistas.com/?lang=EN",
+    "https://www.mapfretecuidamos.com/particulares/expertos-asesores/asesor-bienestar/",
+    "https://descuentosgrandesmarcas.mapfretecuidamos.com/descuento/carburante_repsol",
+    "https://descuentosgrandesmarcas.mapfretecuidamos.com/preguntas-frecuentes",
+    "https://www.mapfretecuidamos.com/preguntas-frecuentes/",
+    "https://www.mapfretecuidamos.com/particulares/ahorro-y-treboles/ahorro-al-repostar/",
+    "https://www.mapfre.es/propuesta-valor/general/",
+    "https://www.mapfretecuidamos.com/particulares/expertos-asesores/experto-yo-me-ocupo/",
+    "https://www.fundacionmapfre.org/arte-y-cultura/compra-de-entradas/",
+    "https://www.mapfre.com/media/2026/02/consolidated-annual-accounts-management-report-2025.pdf",
+    "https://www.bolsasymercados.es/es/bme-exchange/mercados-y-cotizaciones/acciones/ficha.mapfre-s-a-es0124244e34.html",
+    "https://www.mapfretecuidamos.com/tecuidamos/mejoras-socios-tecuidamos-000000004560000.do",
+    "https://descuentosgrandesmarcas.mapfretecuidamos.com/descuento/carburante_repsol_canarias"
+  ]
+}

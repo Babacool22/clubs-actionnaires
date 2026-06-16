@@ -1,0 +1,99 @@
+{
+  "slug": "air-liquide",
+  "name": "Air Liquide",
+  "description": "Air Liquide est un leader mondial des gaz, technologies et services pour l'industrie et la santé. Présent dans 59 pays avec environ 65 000 collaborateurs, le Groupe sert 4,3 millions de clients et de patients et a réalisé près de 27 milliards d'euros de chiffre d'affaires en 2025.",
+  "sector": "Industrie & Équipements",
+  "stockIndex": "CAC40",
+  "ticker": "AI",
+  "website": "https://www.airliquide.com/",
+  "minShares": null,
+  "lastVerifiedAt": "2026-06-09",
+  "sources": [
+    "https://www.airliquide.com/fr/actionnaires/avantages",
+    "https://www.airliquide.com/sites/airliquide.com/files/2026-03/fiche-pratique-prime-de-fidelite-2026.pdf",
+    "https://www.airliquide.com/sites/airliquide.com/files/2026-03/fiche-pratique-les-actions-gratuites-2026.pdf",
+    "https://www.airliquide.com/fr/attribution-actions-gratuites",
+    "https://www.airliquide.com/fr/assemblee-generale-des-actionnaires-2026",
+    "https://www.airliquide.com/sites/airliquide.com/files/2026-05/13-05-2026-statuts-mai-2026.pdf",
+    "https://www.airliquide.com/sites/airliquide.com/files/2026-03/fiche-pratique-mode-de-detention-2026.pdf",
+    "https://www.airliquide.com/sites/airliquide.com/files/2026-03/fiche-pratique-inscription-au-nominatif-2026.pdf",
+    "https://www.airliquide.com/fr/actionnaires/devenir-actionnaire-air-liquide",
+    "https://www.airliquide.com/fr/actionnaires/comite-communication-actionnaires",
+    "https://www.airliquide.com/sites/airliquide.com/files/2024-07/reglement-du-comite-de-communication-aupres-des-actionnaires-d-air-liquide-cca.pdf",
+    "https://www.airliquide.com/fr/histoires/actionnariat/calendrier-de-lactionnaire-les-temps-forts-de-2026",
+    "https://www.airliquide.com/sites/airliquide.com/files/2026-01/air-liquide-conditions-generales-2026.pdf",
+    "https://www.airliquide.com/fr/actionnaires/actionnariat-pratique",
+    "https://www.airliquide.com/fr/aide/dividende",
+    "https://www.airliquide.com/fr/actionnaires/action-air-liquide",
+    "https://live.euronext.com/en/product/equities/FR0000120073-XPAR",
+    "https://www.airliquide.com/fr/actionnaires/acheter-actions"
+  ],
+  "benefits": [
+    {
+      "type": "priorite",
+      "title": "Majoration de 10 % du dividende",
+      "description": "Les actions inscrites au nominatif pur ou administré depuis plus de deux années civiles pleines bénéficient d'un dividende par action majoré de 10 %, sans seuil numérique distinct. Elles doivent rester détenues jusqu'à la mise en paiement; les actions au porteur sont exclues et le nombre de titres majorés est plafonné à 0,5 % du capital par actionnaire. Pour le dividende payé le 20 mai 2026 au titre de 2025, le montant était de 4,07 euros par action éligible au lieu de 3,70 euros.",
+      "value": "+10 %; 4,07 € au lieu de 3,70 € par action en 2026",
+      "requiredShares": null,
+      "sourceUrl": "https://www.airliquide.com/sites/airliquide.com/files/2026-05/13-05-2026-statuts-mai-2026.pdf"
+    },
+    {
+      "type": "cadeau",
+      "title": "Attribution du 10 juin 2026 d'une action gratuite pour 10",
+      "description": "L'opération approuvée le 5 mai 2026 et fixée au 10 juin 2026 attribue une action gratuite pour 10 actions détenues, au porteur, au nominatif administré ou au nominatif pur. Pour un nouvel achat, l'ordre devait être exécuté au plus tard le 5 juin 2026 à la clôture d'Euronext Paris. Un nombre inférieur ou non multiple de 10 produit un rompu payé en numéraire, calculé séparément par compte et par mode de détention. Cette attribution est ponctuelle et ne constitue pas un avantage annuel permanent.",
+      "value": "1 action gratuite pour 10 détenues",
+      "requiredShares": 10,
+      "sourceUrl": "https://www.airliquide.com/fr/assemblee-generale-des-actionnaires-2026"
+    },
+    {
+      "type": "cadeau",
+      "title": "Majoration de 10 % des actions gratuites du 10 juin 2026",
+      "description": "Pour l'attribution du 10 juin 2026, les actions inscrites au nominatif pur ou administré depuis plus de deux années civiles pleines et conservées jusqu'à la veille de l'attribution donnent droit à 10 % d'actions gratuites supplémentaires. Cent actions éligibles procurent une action supplémentaire entière; une fraction inférieure produit un rompu en numéraire. Les titres au porteur sont exclus de cette majoration, le calcul reste séparé par compte et par mode de détention, et les titres majorés sont plafonnés à 0,5 % du capital par actionnaire.",
+      "value": "+10 % d'actions gratuites; 1 action supplémentaire pour 100 actions éligibles",
+      "requiredShares": 100,
+      "sourceUrl": "https://www.airliquide.com/sites/airliquide.com/files/2026-05/13-05-2026-statuts-mai-2026.pdf"
+    },
+    {
+      "type": "reduction",
+      "title": "Droits de garde et frais de gestion offerts",
+      "description": "Pour les actions détenues sur un compte-titres au nominatif pur chez Air Liquide, les droits de garde et les frais de gestion sont gratuits, sans seuil numérique de titres publié. Air Liquide ne propose pas de PEA au nominatif pur et l'établissement financier d'origine peut facturer le transfert. Au porteur ou au nominatif administré, la tarification dépend de l'établissement financier.",
+      "value": "0 € de droits de garde et de frais de gestion chez Air Liquide",
+      "requiredShares": null,
+      "sourceUrl": "https://www.airliquide.com/sites/airliquide.com/files/2026-03/fiche-pratique-mode-de-detention-2026.pdf"
+    },
+    {
+      "type": "reduction",
+      "title": "Courtage à tarif préférentiel au nominatif pur",
+      "description": "Dès la première action détenue sur un compte-titres au nominatif pur chez Air Liquide, les ordres bénéficient d'un taux de courtage de 0,10 % HT depuis l'Espace Actionnaire en ligne ou de 0,15 % HT par téléphone, formulaire de contact ou courrier, sans forfait minimum. Ces tarifs ne s'appliquent pas aux comptes au porteur ou au nominatif administré tenus par une banque.",
+      "value": "0,10 % HT en ligne; 0,15 % HT par les autres canaux; sans forfait minimum",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.airliquide.com/sites/airliquide.com/files/2026-03/fiche-pratique-mode-de-detention-2026.pdf"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Air Liquide possède-t-il un club ou un Cercle des Actionnaires ?",
+      "answer": "Aucun club ou « Cercle des Actionnaires » à adhésion générale n'est identifié dans l'offre officielle actuelle. Air Liquide présente plutôt une Prime de Fidélité et des avantages liés au mode de détention. Le Comité de Communication auprès des Actionnaires n'est pas un club: il réunit 12 actionnaires sélectionnés pour travailler sur la communication. Le Carré des Actionnaires est un lieu d'accueil sur rendez-vous."
+    },
+    {
+      "question": "Comment rendre des actions Air Liquide éligibles à la Prime de Fidélité ?",
+      "answer": "Les actions doivent être au nominatif pur chez Air Liquide ou au nominatif administré dans une banque, puis être conservées plus de deux années civiles pleines. Pour des titres achetés en 2026, la conversion doit être effective au plus tard le 29 décembre 2026 afin de viser la prime à partir de 2029; Air Liquide recommande d'engager la démarche auprès de la banque au plus tard en novembre 2026."
+    },
+    {
+      "question": "Quel dividende majoré a été payé par Air Liquide en 2026 ?",
+      "answer": "Le dividende approuvé le 5 mai 2026 et mis en paiement le 20 mai 2026 était de 3,70 euros par action ordinaire et de 4,07 euros par action bénéficiant de la Prime de Fidélité. La majoration est donc de 10 %. Elle est automatique pour les actions nominatives éligibles, dans la limite légale de 0,5 % du capital par actionnaire."
+    },
+    {
+      "question": "Quelles étaient les conditions de l'attribution d'Actions Gratuites du 10 juin 2026 ?",
+      "answer": "L'opération approuvée le 5 mai 2026 et fixée au 10 juin 2026 attribuait une action gratuite pour 10 détenues à tous les actionnaires, quel que soit leur mode de détention. Pour qu'un nouvel achat soit comptabilisé, l'ordre devait être exécuté au plus tard le 5 juin 2026 à la clôture d'Euronext Paris. Un solde inférieur à 10 ou non multiple de 10 génère un rompu payé en numéraire."
+    },
+    {
+      "question": "Comment fonctionne la majoration de fidélité sur les Actions Gratuites ?",
+      "answer": "Pour l'attribution du 10 juin 2026, les actions au nominatif éligibles donnent droit à 10 % d'Actions Gratuites supplémentaires. Cent actions éligibles donnent 10 actions au titre de la parité générale et une action supplémentaire au titre de la Prime de Fidélité. Avec moins de 100 actions éligibles, la fraction de majoration est réglée comme un rompu."
+    },
+    {
+      "question": "Quels coûts et quelles contraintes accompagnent le nominatif pur ?",
+      "answer": "Chez Air Liquide, les droits de garde et frais de gestion sont gratuits. Le courtage est de 0,10 % HT en ligne et de 0,15 % HT par les autres canaux, sans forfait minimum. En revanche, Air Liquide ne propose pas de PEA au nominatif pur et la banque d'origine peut facturer le transfert. Pour conserver un PEA, il faut rester dans la banque et demander le nominatif administré."
+    }
+  ]
+}

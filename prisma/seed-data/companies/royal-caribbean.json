@@ -1,0 +1,59 @@
+{
+  "slug": "royal-caribbean",
+  "name": "Royal Caribbean Group",
+  "description": "Royal Caribbean Group est la marque d'entreprise de Royal Caribbean Cruises Ltd., groupe mondial de vacances coté au NYSE. Il exploite 69 navires et plus de 1 000 destinations par ses trois marques détenues à 100 % : Royal Caribbean, Celebrity Cruises et Silversea.",
+  "sector": "Hôtellerie & Tourisme",
+  "stockIndex": "S&P 500",
+  "ticker": "RCL",
+  "website": "https://www.royalcaribbeangroup.com/",
+  "minShares": 100,
+  "lastVerifiedAt": "2026-06-09",
+  "benefits": [
+    {
+      "type": "reduction",
+      "title": "Crédit à bord actionnaire jusqu'à 1 000 dollars",
+      "description": "Un actionnaire détenant au moins 100 actions RCL au moment de la traversée peut demander un crédit à bord par cabine : 50 dollars pour cinq nuits ou moins, 100 dollars pour six à treize nuits, 250 dollars à partir de quatorze nuits et 1 000 dollars pour une croisière mondiale. Le même barème couvre les traversées éligibles Royal Caribbean International, Celebrity Cruises et Silversea.",
+      "value": "Croisière mondiale : US$1 000; ≥ 14 nuits : US$250; 6-13 nuits : US$100; ≤ 5 nuits : US$50",
+      "requiredShares": 100,
+      "sourceUrl": "https://www.rclinvestor.com/contact-us/faqs/shareholder-benefit/"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Combien d'actions Royal Caribbean faut-il détenir et pendant combien de temps ?",
+      "answer": "Il faut posséder au moins 100 actions Royal Caribbean Cruises Ltd. cotées au NYSE sous RCL au moment de la traversée. Aucune ancienneté minimale n'est publiée. La demande doit toutefois inclure un relevé de courtage de moins de 90 jours où apparaissent clairement le nom correspondant à la réservation, la date du relevé et les 100 actions."
+    },
+    {
+      "question": "Quel crédit à bord est accordé selon la durée et la marque de la croisière ?",
+      "answer": "Le barème par cabine est de 50 dollars pour cinq nuits ou moins, 100 dollars pour six à treize nuits, 250 dollars à partir de quatorze nuits et 1 000 dollars pour une croisière mondiale. Ces montants s'appliquent aux traversées éligibles Royal Caribbean International, Celebrity Cruises et Silversea; les charters et les Galapagos sont exclus."
+    },
+    {
+      "question": "Comment envoyer le formulaire et quel délai faut-il respecter ?",
+      "answer": "Royal Caribbean International et Celebrity Cruises utilisent le formulaire Salesforce officiel; Silversea utilise un formulaire QuestionPro distinct. Les formulaires et le PDF officiel demandent un dépôt au moins trois semaines avant le départ et annoncent une réponse sous sept jours. L'adresse ShareholderBenefitInfo@rccl.com répond aux questions mais ne traite pas les demandes."
+    },
+    {
+      "question": "Quels justificatifs faut-il joindre à la demande de crédit actionnaire ?",
+      "answer": "Il faut joindre un relevé de courtage datant de moins de 90 jours. Le nom identique à celui de la réservation, la date du relevé et la détention d'au moins 100 actions RCL doivent être mis en évidence. Le formulaire Royal Caribbean/Celebrity accepte un PDF ou une image de 2,5 Mo maximum et permet de saisir jusqu'à dix réservations."
+    },
+    {
+      "question": "Le crédit peut-il être demandé pour plusieurs cabines ou plusieurs croisières ?",
+      "answer": "L'actionnaire peut redemander l'avantage aussi souvent qu'il voyage sur une traversée éligible. Chaque attribution reste limitée à la cabine qu'il occupe, à un crédit par cabine et à un crédit par actionnaire et par traversée. Pour plusieurs cabines liées à des actions détenues conjointement, il faut au moins 100 actions par cabine demandée."
+    },
+    {
+      "question": "Le crédit est-il cumulable et jusqu'à quelle date l'offre 2026 est-elle valable ?",
+      "answer": "La FAQ officielle actuelle ne répond pas réellement à sa propre question sur le cumul : son texte traite seulement de non-transférabilité et d'exclusions. Il ne faut donc pas promettre un cumul général avec promotions, coupons ou autres crédits. L'avantage est actif au 9 juin 2026, mais aucune date de fin n'est publiée; Royal Caribbean peut le modifier ou le retirer sans préavis."
+    }
+  ],
+  "sources": [
+    "https://www.rclinvestor.com/contact-us/faqs/shareholder-benefit/",
+    "https://www.rclinvestor.com/content/uploads/2023/06/RCG-Shareholder-Benefit-Offer-June-1-2023-final.pdf",
+    "https://rccl.my.salesforce-sites.com/shareholdersobc",
+    "https://rcg.questionpro.com/silverseashareholderbenefit",
+    "https://www.rclinvestor.com/content/uploads/2026/04/RCG-1Q26-Earnings-Press-Release.pdf",
+    "https://www.sec.gov/Archives/edgar/data/884887/000088488726000007/rcl-20251231.htm",
+    "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-spy.xlsx",
+    "https://www.rclinvestor.com/content/uploads/2021/03/2021-RCL-Shareholder-Benefit-Offer.pdf",
+    "https://www.rclinvestor.com/content/uploads/2021/03/RCL-Shareholder-Onboard-Credit-Offer-Request-Form-March-2021.pdf",
+    "https://www.royalcaribbeangroup.com/"
+  ]
+}

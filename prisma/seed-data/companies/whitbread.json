@@ -1,0 +1,56 @@
+{
+  "slug": "whitbread",
+  "name": "Whitbread",
+  "description": "Whitbread PLC est un groupe hôtelier britannique centré sur Premier Inn, première marque hôtelière du Royaume-Uni. Il exploite environ 850 hôtels au Royaume-Uni et en Irlande, ainsi qu'un réseau en croissance en Allemagne, et poursuit la transformation de ses restaurants en offres de restauration intégrées aux hôtels.",
+  "sector": "Hôtellerie & Tourisme",
+  "stockIndex": "FTSE 100",
+  "ticker": "WTB",
+  "website": "https://www.whitbread.co.uk",
+  "minShares": 64,
+  "lastVerifiedAt": "2026-06-09",
+  "benefits": [
+    {
+      "type": "cadeau",
+      "title": "Petit-déjeuner gratuit dans les Premier Inn participants",
+      "description": "L'actionnaire muni de sa carte peut obtenir gratuitement un Premier Inn Breakfast chaque matin de son séjour pour au plus deux adultes par chambre et deux chambres. Il doit séjourner dans l'une des chambres. Les conditions couvrent les Premier Inn participants au Royaume-Uni et en Irlande et citent explicitement hub by Premier Inn et ZIP by Premier Inn au Royaume-Uni.",
+      "value": "Un petit-déjeuner gratuit par adulte éligible et par nuit, dans la limite de deux adultes par chambre et de deux chambres.",
+      "requiredShares": 64,
+      "sourceUrl": "https://www.whitbread.co.uk/investors/shareholder-centre/benefits/"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Combien d'actions Whitbread faut-il détenir pour recevoir la carte d'avantages ?",
+      "answer": "Il faut détenir au moins 64 actions Whitbread PLC. Aucun délai minimal de détention n'est publié. La carte doit être demandée auprès de MUFG Corporate Markets pour une détention directe, ou par l'intermédiaire du nominee lorsque les actions sont conservées dans un compte au nom d'un intermédiaire."
+    },
+    {
+      "question": "Quel petit-déjeuner est offert et combien de chambres peuvent en bénéficier ?",
+      "answer": "La carte donne droit à un Premier Inn Breakfast gratuit chaque matin, sous réserve de disponibilité, pour au plus deux adultes par chambre et deux chambres. L'actionnaire doit séjourner dans l'une des chambres. Les conditions couvrent les Premier Inn participants au Royaume-Uni et en Irlande; hub by Premier Inn et ZIP by Premier Inn sont expressément cités pour le Royaume-Uni."
+    },
+    {
+      "question": "Comment obtenir la carte et quelle preuve faut-il fournir à Whitbread ?",
+      "answer": "Un détenteur direct contacte MUFG Corporate Markets au +44 (0)344 855 2327 ou à Whitbread@cm.mpms.mufg.com. Un détenteur via nominee doit passer par son intermédiaire. La page actuelle ne détaille pas le document de preuve exigé du nominee. Une lettre officielle de 2022 mentionnait une attestation ou lettre du nominee, mais cette procédure ancienne utilisait encore l'ancien teneur de registre Link et ne doit pas être présentée comme une exigence actuelle certaine."
+    },
+    {
+      "question": "Jusqu'à quand l'offre est-elle valable et faut-il renouveler la carte chaque année ?",
+      "answer": "Le petit-déjeuner est valable pour les séjours jusqu'au 30 juin 2027 inclus. Les actionnaires déjà enregistrés devraient recevoir automatiquement une carte avec l'envoi du rapport annuel s'ils restent éligibles. Aucune réinscription annuelle n'est annoncée, mais Whitbread ne publie pas la date de contrôle des 64 actions ni la date exacte de début de la nouvelle carte."
+    },
+    {
+      "question": "Quels hôtels sont exclus et peut-on cumuler le petit-déjeuner avec une autre offre ?",
+      "answer": "Whitbread ne publie pas de liste nominative des établissements exclus et limite la promesse aux Premier Inn participants, sous réserve de disponibilité. L'Allemagne n'est pas incluse. Le petit-déjeuner ne peut pas être cumulé avec une autre offre ou réduction, notamment Meal Deal, Emerald card ou Whitbread Privilege card. La carte originale et la confirmation de réservation sont obligatoires."
+    },
+    {
+      "question": "La carte accorde-t-elle encore 10 % de réduction dans les restaurants Whitbread ?",
+      "answer": "La page officielle actuelle dit encore que des avantages Premier Inn et restaurant passent par la carte, mais elle ne publie plus le taux, les marques, les exclusions ni la période de l'offre restaurant. Le taux de 10 % est prouvé dans une lettre Whitbread de 2019 et reste repris par Hargreaves Lansdown, mais ces éléments ne suffisent pas à établir des conditions officielles actives au 9 juin 2026. La réduction restaurant n'est donc pas retenue comme bénéfice publiable."
+    }
+  ],
+  "sources": [
+    "https://www.whitbread.co.uk/investors/shareholder-centre/benefits/",
+    "https://www.whitbread.co.uk/investors/annual-report/",
+    "https://www.londonstockexchange.com/stock/WTB/whitbread-plc/company-page",
+    "https://www.lseg.com/en/media-centre/press-releases/ftse-russell/2026/ftse-uk-index-series-review-june-2026",
+    "https://cdn.whitbread.co.uk/media/2022/05/23441_Whitbread_AR2022_Chairmans-Letter.pdf",
+    "https://cdn.whitbread.co.uk/media/2021/02/03110700/Whitbread_Chairmans-Letter-2019.pdf",
+    "https://www.hl.co.uk/shares/shareholder-perks"
+  ]
+}

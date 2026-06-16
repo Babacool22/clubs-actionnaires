@@ -1,0 +1,437 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "eurofins-scientific",
+    "name": "Eurofins Scientific",
+    "description": "Eurofins Scientific est un groupe international de services d'analyses et de laboratoire pour l'alimentation, l'environnement, la pharmacie, les cosmétiques, la génomique et les diagnostics spécialisés. Son réseau comptait plus de 950 laboratoires dans 59 pays et plus de 65 000 collaborateurs selon la fiche officielle mise à jour en avril 2026.",
+    "sector": "Santé & Pharmacie",
+    "stockIndex": "CAC40",
+    "ticker": "ERF",
+    "website": "https://www.eurofins.com/",
+    "clubName": null,
+    "clubUrl": null
+  },
+  "offerClassification": {
+    "primaryKind": "investor_relations_only",
+    "otherKinds": [],
+    "officialProgrammeName": null,
+    "status": "active",
+    "statusReason": "Au 9 juin 2026, Eurofins maintient un espace public de relations investisseurs avec informations sur l'action, rapports, calendrier, assemblées, liste de diffusion et contacts. Aucun club, programme d'adhésion, avantage commercial, politique de fidélité ou bénéfice économique réservé aux actionnaires n'est officiellement prouvé.",
+    "sourceIds": [
+      "S02",
+      "S03",
+      "S04"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": null,
+    "eligibleShareClasses": [],
+    "holdingModes": [],
+    "minimumHoldingPeriod": null,
+    "residencyRestrictions": [],
+    "accountRestrictions": [],
+    "proofRequired": [],
+    "fees": {
+      "membershipFee": null,
+      "applicationFee": null,
+      "otherFees": [],
+      "notes": "Sans objet : aucun club ou programme d'adhésion actionnaire n'est prouvé. Les éventuels frais de courtage ou de conservation des titres relèvent de l'intermédiaire financier et ne constituent pas une cotisation Eurofins."
+    },
+    "sourceIds": [
+      "S02",
+      "S03",
+      "S04"
+    ]
+  },
+  "enrollment": {
+    "required": false,
+    "method": "not_applicable",
+    "applicationUrl": null,
+    "contact": null,
+    "steps": [],
+    "processingTime": null,
+    "renewal": null,
+    "deadlines": [],
+    "sourceIds": [
+      "S02",
+      "S03",
+      "S06"
+    ]
+  },
+  "benefits": [],
+  "faqs": [
+    {
+      "question": "Eurofins Scientific possède-t-elle un club ou un programme pour ses actionnaires ?",
+      "answer": "Aucun club formel, programme d'adhésion ou dispositif de fidélité n'a été trouvé dans les ressources officielles actuelles au 9 juin 2026. Eurofins propose un espace Relations investisseurs public, mais celui-ci ne publie ni statut de membre, ni formulaire d'adhésion, ni règlement d'avantages.",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "question": "Faut-il détenir au moins une action Eurofins pour accéder à un avantage particulier ?",
+      "answer": "Aucun seuil global ou propre à un avantage n'est officiellement publié, puisqu'aucun avantage spécifique n'est prouvé. La détention d'une action ne permet donc pas d'affirmer l'accès à un club ou à des bénéfices réservés, et l'ancien seuil d'une action ne doit pas être repris.",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "question": "L'inscription à la liste de diffusion Relations investisseurs constitue-t-elle une adhésion ?",
+      "answer": "Non. Eurofins met à disposition une page intitulée « IR Distribution List », mais aucune condition de détention d'actions, aucun statut de membre et aucun avantage réservé n'y sont publiés. Il s'agit d'un service générique de diffusion d'informations financières, pas d'un club d'actionnaires.",
+      "sourceIds": [
+        "S03",
+        "S06"
+      ]
+    },
+    {
+      "question": "L'assemblée générale et le droit de vote sont-ils des bénéfices actionnaires ?",
+      "answer": "Non dans le cadre de cette fiche. La page de l'assemblée générale du 23 avril 2026 publie les convocations, formulaires de participation, procuration et vote ainsi que les résultats. Ces éléments relèvent des droits ordinaires de l'actionnaire et ne constituent pas un avantage commercial ou de fidélité.",
+      "sourceIds": [
+        "S05"
+      ]
+    },
+    {
+      "question": "Le dividende et les rachats d'actions Eurofins sont-ils retenus comme avantages ?",
+      "answer": "Non. Le dividende brut de 0,72 euro par action au titre de 2025 est un versement ordinaire aux actionnaires éligibles. Les rachats d'actions sont des opérations de gestion du capital réalisées par la société; ils ne sont ni une remise, ni un cadeau, ni un service individuel que l'actionnaire peut demander.",
+      "sourceIds": [
+        "S02",
+        "S09"
+      ]
+    },
+    {
+      "question": "Où trouver les informations officielles sur l'action et contacter Eurofins ?",
+      "answer": "La page officielle Shareholder Information indique notamment la cotation Euronext Paris, le ticker ERF, l'ISIN FR0014000MR3, le capital, le dividende et la structure de l'actionnariat. Elle publie aussi le contact Relations investisseurs : +32 2 769 7383 et ir@sc.eurofinseu.com. Cet accès public à l'information n'est pas un bénéfice réservé.",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S07"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "L'action Eurofins Scientific est cotée sur Euronext Paris sous le ticker ERF, avec l'ISIN FR0014000MR3, et appartient au CAC 40.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "notes": "La page actionnaires a été mise à jour le 4 juin 2026 et la fiche groupe le 29 avril 2026."
+    },
+    {
+      "id": "C02",
+      "statement": "La page Shareholder Information présente uniquement des informations de cotation, indices, capital, dividende, actionnariat, performance du cours et contact Relations investisseurs.",
+      "status": "verified",
+      "sourceIds": [
+        "S02"
+      ],
+      "notes": "Aucune adhésion, condition de membre, remise ou prestation réservée n'y est publiée."
+    },
+    {
+      "id": "C03",
+      "statement": "L'espace Investors d'Eurofins regroupe des rapports, présentations, informations sur l'action, gouvernance, calendrier, assemblées, rachats d'actions et une liste de diffusion IR.",
+      "status": "verified",
+      "sourceIds": [
+        "S03",
+        "S07",
+        "S09"
+      ],
+      "notes": "Ces contenus constituent un espace de relations investisseurs public."
+    },
+    {
+      "id": "C04",
+      "statement": "Le sitemap officiel recense les rubriques investisseurs actuelles sans rubrique identifiée comme club, programme actionnaire, avantage actionnaire ou fidélité actionnaire.",
+      "status": "verified",
+      "sourceIds": [
+        "S04"
+      ],
+      "notes": "Cette vérification négative complète l'examen direct des principales pages investisseurs; elle ne prouve pas à elle seule l'inexistence absolue de toute offre hors ligne."
+    },
+    {
+      "id": "C05",
+      "statement": "Eurofins publie une liste de diffusion Relations investisseurs, sans condition publique de détention d'actions ni avantage associé.",
+      "status": "verified",
+      "sourceIds": [
+        "S06"
+      ],
+      "notes": "La page est accessible publiquement et ne décrit pas une adhésion actionnaire."
+    },
+    {
+      "id": "C06",
+      "statement": "La page Investor Relations Events Timetable liste des Investor Days, mais ne publie aucun programme garanti ou réservé aux actionnaires individuels.",
+      "status": "verified",
+      "sourceIds": [
+        "S08"
+      ],
+      "notes": "Faute de seuil, procédure, capacité ou preuve de réservation aux actionnaires, aucun événement n'est retenu comme bénéfice."
+    },
+    {
+      "id": "C07",
+      "statement": "L'ancienne adresse officielle /investor-relations/ redirige vers le portail public /investors/ et non vers une page de club d'actionnaires.",
+      "status": "verified",
+      "sourceIds": [
+        "S03",
+        "S11"
+      ],
+      "notes": "Cette redirection ne justifie ni clubUrl, ni seuil d'une action, ni avantage spécifique."
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "Eurofins dispose d'un club d'actionnaires accessible dès une action.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "claim": "La participation à l'assemblée générale annuelle est un avantage actionnaire.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S05"
+      ]
+    },
+    {
+      "claim": "Le droit de vote ou la procuration lors des assemblées est un bénéfice du programme Eurofins.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S05"
+      ]
+    },
+    {
+      "claim": "Les rapports, présentations financières et communications détaillées constituent un service réservé aux actionnaires.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S03",
+        "S07"
+      ]
+    },
+    {
+      "claim": "Eurofins propose une newsletter actionnaires assortie d'avantages spécifiques.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S06",
+        "S10"
+      ]
+    },
+    {
+      "claim": "Le dividende ordinaire de 0,72 euro par action constitue un avantage spécifique.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S02"
+      ]
+    },
+    {
+      "claim": "Le programme de rachat d'actions procure un avantage individuel que l'actionnaire peut réclamer.",
+      "reason": "not_shareholder_specific",
+      "sourceIds": [
+        "S09"
+      ]
+    },
+    {
+      "claim": "Les Investor Days publiés par Eurofins sont des événements garantis aux actionnaires individuels.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S08"
+      ]
+    },
+    {
+      "claim": "L'ancienne URL /investor-relations/ est l'adresse d'un club d'actionnaires Eurofins.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S03",
+        "S11"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.eurofins.com/about-us/our-business/eurofins-fact-sheet/",
+      "title": "Eurofins Fact Sheet",
+      "publisher": "Eurofins Scientific",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2026-04-29",
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Présente les activités du groupe, plus de 950 laboratoires dans 59 pays, plus de 65 000 collaborateurs, la cotation Euronext Paris, le ticker ERF, l'ISIN et l'appartenance au CAC 40."
+    },
+    {
+      "id": "S02",
+      "url": "https://www.eurofins.com/investors/shareholder-information/",
+      "title": "Eurofins Shareholder Information",
+      "publisher": "Eurofins Scientific",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2026-06-04",
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Page officielle actuelle sur la cotation, les indices, le ticker ERF, l'ISIN, le capital, le dividende, l'actionnariat, la performance du cours et le contact IR. Elle ne publie aucun club, seuil d'adhésion ou avantage réservé."
+    },
+    {
+      "id": "S03",
+      "url": "https://www.eurofins.com/investors/",
+      "title": "Eurofins Investor Relations",
+      "publisher": "Eurofins Scientific",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2026-06-04",
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Portail officiel regroupant informations actionnaires, rapports, gouvernance, calendrier, événements investisseurs, assemblées, rachats d'actions et liste de diffusion IR, sans présenter de club ou programme d'avantages."
+    },
+    {
+      "id": "S04",
+      "url": "https://www.eurofins.com/sitemapxml/",
+      "title": "Eurofins official XML sitemap",
+      "publisher": "Eurofins Scientific",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Index officiel de 4 809 URL consulté pour contrôler les rubriques actuelles. Il recense le portail investisseurs et ses sous-rubriques, sans URL dédiée à un club, programme, avantage ou dispositif de fidélité pour actionnaires."
+    },
+    {
+      "id": "S05",
+      "url": "https://www.eurofins.com/investors/agm-2026/",
+      "title": "Assemblée Générale de la société Eurofins Scientific SE du 23 avril 2026",
+      "publisher": "Eurofins Scientific",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2026-04-24",
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Publie les convocations, formulaires de participation, procuration et vote, résolutions, documents préparatoires et résultats des assemblées du 23 avril 2026. Il s'agit de droits et formalités ordinaires, pas d'avantages."
+    },
+    {
+      "id": "S06",
+      "url": "https://www.eurofins.com/investors/eurofins-ir-distribution-list/",
+      "title": "Eurofins' IR Distribution List",
+      "publisher": "Eurofins Scientific",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2024-05-11",
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle de liste de diffusion Relations investisseurs. Elle ne publie aucune condition de détention, aucun statut de membre, aucun seuil d'actions et aucun avantage associé."
+    },
+    {
+      "id": "S07",
+      "url": "https://www.eurofins.com/investors/reports-and-presentations/2026/",
+      "title": "Reports and Presentations 2026",
+      "publisher": "Eurofins Scientific",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2026-04-22",
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Regroupe les présentations et mises à jour financières publiques de 2026. Aucun accès conditionné à la qualité d'actionnaire ni prestation réservée n'est indiqué."
+    },
+    {
+      "id": "S08",
+      "url": "https://www.eurofins.com/investors/investor-relations-events-timetable/",
+      "title": "Investor Relations Events Timetable",
+      "publisher": "Eurofins Scientific",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2026-02-02",
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Liste des Investor Days passés et futurs. La page ne donne ni condition de détention, ni seuil, ni procédure d'inscription garantissant un accès réservé aux actionnaires individuels."
+    },
+    {
+      "id": "S09",
+      "url": "https://www.eurofins.com/investors/share-buy-back-programmes/",
+      "title": "Share buy-back programme",
+      "publisher": "Eurofins Scientific",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2026-06-08",
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Détaille les opérations de rachat d'actions de la société jusqu'en juin 2026. Il s'agit d'une opération de capital et non d'une offre individuelle, d'une remise ou d'un service réclamable par un actionnaire."
+    },
+    {
+      "id": "S10",
+      "url": "https://www.eurofins.com/media-centre/newsletters/",
+      "title": "Eurofins Newsletters",
+      "publisher": "Eurofins Scientific",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2026-03-24",
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "La rubrique actuelle présente notamment une newsletter Pharma Services consacrée aux services, techniques, recherches et événements du secteur. Elle ne décrit pas une newsletter d'avantages réservée aux actionnaires."
+    },
+    {
+      "id": "S11",
+      "url": "https://www.eurofins.com/investor-relations/",
+      "title": "Legacy Eurofins Investor Relations URL",
+      "publisher": "Eurofins Scientific",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "L'ancienne adresse renvoie par redirection permanente HTTP 301 vers https://www.eurofins.com/investors/. Elle correspond donc au portail générique de relations investisseurs et non à un club ou programme actionnaire."
+    }
+  ],
+  "conflicts": [],
+  "handoff": {
+    "researchStatus": "complete",
+    "readyForDevelopment": true,
+    "benefitCount": 0,
+    "faqCount": 6,
+    "blockingIssues": [],
+    "developerNotes": [
+      "Générer un dossier final sans clubName, sans clubUrl, sans minShares et avec un tableau benefits vide.",
+      "Conserver la classification de simple relations investisseurs; ne pas transformer le portail Investors en club ou programme.",
+      "Ne pas reprendre les anciennes affirmations relatives à un seuil d'une action, à l'assemblée générale, aux communications financières ou à une newsletter actionnaires comme bénéfices.",
+      "Ne pas réutiliser l'ancienne URL /investor-relations/ comme clubUrl : elle redirige vers le portail public /investors/.",
+      "Les informations de contact IR peuvent rester dans une FAQ informative, mais ne doivent pas être présentées comme un avantage réservé.",
+      "Aucun dossier final n'a été créé dans le cadre de cette recherche."
+    ]
+  }
+}

@@ -1,0 +1,569 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "stellantis",
+    "name": "Stellantis",
+    "description": "Stellantis N.V. est le constructeur automobile néerlandais issu de la fusion de Peugeot S.A. et de Fiat Chrysler Automobiles N.V. Il conçoit, fabrique et commercialise des véhicules sous 14 marques. Son action ordinaire est cotée à New York, Milan et Paris et fait partie du CAC 40.",
+    "sector": "Automobile",
+    "stockIndex": "CAC40",
+    "ticker": "STLA",
+    "website": "https://www.stellantis.com/",
+    "clubName": null,
+    "clubUrl": null
+  },
+  "offerClassification": {
+    "primaryKind": "shareholder_program",
+    "otherKinds": [
+      "investor_relations_only"
+    ],
+    "officialProgrammeName": "Loyalty Voting Program",
+    "status": "active",
+    "statusReason": "Stellantis maintient un programme formel de vote de fidélité permettant d'inscrire des actions ordinaires au Loyalty Register. Il ne s'agit pas d'un club commercial et aucun avantage économique ou remise automobile réservé aux actionnaires n'est officiellement établi au 9 juin 2026.",
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": 1,
+    "eligibleShareClasses": [
+      "Actions ordinaires Stellantis N.V., ISIN NL00150001Q9"
+    ],
+    "holdingModes": [
+      "transfer_agent"
+    ],
+    "minimumHoldingPeriod": "Aucune durée préalable n'est exigée pour demander l'inscription. Chaque action doit ensuite rester inscrite sans interruption pendant au moins trois ans au Loyalty Register pour devenir une Qualifying Common Share.",
+    "residencyRestrictions": [
+      "Aucune restriction de résidence n'est expressément prévue par les conditions; les modalités opérationnelles publiées passent par les agents des systèmes DTC, Monte Titoli et Euroclear France."
+    ],
+    "accountRestrictions": [
+      "Les actions participant au programme doivent être inscrites au Loyalty Register au nom propre de l'actionnaire, et non au nom d'un courtier, d'une banque, d'un dépositaire ou d'un nominee.",
+      "Les actions inscrites au Loyalty Register ne sont pas librement négociables dans les systèmes ordinaires DTC, Monte Titoli ou Euroclear France.",
+      "Une demande peut partir d'un compte chez un intermédiaire; les actions déjà détenues en DRS auprès de Computershare peuvent faire l'objet d'une demande directe auprès de l'agent."
+    ],
+    "proofRequired": [
+      "Election Form dûment complété.",
+      "Confirmation du courtier établissant la propriété et le nombre d'actions visées, sauf procédure directe validée par l'agent pour des actions déjà en DRS.",
+      "Power of Attorney signé autorisant l'agent à effectuer les inscriptions, transferts, allocations et retraits nécessaires.",
+      "Éléments d'identité et preuve de propriété supplémentaires si l'agent les demande pour valider une demande directe."
+    ],
+    "fees": {
+      "membershipFee": "Aucune cotisation d'adhésion n'est prévue par les conditions du programme.",
+      "applicationFee": "Les coûts de l'agent liés aux conditions, à la procuration et aux actes d'allocation ou de retrait sont à la charge de Stellantis.",
+      "otherFees": [
+        "Tous les autres coûts éventuels, notamment ceux facturés par le courtier ou l'intermédiaire pour un transfert, restent à la charge de l'actionnaire."
+      ],
+      "notes": "Les conditions ne publient aucun barème des frais que pourrait appliquer l'intermédiaire de l'actionnaire."
+    },
+    "sourceIds": [
+      "S03",
+      "S04",
+      "S05"
+    ]
+  },
+  "enrollment": {
+    "required": true,
+    "method": "broker_or_bank",
+    "applicationUrl": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/stock-and-shareholder-info/special-voting-shares/Special_Voting_Shares_Terms_and_Conditions.pdf",
+    "contact": "Selon le système de détention: Computershare Trust Company N.A. aux États-Unis, Computershare S.p.A. pour Monte Titoli, ou Société Générale Securities Services France pour Euroclear France.",
+    "steps": [
+      "Choisir le nombre d'actions ordinaires à inscrire au Loyalty Register.",
+      "Compléter l'Election Form et signer le Power of Attorney annexés aux conditions officielles.",
+      "Demander au courtier ou à la banque de confirmer la propriété des actions et de transmettre le dossier à l'agent compétent.",
+      "Pour des actions déjà inscrites directement en DRS, demander à l'agent s'il accepte une demande directe et fournir les contrôles d'identité et de propriété requis.",
+      "Attendre l'acceptation puis le transfert des actions hors du système de négociation ordinaire vers le Loyalty Register."
+    ],
+    "processingTime": "L'agent doit faire des efforts raisonnables pour notifier l'acceptation ou le rejet dans les dix jours ouvrés suivant la réception d'un dossier complet.",
+    "renewal": "Aucun renouvellement périodique n'est prévu; l'inscription continue tant que les actions restent au Loyalty Register et que les conditions sont respectées.",
+    "deadlines": [],
+    "sourceIds": [
+      "S03",
+      "S04",
+      "S05"
+    ]
+  },
+  "benefits": [],
+  "faqs": [
+    {
+      "question": "Stellantis possède-t-il un club ou un programme pour ses actionnaires individuels ?",
+      "answer": "Stellantis ne publie pas de club commercial pour actionnaires individuels. La société maintient toutefois un programme formel nommé Loyalty Voting Program, aussi décrit comme Loyalty Voting Structure, qui sert à inscrire des actions au registre de fidélité afin d'obtenir ultérieurement des actions spéciales de vote.",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S04",
+        "S12"
+      ]
+    },
+    {
+      "question": "Combien d'actions faut-il détenir et pendant combien de temps ?",
+      "answer": "Une personne détenant une ou plusieurs actions ordinaires peut demander l'inscription de tout ou partie de ses titres. Il n'existe pas de durée préalable pour déposer la demande, mais chaque action doit rester inscrite sans interruption pendant au moins trois ans avant de devenir éligible à une action spéciale de vote de classe A.",
+      "sourceIds": [
+        "S04"
+      ]
+    },
+    {
+      "question": "Le nominatif pur ou administré suffit-il pour participer automatiquement ?",
+      "answer": "Non. La détention au porteur, chez un intermédiaire, au nominatif ou en DRS ne remplace pas l'inscription spécifique au Loyalty Register. La procédure exige un Election Form, une procuration et généralement une confirmation de l'intermédiaire; les actions sont ensuite inscrites au nom propre de l'actionnaire dans le registre de fidélité.",
+      "sourceIds": [
+        "S02",
+        "S04",
+        "S05"
+      ]
+    },
+    {
+      "question": "Que reçoit l'actionnaire après trois ans au registre de fidélité ?",
+      "answer": "Pour chaque action ordinaire devenue qualifiante, l'actionnaire reçoit sans contrepartie une action spéciale de vote de classe A. Celle-ci sert au vote et n'ouvre pas droit aux dividendes ordinaires attachés aux actions communes. Ce mécanisme de gouvernance n'est donc pas recensé ici comme bénéfice commercial ou économique.",
+      "sourceIds": [
+        "S01",
+        "S04"
+      ]
+    },
+    {
+      "question": "Les actionnaires Stellantis bénéficient-ils d'une remise sur l'achat d'un véhicule ?",
+      "answer": "Aucune remise automobile réservée aux actionnaires n'a été établie dans les sources officielles examinées au 9 juin 2026. Les offres de ventes de véhicules du Stellantis Club concernent les salariés, retraités et certains proches; la campagne américaine de 2025 étendait temporairement un prix salarié à des clients, pas aux actionnaires en cette qualité.",
+      "sourceIds": [
+        "S08",
+        "S09"
+      ]
+    },
+    {
+      "question": "Peut-on vendre les actions inscrites et quels frais faut-il prévoir ?",
+      "answer": "Les actions inscrites au Loyalty Register ne sont pas immédiatement négociables. L'actionnaire peut demander leur désinscription et leur retour vers DTC, Monte Titoli ou Euroclear France, mais il perd alors les actions spéciales de vote associées. Stellantis prend en charge les coûts de l'agent; les autres frais éventuels de courtier restent à la charge de l'actionnaire.",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S04"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "L'entité cotée est Stellantis N.V., société de droit néerlandais dont les actions ordinaires sont cotées à New York, Milan et Paris.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "notes": "Les symboles sont STLA au NYSE, STLAM à Euronext Milan et STLAP à Euronext Paris; l'ISIN européen est NL00150001Q9."
+    },
+    {
+      "id": "C02",
+      "statement": "Stellantis faisait partie du CAC 40 dans la composition officielle datée du 8 juin 2026.",
+      "status": "verified",
+      "sourceIds": [
+        "S06"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C03",
+      "statement": "Le Loyalty Voting Program était actif et documenté par Stellantis au 9 juin 2026.",
+      "status": "verified",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S04",
+        "S05"
+      ],
+      "notes": "La page actuelle renvoie toujours vers les conditions et la notice d'assemblée 2026 confirme le Loyalty Register et ses trois agents."
+    },
+    {
+      "id": "C04",
+      "statement": "Un actionnaire détenant une ou plusieurs actions ordinaires peut demander l'inscription de tout ou partie de ses actions au Loyalty Register.",
+      "status": "verified",
+      "sourceIds": [
+        "S04"
+      ],
+      "notes": "L'inscription s'effectue au nom propre de l'actionnaire; le seuil global du programme est donc une action, sans préjuger d'un quelconque avantage commercial."
+    },
+    {
+      "id": "C05",
+      "statement": "Après trois années ininterrompues au Loyalty Register, une action ordinaire qualifiante donne droit à une action spéciale de vote de classe A sans contrepartie.",
+      "status": "verified",
+      "sourceIds": [
+        "S04"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C06",
+      "statement": "Les actions spéciales de vote ne donnent pas droit aux dividendes ordinaires des actions communes et n'ont pas d'autre droit aux bénéfices que la réserve minimale prévue par les statuts.",
+      "status": "verified",
+      "sourceIds": [
+        "S01"
+      ],
+      "notes": "Le résultat du programme est traité comme un mécanisme de vote et non comme un bénéfice économique à publier dans la fiche."
+    },
+    {
+      "id": "C07",
+      "statement": "Aucune remise de véhicule réservée à la seule qualité d'actionnaire Stellantis n'a été trouvée dans les sources officielles examinées.",
+      "status": "partially_verified",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S08",
+        "S09",
+        "S12"
+      ],
+      "notes": "Conclusion négative fondée sur l'espace actionnaires actuel et sur l'identification explicite des offres de véhicules comme offres salariés, retraités, proches ou clients. Une offre locale non indexée ne peut être absolument exclue."
+    },
+    {
+      "id": "C08",
+      "statement": "Le Club actionnaires PSA Peugeot Citroën documenté en 2013 concernait Peugeot S.A. et ne prouve pas un club Stellantis actif.",
+      "status": "verified",
+      "sourceIds": [
+        "S10",
+        "S11"
+      ],
+      "notes": "Peugeot S.A. a fusionné dans FCA N.V. le 16 janvier 2021; l'entité survivante a été renommée Stellantis N.V."
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "Stellantis exploite un club actionnaires commercial, gratuit et accessible dès une action.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S05",
+        "S12"
+      ]
+    },
+    {
+      "claim": "Les visites de Mulhouse, Sochaux, Mirafiori ou les événements des marques constituent des avantages garantis aux actionnaires.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S12"
+      ]
+    },
+    {
+      "claim": "Les publications financières, webcasts et contacts investisseurs sont des avantages de club.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S02",
+        "S03"
+      ]
+    },
+    {
+      "claim": "La participation à l'assemblée générale et le vote ordinaire sont des bénéfices actionnaires à recenser.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S05"
+      ]
+    },
+    {
+      "claim": "Le dividende ordinaire versé aux détenteurs d'actions communes est un avantage de fidélité.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S01"
+      ]
+    },
+    {
+      "claim": "Le programme Shares to Win et sa décote de souscription sont accessibles à tous les actionnaires Stellantis.",
+      "reason": "not_shareholder_specific",
+      "sourceIds": [
+        "S07"
+      ]
+    },
+    {
+      "claim": "Le Stellantis Club et ses offres de ventes de véhicules sont un club destiné aux actionnaires.",
+      "reason": "not_shareholder_specific",
+      "sourceIds": [
+        "S09"
+      ]
+    },
+    {
+      "claim": "La campagne américaine de prix salarié lancée en 2025 était une remise réservée aux actionnaires.",
+      "reason": "not_shareholder_specific",
+      "sourceIds": [
+        "S08"
+      ]
+    },
+    {
+      "claim": "L'ancien Club actionnaires PSA Peugeot Citroën s'est automatiquement poursuivi comme club Stellantis.",
+      "reason": "discontinued",
+      "sourceIds": [
+        "S10",
+        "S11",
+        "S12"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/financial-reports/Stellantis-NV-20251231-Annual-Report.pdf",
+      "title": "Stellantis N.V. Annual Report for the year ended December 31, 2025",
+      "publisher": "Stellantis N.V.",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2026-02-26",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Le rapport confirme l'entité néerlandaise, les trois cotations, la structure du capital et les droits des actions spéciales. Il précise que celles-ci ne reçoivent pas les dividendes ordinaires et n'ont pas d'autre droit aux bénéfices que la réserve minimale statutaire."
+    },
+    {
+      "id": "S02",
+      "url": "https://www.stellantis.com/en/investors/stock-and-shareholder-info/stock-info",
+      "title": "Stock Info",
+      "publisher": "Stellantis N.V.",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La page confirme les symboles STLA, STLAM et STLAP, l'ISIN NL00150001Q9, les systèmes DTC, Monte Titoli et Euroclear France, le DRS américain, les agents de registre et l'immobilisation des actions participant au programme de fidélité."
+    },
+    {
+      "id": "S03",
+      "url": "https://www.stellantis.com/en/investors/stock-and-shareholder-info/special-voting-shares",
+      "title": "Special Voting Shares",
+      "publisher": "Stellantis N.V.",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La page actuelle nomme le Loyalty Voting Program, indique que les actions inscrites ne sont pas négociables, décrit la désinscription et fournit les contacts Computershare aux États-Unis et en Italie ainsi que Société Générale Securities Services en France."
+    },
+    {
+      "id": "S04",
+      "url": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/stock-and-shareholder-info/special-voting-shares/Special_Voting_Shares_Terms_and_Conditions.pdf",
+      "title": "Special Voting Shares - Terms and Conditions",
+      "publisher": "Stellantis N.V.",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": "2021-01-04",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Conditions officielles toujours liées depuis la page actuelle. Elles définissent le seuil d'une ou plusieurs actions, les trois ans d'inscription, l'allocation d'une action spéciale par action qualifiante, les formulaires, preuves, délais, restrictions, sortie et répartition des coûts."
+    },
+    {
+      "id": "S05",
+      "url": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/stock-and-shareholder-info/shareholder-meetings/agm-2026/Notice-Stellantis-NV-2026-AGM.pdf",
+      "title": "Notice of the Annual General Meeting - Stellantis N.V.",
+      "publisher": "Stellantis N.V.",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2026-03-02",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "La notice 2026 confirme le maintien du Loyalty Register, distingue ce registre d'Euroclear France, Monte Titoli, DTC et du registre ordinaire, et identifie Computershare Trust Company, Computershare S.p.A. et Société Générale Securities Services France comme agents."
+    },
+    {
+      "id": "S06",
+      "url": "https://live.euronext.com/en/product/indices/FR0003500008-XPAR/market-information",
+      "title": "CAC 40 - Index Composition",
+      "publisher": "Euronext",
+      "sourceType": "official_partner",
+      "official": true,
+      "publishedAt": "2026-06-08",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "C",
+      "evidenceSummary": "La composition officielle du CAC 40 datée du 8 juin 2026 inclut Stellantis N.V., ISIN NL00150001Q9."
+    },
+    {
+      "id": "S07",
+      "url": "https://www.stellantis.com/en/news/press-releases/2025/december/stellantis-shares-to-win-employee-purchase-plan-reaches-22-million-shares-subscribed-in-over-three-years",
+      "title": "Stellantis' Shares to Win Employee Purchase Plan Reaches 22 Million Shares Subscribed in Over Three Years",
+      "publisher": "Stellantis N.V.",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": "2025-12-05",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Le communiqué précise que Shares to Win est un plan d'achat d'actions réservé aux salariés éligibles dans 20 pays, avec décote de 20 % et abondement. Il ne constitue pas un avantage offert aux actionnaires ordinaires."
+    },
+    {
+      "id": "S08",
+      "url": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/events-and-presentations/other-documents/Stellantis-Q12025-Shipments-and-Revenues-Transcript.pdf",
+      "title": "Stellantis Q1 2025 Shipments and Revenues Transcript",
+      "publisher": "Stellantis N.V.",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2025-04-30",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "archived",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Le transcript explique qu'une campagne commerciale américaine a étendu le prix salarié à des clients en avril 2025. Cette remise temporaire était liée aux clients et au contexte tarifaire, non à la détention d'actions Stellantis."
+    },
+    {
+      "id": "S09",
+      "url": "https://thestellantisclub.com/world-pass",
+      "title": "Stellantis Club World Pass",
+      "publisher": "The Stellantis Club",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La page réserve le Stellantis Club World Pass aux salariés après leur période d'essai, aux retraités et à certains proches. Elle décrit des offres de ventes de véhicules salariés par pays et exige une validation par les ressources humaines."
+    },
+    {
+      "id": "S10",
+      "url": "https://www.stellantis.com/content/dam/stellantis-corporate/archives/psa/financial-documents/2013/fr/2013_document-de-reference_fr.pdf",
+      "title": "PSA Peugeot Citroën - Document de référence 2013",
+      "publisher": "Peugeot S.A.",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2014-04-02",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "archived",
+      "evidenceGrade": "D",
+      "evidenceSummary": "Le document archivé indique qu'un Club actionnaires PSA Peugeot Citroën créé en 2010 comptait plus de 3 300 membres fin 2013. Cette preuve historique concerne Peugeot S.A., pas un programme commercial actuel de Stellantis N.V."
+    },
+    {
+      "id": "S11",
+      "url": "https://www.stellantis.com/en/news/press-releases/2021/january/the-merger-of-fca-and-groupe-psa-has-been-completed",
+      "title": "The merger of FCA and Groupe PSA has been completed",
+      "publisher": "Stellantis N.V.",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": "2021-01-16",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "archived",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Le communiqué confirme que Peugeot S.A. a fusionné avec Fiat Chrysler Automobiles N.V. le 16 janvier 2021 et que les nouvelles actions Stellantis ont commencé à être cotées sous le symbole STLA en janvier 2021."
+    },
+    {
+      "id": "S12",
+      "url": "https://www.stellantis.com/en/investors/individual-shareholders",
+      "title": "Historical individual shareholders URL",
+      "publisher": "Stellantis N.V.",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "unavailable",
+      "evidenceGrade": "E",
+      "evidenceSummary": "L'URL utilisée par les anciennes données du projet ne fournit plus de page actionnaires individuels vérifiable. La navigation officielle actuelle renvoie vers Stock Info, Shareholder Meetings, Special Voting Shares, Distribution Information et les autres rubriques de relations investisseurs."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Club actionnaires et bénéfices historiques du projet",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S05",
+        "S12"
+      ],
+      "positions": [
+        "Les données historiques du projet décrivent une communauté actionnaires accessible dès une action, avec visites de sites, événements de marques et communications dédiées.",
+        "Les sources officielles actuelles documentent un programme de vote de fidélité et des relations investisseurs, sans club commercial, calendrier de visites ou conditions d'événements réservés."
+      ],
+      "resolution": "Classer Stellantis en shareholder_program pour le Loyalty Voting Program, conserver clubName et clubUrl à null et exclure les visites, événements et communications des bénéfices.",
+      "impact": "benefit_excluded"
+    },
+    {
+      "topic": "Remises de véhicules attribuées aux actionnaires",
+      "sourceIds": [
+        "S08",
+        "S09"
+      ],
+      "positions": [
+        "Certaines offres Stellantis utilisent les termes employee pricing, Stellantis Club ou ventes de véhicules et peuvent être prises à tort pour des avantages actionnaires.",
+        "Les documents officiels les rattachent aux salariés, retraités, proches validés par les ressources humaines ou, temporairement, à l'ensemble des clients américains."
+      ],
+      "resolution": "Ne retenir aucune remise de véhicule dans benefits, faute de condition fondée sur la qualité d'actionnaire Stellantis.",
+      "impact": "benefit_excluded"
+    },
+    {
+      "topic": "Nominatif ordinaire et Loyalty Register",
+      "sourceIds": [
+        "S02",
+        "S04",
+        "S05"
+      ],
+      "positions": [
+        "Stellantis permet plusieurs formes de détention, dont des comptes d'intermédiaires, le DRS et des actions enregistrées.",
+        "Le programme de fidélité exige une inscription distincte au Loyalty Register au nom de l'actionnaire et rend les actions concernées non négociables tant qu'elles y restent."
+      ],
+      "resolution": "Ne pas présenter le nominatif pur ou administré comme une adhésion automatique. Décrire le Loyalty Register comme le mode spécifique requis, administré par les agents de transfert.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Continuité de l'ancien Club actionnaires PSA",
+      "sourceIds": [
+        "S10",
+        "S11",
+        "S12"
+      ],
+      "positions": [
+        "Peugeot S.A. documentait un Club actionnaires PSA Peugeot Citroën en 2013.",
+        "Peugeot S.A. a disparu dans la fusion de 2021 et aucune source Stellantis actuelle ne publie la continuité de ce club."
+      ],
+      "resolution": "Traiter le club PSA comme historique et discontinué; il ne doit pas être transféré par analogie à Stellantis N.V.",
+      "impact": "benefit_excluded"
+    },
+    {
+      "topic": "Programme formel sans bénéfice commercial recensable",
+      "sourceIds": [
+        "S01",
+        "S03",
+        "S04"
+      ],
+      "positions": [
+        "Le Loyalty Voting Program est un programme actionnaire formel avec seuil, inscription, durée et attribution d'actions spéciales.",
+        "Son résultat porte sur des droits de vote supplémentaires et les actions spéciales n'ont pas les droits économiques ordinaires des actions communes."
+      ],
+      "resolution": "Conserver la classification shareholder_program mais laisser benefits vide conformément à l'exclusion des droits de vote et à l'absence d'avantage économique ou commercial prouvé.",
+      "impact": "wording_only"
+    }
+  ],
+  "handoff": {
+    "researchStatus": "complete_with_uncertainties",
+    "readyForDevelopment": true,
+    "benefitCount": 0,
+    "faqCount": 6,
+    "blockingIssues": [],
+    "developerNotes": [
+      "Utiliser le nom public Stellantis et les métadonnées du manifeste: secteur Automobile, stockIndex CAC40, ticker STLA.",
+      "Ne créer ni clubName ni clubUrl; la page Special Voting Shares est celle d'un programme de gouvernance, pas d'un club commercial.",
+      "Conserver minShares à 1 uniquement comme seuil d'accès au Loyalty Voting Program.",
+      "Laisser benefits vide: les actions spéciales ajoutent des droits de vote mais aucun avantage économique ou remise actionnaire prouvé.",
+      "Ne pas réintroduire les visites de sites, événements de marques, communications publiques, assemblée générale, vote ordinaire ou dividende comme bénéfices.",
+      "Ne pas confondre Shares to Win, le Stellantis Club salariés/retraités, les ventes de véhicules employés ou les campagnes clients avec une offre destinée aux actionnaires.",
+      "Ne pas reprendre l'ancien Club actionnaires PSA comme dispositif Stellantis actuel."
+    ]
+  }
+}

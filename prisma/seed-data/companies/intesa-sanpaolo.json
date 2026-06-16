@@ -1,0 +1,107 @@
+{
+  "slug": "intesa-sanpaolo",
+  "name": "Intesa Sanpaolo",
+  "description": "Intesa Sanpaolo S.p.A. est le premier groupe bancaire italien, actif dans la banque de détail, le financement, la gestion de patrimoine et la protection. Son action ordinaire, code ISP et ISIN IT0000072618, est négociée sur Euronext Milan et appartient au FTSE MIB.",
+  "sector": "Banque & Finance",
+  "stockIndex": "FTSE MIB",
+  "ticker": "ISP",
+  "website": "https://group.intesasanpaolo.com/en/",
+  "clubName": "Club Azionisti Intesa Sanpaolo",
+  "clubUrl": "https://www.intesasanpaolo.com/it/common/landing/club-azionisti.html",
+  "minShares": 1000,
+  "lastVerifiedAt": "2026-06-09",
+  "benefits": [
+    {
+      "type": "reduction",
+      "title": "XME Conto Gold et retraits SEPA à frais annulés",
+      "description": "Le module Base annule le forfait mensuel de XME Conto Gold et la commission de retrait aux distributeurs d'une autre banque ou d'un autre intermédiaire dans la zone SEPA. L'actionnaire doit avoir détenu sans interruption au moins 1 000 actions pendant les 12 mois précédant sa demande, sur un dépôt administré Intesa Sanpaolo associé au XME Conto Gold avantagé, puis maintenir ces conditions. Un seul compte peut bénéficier de l'avantage; pour un compte joint, les 1 000 actions doivent appartenir à un même cotitulaire. La première carte de débit, la première XME Credit Card et le dépôt administré sont déjà à forfait nul dans l'offre standard et ne constituent pas des avantages supplémentaires du Club. Le choix d'une autre promotion sur le compte peut entraîner la sortie du Club, annoncé jusqu'au 31 décembre 2026 sauf prorogation.",
+      "value": "XME Conto Gold: 0 € par mois au lieu de 10,90 €; retrait externe en zone SEPA: 0 € au lieu de 0,50 €",
+      "requiredShares": 1000,
+      "sourceUrl": "https://www.intesasanpaolo.com/content/dam/vetrina/documenti/club-degli-azionisti/club-degli-azionisti-isp-termini-e-condizioni.pdf"
+    },
+    {
+      "type": "reduction",
+      "title": "Forfait bancaire annulé chez ISP Private Banking",
+      "description": "Chez Intesa Sanpaolo Private Banking, le module Base annule le forfait d'un compte courant ordinaire, la commission de gestion et d'administration du dépôt administré associé, le forfait de la carte de débit liée et la commission de retrait externe en zone SEPA. L'actionnaire doit avoir détenu sans interruption au moins 1 000 actions pendant les 12 mois précédant sa demande, sur le dépôt administré associé à un compte courant ordinaire de la même banque, puis maintenir ces conditions. Un seul compte, individuel ou joint, peut être avantagé. Les forfaits sont annulés à compter du premier débit suivant l'adhésion et les retraits dès l'adhésion; les autres services et opérations restent facturés selon leurs contrats et l'avantage n'est en principe pas cumulable avec une autre promotion sur les mêmes produits. Le Club est annoncé jusqu'au 31 décembre 2026 sauf prorogation.",
+      "value": "Forfaits et commissions énumérés à 0 €; tarifs standard hors Club non publiés dans le règlement",
+      "requiredShares": 1000,
+      "sourceUrl": "https://www.intesasanpaolo.com/content/dam/vetrina/documenti/club-degli-azionisti/club-degli-azionisti-isp-termini-e-condizioni.pdf"
+    },
+    {
+      "type": "reduction",
+      "title": "Forfait bancaire réduit sur Fideuram ONE",
+      "description": "Chez Fideuram, le module Base annule le forfait d'un compte Fideuram ONE, les frais de garde du dépôt administré, le forfait de la carte de débit et le retrait externe en zone SEPA; la carte de crédit liée est gratuite la première année puis bénéficie d'une réduction de 50 %. L'actionnaire doit avoir détenu sans interruption au moins 1 000 actions pendant les 12 mois précédant sa demande, sur un dépôt administré Fideuram associé au compte Fideuram ONE, puis maintenir ces conditions. Un ancien compte doit être transformé définitivement en Fideuram ONE et un seul compte, individuel ou joint, peut être avantagé. Les autres services restent aux conditions ordinaires et les avantages ne sont en principe pas cumulables avec d'autres promotions sur les mêmes produits. Le Club est annoncé jusqu'au 31 décembre 2026 sauf prorogation.",
+      "value": "Compte, garde, carte de débit et retrait énumérés à 0 €; carte de crédit à 0 € la première année puis -50 %",
+      "requiredShares": 1000,
+      "sourceUrl": "https://www.intesasanpaolo.com/content/dam/vetrina/documenti/club-degli-azionisti/club-degli-azionisti-isp-termini-e-condizioni.pdf"
+    },
+    {
+      "type": "reduction",
+      "title": "Conditions Club sur un XME Prestito du 1er au 30 juin 2026",
+      "description": "Pour un seul XME Prestito souscrit du 1er au 30 juin 2026 et réglé sur le compte avantagé, le Club prévoit un TAN fixe de 7,70 % et une réduction de 50 % des frais d'instruction. Il faut être membre après avoir détenu au moins 1 000 actions pendant 12 mois continus, conserver le compte éligible et le dépôt administré dans la même banque et demander expressément les conditions Club avant la conclusion du prêt. Le crédit reste soumis à l'approbation de la banque. Le document standard vise notamment les consommateurs résidant en Italie, âgés de 18 ans à moins de 80 ans à l'échéance et titulaires de My Key. Les intérêts, impôts, frais par échéance et autres coûts non annulés restent dus; le taux et le coût total dépendent du dossier et cette offre n'est pas permanente.",
+      "value": "TAN 7,70 % au lieu de 10,90 %; frais d'instruction réduits de 50 %",
+      "requiredShares": 1000,
+      "sourceUrl": "https://www.intesasanpaolo.com/it/common/landing/club-azionisti.html"
+    },
+    {
+      "type": "reduction",
+      "title": "Réduction sur un prêt immobilier d'achat du 1er au 30 juin 2026",
+      "description": "Pour une demande déposée du 1er au 30 juin 2026 afin de financer l'achat d'un logement, à taux fixe ou variable et avec un ratio prêt-valeur maximal de 80 %, le Club réduit de 0,35 point le taux ou le spread publié et annule les frais d'instruction. Il faut être membre après avoir détenu au moins 1 000 actions pendant 12 mois continus, conserver le compte éligible et le dépôt administré dans la même banque et demander l'offre avant la conclusion du contrat. Le crédit reste soumis à l'approbation de la banque et à une hypothèque sur un immeuble situé en Italie. L'offre n'est pas cumulable avec d'autres promotions sauf l'offre Green; expertise, impôts, encaissement des échéances, assurance incendie, intérêts et autres coûts contractuels restent applicables.",
+      "value": "-0,35 point sur le taux ou le spread et frais d'instruction à 0 €",
+      "requiredShares": 1000,
+      "sourceUrl": "https://www.intesasanpaolo.com/it/common/landing/club-azionisti.html"
+    },
+    {
+      "type": "reduction",
+      "title": "Taux réduit et commission annulée sur Fido Più du 1er au 30 juin 2026",
+      "description": "Pour un Fido Più ouvert sur le compte avantagé du 1er au 30 juin 2026, le taux variable correspond à l'Euribor trois mois du mois précédent augmenté d'un spread de 4,25 %, et la commission de disponibilité des fonds est annulée. Il faut être membre après avoir détenu au moins 1 000 actions pendant 12 mois continus, conserver le compte éligible et le dépôt administré dans la même banque et demander expressément l'offre. L'ouverture de crédit reste soumise à l'approbation d'Intesa Sanpaolo, est révocable et peut être remboursable à la demande selon le contrat. Le taux évolue avec l'Euribor; les intérêts, conséquences d'un dépassement et autres conditions non annulées restent applicables.",
+      "value": "Spread de 4,25 % et commission de disponibilité des fonds à 0 €",
+      "requiredShares": 1000,
+      "sourceUrl": "https://www.intesasanpaolo.com/it/common/landing/club-azionisti.html"
+    },
+    {
+      "type": "reduction",
+      "title": "Frais de souscription Eurizon supprimés du 1er au 30 juin 2026",
+      "description": "Un membre qui souscrit du 1er au 30 juin 2026 un fonds commun géré par Eurizon Capital SGR ou Eurizon Capital S.A. bénéficie de l'exonération des frais de souscription. Il doit avoir détenu au moins 1 000 actions pendant 12 mois continus, conserver le compte éligible et le dépôt administré utilisés pour l'adhésion dans la même banque et demander l'application de l'offre avant la souscription. Seuls les frais de souscription sont supprimés: frais courants, gestion, éventuelles commissions de performance, taxes et autres coûts restent applicables. La souscription dépend des règles de commercialisation et de l'évaluation d'adéquation ou d'appropriation; la valeur du placement peut baisser et le capital n'est pas garanti. La liste exhaustive des fonds et parts admissibles ainsi que le barème des frais évités ne sont pas publiés.",
+      "value": "Frais de souscription à 0 €",
+      "requiredShares": 1000,
+      "sourceUrl": "https://www.intesasanpaolo.com/it/common/landing/club-azionisti.html"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Quel est le seuil d'actions et faut-il vraiment attendre douze mois ?",
+      "answer": "Oui. Le règlement exige au moins 1 000 actions Intesa Sanpaolo déposées sans interruption pendant au moins 12 mois auprès de la banque où l'adhésion est demandée. Le seuil et la durée sont cumulatifs. Une règle spéciale permet de reprendre certaines périodes antérieures lorsque les actions proviennent d'une conversion liée à une acquisition."
+    },
+    {
+      "question": "Peut-on conserver les actions chez un courtier externe ou dans n'importe quelle banque du Groupe ?",
+      "answer": "Non. Les actions doivent être sur un dépôt administré lié au compte éligible dans la même banque: XME Conto Gold chez Intesa Sanpaolo, compte courant ordinaire chez Intesa Sanpaolo Private Banking, ou Fideuram ONE chez Fideuram. Une simple attestation d'un courtier externe n'est pas prévue comme solution de remplacement."
+    },
+    {
+      "question": "Comment adhérer au Club Azionisti et l'inscription est-elle payante ?",
+      "answer": "L'adhésion ne se fait pas par un formulaire public en ligne: il faut présenter une demande écrite, sur le formulaire dédié, à la filiale qui détient le compte et les actions. Le règlement ne mentionne ni cotisation distincte ni frais de demande, mais il n'affirme pas expressément que l'adhésion est gratuite; les coûts des actions, du compte et des produits non annulés restent dus."
+    },
+    {
+      "question": "Quels avantages de compte sont réellement réservés aux membres du Club ?",
+      "answer": "Ils dépendent de la banque. Chez Intesa Sanpaolo, le Club annule le forfait de XME Conto Gold et le retrait externe en zone SEPA. La première carte de débit, la première XME Credit Card et le dépôt administré sont déjà annoncés gratuits dans le produit standard et ne doivent pas être attribués au Club. Intesa Sanpaolo Private Banking et Fideuram disposent de leurs propres ensembles de frais annulés dans le règlement."
+    },
+    {
+      "question": "Les taux réduits sur XME Prestito, le prêt immobilier et Fido Più sont-ils permanents ?",
+      "answer": "Non. Les conditions publiées au 9 juin 2026 sont des offres Plus limitées aux demandes ou souscriptions effectuées du 1er au 30 juin 2026. Elles restent soumises à l'approbation de la banque et aux autres conditions du produit. Le taux de 7,70 % de XME Prestito ne doit donc pas être présenté comme un avantage permanent du Club."
+    },
+    {
+      "question": "Que se passe-t-il si les conditions d'adhésion ne sont plus remplies ?",
+      "answer": "La banque contrôle la détention des actions au 31 décembre et peut vérifier le compte à tout moment. En cas de perte des conditions, les avantages Base cessent et les tarifs contractuels ordinaires reviennent. Les contrats Plus déjà conclus conservent leurs conditions, mais aucune nouvelle offre Plus n'est accessible. Le Club est annoncé jusqu'au 31 décembre 2026 sauf prorogation."
+    }
+  ],
+  "sources": [
+    "https://www.intesasanpaolo.com/content/dam/vetrina/documenti/club-degli-azionisti/club-degli-azionisti-isp-termini-e-condizioni.pdf",
+    "https://www.intesasanpaolo.com/it/common/landing/club-azionisti.html",
+    "https://www.intesasanpaolo.com/it/persone-e-famiglie/prodotti/conti-e-libretti/xme-conto-gold.html",
+    "https://www.intesasanpaolo.com/content/dam/vetrina/trasparenza/it/Documenti/Doc/Pdf/FI/FI-Other/FI-1558.pdf",
+    "https://www.intesasanpaolo.com/content/dam/vetrina/trasparenza/it/Documenti/Doc/Pdf/FI/FI-Other/FI-1289.pdf",
+    "https://www.intesasanpaolo.com/content/dam/vetrina/trasparenza/it/Documenti/Doc/Pdf/FI/FI-Other/FI-1424.pdf",
+    "https://www.borsaitaliana.it/borsa/azioni/scheda/IT0000072618-MTAA.html?lang=en",
+    "https://group.intesasanpaolo.com/en/newsroom/group-profile"
+  ]
+}

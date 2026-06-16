@@ -1,0 +1,614 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "royal-caribbean",
+    "name": "Royal Caribbean Group",
+    "description": "Royal Caribbean Group est la marque d'entreprise de Royal Caribbean Cruises Ltd., groupe mondial de vacances coté au NYSE. Il exploite 69 navires et plus de 1 000 destinations par ses trois marques détenues à 100 % : Royal Caribbean, Celebrity Cruises et Silversea.",
+    "sector": "Hôtellerie & Tourisme",
+    "stockIndex": "S&P 500",
+    "ticker": "RCL",
+    "website": "https://www.royalcaribbeangroup.com/",
+    "clubName": null,
+    "clubUrl": null
+  },
+  "offerClassification": {
+    "primaryKind": "shareholder_benefit",
+    "otherKinds": [
+      "shareholder_program",
+      "investor_relations_only"
+    ],
+    "officialProgrammeName": "Shareholder Benefit Offer",
+    "status": "active",
+    "statusReason": "La FAQ officielle, mise à jour le 22 janvier 2026, publie toujours un crédit à bord réservé aux détenteurs d'au moins 100 actions RCL et dirige vers deux formulaires électroniques actifs. Il s'agit d'un avantage formel, sans club ni adhésion distincte.",
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": 100,
+    "eligibleShareClasses": [
+      "Actions ordinaires de Royal Caribbean Cruises Ltd., négociées au New York Stock Exchange sous le symbole RCL"
+    ],
+    "holdingModes": [
+      "broker_account"
+    ],
+    "minimumHoldingPeriod": "Aucune durée minimale de détention n'est publiée. L'actionnaire doit toutefois posséder au moins 100 actions RCL au moment de la traversée.",
+    "residencyRestrictions": [],
+    "accountRestrictions": [
+      "Le nom figurant sur le relevé de courtage doit correspondre au nom porté sur la réservation.",
+      "Le relevé de courtage doit dater de moins de 90 jours lors de la demande.",
+      "L'actionnaire doit voyager dans la cabine créditée.",
+      "Un seul crédit actionnaire est accordé par cabine et par traversée; un même actionnaire ne peut recevoir qu'un crédit par traversée.",
+      "Pour plusieurs cabines demandées avec des actions détenues conjointement, au moins 100 actions doivent être détenues pour chaque cabine.",
+      "Les formulaires électroniques actuels exigent un relevé de courtage et ne documentent pas d'alternative pour une détention directe auprès d'un agent de transfert."
+    ],
+    "proofRequired": [
+      "Relevé de courtage actuel datant de moins de 90 jours.",
+      "Nom de l'actionnaire, identique à celui de la réservation, mis en évidence sur le relevé.",
+      "Détention d'au moins 100 actions RCL mise en évidence sur le relevé.",
+      "Date du relevé mise en évidence.",
+      "Numéro de réservation, navire et date de départ."
+    ],
+    "fees": {
+      "membershipFee": "Aucun frais d'adhésion publié; il n'existe pas de club distinct.",
+      "applicationFee": "Aucun frais de demande publié.",
+      "otherFees": [],
+      "notes": "Les frais éventuels de courtage ou de conservation des actions relèvent de l'intermédiaire financier et ne sont pas des frais du programme."
+    },
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S06"
+    ]
+  },
+  "enrollment": {
+    "required": true,
+    "method": "online_form",
+    "applicationUrl": "https://www.rclinvestor.com/contact-us/faqs/shareholder-benefit/",
+    "contact": "Questions générales : ShareholderBenefitInfo@rccl.com, qui ne traite pas les demandes. Silversea : tradeadmin@silversea.com. Les demandes Royal Caribbean International et Celebrity Cruises passent par https://rccl.my.salesforce-sites.com/shareholdersobc; les demandes Silversea par https://rcg.questionpro.com/silverseashareholderbenefit.",
+    "steps": [
+      "Choisir le formulaire électronique correspondant à Royal Caribbean International/Celebrity Cruises ou à Silversea.",
+      "Saisir les coordonnées de l'actionnaire ainsi que le numéro de réservation, le navire et la date de départ.",
+      "Joindre un relevé de courtage de moins de 90 jours en mettant en évidence le nom correspondant à la réservation, la date du relevé et au moins 100 actions RCL.",
+      "Pour Royal Caribbean International et Celebrity Cruises, joindre un PDF ou une image de 2,5 Mo maximum; un formulaire accepte jusqu'à dix réservations.",
+      "Envoyer la demande au moins trois semaines avant le départ et attendre la réponse annoncée sous sept jours."
+    ],
+    "processingTime": "Les deux formulaires annoncent une réponse dans les sept jours suivant la demande.",
+    "renewal": "Il n'existe pas d'adhésion annuelle. Une nouvelle demande et un justificatif actuel sont nécessaires pour chaque réservation ou groupe de réservations soumis.",
+    "deadlines": [
+      "Les formulaires actuels et les conditions PDF demandent un envoi au moins trois semaines avant la date de départ.",
+      "La FAQ indique encore approximativement deux à trois semaines; le délai prudent et le plus précis est donc de 21 jours.",
+      "Aucune date de fin du programme n'est publiée au 9 juin 2026; l'offre peut être modifiée ou retirée sans préavis."
+    ],
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ]
+  },
+  "benefits": [
+    {
+      "id": "B01",
+      "type": "reduction",
+      "title": "Crédit à bord actionnaire jusqu'à 1 000 dollars",
+      "description": "Un actionnaire détenant au moins 100 actions RCL au moment de la traversée peut demander un crédit à bord par cabine : 50 dollars pour cinq nuits ou moins, 100 dollars pour six à treize nuits, 250 dollars à partir de quatorze nuits et 1 000 dollars pour une croisière mondiale. Le même barème couvre les traversées éligibles Royal Caribbean International, Celebrity Cruises et Silversea.",
+      "value": "Croisière mondiale : US$1 000; ≥ 14 nuits : US$250; 6-13 nuits : US$100; ≤ 5 nuits : US$50",
+      "requiredShares": 100,
+      "requiredHoldingModes": [
+        "Compte de courtage permettant de produire un relevé de moins de 90 jours"
+      ],
+      "requiredHoldingPeriod": "Aucune ancienneté minimale publiée; les 100 actions doivent être détenues au moment de la traversée.",
+      "availability": "subject_to_capacity",
+      "validFrom": "2023-06-01 pour les réservations effectuées à partir de cette date",
+      "validUntil": null,
+      "requestDeadline": "Au moins trois semaines avant la date de départ.",
+      "procedure": [
+        "Détenir au moins 100 actions RCL au moment de la traversée.",
+        "Utiliser le formulaire Salesforce pour Royal Caribbean International ou Celebrity Cruises, ou le formulaire QuestionPro pour Silversea.",
+        "Renseigner les informations de l'actionnaire et de la réservation.",
+        "Joindre un relevé de courtage de moins de 90 jours où le nom, la date et les 100 actions RCL sont mis en évidence.",
+        "Soumettre la demande au moins 21 jours avant le départ."
+      ],
+      "limitsAndExclusions": [
+        "L'offre couvre seulement les traversées éligibles Royal Caribbean International, Celebrity Cruises et Silversea; TUI Cruises et Hapag-Lloyd Cruises ne sont pas citées.",
+        "Les traversées affrétées, gratuites et Galapagos sont exclues.",
+        "Les salariés de Royal Caribbean Group, de ses filiales et sociétés affiliées sont exclus.",
+        "Le crédit est non transférable et s'applique uniquement à la cabine dans laquelle voyage l'actionnaire.",
+        "Un seul crédit est accordé par cabine et par actionnaire sur une même traversée; les actions détenues conjointement doivent atteindre 100 actions par cabine demandée.",
+        "Un voyageur seul payant 200 % du tarif applicable reçoit la valeur intégrale du crédit.",
+        "Le crédit ne peut pas payer les frais de service à bord ni les activités achetées avant la croisière.",
+        "Le solde inutilisé après la dernière nuit est perdu et non remboursable en espèces, sauf pour le crédit de croisière mondiale, utilisable pour les excursions et remboursable sur demande sur le moyen de paiement d'origine.",
+        "Le montant est calculé en dollars US; lorsque la devise de bord est étrangère, la compagnie applique son propre taux de conversion.",
+        "La FAQ actuelle ne confirme pas que le crédit est cumulable avec toutes les promotions, autres crédits ou coupons.",
+        "L'offre est soumise à disponibilité et contrôle de capacité, peut changer sans préavis et peut être retirée à tout moment."
+      ],
+      "primarySourceId": "S01",
+      "supportingSourceIds": [
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "sourceUrl": "https://www.rclinvestor.com/contact-us/faqs/shareholder-benefit/",
+      "evidenceGrade": "A",
+      "uncertainty": "Aucune date de fin n'est publiée. La FAQ pose une question sur le cumul mais affiche une réponse relative aux exclusions et à la non-transférabilité; elle ne permet donc pas d'affirmer un cumul général avec les promotions."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Combien d'actions Royal Caribbean faut-il détenir et pendant combien de temps ?",
+      "answer": "Il faut posséder au moins 100 actions Royal Caribbean Cruises Ltd. cotées au NYSE sous RCL au moment de la traversée. Aucune ancienneté minimale n'est publiée. La demande doit toutefois inclure un relevé de courtage de moins de 90 jours où apparaissent clairement le nom correspondant à la réservation, la date du relevé et les 100 actions.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "question": "Quel crédit à bord est accordé selon la durée et la marque de la croisière ?",
+      "answer": "Le barème par cabine est de 50 dollars pour cinq nuits ou moins, 100 dollars pour six à treize nuits, 250 dollars à partir de quatorze nuits et 1 000 dollars pour une croisière mondiale. Ces montants s'appliquent aux traversées éligibles Royal Caribbean International, Celebrity Cruises et Silversea; les charters et les Galapagos sont exclus.",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "question": "Comment envoyer le formulaire et quel délai faut-il respecter ?",
+      "answer": "Royal Caribbean International et Celebrity Cruises utilisent le formulaire Salesforce officiel; Silversea utilise un formulaire QuestionPro distinct. Les formulaires et le PDF officiel demandent un dépôt au moins trois semaines avant le départ et annoncent une réponse sous sept jours. L'adresse ShareholderBenefitInfo@rccl.com répond aux questions mais ne traite pas les demandes.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "question": "Quels justificatifs faut-il joindre à la demande de crédit actionnaire ?",
+      "answer": "Il faut joindre un relevé de courtage datant de moins de 90 jours. Le nom identique à celui de la réservation, la date du relevé et la détention d'au moins 100 actions RCL doivent être mis en évidence. Le formulaire Royal Caribbean/Celebrity accepte un PDF ou une image de 2,5 Mo maximum et permet de saisir jusqu'à dix réservations.",
+      "sourceIds": [
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "question": "Le crédit peut-il être demandé pour plusieurs cabines ou plusieurs croisières ?",
+      "answer": "L'actionnaire peut redemander l'avantage aussi souvent qu'il voyage sur une traversée éligible. Chaque attribution reste limitée à la cabine qu'il occupe, à un crédit par cabine et à un crédit par actionnaire et par traversée. Pour plusieurs cabines liées à des actions détenues conjointement, il faut au moins 100 actions par cabine demandée.",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "question": "Le crédit est-il cumulable et jusqu'à quelle date l'offre 2026 est-elle valable ?",
+      "answer": "La FAQ officielle actuelle ne répond pas réellement à sa propre question sur le cumul : son texte traite seulement de non-transférabilité et d'exclusions. Il ne faut donc pas promettre un cumul général avec promotions, coupons ou autres crédits. L'avantage est actif au 9 juin 2026, mais aucune date de fin n'est publiée; Royal Caribbean peut le modifier ou le retirer sans préavis.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S08"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "Royal Caribbean Group est la marque d'entreprise de Royal Caribbean Cruises Ltd., dont l'action ordinaire est cotée au NYSE sous le symbole RCL.",
+      "status": "verified",
+      "sourceIds": [
+        "S05",
+        "S06"
+      ],
+      "notes": "Le nom du manifeste est Royal Caribbean Group; les dépôts réglementaires restent établis au nom juridique Royal Caribbean Cruises Ltd."
+    },
+    {
+      "id": "C02",
+      "statement": "Le seuil officiel du crédit à bord est de 100 actions RCL détenues au moment de la traversée.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "notes": "Aucune durée minimale de détention distincte n'est publiée."
+    },
+    {
+      "id": "C03",
+      "statement": "Le barème actuel est de 50, 100 ou 250 dollars selon la durée, avec 1 000 dollars pour une croisière mondiale.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "notes": "Les variantes de durée restent un seul bénéfice."
+    },
+    {
+      "id": "C04",
+      "statement": "Le même crédit couvre les traversées éligibles Royal Caribbean International, Celebrity Cruises et Silversea.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "notes": "Les traversées affrétées, gratuites et Galapagos sont exclues."
+    },
+    {
+      "id": "C05",
+      "statement": "Les formulaires actuels exigent un relevé de courtage de moins de 90 jours avec le nom, la date et les 100 actions RCL mis en évidence.",
+      "status": "verified",
+      "sourceIds": [
+        "S03",
+        "S04"
+      ],
+      "notes": "Le formulaire Royal Caribbean/Celebrity accepte un PDF ou une image de 2,5 Mo maximum."
+    },
+    {
+      "id": "C06",
+      "statement": "La demande doit être soumise au moins trois semaines avant le départ et les formulaires annoncent une réponse sous sept jours.",
+      "status": "verified",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "notes": "La FAQ emploie encore la formulation approximative de deux à trois semaines."
+    },
+    {
+      "id": "C07",
+      "statement": "L'avantage est limité à un crédit par cabine et par actionnaire sur une traversée, mais peut être redemandé pour de futurs voyages éligibles.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C08",
+      "statement": "L'avantage est actif au 9 juin 2026 sans date de fin publiée.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "notes": "La page officielle a été mise à jour le 22 janvier 2026 et les formulaires sont actifs; les conditions autorisent toutefois un retrait à tout moment."
+    },
+    {
+      "id": "C09",
+      "statement": "Le cumul avec toutes les promotions, tous les autres crédits à bord et tous les coupons n'est pas établi par les conditions actuelles.",
+      "status": "uncertain",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S08"
+      ],
+      "notes": "La réponse actuelle à la question de cumul est hors sujet et le PDF 2023 est silencieux; un PDF 2021 désormais expiré excluait seulement certains tarifs."
+    },
+    {
+      "id": "C10",
+      "statement": "RCL figurait dans les positions du SPDR S&P 500 ETF Trust au 9 juin 2026.",
+      "status": "verified",
+      "sourceIds": [
+        "S07"
+      ],
+      "notes": "Cette position quotidienne du fonds SPY corrobore la métadonnée S&P 500 à la date de référence."
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "Royal Caribbean exploite un club d'actionnaires avec une adhésion distincte.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01"
+      ]
+    },
+    {
+      "claim": "Les trois marques ou les quatre niveaux de montant constituent plusieurs bénéfices distincts.",
+      "reason": "duplicate",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "claim": "Le crédit maximal est toujours de 250 dollars, y compris pour les croisières mondiales.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "claim": "L'avantage est limité à Royal Caribbean International et Celebrity Cruises.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "claim": "TUI Cruises et Hapag-Lloyd Cruises sont couvertes par le crédit actionnaire RCL.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S10"
+      ]
+    },
+    {
+      "claim": "Le crédit actionnaire est garanti comme cumulable avec toutes les promotions standards.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S08"
+      ]
+    },
+    {
+      "claim": "Un délai de deux semaines est toujours suffisant pour déposer une demande.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "claim": "La procédure actuelle consiste à envoyer le formulaire papier de 2021 par courriel, fax ou courrier.",
+      "reason": "discontinued",
+      "sourceIds": [
+        "S01",
+        "S03",
+        "S04",
+        "S09"
+      ]
+    },
+    {
+      "claim": "L'adresse ShareholderBenefitInfo@rccl.com peut traiter directement une demande de crédit.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S01"
+      ]
+    },
+    {
+      "claim": "L'offre est permanente ou dispose d'une date de fin officielle au 31 décembre 2026.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "claim": "Le dividende ordinaire, le droit de vote et les informations investisseurs publiques sont des avantages commerciaux du programme.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S06"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.rclinvestor.com/contact-us/faqs/shareholder-benefit/",
+      "title": "Shareholder Benefits",
+      "publisher": "Royal Caribbean Group",
+      "sourceType": "official_faq",
+      "official": true,
+      "publishedAt": "2018-10-17",
+      "lastUpdatedAt": "2026-01-22",
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "FAQ officielle actuelle confirmant le seuil de 100 actions au moment de la traversée, le barème incluant 1 000 dollars pour une croisière mondiale, les trois marques, les exclusions, les limites par cabine, les usages interdits, les formulaires et les contacts."
+    },
+    {
+      "id": "S02",
+      "url": "https://www.rclinvestor.com/content/uploads/2023/06/RCG-Shareholder-Benefit-Offer-June-1-2023-final.pdf",
+      "title": "Shareholder Benefit Offer",
+      "publisher": "Royal Caribbean Group",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": "2023-06-01",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Conditions datées encore liées depuis la FAQ actuelle. Elles donnent le barème, le seuil, les marques, les exclusions, l'entrée en vigueur pour les réservations du 1er juin 2023, le délai de trois semaines, les limites d'utilisation et la possibilité de retrait."
+    },
+    {
+      "id": "S03",
+      "url": "https://rccl.my.salesforce-sites.com/shareholdersobc",
+      "title": "Shareholder Benefit Request Form",
+      "publisher": "Royal Caribbean Group",
+      "sourceType": "official_form",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Formulaire actuel Royal Caribbean International et Celebrity Cruises. Il exige un relevé de moins de 90 jours, le nom correspondant à la réservation et 100 actions mis en évidence, annonce trois semaines de délai et sept jours de réponse, accepte PDF ou image de 2,5 Mo et jusqu'à dix réservations."
+    },
+    {
+      "id": "S04",
+      "url": "https://rcg.questionpro.com/silverseashareholderbenefit",
+      "title": "SILVERSEA Shareholder Benefit Request - 4.21.23",
+      "publisher": "Royal Caribbean Group et Silversea Cruises",
+      "sourceType": "official_form",
+      "official": true,
+      "publishedAt": "2023-04-21",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Formulaire Silversea officiellement lié par la FAQ. Il demande un dépôt trois semaines avant le départ, annonce une réponse sous sept jours et exige un relevé de moins de 90 jours avec le nom correspondant et 100 actions RCL mis en évidence."
+    },
+    {
+      "id": "S05",
+      "url": "https://www.rclinvestor.com/content/uploads/2026/04/RCG-1Q26-Earnings-Press-Release.pdf",
+      "title": "Royal Caribbean Group Reports First Quarter Results That Exceeded Expectations and Provides an Update to Full Year Guidance",
+      "publisher": "Royal Caribbean Group",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2026-04-30",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Communiqué officiel 2026 confirmant l'identité Royal Caribbean Group, le symbole NYSE RCL, les 69 navires, plus de 1 000 destinations et les trois marques détenues à 100 %."
+    },
+    {
+      "id": "S06",
+      "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488726000007/rcl-20251231.htm",
+      "title": "Royal Caribbean Cruises Ltd. Annual Report on Form 10-K for 2025",
+      "publisher": "Royal Caribbean Cruises Ltd. et U.S. Securities and Exchange Commission",
+      "sourceType": "regulatory_filing",
+      "official": true,
+      "publishedAt": "2026-02-11",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Dernier rapport annuel disponible avant la date de référence, confirmant le nom juridique Royal Caribbean Cruises Ltd., l'activité du groupe, les marques, la flotte et la nature de l'action cotée."
+    },
+    {
+      "id": "S07",
+      "url": "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-spy.xlsx",
+      "title": "State Street SPDR S&P 500 ETF Trust - Daily Holdings",
+      "publisher": "State Street Global Advisors",
+      "sourceType": "official_partner",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2026-06-09",
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "C",
+      "evidenceSummary": "Positions quotidiennes du fonds SPY répliquant le S&P 500, datées du 9 juin 2026, incluant Royal Caribbean Cruises Ltd. sous le symbole RCL; elles corroborent l'indice du manifeste à la date exacte."
+    },
+    {
+      "id": "S08",
+      "url": "https://www.rclinvestor.com/content/uploads/2021/03/2021-RCL-Shareholder-Benefit-Offer.pdf",
+      "title": "Shareholder Benefit Offer",
+      "publisher": "Royal Caribbean Group",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": "2021-03",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "expired",
+      "evidenceGrade": "D",
+      "evidenceSummary": "Anciennes conditions officielles utilisées uniquement pour documenter l'historique du cumul : elles excluaient les tarifs interline, agents de voyages et employee friends and family. Elles ont été remplacées par les conditions applicables aux réservations depuis le 1er juin 2023."
+    },
+    {
+      "id": "S09",
+      "url": "https://www.rclinvestor.com/content/uploads/2021/03/RCL-Shareholder-Onboard-Credit-Offer-Request-Form-March-2021.pdf",
+      "title": "Shareholder Onboard Credit Offer Request Form",
+      "publisher": "Royal Caribbean Group",
+      "sourceType": "official_form",
+      "official": true,
+      "publishedAt": "2021-03",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "expired",
+      "evidenceGrade": "D",
+      "evidenceSummary": "Ancien formulaire papier acceptant proxy card ou relevé et envoi par courriel, fax ou courrier. La page officielle actuelle ne le propose plus et dirige exclusivement vers les formulaires électroniques."
+    },
+    {
+      "id": "S10",
+      "url": "https://www.royalcaribbeangroup.com/",
+      "title": "Royal Caribbean Group",
+      "publisher": "Royal Caribbean Group",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Site corporate actuel présentant Royal Caribbean, Celebrity Cruises et Silversea comme marques du groupe, ainsi que TUI Cruises et Hapag-Lloyd Cruises comme autres sites de marque sans les inclure dans le crédit actionnaire."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Délai de dépôt de la demande",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "positions": [
+        "La FAQ indique que les demandes doivent arriver approximativement deux à trois semaines avant le départ.",
+        "Le PDF actuel et les deux formulaires électroniques demandent explicitement un dépôt trois semaines avant le départ."
+      ],
+      "resolution": "Retenir le délai précis et prudent de trois semaines, soit 21 jours avant le départ.",
+      "impact": "none"
+    },
+    {
+      "topic": "Cumul avec promotions, autres crédits et coupons",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S08"
+      ],
+      "positions": [
+        "La FAQ actuelle pose la question du cumul mais affiche une réponse portant uniquement sur la non-transférabilité, les salariés et les traversées exclues; le PDF 2023 ne formule aucune règle générale de cumul.",
+        "Les anciennes conditions de 2021, désormais expirées, interdisaient le cumul avec les tarifs interline, agents de voyages et employee friends and family."
+      ],
+      "resolution": "Ne pas annoncer un cumul général ni réappliquer automatiquement les exclusions tarifaires de 2021. Présenter le cumul comme non confirmé par les conditions actuelles et recommander la vérification de l'offre de réservation.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Formulaire et preuve de détention",
+      "sourceIds": [
+        "S01",
+        "S03",
+        "S04",
+        "S09"
+      ],
+      "positions": [
+        "L'ancien formulaire de 2021 acceptait une proxy card ou un relevé et pouvait être envoyé par courriel, fax ou courrier.",
+        "La page et les formulaires actuels imposent une demande électronique et demandent un relevé de courtage de moins de 90 jours avec les informations essentielles mises en évidence."
+      ],
+      "resolution": "Retenir uniquement les deux formulaires électroniques actuels et leur exigence de relevé de courtage de moins de 90 jours. Classer l'ancienne procédure comme abandonnée.",
+      "impact": "wording_only"
+    }
+  ],
+  "handoff": {
+    "researchStatus": "complete_with_uncertainties",
+    "readyForDevelopment": true,
+    "benefitCount": 1,
+    "faqCount": 6,
+    "blockingIssues": [],
+    "developerNotes": [
+      "Ne pas créer de club : company.clubName et company.clubUrl restent null.",
+      "Conserver un seul bénéfice regroupant les quatre montants et les trois marques.",
+      "Afficher le montant spécial de 1 000 dollars pour une croisière mondiale; l'ancien maximum de 250 dollars est incomplet.",
+      "Utiliser le délai de 21 jours avant le départ et la réponse annoncée sous sept jours.",
+      "Mentionner le relevé de courtage de moins de 90 jours et les éléments à mettre en évidence.",
+      "Distinguer les deux formulaires : Salesforce pour Royal Caribbean/Celebrity, QuestionPro pour Silversea.",
+      "Ne pas promettre de cumul général avec les promotions ou autres crédits.",
+      "Conserver validUntil à null : l'offre est active au 9 juin 2026 mais aucune date de fin n'est publiée.",
+      "Ne pas inclure TUI Cruises ou Hapag-Lloyd Cruises dans les marques éligibles.",
+      "Ne créer aucun dossier final Prisma à cette étape."
+    ]
+  }
+}

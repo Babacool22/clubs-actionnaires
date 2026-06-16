@@ -1,0 +1,831 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "mapfre",
+    "name": "Mapfre",
+    "description": "MAPFRE, S.A. est la société mère d'un groupe espagnol d'assurance et de réassurance actif en Espagne, dans l'Espace économique européen et dans des pays tiers. Son action ordinaire, identifiée par l'ISIN ES0124244E34 et le symbole MAP, est cotée sur le marché continu espagnol et appartient à l'IBEX 35.",
+    "sector": "Assurance & Finance",
+    "stockIndex": "IBEX 35",
+    "ticker": "MAP",
+    "website": "https://www.mapfre.com/",
+    "clubName": "Club MAPFRE Accionista",
+    "clubUrl": "https://www.mapfre.com/en/shareholders-loyalty-plan/"
+  },
+  "offerClassification": {
+    "primaryKind": "shareholder_club",
+    "otherKinds": [
+      "shareholder_program",
+      "shareholder_benefit",
+      "investor_relations_only"
+    ],
+    "officialProgrammeName": "Club MAPFRE Accionista",
+    "status": "active",
+    "statusReason": "Au 9 juin 2026, MAPFRE publie toujours le formulaire et les conditions du Club MAPFRE Accionista. Le plan d'information « MAPFRE Shareholders. A unique value » est accessible dès une action, tandis que l'adhésion au club et ses avantages exige au moins 1 000 actions et une résidence en Espagne.",
+    "sourceIds": [
+      "S02",
+      "S03",
+      "S04"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": 1000,
+    "eligibleShareClasses": [
+      "Actions ordinaires MAPFRE, S.A. (ISIN ES0124244E34)"
+    ],
+    "holdingModes": [
+      "unspecified"
+    ],
+    "minimumHoldingPeriod": "Aucune durée minimale préalable n'est publiée, mais la résidence en Espagne et la propriété d'au moins 1 000 actions doivent être maintenues en permanence.",
+    "residencyRestrictions": [
+      "Le Club MAPFRE Accionista est réservé aux personnes physiques résidant en Espagne.",
+      "Un actionnaire non-résident peut rejoindre le plan d'information à partir d'une action, mais pas le club donnant accès aux avantages."
+    ],
+    "accountRestrictions": [
+      "Les conditions visent les actionnaires qui ne sont pas déjà membres du Club MAPFRE en qualité de clients MAPFRE.",
+      "L'accès aux offres en ligne requiert aussi une inscription dans l'Área de Clientes Internet de MAPFRE.",
+      "Le canje des Tréboles exige d'être preneur d'au moins une police MAPFRE éligible et d'avoir au moins 6 Tréboles à utiliser."
+    ],
+    "proofRequired": [
+      "Nom, prénoms, adresse, courriel, téléphone mobile et DNI ou NIE dans le formulaire public.",
+      "Propriété d'au moins 1 000 actions MAPFRE; le formulaire public ne demande ni téléversement d'attestation de courtier ni indication du mode de détention.",
+      "Code d'inscription envoyé par courriel, puis code et DNI utilisés pour finaliser l'adhésion au Club MAPFRE Accionista."
+    ],
+    "fees": {
+      "membershipFee": "Gratuite",
+      "applicationFee": "Aucun frais publié",
+      "otherFees": [
+        "L'achat des actions et leur conservation peuvent entraîner les frais habituels du courtier ou de la banque, indépendamment du club.",
+        "Les cartes carburant, cartes cadeaux et autres achats restent payants à leur valeur faciale ou au prix affiché.",
+        "Lorsqu'un expert trouve un produit ou un prestataire, le produit ou service choisi est payé directement au fournisseur."
+      ],
+      "notes": "La gratuité concerne l'adhésion au plan et les services expressément annoncés comme gratuits; elle ne rend pas gratuits les achats, assurances ou prestations de tiers."
+    },
+    "sourceIds": [
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S07",
+      "S08"
+    ]
+  },
+  "enrollment": {
+    "required": true,
+    "method": "online_form",
+    "applicationUrl": "https://www.formulariomapfreaccionistas.com/?lang=EN",
+    "contact": "Oficina del Accionista: 900 10 35 33 depuis l'Espagne; +34 91 581 23 18 depuis l'étranger; oficinadelaccionista@mapfre.com",
+    "steps": [
+      "Remplir le formulaire du plan « MAPFRE Shareholders. A unique value » avec les données personnelles obligatoires et les consentements choisis.",
+      "MAPFRE vérifie l'éligibilité au Club MAPFRE Accionista; la méthode de vérification des 1 000 actions n'est pas publiée.",
+      "Recevoir par courriel le code d'inscription lorsque les conditions du club sont remplies.",
+      "Utiliser le code reçu et le DNI pour s'inscrire sur le site du programme et accéder immédiatement aux avantages.",
+      "Créer ou utiliser l'Área de Clientes Internet de MAPFRE pour demander les services, télécharger les coupons et acheter les offres."
+    ],
+    "processingTime": "L'accès est annoncé comme immédiat après l'utilisation du code et du DNI; le délai d'envoi du code initial n'est pas publié.",
+    "renewal": "Aucun renouvellement périodique n'est décrit. Le membre perd son adhésion dès qu'il ne réside plus en Espagne ou ne détient plus au moins 1 000 actions.",
+    "deadlines": [
+      "Aucune date limite générale d'adhésion n'est publiée.",
+      "MAPFRE peut modifier ou annuler le programme à tout moment après publication de sa décision sur son site."
+    ],
+    "sourceIds": [
+      "S02",
+      "S03",
+      "S04"
+    ]
+  },
+  "benefits": [
+    {
+      "id": "B01",
+      "type": "service",
+      "title": "Conseiller bien-être gratuit et illimité",
+      "description": "Les membres Plata, Oro et Platino du Club MAPFRE disposent gratuitement et sans limite de consultations de psychologues, nutritionnistes et entraîneurs personnels par vidéo, chat ou téléphone, ainsi que de programmes de mindfulness, d'exercice et de menus. Le service couvre aussi certains proches vivant dans le foyer.",
+      "value": "Consultations gratuites et illimitées",
+      "requiredShares": 1000,
+      "requiredHoldingModes": [
+        "Propriété d'au moins 1 000 actions MAPFRE; mode de détention non précisé"
+      ],
+      "requiredHoldingPeriod": "Maintien permanent des conditions du Club MAPFRE Accionista",
+      "availability": "guaranteed",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Finaliser l'adhésion au Club MAPFRE Accionista.",
+        "Ouvrir l'Área de Clientes et sélectionner le service Asesor en Bienestar.",
+        "Choisir la spécialité et le canal proposé: vidéo, chat, téléphone ou contenu en ligne."
+      ],
+      "limitsAndExclusions": [
+        "Accessible aux membres Plata, Oro et Platino; le Club MAPFRE Accionista attribue la catégorie Plata.",
+        "Applicable au membre et à ses proches jusqu'au deuxième degré de consanguinité qui vivent dans la même unité familiale.",
+        "Les demandes et documents doivent être rédigés en espagnol.",
+        "Le service est annoncé 24 h sur 24, mais les vidéoconsultations psychologiques se réservent du lundi au vendredi selon les créneaux disponibles.",
+        "La page actuelle ne confirme pas l'ancien service d'orientation médicale ou pédiatrique 24 h sur 24."
+      ],
+      "primarySourceId": "S05",
+      "supportingSourceIds": [
+        "S04",
+        "S10"
+      ],
+      "sourceUrl": "https://www.mapfretecuidamos.com/particulares/expertos-asesores/asesor-bienestar/",
+      "evidenceGrade": "A",
+      "uncertainty": "Le lien entre actionnaire et catégorie Plata repose sur les conditions du Club MAPFRE Accionista datées de 2018 mais toujours liées par le formulaire officiel en 2026."
+    },
+    {
+      "id": "B02",
+      "type": "reduction",
+      "title": "6 % en Tréboles sur les cartes carburant Repsol",
+      "description": "Le membre peut acheter une carte carburant Repsol de 25, 50 ou 100 euros valable en Espagne péninsulaire et aux Baléares et recevoir 6 % de sa valeur en Tréboles. Un Trébol représente un euro de réduction sur une assurance MAPFRE éligible.",
+      "value": "6 % en Tréboles; 1 Trébol = 1 € de réduction sur une assurance MAPFRE éligible",
+      "requiredShares": 1000,
+      "requiredHoldingModes": [
+        "Propriété d'au moins 1 000 actions MAPFRE; mode de détention non précisé"
+      ],
+      "requiredHoldingPeriod": "Maintien permanent des conditions du Club MAPFRE Accionista",
+      "availability": "seasonal",
+      "validFrom": null,
+      "validUntil": "2026-12-31",
+      "requestDeadline": "2026-12-31",
+      "procedure": [
+        "Être membre du Club MAPFRE et inscrit dans l'Área de Clientes Internet.",
+        "Acheter en ligne une carte Repsol Carburante de 25, 50 ou 100 euros.",
+        "Présenter le code QR reçu à la caisse d'une station Repsol avant de faire le plein.",
+        "Consulter les Tréboles crédités dans l'Área de Clientes ou l'application MAPFRE."
+      ],
+      "limitsAndExclusions": [
+        "La carte retenue ici est utilisable uniquement dans les stations Repsol de l'Espagne péninsulaire et des Baléares.",
+        "Le solde de la carte doit être au moins égal au montant du plein; elle n'est pas compatible avec un autre moyen de paiement, solde ou réduction.",
+        "Le plafond d'achat est de 300 euros par utilisateur et par mois.",
+        "Aucun changement ni remboursement n'est admis après l'achat; la carte expire un an après sa date d'achat.",
+        "Les Tréboles ne sont utilisables que sur certaines polices MAPFRE et à partir d'un solde minimal de 6 Tréboles.",
+        "Une offre distincte existe pour les Canaries, mais sa page affiche la date impossible du 31 juin 2026; elle n'est donc pas intégrée à ce bénéfice."
+      ],
+      "primarySourceId": "S07",
+      "supportingSourceIds": [
+        "S04",
+        "S06",
+        "S08",
+        "S15"
+      ],
+      "sourceUrl": "https://descuentosgrandesmarcas.mapfretecuidamos.com/descuento/carburante_repsol",
+      "evidenceGrade": "A",
+      "uncertainty": "La page générale annonce aussi une formule par carnet de membre dans plus de 800 stations, à 6 % du 1er au 5 du mois puis 3 %; elle est distincte de la carte Repsol retenue ici."
+    },
+    {
+      "id": "B03",
+      "type": "reduction",
+      "title": "Plateforme de remises sur marques et loisirs",
+      "description": "Les membres du Club MAPFRE accèdent à une plateforme de remises directes, de coupons, de cartes cadeaux et d'offres générant des Tréboles sur des achats, voyages, services et loisirs. Le catalogue et la valeur de chaque promotion évoluent selon le partenaire et la période.",
+      "value": "Variable selon l'offre; remises directes ou Tréboles",
+      "requiredShares": 1000,
+      "requiredHoldingModes": [
+        "Propriété d'au moins 1 000 actions MAPFRE; mode de détention non précisé"
+      ],
+      "requiredHoldingPeriod": "Maintien permanent des conditions du Club MAPFRE Accionista",
+      "availability": "guaranteed",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Se connecter comme membre du Club MAPFRE à la plateforme Descuentos en Grandes Marcas.",
+        "Choisir une offre et consulter ses conditions, son territoire et sa date de validité.",
+        "Télécharger un coupon, suivre le lien du partenaire ou payer la carte cadeau selon le type d'offre.",
+        "Utiliser le code en ligne ou le présenter dans l'établissement indiqué."
+      ],
+      "limitsAndExclusions": [
+        "L'inscription à l'Área de Clientes Internet est obligatoire.",
+        "Chaque offre possède ses propres produits éligibles, limites géographiques, dates et exclusions.",
+        "Les coupons sont généralement à usage unique.",
+        "Les achats effectués sur la plateforme ne sont pas remboursables.",
+        "Une carte cadeau ou un achat reste payant; seul l'avantage indiqué est accordé."
+      ],
+      "primarySourceId": "S08",
+      "supportingSourceIds": [
+        "S04",
+        "S06"
+      ],
+      "sourceUrl": "https://descuentosgrandesmarcas.mapfretecuidamos.com/preguntas-frecuentes",
+      "evidenceGrade": "B",
+      "uncertainty": "Le catalogue est dynamique et aucune remise particulière ne doit être présentée comme permanente sans relire les conditions de l'offre concernée."
+    },
+    {
+      "id": "B04",
+      "type": "cadeau",
+      "title": "Tirages au sort réservés aux membres",
+      "description": "Le Club MAPFRE organise périodiquement des tirages au sort auxquels les membres peuvent s'inscrire depuis l'espace privé, le bulletin ou l'application. Les lots annoncés peuvent comprendre des produits technologiques, des cartes carburant et des packs de Tréboles.",
+      "value": "Lots variables; aucune valeur ni probabilité garantie",
+      "requiredShares": 1000,
+      "requiredHoldingModes": [
+        "Propriété d'au moins 1 000 actions MAPFRE; mode de détention non précisé"
+      ],
+      "requiredHoldingPeriod": "Maintien permanent des conditions du Club MAPFRE Accionista",
+      "availability": "lottery",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": "Variable selon le règlement de chaque tirage",
+      "procedure": [
+        "Consulter les tirages dans l'Área de Clientes, l'application MAPFRE ou le bulletin du Club.",
+        "Ouvrir le règlement de la promotion choisie.",
+        "S'inscrire avant la date limite indiquée."
+      ],
+      "limitsAndExclusions": [
+        "La participation ne garantit aucun lot.",
+        "Les conditions d'âge, de territoire, de nombre de participations et de remise du lot dépendent de chaque règlement.",
+        "Les lots, calendriers et tirages disponibles changent au cours de l'année."
+      ],
+      "primarySourceId": "S09",
+      "supportingSourceIds": [
+        "S04"
+      ],
+      "sourceUrl": "https://www.mapfretecuidamos.com/preguntas-frecuentes/",
+      "evidenceGrade": "B",
+      "uncertainty": "Les règlements individuels des tirages ne sont pas regroupés sur la page générale et doivent être vérifiés au moment de l'inscription."
+    },
+    {
+      "id": "B05",
+      "type": "evenement",
+      "title": "Invitations à des événements culturels et sportifs",
+      "description": "Le programme prévoit des invitations à des événements culturels et sportifs. La FAQ actuelle mentionne notamment des expériences culturelles avec Fundación MAPFRE à Madrid et Barcelone; les invitations et modalités concrètes dépendent toutefois de chaque événement.",
+      "value": null,
+      "requiredShares": 1000,
+      "requiredHoldingModes": [
+        "Propriété d'au moins 1 000 actions MAPFRE; mode de détention non précisé"
+      ],
+      "requiredHoldingPeriod": "Maintien permanent des conditions du Club MAPFRE Accionista",
+      "availability": "subject_to_capacity",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": "Variable selon l'événement",
+      "procedure": [
+        "Consulter les événements annoncés dans l'espace privé, le bulletin ou l'application MAPFRE.",
+        "Vérifier le lieu, les conditions d'accès et les éventuelles restrictions.",
+        "S'inscrire ou réserver dans la limite des places disponibles."
+      ],
+      "limitsAndExclusions": [
+        "Les événements culturels cités se déroulent principalement à Madrid et Barcelone.",
+        "Certains services lors d'événements moto sont réservés aux membres ayant une moto assurée chez MAPFRE.",
+        "La page actuelle ne garantit ni calendrier minimal, ni gratuité systématique, ni nombre de places.",
+        "Les deux entrées gratuites par saison publiées par Fundación MAPFRE visent les assurés MAPFRE; elles ne sont pas retenues comme droit autonome du seul actionnaire."
+      ],
+      "primarySourceId": "S09",
+      "supportingSourceIds": [
+        "S04",
+        "S13"
+      ],
+      "sourceUrl": "https://www.mapfretecuidamos.com/preguntas-frecuentes/",
+      "evidenceGrade": "B",
+      "uncertainty": "L'annexe de 2018 qualifie les événements culturels et sportifs de gratuits, mais les pages actuelles ne garantissent plus cette gratuité pour chaque invitation."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Combien d'actions MAPFRE faut-il détenir pour rejoindre le club ?",
+      "answer": "Le plan d'information « MAPFRE Shareholders. A unique value » est ouvert dès une action. Les avantages du Club MAPFRE Accionista exigent en revanche au moins 1 000 actions MAPFRE et une résidence en Espagne. Ces deux conditions doivent être maintenues en permanence.",
+      "sourceIds": [
+        "S02",
+        "S04"
+      ]
+    },
+    {
+      "question": "Qui peut adhérer au Club MAPFRE Accionista ?",
+      "answer": "Le club est réservé aux personnes physiques résidant en Espagne, propriétaires d'au moins 1 000 actions MAPFRE et qui ne sont pas déjà membres du Club MAPFRE comme clients de l'assureur. Aucun mode de détention ni délai minimal préalable n'est publié.",
+      "sourceIds": [
+        "S04"
+      ]
+    },
+    {
+      "question": "Comment se déroule l'inscription au programme actionnaire MAPFRE ?",
+      "answer": "L'actionnaire remplit d'abord le formulaire en ligne avec son adresse, ses coordonnées et son DNI ou NIE. S'il remplit les conditions du club, MAPFRE lui envoie un code par courriel. Ce code et le DNI permettent ensuite de finaliser l'inscription et d'accéder aux avantages. Aucun téléversement d'attestation de courtier n'est demandé publiquement.",
+      "sourceIds": [
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "question": "Quels services de santé et de maison sont réellement inclus en 2026 ?",
+      "answer": "Le service actuel prouvé pour la catégorie Plata est l'Asesor en Bienestar: psychologie, nutrition et entraînement gratuits et illimités, avec certaines limites familiales et linguistiques. Les anciennes mentions d'orientation médicale 24 h et de dépannage urgent à domicile ne sont pas confirmées. Le service Yo Me Ocupo est désormais affiché pour les catégories Oro et Platino, pas Plata.",
+      "sourceIds": [
+        "S05",
+        "S10",
+        "S11",
+        "S12"
+      ]
+    },
+    {
+      "question": "Comment fonctionne l'avantage carburant et quels frais restent à payer ?",
+      "answer": "Le membre achète une carte Repsol de 25, 50 ou 100 euros et reçoit 6 % en Tréboles. La carte retenue est valable en Espagne péninsulaire et aux Baléares, coûte sa valeur faciale, ne se combine pas avec un autre paiement et est plafonnée à 300 euros par mois. Les Tréboles réduisent seulement certaines assurances MAPFRE et nécessitent un solde minimal de 6.",
+      "sourceIds": [
+        "S06",
+        "S07",
+        "S08"
+      ]
+    },
+    {
+      "question": "Les avantages culturels sont-ils gratuits et accessibles hors d'Espagne ?",
+      "answer": "Le club annonce des invitations et événements culturels, notamment avec Fundación MAPFRE à Madrid et Barcelone, mais les pages actuelles ne garantissent pas la gratuité ni un nombre de places. Les entrées gratuites publiées par la Fondation concernent les assurés MAPFRE. Le club actionnaire exige une résidence en Espagne et aucune extension internationale de ses avantages n'est publiée.",
+      "sourceIds": [
+        "S04",
+        "S09",
+        "S13"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "MAPFRE maintient un plan d'information dès une action et un Club MAPFRE Accionista distinct donnant accès à des avantages.",
+      "status": "verified",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "notes": "La distinction entre les deux niveaux empêche de présenter les avantages du club comme accessibles dès une action."
+    },
+    {
+      "id": "C02",
+      "statement": "Le Club MAPFRE Accionista exige une personne physique résidant en Espagne et propriétaire d'au moins 1 000 actions.",
+      "status": "verified",
+      "sourceIds": [
+        "S02",
+        "S04"
+      ],
+      "notes": "Les deux conditions doivent être maintenues en permanence."
+    },
+    {
+      "id": "C03",
+      "statement": "L'adhésion passe par un formulaire, puis par un code envoyé par courriel et utilisé avec le DNI.",
+      "status": "verified",
+      "sourceIds": [
+        "S03",
+        "S04"
+      ],
+      "notes": "Le délai d'envoi du code et la méthode de contrôle des actions ne sont pas publiés."
+    },
+    {
+      "id": "C04",
+      "statement": "Les actionnaires admis entrent dans la catégorie Plata du Club MAPFRE.",
+      "status": "verified",
+      "sourceIds": [
+        "S04"
+      ],
+      "notes": "Les conditions sont datées du 20 juillet 2018 mais restent directement liées par le formulaire officiel en 2026."
+    },
+    {
+      "id": "C05",
+      "statement": "L'Asesor en Bienestar est gratuit et illimité pour les membres Plata, Oro et Platino.",
+      "status": "verified",
+      "sourceIds": [
+        "S05",
+        "S10"
+      ],
+      "notes": "Le service actuel couvre psychologie, nutrition et entraînement, et non l'ancien catalogue médical de 2013."
+    },
+    {
+      "id": "C06",
+      "statement": "La carte Repsol péninsule et Baléares crédite 6 % en Tréboles et reste disponible jusqu'au 31 décembre 2026.",
+      "status": "verified",
+      "sourceIds": [
+        "S06",
+        "S07"
+      ],
+      "notes": "La carte est payante à sa valeur faciale et comporte un plafond mensuel, une durée d'un an et des restrictions de paiement."
+    },
+    {
+      "id": "C07",
+      "statement": "Les membres ont accès à une plateforme de remises et à des tirages et événements dont les conditions varient.",
+      "status": "verified",
+      "sourceIds": [
+        "S08",
+        "S09"
+      ],
+      "notes": "Les catalogues, lots, dates et territoires doivent être vérifiés offre par offre."
+    },
+    {
+      "id": "C08",
+      "statement": "L'adhésion au Club MAPFRE est gratuite, mais les achats et prestations de tiers ne le sont pas nécessairement.",
+      "status": "verified",
+      "sourceIds": [
+        "S07",
+        "S08",
+        "S10",
+        "S11"
+      ],
+      "notes": "La gratuité d'un service de conseil ne couvre pas le prix d'un produit ou d'un prestataire recommandé."
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "Tous les avantages du Club MAPFRE Accionista sont accessibles dès une seule action.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S02",
+        "S04"
+      ]
+    },
+    {
+      "claim": "L'orientation médicale et pédiatrique 24 h sur 24 ainsi que la seconde opinion internationale sont des services actionnaires actuels.",
+      "reason": "expired",
+      "sourceIds": [
+        "S05",
+        "S12"
+      ]
+    },
+    {
+      "claim": "Le dépannage urgent à domicile est actuellement inclus pour les actionnaires de catégorie Plata.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S04",
+        "S10",
+        "S11"
+      ]
+    },
+    {
+      "claim": "L'Asesor Fiscal et le service Yo Me Ocupo sont actuellement inclus sans condition pour la catégorie Plata des actionnaires.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S04",
+        "S10",
+        "S11"
+      ]
+    },
+    {
+      "claim": "Les actionnaires reçoivent automatiquement des pass privés et des entrées gratuites aux expositions de Fundación MAPFRE.",
+      "reason": "not_shareholder_specific",
+      "sourceIds": [
+        "S09",
+        "S13"
+      ]
+    },
+    {
+      "claim": "L'avantage carburant actuel est limité à 5 % dans environ 1 600 stations-service.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S04",
+        "S06",
+        "S07"
+      ]
+    },
+    {
+      "claim": "Le programme actionnaire et ses avantages commerciaux sont accessibles aux résidents de tous les pays où MAPFRE opère.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S04"
+      ]
+    },
+    {
+      "claim": "Le dividende, le vote et l'accès aux rapports publics constituent des bénéfices du Club MAPFRE Accionista.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.mapfre.com/media/2026/02/consolidated-annual-accounts-management-report-2025.pdf",
+      "title": "Consolidated Annual Accounts and Consolidated Management Report 2025",
+      "publisher": "MAPFRE",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2026-02-12",
+      "lastUpdatedAt": "2026-02-12",
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Le rapport annuel audité identifie MAPFRE, S.A. comme société mère du groupe, décrit son périmètre d'activité en Espagne, dans l'EEE et dans des pays tiers, et documente l'action ordinaire cotée sur le marché espagnol."
+    },
+    {
+      "id": "S02",
+      "url": "https://www.mapfre.com/en/shareholders-loyalty-plan/",
+      "title": "Shareholders loyalty plan",
+      "publisher": "MAPFRE",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2026-06-09",
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "La page actuelle distingue le plan d'information accessible dès une action du Club MAPFRE Accionista, réservé aux résidents espagnols détenant au moins 1 000 actions, et renvoie au formulaire officiel."
+    },
+    {
+      "id": "S03",
+      "url": "https://www.formulariomapfreaccionistas.com/?lang=EN",
+      "title": "MAPFRE Shareholders registration form",
+      "publisher": "MAPFRE",
+      "sourceType": "official_form",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Le formulaire publie les champs obligatoires, les consentements et le parcours: inscription au plan actionnaire, puis envoi d'un code par courriel aux personnes remplissant les conditions du Club MAPFRE Accionista."
+    },
+    {
+      "id": "S04",
+      "url": "https://www.formulariomapfreaccionistas.com/bases/bases_EN.pdf",
+      "title": "Club MAPFRE Accionista Program Conditions",
+      "publisher": "MAPFRE",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": "2018-07-20",
+      "lastUpdatedAt": "2026-03-09",
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Les conditions, toujours liées par le formulaire officiel, fixent le seuil de 1 000 actions, la résidence espagnole, le maintien permanent des conditions, l'inscription par code et DNI, la catégorie Plata, les exclusions et l'ancienne annexe d'avantages."
+    },
+    {
+      "id": "S05",
+      "url": "https://www.mapfretecuidamos.com/particulares/expertos-asesores/asesor-bienestar/",
+      "title": "Asesor en Bienestar",
+      "publisher": "Club MAPFRE",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2026-05-31",
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "La page détaille le service gratuit et illimité pour les catégories Plata, Oro et Platino: psychologie, nutrition et entraînement, proches couverts, disponibilité, langue des documents et procédure dans l'espace privé."
+    },
+    {
+      "id": "S06",
+      "url": "https://www.mapfretecuidamos.com/particulares/ahorro-y-treboles/ahorro-al-repostar/",
+      "title": "Hasta un 6 % en Tréboles con tu repostaje",
+      "publisher": "Club MAPFRE",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2026-06-01",
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "La page actuelle présente deux mécanismes carburant: cartes Repsol à 6 % en Tréboles dans plus de 3 000 stations et carnet de membre dans plus de 800 stations, avec 6 % du 1er au 5 puis 3 % le reste du mois."
+    },
+    {
+      "id": "S07",
+      "url": "https://descuentosgrandesmarcas.mapfretecuidamos.com/descuento/carburante_repsol",
+      "title": "Tarjeta Repsol Carburante Península y Baleares",
+      "publisher": "Club MAPFRE",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "L'offre fixe les montants de carte, le crédit de 6 % en Tréboles, le territoire péninsule et Baléares, le QR, le plafond de 300 euros par mois, l'absence de remboursement, l'expiration à un an et la validité jusqu'au 31 décembre 2026."
+    },
+    {
+      "id": "S08",
+      "url": "https://descuentosgrandesmarcas.mapfretecuidamos.com/preguntas-frecuentes",
+      "title": "Preguntas frecuentes - Descuentos en Grandes Marcas",
+      "publisher": "Club MAPFRE",
+      "sourceType": "official_faq",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La FAQ explique l'accès réservé aux membres, les coupons, redirections et cartes cadeaux, les achats non remboursables, le Trébol, les polices éligibles, le minimum de 6 Tréboles et les limites propres à chaque accord."
+    },
+    {
+      "id": "S09",
+      "url": "https://www.mapfretecuidamos.com/preguntas-frecuentes/",
+      "title": "Preguntas Frecuentes - Club MAPFRE",
+      "publisher": "Club MAPFRE",
+      "sourceType": "official_faq",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2026-05-31",
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "La FAQ confirme les tirages, les lots possibles, les canaux de participation, les événements culturels avec Fundación MAPFRE à Madrid et Barcelone et les restrictions particulières des événements moto."
+    },
+    {
+      "id": "S10",
+      "url": "https://www.mapfre.es/propuesta-valor/general/",
+      "title": "Propuesta de Valor General",
+      "publisher": "MAPFRE España",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2026-04-28",
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "La page actuelle sépare les avantages Plata, Oro et Platino: bien-être, remises et tirages sont accessibles dès Plata, tandis que l'avocat, le fiscaliste, Yo Me Ocupo et certaines prestations maison sont rattachés à Oro ou Platino."
+    },
+    {
+      "id": "S11",
+      "url": "https://www.mapfretecuidamos.com/particulares/expertos-asesores/experto-yo-me-ocupo/",
+      "title": "Experto Yo Me Ocupo",
+      "publisher": "Club MAPFRE",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2026-05-31",
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "La page actuelle réserve Yo Me Ocupo aux clients Oro ou Platino membres du club, limite l'usage gratuit à trois services par an dans le cas décrit et précise que les produits ou prestations retenus restent payables au fournisseur."
+    },
+    {
+      "id": "S12",
+      "url": "https://www.mapfretecuidamos.com/tecuidamos/mejoras-socios-tecuidamos-000000004560000.do",
+      "title": "Nuevos Servicios para ti y tu familia",
+      "publisher": "MAPFRE teCuidamos",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": "2013-02-01",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "archived",
+      "evidenceGrade": "D",
+      "evidenceSummary": "Cette ancienne page de 2013 énumère orientation médicale et pédiatrique 24 h, seconde opinion, tests, nutrition et psychologie. Elle sert uniquement à identifier l'origine des affirmations historiques, pas à prouver l'offre de 2026."
+    },
+    {
+      "id": "S13",
+      "url": "https://www.fundacionmapfre.org/arte-y-cultura/compra-de-entradas/",
+      "title": "Compra de entradas",
+      "publisher": "Fundación MAPFRE",
+      "sourceType": "official_partner",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "La Fondation accorde deux entrées gratuites par saison, quatre pour les clients Platino, aux assurés MAPFRE après contrôle du NIF ou NIE. La page ne présente pas cette gratuité comme un droit autonome des actionnaires."
+    },
+    {
+      "id": "S14",
+      "url": "https://www.bolsasymercados.es/es/bme-exchange/mercados-y-cotizaciones/acciones/ficha.mapfre-s-a-es0124244e34.html",
+      "title": "Acciones MAPFRE, S.A.",
+      "publisher": "BME Exchange",
+      "sourceType": "regulatory_filing",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "C",
+      "evidenceSummary": "La fiche de l'opérateur du marché espagnol identifie MAPFRE, S.A., son ISIN ES0124244E34 et sa cotation sur le marché continu; le symbole de négociation est MAP."
+    },
+    {
+      "id": "S15",
+      "url": "https://descuentosgrandesmarcas.mapfretecuidamos.com/descuento/carburante_repsol_canarias",
+      "title": "Tarjeta Repsol Carburante Canarias",
+      "publisher": "Club MAPFRE",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La page publie une carte séparée utilisable uniquement aux Canaries, à 6 % en Tréboles, avec un plafond de 300 euros par mois et une échéance impossible libellée « 31/06/2026 », qui ne peut pas être corrigée par déduction."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Une action ou 1 000 actions",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "positions": [
+        "Le plan « MAPFRE Shareholders. A unique value » permet de recevoir informations et invitations dès une action.",
+        "Le Club MAPFRE Accionista et ses avantages exigent au moins 1 000 actions et une résidence en Espagne."
+      ],
+      "resolution": "Retenir 1 000 comme seuil global de la fiche consacrée au club et expliquer séparément que le niveau d'information commence à une action.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Nom actuel du programme",
+      "sourceIds": [
+        "S02",
+        "S04",
+        "S12"
+      ],
+      "positions": [
+        "Les anciennes pages et données du projet utilisent « MAPFRE teCuidamos Accionista ».",
+        "Les pages et conditions actuelles utilisent « Club MAPFRE Accionista » et « Club MAPFRE »."
+      ],
+      "resolution": "Utiliser le nom officiel actuel Club MAPFRE Accionista; conserver teCuidamos uniquement pour décrire les sources historiques ou le domaine technique.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Services Plata dans l'annexe de 2018",
+      "sourceIds": [
+        "S04",
+        "S10",
+        "S11"
+      ],
+      "positions": [
+        "L'annexe de 2018 attribue à la catégorie Silver un conseiller fiscal et trois usages annuels de Yo Me Ocupo.",
+        "Les pages actuelles de 2026 réservent l'avocat, le conseiller fiscal et Yo Me Ocupo aux catégories Oro et Platino."
+      ],
+      "resolution": "Appliquer le catalogue actuel par catégorie et exclure fiscalité, Yo Me Ocupo et services maison des bénéfices actionnaires Plata.",
+      "impact": "benefit_excluded"
+    },
+    {
+      "topic": "Contenu du service santé",
+      "sourceIds": [
+        "S05",
+        "S10",
+        "S12"
+      ],
+      "positions": [
+        "La page de 2013 promet orientation médicale et pédiatrique 24 h, seconde opinion, tests de santé et assistance nutritionnelle.",
+        "L'offre actuelle Plata décrit un Asesor en Bienestar centré sur psychologie, nutrition et entraînement, sans confirmer ces prestations médicales historiques."
+      ],
+      "resolution": "Retenir uniquement l'Asesor en Bienestar actuel et rejeter l'orientation médicale 24 h comme avantage actif non prouvé.",
+      "impact": "benefit_excluded"
+    },
+    {
+      "topic": "Taux et réseau de l'avantage carburant",
+      "sourceIds": [
+        "S04",
+        "S06",
+        "S07"
+      ],
+      "positions": [
+        "L'annexe de 2018 annonce jusqu'à 5 % en Tréboles à chaque plein.",
+        "Les pages de 2026 annoncent 6 % sur les cartes Repsol dans plus de 3 000 stations, ainsi qu'une formule distincte par carnet dans plus de 800 stations à 6 % ou 3 % selon la date."
+      ],
+      "resolution": "Retenir l'offre Repsol précisément documentée à 6 % jusqu'au 31 décembre 2026 et ne pas reprendre l'ancien taux de 5 %.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Gratuité des événements et expositions",
+      "sourceIds": [
+        "S04",
+        "S09",
+        "S13"
+      ],
+      "positions": [
+        "L'annexe de 2018 indique que les événements culturels et sportifs sont gratuits.",
+        "La FAQ actuelle confirme les événements mais pas leur gratuité systématique; Fundación MAPFRE réserve ses deux ou quatre entrées gratuites aux assurés MAPFRE."
+      ],
+      "resolution": "Conserver les invitations et événements comme bénéfice soumis à capacité, sans promettre de pass privé ni d'entrée gratuite au seul titre d'actionnaire.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Date de fin de l'offre Repsol Canaries",
+      "sourceIds": [
+        "S06",
+        "S07",
+        "S15"
+      ],
+      "positions": [
+        "La page carburant générale présente une offre Repsol couvrant aussi les Canaries via une carte distincte.",
+        "La page spécifique Canaries affiche une échéance impossible au 31 juin 2026, alors que la page péninsule et Baléares indique clairement le 31 décembre 2026."
+      ],
+      "resolution": "Limiter le bénéfice retenu à la carte péninsule et Baléares dont la date est valide; signaler la variante Canaries sans lui attribuer une échéance corrigée par déduction.",
+      "impact": "wording_only"
+    }
+  ],
+  "handoff": {
+    "researchStatus": "complete_with_uncertainties",
+    "readyForDevelopment": true,
+    "benefitCount": 5,
+    "faqCount": 6,
+    "blockingIssues": [],
+    "developerNotes": [
+      "Utiliser Club MAPFRE Accionista comme nom actuel; ne pas reprendre MAPFRE teCuidamos Accionista comme appellation officielle de 2026.",
+      "Conserver minShares à 1 000 pour le club et expliquer dans la FAQ que le plan d'information sans avantages est accessible dès une action.",
+      "La résidence en Espagne et la qualité de personne physique sont obligatoires; ne pas présenter le club comme international.",
+      "Ne pas réintroduire l'orientation médicale 24 h, la seconde opinion, le dépannage urgent maison, le conseiller fiscal ou Yo Me Ocupo dans les avantages Plata.",
+      "Pour le carburant, retenir seulement la carte Repsol péninsule et Baléares à 6 % en Tréboles jusqu'au 31 décembre 2026; ne pas corriger la date impossible de l'offre Canaries.",
+      "Préciser que les Tréboles ne valent une réduction que sur des polices MAPFRE éligibles, avec un minimum de 6 Tréboles, et qu'une carte ou un produit reste payant.",
+      "Ne pas promettre d'entrées gratuites Fundación MAPFRE au seul actionnaire; les pages actuelles les attribuent aux assurés.",
+      "Les avantages variables, tirages et événements doivent rester assortis de leurs limites, capacités et règlements propres."
+    ]
+  }
+}

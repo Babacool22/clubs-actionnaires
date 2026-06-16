@@ -1,0 +1,53 @@
+{
+  "slug": "walmart",
+  "name": "Walmart",
+  "description": "Walmart Inc. est un groupe américain de distribution omnicanale exploitant notamment Walmart et Sam's Club aux États-Unis ainsi que des activités internationales. Son action ordinaire, incluse dans le S&P 500, est cotée au Nasdaq Global Select Market sous le symbole WMT depuis le 9 décembre 2025.",
+  "sector": "Distribution & Retail",
+  "stockIndex": "S&P 500",
+  "ticker": "WMT",
+  "website": "https://corporate.walmart.com",
+  "minShares": null,
+  "lastVerifiedAt": "2026-06-09",
+  "benefits": [],
+  "faqs": [
+    {
+      "question": "Walmart propose-t-il un club ou un avantage commercial actif aux actionnaires externes en 2026 ?",
+      "answer": "Non. Les sources officielles disponibles au 9 juin 2026 présentent des relations investisseurs, une assemblée annuelle virtuelle et les services de Computershare, mais aucun club, remise, cadeau, adhésion Walmart+ ou autre avantage économique accordé du seul fait de détenir l'action WMT."
+    },
+    {
+      "question": "Les actionnaires externes pouvaient-ils assister à une Associate Celebration Walmart en 2026 ?",
+      "answer": "Aucune page officielle d'admission des actionnaires ni aucune Associate Celebration 2026 ne figurait dans le calendrier public de Walmart au 9 juin 2026. Une Associates Week 2026 est bien attestée par un événement sportif destiné aux associés, mais cette source n'ouvre aucun accès aux actionnaires externes. Il faut donc considérer l'avantage 2026 comme non prouvé."
+    },
+    {
+      "question": "Quelles étaient les conditions d'accès des actionnaires à l'Associate Celebration 2025 ?",
+      "answer": "Pour l'édition du 6 juin 2025 au Bud Walton Arena, Walmart exigeait d'avoir détenu des actions à la clôture du 11 avril 2025, de présenter une preuve de détention admise et une pièce d'identité avec photo. L'admission restait limitée par la capacité disponible. Ces conditions ont expiré avec l'événement et ne prouvent aucune disponibilité en 2026."
+    },
+    {
+      "question": "La record date du 10 avril 2026 donnait-elle accès à une célébration physique Walmart ?",
+      "answer": "Non. Le 10 avril 2026 était la record date de l'assemblée annuelle du 4 juin 2026, organisée uniquement en ligne. Les actionnaires disposant d'un numéro de contrôle à 16 chiffres pouvaient écouter, voter et poser des questions, tandis que le public pouvait seulement écouter. Walmart n'a associé cette date à aucune Associate Celebration physique en 2026."
+    },
+    {
+      "question": "Le plan d'achat direct proposé par Computershare est-il un bénéfice actionnaire Walmart ?",
+      "answer": "Non. Walmart indique expressément que le plan d'achat direct proposé par Computershare n'est pas sponsorisé par Walmart. Il s'agit d'un moyen générique d'acheter ou de gérer des actions, avec ses propres modalités et frais, et non d'une remise ou d'un avantage réservé aux actionnaires existants. Les anciens montants de frais ne doivent pas être présentés comme actuels."
+    },
+    {
+      "question": "Le plan d'achat d'actions, la remise salarié ou Walmart+ sont-ils accessibles aux simples actionnaires ?",
+      "answer": "Non. L'Associate Stock Purchase Plan et son abondement de 15 % sur les premiers 1 800 dollars versés par année de plan sont réservés aux associés salariés éligibles. Les documents 2026 rattachent aussi l'Associate Discount Card et l'adhésion Walmart+ sans coût aux avantages des associés. Un actionnaire externe n'y accède pas par la seule détention de WMT."
+    }
+  ],
+  "sources": [
+    "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000055/wmt-20260131.htm",
+    "https://stock.walmart.com/company-information",
+    "https://stock.walmart.com/company-information/faq",
+    "https://corporate.walmart.com/news/2026/04/23/walmart-releases-2026-annual-report-and-proxy-statement",
+    "https://corporate.walmart.com/news/events/2026-annual-shareholders-meeting",
+    "https://corporate.walmart.com/news/events",
+    "https://corporate.walmart.com/news/events/2025-associates-week-and-associate-celebration",
+    "https://corporate.walmart.com/about/working-at-walmart/benefits",
+    "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000055/wmtexhibit103fy26.htm",
+    "https://one.walmart.com/content/dam/themepage/pdfs/FY27-Financial-Wellbeing-Poster-English.pdf",
+    "https://corporate.walmart.com/news/2026/02/11/walmart-international-triathlon",
+    "https://www.computershare.com/us/personal/information-for-tax-filing/cost-basis-fatca/walmart",
+    "https://www-us.computershare.com/Content/Download.asp?bhjs=1&cc=US&docId=%7BFBA729FD-A34A-452B-9DF7-43E490EB3FF1%7D&lang=en&theme=cpu"
+  ]
+}

@@ -1,0 +1,594 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "coca-cola",
+    "name": "The Coca-Cola Company",
+    "description": "The Coca-Cola Company est un groupe américain de boissons dont les marques sont vendues dans plus de 200 pays et territoires. Il commercialise notamment Coca-Cola, Sprite, Fanta, Coca-Cola Zero Sugar et Diet Coke, en s'appuyant principalement sur un réseau d'embouteilleurs indépendants.",
+    "sector": "Boissons & Agroalimentaire",
+    "stockIndex": "S&P 500",
+    "ticker": "KO",
+    "website": "https://www.coca-colacompany.com/",
+    "clubName": null,
+    "clubUrl": null
+  },
+  "offerClassification": {
+    "primaryKind": "shareholder_program",
+    "otherKinds": [
+      "shareholder_benefit",
+      "investor_relations_only"
+    ],
+    "officialProgrammeName": "Tree Planting Program",
+    "status": "active",
+    "statusReason": "Le proxy 2026 décrit un programme de plantation d'un arbre au nom de chaque actionnaire qui s'inscrit aux communications électroniques. Aucun club, remise commerciale, cadeau physique ou admission gratuite permanente n'est officiellement proposé aux détenteurs de KO au 9 juin 2026.",
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S04"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": null,
+    "eligibleShareClasses": [
+      "Common Stock de The Coca-Cola Company coté au NYSE sous le symbole KO"
+    ],
+    "holdingModes": [
+      "registered_pure",
+      "broker_account"
+    ],
+    "minimumHoldingPeriod": null,
+    "residencyRestrictions": [],
+    "accountRestrictions": [
+      "L'actionnaire doit choisir la livraison électronique des documents au lieu de leur envoi postal.",
+      "Les actionnaires inscrits au registre effectuent ce choix auprès de Computershare.",
+      "La plupart des propriétaires bénéficiaires peuvent s'inscrire, mais doivent suivre la procédure de leur banque, courtier ou autre intermédiaire.",
+      "Aucune règle publique ne précise le traitement des comptes multiples, des inscriptions répétées ou d'une réinscription après retour au courrier papier."
+    ],
+    "proofRequired": [
+      "Authentification du compte Computershare pour un actionnaire inscrit au registre.",
+      "Authentification ou justificatif demandé par la banque, le courtier ou l'intermédiaire pour un propriétaire bénéficiaire."
+    ],
+    "fees": {
+      "membershipFee": null,
+      "applicationFee": null,
+      "otherFees": [],
+      "notes": "Aucun frais propre à l'inscription aux communications électroniques ou à la plantation de l'arbre n'est publié. Les frais éventuels d'un compte de courtage ne font pas partie du programme."
+    },
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S11"
+    ]
+  },
+  "enrollment": {
+    "required": true,
+    "method": "online_form",
+    "applicationUrl": "https://www.computershare.com/coca-cola",
+    "contact": "Computershare Trust Company, N.A. : 888-COKESHR (888-265-3747) aux États-Unis ou 781-575-2653; coca-cola@computershare.com. Un propriétaire bénéficiaire doit contacter son courtier ou sa banque.",
+    "steps": [
+      "Être actionnaire de The Coca-Cola Company sous le symbole KO.",
+      "Pour un compte inscrit au registre, se connecter au portail Coca-Cola de Computershare et choisir la livraison électronique des communications.",
+      "Pour des actions détenues par un intermédiaire, suivre ses instructions d'inscription aux documents électroniques.",
+      "La société fait ensuite planter un arbre au nom de l'actionnaire inscrit; aucune demande séparée de plantation n'est publiée."
+    ],
+    "processingTime": null,
+    "renewal": "Aucun renouvellement propre à la plantation n'est décrit. Le choix de livraison électronique reste géré dans le compte Computershare ou auprès de l'intermédiaire financier.",
+    "deadlines": [],
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S11"
+    ]
+  },
+  "benefits": [
+    {
+      "id": "B01",
+      "type": "service",
+      "title": "Plantation d'un arbre après inscription à l'e-delivery",
+      "description": "The Coca-Cola Company fait planter un arbre au nom de chaque actionnaire qui choisit de recevoir électroniquement les documents de vote et autres communications. Le dispositif est une contrepartie environnementale réservée aux actionnaires inscrits à l'e-delivery, sans versement, remise ou bien livré à l'actionnaire.",
+      "value": "Un arbre planté au nom de l'actionnaire lors de son inscription aux communications électroniques.",
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "Détention inscrite au registre via Computershare",
+        "Détention bénéficiaire via une banque, un courtier ou un autre intermédiaire participant"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "guaranteed",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Choisir la livraison électronique pendant le vote en ligne ou dans le compte Computershare pour les actions inscrites au registre.",
+        "Suivre la procédure du courtier ou de la banque pour les actions détenues en compte de courtage.",
+        "Aucune demande distincte, aucun code et aucun justificatif supplémentaire de plantation ne sont publiés."
+      ],
+      "limitsAndExclusions": [
+        "Le bénéfice suppose une nouvelle inscription aux communications électroniques; la détention d'actions seule ne déclenche pas la plantation.",
+        "Le proxy indique que la plupart, mais pas nécessairement la totalité, des propriétaires bénéficiaires peuvent choisir l'e-delivery.",
+        "Aucun seuil d'actions, délai de détention, pays de résidence, lieu de plantation, espèce, calendrier ou certificat n'est publié.",
+        "Aucun paiement, produit Coca-Cola, billet, coupon ou réduction n'est remis à l'actionnaire.",
+        "La société ne précise pas si plusieurs comptes ou inscriptions peuvent produire plusieurs plantations."
+      ],
+      "primarySourceId": "S01",
+      "supportingSourceIds": [
+        "S02",
+        "S11"
+      ],
+      "sourceUrl": "https://investors.coca-colacompany.com/_assets/_b57fa0fbc981aa2e0565114026432054/cocacolacompany/db/892/11104/proxy_statement/0001104659-26-028215.pdf",
+      "evidenceGrade": "A",
+      "uncertainty": "Le proxy 2026 confirme la plantation pour chaque actionnaire inscrit, mais ne publie ni opérateur, ni lieu, ni calendrier, ni règle de déduplication. La FAQ actuelle nomme « American Forest », tandis que le proxy daté ne nomme aucun partenaire; le partenaire n'est donc pas repris dans le bénéfice."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Coca-Cola dispose-t-elle d'un club ou d'un programme réservé aux actionnaires ?",
+      "answer": "Aucun club formel avec adhésion, carte de membre ou seuil global n'est présenté. Le seul programme réservé et encore prouvé au 9 juin 2026 est le dispositif de plantation d'un arbre lié au choix des communications électroniques. Le reste de l'espace Shareowners relève principalement des relations investisseurs et de la gestion des titres.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S04"
+      ]
+    },
+    {
+      "question": "Quel avantage concret un actionnaire de The Coca-Cola Company peut-il obtenir en 2026 ?",
+      "answer": "Lorsqu'un actionnaire choisit de recevoir électroniquement les documents de vote et les autres communications, The Coca-Cola Company fait planter un arbre en son nom. Il ne reçoit ni argent, ni produit, ni coupon, ni certificat annoncé. Aucun nombre minimal d'actions ou délai de détention n'est publié pour ce dispositif.",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "question": "Comment demander la plantation d'un arbre avec des actions KO ?",
+      "answer": "L'actionnaire inscrit au registre choisit l'e-delivery dans son compte Coca-Cola auprès de Computershare, notamment au cours du vote en ligne. La plupart des propriétaires bénéficiaires peuvent aussi choisir la livraison électronique en suivant les instructions de leur banque ou courtier. Aucune demande séparée de plantation n'est décrite.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S11"
+      ]
+    },
+    {
+      "question": "Les actionnaires Coca-Cola ont-ils encore une entrée gratuite au World of Coca-Cola ?",
+      "answer": "Aucune entrée gratuite réservée aux actionnaires n'est active au 9 juin 2026. Coca-Cola a officiellement offert une admission gratuite à l'actionnaire et à un invité lors de journées précises, notamment en 2016 et 2019. L'événement physique prévu en 2020 a été remplacé par une assemblée entièrement virtuelle, et le proxy 2026 comme la page actuelle des offres du musée ne publient aucun tarif actionnaire.",
+      "sourceIds": [
+        "S01",
+        "S05",
+        "S06",
+        "S07",
+        "S08"
+      ]
+    },
+    {
+      "question": "Les tickets Coke ON ou les cadeaux de boissons japonais sont-ils accessibles aux détenteurs de KO ?",
+      "answer": "Non. Le programme Coke ON 2026 appartient à Coca-Cola Bottlers Japan Holdings et exige ses propres actions, au moins 100 titres et une durée de détention déterminée. Cette société d'embouteillage est distincte de The Coca-Cola Company cotée à New York sous KO. Ses tickets et ses anciens cadeaux de produits ne doivent pas être attribués aux actionnaires de KO.",
+      "sourceIds": [
+        "S03",
+        "S09"
+      ]
+    },
+    {
+      "question": "Le dividende, l'assemblée, le DSPP, le DRIP ou le DRS sont-ils des avantages retenus ?",
+      "answer": "Non. Le dividende ordinaire et l'assemblée relèvent des droits usuels de l'actionnaire. Le Direct Stock Purchase Plan, le réinvestissement des dividendes, le DRS, les transferts et la gestion de compte sont des services de registre ou d'investissement administrés par Computershare. Ils sont explicitement exclus des bénéfices de cette fiche, même lorsqu'ils sont pratiques.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S04",
+        "S11"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "The Coca-Cola Company est une société de boissons distincte de ses embouteilleurs indépendants et ses actions ordinaires sont cotées sous le symbole KO.",
+      "status": "verified",
+      "sourceIds": [
+        "S03"
+      ],
+      "notes": "Le rapport annuel 2025 décrit le groupe, ses catégories de boissons et son réseau d'embouteilleurs indépendants."
+    },
+    {
+      "id": "C02",
+      "statement": "The Coca-Cola Company appartient au S&P 500 au 9 juin 2026.",
+      "status": "verified",
+      "sourceIds": [
+        "S10"
+      ],
+      "notes": "L'indice Consumer Staples Select Sector est constitué à partir de l'univers S&P 500 et contient Coca-Cola au 9 juin 2026."
+    },
+    {
+      "id": "C03",
+      "statement": "Aucun club d'actionnaires formel de The Coca-Cola Company n'est identifié dans les ressources officielles actuelles.",
+      "status": "uncertain",
+      "sourceIds": [
+        "S02",
+        "S04"
+      ],
+      "notes": "Il s'agit d'un constat sur les pages Shareowners, la FAQ, le proxy et les contacts publiés, non d'une preuve absolue d'inexistence."
+    },
+    {
+      "id": "C04",
+      "statement": "Le proxy 2026 confirme un programme faisant planter un arbre au nom de chaque actionnaire qui s'inscrit aux communications électroniques.",
+      "status": "verified",
+      "sourceIds": [
+        "S01"
+      ],
+      "notes": "Le document est daté du 16 mars 2026 et décrit ce dispositif dans les modalités de réception électronique des documents."
+    },
+    {
+      "id": "C05",
+      "statement": "Les actionnaires inscrits et la plupart des propriétaires bénéficiaires peuvent choisir la livraison électronique, avec des procédures différentes.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "notes": "Computershare gère les comptes inscrits au registre; les propriétaires bénéficiaires suivent les instructions de leur banque ou courtier."
+    },
+    {
+      "id": "C06",
+      "statement": "Computershare Trust Company, N.A. est le registrar et agent de transfert désigné pour les actions de The Coca-Cola Company.",
+      "status": "verified",
+      "sourceIds": [
+        "S02",
+        "S11"
+      ],
+      "notes": "La FAQ Coca-Cola fournit le portail, les coordonnées et la liste des opérations de registre traitées par Computershare."
+    },
+    {
+      "id": "C07",
+      "statement": "Coca-Cola a historiquement offert aux actionnaires et à un invité une admission gratuite au World of Coca-Cola lors de journées déterminées.",
+      "status": "verified",
+      "sourceIds": [
+        "S05",
+        "S06"
+      ],
+      "notes": "L'offre est précisément documentée pour le Shareowner Day du 27 avril 2016 et pour le 24 avril 2019; elle n'était ni permanente ni nationale."
+    },
+    {
+      "id": "C08",
+      "statement": "Aucune admission ou réduction World of Coca-Cola réservée aux actionnaires n'est publiée pour 2026.",
+      "status": "partially_verified",
+      "sourceIds": [
+        "S01",
+        "S04",
+        "S08"
+      ],
+      "notes": "Le proxy et l'assemblée 2026 sont virtuels, et la page officielle des offres 2026 liste d'autres catégories sans offre actionnaire. Cette absence devra être revérifiée si une promotion ponctuelle est publiée."
+    },
+    {
+      "id": "C09",
+      "statement": "Le programme de tickets Coke ON actif en 2026 concerne Coca-Cola Bottlers Japan Holdings et non les actions KO.",
+      "status": "verified",
+      "sourceIds": [
+        "S03",
+        "S09"
+      ],
+      "notes": "La page japonaise impose les actions et le registre de l'embouteilleur; le 10-K de KO distingue The Coca-Cola Company de ses partenaires embouteilleurs."
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "Une action KO suffit officiellement pour adhérer à un club d'actionnaires Coca-Cola.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S04"
+      ]
+    },
+    {
+      "claim": "Le Direct Stock Purchase Plan ou le réinvestissement des dividendes constitue un avantage commercial réservé aux actionnaires.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S02",
+        "S11"
+      ]
+    },
+    {
+      "claim": "Le DRS, les transferts, la tenue de compte et les services Computershare sont des bénéfices actionnaires distincts.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S02",
+        "S11"
+      ]
+    },
+    {
+      "claim": "Le dividende trimestriel ou le statut de Dividend King constitue un avantage du programme actionnaires.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S02",
+        "S03"
+      ]
+    },
+    {
+      "claim": "La participation à l'assemblée annuelle virtuelle constitue un bénéfice commercial réservé.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S01",
+        "S04"
+      ]
+    },
+    {
+      "claim": "Les publications, alertes et informations financières publiques constituent des avantages actionnaires.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S04"
+      ]
+    },
+    {
+      "claim": "Les actionnaires KO bénéficient en 2026 d'une admission gratuite ou d'une remise au World of Coca-Cola.",
+      "reason": "expired",
+      "sourceIds": [
+        "S01",
+        "S05",
+        "S06",
+        "S07",
+        "S08"
+      ]
+    },
+    {
+      "claim": "Les détenteurs de KO reçoivent les tickets Coke ON ou les cadeaux de produits du programme japonais.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S03",
+        "S09"
+      ]
+    },
+    {
+      "claim": "Coca-Cola remet automatiquement des boissons, des objets de collection ou un cadeau physique à tous ses actionnaires.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S04",
+        "S08"
+      ]
+    },
+    {
+      "claim": "Le Computershare Investment Plan applique des frais préférentiels constituant une remise réservée aux actionnaires.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S02",
+        "S11"
+      ]
+    },
+    {
+      "claim": "La plantation d'un arbre donne droit à une somme, un produit, un billet ou un coupon remis à l'actionnaire.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://investors.coca-colacompany.com/_assets/_b57fa0fbc981aa2e0565114026432054/cocacolacompany/db/892/11104/proxy_statement/0001104659-26-028215.pdf",
+      "title": "The Coca-Cola Company 2026 Proxy Statement",
+      "publisher": "The Coca-Cola Company",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2026-03-16",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Proxy officiel daté confirmant l'assemblée virtuelle 2026, les modes de détention au registre ou via intermédiaire, l'inscription électronique des actionnaires et la plantation d'un arbre au nom de chaque actionnaire qui choisit l'e-delivery."
+    },
+    {
+      "id": "S02",
+      "url": "https://investors.coca-colacompany.com/shareowners/faqs",
+      "title": "FAQs - Shareowners",
+      "publisher": "The Coca-Cola Company",
+      "sourceType": "official_faq",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "FAQ officielle actuelle désignant Computershare comme registrar et agent de transfert, distinguant actionnaires inscrits et bénéficiaires, décrivant le DSPP/DRIP et annonçant un arbre planté au nom de l'actionnaire inscrit qui choisit les communications électroniques."
+    },
+    {
+      "id": "S03",
+      "url": "https://investors.coca-colacompany.com/filings-reports/all-sec-filings/content/0001628280-26-010047/ko-20251231.htm",
+      "title": "The Coca-Cola Company Annual Report on Form 10-K for 2025",
+      "publisher": "The Coca-Cola Company",
+      "sourceType": "regulatory_filing",
+      "official": true,
+      "publishedAt": "2026-02-20",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Dernier rapport annuel disponible, confirmant l'identité de The Coca-Cola Company, le symbole KO, les catégories de boissons, la présence dans plus de 200 pays et territoires et le rôle distinct de son réseau d'embouteilleurs indépendants."
+    },
+    {
+      "id": "S04",
+      "url": "https://investors.coca-colacompany.com/shareowners",
+      "title": "Shareowners",
+      "publisher": "The Coca-Cola Company",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Espace actionnaires actuel orienté vers l'assemblée, la FAQ et les contacts. Il confirme que l'assemblée du 29 avril 2026 était exclusivement virtuelle et ne présente aucun club ou catalogue permanent de remises et cadeaux."
+    },
+    {
+      "id": "S05",
+      "url": "https://investors.coca-colacompany.com/filings-reports/all-sec-filings/content/0001308179-16-000228/lcocacola2016_defa14a.htm",
+      "title": "2016 Coca-Cola Shareowner Day - Additional Proxy Materials",
+      "publisher": "The Coca-Cola Company",
+      "sourceType": "regulatory_filing",
+      "official": true,
+      "publishedAt": "2016-03-10",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "expired",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Document officiel annonçant le Shareowner Day du 27 avril 2016, avec admission gratuite au World of Coca-Cola pour les actionnaires, capacité limitée et réservation préalable. Il prouve une offre historique, non permanente."
+    },
+    {
+      "id": "S06",
+      "url": "https://www.sec.gov/Archives/edgar/data/21344/000120677419000735/ko3422831-def14a.htm",
+      "title": "The Coca-Cola Company 2019 Proxy Statement",
+      "publisher": "The Coca-Cola Company et U.S. Securities and Exchange Commission",
+      "sourceType": "regulatory_filing",
+      "official": true,
+      "publishedAt": "2019-03-07",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "expired",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Proxy officiel offrant le 24 avril 2019 une admission gratuite au World of Coca-Cola à chaque actionnaire et un invité, sur présentation d'une pièce d'identité et d'une preuve de détention. L'offre était limitée à cette date."
+    },
+    {
+      "id": "S07",
+      "url": "https://investors.coca-colacompany.com/filings-reports/all-sec-filings/content/0001206774-20-001104/ko3748711-defa14a.htm?TB_iframe=true&height=auto&preload=false&width=auto",
+      "title": "Virtual 2020 Annual Meeting Questions and Answers",
+      "publisher": "The Coca-Cola Company",
+      "sourceType": "regulatory_filing",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "archived",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Matériel officiel remplaçant la réunion physique prévue au World of Coca-Cola par une assemblée entièrement virtuelle en raison de la pandémie. Il marque la rupture avec le format auquel étaient liées les admissions gratuites historiques."
+    },
+    {
+      "id": "S08",
+      "url": "https://www.worldofcoca-cola.com/plan-your-visit/special-offers",
+      "title": "Special Offers & Discounts",
+      "publisher": "World of Coca-Cola et The Coca-Cola Company",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle 2026 listant l'Annual Pass, les offres combinées, CityPASS, les anniversaires, l'offre militaire et la réduction étudiante. Aucune remise, gratuité ou catégorie tarifaire réservée aux actionnaires n'y est publiée."
+    },
+    {
+      "id": "S09",
+      "url": "https://en.ccbj-holdings.com/ir/stockholder/preferential.php",
+      "title": "Shareholder Benefit Program",
+      "publisher": "Coca-Cola Bottlers Japan Holdings Inc.",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle de l'embouteilleur japonais accordant des tickets Coke ON selon le nombre de ses propres actions et la durée de détention, avec expédition 2026. Elle prouve que ces avantages appartiennent à une autre société cotée et non aux détenteurs de KO."
+    },
+    {
+      "id": "S10",
+      "url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-consumer-staples-select-sector-spdr-etf-xlp",
+      "title": "State Street Consumer Staples Select Sector SPDR ETF - Holdings",
+      "publisher": "State Street Global Advisors",
+      "sourceType": "official_partner",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2026-06-09",
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "C",
+      "evidenceSummary": "Page datée du 9 juin 2026 expliquant que l'indice sectoriel est constitué à partir de l'univers S&P 500 et affichant Coca-Cola parmi ses composantes. Elle corrobore l'appartenance de KO au S&P 500 à la date de référence."
+    },
+    {
+      "id": "S11",
+      "url": "https://www.computershare.com/coca-cola",
+      "title": "The Coca-Cola Company - Computershare Investor Center",
+      "publisher": "Computershare Trust Company, N.A.",
+      "sourceType": "transfer_agent",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "C",
+      "evidenceSummary": "Portail de l'agent de transfert désigné par Coca-Cola pour l'accès aux comptes inscrits, les communications électroniques, les opérations de registre et le Computershare Investment Plan."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Éligibilité au programme de plantation",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "positions": [
+        "Le proxy 2026 indique que les actionnaires inscrits et la plupart des propriétaires bénéficiaires peuvent choisir l'e-delivery, puis qu'un arbre est planté pour chaque actionnaire inscrit.",
+        "La FAQ formule directement la promesse pour les actionnaires inscrits au registre et renvoie les propriétaires bénéficiaires vers leur courtier, sans leur garantir la même procédure."
+      ],
+      "resolution": "Retenir le proxy 2026, source datée et plus récente, pour inclure les deux modes de détention. Préciser que la disponibilité et la procédure des propriétaires bénéficiaires dépendent de leur intermédiaire.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Statut de l'admission gratuite au World of Coca-Cola",
+      "sourceIds": [
+        "S05",
+        "S06",
+        "S07",
+        "S01",
+        "S08"
+      ],
+      "positions": [
+        "Les documents de 2016 et 2019 accordaient une admission gratuite à une date précise aux actionnaires et à un invité.",
+        "Le format physique 2020 a été abandonné au profit d'une assemblée entièrement virtuelle.",
+        "Le proxy 2026 est virtuel et la page actuelle des offres du World of Coca-Cola ne publie aucune catégorie actionnaire."
+      ],
+      "resolution": "Documenter la gratuité comme avantage historique expiré et ne conserver aucune admission ou remise au musée dans les bénéfices actifs au 9 juin 2026.",
+      "impact": "benefit_excluded"
+    },
+    {
+      "topic": "Confusion avec les avantages des embouteilleurs",
+      "sourceIds": [
+        "S03",
+        "S09"
+      ],
+      "positions": [
+        "Coca-Cola Bottlers Japan Holdings propose en 2026 des tickets Coke ON et mentionne d'anciens choix de produits ou de cadeaux.",
+        "Le rapport annuel de The Coca-Cola Company décrit ses embouteilleurs comme des partenaires indépendants distincts de l'émetteur KO."
+      ],
+      "resolution": "Exclure entièrement les tickets, coupons et cadeaux des embouteilleurs. La fiche couvre uniquement The Coca-Cola Company, ticker KO.",
+      "impact": "benefit_excluded"
+    }
+  ],
+  "handoff": {
+    "researchStatus": "complete_with_uncertainties",
+    "readyForDevelopment": true,
+    "benefitCount": 1,
+    "faqCount": 6,
+    "blockingIssues": [],
+    "developerNotes": [
+      "Ne pas créer de club : company.clubName et company.clubUrl restent null.",
+      "Conserver un seul bénéfice actif, la plantation d'un arbre liée à l'inscription aux communications électroniques.",
+      "Présenter ce bénéfice comme une contrepartie environnementale sans valeur monétaire ni produit remis à l'actionnaire.",
+      "Ne pas nommer le partenaire de plantation dans le dossier final : le proxy 2026 n'en donne aucun et la FAQ utilise une formulation non datée.",
+      "Ne pas réintroduire l'admission gratuite au World of Coca-Cola : les offres officielles trouvées sont datées et expirées, et aucune offre actionnaire 2026 n'est publiée.",
+      "Ne pas attribuer à KO les tickets Coke ON ou cadeaux de Coca-Cola Bottlers Japan Holdings, ni les programmes d'autres embouteilleurs.",
+      "Ne pas transformer le DSPP, le DRIP, le DRS, les transferts, le dividende, l'assemblée ou les publications publiques en bénéfices.",
+      "Conserver globalMinimumShares et requiredShares à null : aucun seuil propre au programme de plantation n'est publié.",
+      "Le chercheur ne crée aucun dossier final Prisma."
+    ]
+  }
+}

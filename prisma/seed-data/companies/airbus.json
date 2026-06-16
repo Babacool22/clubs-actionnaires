@@ -1,0 +1,56 @@
+{
+  "slug": "airbus",
+  "name": "Airbus",
+  "sector": "Aéronautique & Défense",
+  "stockIndex": "CAC40",
+  "ticker": "AIR",
+  "description": "Airbus SE est un groupe aérospatial européen qui conçoit, fabrique et fournit des avions commerciaux, des hélicoptères ainsi que des solutions de défense et d'espace. Son action ordinaire, identifiée par l'ISIN NL0000235190 et le symbole AIR, est notamment cotée à Paris et intégrée au CAC 40.",
+  "website": "https://www.airbus.com/",
+  "minShares": null,
+  "lastVerifiedAt": "2026-06-09",
+  "benefits": [
+    {
+      "type": "reduction",
+      "title": "Absence de droits de garde et de frais de gestion",
+      "description": "Les actions Airbus détenues au nominatif pur auprès de Société Générale Securities Services ne supportent ni droits de garde ni frais de gestion. Aucun seuil minimal ni durée de détention ne sont publiés. Les éventuels frais de transfert facturés par l'intermédiaire d'origine et les frais de courtage sur les achats ou ventes restent dus.",
+      "value": "Droits de garde et frais de gestion non facturés; frais de transfert et de courtage exclus.",
+      "requiredShares": null,
+      "sourceUrl": "https://www.airbus.com/en/investors/individual-shareholders"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Airbus dispose-t-il d'un club d'actionnaires au 9 juin 2026 ?",
+      "answer": "Non. Les pages officielles consultées ne présentent ni club avec adhésion, ni règlement, ni statut de membre. Airbus maintient un espace pour les actionnaires individuels et un dispositif de détention au nominatif, mais ces éléments ne constituent pas un club d'actionnaires."
+    },
+    {
+      "question": "Existe-t-il malgré tout un programme actionnarial Airbus ?",
+      "answer": "Aucun programme formel portant un nom officiel et assorti d'une procédure d'adhésion distincte n'est prouvé. La qualification la plus exacte est celle d'un avantage actionnarial isolé pour le nominatif pur, accompagné de services ordinaires de relations investisseurs."
+    },
+    {
+      "question": "Quel avantage concret est officiellement prouvé pour un actionnaire Airbus ?",
+      "answer": "L'avantage retenu est l'absence de droits de garde et de frais de gestion pour les actions détenues au nominatif pur auprès du mandataire d'Airbus. Les frais de courtage restent dus et aucun barème chiffré actuel n'est publié sur la page officielle."
+    },
+    {
+      "question": "Combien d'actions Airbus faut-il détenir pour obtenir cet avantage ?",
+      "answer": "Les sources officielles consultées ne fixent aucun seuil minimal. Le seuil reste donc inconnu et ne doit pas être remplacé par une action, même si le formulaire permet d'indiquer librement le nombre d'actions à transférer."
+    },
+    {
+      "question": "Comment passer ses actions Airbus au nominatif pur ?",
+      "answer": "L'actionnaire télécharge le formulaire officiel de conversion ou de transfert au nominatif pur, le complète puis l'adresse à l'intermédiaire financier qui détient les titres. Celui-ci organise le transfert vers Société Générale Securities Services, mandatée par Airbus pour gérer les comptes nominatifs."
+    },
+    {
+      "question": "Pourquoi la newsletter, Sharinbox, le dividende et l'assemblée générale ne sont-ils pas comptés comme avantages ?",
+      "answer": "La newsletter et le Retail Investors' Hub relèvent de l'information financière, tandis que Sharinbox et le service d'ordres sont des outils ordinaires de gestion du nominatif. Le dividende, le vote et la participation à l'assemblée générale sont des droits ou mécanismes génériques liés à l'action, pas des bénéfices exclusifs."
+    }
+  ],
+  "sources": [
+    "https://www.airbus.com/en/investors/individual-shareholders",
+    "https://www.airbus.com/sites/g/files/jlcbta136/files/2021-06/CONVERSION%20ON%20PURE%20REGISTERED%20FORM.pdf",
+    "https://www.airbus.com/en/investors/aero-notes-newsletter",
+    "https://www.airbus.com/en/investors/share-price-and-information",
+    "https://www.airbus.com/en/about-us/our-governance/shareholders-meeting",
+    "https://www.airbus.com/en/about-us",
+    "https://www.airbus.com/sites/g/files/jlcbta136/files/2021-06/PURCHASE%20ORDER%20IN%20A%20REGISTERED%20ACCOUNT.pdf"
+  ]
+}

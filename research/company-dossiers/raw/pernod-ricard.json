@@ -1,0 +1,745 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "pernod-ricard",
+    "name": "Pernod Ricard",
+    "description": "Pernod Ricard est le numéro 2 mondial des champagnes et spiritueux. Le Groupe distribue plus de 240 marques premium dans plus de 160 marchés. L'action ordinaire Pernod Ricard est cotée sur Euronext Paris et appartient au CAC 40.",
+    "sector": "Vins & Spiritueux",
+    "stockIndex": "CAC40",
+    "ticker": "RI",
+    "website": "https://www.pernod-ricard.com/",
+    "clubName": "Club Premium",
+    "clubUrl": "https://club-premium.pernod-ricard.com/fr"
+  },
+  "offerClassification": {
+    "primaryKind": "shareholder_club",
+    "otherKinds": [
+      "shareholder_benefit",
+      "investor_relations_only"
+    ],
+    "officialProgrammeName": "Club Premium",
+    "status": "active",
+    "statusReason": "Le site officiel du Club Premium, son règlement, son formulaire, sa FAQ et son calendrier d'événements sont actifs en 2026. Le Club exige une adhésion facultative et au moins 24 actions. Il propose des informations dédiées et des événements exclusifs, sans garantir une place à chaque membre.",
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S08"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": 24,
+    "eligibleShareClasses": [
+      "Action ordinaire Pernod Ricard S.A., ISIN FR0000120693"
+    ],
+    "holdingModes": [
+      "bearer",
+      "registered_administered",
+      "registered_pure"
+    ],
+    "minimumHoldingPeriod": null,
+    "residencyRestrictions": [
+      "Aucune restriction de résidence n'est publiée; le formulaire propose une liste internationale de pays."
+    ],
+    "accountRestrictions": [
+      "Le membre doit être une personne physique majeure.",
+      "Une adresse électronique valide est obligatoire.",
+      "Le règlement accepte les actions au porteur ou au nominatif sans distinguer, pour le nominatif, la forme pure de la forme administrée.",
+      "Les ADR Pernod Ricard ne sont pas mentionnés dans les conditions du Club et ne sont donc pas considérés comme prouvés pour atteindre le seuil de 24 actions."
+    ],
+    "proofRequired": [
+      "Le détenteur d'actions au porteur doit joindre une attestation de détention de titres à son inscription.",
+      "Pernod Ricard peut demander pendant toute la durée de l'adhésion une attestation de détention ou une déclaration sur l'honneur confirmant la qualité d'actionnaire.",
+      "Le formulaire recueille notamment l'identité, la date de naissance, l'adresse postale, l'adresse électronique, le téléphone et, selon la politique de confidentialité, le nombre d'actions."
+    ],
+    "fees": {
+      "membershipFee": null,
+      "applicationFee": null,
+      "otherFees": [
+        "Le transport jusqu'aux événements et l'hébergement éventuel restent à la charge du participant.",
+        "Les ordres d'achat et de vente au nominatif pur restent soumis à des frais de courtage; le barème officiel trouvé est celui de 2025 et n'est pas retenu comme tarif 2026."
+      ],
+      "notes": "Les sources officielles actuelles ne publient ni cotisation ni frais d'inscription, mais elles ne déclarent pas explicitement que l'adhésion est gratuite. Il ne faut donc pas présenter la gratuité comme acquise."
+    },
+    "sourceIds": [
+      "S02",
+      "S03",
+      "S04",
+      "S09",
+      "S10",
+      "S11",
+      "S12"
+    ]
+  },
+  "enrollment": {
+    "required": true,
+    "method": "online_form",
+    "applicationUrl": "https://club-premium.pernod-ricard.com/fr/form/membership-subscriptions",
+    "contact": "Club Premium : clubpremium@pernod-ricard.com et +33 (0)1 70 93 16 33.",
+    "steps": [
+      "Vérifier que le demandeur est majeur, possède au moins 24 actions ordinaires Pernod Ricard et dispose d'une adresse électronique valide.",
+      "Remplir le formulaire officiel d'adhésion en ligne avec les coordonnées demandées.",
+      "Pour des actions au porteur, joindre une attestation de détention délivrée par l'établissement financier.",
+      "Accepter le règlement et attendre la validation, Pernod Ricard pouvant vérifier les conditions à l'inscription ou pendant l'adhésion.",
+      "Se désinscrire dès que le seuil ou la qualité d'actionnaire n'est plus respecté; renouveler l'inscription si les coordonnées ne sont plus à jour."
+    ],
+    "processingTime": null,
+    "renewal": "L'adhésion reste valable tant que les conditions sont remplies. Le formulaire prévoit aussi une option de renouvellement; aucun rythme de renouvellement obligatoire n'est publié.",
+    "deadlines": [],
+    "sourceIds": [
+      "S02",
+      "S03",
+      "S04",
+      "S09",
+      "S13"
+    ]
+  },
+  "benefits": [
+    {
+      "id": "B01",
+      "type": "evenement",
+      "title": "Candidature aux événements et visites du Club",
+      "description": "Les membres peuvent candidater aux événements et visites exclusifs annoncés par le Club Premium. Chaque opération dispose de son propre formulaire et d'une capacité limitée; après la clôture, les participants sont sélectionnés par tirage au sort puis reçoivent une confirmation.",
+      "value": null,
+      "requiredShares": 24,
+      "requiredHoldingModes": [
+        "bearer",
+        "registered_administered",
+        "registered_pure"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "lottery",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": "Variable selon l'événement. Au 9 juin 2026, les événements des 11, 12 et 18 juin avaient clôturé leurs inscriptions les 10 et 17 mai 2026.",
+      "procedure": [
+        "Adhérer préalablement au Club Premium.",
+        "Consulter l'onglet Événements et ouvrir la fiche de l'opération souhaitée.",
+        "Remplir le formulaire avant la date limite propre à l'événement.",
+        "Attendre le tirage au sort et l'e-mail de confirmation."
+      ],
+      "limitsAndExclusions": [
+        "L'adhésion ne garantit aucune place; le nombre de participants est limité et la sélection se fait par tirage au sort.",
+        "Les dates, lieux, capacités, accompagnants autorisés et échéances varient selon l'événement.",
+        "Le transport et l'hébergement ne sont pas organisés par le Club et restent à la charge du participant.",
+        "Au 9 juin 2026, les trois événements encore à venir les 11, 12 et 18 juin étaient déjà fermés aux nouvelles inscriptions.",
+        "Le règlement évoque des visites, mais aucun calendrier 2026 ne garantit des visites régulières des maisons Martell, Mumm, Perrier-Jouët, Chivas ou Jameson."
+      ],
+      "primarySourceId": "S04",
+      "supportingSourceIds": [
+        "S02",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S15"
+      ],
+      "sourceUrl": "https://club-premium.pernod-ricard.com/fr/foire-aux-questions",
+      "evidenceGrade": "B",
+      "uncertainty": "Le programme d'événements est actif, mais sa fréquence future, les prochains lieux et l'ouverture de nouvelles inscriptions après le 9 juin 2026 ne sont pas publiés."
+    },
+    {
+      "id": "B02",
+      "type": "service",
+      "title": "Newsletter et informations dédiées",
+      "description": "L'adhésion permet de recevoir la newsletter du Club Premium avec des informations sur ses actualités et ses événements. Le site présente aussi des contenus réservés à la découverte du Groupe et de ses marques; les communications promotionnelles reposent sur le consentement du membre.",
+      "value": null,
+      "requiredShares": 24,
+      "requiredHoldingModes": [
+        "bearer",
+        "registered_administered",
+        "registered_pure"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "guaranteed",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Adhérer au Club avec une adresse électronique valide.",
+        "Fournir les données nécessaires à la gestion de l'adhésion.",
+        "Donner son consentement pour recevoir la newsletter et les informations promotionnelles lorsqu'il est demandé.",
+        "Mettre à jour ses coordonnées ou renouveler l'inscription si les messages ne sont plus reçus."
+      ],
+      "limitsAndExclusions": [
+        "La fréquence d'envoi de la newsletter n'est pas publiée.",
+        "Aucune réduction commerciale chiffrée ni offre produit active n'est détaillée dans les sources actuelles.",
+        "Le magazine Entreprendre et les publications financières accessibles à tous les actionnaires ne sont pas assimilés à cette newsletter de membre.",
+        "Aucun magazine actuel portant le nom « Premium » n'a été identifié."
+      ],
+      "primarySourceId": "S09",
+      "supportingSourceIds": [
+        "S01",
+        "S03",
+        "S04"
+      ],
+      "sourceUrl": "https://club-premium.pernod-ricard.com/sites/default/files/2025-10/Politique%20de%20confidentialit%C3%A9_Club%20Premium%20FR%20Octobre%202025.pdf",
+      "evidenceGrade": "A",
+      "uncertainty": "Les sources confirment la newsletter et des informations dédiées, mais elles ne précisent ni périodicité, ni contenu contractuel minimal, ni valeur d'éventuelles offres promotionnelles."
+    },
+    {
+      "id": "B03",
+      "type": "reduction",
+      "title": "Frais de garde et de gestion offerts au nominatif pur",
+      "description": "La page officielle des actionnaires individuels indique qu'aucun frais de garde ni de gestion n'est facturé pour les actions Pernod Ricard détenues au nominatif pur et conservées par Société Générale. Cet avantage est distinct de l'adhésion au Club Premium.",
+      "value": "0 € de frais de garde et de gestion au nominatif pur",
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "registered_pure"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "guaranteed",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Contacter le service Titres de Société Générale au +33 (0)2 51 85 67 89 ou utiliser Sharinbox.",
+        "Pour un nouvel actionnaire, recevoir puis compléter la convention de compte-titres au nominatif pur et le formulaire d'ordre d'achat.",
+        "Retourner les documents signés et fournir les fonds demandés selon la procédure de Société Générale."
+      ],
+      "limitsAndExclusions": [
+        "Le seuil de 24 actions du Club Premium ne s'applique pas à cet avantage; aucun seuil propre n'est publié.",
+        "La gratuité publiée couvre les frais de garde et de gestion, pas les frais de courtage sur les achats et ventes.",
+        "Le barème de courtage trouvé porte sur 2025 et ne doit pas être présenté comme un tarif actuel au 9 juin 2026.",
+        "La page officielle est non datée et contient encore certaines données de marché arrêtées à 2020."
+      ],
+      "primarySourceId": "S10",
+      "supportingSourceIds": [
+        "S11"
+      ],
+      "sourceUrl": "https://www.pernod-ricard.com/fr/investisseurs/actionnaires-individuels",
+      "evidenceGrade": "B",
+      "uncertainty": "La gratuité des frais de garde et de gestion est formulée clairement sur une page officielle toujours en ligne, mais aucun document tarifaire 2026 daté n'a été trouvé pour la confirmer ou détailler les autres frais."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Le Club Premium de Pernod Ricard est-il encore actif au 9 juin 2026 ?",
+      "answer": "Oui. Le site officiel, le règlement, le formulaire d'adhésion, la FAQ et le calendrier d'événements sont actifs en 2026. Le Club Premium est un club formel destiné aux actionnaires individuels et non un simple espace de relations investisseurs.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05"
+      ]
+    },
+    {
+      "question": "Quelles sont les conditions pour adhérer au Club Premium Pernod Ricard ?",
+      "answer": "Il faut être une personne physique majeure, disposer d'une adresse électronique valide et détenir au moins 24 actions ordinaires Pernod Ricard. Le règlement accepte les titres au porteur ou au nominatif et ne prévoit aucune durée minimale de détention.",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S04",
+        "S12"
+      ]
+    },
+    {
+      "question": "Comment s'inscrire et quel justificatif de détention faut-il fournir ?",
+      "answer": "L'inscription se fait avec le formulaire officiel en ligne. Un actionnaire au porteur doit joindre une attestation de détention délivrée par sa banque. Pernod Ricard peut aussi demander une attestation ou une déclaration sur l'honneur lors de l'inscription ou pendant l'adhésion.",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S04",
+        "S09"
+      ]
+    },
+    {
+      "question": "L'adhésion garantit-elle une place aux événements ou aux visites du Club ?",
+      "answer": "Non. Le membre doit s'inscrire séparément à chaque événement avant son échéance. Les places sont limitées et attribuées par tirage au sort. Au 9 juin 2026, les trois événements annoncés pour les 11, 12 et 18 juin étaient encore à venir mais leurs inscriptions étaient déjà closes.",
+      "sourceIds": [
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08"
+      ]
+    },
+    {
+      "question": "Les visites de Martell, Mumm, Perrier-Jouët, Chivas et Jameson sont-elles garanties ?",
+      "answer": "Non. Le règlement actuel évoque des visites et événements exclusifs, et le Club a bien organisé une visite du site de Thuir en 2025. En revanche, aucune offre permanente ou programmation 2026 ne garantit les visites des cinq maisons citées; cette liste historique ne doit pas être publiée comme un avantage actuel.",
+      "sourceIds": [
+        "S02",
+        "S05",
+        "S15"
+      ]
+    },
+    {
+      "question": "Le Club offre-t-il des réductions sur les produits ou un magazine Premium ?",
+      "answer": "Aucune réduction produit chiffrée ou offre commerciale active n'est publiée dans les conditions, la FAQ, le formulaire ou les événements actuels. La newsletter du Club est confirmée, mais aucun magazine actuel nommé « Premium » ne l'est. Le magazine Entreprendre relève de l'information générale proposée aux actionnaires.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S09",
+        "S10"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "L'action ordinaire Pernod Ricard porte l'ISIN FR0000120693, est cotée sur Euronext sous le symbole RI et appartient au CAC 40.",
+      "status": "verified",
+      "sourceIds": [
+        "S12"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C02",
+      "statement": "Le Club Premium est un club actif pour actionnaires individuels, accessible aux personnes majeures détenant au moins 24 actions et disposant d'une adresse électronique.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S08"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C03",
+      "statement": "Les actions au porteur et au nominatif sont admises pour atteindre le seuil du Club; l'actionnaire au porteur doit fournir une attestation de détention.",
+      "status": "partially_verified",
+      "sourceIds": [
+        "S02",
+        "S04",
+        "S10"
+      ],
+      "notes": "Le règlement emploie le terme générique « nominatif » sans distinguer explicitement le nominatif pur du nominatif administré. La page actionnaires confirme que les deux formes existent chez Pernod Ricard."
+    },
+    {
+      "id": "C04",
+      "statement": "L'adhésion reste valable tant que le membre remplit les conditions et prend fin lorsqu'il ne les remplit plus ou demande sa radiation.",
+      "status": "verified",
+      "sourceIds": [
+        "S02",
+        "S04"
+      ],
+      "notes": "Le formulaire comporte aussi une option de renouvellement, sans périodicité obligatoire publiée."
+    },
+    {
+      "id": "C05",
+      "statement": "Les événements du Club ont une capacité limitée et leurs participants sont sélectionnés par tirage au sort après une inscription séparée.",
+      "status": "verified",
+      "sourceIds": [
+        "S04",
+        "S06",
+        "S07",
+        "S08"
+      ],
+      "notes": "Le transport et l'hébergement éventuel restent à la charge du participant."
+    },
+    {
+      "id": "C06",
+      "statement": "Le Club utilise une newsletter pour envoyer à ses membres des informations sur ses actualités et événements.",
+      "status": "verified",
+      "sourceIds": [
+        "S03",
+        "S04",
+        "S09"
+      ],
+      "notes": "La fréquence d'envoi et le contenu minimal ne sont pas publiés."
+    },
+    {
+      "id": "C07",
+      "statement": "Les actions détenues au nominatif pur bénéficient de frais de garde et de gestion gratuits.",
+      "status": "partially_verified",
+      "sourceIds": [
+        "S10",
+        "S11"
+      ],
+      "notes": "La page officielle est précise mais non datée. Le guide lié confirme que les ordres de bourse restent payants et ne fournit qu'un barème 2025."
+    },
+    {
+      "id": "C08",
+      "statement": "Au 9 juin 2026, les événements prévus les 11, 12 et 18 juin 2026 étaient fermés aux nouvelles inscriptions.",
+      "status": "verified",
+      "sourceIds": [
+        "S05",
+        "S06",
+        "S07",
+        "S08"
+      ],
+      "notes": "Les dates limites étaient le 10 mai 2026 pour les événements des 11 et 12 juin, et le 17 mai 2026 pour l'événement du 18 juin."
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "Les membres du Club Premium bénéficient actuellement de tarifs réduits sur une sélection de spiritueux et de champagnes Pernod Ricard.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S09"
+      ]
+    },
+    {
+      "claim": "Le Club Premium garantit des visites des maisons Martell, Mumm, Perrier-Jouët et des distilleries Chivas et Jameson.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S02",
+        "S05",
+        "S15"
+      ]
+    },
+    {
+      "claim": "Chaque membre du Club Premium obtient automatiquement une place aux événements et peut toujours venir avec un accompagnant.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S04",
+        "S06",
+        "S07",
+        "S08"
+      ]
+    },
+    {
+      "claim": "L'adhésion au Club Premium est officiellement gratuite et ne comporte aucun frais.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "claim": "Les membres reçoivent un magazine actuel nommé « Premium » et disposent d'un espace actionnaires exclusif.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01",
+        "S03",
+        "S04",
+        "S09",
+        "S10"
+      ]
+    },
+    {
+      "claim": "L'invitation à l'Assemblée Générale et le droit de vote sont des avantages du Club Premium.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S10"
+      ]
+    },
+    {
+      "claim": "Le nominatif pur rend gratuits tous les frais liés à la détention et aux transactions sur l'action Pernod Ricard.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S10",
+        "S11"
+      ]
+    },
+    {
+      "claim": "Des réunions d'information en région sont un avantage actuel et garanti du Club Premium.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S02",
+        "S05"
+      ]
+    },
+    {
+      "claim": "Le magazine Entreprendre et les publications financières publiques constituent des bénéfices exclusifs du Club Premium.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S10"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://club-premium.pernod-ricard.com/fr",
+      "title": "Bienvenue sur le site du Club Premium des actionnaires individuels",
+      "publisher": "Pernod Ricard",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle présentant le Club Premium comme une passerelle réservée aux détenteurs d'au moins 24 actions, avec expériences, contenus exclusifs et événements sur mesure. La page ne détaille ni réduction produit, ni frais d'adhésion."
+    },
+    {
+      "id": "S02",
+      "url": "https://club-premium.pernod-ricard.com/fr/conditions-generales",
+      "title": "Règlement du Club Premium",
+      "publisher": "Pernod Ricard",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Règlement officiel actuel fixant la majorité, l'adresse électronique, le seuil de 24 actions au porteur ou au nominatif, l'adhésion facultative, la vérification possible des titres, la durée de l'adhésion et les contacts du Club."
+    },
+    {
+      "id": "S03",
+      "url": "https://club-premium.pernod-ricard.com/fr/form/membership-subscriptions",
+      "title": "Formulaire d'adhésion au Club Premium",
+      "publisher": "Pernod Ricard",
+      "sourceType": "official_form",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Formulaire en ligne actif confirmant le seuil de 24 actions, la majorité et l'adresse électronique. Il propose une première adhésion ou un renouvellement et recueille les coordonnées personnelles nécessaires."
+    },
+    {
+      "id": "S04",
+      "url": "https://club-premium.pernod-ricard.com/fr/foire-aux-questions",
+      "title": "Foire aux questions du Club Premium",
+      "publisher": "Pernod Ricard",
+      "sourceType": "official_faq",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "FAQ officielle précisant le seuil, l'attestation exigée au porteur, la désinscription, l'inscription séparée aux événements, le tirage au sort, les places limitées et l'absence de prise en charge du transport et de l'hébergement."
+    },
+    {
+      "id": "S05",
+      "url": "https://club-premium.pernod-ricard.com/fr/evenements",
+      "title": "Évènements du Club Premium",
+      "publisher": "Pernod Ricard",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Calendrier officiel listant trois événements à venir les 11, 12 et 18 juin 2026 ainsi que des ateliers, dégustations et visites passés. Il ne publie aucune visite 2026 des maisons historiquement citées dans le dossier existant."
+    },
+    {
+      "id": "S06",
+      "url": "https://club-premium.pernod-ricard.com/fr/evenements/participation-au-24eme-club-de-lecture-pernod-ricard-avec-douglas-kennedy-paris",
+      "title": "Participation au 24ème Club de Lecture Pernod Ricard avec Douglas Kennedy",
+      "publisher": "Pernod Ricard",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Fiche précise de l'événement du 11 juin 2026: 10 places, invitation annoncée pour deux personnes, confirmation aux personnes sélectionnées, clôture le 10 mai 2026 et inscription fermée au 9 juin."
+    },
+    {
+      "id": "S07",
+      "url": "https://club-premium.pernod-ricard.com/fr/evenements/partenariats-sportifs-un-levier-strategique-pour-la-croissance-et-la-differenciation",
+      "title": "Partenariats sportifs et retransmission d'un match de la Coupe du monde",
+      "publisher": "Pernod Ricard",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Fiche précise de l'événement du 12 juin 2026: 30 places, invitation annoncée pour deux personnes, confirmation aux sélectionnés, clôture le 10 mai 2026 et inscription fermée au 9 juin."
+    },
+    {
+      "id": "S08",
+      "url": "https://club-premium.pernod-ricard.com/fr/evenements/cocktail-20eme-anniversaire-du-club-premium-paris",
+      "title": "Cocktail du 20ème anniversaire du Club Premium",
+      "publisher": "Pernod Ricard",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Fiche précise de l'événement du 18 juin 2026 au siège: 80 places attribuées par tirage au sort, invitation pour deux personnes, clôture le 17 mai 2026 et inscription fermée au 9 juin."
+    },
+    {
+      "id": "S09",
+      "url": "https://club-premium.pernod-ricard.com/sites/default/files/2025-10/Politique%20de%20confidentialit%C3%A9_Club%20Premium%20FR%20Octobre%202025.pdf",
+      "title": "Politique de confidentialité du Club Premium",
+      "publisher": "Pernod Ricard",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": "2025-10",
+      "lastUpdatedAt": "2025-10",
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Politique datée détaillant les données utilisées pour l'adhésion, dont le nombre d'actions, la gestion des inscriptions aux événements et l'envoi par newsletter d'informations sur les actualités, événements et offres dédiées avec consentement."
+    },
+    {
+      "id": "S10",
+      "url": "https://www.pernod-ricard.com/fr/investisseurs/actionnaires-individuels",
+      "title": "Actionnaires individuels",
+      "publisher": "Pernod Ricard",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "undated",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle distinguant porteur, nominatif administré et nominatif pur. Elle annonce l'absence de frais de garde et de gestion au nominatif pur et décrit la procédure Société Générale, mais conserve aussi des données générales datées de 2020."
+    },
+    {
+      "id": "S11",
+      "url": "https://www.pernod-ricard.com/sites/default/files/inline-files/Guide%20Modalite%CC%81s%20Pratiques%20FR.pdf",
+      "title": "Modalités pratiques pour l'achat et la vente d'actions Pernod Ricard au nominatif pur",
+      "publisher": "Pernod Ricard et Société Générale",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2025",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "archived",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Guide officiel lié depuis la page actionnaires, décrivant la convention de compte, les ordres et les frais de courtage. Son calendrier et son barème concernent 2025; il sert uniquement à établir que la gratuité de garde ne signifie pas gratuité des transactions."
+    },
+    {
+      "id": "S12",
+      "url": "https://www.pernod-ricard.com/fr/media/pernod-ricard-et-brown-forman-mettent-fin-aux-discussions-concernant-un-potentiel",
+      "title": "Pernod Ricard et Brown-Forman mettent fin aux discussions concernant un potentiel rapprochement",
+      "publisher": "Pernod Ricard",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": "2026-04-28",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Communiqué officiel daté décrivant Pernod Ricard comme un leader mondial des spiritueux et champagnes et confirmant la cotation Euronext, le mnémonique RI, l'ISIN FR0000120693 et l'appartenance au CAC 40."
+    },
+    {
+      "id": "S13",
+      "url": "https://www.pernod-ricard.com/fr/contact",
+      "title": "Contact",
+      "publisher": "Pernod Ricard",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle française donnant pour les membres du Club Premium le numéro +33 (0)1 70 93 16 33 et l'adresse correcte clubpremium@pernod-ricard.com."
+    },
+    {
+      "id": "S14",
+      "url": "https://www.pernod-ricard.com/en/contact",
+      "title": "Contact",
+      "publisher": "Pernod Ricard",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle anglaise donnant le même numéro du Club mais affichant l'adresse fautive clubpremiuem@pernod-ricard.com. Cette variante est écartée au profit du règlement et de la page française."
+    },
+    {
+      "id": "S15",
+      "url": "https://club-premium.pernod-ricard.com/events/come-and-visit-thuir-factory-and-cellars-near-perpignan-pyrenees-orientales",
+      "title": "Come and visit the Thuir factory and cellars near Perpignan",
+      "publisher": "Pernod Ricard",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": "2025-06-06",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "archived",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Fiche officielle historique prouvant une visite ponctuelle de l'usine et des caves de Thuir le 6 juin 2025, limitée à 30 places par tirage au sort. Elle ne prouve ni une visite active en 2026 ni les maisons citées dans les anciennes données."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Adresse électronique du Club Premium",
+      "sourceIds": [
+        "S02",
+        "S13",
+        "S14"
+      ],
+      "positions": [
+        "Le règlement et la page française de contact indiquent clubpremium@pernod-ricard.com.",
+        "La page anglaise de contact affiche clubpremiuem@pernod-ricard.com, avec les lettres « em » inversées."
+      ],
+      "resolution": "Retenir clubpremium@pernod-ricard.com, confirmé par deux sources officielles françaises propres au Club. Traiter l'adresse anglaise comme une coquille.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Étendue de la gratuité au nominatif pur",
+      "sourceIds": [
+        "S10",
+        "S11"
+      ],
+      "positions": [
+        "La page actionnaires annonce qu'il n'existe aucun frais de garde et de gestion au nominatif pur.",
+        "Le guide officiel 2025 prévoit des frais de courtage pour les ordres d'achat et de vente."
+      ],
+      "resolution": "Limiter le bénéfice à la gratuité des frais de garde et de gestion. Ne pas annoncer une gratuité totale du compte ou des transactions et ne pas reprendre le barème 2025 comme tarif 2026.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Disponibilité des événements de juin 2026",
+      "sourceIds": [
+        "S05",
+        "S06",
+        "S07",
+        "S08"
+      ],
+      "positions": [
+        "Le calendrier classe les événements des 11, 12 et 18 juin 2026 parmi les événements à venir.",
+        "Les trois fiches individuelles indiquent que les inscriptions sont fermées, avec des échéances aux 10 et 17 mai 2026."
+      ],
+      "resolution": "Considérer le programme d'événements comme actif, mais préciser qu'au 9 juin 2026 aucun de ces trois événements n'était encore ouvert à une nouvelle candidature.",
+      "impact": "wording_only"
+    }
+  ],
+  "handoff": {
+    "researchStatus": "complete_with_uncertainties",
+    "readyForDevelopment": true,
+    "benefitCount": 3,
+    "faqCount": 6,
+    "blockingIssues": [],
+    "developerNotes": [
+      "Créer un véritable Club Premium avec clubName et clubUrl; la classification primaire est shareholder_club.",
+      "Conserver le seuil global de 24 actions pour l'adhésion et pour B01-B02. Ne pas appliquer ce seuil à B03, qui dépend uniquement du nominatif pur.",
+      "Présenter B01 comme un droit de candidature soumis à capacité et tirage au sort, jamais comme une place ou une visite garantie.",
+      "Au 9 juin 2026, les événements des 11, 12 et 18 juin étaient à venir mais déjà fermés aux inscriptions.",
+      "Ne pas publier de tarifs préférentiels sur les produits: aucune offre actuelle chiffrée ou condition commerciale n'est prouvée.",
+      "Ne pas publier comme programme permanent les visites Martell, Mumm, Perrier-Jouët, Chivas ou Jameson. Le règlement autorise des visites ponctuelles, sans calendrier garanti.",
+      "Retenir la newsletter et les informations dédiées, mais pas un « magazine Premium » non retrouvé. Le magazine Entreprendre relève de l'information générale.",
+      "Ne pas annoncer une adhésion gratuite: aucune cotisation n'est publiée, mais la gratuité n'est pas formulée explicitement.",
+      "Pour le nominatif pur, annoncer uniquement l'absence de frais de garde et de gestion. Les transactions restent payantes et aucun barème 2026 n'est établi.",
+      "Utiliser clubpremium@pernod-ricard.com; l'orthographe clubpremiuem de la page anglaise est une coquille."
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "mcdonalds",
+  "name": "McDonald's",
+  "description": "McDonald's Corporation est le premier groupe mondial de restauration rapide, avec plus de 45 000 établissements dans plus de 100 pays au 7 mai 2026. Environ 95 % des restaurants sont exploités par des entrepreneurs locaux indépendants dans le cadre du modèle de franchise du groupe.",
+  "sector": "Restauration",
+  "stockIndex": "S&P 500",
+  "ticker": "MCD",
+  "website": "https://corporate.mcdonalds.com/",
+  "minShares": null,
+  "lastVerifiedAt": "2026-06-09",
+  "benefits": [],
+  "faqs": [
+    {
+      "question": "McDonald's Corporation propose-t-elle un club ou des avantages réservés aux actionnaires ?",
+      "answer": "Aucun club, programme d'adhésion ou avantage commercial réservé aux détenteurs de l'action McDonald's Corporation cotée à New York sous le symbole MCD n'est officiellement prouvé au 9 juin 2026. Les pages officielles présentent uniquement des informations financières, des contacts et des services administratifs."
+    },
+    {
+      "question": "Les actionnaires de McDonald's Corporation reçoivent-ils des coupons ou des repas gratuits ?",
+      "answer": "Non pour l'action NYSE MCD d'après les sources officielles examinées. Des carnets de repas existent au Japon, mais ils sont réservés aux actionnaires de McDonald's Holdings Company (Japan), Ltd., société distincte cotée à Tokyo sous le code 2702. L'offre japonaise exige au moins 100 actions détenues depuis un an et n'est utilisable que dans des restaurants participants au Japon."
+    },
+    {
+      "question": "Le Computershare Investment Plan constitue-t-il un avantage actionnaire McDonald's ?",
+      "answer": "Non dans le cadre de cette fiche. McDonald's désigne Computershare comme agent de transfert et propose par son intermédiaire un plan d'achat direct d'actions et de réinvestissement des dividendes. Le contrat de recherche exclut expressément les DSPP, DRIP et services de tenue de registre lorsqu'aucun avantage économique propre n'est démontré."
+    },
+    {
+      "question": "L'assemblée annuelle de McDonald's est-elle comptée comme un bénéfice réservé ?",
+      "answer": "Non. La page Events & Presentations publie les ressources de l'assemblée annuelle 2026, notamment la rediffusion, les résultats de vote, la déclaration de procuration et le rapport annuel. La participation et le vote relèvent des droits ordinaires de l'actionnaire et ne sont pas un avantage commercial ou de fidélité."
+    },
+    {
+      "question": "Le dividende croissant de McDonald's est-il retenu comme avantage actionnaire ?",
+      "answer": "Non. Le rapport annuel 2025 indique une quarante-neuvième année consécutive d'augmentation du dividende, mais il s'agit d'un dividende ordinaire versé aux actionnaires éligibles. Ni le dividende, ni son versement direct, ni son réinvestissement ne sont retenus comme bénéfices spécifiques dans cette recherche."
+    },
+    {
+      "question": "Les offres McValue et MyMcDonald's Rewards sont-elles des privilèges d'actionnaires ?",
+      "answer": "Non. Les offres américaines McValue et MyMcDonald's Rewards sont des promotions destinées aux clients, soumises notamment à l'utilisation de l'application, à un achat, à l'adhésion au programme de fidélité ou à la participation des restaurants. La détention d'actions MCD n'est pas une condition publiée."
+    }
+  ],
+  "sources": [
+    "https://corporate.mcdonalds.com/corpmcd/investors.html",
+    "https://corporate.mcdonalds.com/corpmcd/investors/shareholder-resources.html",
+    "https://corporate.mcdonalds.com/corpmcd/investors/stock-information.html",
+    "https://corporate.mcdonalds.com/corpmcd/investors/events-and-presentations.html",
+    "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Q1%202026%20Exhibit%2099.1%20-%203.31.26.pdf",
+    "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/MCD%202025%20Annual%20Report.pdf",
+    "https://www-us.computershare.com/Investor/3x/Plans/PlansList.asp?bhjs=0&cc=US&fla=0&lang=en&planid=132&state=eStateRequestPlanInformationByMail&theme=cpu",
+    "https://www-us.computershare.com/webcontent/Doc.aspx?docid=%7Bb30656a4-c5bd-4ac6-8aa5-28a3bbecb1e7%7D&source=document",
+    "https://www.mcd-holdings.co.jp/ir/individual/shareholder_benefits/",
+    "https://www.mcd-holdings.co.jp/en/profile/",
+    "https://www.mcdonalds.com/us/en-us/deals.html"
+  ]
+}

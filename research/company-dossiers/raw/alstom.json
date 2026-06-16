@@ -1,0 +1,494 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "alstom",
+    "name": "Alstom",
+    "description": "Alstom conçoit et fournit des solutions de mobilité ferroviaire : trains à grande vitesse, métros, tramways, systèmes intégrés, services, infrastructures, signalisation et solutions digitales. Le groupe est coté sur Euronext Paris sous le mnémonique ALO.",
+    "sector": "Industrie & Équipements",
+    "stockIndex": "SBF 120",
+    "ticker": "ALO",
+    "website": "https://www.alstom.com",
+    "clubName": null,
+    "clubUrl": null
+  },
+  "offerClassification": {
+    "primaryKind": "shareholder_benefit",
+    "otherKinds": [
+      "investor_relations_only"
+    ],
+    "officialProgrammeName": null,
+    "status": "active",
+    "statusReason": "Aucun club, cercle ou programme d'adhésion actuel n'est présenté dans les sources officielles consultées. Un avantage économique précis reste toutefois publié pour les actions au nominatif pur : Alstom prend en charge les droits de garde et indique la commission de banque comme gratuite.",
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S03"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": null,
+    "eligibleShareClasses": [
+      "Actions ordinaires Alstom, ISIN FR0010220475"
+    ],
+    "holdingModes": [
+      "registered_pure"
+    ],
+    "minimumHoldingPeriod": null,
+    "residencyRestrictions": [],
+    "accountRestrictions": [
+      "Le bénéfice retenu concerne uniquement un compte de titres Alstom au nominatif pur tenu par Uptevia pour le compte d'Alstom."
+    ],
+    "proofRequired": [
+      "Inscription des actions au nominatif pur dans le registre d'Alstom.",
+      "Pour un transfert depuis le porteur, instruction transmise à l'intermédiaire financier selon la procédure de transfert au nominatif."
+    ],
+    "fees": {
+      "membershipFee": null,
+      "applicationFee": null,
+      "otherFees": [
+        "Au nominatif pur, les frais de courtage indiqués sont de 0,2 % du montant brut de la négociation, avec un minimum de 6,00 euros HT.",
+        "Un supplément de 10 euros HT est indiqué en cas d'ordre papier.",
+        "Les frais éventuellement appliqués au nominatif administré ou au porteur relèvent de l'intermédiaire financier."
+      ],
+      "notes": "Il n'existe pas de cotisation de club identifiée. La gratuité publiée porte sur les droits de garde et la commission de banque au nominatif pur, pas sur toutes les opérations."
+    },
+    "sourceIds": [
+      "S02",
+      "S03"
+    ]
+  },
+  "enrollment": {
+    "required": true,
+    "method": "broker_or_bank",
+    "applicationUrl": null,
+    "contact": "Service actionnaires Alstom : 0 800 50 90 51 depuis la France; pour le service nominatif, touche 3. Depuis l'étranger, la page actionnaires et la brochure 2026 indiquent +33 1 49 37 82 39. Espace Uptevia : https://www.investors.uptevia.com.",
+    "steps": [
+      "Contacter le service actionnaires Alstom pour demander la procédure ou le formulaire de transfert au nominatif pur.",
+      "Transmettre l'instruction nécessaire à l'intermédiaire financier qui détient les titres au porteur.",
+      "Après inscription au nominatif pur, utiliser l'identifiant adressé par Uptevia pour consulter le compte et transmettre les ordres."
+    ],
+    "processingTime": null,
+    "renewal": "Aucun renouvellement de club n'est applicable; le bénéfice dépend du maintien des actions au nominatif pur.",
+    "deadlines": [],
+    "sourceIds": [
+      "S02",
+      "S03"
+    ]
+  },
+  "benefits": [
+    {
+      "id": "B01",
+      "type": "reduction",
+      "title": "Droits de garde pris en charge au nominatif pur",
+      "description": "Pour les actions Alstom inscrites au nominatif pur et gérées par Uptevia, Alstom indique prendre en charge les droits de garde. Le tableau officiel mentionne également une commission de banque gratuite, tandis que les frais de courtage restent dus.",
+      "value": "Droits de garde pris en charge par Alstom et commission de banque indiquée comme gratuite; courtage de 0,2 % avec un minimum de 6,00 euros HT, plus 10 euros HT pour un ordre papier.",
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "registered_pure"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "guaranteed",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Faire inscrire les actions Alstom au nominatif pur auprès d'Uptevia.",
+        "Passer ensuite les ordres via le service actionnaires ou l'espace Uptevia selon les modalités publiées."
+      ],
+      "limitsAndExclusions": [
+        "La prise en charge des droits de garde n'est publiée que pour le nominatif pur.",
+        "Au nominatif administré et au porteur, la tarification de l'intermédiaire financier s'applique.",
+        "Les frais de courtage et le supplément pour ordre papier ne sont pas gratuits.",
+        "Aucun seuil propre en nombre d'actions ni durée minimale de détention n'est publié pour ce bénéfice."
+      ],
+      "primarySourceId": "S02",
+      "supportingSourceIds": [
+        "S03"
+      ],
+      "sourceUrl": "https://www.alstom.com/fr/finance/informations-pour-les-actionnaires-alstom",
+      "evidenceGrade": "B",
+      "uncertainty": "La page officielle est actuelle mais non datée. Sa FAQ conserve une mention obsolète de BNP Paribas Securities Services et formule plus largement une prise en charge des frais de gestion au nominatif; le bénéfice est donc limité ici au périmètre explicite du tableau, le nominatif pur géré par Uptevia."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Alstom dispose-t-il d'un club ou d'un cercle des actionnaires en juin 2026 ?",
+      "answer": "Non. Au 9 juin 2026, ni la page officielle destinée aux actionnaires, ni le Document d'enregistrement universel 2025/26, ni la documentation de l'assemblée générale 2026 ne présentent un club, un cercle ou une procédure d'adhésion. La société maintient un service de relations investisseurs et un dispositif de tenue au nominatif.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03"
+      ]
+    },
+    {
+      "question": "Les actionnaires Alstom peuvent-ils encore bénéficier de visites de sites ou de réunions en région ?",
+      "answer": "Aucune offre active de visite de site ou de réunion régionale réservée aux actionnaires n'a été trouvée au 9 juin 2026. Alstom présentait officiellement des visites de sites et des réunions d'information en 2007-2011, mais ces archives ne prouvent pas leur maintien. Ces avantages historiques sont donc exclus.",
+      "sourceIds": [
+        "S02",
+        "S06",
+        "S07"
+      ]
+    },
+    {
+      "question": "Quel avantage concret est actuellement prouvé pour un actionnaire individuel Alstom ?",
+      "answer": "L'avantage retenu est la prise en charge par Alstom des droits de garde des actions inscrites au nominatif pur. Le tableau officiel indique aussi une commission de banque gratuite. En revanche, les frais de courtage restent dus : 0,2 % du montant brut, avec un minimum de 6,00 euros HT, et 10 euros HT supplémentaires pour un ordre papier.",
+      "sourceIds": [
+        "S02"
+      ]
+    },
+    {
+      "question": "Comment passer des actions Alstom du porteur au nominatif pur ?",
+      "answer": "La page actionnaires invite à contacter le numéro vert 0 800 50 90 51 pour demander la procédure de transfert au nominatif. Le transfert doit ensuite être traité avec l'intermédiaire financier qui détient les titres. Une fois le compte ouvert chez Uptevia, l'actionnaire reçoit des codes pour l'espace https://www.investors.uptevia.com.",
+      "sourceIds": [
+        "S02",
+        "S03"
+      ]
+    },
+    {
+      "question": "Faut-il détenir un nombre minimal d'actions ou respecter une durée de détention ?",
+      "answer": "Alstom indique qu'aucun minimum n'est requis pour ouvrir un compte au nominatif pur, mais ne publie pas de seuil propre au bénéfice ni de durée minimale de détention. Le rapport conserve donc les seuils à null au lieu de transformer cette formulation en exigence artificielle d'une action.",
+      "sourceIds": [
+        "S02"
+      ]
+    },
+    {
+      "question": "L'assemblée générale du 9 juillet 2026 constitue-t-elle un avantage actionnaire ?",
+      "answer": "Non. La participation et le vote à l'assemblée générale sont des droits ordinaires, pas un bénéfice commercial. Pour l'assemblée du 9 juillet 2026, tout actionnaire peut participer quel que soit le nombre d'actions, sous réserve de l'inscription des titres au 2 juillet 2026 à 0 h 00 et des formalités de carte, de vote ou de procuration applicables.",
+      "sourceIds": [
+        "S03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "L'action ordinaire Alstom est cotée sur Euronext Paris sous le mnémonique ALO et l'ISIN FR0010220475.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S05"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C02",
+      "statement": "Alstom appartient au SBF 120, à l'Euronext 100 et au STOXX 600 au 31 mars 2026.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S05",
+        "S08"
+      ],
+      "notes": "Le champ stockIndex retient SBF 120, l'indice français principal cité par les sources actuelles."
+    },
+    {
+      "id": "C03",
+      "statement": "Aucun club ou cercle des actionnaires Alstom actif n'est présenté dans les sources officielles actuelles consultées.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "notes": "Conclusion fondée sur l'examen de la rubrique actionnaires, du DEU 2025/26 et de la documentation AG 2026."
+    },
+    {
+      "id": "C04",
+      "statement": "Alstom publie la prise en charge des droits de garde pour les actions détenues au nominatif pur.",
+      "status": "verified",
+      "sourceIds": [
+        "S02"
+      ],
+      "notes": "La page est non datée; la portée est restreinte au nominatif pur conformément au tableau actuel."
+    },
+    {
+      "id": "C05",
+      "statement": "Les actions Alstom peuvent être détenues au porteur, au nominatif administré ou au nominatif pur.",
+      "status": "verified",
+      "sourceIds": [
+        "S02",
+        "S03"
+      ],
+      "notes": "Uptevia est le teneur de registre mandaté pour le nominatif pur dans la documentation actuelle."
+    },
+    {
+      "id": "C06",
+      "statement": "Des visites de sites, réunions d'information et lettres aux actionnaires ont existé historiquement chez Alstom.",
+      "status": "verified",
+      "sourceIds": [
+        "S06",
+        "S07"
+      ],
+      "notes": "Ces documents de 2007 et 2011 sont archivés et ne permettent pas de présenter ces services comme actifs en 2026."
+    },
+    {
+      "id": "C07",
+      "statement": "L'assemblée générale mixte 2026 est prévue le 9 juillet 2026 à Paris et reste accessible quel que soit le nombre d'actions détenues.",
+      "status": "verified",
+      "sourceIds": [
+        "S03"
+      ],
+      "notes": "Ce droit légal est documenté pour répondre aux confusions, mais n'est pas retenu comme bénéfice."
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "Il suffit de détenir une action pour rejoindre un club ou une communauté Alstom donnant accès à des avantages.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03"
+      ]
+    },
+    {
+      "claim": "Alstom propose actuellement à ses actionnaires des visites des sites de La Rochelle, Belfort, Reichshoffen ou Petite-Forêt.",
+      "reason": "discontinued",
+      "sourceIds": [
+        "S02",
+        "S07"
+      ]
+    },
+    {
+      "claim": "Alstom organise actuellement des réunions régionales réservées à ses actionnaires individuels.",
+      "reason": "discontinued",
+      "sourceIds": [
+        "S06",
+        "S07"
+      ]
+    },
+    {
+      "claim": "Une lettre aux actionnaires actuelle est envoyée comme avantage réservé aux membres d'un club Alstom.",
+      "reason": "expired",
+      "sourceIds": [
+        "S06",
+        "S07"
+      ]
+    },
+    {
+      "claim": "La participation et le vote à l'assemblée générale constituent un avantage du programme actionnaires.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S03"
+      ]
+    },
+    {
+      "claim": "L'accès aux informations financières publiques, au cours de l'action et au service investisseurs constitue un avantage actionnaire.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S02",
+        "S04",
+        "S05"
+      ]
+    },
+    {
+      "claim": "Tous les services et toutes les opérations sur actions Alstom sont gratuits au nominatif pur.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S02"
+      ]
+    },
+    {
+      "claim": "La prise en charge des frais s'applique de la même façon au nominatif pur et au nominatif administré.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S02"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.alstom.com/sites/alstom.com/files/2026/05/28/20260528_URD_Alstom_FR.pdf",
+      "title": "Document d'enregistrement universel 2025/26",
+      "publisher": "Alstom",
+      "sourceType": "regulatory_filing",
+      "official": true,
+      "publishedAt": "2026-05-28",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Document déposé auprès de l'AMF le 28 mai 2026. Il décrit les activités du groupe, confirme le mnémonique ALO, l'ISIN et les principaux indices SBF 120, Euronext 100 et STOXX 600. Il ne présente aucun club ou cercle des actionnaires."
+    },
+    {
+      "id": "S02",
+      "url": "https://www.alstom.com/fr/finance/informations-pour-les-actionnaires-alstom",
+      "title": "Informations pour les actionnaires Alstom",
+      "publisher": "Alstom",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "undated",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle détaillant le porteur, le nominatif administré et le nominatif pur, Uptevia, les contacts, la prise en charge des droits de garde au nominatif pur, la commission de banque gratuite et les frais de courtage. Aucun club, formulaire d'adhésion ou avantage événementiel actuel n'y figure."
+    },
+    {
+      "id": "S03",
+      "url": "https://www.alstom.com/sites/alstom.com/files/2026/06/01/20260709_AGM_BDC_FR.pdf",
+      "title": "Brochure de convocation 2026 de l'assemblée générale mixte du 9 juillet 2026",
+      "publisher": "Alstom",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2026-06-01",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Brochure datée confirmant Uptevia comme mandataire, les modes de détention et les modalités de participation à l'assemblée du 9 juillet 2026. Tout actionnaire peut participer quel que soit le nombre d'actions, ce qui constitue un droit légal et non un bénéfice."
+    },
+    {
+      "id": "S04",
+      "url": "https://www.alstom.com/fr/finance",
+      "title": "Relations Investisseurs",
+      "publisher": "Alstom",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "undated",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page générale de relations investisseurs donnant le numéro vert, un numéro depuis l'étranger, l'adresse investor.relations@alstomgroup.com et les contacts. Elle confirme un service d'information standard, sans club ni avantage événementiel."
+    },
+    {
+      "id": "S05",
+      "url": "https://www.alstom.com/fr/finance/informations-financieres",
+      "title": "Informations sur le titre Alstom",
+      "publisher": "Alstom",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "undated",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle confirmant la cotation sur Euronext Paris, l'appartenance au SBF 120 et à l'Euronext 100, le code ISIN FR0010220475 et le mnémonique ALO."
+    },
+    {
+      "id": "S06",
+      "url": "https://www.alstom.com/sites/alstom.com/files/2018/07/08/Global/Group/Resources/Documents/Investors%20document/Lettres%20aux%20actionnaires%20mai07.pdf",
+      "title": "Lettre aux actionnaires - Mai 2007",
+      "publisher": "Alstom",
+      "sourceType": "web_archive",
+      "official": true,
+      "publishedAt": "2007-05",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "archived",
+      "evidenceGrade": "D",
+      "evidenceSummary": "Archive officielle d'une lettre aux actionnaires de mai 2007 mentionnant notamment des réunions d'information à Bordeaux et Lyon. Elle prouve l'existence historique de ces communications, mais pas leur disponibilité en 2026."
+    },
+    {
+      "id": "S07",
+      "url": "https://www.alstom.com/sites/alstom.com/files/2011/06/28/Pres%20AG%2011%20FR%2016x9%20finale%20Internet_0.pdf",
+      "title": "Présentation de l'Assemblée générale du 28 juin 2011",
+      "publisher": "Alstom",
+      "sourceType": "web_archive",
+      "official": true,
+      "publishedAt": "2011-06-28",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "archived",
+      "evidenceGrade": "D",
+      "evidenceSummary": "Présentation officielle historique décrivant un dialogue avec les actionnaires comprenant lettre, visites de sites, numéro vert, adresse électronique et réunions d'information. Aucun document actuel consulté ne reconduit les visites, lettres ou réunions."
+    },
+    {
+      "id": "S08",
+      "url": "https://www.euronext.com/en/about/media/euronext-press-releases/euronext-announces-march-2024-quarterly-review-results-cacr",
+      "title": "Euronext announces March 2024 quarterly review results of the CAC Family",
+      "publisher": "Euronext",
+      "sourceType": "official_partner",
+      "official": true,
+      "publishedAt": "2024-03-07",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Communiqué officiel de l'administrateur d'indices annonçant l'exclusion d'Alstom du CAC 40 et son entrée dans le CAC Next 20, avec effet le 18 mars 2024. Les sources Alstom 2026 citent ensuite le SBF 120 parmi les principaux indices."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Indice boursier du manifeste",
+      "sourceIds": [
+        "S01",
+        "S05",
+        "S08"
+      ],
+      "positions": [
+        "Le manifeste du dépôt classe Alstom dans le CAC40.",
+        "Euronext a annoncé la sortie d'Alstom du CAC 40 avec effet le 18 mars 2024.",
+        "Le DEU 2025/26 et la page financière actuelle d'Alstom citent le SBF 120 et l'Euronext 100, sans citer le CAC 40."
+      ],
+      "resolution": "Le rapport retient SBF 120. Le manifeste doit être arbitré ou corrigé avant génération du dossier final.",
+      "impact": "blocks_development"
+    },
+    {
+      "topic": "Teneur de registre au nominatif",
+      "sourceIds": [
+        "S02",
+        "S03"
+      ],
+      "positions": [
+        "Le haut de la page actionnaires et la brochure datée de 2026 désignent Uptevia comme teneur de registre ou mandataire.",
+        "La FAQ située plus bas sur la même page actionnaires conserve des mentions de BNP Paribas Securities Services."
+      ],
+      "resolution": "Retenir Uptevia, confirmé par la brochure officielle datée du 1er juin 2026; considérer les mentions BNP Paribas de la FAQ comme obsolètes.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Numéro d'appel depuis l'étranger",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "positions": [
+        "La page actionnaires et la brochure AG 2026 indiquent +33 1 49 37 82 39 pour l'accès au service actionnaires ou nominatif.",
+        "La page générale Relations Investisseurs indique +33 1 57 06 87 78."
+      ],
+      "resolution": "Utiliser le numéro +33 1 49 37 82 39 pour la procédure nominative, car il est confirmé par la brochure 2026; conserver l'adresse électronique générale pour les relations investisseurs.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Périmètre de la prise en charge des frais",
+      "sourceIds": [
+        "S02"
+      ],
+      "positions": [
+        "Le tableau actuel limite explicitement la prise en charge des droits de garde au nominatif pur et renvoie le nominatif administré à la tarification de l'intermédiaire.",
+        "La FAQ ancienne de la même page affirme plus largement qu'Alstom prend en charge les frais de gestion des comptes gérés au nominatif."
+      ],
+      "resolution": "Limiter le bénéfice au nominatif pur et aux seuls droits de garde et commission bancaire explicitement indiqués dans le tableau.",
+      "impact": "wording_only"
+    }
+  ],
+  "handoff": {
+    "researchStatus": "complete_with_uncertainties",
+    "readyForDevelopment": false,
+    "benefitCount": 1,
+    "faqCount": 6,
+    "blockingIssues": [
+      "Le stockIndex du manifeste est CAC40, mais les sources officielles établissent la sortie du CAC 40 en mars 2024 et indiquent SBF 120 en 2026. L'orchestrateur doit arbitrer ou corriger le manifeste."
+    ],
+    "developerNotes": [
+      "Ne créer aucun dossier Prisma final tant que readyForDevelopment reste false.",
+      "Ne pas créer de clubName ni de clubUrl : aucun club ou cercle actif n'est prouvé.",
+      "Ne pas réintroduire les visites de sites, réunions régionales ou lettre aux actionnaires : elles ne sont prouvées que par des archives de 2007-2011.",
+      "Après résolution de l'indice, conserver uniquement B01 comme bénéfice; l'assemblée générale, le vote, les publications publiques et le service investisseurs sont génériques.",
+      "Conserver requiredShares à null : aucun seuil propre au bénéfice n'est officiellement publié."
+    ]
+  }
+}

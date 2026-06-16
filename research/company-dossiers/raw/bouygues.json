@@ -1,0 +1,590 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "bouygues",
+    "name": "Bouygues",
+    "description": "Bouygues est un groupe international diversifié de services présent dans la construction, les énergies et services, les télécoms et les médias. Ses six principaux métiers sont Colas, Bouygues Construction, Bouygues Immobilier, Equans, Bouygues Telecom et TF1. L'action Bouygues est cotée sur Euronext Paris.",
+    "sector": "Construction & Concessions",
+    "stockIndex": "CAC40",
+    "ticker": "EN",
+    "website": "https://www.bouygues.com/",
+    "clubName": null,
+    "clubUrl": null
+  },
+  "offerClassification": {
+    "primaryKind": "shareholder_benefit",
+    "otherKinds": [
+      "investor_relations_only"
+    ],
+    "officialProgrammeName": null,
+    "status": "active",
+    "statusReason": "Aucun club, comité consultatif ou programme formel avec adhésion n'est proposé. Le seul bénéfice admissible prouvé est la prise en charge des droits de garde et des frais de gestion pour les titres détenus au nominatif pur. OLIS-Actionnaires reste un portail standard de gestion des titres.",
+    "sourceIds": [
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S08"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": null,
+    "eligibleShareClasses": [
+      "Actions ordinaires Bouygues SA, ISIN FR0000120503"
+    ],
+    "holdingModes": [
+      "registered_administered",
+      "registered_pure"
+    ],
+    "minimumHoldingPeriod": null,
+    "residencyRestrictions": [],
+    "accountRestrictions": [
+      "Le nominatif pur est tenu directement par Bouygues sur un compte-titres ouvert chez la société.",
+      "Bouygues n'accepte pas l'ouverture de comptes nominatifs purs dans un PEA; les actions détenues dans un PEA doivent rester au nominatif administré pour être inscrites au nominatif.",
+      "L'espace OLIS-Actionnaires est réservé aux actions au nominatif pur ou administré et à certaines qualités de titulaire précisément énumérées par Bouygues.",
+      "Les actions au nominatif pur doivent être converties au porteur et transférées chez un intermédiaire financier avant leur vente."
+    ],
+    "proofRequired": [
+      "Inscription des actions Bouygues au nominatif pur ou administré dans le registre de la société.",
+      "Pour OLIS-Actionnaires, identifiant envoyé par courrier postal au titulaire éligible.",
+      "Pour un transfert du porteur au nominatif pur, demande adressée à l'intermédiaire financier en précisant que Bouygues est adhérent d'Euroclear France sous le numéro 791."
+    ],
+    "fees": {
+      "membershipFee": null,
+      "applicationFee": null,
+      "otherFees": [
+        "Les frais de courtage restent variables selon l'intermédiaire financier.",
+        "Les éventuels frais facturés par l'intermédiaire financier pour transférer des actions vers le nominatif pur ne sont pas publiés par Bouygues.",
+        "Le transfert du nominatif pur au porteur est traité gratuitement par Bouygues."
+      ],
+      "notes": "Il n'existe pas de cotisation d'adhésion puisqu'aucun club ou programme formel n'est proposé. Au nominatif pur, les droits de garde et les frais de gestion sont pris en charge par Bouygues."
+    },
+    "sourceIds": [
+      "S02",
+      "S03",
+      "S04",
+      "S05"
+    ]
+  },
+  "enrollment": {
+    "required": true,
+    "method": "broker_or_bank",
+    "applicationUrl": "https://www.bouygues.com/devenir-actionnaire/",
+    "contact": "Bouygues, Relations actionnaires individuels, Gaëlle Pinçon et Marie-Caroline Thabuy; numéro vert gratuit 0 805 120 007; servicetitres.actionnaires@bouygues.com.",
+    "steps": [
+      "Pour le nominatif pur, demander à l'intermédiaire financier qui conserve les actions de les transférer chez Bouygues, adhérent d'Euroclear France sous le numéro 791.",
+      "Après réception des titres, Bouygues adresse un avis d'entrée de titres et une convention d'ouverture de compte.",
+      "Pour le nominatif administré, demander à l'intermédiaire financier de faire inscrire les titres au nom de l'actionnaire dans le registre Bouygues tout en conservant la gestion du compte.",
+      "Pour OLIS-Actionnaires, utiliser l'identifiant reçu par courrier postal puis suivre la procédure de première connexion afin d'obtenir un mot de passe temporaire."
+    ],
+    "processingTime": "Le délai de transfert au nominatif n'est pas publié. Pour OLIS-Actionnaires, Bouygues annonce l'envoi du mot de passe temporaire sous 48 heures après la demande de première connexion.",
+    "renewal": null,
+    "deadlines": [],
+    "sourceIds": [
+      "S02",
+      "S03",
+      "S05",
+      "S12"
+    ]
+  },
+  "benefits": [
+    {
+      "id": "B01",
+      "type": "reduction",
+      "title": "Droits de garde et frais de gestion pris en charge",
+      "description": "Pour les actions Bouygues détenues au nominatif pur sur un compte-titres ouvert directement chez Bouygues, la société prend en charge les droits de garde et les frais de gestion. Les frais de courtage restent variables selon l'intermédiaire utilisé pour acheter ou vendre les titres.",
+      "value": "Aucun droit de garde ni frais de gestion facturé au titulaire au nominatif pur; frais de courtage exclus.",
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "registered_pure"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "guaranteed",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Demander à l'intermédiaire financier de transférer les actions Bouygues au nominatif pur.",
+        "Préciser que Bouygues est adhérent d'Euroclear France, en qualité d'émetteur, sous le numéro 791.",
+        "À réception des titres, compléter la convention d'ouverture de compte adressée par Bouygues."
+      ],
+      "limitsAndExclusions": [
+        "Aucun nombre minimal d'actions n'est publié pour cet avantage.",
+        "Aucune durée minimale de détention n'est publiée pour cet avantage.",
+        "Le nominatif administré et le porteur restent soumis aux tarifs de l'intermédiaire financier.",
+        "Le nominatif pur n'est pas accepté dans un PEA chez Bouygues.",
+        "Les frais de courtage ne sont pas pris en charge.",
+        "Avant une vente, les actions au nominatif pur doivent être converties au porteur et transférées chez l'intermédiaire financier choisi."
+      ],
+      "primarySourceId": "S04",
+      "supportingSourceIds": [
+        "S02",
+        "S03"
+      ],
+      "sourceUrl": "https://www.bouygues.com/contacter-bouygues-pour-obtenir-des-informations-financieres/",
+      "evidenceGrade": "B",
+      "uncertainty": "La page officielle est active et précise sur la prise en charge, mais elle n'est pas datée et ne publie ni seuil minimal, ni durée de détention, ni date de fin."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Bouygues dispose-t-il d'un club ou d'un programme formel pour les actionnaires au 9 juin 2026 ?",
+      "answer": "Non. Les ressources officielles actuelles présentent des relations actionnaires, le nominatif et un espace sécurisé, mais aucun club avec adhésion, règlement ou statut de membre. Bouygues a également confirmé ne pas envisager de comité consultatif des actionnaires individuels. La fiche doit donc rester sans clubName ni clubUrl.",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S08"
+      ]
+    },
+    {
+      "question": "Quels avantages concrets Bouygues accorde-t-il aux actionnaires au nominatif ?",
+      "answer": "Au nominatif pur, Bouygues prend en charge les droits de garde et les frais de gestion, hors courtage. Il s'agit du seul bénéfice admissible retenu. Aucun seuil minimal ni durée de détention n'est publié pour cet avantage.",
+      "sourceIds": [
+        "S04"
+      ]
+    },
+    {
+      "question": "Qui tient le registre et comment transférer des actions Bouygues au nominatif pur ?",
+      "answer": "Bouygues assure directement la tenue de ses comptes-titres nominatifs et est adhérent d'Euroclear France comme émetteur sous le numéro 791; aucun teneur de registre externe n'est désigné. L'actionnaire demande le transfert à son intermédiaire financier. Après réception des titres, Bouygues envoie un avis d'entrée et une convention d'ouverture de compte.",
+      "sourceIds": [
+        "S02",
+        "S03"
+      ]
+    },
+    {
+      "question": "Combien d'actions faut-il détenir et pendant combien de temps pour obtenir le bénéfice retenu ?",
+      "answer": "Bouygues ne publie ni nombre minimal d'actions ni durée minimale de détention pour la prise en charge des droits de garde et frais de gestion au nominatif pur. Ces champs restent donc à null. La durée de plus de deux ans concerne le droit de vote double, qui est un droit statutaire générique et non un avantage commercial retenu.",
+      "sourceIds": [
+        "S04",
+        "S07"
+      ]
+    },
+    {
+      "question": "Bouygues verse-t-il une prime de fidélité ou un dividende majoré après deux ans au nominatif ?",
+      "answer": "Non. En avril 2026, Bouygues a répondu qu'il maintenait le principe d'égalité entre les actionnaires pour sa politique de dividende. Le seul mécanisme de fidélité officiellement cité est le droit de vote double après plus de deux années de détention au nominatif; ce droit n'est pas un dividende majoré et n'est pas compté comme bénéfice.",
+      "sourceIds": [
+        "S07"
+      ]
+    },
+    {
+      "question": "Les réunions régionales, visites de sites et le magazine sont-ils des avantages actuels réservés ?",
+      "answer": "Non. Bouygues participe encore à des rencontres régionales, mais l'événement de Lille du 3 juin 2026 était ouvert aux actionnaires, investisseurs individuels et épargnants: il n'était donc pas réservé aux actionnaires. En 2025, Bouygues indiquait seulement pouvoir étudier à l'avenir une visite de chantier si la sécurité le permettait. Aucun programme actuel de visites ni magazine actionnarial réservé n'a été prouvé.",
+      "sourceIds": [
+        "S08",
+        "S09"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "L'action ordinaire Bouygues SA porte l'ISIN FR0000120503, le symbole EN, est cotée sur Euronext Paris et fait partie du CAC 40.",
+      "status": "verified",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S10"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C02",
+      "statement": "Bouygues ne propose pas de club ou de programme formel avec adhésion pour ses actionnaires individuels.",
+      "status": "verified",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S08"
+      ],
+      "notes": "La conclusion porte sur l'absence de dispositif formel publié; elle n'exclut pas les services au nominatif et les actions ponctuelles de relations actionnaires."
+    },
+    {
+      "id": "C03",
+      "statement": "Bouygues tient directement ses comptes-titres nominatifs purs et est adhérent d'Euroclear France comme émetteur sous le numéro 791.",
+      "status": "verified",
+      "sourceIds": [
+        "S02",
+        "S03"
+      ],
+      "notes": "Aucun teneur de registre ou agent de transfert externe n'est désigné pour le nominatif pur."
+    },
+    {
+      "id": "C04",
+      "statement": "Au nominatif pur, les droits de garde et les frais de gestion sont pris en charge par Bouygues.",
+      "status": "verified",
+      "sourceIds": [
+        "S04"
+      ],
+      "notes": "Les frais de courtage restent variables et ne sont pas inclus."
+    },
+    {
+      "id": "C05",
+      "statement": "OLIS-Actionnaires est un service actif réservé aux actionnaires au nominatif pur ou administré et permet la consultation du compte et de documents ainsi que certaines démarches en ligne.",
+      "status": "verified",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S05",
+        "S06"
+      ],
+      "notes": "La disponibilité du portail résulte d'un choix discrétionnaire de Bouygues."
+    },
+    {
+      "id": "C06",
+      "statement": "Aucun seuil minimal d'actions ni durée minimale de détention n'est publié pour la prise en charge des droits de garde et frais de gestion au nominatif pur.",
+      "status": "uncertain",
+      "sourceIds": [
+        "S04"
+      ],
+      "notes": "Il s'agit d'une absence constatée dans les conditions officielles disponibles, et non de la preuve qu'aucune règle interne ne pourrait exister."
+    },
+    {
+      "id": "C07",
+      "statement": "Les actions inscrites au nominatif depuis plus de deux ans bénéficient d'un droit de vote double.",
+      "status": "verified",
+      "sourceIds": [
+        "S03",
+        "S07"
+      ],
+      "notes": "Ce droit statutaire générique est documenté mais exclu des bénéfices."
+    },
+    {
+      "id": "C08",
+      "statement": "Bouygues n'applique pas de dividende majoré de fidélité aux actions détenues au nominatif.",
+      "status": "verified",
+      "sourceIds": [
+        "S07"
+      ],
+      "notes": "La réponse officielle d'avril 2026 réaffirme le principe d'égalité entre les actionnaires pour la politique de dividende."
+    },
+    {
+      "id": "C09",
+      "statement": "Bouygues poursuit des rencontres régionales avec le public des investisseurs individuels, mais leur accès n'est pas réservé aux seuls actionnaires Bouygues.",
+      "status": "verified",
+      "sourceIds": [
+        "S08",
+        "S09"
+      ],
+      "notes": "La réunion de Lille du 3 juin 2026 acceptait explicitement les actionnaires, investisseurs individuels et épargnants."
+    },
+    {
+      "id": "C10",
+      "statement": "Aucun programme actuel de visites de chantiers ou de sites réservé aux actionnaires Bouygues n'est prouvé.",
+      "status": "partially_verified",
+      "sourceIds": [
+        "S08"
+      ],
+      "notes": "En avril 2025, Bouygues évoquait seulement la possibilité d'étudier ultérieurement une visite de chantier sous réserve des conditions de sécurité."
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "Bouygues exploite un club ou une communauté d'actionnaires avec adhésion formelle.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S08"
+      ]
+    },
+    {
+      "claim": "La détention d'une seule action suffit officiellement pour accéder à tous les avantages Bouygues.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S04",
+        "S05"
+      ]
+    },
+    {
+      "claim": "Bouygues verse un dividende majoré de 10 % après deux années civiles pleines au nominatif.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S07"
+      ]
+    },
+    {
+      "claim": "Le droit de vote double après plus de deux ans au nominatif constitue un avantage commercial du programme.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S03",
+        "S07"
+      ]
+    },
+    {
+      "claim": "La participation aux assemblées générales et le vote en ligne sont des bénéfices distincts du dispositif.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S03",
+        "S05"
+      ]
+    },
+    {
+      "claim": "Les rencontres régionales de Bouygues sont réservées aux actionnaires et constituent un avantage exclusif.",
+      "reason": "not_shareholder_specific",
+      "sourceIds": [
+        "S08",
+        "S09"
+      ]
+    },
+    {
+      "claim": "Bouygues propose actuellement des visites de chantiers, de sites Colas, TF1 ou Bouygues Telecom aux actionnaires.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S08"
+      ]
+    },
+    {
+      "claim": "Les actionnaires reçoivent actuellement un magazine semestriel Bouygues Mag qui leur est réservé.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S11"
+      ]
+    },
+    {
+      "claim": "Le numéro vert et l'équipe Relations actionnaires individuels sont des avantages commerciaux distincts.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S03",
+        "S12"
+      ]
+    },
+    {
+      "claim": "L'accès à OLIS-Actionnaires constitue un bénéfice actionnarial distinct.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S05",
+        "S06"
+      ]
+    },
+    {
+      "claim": "La réception directe des convocations et informations publiques au nominatif constitue un bénéfice commercial distinct.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S03",
+        "S04"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.bouygues.com/",
+      "title": "Groupe Bouygues - Donnons vie au progrès",
+      "publisher": "Bouygues",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Accueil officiel actuel décrivant Bouygues comme un groupe de services diversifié actif dans la construction, les énergies et services, les médias et les télécoms, et identifiant ses six principales filiales."
+    },
+    {
+      "id": "S02",
+      "url": "https://www.bouygues.com/devenir-actionnaire/",
+      "title": "Devenir Actionnaire",
+      "publisher": "Bouygues",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "undated",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle actuelle présentant l'ISIN, les trois modes de détention, la tenue directe du nominatif pur par Bouygues, le numéro d'adhérent Euroclear France 791 et l'espace réservé aux actionnaires au nominatif."
+    },
+    {
+      "id": "S03",
+      "url": "https://www.bouygues.com/faq/",
+      "title": "FAQ Investisseurs et actionnaires",
+      "publisher": "Bouygues",
+      "sourceType": "official_faq",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "undated",
+      "evidenceGrade": "B",
+      "evidenceSummary": "FAQ officielle détaillant le nominatif, le transfert, la tenue directe du registre par Bouygues, l'incompatibilité du nominatif pur avec le PEA, la vente après conversion au porteur, le droit de vote double, OLIS et les contacts."
+    },
+    {
+      "id": "S04",
+      "url": "https://www.bouygues.com/contacter-bouygues-pour-obtenir-des-informations-financieres/",
+      "title": "Avantages et inconvénients selon le mode de détention des actions",
+      "publisher": "Bouygues",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "undated",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Tableau officiel actif comparant nominatif pur, nominatif administré et porteur. Il indique qu'au nominatif pur les droits de garde et frais de gestion sont pris en charge par Bouygues, tandis que le courtage reste variable."
+    },
+    {
+      "id": "S05",
+      "url": "https://www.bouygues.com/accedez-au-site-olis-actionnaires/",
+      "title": "Accédez au site OLIS-Actionnaires",
+      "publisher": "Bouygues",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "undated",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle listant les fonctions d'OLIS : consultation du compte en temps réel, accès aux informations et documents, demande de dispense de prélèvement au nominatif pur, convocation électronique et procédure de première connexion."
+    },
+    {
+      "id": "S06",
+      "url": "https://serviceactionnaires.bouygues.com/actionnaire/auth/loginHome.index.action",
+      "title": "OLIS-Actionnaires - espace actionnaires au nominatif",
+      "publisher": "Bouygues",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page de connexion active du service sécurisé réservé aux actionnaires au nominatif, avec parcours de première connexion et accès au compte."
+    },
+    {
+      "id": "S07",
+      "url": "https://www.bouygues.com/app/uploads/2025/11/Reponses-aux-questions-ecrites-des-actionnaires.pdf",
+      "title": "Assemblée générale du 23 avril 2026 - Réponses aux questions écrites des actionnaires",
+      "publisher": "Bouygues",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2026-04-23",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Réponse officielle actuelle à une demande de bonification du dividende. Bouygues cite le droit de vote double au-delà de deux années au nominatif mais maintient le principe d'égalité entre actionnaires pour sa politique de dividende."
+    },
+    {
+      "id": "S08",
+      "url": "https://www.bouygues.com/app/uploads/2025/03/qa-ag-29-avril-2005-questions-ecrites-vf-1.pdf",
+      "title": "Assemblée générale du 29 avril 2025 - Réponses aux questions écrites des actionnaires",
+      "publisher": "Bouygues",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2025-04-29",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "archived",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Bouygues confirme ne pas envisager de comité consultatif, décrit deux rencontres régionales annuelles depuis 2024 et indique seulement pouvoir étudier à l'avenir une visite de chantier si les conditions, notamment de sécurité, le permettent."
+    },
+    {
+      "id": "S09",
+      "url": "https://www.placedesinvestisseurs.org/evenements/bouygues-et-fdj-united-a-la-rencontre-des-actionnaires-a-lille-le-03-06-2026/",
+      "title": "Bouygues et FDJ United à la rencontre des actionnaires à Lille le 3 juin 2026",
+      "publisher": "Place des Investisseurs",
+      "sourceType": "official_partner",
+      "official": false,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "expired",
+      "evidenceGrade": "C",
+      "evidenceSummary": "Page du partenaire nommé par Bouygues pour une rencontre tenue le 3 juin 2026. Elle précise que l'événement s'adressait aux actionnaires, investisseurs individuels ou épargnants, ce qui exclut son caractère réservé aux actionnaires Bouygues."
+    },
+    {
+      "id": "S10",
+      "url": "https://live.euronext.com/en/products/equities/company-news/2026-01-02-bouygues-press-release",
+      "title": "Bouygues - Press release",
+      "publisher": "Euronext",
+      "sourceType": "official_partner",
+      "official": false,
+      "publishedAt": "2026-01-02",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "C",
+      "evidenceSummary": "Page du marché Euronext identifiant Bouygues, l'ISIN FR0000120503, le symbole principal EN et la cotation Euronext."
+    },
+    {
+      "id": "S11",
+      "url": "https://www.bouygues.com/app/uploads/2026/03/bouygues_deu_2025_fr_web.pdf",
+      "title": "Document d'enregistrement universel 2025",
+      "publisher": "Bouygues",
+      "sourceType": "regulatory_filing",
+      "official": true,
+      "publishedAt": "2026-03-19",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Dépôt officiel auprès de l'AMF le 19 mars 2026 présentant le groupe, ses activités, ses résultats 2025, sa structure actionnariale et les informations réglementaires actuelles. Aucun club, programme de visites ou magazine réservé actif n'y est identifié."
+    },
+    {
+      "id": "S12",
+      "url": "https://www.bouygues.com/agenda-contacts/",
+      "title": "Agenda & contacts",
+      "publisher": "Bouygues",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle actuelle donnant les coordonnées du service de gestion des comptes-titres et des relations actionnaires individuels, dont le numéro vert et l'adresse électronique dédiés."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Caractère réservé des rencontres régionales",
+      "sourceIds": [
+        "S08",
+        "S09"
+      ],
+      "positions": [
+        "Bouygues décrit ses déplacements comme des rencontres avec les actionnaires individuels organisées avec Place des Investisseurs.",
+        "La page pratique de la rencontre de Lille du 3 juin 2026 indique que l'événement était également ouvert aux investisseurs individuels et aux épargnants."
+      ],
+      "resolution": "Reconnaître l'existence des rencontres, mais ne pas les présenter comme un bénéfice réservé aux actionnaires Bouygues.",
+      "impact": "benefit_excluded"
+    }
+  ],
+  "handoff": {
+    "researchStatus": "complete_with_uncertainties",
+    "readyForDevelopment": true,
+    "benefitCount": 1,
+    "faqCount": 6,
+    "blockingIssues": [],
+    "developerNotes": [
+      "Ne pas créer de clubName ni de clubUrl : aucun club, comité consultatif ou programme formel n'est prouvé.",
+      "Conserver uniquement B01, relatif à la prise en charge des droits de garde et frais de gestion au nominatif pur, avec globalMinimumShares et requiredShares à null.",
+      "Bouygues tient directement le nominatif pur; ne pas attribuer cette fonction à Uptevia ou à un autre teneur de registre.",
+      "Ne pas transformer le droit de vote double, la participation à l'assemblée générale, le vote en ligne ou les convocations en bénéfices distincts.",
+      "Ne pas publier de dividende majoré : la réponse officielle d'avril 2026 confirme le maintien de l'égalité entre actionnaires.",
+      "Exclure les rencontres régionales, qui sont ouvertes au-delà des seuls actionnaires Bouygues.",
+      "Exclure les visites de chantiers ou de sites : seule une possibilité future sous conditions de sécurité a été évoquée en 2025.",
+      "Exclure Bouygues Mag : aucun magazine semestriel réservé aux actionnaires n'est prouvé comme actif au 9 juin 2026."
+    ]
+  }
+}

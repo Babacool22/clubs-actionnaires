@@ -1,0 +1,562 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "berkshire-hathaway",
+    "name": "Berkshire Hathaway",
+    "description": "Berkshire Hathaway Inc. est une société holding américaine dont les filiales exercent notamment dans l'assurance, le transport ferroviaire, l'énergie, l'industrie, les services et le commerce de détail. Ses actions de classes A et B sont cotées au New York Stock Exchange.",
+    "sector": "Holding & Conglomérat",
+    "stockIndex": "S&P 500",
+    "ticker": "BRK.B",
+    "website": "https://www.berkshirehathaway.com/",
+    "clubName": null,
+    "clubUrl": null
+  },
+  "offerClassification": {
+    "primaryKind": "shareholder_program",
+    "otherKinds": [
+      "shareholder_benefit",
+      "investor_relations_only"
+    ],
+    "officialProgrammeName": "GEICO Sponsored Marketing Program",
+    "status": "active",
+    "statusReason": "GEICO publie un programme actif accordant une réduction automobile précise aux actionnaires de Berkshire Hathaway assurés dans le New Jersey. Berkshire ne présente pas de club d'actionnaires formel. Les réductions commerciales liées à l'Annual Meeting 2026 étaient saisonnières et avaient expiré au 9 juin 2026.",
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S06"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": null,
+    "eligibleShareClasses": [
+      "Class A common stock (BRK.A)",
+      "Class B common stock (BRK.B)"
+    ],
+    "holdingModes": [
+      "unspecified"
+    ],
+    "minimumHoldingPeriod": null,
+    "residencyRestrictions": [
+      "Le seul bénéfice actif retenu est publié pour une police automobile du New Jersey."
+    ],
+    "accountRestrictions": [
+      "Le demandeur doit être actionnaire de Berkshire Hathaway au moment où la réduction GEICO est appliquée initialement.",
+      "Le demandeur doit satisfaire aux critères ordinaires de souscription de GEICO dans le New Jersey.",
+      "Le programme n'est disponible que si la police est souscrite auprès de l'une des sociétés GEICO visées par la page officielle du programme."
+    ],
+    "proofRequired": [
+      "Statut d'actionnaire de Berkshire Hathaway à établir auprès de GEICO.",
+      "La page publique GEICO ne précise pas quels documents de preuve sont acceptés, ni si un relevé de courtier, une carte de vote ou une inscription au registre est exigé."
+    ],
+    "fees": {
+      "membershipFee": null,
+      "applicationFee": null,
+      "otherFees": [
+        "La prime d'assurance automobile et les frais prévus par la police restent dus."
+      ],
+      "notes": "Aucune cotisation à un club Berkshire n'est établie. La réduction GEICO modifie une prime d'assurance; elle ne rend pas la police gratuite."
+    },
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S04"
+    ]
+  },
+  "enrollment": {
+    "required": true,
+    "method": "online_form",
+    "applicationUrl": "https://www.geico.com/auto-insurance/states/nj/sponsored/",
+    "contact": "GEICO renvoie à geico.com, à son application mobile et à son service de messagerie pour demander un devis, acheter une police ou faire modifier une police existante.",
+    "steps": [
+      "Demander un devis automobile GEICO ou accéder à une police GEICO existante dans le New Jersey.",
+      "Déclarer l'affiliation comme actionnaire de Berkshire Hathaway et fournir la preuve demandée par GEICO.",
+      "Satisfaire aux critères ordinaires de souscription applicables dans le New Jersey.",
+      "Faire confirmer l'application de la réduction et les garanties auxquelles elle s'applique."
+    ],
+    "processingTime": null,
+    "renewal": "L'éligibilité continue tant que l'assuré reste actionnaire de Berkshire Hathaway. Après la perte de cette qualité, GEICO prévoit la conversion vers une police ordinaire au renouvellement suivant.",
+    "deadlines": [],
+    "sourceIds": [
+      "S04"
+    ]
+  },
+  "benefits": [
+    {
+      "id": "B01",
+      "type": "reduction",
+      "title": "Réduction GEICO de 8 % au New Jersey",
+      "description": "Dans le New Jersey, le Sponsored Marketing Program de GEICO rend les actionnaires de Berkshire Hathaway éligibles à une réduction de 8 % sur la prime automobile calculée aux tarifs ordinaires, sous réserve des critères de souscription et des garanties expressément exclues.",
+      "value": "8 % sur les garanties admissibles d'une police automobile GEICO du New Jersey.",
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "unspecified"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "discretionary",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Demander ou faire gérer la police sur geico.com, dans l'application GEICO ou par le service client.",
+        "Signaler le statut d'actionnaire de Berkshire Hathaway au moment de l'application initiale de la réduction.",
+        "Fournir à GEICO le justificatif qu'il demande et satisfaire aux critères ordinaires de souscription."
+      ],
+      "limitsAndExclusions": [
+        "Offre officiellement prouvée uniquement pour le New Jersey; aucune réduction nationale uniforme n'est établie.",
+        "Le demandeur doit être actionnaire lorsque la réduction est appliquée initialement et rester actionnaire pour conserver l'éligibilité.",
+        "Les garanties Uninsured/Underinsured Motorists Bodily Injury, Uninsured/Underinsured Motorist Property Damage et Additional Personal Injury Protection sont exclues.",
+        "Le nombre minimal d'actions, la classe exigée, le mode de détention et le document de preuve accepté ne sont pas publiés.",
+        "L'application reste soumise aux critères ordinaires de souscription et aux sociétés GEICO participant au programme."
+      ],
+      "primarySourceId": "S04",
+      "supportingSourceIds": [
+        "S01"
+      ],
+      "sourceUrl": "https://www.geico.com/auto-insurance/states/nj/sponsored/",
+      "evidenceGrade": "B",
+      "uncertainty": "La page officielle est actuelle mais non datée. Elle ne décrit pas la preuve d'actionnariat acceptée et ne permet pas d'étendre le taux de 8 % à d'autres États."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Berkshire Hathaway dispose-t-elle d'un club d'actionnaires formel ?",
+      "answer": "Aucun club formel avec adhésion, carte de membre permanente ou cotisation n'est présenté dans les documents officiels consultés. Berkshire organise une assemblée annuelle et des activités saisonnières, tandis que GEICO exploite au New Jersey un programme d'assurance qui reconnaît spécifiquement la qualité d'actionnaire.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "question": "Quel bénéfice actionnaire reste prouvé au 9 juin 2026 ?",
+      "answer": "Le seul bénéfice actif retenu est le Sponsored Marketing Program de GEICO dans le New Jersey. Il accorde 8 % de réduction sur certaines garanties d'une police automobile aux actionnaires de Berkshire Hathaway qui satisfont aux critères de souscription. Aucun avantage national équivalent n'est officiellement établi.",
+      "sourceIds": [
+        "S04"
+      ]
+    },
+    {
+      "question": "Une action BRK.B suffit-elle pour obtenir la réduction GEICO ?",
+      "answer": "La source GEICO exige d'être actionnaire de Berkshire Hathaway lorsque la réduction est appliquée, mais elle ne publie ni seuil minimal, ni classe de titre, ni durée de détention, ni mode de conservation. Le rapport conserve donc le seuil à null et ne transforme pas l'absence de seuil publié en règle artificielle d'une action.",
+      "sourceIds": [
+        "S01",
+        "S04"
+      ]
+    },
+    {
+      "question": "Les réductions Borsheims et NFM de l'Annual Meeting 2026 sont-elles encore disponibles ?",
+      "answer": "Non. La tarification actionnaire NFM était annoncée du 22 avril au 5 mai 2026. Celle de Borsheims courait du 25 avril au 10 mai 2026 et sa page officielle indique désormais qu'elle est terminée. Les offres 2027 n'étaient pas publiées au 9 juin 2026, même si la prochaine assemblée est annoncée pour le 1er mai 2027.",
+      "sourceIds": [
+        "S03",
+        "S05",
+        "S06",
+        "S07"
+      ]
+    },
+    {
+      "question": "Quelle preuve fallait-il fournir pour les identifiants de l'Annual Meeting 2026 ?",
+      "answer": "Pour retirer un identifiant sur place, Berkshire exigeait une preuve de détention au 4 mars 2026 et une pièce d'identité. Le proxy citait une carte de vote, un formulaire d'instructions de vote reçu d'une banque ou d'un courtier, ou un relevé de courtier montrant les actions à cette date. Cette procédure concernait l'événement 2026 désormais passé.",
+      "sourceIds": [
+        "S02",
+        "S03"
+      ]
+    },
+    {
+      "question": "L'assemblée, le dividende, le DRS ou les offres See's constituent-ils des bénéfices retenus ?",
+      "answer": "Non. La participation et le vote à l'assemblée sont des droits ordinaires; Berkshire n'a pas déclaré de dividende en numéraire depuis 1967; le DRS et l'agent de transfert sont des services de registre. Le guide 2026 listait See's comme exposant sans publier une réduction See's précise, datée et encore disponible au 9 juin 2026.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "Berkshire Hathaway est une holding diversifiée dont les actions de classes A et B sont cotées au NYSE sous les symboles BRK.A et BRK.B.",
+      "status": "verified",
+      "sourceIds": [
+        "S01"
+      ],
+      "notes": "Le champ ticker retient BRK.B, classe incluse dans le S&P 500 et déjà utilisée par le manifeste applicatif, tout en documentant les deux classes dans le rapport."
+    },
+    {
+      "id": "C02",
+      "statement": "Berkshire Hathaway, classe B, appartient au S&P 500 au 9 juin 2026.",
+      "status": "verified",
+      "sourceIds": [
+        "S08",
+        "S09"
+      ],
+      "notes": "S&P cite Berkshire parmi les sociétés de l'indice et le portefeuille réglementaire du SPDR S&P 500 ETF Trust au 31 mars 2026 contient Berkshire Hathaway Class B."
+    },
+    {
+      "id": "C03",
+      "statement": "Aucun club d'actionnaires Berkshire Hathaway formel n'est identifié dans les documents officiels actuels consultés.",
+      "status": "uncertain",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "notes": "Il s'agit d'un constat de recherche sur les ressources officielles disponibles, non d'une preuve absolue d'inexistence."
+    },
+    {
+      "id": "C04",
+      "statement": "Le Sponsored Marketing Program de GEICO accorde 8 % de réduction à un actionnaire Berkshire Hathaway assuré dans le New Jersey.",
+      "status": "verified",
+      "sourceIds": [
+        "S04"
+      ],
+      "notes": "Le taux et les exclusions sont précis; la preuve d'actionnariat et le seuil minimal ne sont pas publiés."
+    },
+    {
+      "id": "C05",
+      "statement": "Les identifiants de l'Annual Meeting 2026 exigeaient une preuve de détention au 4 mars 2026 et une pièce d'identité pour un retrait sur place.",
+      "status": "verified",
+      "sourceIds": [
+        "S02",
+        "S03"
+      ],
+      "notes": "Le proxy précise les types de documents admis; cette procédure a expiré avec l'événement des 1er et 2 mai 2026."
+    },
+    {
+      "id": "C06",
+      "statement": "Borsheims a proposé une tarification spéciale aux actionnaires du 25 avril au 10 mai 2026.",
+      "status": "verified",
+      "sourceIds": [
+        "S03",
+        "S05",
+        "S06"
+      ],
+      "notes": "La page Borsheims actuelle confirme expressément que la tarification actionnaire 2026 est terminée."
+    },
+    {
+      "id": "C07",
+      "statement": "NFM a proposé une tarification actionnaire du 22 avril au 5 mai 2026 dans ses magasins participants et en ligne pour les actionnaires enregistrés.",
+      "status": "verified",
+      "sourceIds": [
+        "S03",
+        "S07"
+      ],
+      "notes": "Le guide Berkshire fournit les dates et la procédure d'enregistrement; la page NFM actuelle ne publie plus de conditions 2026 actives."
+    },
+    {
+      "id": "C08",
+      "statement": "The Bookworm a accordé une réduction de 20 % aux actionnaires présents au week-end de l'Annual Meeting 2026.",
+      "status": "verified",
+      "sourceIds": [
+        "S03"
+      ],
+      "notes": "La réduction est documentée dans le guide de l'événement désormais passé et n'est donc pas retenue comme bénéfice actif."
+    },
+    {
+      "id": "C09",
+      "statement": "Le guide 2026 annonce la prochaine assemblée annuelle pour le 1er mai 2027 sans publier les réductions commerciales 2027.",
+      "status": "partially_verified",
+      "sourceIds": [
+        "S03",
+        "S06",
+        "S07"
+      ],
+      "notes": "La date de l'assemblée 2027 est officielle; l'absence d'offres 2027 est un constat au 9 juin 2026 et devra être réévaluée lors de leur publication."
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "La participation à l'Annual Meeting d'Omaha constitue à elle seule un bénéfice actionnaire.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S02",
+        "S03"
+      ]
+    },
+    {
+      "claim": "Les tarifs actionnaires Borsheims 2026 sont encore utilisables avec le code BERKSHIRE.",
+      "reason": "expired",
+      "sourceIds": [
+        "S05",
+        "S06"
+      ]
+    },
+    {
+      "claim": "La tarification actionnaire NFM 2026 reste disponible après le 5 mai 2026.",
+      "reason": "expired",
+      "sourceIds": [
+        "S03",
+        "S07"
+      ]
+    },
+    {
+      "claim": "La réduction de 20 % de The Bookworm est un avantage permanent des actionnaires Berkshire.",
+      "reason": "expired",
+      "sourceIds": [
+        "S03"
+      ]
+    },
+    {
+      "claim": "See's Candies accorde en 2026 une réduction précise et encore active aux actionnaires Berkshire.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S03"
+      ]
+    },
+    {
+      "claim": "Tous les actionnaires Berkshire bénéficient partout aux États-Unis d'une remise GEICO de 7 % réservée aux détenteurs de BRK.B.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S01",
+        "S04"
+      ]
+    },
+    {
+      "claim": "Le statut d'exposant d'une filiale au salon de l'Annual Meeting prouve automatiquement une remise actionnaire.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S03"
+      ]
+    },
+    {
+      "claim": "La course Invest in Yourself 5K est un bénéfice économique réservé aux actionnaires.",
+      "reason": "not_shareholder_specific",
+      "sourceIds": [
+        "S03"
+      ]
+    },
+    {
+      "claim": "Le DRS, l'agent de transfert EQ et les services de registre sont des bénéfices commerciaux.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S01"
+      ]
+    },
+    {
+      "claim": "Le dividende ordinaire de Berkshire Hathaway constitue un bénéfice du programme actionnaires.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S01"
+      ]
+    },
+    {
+      "claim": "La réduction de 4 dollars mentionnée pour Lauritzen Gardens est encore disponible au 9 juin 2026.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S03"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.berkshirehathaway.com/2025ar/2025ar.pdf",
+      "title": "Berkshire Hathaway Inc. 2025 Annual Report",
+      "publisher": "Berkshire Hathaway Inc.",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2026-02-28",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Rapport annuel officiel confirmant les activités du groupe, les symboles BRK.A et BRK.B, les deux classes d'actions, l'agent de transfert EQ, le DRS et l'absence de dividende en numéraire déclaré depuis 1967. Il contient aussi le calendrier initial des événements actionnaires 2026."
+    },
+    {
+      "id": "S02",
+      "url": "https://www.berkshirehathaway.com/meet01/2026proxystatement.pdf",
+      "title": "Berkshire Hathaway Inc. 2026 Proxy Statement",
+      "publisher": "Berkshire Hathaway Inc.",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2026-03-13",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "expired",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Proxy officiel de l'assemblée du 2 mai 2026. Il fixe la record date au 4 mars 2026 et exige, pour obtenir un identifiant sur place, une pièce d'identité avec carte de vote, formulaire d'instructions de vote ou relevé de courtier montrant les actions détenues à cette date."
+    },
+    {
+      "id": "S03",
+      "url": "https://www.berkshirehathaway.com/meet01/visguide2026.pdf",
+      "title": "Berkshire Hathaway 2026 Annual Meeting Visitor Guide",
+      "publisher": "Berkshire Hathaway Inc.",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2026-03-20",
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "expired",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Guide officiel précis du week-end 2026 : identifiant obligatoire pour les lieux et activités réservés, preuve de détention et pièce d'identité au Will Call, NFM du 22 avril au 5 mai, Borsheims du 25 avril au 10 mai, réduction Bookworm de 20 %, exposants et date de l'assemblée 2027."
+    },
+    {
+      "id": "S04",
+      "url": "https://www.geico.com/auto-insurance/states/nj/sponsored/",
+      "title": "Sponsored Marketing Program",
+      "publisher": "GEICO",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle actuelle du programme du New Jersey : réduction de 8 %, actionnaire Berkshire éligible lors de l'application initiale, critères ordinaires de souscription, garanties exclues, maintien de l'éligibilité tant que la qualité d'actionnaire subsiste et conversion au renouvellement suivant en cas de perte."
+    },
+    {
+      "id": "S05",
+      "url": "https://www.borsheims.com/blog/the-official-berkshire-weekend-schedule/",
+      "title": "The Official Berkshire Weekend Schedule for 2026",
+      "publisher": "Borsheims",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "expired",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle Borsheims détaillant la tarification actionnaire du 25 avril au 10 mai 2026, les achats en magasin, par téléphone ou en ligne avec le code BERKSHIRE, et les créneaux réservés des 1er et 3 mai. La période est expirée."
+    },
+    {
+      "id": "S06",
+      "url": "https://www.borsheims.com/brk",
+      "title": "2026 Berkshire Hathaway Shareholder Pricing",
+      "publisher": "Borsheims",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle actuelle indiquant explicitement que la tarification actionnaire Berkshire Hathaway 2026 est terminée et invitant à revenir l'année suivante. Elle confirme l'indisponibilité au 9 juin 2026."
+    },
+    {
+      "id": "S07",
+      "url": "https://www.nfm.com/berkshire/",
+      "title": "Berkshire - NFM",
+      "publisher": "NFM",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle NFM consacrée à la Berkshire Sale. Au 9 juin 2026, elle évoque les économies spéciales pendant la vente Berkshire sans publier de période active; les dates 2026 précises et expirées proviennent du guide officiel Berkshire."
+    },
+    {
+      "id": "S08",
+      "url": "https://www.spglobal.com/spdji/en/landing/investment-themes/the-500/",
+      "title": "The 500 - Investment Themes",
+      "publisher": "S&P Dow Jones Indices",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page actuelle de l'administrateur de l'indice citant Berkshire Hathaway parmi les sociétés incluses dans le S&P 500."
+    },
+    {
+      "id": "S09",
+      "url": "https://www.sec.gov/Archives/edgar/data/884394/000119312526247066/d75559dn30d.htm",
+      "title": "SPDR S&P 500 ETF Trust Semi-Annual Report - March 31, 2026",
+      "publisher": "SPDR S&P 500 ETF Trust et U.S. Securities and Exchange Commission",
+      "sourceType": "regulatory_filing",
+      "official": true,
+      "publishedAt": "2026-03-31",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "C",
+      "evidenceSummary": "État réglementaire du fonds répliquant le S&P 500 au 31 mars 2026, dont le portefeuille contient 21 261 941 actions Berkshire Hathaway Class B. Il corrobore l'appartenance à l'indice à une date proche de la recherche."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Taux et portée de la réduction GEICO",
+      "sourceIds": [
+        "S01",
+        "S04"
+      ],
+      "positions": [
+        "Les données historiques du dépôt affirment une remise GEICO de 7 % réservée aux détenteurs d'actions BRK.B, sans limitation géographique.",
+        "La page officielle actuelle prouve 8 % dans le New Jersey pour un actionnaire Berkshire Hathaway, sans imposer publiquement la classe B ni préciser un seuil d'actions."
+      ],
+      "resolution": "Rejeter la formulation nationale à 7 % et retenir uniquement le programme du New Jersey à 8 %, avec seuil, classe et preuve laissés inconnus.",
+      "impact": "benefit_excluded"
+    },
+    {
+      "topic": "Disponibilité de la tarification Borsheims 2026",
+      "sourceIds": [
+        "S03",
+        "S05",
+        "S06"
+      ],
+      "positions": [
+        "Le guide Berkshire et le calendrier Borsheims annoncent une tarification actionnaire du 25 avril au 10 mai 2026.",
+        "La page Borsheims actuelle indique que la tarification actionnaire 2026 est terminée."
+      ],
+      "resolution": "Documenter l'offre comme historique et expirée; ne pas la conserver dans benefits au 9 juin 2026.",
+      "impact": "benefit_excluded"
+    },
+    {
+      "topic": "Disponibilité de la tarification NFM 2026",
+      "sourceIds": [
+        "S03",
+        "S07"
+      ],
+      "positions": [
+        "Le guide Berkshire fixe la tarification actionnaire NFM du 22 avril au 5 mai 2026 et demande l'enregistrement des actionnaires pour voir les prix en ligne.",
+        "La page NFM actuelle évoque la vente Berkshire de façon générique sans publier de tarification actionnaire active au 9 juin 2026."
+      ],
+      "resolution": "Retenir les dates précises du guide officiel et considérer la campagne 2026 comme expirée.",
+      "impact": "benefit_excluded"
+    },
+    {
+      "topic": "Justificatif des réductions du week-end 2026",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S05"
+      ],
+      "positions": [
+        "Berkshire exigeait un identifiant pour les lieux et activités réservés; son retrait sur place nécessitait une preuve de détention au 4 mars 2026 et une pièce d'identité.",
+        "Borsheims permettait aussi l'achat à distance en s'identifiant comme actionnaire ou avec le code BERKSHIRE, sans publier sur sa page une vérification documentaire équivalente.",
+        "NFM demandait un enregistrement préalable pour afficher les prix actionnaires en ligne, sans détailler dans le guide le contrôle de propriété effectué."
+      ],
+      "resolution": "Ne pas présenter un justificatif unique pour toutes les offres. La procédure d'identifiant est prouvée pour les lieux du week-end, tandis que les contrôles Borsheims et NFM à distance restent partiellement non documentés.",
+      "impact": "wording_only"
+    }
+  ],
+  "handoff": {
+    "researchStatus": "complete_with_uncertainties",
+    "readyForDevelopment": true,
+    "benefitCount": 1,
+    "faqCount": 6,
+    "blockingIssues": [],
+    "developerNotes": [
+      "Ne pas créer de club Berkshire Hathaway : clubName et clubUrl restent null.",
+      "Conserver uniquement B01 comme bénéfice actif et préciser sa limitation au New Jersey.",
+      "Ne pas remplacer le taux GEICO par 7 %, ne pas l'étendre à tous les États et ne pas imposer BRK.B ou une action faute de source.",
+      "Ne pas réintroduire les offres Borsheims, NFM, Bookworm ou Lauritzen Gardens de 2026 : elles sont expirées ou leur disponibilité au 9 juin 2026 n'est pas prouvée.",
+      "Ne pas transformer l'Annual Meeting, le vote, l'absence ou le versement d'un dividende, le DRS, l'agent de transfert, la 5K ou la simple présence d'une filiale comme exposant en bénéfices.",
+      "Les offres commerciales 2027 devront faire l'objet d'une nouvelle vérification officielle; seule la date du 1er mai 2027 est annoncée.",
+      "Le chercheur ne crée aucun dossier final Prisma."
+    ]
+  }
+}

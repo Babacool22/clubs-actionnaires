@@ -1,0 +1,470 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "whitbread",
+    "name": "Whitbread",
+    "description": "Whitbread PLC est un groupe hôtelier britannique centré sur Premier Inn, première marque hôtelière du Royaume-Uni. Il exploite environ 850 hôtels au Royaume-Uni et en Irlande, ainsi qu'un réseau en croissance en Allemagne, et poursuit la transformation de ses restaurants en offres de restauration intégrées aux hôtels.",
+    "sector": "Hôtellerie & Tourisme",
+    "stockIndex": "FTSE 100",
+    "ticker": "WTB",
+    "website": "https://www.whitbread.co.uk",
+    "clubName": null,
+    "clubUrl": null
+  },
+  "offerClassification": {
+    "primaryKind": "shareholder_program",
+    "otherKinds": [
+      "shareholder_benefit",
+      "investor_relations_only"
+    ],
+    "officialProgrammeName": "Shareholder benefits",
+    "status": "active",
+    "statusReason": "Whitbread maintient un programme formel fondé sur une carte d'avantages réservée aux détenteurs d'au moins 64 actions. Les conditions officielles mises à jour le 1er juin 2026 prouvent un petit-déjeuner gratuit Premier Inn jusqu'au 30 juin 2027; elles ne permettent toutefois plus de chiffrer ni de décrire précisément l'avantage restaurant mentionné dans l'introduction.",
+    "sourceIds": [
+      "S01"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": 64,
+    "eligibleShareClasses": [
+      "Actions ordinaires Whitbread PLC cotées à Londres sous le symbole WTB"
+    ],
+    "holdingModes": [
+      "transfer_agent",
+      "broker_account"
+    ],
+    "minimumHoldingPeriod": "Aucune durée minimale de détention n'est publiée. L'actionnaire doit conserver au moins 64 actions pour rester éligible aux envois futurs.",
+    "residencyRestrictions": [],
+    "accountRestrictions": [
+      "Un actionnaire inscrit directement peut demander la carte à MUFG Corporate Markets.",
+      "Lorsque les actions sont détenues par l'intermédiaire d'un nominee, l'actionnaire doit demander directement à ce nominee d'obtenir la carte.",
+      "La page actuelle ne publie ni date annuelle d'arrêté des positions ni restriction de résidence."
+    ],
+    "proofRequired": [
+      "Pour une détention via nominee, la page actuelle exige de passer par le nominee mais ne précise pas la forme du justificatif transmis à MUFG.",
+      "Pour utiliser le petit-déjeuner, présenter la carte Whitbread originale et le courriel de confirmation de réservation; les copies et photographies de la carte sont refusées.",
+      "Une pièce d'identité supplémentaire peut être demandée à la réception."
+    ],
+    "fees": {
+      "membershipFee": null,
+      "applicationFee": null,
+      "otherFees": [],
+      "notes": "Aucun droit d'adhésion ou frais de demande n'est publié dans les conditions actuelles. Cette absence de tarif publié ne suffit pas à affirmer contractuellement que tous les frais liés à l'intermédiaire financier sont nuls."
+    },
+    "sourceIds": [
+      "S01",
+      "S05"
+    ]
+  },
+  "enrollment": {
+    "required": true,
+    "method": "transfer_agent",
+    "applicationUrl": null,
+    "contact": "MUFG Corporate Markets : +44 (0)344 855 2327 ou Whitbread@cm.mpms.mufg.com. En cas de détention via nominee, contacter directement le nominee.",
+    "steps": [
+      "Détenir au moins 64 actions Whitbread PLC.",
+      "Pour une détention directe, contacter MUFG Corporate Markets par téléphone ou par courriel afin de s'enregistrer pour la carte.",
+      "Pour une détention via nominee, demander à l'intermédiaire de solliciter la carte pour le titulaire bénéficiaire.",
+      "Conserver la carte physique reçue, car une copie ou une photographie n'est pas acceptée lors de l'utilisation."
+    ],
+    "processingTime": null,
+    "renewal": "Les actionnaires déjà enregistrés pour les offres devraient recevoir automatiquement la nouvelle carte avec l'envoi du rapport annuel, sous réserve de rester éligibles. La page actuelle ne demande pas de réinscription annuelle, mais ne précise ni la date de contrôle des 64 actions ni le délai de remplacement d'une carte non reçue.",
+    "deadlines": [
+      "Aucune date limite annuelle de première inscription n'est publiée.",
+      "Le petit-déjeuner est annoncé pour les séjours jusqu'au 30 juin 2027 inclus."
+    ],
+    "sourceIds": [
+      "S01",
+      "S05"
+    ]
+  },
+  "benefits": [
+    {
+      "id": "B01",
+      "type": "cadeau",
+      "title": "Petit-déjeuner gratuit dans les Premier Inn participants",
+      "description": "L'actionnaire muni de sa carte peut obtenir gratuitement un Premier Inn Breakfast chaque matin de son séjour pour au plus deux adultes par chambre et deux chambres. Il doit séjourner dans l'une des chambres. Les conditions couvrent les Premier Inn participants au Royaume-Uni et en Irlande et citent explicitement hub by Premier Inn et ZIP by Premier Inn au Royaume-Uni.",
+      "value": "Un petit-déjeuner gratuit par adulte éligible et par nuit, dans la limite de deux adultes par chambre et de deux chambres.",
+      "requiredShares": 64,
+      "requiredHoldingModes": [
+        "Détention directe enregistrée auprès du teneur de registre",
+        "Détention via nominee ou courtier ayant demandé la carte"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "subject_to_capacity",
+      "validFrom": null,
+      "validUntil": "2027-06-30",
+      "requestDeadline": null,
+      "procedure": [
+        "Réserver un hôtel éligible pour un séjour se terminant au plus tard le 30 juin 2027; tout tarif de réservation peut être utilisé.",
+        "Présenter à la réception la carte Whitbread originale et le courriel de confirmation de réservation.",
+        "Ne pas ajouter le petit-déjeuner lors de la réservation; la gratuité est confirmée au check-in.",
+        "Présenter une pièce d'identité si la réception la demande."
+      ],
+      "limitsAndExclusions": [
+        "Offre réservée au titulaire éligible de la carte, non transférable et sans contrepartie en espèces.",
+        "Maximum de deux adultes par chambre et de deux chambres par actionnaire; l'actionnaire doit occuper l'une des chambres.",
+        "Offre soumise à disponibilité et limitée aux Premier Inn participants.",
+        "La page actuelle ne publie aucune liste nominative d'établissements exclus; il ne faut donc pas promettre l'avantage dans tous les hôtels.",
+        "L'Allemagne n'est pas couverte par les conditions, qui visent le Royaume-Uni et l'Irlande.",
+        "Non cumulable avec une autre offre ou réduction, notamment Meal Deal, Emerald card ou Whitbread Privilege card.",
+        "Les copies et photographies de la carte ne sont pas acceptées."
+      ],
+      "primarySourceId": "S01",
+      "supportingSourceIds": [],
+      "sourceUrl": "https://www.whitbread.co.uk/investors/shareholder-centre/benefits/",
+      "evidenceGrade": "A",
+      "uncertainty": "La présentation et la rubrique de réservation parlent seulement des hôtels du Royaume-Uni, tandis que les conditions contractuelles incluent les Premier Inn participants au Royaume-Uni ou en Irlande. Les conditions ne donnent pas de liste d'établissements participants ou exclus et ne précisent pas la date de début de la carte annuelle."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Combien d'actions Whitbread faut-il détenir pour recevoir la carte d'avantages ?",
+      "answer": "Il faut détenir au moins 64 actions Whitbread PLC. Aucun délai minimal de détention n'est publié. La carte doit être demandée auprès de MUFG Corporate Markets pour une détention directe, ou par l'intermédiaire du nominee lorsque les actions sont conservées dans un compte au nom d'un intermédiaire.",
+      "sourceIds": [
+        "S01"
+      ]
+    },
+    {
+      "question": "Quel petit-déjeuner est offert et combien de chambres peuvent en bénéficier ?",
+      "answer": "La carte donne droit à un Premier Inn Breakfast gratuit chaque matin, sous réserve de disponibilité, pour au plus deux adultes par chambre et deux chambres. L'actionnaire doit séjourner dans l'une des chambres. Les conditions couvrent les Premier Inn participants au Royaume-Uni et en Irlande; hub by Premier Inn et ZIP by Premier Inn sont expressément cités pour le Royaume-Uni.",
+      "sourceIds": [
+        "S01"
+      ]
+    },
+    {
+      "question": "Comment obtenir la carte et quelle preuve faut-il fournir à Whitbread ?",
+      "answer": "Un détenteur direct contacte MUFG Corporate Markets au +44 (0)344 855 2327 ou à Whitbread@cm.mpms.mufg.com. Un détenteur via nominee doit passer par son intermédiaire. La page actuelle ne détaille pas le document de preuve exigé du nominee. Une lettre officielle de 2022 mentionnait une attestation ou lettre du nominee, mais cette procédure ancienne utilisait encore l'ancien teneur de registre Link et ne doit pas être présentée comme une exigence actuelle certaine.",
+      "sourceIds": [
+        "S01",
+        "S05"
+      ]
+    },
+    {
+      "question": "Jusqu'à quand l'offre est-elle valable et faut-il renouveler la carte chaque année ?",
+      "answer": "Le petit-déjeuner est valable pour les séjours jusqu'au 30 juin 2027 inclus. Les actionnaires déjà enregistrés devraient recevoir automatiquement une carte avec l'envoi du rapport annuel s'ils restent éligibles. Aucune réinscription annuelle n'est annoncée, mais Whitbread ne publie pas la date de contrôle des 64 actions ni la date exacte de début de la nouvelle carte.",
+      "sourceIds": [
+        "S01",
+        "S05"
+      ]
+    },
+    {
+      "question": "Quels hôtels sont exclus et peut-on cumuler le petit-déjeuner avec une autre offre ?",
+      "answer": "Whitbread ne publie pas de liste nominative des établissements exclus et limite la promesse aux Premier Inn participants, sous réserve de disponibilité. L'Allemagne n'est pas incluse. Le petit-déjeuner ne peut pas être cumulé avec une autre offre ou réduction, notamment Meal Deal, Emerald card ou Whitbread Privilege card. La carte originale et la confirmation de réservation sont obligatoires.",
+      "sourceIds": [
+        "S01"
+      ]
+    },
+    {
+      "question": "La carte accorde-t-elle encore 10 % de réduction dans les restaurants Whitbread ?",
+      "answer": "La page officielle actuelle dit encore que des avantages Premier Inn et restaurant passent par la carte, mais elle ne publie plus le taux, les marques, les exclusions ni la période de l'offre restaurant. Le taux de 10 % est prouvé dans une lettre Whitbread de 2019 et reste repris par Hargreaves Lansdown, mais ces éléments ne suffisent pas à établir des conditions officielles actives au 9 juin 2026. La réduction restaurant n'est donc pas retenue comme bénéfice publiable.",
+      "sourceIds": [
+        "S01",
+        "S06",
+        "S07"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "Whitbread PLC, symbole WTB, exploite principalement Premier Inn et appartient au FTSE 100 au 9 juin 2026.",
+      "status": "verified",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "notes": "La revue FTSE annoncée le 3 juin 2026 ne retire pas Whitbread et ses changements ne prennent effet que le 22 juin 2026."
+    },
+    {
+      "id": "C02",
+      "statement": "Le seuil officiel actuel pour recevoir la carte d'avantages Whitbread est de 64 actions.",
+      "status": "verified",
+      "sourceIds": [
+        "S01"
+      ],
+      "notes": "Le seuil global et le seuil du petit-déjeuner sont identiques."
+    },
+    {
+      "id": "C03",
+      "statement": "Les actionnaires déjà enregistrés devraient recevoir automatiquement la carte avec l'envoi du rapport annuel.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S05"
+      ],
+      "notes": "La page actuelle emploie une formulation non garantie et ne publie pas la date annuelle de contrôle des positions."
+    },
+    {
+      "id": "C04",
+      "statement": "Le petit-déjeuner gratuit est limité à deux adultes par chambre, deux chambres et exige que l'actionnaire séjourne dans l'une d'elles.",
+      "status": "verified",
+      "sourceIds": [
+        "S01"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C05",
+      "statement": "L'offre de petit-déjeuner est valable jusqu'au 30 juin 2027 inclus et peut être utilisée avec tout tarif de réservation.",
+      "status": "verified",
+      "sourceIds": [
+        "S01"
+      ],
+      "notes": "Elle ne se cumule toutefois pas avec une autre offre ou réduction."
+    },
+    {
+      "id": "C06",
+      "statement": "La carte physique originale et le courriel de confirmation sont exigés au check-in; une pièce d'identité peut être demandée.",
+      "status": "verified",
+      "sourceIds": [
+        "S01"
+      ],
+      "notes": "Les copies et photographies de la carte sont expressément refusées."
+    },
+    {
+      "id": "C07",
+      "statement": "Un avantage restaurant existe encore de manière générique dans la présentation actuelle du programme.",
+      "status": "partially_verified",
+      "sourceIds": [
+        "S01",
+        "S06",
+        "S07"
+      ],
+      "notes": "La page officielle actuelle ne donne plus de valeur, de marques, de période ni de conditions restaurant; le taux historique de 10 % n'est pas retenu comme actif."
+    },
+    {
+      "id": "C08",
+      "statement": "Les conditions 2026-2027 ne publient pas de liste nominative des Premier Inn exclus du petit-déjeuner.",
+      "status": "uncertain",
+      "sourceIds": [
+        "S01"
+      ],
+      "notes": "Il s'agit d'un constat sur la page officielle accessible au 9 juin 2026. La formule « participating Premier Inn » implique que tous les établissements ne doivent pas être promis."
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "La carte Whitbread accorde actuellement une réduction garantie de 10 % dans tous les restaurants du groupe.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01",
+        "S06",
+        "S07"
+      ]
+    },
+    {
+      "claim": "La carte physique constitue un bénéfice économique distinct du petit-déjeuner.",
+      "reason": "duplicate",
+      "sourceIds": [
+        "S01"
+      ]
+    },
+    {
+      "claim": "Le petit-déjeuner est garanti dans tous les Premier Inn sans restriction de capacité.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S01"
+      ]
+    },
+    {
+      "claim": "Les Premier Inn allemands participent à l'offre de petit-déjeuner actionnaire.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "claim": "Une photographie ou une copie de la carte suffit pour obtenir le petit-déjeuner.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S01"
+      ]
+    },
+    {
+      "claim": "La carte et ses avantages sont permanents et continueront automatiquement après le 30 juin 2027.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01"
+      ]
+    },
+    {
+      "claim": "L'inscription et tous les frais liés à l'obtention de la carte sont officiellement garantis gratuits.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.whitbread.co.uk/investors/shareholder-centre/benefits/",
+      "title": "Shareholder benefits",
+      "publisher": "Whitbread PLC",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": "2021-02-02",
+      "lastUpdatedAt": "2026-06-01",
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Source primaire actuelle du programme : seuil de 64 actions, carte, contacts MUFG et nominee, renouvellement par envoi avec le rapport annuel, petit-déjeuner, limites de chambres et d'adultes, preuve au check-in, non-cumul, disponibilité et validité jusqu'au 30 juin 2027. Elle mentionne un avantage restaurant sans en publier les conditions."
+    },
+    {
+      "id": "S02",
+      "url": "https://www.whitbread.co.uk/investors/annual-report/",
+      "title": "2025/26 Annual Report - Driving long-term value",
+      "publisher": "Whitbread PLC",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": "2026-05-13",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Présentation officielle 2025/26 du groupe, de Premier Inn, du réseau au Royaume-Uni, en Irlande et en Allemagne, et de la transformation des restaurants en restauration intégrée. Elle sert à l'identité de l'entreprise, pas aux conditions de la carte."
+    },
+    {
+      "id": "S03",
+      "url": "https://www.londonstockexchange.com/stock/WTB/whitbread-plc/company-page",
+      "title": "Whitbread PLC WTB - Company page",
+      "publisher": "London Stock Exchange",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle de la Bourse de Londres identifiant Whitbread PLC sous le symbole WTB et l'indice FTSE 100."
+    },
+    {
+      "id": "S04",
+      "url": "https://www.lseg.com/en/media-centre/press-releases/ftse-russell/2026/ftse-uk-index-series-review-june-2026",
+      "title": "FTSE UK Index Series - Annual Review June 2026",
+      "publisher": "FTSE Russell, LSEG",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": "2026-06-03",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Annonce officielle de la revue de juin 2026 : Whitbread ne figure pas parmi les sorties du FTSE 100 et les changements annoncés ne deviennent effectifs que le 22 juin 2026. Elle corrobore donc le maintien dans l'indice à la date de référence."
+    },
+    {
+      "id": "S05",
+      "url": "https://cdn.whitbread.co.uk/media/2022/05/23441_Whitbread_AR2022_Chairmans-Letter.pdf",
+      "title": "Chairman's Letter 2022",
+      "publisher": "Whitbread PLC",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2022-05-11",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "archived",
+      "evidenceGrade": "D",
+      "evidenceSummary": "Document officiel historique confirmant le seuil de 64 actions, l'envoi annuel automatique, l'absence de réinscription annuelle et l'ancienne preuve par attestation ou lettre du nominee. Les coordonnées Link sont obsolètes et les détails de preuve ne sont pas transposés comme conditions actuelles."
+    },
+    {
+      "id": "S06",
+      "url": "https://cdn.whitbread.co.uk/media/2021/02/03110700/Whitbread_Chairmans-Letter-2019.pdf",
+      "title": "Chairman's Letter 2019",
+      "publisher": "Whitbread PLC",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2019-05-15",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "archived",
+      "evidenceGrade": "D",
+      "evidenceSummary": "Preuve officielle historique du taux restaurant de 10 % sur nourriture et boissons pour quatre personnes, hors Noël, et de l'ancien mode d'inscription. Ce document daté de 2019 ne prouve pas que ces conditions restent actives en 2026."
+    },
+    {
+      "id": "S07",
+      "url": "https://www.hl.co.uk/shares/shareholder-perks",
+      "title": "Shareholder perks, benefits and discounts",
+      "publisher": "Hargreaves Lansdown",
+      "sourceType": "reputable_secondary",
+      "official": false,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "undated",
+      "evidenceGrade": "D",
+      "evidenceSummary": "Tableau actuel d'un courtier reconnu indiquant 64 actions, les petits-déjeuners gratuits et 10 % dans les restaurants Whitbread. Il corrobore la persistance supposée de la remise restaurant mais ne remplace pas des conditions officielles actuelles."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Réduction restaurant de 10 %",
+      "sourceIds": [
+        "S01",
+        "S06",
+        "S07"
+      ],
+      "positions": [
+        "La page officielle mise à jour le 1er juin 2026 mentionne encore des avantages restaurant accessibles avec la carte, sans publier de taux, de marques, d'exclusions ou de période.",
+        "La lettre officielle de 2019 fixait une réduction de 10 % sur nourriture et boissons pour quatre personnes dans les restaurants Whitbread, hors Noël.",
+        "Hargreaves Lansdown continue d'afficher une réduction de 10 % dans les restaurants Whitbread, mais cette source secondaire ne publie pas les conditions officielles 2026-2027."
+      ],
+      "resolution": "Ne pas retenir la remise restaurant comme bénéfice actif. Conserver seulement le constat qu'un avantage restaurant générique est mentionné et demander une nouvelle vérification si Whitbread republie ses conditions précises.",
+      "impact": "benefit_excluded"
+    },
+    {
+      "topic": "Portée géographique du petit-déjeuner",
+      "sourceIds": [
+        "S01"
+      ],
+      "positions": [
+        "Le texte de présentation et la rubrique de réservation parlent d'un séjour dans les hôtels du Royaume-Uni, en citant hub by Premier Inn et ZIP by Premier Inn.",
+        "Les conditions de l'offre couvrent les Premier Inn participants au Royaume-Uni ou en Irlande."
+      ],
+      "resolution": "Appliquer la formulation contractuelle Royaume-Uni ou Irlande, tout en limitant la mention explicite de hub et ZIP au Royaume-Uni et en excluant l'Allemagne.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Justificatif pour une détention via nominee",
+      "sourceIds": [
+        "S01",
+        "S05"
+      ],
+      "positions": [
+        "La page actuelle demande au détenteur via nominee de contacter directement son intermédiaire, sans préciser le document à transmettre.",
+        "La lettre officielle de 2022 demandait au nominee d'envoyer une attestation ou de fournir une lettre de confirmation, mais elle visait l'ancien teneur de registre Link."
+      ],
+      "resolution": "Présenter le passage par le nominee comme règle actuelle et laisser la forme du justificatif inconnue. Ne citer l'attestation ou la lettre de confirmation que comme procédure historique à faire confirmer par MUFG.",
+      "impact": "wording_only"
+    }
+  ],
+  "handoff": {
+    "researchStatus": "complete_with_uncertainties",
+    "readyForDevelopment": true,
+    "benefitCount": 1,
+    "faqCount": 6,
+    "blockingIssues": [],
+    "developerNotes": [
+      "Ne pas créer de club : company.clubName et company.clubUrl restent null.",
+      "Conserver un seul bénéfice actif, le petit-déjeuner gratuit; la carte est le support du programme, pas un bénéfice distinct.",
+      "Fixer minShares et requiredShares à 64 et ne publier aucune durée minimale de détention.",
+      "Conserver la limite de deux adultes par chambre, deux chambres et l'obligation pour l'actionnaire d'occuper l'une d'elles.",
+      "Conserver la date de fin au 30 juin 2027, la disponibilité, l'exigence de la carte originale et le non-cumul.",
+      "Ne pas promettre tous les hôtels : employer « Premier Inn participants » et signaler qu'aucune liste d'établissements exclus n'est publiée.",
+      "Couvrir le Royaume-Uni et l'Irlande selon les conditions, citer hub et ZIP uniquement dans le contexte britannique et exclure l'Allemagne.",
+      "Ne pas publier la réduction restaurant de 10 % tant que Whitbread ne republie pas une valeur, des marques, des exclusions et une période actuelles.",
+      "Ne pas affirmer que l'inscription est gratuite; aucun frais n'est publié, ce qui n'exclut pas les coûts éventuels de l'intermédiaire.",
+      "Ne créer aucun dossier final Prisma à cette étape."
+    ]
+  }
+}

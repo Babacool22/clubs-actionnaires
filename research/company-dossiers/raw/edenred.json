@@ -1,0 +1,553 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "edenred",
+    "name": "Edenred",
+    "description": "Edenred est un groupe mondial spécialisé dans les avantages aux salariés, la mobilité professionnelle et les solutions de paiement. Sa plateforme relie plus de 60 millions d'utilisateurs à plus de 2 millions de commerçants partenaires dans 44 pays.",
+    "sector": "Services aux entreprises",
+    "stockIndex": "CAC Next 20",
+    "ticker": "EDEN",
+    "website": "https://www.edenred.com/fr",
+    "clubName": "E-club des actionnaires individuels d'Edenred",
+    "clubUrl": "https://www.edenred.com/fr/investisseurs-actionnaires/e-club-actionnaires"
+  },
+  "offerClassification": {
+    "primaryKind": "shareholder_club",
+    "otherKinds": [
+      "shareholder_benefit",
+      "investor_relations_only"
+    ],
+    "officialProgrammeName": "E-club des actionnaires individuels d'Edenred",
+    "status": "active",
+    "statusReason": "Edenred maintient une page d'adhésion active, un règlement officiel et des activités récentes de l'E-club, dont un petit-déjeuner organisé le 15 janvier 2026. Le club offre surtout des invitations ponctuelles et des informations financières; un avantage économique distinct existe aussi pour la détention au nominatif pur.",
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S03",
+      "S05"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": 1,
+    "eligibleShareClasses": [
+      "Action ordinaire Edenred SE, ISIN FR0010908533"
+    ],
+    "holdingModes": [
+      "bearer",
+      "registered_administered",
+      "registered_pure"
+    ],
+    "minimumHoldingPeriod": null,
+    "residencyRestrictions": [],
+    "accountRestrictions": [
+      "L'E-club est réservé aux personnes physiques actionnaires individuelles, françaises ou étrangères.",
+      "Les salariés sont exclus par le règlement de l'E-club.",
+      "Une adresse électronique active est obligatoire.",
+      "Le seuil actuel publié est d'une action au nominatif pur ou administré, contre trente actions au porteur.",
+      "Une indivision ne peut présenter qu'une demande, au nom du représentant personne physique désigné unanimement par ses membres."
+    ],
+    "proofRequired": [
+      "L'actionnaire au nominatif indique ce mode de détention dans le formulaire.",
+      "L'actionnaire au porteur doit joindre une copie scannée d'une attestation de son établissement financier, datée de moins d'un mois et indiquant le nombre d'actions Edenred détenues.",
+      "Edenred peut demander ultérieurement aux membres au porteur une nouvelle attestation de détention datée de moins d'un mois."
+    ],
+    "fees": {
+      "membershipFee": "Gratuite",
+      "applicationFee": "Aucun frais de demande publié",
+      "otherFees": [
+        "Les coûts de connexion internet restent à la charge du membre.",
+        "Pour les événements, les frais de transport, stationnement, hébergement et restauration sont à la charge du membre, sauf prestation expressément annoncée par Edenred."
+      ],
+      "notes": "L'adhésion à l'E-club est facultative et gratuite. Les frais de courtage ou de transfert liés à la détention des actions ne sont pas des frais d'adhésion au club."
+    },
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S03"
+    ]
+  },
+  "enrollment": {
+    "required": true,
+    "method": "online_form",
+    "applicationUrl": "https://www.edenred.com/fr/investisseurs-actionnaires/e-club-actionnaires",
+    "contact": "Relations Actionnaires individuels Edenred : relations.actionnaires@edenred.com; numéro vert 0 805 652 662, service et appel gratuits.",
+    "steps": [
+      "Vérifier que le seuil correspondant au mode de détention est atteint: une action au nominatif ou trente actions au porteur.",
+      "Remplir le formulaire en ligne de la page E-club et renseigner tous les champs obligatoires.",
+      "Indiquer si les actions sont détenues au nominatif ou au porteur.",
+      "En cas de détention au porteur, joindre une attestation de l'établissement financier datée de moins d'un mois et indiquant le nombre d'actions Edenred détenues.",
+      "Accepter le règlement de l'E-club; les invitations et communications sont ensuite envoyées à l'adresse électronique déclarée."
+    ],
+    "processingTime": null,
+    "renewal": "L'adhésion reste valable tant que le membre conserve sa qualité d'actionnaire. Edenred peut contrôler cette condition; pour un membre au porteur, la reconduction après contrôle dépend de l'envoi et de l'étude d'une attestation récente.",
+    "deadlines": [],
+    "sourceIds": [
+      "S01",
+      "S02"
+    ]
+  },
+  "benefits": [
+    {
+      "id": "B01",
+      "type": "evenement",
+      "title": "Invitations ponctuelles aux événements de l'E-club",
+      "description": "Les membres reçoivent par courriel des invitations ponctuelles à des rencontres d'actionnaires, visites, événements ou réunions au siège. Edenred a notamment accueilli quelques membres lors d'un petit-déjeuner au siège le 15 janvier 2026 consacré à la stratégie Amplify 25-28.",
+      "value": null,
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "bearer",
+        "registered_administered",
+        "registered_pure"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "discretionary",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Adhérer à l'E-club au moyen du formulaire officiel.",
+        "Surveiller l'adresse électronique déclarée pour recevoir les invitations.",
+        "Suivre les modalités de réponse, le calendrier et les éventuelles limites indiquées dans chaque invitation."
+      ],
+      "limitsAndExclusions": [
+        "Le seuil dépend du mode de détention: une action au nominatif ou trente actions au porteur; aucun seuil unique propre à chaque invitation n'est publié.",
+        "Les invitations sont ponctuelles et ne constituent pas un droit garanti à un nombre déterminé d'événements ou de places.",
+        "Les conditions de capacité, de sélection et de réponse ne sont pas publiées de manière générale et peuvent varier selon l'événement.",
+        "Les frais de transport, stationnement, hébergement et restauration restent à la charge du membre, sauf information contraire communiquée avant l'événement.",
+        "Edenred peut modifier sans préavis les services et avantages prévus par le règlement."
+      ],
+      "primarySourceId": "S01",
+      "supportingSourceIds": [
+        "S02",
+        "S04",
+        "S08"
+      ],
+      "sourceUrl": "https://www.edenred.com/fr/investisseurs-actionnaires/e-club-actionnaires",
+      "evidenceGrade": "A",
+      "uncertainty": "La nature et le nombre des invitations futures ne sont pas garantis. Les modalités précises ne sont connues qu'au moment de chaque invitation."
+    },
+    {
+      "id": "B02",
+      "type": "reduction",
+      "title": "Gratuité des droits de garde au nominatif pur",
+      "description": "Pour les actions Edenred inscrites au nominatif pur auprès de Société Générale Securities Services, Edenred prend entièrement en charge les droits de garde ainsi que certains frais de gestion courante, notamment ceux liés au paiement des dividendes et aux opérations sur titres.",
+      "value": "Droits de garde gratuits et certains frais de gestion courante pris en charge",
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "registered_pure"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "guaranteed",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Pour des titres déjà détenus au porteur ou au nominatif administré, demander à son intermédiaire financier leur transfert au nominatif pur.",
+        "Pour un premier achat au nominatif pur, transmettre à Société Générale Securities Services le formulaire d'achat, la convention de compte-titres, le mandat de prélèvement, les justificatifs demandés et le règlement initial indiqué par Edenred.",
+        "Après le transfert ou l'achat, les titres sont inscrits chez Edenred sur un compte géré par Société Générale Securities Services."
+      ],
+      "limitsAndExclusions": [
+        "Aucun nombre minimal d'actions n'est publié pour cet avantage distinct; le seuil ne doit pas être remplacé par une action.",
+        "La gratuité ne s'applique pas au nominatif administré ni aux titres au porteur.",
+        "Les frais de courtage sur les achats et ventes restent dus.",
+        "L'intermédiaire financier d'origine peut facturer le transfert au nominatif pur.",
+        "Les anciens tarifs de courtage datés du 1er janvier 2018 ne sont pas retenus comme tarifs actuels."
+      ],
+      "primarySourceId": "S05",
+      "supportingSourceIds": [
+        "S06"
+      ],
+      "sourceUrl": "https://www.edenred.com/fr/investisseurs-actionnaires/devenir-actionnaire",
+      "evidenceGrade": "A",
+      "uncertainty": "La page actuelle ne publie pas de barème de courtage à jour ni de délai standard de transfert; ces conditions doivent être vérifiées auprès de l'intermédiaire et de Société Générale Securities Services."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Edenred dispose-t-elle d'un véritable club d'actionnaires ?",
+      "answer": "Oui. Edenred exploite un dispositif formel nommé « E-club des actionnaires individuels d'Edenred », avec une adhésion en ligne, un règlement, des conditions de membre et des invitations dédiées. Il ne s'agit donc pas uniquement d'un espace de relations investisseurs.",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "question": "Combien d'actions faut-il détenir pour adhérer à l'E-club Edenred ?",
+      "answer": "La page officielle actuelle exige une action au nominatif pur ou administré, ou trente actions au porteur, avec une adresse électronique active. Le règlement PDF de 2023 affiche « 1 actions au porteur », mais cette mention est contredite par les pages française et anglaise actuelles; le seuil opérationnel retenu est donc trente actions au porteur.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03"
+      ]
+    },
+    {
+      "question": "Comment un actionnaire au porteur s'inscrit-il à l'E-club ?",
+      "answer": "Il remplit le formulaire en ligne, choisit le mode « au porteur » et joint une attestation de son établissement financier datée de moins d'un mois, précisant le nombre d'actions Edenred détenues. Edenred peut demander ultérieurement une nouvelle attestation pour vérifier le maintien de l'éligibilité.",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "question": "Les membres sont-ils certains de participer à des événements Edenred ?",
+      "answer": "Non. Le règlement prévoit des invitations ponctuelles, et la page de l'E-club montre que quelques membres ont participé à des petits-déjeuners au siège. Aucun calendrier minimal, quota de places ni droit automatique à participer n'est publié; la disponibilité dépend donc de chaque invitation.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S04"
+      ]
+    },
+    {
+      "question": "Quel avantage existe pour les actions Edenred au nominatif pur ?",
+      "answer": "Edenred prend en charge les droits de garde et certains frais de gestion courante pour les titres au nominatif pur gérés par Société Générale Securities Services. Les frais de courtage et les éventuels frais facturés par la banque lors du transfert restent toutefois à la charge de l'actionnaire.",
+      "sourceIds": [
+        "S05",
+        "S06"
+      ]
+    },
+    {
+      "question": "Les communiqués, le dividende et l'assemblée générale sont-ils des bénéfices de l'E-club ?",
+      "answer": "Non. Les communiqués et lettres sont des informations publiques ou des services ordinaires de relations investisseurs. Le dividende ordinaire, le vote, le droit de participer à l'assemblée générale et le droit de vote double au nominatif après deux ans sont des droits génériques, pas des avantages à recenser dans cette fiche.",
+      "sourceIds": [
+        "S02",
+        "S05",
+        "S08"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "Edenred est cotée sur Euronext Paris sous le symbole EDEN et appartient au CAC Next 20 au 9 juin 2026.",
+      "status": "verified",
+      "sourceIds": [
+        "S07",
+        "S09"
+      ],
+      "notes": "La fiche de cotation actuelle classe Edenred dans le CAC Next 20. Le manifeste interne et des documents officiels plus anciens mentionnent encore le CAC 40."
+    },
+    {
+      "id": "C02",
+      "statement": "L'E-club des actionnaires individuels d'Edenred est un club formel actif.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "notes": "La page d'adhésion est active, le règlement reste publié et un événement E-club a eu lieu le 15 janvier 2026."
+    },
+    {
+      "id": "C03",
+      "statement": "Le seuil actuel d'adhésion est d'une action au nominatif ou de trente actions au porteur.",
+      "status": "partially_verified",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "notes": "Les pages française et anglaise actuelles concordent sur trente actions au porteur, mais le règlement PDF du 19 avril 2023 contient la mention contradictoire « 1 actions au porteur »."
+    },
+    {
+      "id": "C04",
+      "statement": "L'adhésion à l'E-club est facultative, gratuite et réalisée au moyen d'un formulaire en ligne.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "notes": "Une attestation financière de moins d'un mois est exigée lors de l'inscription au porteur."
+    },
+    {
+      "id": "C05",
+      "statement": "Les membres de l'E-club peuvent recevoir des invitations ponctuelles à des réunions, visites ou événements.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S04"
+      ],
+      "notes": "La disponibilité est discrétionnaire et les conditions de capacité ne sont pas publiées de manière générale."
+    },
+    {
+      "id": "C06",
+      "statement": "Edenred prend en charge les droits de garde et certains frais courants des actions détenues au nominatif pur.",
+      "status": "verified",
+      "sourceIds": [
+        "S05",
+        "S06"
+      ],
+      "notes": "Les frais de courtage restent dus et aucun tarif actuel n'est publié sur la page officielle."
+    },
+    {
+      "id": "C07",
+      "statement": "Aucune offre promotionnelle ponctuelle précise et disponible n'est publiée pour les membres au 9 juin 2026.",
+      "status": "uncertain",
+      "sourceIds": [
+        "S02",
+        "S04"
+      ],
+      "notes": "Le règlement évoque des offres privilégiées et la brochure des avantages des offres promotionnelles ponctuelles, mais aucun partenaire, montant, code, période de validité ni procédure de demande n'est fourni."
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "Une seule action au porteur suffit actuellement pour adhérer à l'E-club.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03"
+      ]
+    },
+    {
+      "claim": "Les offres promotionnelles ponctuelles constituent un avantage commercial actif et utilisable au 9 juin 2026.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S02",
+        "S04"
+      ]
+    },
+    {
+      "claim": "Les communiqués de presse, lettres aux actionnaires et autres publications publiques sont des bénéfices réservés.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S04"
+      ]
+    },
+    {
+      "claim": "Le dividende ordinaire, le vote, l'assemblée générale et le droit de vote double sont des avantages de l'E-club.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S02",
+        "S05",
+        "S08"
+      ]
+    },
+    {
+      "claim": "L'accès à Sharinbox et les services ordinaires de gestion du compte nominatif sont des bénéfices distincts.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S05",
+        "S06"
+      ]
+    },
+    {
+      "claim": "L'adhésion à l'E-club garantit une invitation et une place à chaque événement Edenred.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S04"
+      ]
+    },
+    {
+      "claim": "Toute réunion d'actionnaires publiée dans le calendrier Edenred est réservée aux seuls membres de l'E-club.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S04",
+        "S08"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.edenred.com/fr/investisseurs-actionnaires/e-club-actionnaires",
+      "title": "E-club des actionnaires",
+      "publisher": "Edenred SE",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Page officielle active du club. Elle fixe le seuil à une action au nominatif ou trente au porteur, exige une adresse électronique active, propose le formulaire d'inscription et documente des petits-déjeuners réservés à quelques membres, dont celui du 15 janvier 2026."
+    },
+    {
+      "id": "S02",
+      "url": "https://www.edenred.com/system/files/documents/reglement-eclub-des-actionnaires-edenred-19042023_vf.pdf",
+      "title": "Règlement de l'E-club des actionnaires individuels d'Edenred",
+      "publisher": "Edenred SE",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": "2023-04-19",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Règlement encore lié depuis la page actuelle. Il précise l'adhésion gratuite en ligne, l'exclusion des salariés, le justificatif de moins d'un mois au porteur, la durée d'adhésion, les invitations ponctuelles, les frais à la charge des membres et le pouvoir de modification d'Edenred. Il contient toutefois un seuil au porteur contradictoire."
+    },
+    {
+      "id": "S03",
+      "url": "https://www.edenred.com/en/investors-shareholders/shareholders-e-club",
+      "title": "Shareholders E-club",
+      "publisher": "Edenred SE",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Version anglaise actuelle de la page E-club, confirmant indépendamment le seuil d'une action nominative ou trente actions au porteur et l'existence d'avantages exclusifs comprenant des invitations et des informations dédiées."
+    },
+    {
+      "id": "S04",
+      "url": "https://www.edenred.com/system/files/documents/avantages_eclubactionnairesedenred_2020.pdf",
+      "title": "Avantages E-club Edenred réservés aux membres",
+      "publisher": "Edenred SE",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2020",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Brochure officielle toujours liée depuis la page E-club. Elle mentionne les invitations privilégiées aux réunions régionales et au siège, les alertes d'information et des offres promotionnelles ponctuelles, sans fournir de conditions actuelles pour une promotion précise."
+    },
+    {
+      "id": "S05",
+      "url": "https://www.edenred.com/fr/investisseurs-actionnaires/devenir-actionnaire",
+      "title": "Devenir actionnaire",
+      "publisher": "Edenred SE",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Page officielle actuelle décrivant les modes de détention, l'accès à l'E-club dès une action au nominatif, la gestion du nominatif pur par Société Générale Securities Services, la gratuité des droits de garde et certains frais courants, ainsi que les documents et étapes d'un achat au nominatif pur."
+    },
+    {
+      "id": "S06",
+      "url": "https://www.edenred.com/system/files/documents/guide_nominatif_fr_0_0.pdf",
+      "title": "Guide de l'actionnaire au nominatif",
+      "publisher": "Edenred SE et Société Générale Securities Services",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2022-02-16",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Guide officiel encore lié depuis la page actuelle. Il confirme la prise en charge intégrale des droits de garde au nominatif pur, le maintien des frais de courtage et la procédure de transfert ou d'achat. Les taux de courtage datés du 1er janvier 2018 sont trop anciens pour être repris."
+    },
+    {
+      "id": "S07",
+      "url": "https://www.edenred.com/fr/investisseurs-actionnaires/cotation",
+      "title": "Cotation",
+      "publisher": "Edenred SE",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Fiche signalétique officielle actuelle: cotation sur Euronext Paris, ISIN FR0010908533, classification Services aux entreprises, tickers Reuters EDEN.PA et Bloomberg EDEN FP, et indices de référence comprenant le CAC Next 20."
+    },
+    {
+      "id": "S08",
+      "url": "https://www.edenred.com/fr/investisseurs-actionnaires/rendez-vous",
+      "title": "Rendez-vous",
+      "publisher": "Edenred SE",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Calendrier officiel des rencontres avec les actionnaires et coordonnées du service permanent. La page distingue les réunions d'actionnaires générales des activités spécifiques de l'E-club et confirme les contacts par courriel et téléphone."
+    },
+    {
+      "id": "S09",
+      "url": "https://media.edenred.com/en-roumanie-la-hausse-de-la-valeur-faciale-des-titres-restaurant-renforce-le-pouvoir-d-achat-des-salaries/",
+      "title": "En Roumanie, la hausse de la valeur faciale des titres-restaurant renforce le pouvoir d'achat des salariés",
+      "publisher": "Edenred SE",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": "2025-12-05",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Communiqué officiel récent présentant le périmètre d'activité, la présence dans 44 pays, plus de 60 millions d'utilisateurs et plus de 2 millions de commerçants partenaires; il confirme également l'appartenance au CAC Next 20."
+    },
+    {
+      "id": "S10",
+      "url": "https://www.edenred.com/system/files/documents/2024-2025-fr-deu-edenred-mel.pdf.pdf",
+      "title": "Document d'enregistrement universel 2024",
+      "publisher": "Edenred SE",
+      "sourceType": "regulatory_filing",
+      "official": true,
+      "publishedAt": "2025-03-25",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "archived",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Document réglementaire officiel décrivant Edenred comme membre du CAC 40 à la date de dépôt du 25 mars 2025. Cette position historique est dépassée par la fiche de cotation actuelle, qui place Edenred dans le CAC Next 20."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Seuil d'adhésion des actionnaires au porteur",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "positions": [
+        "Les pages officielles française et anglaise actuelles exigent trente actions au porteur.",
+        "Le règlement PDF daté du 19 avril 2023 affiche « 1 actions au porteur »."
+      ],
+      "resolution": "Retenir trente actions au porteur, car les deux pages opérationnelles actuelles concordent et encadrent le formulaire d'inscription. La mention du règlement est traitée comme une coquille ou une condition obsolète, mais elle doit rester signalée.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Indice boursier de référence",
+      "sourceIds": [
+        "S07",
+        "S09",
+        "S10"
+      ],
+      "positions": [
+        "Le Document d'enregistrement universel 2024 indiquait encore une appartenance au CAC 40 en mars 2025.",
+        "La fiche de cotation actuelle et un communiqué officiel de décembre 2025 classent Edenred dans le CAC Next 20."
+      ],
+      "resolution": "Retenir CAC Next 20 au 9 juin 2026. Le manifeste interne mentionne encore CAC40 et devra être traité comme une métadonnée devenue obsolète, sans modifier ce manifeste dans le cadre de cette recherche.",
+      "impact": "wording_only"
+    }
+  ],
+  "handoff": {
+    "researchStatus": "complete_with_uncertainties",
+    "readyForDevelopment": true,
+    "benefitCount": 2,
+    "faqCount": 6,
+    "blockingIssues": [],
+    "developerNotes": [
+      "Conserver la classification shareholder_club: Edenred possède bien un E-club formel et actif, pas seulement un espace IR.",
+      "Utiliser CAC Next 20 malgré la valeur CAC40 du manifeste, car les sources officielles actuelles confirment le changement d'indice.",
+      "Le champ globalMinimumShares vaut 1 car c'est le minimum global au nominatif; le texte doit impérativement conserver le seuil distinct de trente actions au porteur.",
+      "Ne pas transformer les alertes, lettres, communiqués, l'assemblée générale, le vote, le dividende ordinaire ou le droit de vote double en bénéfices.",
+      "Ne pas créer de bénéfice à partir des « offres promotionnelles ponctuelles » tant qu'une offre précise, ses conditions, sa procédure et sa disponibilité ne sont pas publiées.",
+      "Présenter les invitations comme ponctuelles et discrétionnaires, sans promettre de place ni de fréquence.",
+      "Pour la gratuité au nominatif pur, ne reprendre aucun ancien taux de courtage; seuls les droits de garde et certains frais courants sont prouvés comme pris en charge."
+    ]
+  }
+}

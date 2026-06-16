@@ -1,0 +1,48 @@
+{
+  "slug": "hershey",
+  "name": "The Hershey Company",
+  "description": "The Hershey Company est un groupe agroalimentaire américain coté au NYSE sous le symbole HSY. Il commercialise notamment les marques Hershey's, Reese's, Kisses, Jolly Rancher et SkinnyPop, principalement dans les catégories confiserie et snacks.",
+  "sector": "Boissons & Agroalimentaire",
+  "stockIndex": "S&P 500",
+  "ticker": "HSY",
+  "website": "https://www.thehersheycompany.com",
+  "minShares": null,
+  "lastVerifiedAt": "2026-06-09",
+  "benefits": [],
+  "faqs": [
+    {
+      "question": "Hershey propose-t-elle un club ou un programme permanent pour ses actionnaires ?",
+      "answer": "Aucun club formel ni programme commercial permanent n'est identifié au 9 juin 2026. Les ressources investisseurs décrivent surtout les services de tenue de compte, tandis qu'un Q&A 2026 mentionne seulement une sample box sans conditions publiques suffisantes pour la retenir comme bénéfice actif."
+    },
+    {
+      "question": "Le catalogue Holiday Gift de Hershey est-il réservé aux actionnaires en 2026 ?",
+      "answer": "Non d'après les preuves disponibles. Hershey's Store publie un catalogue de cadeaux d'entreprise destiné aux cadeaux pour employés, clients et autres destinataires, sans condition de détention d'actions. Aucun catalogue « Holiday Gift » réservé aux actionnaires n'est publié dans les ressources investisseurs."
+    },
+    {
+      "question": "Une boîte d'échantillons a-t-elle été proposée aux actionnaires en 2026 ?",
+      "answer": "Le Q&A officiel de l'assemblée 2026 répond à une question sur la commande d'une « sample box » et renvoie vers thehersheycompany.com/asm2026. Cela prouve l'existence d'un formulaire autour de l'assemblée du 5 mai 2026, mais le formulaire est indisponible et ses critères ne sont pas publiés; aucun bénéfice actif n'est donc retenu."
+    },
+    {
+      "question": "La record date du 6 mars 2026 donnait-elle droit à la sample box Hershey ?",
+      "answer": "Ce lien n'est pas prouvé. La proxy statement fixe le 6 mars 2026 uniquement comme date de référence pour recevoir l'avis et voter à l'assemblée du 5 mai 2026. Le Q&A sur la sample box ne rattache pas l'offre à cette date, à une classe d'actions ou à un nombre minimal d'actions."
+    },
+    {
+      "question": "Quel était le prix actionnaire de la sample box ou du catalogue cadeau Hershey ?",
+      "answer": "Aucun prix actionnaire ni mention de gratuité n'a été trouvé. Le catalogue Corporate Gift officiel affiche des prix ordinaires datant de 2022, par exemple pour des boîtes et tours de chocolat, mais il s'adresse aux acheteurs en général et ne permet pas de chiffrer un avantage réservé aux actionnaires en 2026."
+    },
+    {
+      "question": "Computershare accorde-t-il un avantage commercial particulier aux actionnaires Hershey ?",
+      "answer": "Aucun avantage commercial spécifique n'est établi. Computershare est l'agent de transfert de Hershey et fournit des services de compte aux actionnaires inscrits. Ces services, ainsi que le DSPP, le DRIP et le DRS, sont des mécanismes génériques exclus de la liste des bénéfices."
+    }
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/47111/000162828026008586/hsy-20251231.htm",
+    "https://investors.thehersheycompany.com/en_us/home/investor-resources.html",
+    "https://investors.thehersheycompany.com/content/dam/hershey-corporate/documents/investors/shareholder-guide.pdf",
+    "https://www.sec.gov/Archives/edgar/data/47111/000162828026021065/hsy-20260325.htm",
+    "https://shop.hersheys.com/corporate-staging-category/",
+    "https://shop.hersheys.com/on/demandware.static/-/Sites-hersheystore-Library/default/dw20c8122b/catalogs/HERD-220811-Hershey-2022-CorporateCatalogRevisions-R5.pdf",
+    "https://www.thehersheycompany.com/asm2026",
+    "https://www.computershare.com/us"
+  ]
+}

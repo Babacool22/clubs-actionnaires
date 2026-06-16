@@ -1,0 +1,56 @@
+{
+  "slug": "berkshire-hathaway",
+  "name": "Berkshire Hathaway",
+  "description": "Berkshire Hathaway Inc. est une société holding américaine dont les filiales exercent notamment dans l'assurance, le transport ferroviaire, l'énergie, l'industrie, les services et le commerce de détail. Ses actions de classes A et B sont cotées au New York Stock Exchange.",
+  "sector": "Holding & Conglomérat",
+  "stockIndex": "S&P 500",
+  "ticker": "BRK.B",
+  "website": "https://www.berkshirehathaway.com/",
+  "minShares": null,
+  "lastVerifiedAt": "2026-06-09",
+  "benefits": [
+    {
+      "type": "reduction",
+      "title": "Réduction GEICO de 8 % au New Jersey",
+      "description": "Dans le New Jersey, le Sponsored Marketing Program de GEICO accorde aux actionnaires de Berkshire Hathaway une réduction de 8 % sur la prime automobile calculée aux tarifs ordinaires, uniquement sur les garanties admissibles. Le demandeur doit être actionnaire lors de l'application initiale de la réduction, rester actionnaire pour conserver son éligibilité et satisfaire aux critères ordinaires de souscription d'une société GEICO participant au programme. Les garanties Uninsured/Underinsured Motorists Bodily Injury, Uninsured/Underinsured Motorist Property Damage et Additional Personal Injury Protection sont exclues. En cas de perte de la qualité d'actionnaire, la police est convertie en police ordinaire au renouvellement suivant. Aucun seuil minimal, aucune classe d'actions, aucun mode ou durée de détention et aucun justificatif précis ne sont publiés; la prime et les frais prévus par la police restent dus.",
+      "value": "8 % sur les garanties admissibles d'une police automobile GEICO du New Jersey",
+      "requiredShares": null,
+      "sourceUrl": "https://www.geico.com/auto-insurance/states/nj/sponsored/"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Berkshire Hathaway dispose-t-elle d'un club d'actionnaires formel ?",
+      "answer": "Non. Les documents officiels consultés ne présentent ni club avec adhésion, ni carte de membre, ni cotisation. Berkshire organise une assemblée annuelle et des activités saisonnières, tandis que GEICO exploite au New Jersey un programme d'assurance reconnaissant spécifiquement la qualité d'actionnaire."
+    },
+    {
+      "question": "Quel bénéfice actionnaire reste actif au 9 juin 2026 ?",
+      "answer": "Le seul bénéfice actif retenu est le Sponsored Marketing Program de GEICO dans le New Jersey. Il prévoit une réduction de 8 % sur les garanties admissibles d'une police automobile pour les actionnaires de Berkshire Hathaway qui satisfont aux critères ordinaires de souscription. Aucune réduction nationale uniforme n'est officiellement établie."
+    },
+    {
+      "question": "Une action BRK.B suffit-elle pour obtenir la réduction GEICO ?",
+      "answer": "La page GEICO exige la qualité d'actionnaire de Berkshire Hathaway lors de l'application initiale de la réduction, mais elle ne publie ni nombre minimal d'actions, ni classe de titre exigée, ni durée ou mode de détention. Le seuil reste donc inconnu et ne doit pas être remplacé artificiellement par une action."
+    },
+    {
+      "question": "Comment demander et conserver la réduction GEICO au New Jersey ?",
+      "answer": "L'actionnaire doit demander un devis ou faire gérer sa police auprès de GEICO, déclarer son statut d'actionnaire et fournir le justificatif demandé, dont la forme n'est pas précisée publiquement. Il doit satisfaire aux critères de souscription et rester actionnaire; sinon, GEICO prévoit une conversion vers une police ordinaire au renouvellement suivant."
+    },
+    {
+      "question": "Quelles restrictions s'appliquent à la réduction GEICO de 8 % ?",
+      "answer": "L'offre est officiellement prouvée uniquement pour une police automobile du New Jersey souscrite auprès d'une société GEICO participant au programme. Elle exclut les garanties Uninsured/Underinsured Motorists Bodily Injury, Uninsured/Underinsured Motorist Property Damage et Additional Personal Injury Protection. La police, ses primes et ses autres frais restent dus."
+    },
+    {
+      "question": "Les offres de l'Annual Meeting 2026, l'assemblée ou le DRS sont-ils des bénéfices actifs ?",
+      "answer": "Non. La tarification NFM du 22 avril au 5 mai 2026, celle de Borsheims du 25 avril au 10 mai 2026 et la réduction Bookworm du week-end 2026 sont expirées. La participation et le vote à l'assemblée sont des droits ordinaires, tandis que le DRS et les services de l'agent de transfert relèvent de la tenue de registre; aucun de ces éléments n'est retenu comme bénéfice actif."
+    }
+  ],
+  "sources": [
+    "https://www.geico.com/auto-insurance/states/nj/sponsored/",
+    "https://www.berkshirehathaway.com/2025ar/2025ar.pdf",
+    "https://www.berkshirehathaway.com/meet01/2026proxystatement.pdf",
+    "https://www.berkshirehathaway.com/meet01/visguide2026.pdf",
+    "https://www.borsheims.com/blog/the-official-berkshire-weekend-schedule/",
+    "https://www.borsheims.com/brk",
+    "https://www.nfm.com/berkshire/"
+  ]
+}

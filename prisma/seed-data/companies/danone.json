@@ -1,0 +1,59 @@
+{
+  "slug": "danone",
+  "name": "Danone",
+  "description": "Danone est un groupe alimentaire mondial présent dans les produits laitiers et d'origine végétale, la nutrition spécialisée et les eaux. L'action ordinaire Danone est cotée sur Euronext Paris et fait partie du CAC 40.",
+  "sector": "Boissons & Agroalimentaire",
+  "stockIndex": "CAC40",
+  "ticker": "BN",
+  "website": "https://www.danone.com/",
+  "minShares": null,
+  "lastVerifiedAt": "2026-06-09",
+  "benefits": [
+    {
+      "type": "reduction",
+      "title": "Droits de garde gratuits au nominatif pur",
+      "description": "Danone indique qu'aucun droit de garde n'est demandé lorsque les actions sont inscrites au nominatif pur et administrées par Uptevia. Aucun seuil minimal ni aucune durée minimale de détention ne sont publiés. La gratuité ne couvre pas explicitement le transfert initial, la conversion ou les ordres de bourse, qui peuvent rester payants.",
+      "value": "0 € de droits de garde au nominatif pur",
+      "requiredShares": null,
+      "sourceUrl": "https://www.danone.com/fr/investisseurs/comprendre-danone/laction-danone.html"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Danone dispose-t-il d'un club ou d'un programme pour ses actionnaires individuels ?",
+      "answer": "Aucun club ni programme formel avec adhésion, règlement ou statut de membre n'est présenté dans les ressources officielles actuelles. Danone maintient une rubrique de relations actionnaires et propose la gratuité des droits de garde au nominatif pur, sans que cet avantage constitue un club."
+    },
+    {
+      "question": "Quel avantage concret est officiellement prouvé pour un actionnaire Danone ?",
+      "answer": "Le seul avantage économique retenu est l'absence de droits de garde pour les actions inscrites au nominatif pur et gérées par Uptevia. Le transfert initial et les ordres de bourse ne sont pas annoncés comme gratuits, et aucun seuil minimal d'actions n'est publié."
+    },
+    {
+      "question": "Danone verse-t-il une prime de fidélité ou un dividende majoré après deux ans au nominatif ?",
+      "answer": "Non. Les statuts à jour du 26 mai 2026 prévoient une part de bénéfices proportionnelle par action et la vocation de chaque action à une même somme nette. L'Assemblée Générale du 23 avril 2026 a approuvé un dividende unique de 2,25 euros par action. Les deux ans au nominatif concernent le droit de vote double, pas une majoration du dividende."
+    },
+    {
+      "question": "Que donne une détention de deux ans au nominatif chez Danone ?",
+      "answer": "Une action entièrement libérée, inscrite au nominatif pur ou administré au nom du même titulaire depuis au moins deux ans, bénéficie d'un droit de vote double. Ce droit statutaire de vote n'est pas compté comme un avantage commercial ou un bénéfice de programme dans cette fiche."
+    },
+    {
+      "question": "Comment passer des actions Danone au nominatif pur et quels frais peuvent subsister ?",
+      "answer": "L'actionnaire complète la demande incluse dans la brochure de convocation 2026 et la remet à son établissement financier, qui organise le transfert vers Uptevia. Danone ne facture ensuite aucun droit de garde, mais les statuts indiquent que la conversion peut s'effectuer aux frais de l'actionnaire; il faut donc vérifier les coûts auprès de la banque."
+    },
+    {
+      "question": "Les lettres, assemblées, visites d'usines et événements Danone sont-ils des avantages réservés ?",
+      "answer": "La lettre aux actionnaires est accessible publiquement et l'assemblée générale relève des droits ordinaires de l'actionnaire. Aucun programme actuel de visites d'Évian, Volvic ou d'usines laitières réservé aux actionnaires n'a été trouvé. La visite de site officielle identifiée concernait des analystes sell-side, pas un club d'actionnaires."
+    }
+  ],
+  "sources": [
+    "https://www.danone.com/fr/investisseurs/comprendre-danone/laction-danone.html",
+    "https://www.danone.com/content/dam/corp/global/danonecom/investors/fr-by-laws/2026/statutsdanone26052026.pdf",
+    "https://www.danone.com/fr/newsroom/communiques-de-presse/press-release-detail/danone-shareholders-meeting-2026.html",
+    "https://www.danone.com/fr/investisseurs/lettrr.html",
+    "https://www.danone.com/fr/investisseurs/lettrr/questions-frequentes-et-contacts.html",
+    "https://www.danone.com/content/dam/corp/global/danonecom/investors/fr-all-publications/2026/shareholders-meeting/Danonebrochuredeconvocationsetresolutions.pdf",
+    "https://www.danone.com/content/dam/corp/global/danonecom/investors/fr-shareholders-letters/2025/danonenewsletterjuillet.pdf.coredownload.pdf",
+    "https://www.danone.com/fr/investisseurs/publications-et-evenements/evenements-et-seminaires-investisseurs.html",
+    "https://www.danone.com/content/dam/corp/global/danonecom/investors/fr-all-publications/2026/registrationdocuments/deu2025.pdf",
+    "https://live.euronext.com/de/product/equities/FR0000120644-XPAR"
+  ]
+}

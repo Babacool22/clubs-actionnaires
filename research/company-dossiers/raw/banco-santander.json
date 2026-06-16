@@ -1,0 +1,943 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "banco-santander",
+    "name": "Banco Santander",
+    "description": "Banco Santander est un groupe bancaire commercial mondial fondé en Espagne, organisé autour de cinq métiers globaux et présent sur neuf marchés clés en Europe et en Amérique. Son action ordinaire, identifiée par le symbole SAN en Espagne, appartient à l'indice IBEX 35.",
+    "sector": "Banque & Finance",
+    "stockIndex": "IBEX 35",
+    "ticker": "SAN",
+    "website": "https://www.santander.com/",
+    "clubName": "Yo soy Accionista Santander",
+    "clubUrl": "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/informacion-general"
+  },
+  "offerClassification": {
+    "primaryKind": "shareholder_program",
+    "otherKinds": [
+      "shareholder_benefit",
+      "investor_relations_only"
+    ],
+    "officialProgrammeName": "Yo soy Accionista Santander",
+    "status": "active",
+    "statusReason": "Au 9 juin 2026, Santander maintient un programme officiel nommé « Yo soy Accionista Santander », avec un espace privé, des avantages financiers et des promotions réservées. Il s'agit d'un programme actionnaire et non d'un club formel assorti d'une adhésion unique ou d'un règlement général public.",
+    "sourceIds": [
+      "S04",
+      "S05",
+      "S11",
+      "S12"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": null,
+    "eligibleShareClasses": [
+      "Action ordinaire Banco Santander, S.A. (ISIN ES0113900J37)"
+    ],
+    "holdingModes": [
+      "broker_account",
+      "unspecified"
+    ],
+    "minimumHoldingPeriod": null,
+    "residencyRestrictions": [
+      "La page générale des promotions vise les titulaires d'actions Santander en Espagne.",
+      "Les offres Paradores, Golf Santander, ASISA et Consorcio sont commercialisées principalement en Espagne; aucune ouverture mondiale n'est publiée pour ces promotions."
+    ],
+    "accountRestrictions": [
+      "L'assurance accidents ne mentionne pas l'obligation d'être client de Banco Santander.",
+      "Les exonérations de commissions sur titres nécessitent que les actions Santander soient déposées chez Banco Santander.",
+      "L'exonération de maintenance de la Cuenta Santander nécessite au moins 1 000 actions déposées chez Banco Santander et une Cuenta Santander associée au compte de titres.",
+      "La Cuenta de Reinversión del Dividendo nécessite que les actions Santander soient déposées chez Banco Santander.",
+      "La promotion ASISA impose la domiciliation des cotisations dans une agence Santander."
+    ],
+    "proofRequired": [
+      "Qualité d'actionnaire Banco Santander; les pages publiques ne précisent pas le justificatif accepté par l'espace privé pour un non-client.",
+      "Pour les avantages liés aux comptes et aux titres, la détention est vérifiée par les actions déposées sur un compte de titres Banco Santander.",
+      "L'accès aux codes ou modalités privées des promotions passe par l'Área en Acción avec des identifiants de client ou de non-client."
+    ],
+    "fees": {
+      "membershipFee": null,
+      "applicationFee": null,
+      "otherFees": [
+        "Les achats d'actions restent soumis à une commission d'intermédiation réduite et aux autres coûts de marché applicables.",
+        "La Cuenta Santander peut coûter jusqu'à 20 euros par mois si aucune condition d'exonération ou de réduction n'est remplie.",
+        "La promotion ASISA reste un contrat d'assurance santé payant, avec une prime dépendant notamment de l'âge.",
+        "Les promotions commerciales impliquent le paiement du produit ou du service après application de la remise."
+      ],
+      "notes": "Aucune cotisation distincte au programme n'est publiée. La gratuité concerne certains avantages précis, notamment l'assurance accidents et plusieurs commissions, et non l'ensemble des produits bancaires ou partenaires."
+    },
+    "sourceIds": [
+      "S05",
+      "S06",
+      "S07",
+      "S08",
+      "S09",
+      "S10",
+      "S12",
+      "S15"
+    ]
+  },
+  "enrollment": {
+    "required": false,
+    "method": "unknown",
+    "applicationUrl": "https://areaenaccion.santander.com/",
+    "contact": "Línea Personal al Accionista: +34 91 276 92 90; agences Banco Santander",
+    "steps": [
+      "Détenir des actions ordinaires Banco Santander selon les conditions propres à l'avantage visé.",
+      "Pour une promotion, ouvrir l'Área en Acción et s'authentifier comme client Santander ou comme non-client avec des identifiants dédiés.",
+      "Récupérer dans l'espace privé le code, le lien ou les instructions de la promotion choisie.",
+      "Pour les avantages financiers, déposer les actions chez Banco Santander et, selon le cas, ouvrir la Cuenta Santander ou la Cuenta de Reinversión del Dividendo.",
+      "Pour l'assurance accidents, contacter la Línea Personal al Accionista ou une agence si une attestation de couverture ou les conditions de police sont nécessaires."
+    ],
+    "processingTime": null,
+    "renewal": "Aucun renouvellement général du programme n'est publié. Les promotions ont leurs propres dates de validité et les avantages bancaires restent conditionnés au maintien des comptes et des actions requises.",
+    "deadlines": [
+      "Promotion Paradores valable jusqu'au 29 décembre 2026.",
+      "Promotion ASISA valable jusqu'au 31 décembre 2026."
+    ],
+    "sourceIds": [
+      "S04",
+      "S05",
+      "S06",
+      "S10",
+      "S12",
+      "S13",
+      "S15"
+    ]
+  },
+  "benefits": [
+    {
+      "id": "B01",
+      "type": "service",
+      "title": "Assurance individuelle accidents gratuite",
+      "description": "Santander indique qu'une assurance individuelle accidents gratuite couvre les personnes physiques âgées de plus de 14 ans ayant la qualité d'actionnaire. En cas de copropriété des actions, chaque cotitulaire est assuré en proportion de sa quote-part.",
+      "value": "Gratuite; capital assuré et barème non publiés sur la page actuelle",
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "Mode de détention non précisé; qualité d'actionnaire requise"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "guaranteed",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Aucune souscription distincte n'est décrite sur la page publique.",
+        "Contacter la Línea Personal al Accionista au +34 91 276 92 90 ou une agence Banco Santander pour obtenir les conditions détaillées ou une confirmation de couverture."
+      ],
+      "limitsAndExclusions": [
+        "Réservée aux personnes physiques âgées de plus de 14 ans.",
+        "Pour des actions en copropriété, la couverture est répartie selon les quotes-parts.",
+        "La page publique ne publie ni capital assuré, ni risques couverts, ni exclusions de police, ni portée territoriale.",
+        "La hausse de couverture selon le nombre d'actions, présente dans les données historiques du projet, n'est pas confirmée par une source officielle actuelle."
+      ],
+      "primarySourceId": "S06",
+      "supportingSourceIds": [
+        "S04"
+      ],
+      "sourceUrl": "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/ventajas-financieras/seguro-accidentes-gratuito",
+      "evidenceGrade": "B",
+      "uncertainty": "La page officielle actuelle est non datée et ne donne pas les conditions contractuelles complètes ni le montant de couverture."
+    },
+    {
+      "id": "B02",
+      "type": "reduction",
+      "title": "Exonérations et réduction de commissions sur l'action Santander",
+      "description": "Lorsque les actions Santander sont déposées chez Banco Santander, la banque exonère les commissions d'administration et de garde, d'encaissement des dividendes, d'opérations sur capital et de certaines transmissions. Les achats numériques d'actions Santander bénéficient aussi d'une commission réduite pouvant atteindre 40 %.",
+      "value": "Commissions de garde et opérations listées à 0 €; jusqu'à 40 % de réduction sur la commission d'achat numérique",
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "Actions Santander déposées sur un compte de titres Banco Santander"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "guaranteed",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Déposer ou transférer les actions Santander chez Banco Santander.",
+        "Pour acheter avec le barème réduit, passer l'ordre sur les canaux numériques de Banco Santander."
+      ],
+      "limitsAndExclusions": [
+        "L'exonération vise uniquement les commissions énumérées et liées à l'action Santander.",
+        "La réduction d'achat concerne les ordres numériques sur actions Santander.",
+        "Barème publié: 1,80 € jusqu'à 2 000 €, 3,60 € de 2 000,01 € à 15 000 €, puis 0,15 % au-delà de 15 000,01 €.",
+        "Les autres coûts, taxes, frais de marché ou commissions non listés ne sont pas déclarés gratuits."
+      ],
+      "primarySourceId": "S07",
+      "supportingSourceIds": [
+        "S11"
+      ],
+      "sourceUrl": "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/ventajas-financieras/exencion-comisiones",
+      "evidenceGrade": "B",
+      "uncertainty": "Aucun seuil minimal d'actions ni date de fin ne sont publiés sur la page officielle."
+    },
+    {
+      "id": "B03",
+      "type": "reduction",
+      "title": "Exonération de maintenance de la Cuenta Santander",
+      "description": "La Cuenta Santander associée au compte de titres est exonérée de commission de maintenance lorsqu'au moins un titulaire conserve chez Banco Santander au moins 1 000 actions Santander à son nom. Les actions détenues séparément par plusieurs cotitulaires ne sont pas additionnées.",
+      "value": "0 € par mois au lieu de la commission standard pouvant atteindre 20 € par mois",
+      "requiredShares": 1000,
+      "requiredHoldingModes": [
+        "Actions Santander déposées chez Banco Santander",
+        "Cuenta Santander utilisée comme compte de paiement associé au compte de titres"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "guaranteed",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Ouvrir ou conserver une Cuenta Santander et un compte de titres chez Banco Santander.",
+        "Associer la Cuenta Santander comme compte de paiement du compte de titres.",
+        "Maintenir au moins 1 000 actions Santander au nom d'au moins un titulaire."
+      ],
+      "limitsAndExclusions": [
+        "Le seuil officiel détaillé est de 1 000 actions ou plus, malgré la formulation abrégée « plus de 1 000 » sur la page commerciale.",
+        "Les actions de plusieurs cotitulaires ne sont pas cumulées pour atteindre le seuil.",
+        "L'exonération liée aux actions s'applique à la Cuenta Santander associée au compte de titres, pas automatiquement à tous les autres comptes.",
+        "La Cuenta Santander est non rémunérée."
+      ],
+      "primarySourceId": "S09",
+      "supportingSourceIds": [
+        "S08"
+      ],
+      "sourceUrl": "https://www.santander.com/content/dam/santander-com/es/contenido-paginas/accionistas-e-inversores/yo-soy-accionista/ventajas-financieras/doc-ysa-detalles-de-la-cuenta-santander.pdf",
+      "evidenceGrade": "B",
+      "uncertainty": "Le document détaillé n'affiche pas de date de prise d'effet ou de fin dans le texte accessible."
+    },
+    {
+      "id": "B04",
+      "type": "service",
+      "title": "Compte rémunéré de réinvestissement des dividendes",
+      "description": "La Cuenta de Reinversión del Dividendo reçoit la part choisie des dividendes Santander et l'investit automatiquement en actions Santander. Le solde est rémunéré à 10 % TIN, soit 10,25 % TAE dans l'exemple officiel, et l'achat automatique est exonéré de frais et commissions.",
+      "value": "TIN 10,00 %, TAE 10,25 %, commission de maintenance à 0 € et réinvestissement sans frais",
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "Actions Santander déposées sur un compte de titres Banco Santander"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "guaranteed",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Déposer les actions Santander chez Banco Santander.",
+        "Souscrire la Cuenta de Reinversión del Dividendo en ligne ou dans une agence.",
+        "Choisir le pourcentage de dividende à affecter au réinvestissement."
+      ],
+      "limitsAndExclusions": [
+        "Le solde du compte est exclusivement destiné à l'achat d'actions Santander.",
+        "L'achat automatique intervient le onzième jour de bourse suivant le paiement du dividende selon la méthode de prix décrite par Santander.",
+        "Le taux annuel effectif publié repose sur un exemple et le montant d'intérêts dépend du solde temporairement présent sur le compte.",
+        "Le dividende ordinaire lui-même n'est pas compté comme avantage."
+      ],
+      "primarySourceId": "S10",
+      "supportingSourceIds": [
+        "S11"
+      ],
+      "sourceUrl": "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/ventajas-financieras/cuenta-de-reinversion-del-dividendo",
+      "evidenceGrade": "B",
+      "uncertainty": "La page ne publie pas de date de fin ni de seuil minimal d'actions; le rendement effectif dépend du calendrier et du montant des dividendes versés."
+    },
+    {
+      "id": "B05",
+      "type": "reduction",
+      "title": "Remise de 15 % chez Paradores",
+      "description": "Les actionnaires Santander peuvent obtenir une remise de 15 % sur la « Tarifa Parador » en utilisant le code promotionnel fourni dans l'espace privé. L'offre officielle est annoncée comme valable jusqu'au 29 décembre 2026.",
+      "value": "15 % sur la Tarifa Parador",
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "Titulaire d'actions Santander en Espagne; accès à l'Área en Acción"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "seasonal",
+      "validFrom": null,
+      "validUntil": "2026-12-29",
+      "requestDeadline": "2026-12-29",
+      "procedure": [
+        "Se connecter à l'Área en Acción depuis le bouton de la promotion.",
+        "Récupérer le code promotionnel.",
+        "Indiquer ce code lors de la réservation au tarif éligible."
+      ],
+      "limitsAndExclusions": [
+        "La remise porte sur la « Tarifa Parador » et non sur tous les tarifs.",
+        "Un code promotionnel est indispensable.",
+        "L'offre concerne le réseau Paradores en Espagne; les autres exclusions ne sont pas détaillées sur la page publique."
+      ],
+      "primarySourceId": "S13",
+      "supportingSourceIds": [
+        "S05",
+        "S12"
+      ],
+      "sourceUrl": "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/promociones/paradores",
+      "evidenceGrade": "A",
+      "uncertainty": "Les conditions complètes de réservation sont accessibles après authentification ou auprès du partenaire et ne figurent pas toutes sur la page publique."
+    },
+    {
+      "id": "B06",
+      "type": "reduction",
+      "title": "Tarifs actionnaires au Golf Santander",
+      "description": "Le Golf Santander de Boadilla del Monte publie des green-fees réduits pour les titulaires d'actions Santander en Espagne et pour leurs accompagnants jouant dans la même partie. La page annonce une réduction pouvant atteindre 69 %.",
+      "value": "Jusqu'à 69 %; tarifs web publiés de 55 € ou 81 € pour l'actionnaire selon le jour et l'heure",
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "Titulaire d'actions Santander en Espagne; accès à l'Área en Acción"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "unknown",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Accéder à la promotion depuis l'Área en Acción.",
+        "Réserver sur le site du Golf Santander ou auprès de la réception aux numéros publiés.",
+        "Jouer avec les accompagnants dans la même partie pour qu'ils bénéficient du tarif associé."
+      ],
+      "limitsAndExclusions": [
+        "Offre valable au Golf Santander à Boadilla del Monte, Madrid.",
+        "Les tarifs varient selon le canal de réservation, le jour et l'heure.",
+        "Les accompagnants doivent jouer dans la même partie.",
+        "Aucune date de fin n'est affichée sur la page publique."
+      ],
+      "primarySourceId": "S14",
+      "supportingSourceIds": [
+        "S05",
+        "S12"
+      ],
+      "sourceUrl": "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/promociones/golf-santander",
+      "evidenceGrade": "B",
+      "uncertainty": "L'absence de date de fin impose de revérifier le tarif au moment de la réservation."
+    },
+    {
+      "id": "B07",
+      "type": "reduction",
+      "title": "Tarifs spéciaux sur l'assurance santé ASISA",
+      "description": "ASISA propose aux actionnaires Santander et à leurs bénéficiaires familiaux des primes spéciales selon l'âge, sans frais de gestion et avec suppression de délais de carence sous réserve d'exceptions. La promotion est annoncée jusqu'au 31 décembre 2026.",
+      "value": "Tarifs spéciaux selon l'âge; frais de gestion supprimés",
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "Qualité d'actionnaire Santander",
+        "Domiciliation des cotisations dans une agence Santander"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "seasonal",
+      "validFrom": null,
+      "validUntil": "2026-12-31",
+      "requestDeadline": "2026-12-31",
+      "procedure": [
+        "Accéder à la promotion depuis l'Área en Acción.",
+        "Demander le tarif correspondant à l'âge de chaque assuré.",
+        "Souscrire la police et domicilier le paiement des cotisations dans une agence Santander."
+      ],
+      "limitsAndExclusions": [
+        "La police reste payante et la prime varie selon l'âge.",
+        "Les bénéficiaires admis sont le conjoint, les enfants, les parents et les frères ou sœurs; ils peuvent souscrire sans que l'actionnaire soit lui-même assuré.",
+        "La suppression des délais de carence comporte des exceptions à consulter.",
+        "Le réseau médical principal est national espagnol; l'assistance d'urgence à l'étranger est plafonnée à 14 000 € par assuré et par voyage."
+      ],
+      "primarySourceId": "S15",
+      "supportingSourceIds": [
+        "S05",
+        "S12"
+      ],
+      "sourceUrl": "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/promociones/seguros-asisa",
+      "evidenceGrade": "A",
+      "uncertainty": "La page ne publie pas le tableau des primes et renvoie à une consultation selon l'âge."
+    },
+    {
+      "id": "B08",
+      "type": "reduction",
+      "title": "Remise de 10 % chez Consorcio",
+      "description": "Les actionnaires Santander disposent d'une remise de 10 % sur la boutique en ligne Consorcio consacrée aux conserves et produits gourmets. La page officielle annonce également la gratuité des frais d'envoi, avec une formulation territoriale contradictoire entre péninsule Ibérique et toute l'Espagne.",
+      "value": "10 % de remise et frais d'envoi gratuits selon la zone éligible",
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "Titulaire d'actions Santander en Espagne; accès à l'Área en Acción"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "unknown",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Se connecter à l'Área en Acción depuis le bouton de la promotion.",
+        "Récupérer le lien ou code réservé aux actionnaires.",
+        "Passer commande sur tiendaconsorcio.com."
+      ],
+      "limitsAndExclusions": [
+        "La remise s'applique à la boutique en ligne Consorcio.",
+        "La page mentionne à la fois la péninsule Ibérique et toute l'Espagne pour les frais d'envoi; l'éligibilité des îles doit être confirmée.",
+        "Aucune date de fin n'est affichée sur la page publique.",
+        "L'offre dépend de la disponibilité des produits et des conditions du partenaire."
+      ],
+      "primarySourceId": "S16",
+      "supportingSourceIds": [
+        "S05",
+        "S12"
+      ],
+      "sourceUrl": "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/promociones/consorcio",
+      "evidenceGrade": "B",
+      "uncertainty": "La portée exacte de la livraison gratuite et la date de fin ne sont pas clairement établies."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Yo soy Accionista Santander est-il un club et existe-t-il un seuil global d'adhésion ?",
+      "answer": "Il s'agit d'un programme officiel d'avantages et d'information, pas d'un club formel avec cotisation et règlement général public. Santander exige la qualité d'actionnaire, mais les pages actuelles ne publient pas un seuil global explicite d'une action. Le seuil doit donc rester inconnu au niveau du programme et être indiqué séparément pour chaque avantage.",
+      "sourceIds": [
+        "S04",
+        "S05",
+        "S11"
+      ]
+    },
+    {
+      "question": "Un actionnaire dont les titres sont chez un autre courtier peut-il profiter des avantages ?",
+      "answer": "Certains avantages ne requièrent pas publiquement un compte Santander, notamment l'assurance accidents. En revanche, les exonérations sur titres, la Cuenta de Reinversión et l'exonération de maintenance de la Cuenta Santander imposent le dépôt des actions chez Banco Santander. Les promotions visent les titulaires d'actions Santander en Espagne et passent par l'Área en Acción, qui prévoit un accès client et non-client.",
+      "sourceIds": [
+        "S05",
+        "S06",
+        "S07",
+        "S09",
+        "S10",
+        "S12"
+      ]
+    },
+    {
+      "question": "Que couvre exactement l'assurance accidents gratuite de Santander ?",
+      "answer": "La page officielle confirme la gratuité pour les personnes physiques actionnaires âgées de plus de 14 ans et précise la répartition proportionnelle entre cotitulaires. Elle ne publie toutefois ni capital assuré, ni barème selon le nombre d'actions, ni exclusions, ni territoire de couverture. Ces détails doivent être demandés à la Línea Personal al Accionista ou en agence.",
+      "sourceIds": [
+        "S06"
+      ]
+    },
+    {
+      "question": "Combien d'actions faut-il détenir pour obtenir les exonérations de commissions ?",
+      "answer": "Aucun nombre minimal n'est publié pour l'exonération des commissions de garde et des opérations listées, mais les actions doivent être déposées chez Banco Santander. Pour supprimer la commission de maintenance de la Cuenta Santander associée au compte de titres, les conditions détaillées exigent au moins 1 000 actions détenues par un même titulaire; les actions de plusieurs cotitulaires ne se cumulent pas.",
+      "sourceIds": [
+        "S07",
+        "S08",
+        "S09",
+        "S11"
+      ]
+    },
+    {
+      "question": "Quelles promotions commerciales sont encore prouvées au 9 juin 2026 ?",
+      "answer": "Les sources officielles actuelles prouvent notamment 15 % chez Paradores jusqu'au 29 décembre 2026, des tarifs ASISA jusqu'au 31 décembre 2026, des tarifs actionnaires au Golf Santander et 10 % chez Consorcio. Apple, Samsung, le Museo del Prado et Santander Renting figurent aussi dans le catalogue, mais les huit avantages retenus privilégient ceux dont la valeur et les conditions publiques sont les plus précises.",
+      "sourceIds": [
+        "S05",
+        "S13",
+        "S14",
+        "S15",
+        "S16"
+      ]
+    },
+    {
+      "question": "Le dividende et les services bancaires ordinaires sont-ils comptés comme avantages actionnaire ?",
+      "answer": "Le dividende ordinaire, le vote, l'assemblée et les publications financières sont exclus. Les fonctions générales de la Cuenta Santander ne sont pas retenues non plus. La Cuenta de Reinversión est conservée uniquement parce qu'elle offre des conditions économiques spécifiques et prouvées aux actionnaires: rémunération de 10 % TIN, absence de frais et réinvestissement automatique sans commission.",
+      "sourceIds": [
+        "S08",
+        "S10",
+        "S11"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "Banco Santander est un groupe bancaire mondial présent sur neuf marchés clés et son action SAN appartient à l'IBEX 35.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "notes": "La présence dans l'IBEX 35 est datée du 31 mars 2026 sur la page officielle des indices."
+    },
+    {
+      "id": "C02",
+      "statement": "Yo soy Accionista Santander est un programme actionnaire actif proposant des avantages financiers et des promotions.",
+      "status": "verified",
+      "sourceIds": [
+        "S04",
+        "S05",
+        "S11"
+      ],
+      "notes": "Aucun règlement général de club ou formulaire unique d'adhésion n'a été trouvé."
+    },
+    {
+      "id": "C03",
+      "statement": "Les pages officielles actuelles ne publient pas de seuil global explicite d'une action pour rejoindre le programme.",
+      "status": "verified",
+      "sourceIds": [
+        "S04",
+        "S05",
+        "S11"
+      ],
+      "notes": "Les sources utilisent la qualité d'actionnaire sans chiffrer un minimum global; les seuils propres aux produits restent séparés."
+    },
+    {
+      "id": "C04",
+      "statement": "Une assurance individuelle accidents gratuite couvre les personnes physiques actionnaires âgées de plus de 14 ans.",
+      "status": "verified",
+      "sourceIds": [
+        "S06"
+      ],
+      "notes": "Le montant de couverture et les conditions contractuelles complètes ne sont pas publiés."
+    },
+    {
+      "id": "C05",
+      "statement": "Le dépôt des actions Santander chez Banco Santander ouvre droit aux exonérations de commissions listées et à une réduction pouvant atteindre 40 % sur les achats numériques.",
+      "status": "verified",
+      "sourceIds": [
+        "S07",
+        "S11"
+      ],
+      "notes": "Les autres frais et coûts liés à l'investissement ne sont pas déclarés gratuits."
+    },
+    {
+      "id": "C06",
+      "statement": "L'exonération de maintenance de la Cuenta Santander associée au compte de titres exige au moins 1 000 actions détenues par un même titulaire.",
+      "status": "verified",
+      "sourceIds": [
+        "S08",
+        "S09"
+      ],
+      "notes": "Les conditions détaillées prévalent sur la formulation commerciale « plus de 1 000 actions »."
+    },
+    {
+      "id": "C07",
+      "statement": "La Cuenta de Reinversión del Dividendo est rémunérée à 10 % TIN et permet le réinvestissement automatique sans frais ni commissions.",
+      "status": "verified",
+      "sourceIds": [
+        "S10",
+        "S11"
+      ],
+      "notes": "Les actions doivent être déposées chez Banco Santander et le solde sert exclusivement à acheter des actions Santander."
+    },
+    {
+      "id": "C08",
+      "statement": "Le catalogue actuel contient des promotions réservées aux titulaires d'actions Santander en Espagne, avec des dates et restrictions propres à chaque partenaire.",
+      "status": "verified",
+      "sourceIds": [
+        "S05",
+        "S13",
+        "S14",
+        "S15",
+        "S16"
+      ],
+      "notes": "L'accès aux codes et modalités détaillées passe généralement par l'Área en Acción."
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "Le programme Yo soy Accionista Santander est officiellement accessible dès une seule action.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S04",
+        "S05",
+        "S11"
+      ]
+    },
+    {
+      "claim": "Le capital de l'assurance accidents augmente actuellement selon le nombre d'actions détenues.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S06"
+      ]
+    },
+    {
+      "claim": "Les actionnaires Santander bénéficient encore d'une économie allant jusqu'à quatre centimes par litre de carburant.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S05"
+      ]
+    },
+    {
+      "claim": "Le dividende ordinaire et les rachats d'actions constituent des avantages du programme à ajouter à la fiche.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S11"
+      ]
+    },
+    {
+      "claim": "Le vote, l'assemblée générale et les rapports financiers publics sont des bénéfices de Yo soy Accionista.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S04"
+      ]
+    },
+    {
+      "claim": "Santander Open Academy et Santander X sont des avantages réservés aux actionnaires.",
+      "reason": "not_shareholder_specific",
+      "sourceIds": [
+        "S04",
+        "S05"
+      ]
+    },
+    {
+      "claim": "Les services généraux de la Cuenta Santander sont tous des bénéfices actionnaire.",
+      "reason": "not_shareholder_specific",
+      "sourceIds": [
+        "S08"
+      ]
+    },
+    {
+      "claim": "Une attestation de courtier suffit officiellement pour activer l'ensemble des avantages d'un non-client.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S12"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.santander.com/es/sobre-nosotros/principales-datos",
+      "title": "Principales datos",
+      "publisher": "Banco Santander",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "La page décrit Santander comme une banque commerciale mondiale organisée en cinq métiers et présente dans neuf marchés clés; les principaux chiffres sont indiqués pour mars 2026."
+    },
+    {
+      "id": "S02",
+      "url": "https://www.santander.com/es/accionistas-e-inversores/accion-santander/presencia-en-los-indices",
+      "title": "Presencia en los índices",
+      "publisher": "Banco Santander",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2026-03-31",
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "La page confirme la présence de Banco Santander dans l'IBEX 35 avec un poids de 16,11 % au 31 mars 2026, ainsi que dans plusieurs indices bancaires européens."
+    },
+    {
+      "id": "S03",
+      "url": "https://www.santander.com/es/accionistas-e-inversores/accion-santander/cotizacion",
+      "title": "Cotización",
+      "publisher": "Banco Santander",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La page indique que l'action Santander utilise le symbole SAN et est négociée en Espagne, aux États-Unis sous forme d'ADR, au Royaume-Uni sous forme de CDI, au Mexique et en Pologne."
+    },
+    {
+      "id": "S04",
+      "url": "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/informacion-general",
+      "title": "Yo soy Accionista Santander",
+      "publisher": "Banco Santander",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La page centrale présente le programme, l'accès à l'espace privé, les promotions et les avantages financiers. Elle ne publie pas de seuil global d'actions ni de procédure unique d'adhésion."
+    },
+    {
+      "id": "S05",
+      "url": "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/promociones",
+      "title": "Promociones y ofertas para accionistas",
+      "publisher": "Banco Santander",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Le catalogue vise les titulaires d'actions Santander en Espagne et liste les promotions actuelles, dont Paradores, Golf Santander, Apple, Samsung, Museo del Prado, ASISA, Consorcio et Santander Renting."
+    },
+    {
+      "id": "S06",
+      "url": "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/ventajas-financieras/seguro-accidentes-gratuito",
+      "title": "Seguro de Accidentes Gratuito",
+      "publisher": "Banco Santander",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "undated",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La page confirme une assurance individuelle accidents gratuite pour les personnes physiques actionnaires âgées de plus de 14 ans et traite le cas des actions détenues en copropriété, sans publier le capital ni les exclusions."
+    },
+    {
+      "id": "S07",
+      "url": "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/ventajas-financieras/exencion-comisiones",
+      "title": "Exención de comisiones",
+      "publisher": "Banco Santander",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La page détaille les commissions supprimées lorsque les actions Santander sont déposées chez Banco Santander et publie une réduction pouvant atteindre 40 % sur les commissions d'achat par canaux numériques."
+    },
+    {
+      "id": "S08",
+      "url": "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/ventajas-financieras/cuenta-santander-nuevo",
+      "title": "Cuenta Santander",
+      "publisher": "Banco Santander",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La page commerciale annonce l'absence de commission de maintenance pour les actionnaires ayant « plus de 1 000 » actions déposées chez Santander et renvoie au PDF de conditions détaillées."
+    },
+    {
+      "id": "S09",
+      "url": "https://www.santander.com/content/dam/santander-com/es/contenido-paginas/accionistas-e-inversores/yo-soy-accionista/ventajas-financieras/doc-ysa-detalles-de-la-cuenta-santander.pdf",
+      "title": "Resumen condiciones Cuenta Santander",
+      "publisher": "Banco Santander",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "undated",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Les conditions détaillées fixent le seuil à 1 000 actions ou plus, exigent leur dépôt chez Banco Santander et précisent que les actions de plusieurs titulaires ne se cumulent pas. Elles indiquent aussi les commissions standard de 10 ou 20 euros par mois."
+    },
+    {
+      "id": "S10",
+      "url": "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/ventajas-financieras/cuenta-de-reinversion-del-dividendo",
+      "title": "Cuenta de Reinversión del Dividendo",
+      "publisher": "Banco Santander",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La page publie un taux de 10 % TIN et 10,25 % TAE dans l'exemple, l'absence de frais et commissions, l'achat automatique et l'obligation de déposer les actions Santander chez Banco Santander."
+    },
+    {
+      "id": "S11",
+      "url": "https://www.bancosantander.es/particulares/ahorro-inversion/bolsa-inversion/accionistas-santander",
+      "title": "Accionistas Santander",
+      "publisher": "Banco Santander España",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2026-03-31",
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "La page destinée aux particuliers, actualisée avec des données au 31 mars 2026, récapitule les exonérations sur titres, le barème d'achat réduit, la Cuenta de Reinversión rémunérée et l'accès aux promotions."
+    },
+    {
+      "id": "S12",
+      "url": "https://areaenaccion.santander.com/",
+      "title": "Área en Acción",
+      "publisher": "Banco Santander",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Le portail privé propose un accès distinct pour les clients Santander et les non-clients. Les pages de promotion y renvoient pour obtenir les codes ou modalités, mais le justificatif d'actionnariat accepté n'est pas publié avant authentification."
+    },
+    {
+      "id": "S13",
+      "url": "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/promociones/paradores",
+      "title": "Paradores",
+      "publisher": "Banco Santander",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "La page annonce une remise de 15 % sur la Tarifa Parador, impose l'utilisation d'un code promotionnel et fixe la validité au 29 décembre 2026."
+    },
+    {
+      "id": "S14",
+      "url": "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/promociones/golf-santander",
+      "title": "Golf Santander",
+      "publisher": "Banco Santander",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "undated",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La page publie des tarifs actionnaires et accompagnants, une réduction allant jusqu'à 69 %, les canaux de réservation et la condition que les accompagnants jouent dans la même partie."
+    },
+    {
+      "id": "S15",
+      "url": "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/promociones/seguros-asisa",
+      "title": "Seguros ASISA",
+      "publisher": "Banco Santander",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "La page fixe l'échéance au 31 décembre 2026 et décrit les bénéficiaires familiaux, la domiciliation obligatoire des cotisations chez Santander, les primes spéciales, les frais de gestion supprimés et les principales limites."
+    },
+    {
+      "id": "S16",
+      "url": "https://www.santander.com/es/accionistas-e-inversores/yo-soy-accionista/promociones/consorcio",
+      "title": "Consorcio",
+      "publisher": "Banco Santander",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "undated",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Le titre de page annonce 15 %, tandis que le corps actuel indique 10 % de remise sur tiendaconsorcio.com. La livraison gratuite utilise aussi deux portées territoriales différentes et aucune date de fin n'est publiée."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Seuil global d'une action",
+      "sourceIds": [
+        "S04",
+        "S05",
+        "S11"
+      ],
+      "positions": [
+        "Les données historiques du projet affirment que l'inscription à Yo soy Accionista est ouverte dès une action.",
+        "Les pages officielles actuelles exigent la qualité d'actionnaire mais ne publient aucun seuil global chiffré."
+      ],
+      "resolution": "Conserver globalMinimumShares à null. Ne pas déduire un seuil d'une action de la seule expression « être actionnaire ».",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Seuil de la Cuenta Santander",
+      "sourceIds": [
+        "S08",
+        "S09"
+      ],
+      "positions": [
+        "La page commerciale emploie la formulation « plus de 1 000 actions ».",
+        "Les conditions détaillées exigent un nombre d'actions égal ou supérieur à 1 000."
+      ],
+      "resolution": "Retenir 1 000 actions, car le document détaillé constitue la source contractuelle la plus précise et explique les règles de titularité et de cumul.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Barème de l'assurance accidents",
+      "sourceIds": [
+        "S06"
+      ],
+      "positions": [
+        "Les données historiques du projet indiquent que la couverture augmente avec le nombre d'actions.",
+        "La page officielle actuelle confirme seulement la gratuité et l'éligibilité, sans publier de paliers ni de capital assuré."
+      ],
+      "resolution": "Conserver l'assurance comme avantage, mais exclure toute affirmation sur un barème croissant ou un montant de couverture.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Remise sur le carburant",
+      "sourceIds": [
+        "S05"
+      ],
+      "positions": [
+        "Les données historiques du projet annoncent jusqu'à quatre centimes d'euro par litre de carburant.",
+        "Le catalogue officiel actuel ne liste aucune promotion carburant et aucune condition active correspondante n'a été trouvée."
+      ],
+      "resolution": "Exclure la remise carburant du dossier final faute de preuve officielle actuelle.",
+      "impact": "benefit_excluded"
+    },
+    {
+      "topic": "Portée géographique du programme et des promotions",
+      "sourceIds": [
+        "S04",
+        "S05",
+        "S06",
+        "S12"
+      ],
+      "positions": [
+        "La page générale et l'assurance utilisent une formulation large visant les actionnaires Santander.",
+        "La page des promotions vise expressément les titulaires d'actions Santander en Espagne et les offres retenues sont organisées sur le marché espagnol."
+      ],
+      "resolution": "Présenter le programme comme actif, mais limiter les promotions commerciales à leur portée espagnole publiée. Ne pas affirmer que toutes les offres sont accessibles depuis un compte-titres ou une résidence étrangère.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Territoire de livraison gratuite Consorcio",
+      "sourceIds": [
+        "S16"
+      ],
+      "positions": [
+        "Le résumé de l'offre indique des frais d'envoi gratuits vers la péninsule Ibérique.",
+        "Le texte inférieur de la même page annonce des ports gratuits dans toute l'Espagne."
+      ],
+      "resolution": "Retenir prudemment la gratuité pour la péninsule et demander confirmation au partenaire pour les îles ou autres territoires espagnols.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Taux de remise Consorcio",
+      "sourceIds": [
+        "S16"
+      ],
+      "positions": [
+        "Le titre de la page officielle annonce 15 % de remise.",
+        "Le corps actuel de la même page annonce 10 % de remise."
+      ],
+      "resolution": "Retenir 10 %, valeur affichée dans le contenu détaillé de l'offre, et signaler la contradiction du titre.",
+      "impact": "wording_only"
+    }
+  ],
+  "handoff": {
+    "researchStatus": "complete_with_uncertainties",
+    "readyForDevelopment": true,
+    "benefitCount": 8,
+    "faqCount": 6,
+    "blockingIssues": [],
+    "developerNotes": [
+      "Présenter Yo soy Accionista Santander comme un programme actionnaire, pas comme un club formel, même si le champ technique clubName contient son nom officiel.",
+      "Conserver minShares à null: aucun seuil global d'une action n'est explicitement publié.",
+      "Distinguer les seuils: aucun seuil publié pour l'assurance ou les promotions, dépôt chez Santander pour plusieurs avantages financiers, et 1 000 actions pour la maintenance gratuite de la Cuenta Santander.",
+      "Ne pas réintroduire un barème d'assurance dépendant du nombre d'actions, la remise carburant de quatre centimes par litre ou l'attestation de courtier comme procédure prouvée.",
+      "Ne pas transformer le dividende, le vote, l'assemblée, les rapports publics, Santander Open Academy, Santander X ou les fonctions bancaires générales en bénéfices.",
+      "Conserver les dates absolues des promotions Paradores et ASISA et signaler que Golf Santander et Consorcio n'affichent pas de date de fin.",
+      "Apple, Samsung, Museo del Prado et Santander Renting apparaissent aussi dans le catalogue actuel, mais ne sont pas ajoutés afin de respecter la limite de huit bénéfices et de privilégier les offres aux conditions publiques les plus précises.",
+      "Maintenir les restrictions espagnoles et les exigences de compte ou de domiciliation dans les descriptions finales."
+    ]
+  }
+}

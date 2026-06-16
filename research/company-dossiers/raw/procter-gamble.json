@@ -1,0 +1,471 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "procter-gamble",
+    "name": "Procter & Gamble",
+    "description": "Procter & Gamble est un groupe américain de biens de consommation courante. Son portefeuille couvre dix catégories de produits de nettoyage, d'hygiène, de beauté, de santé et de soins, organisées en cinq segments : Beauty, Grooming, Health Care, Fabric & Home Care et Baby, Feminine & Family Care.",
+    "sector": "Biens de consommation",
+    "stockIndex": "S&P 500",
+    "ticker": "PG",
+    "website": "https://us.pg.com/",
+    "clubName": null,
+    "clubUrl": null
+  },
+  "offerClassification": {
+    "primaryKind": "investor_relations_only",
+    "otherKinds": [],
+    "officialProgrammeName": null,
+    "status": "active",
+    "statusReason": "P&G maintient un espace de relations investisseurs et des services de tenue de compte auprès d'EQ Shareowner Services, mais aucune source officielle actuelle ne prouve un club, un programme d'avantages ou un bénéfice commercial réservé aux actionnaires.",
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S04"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": null,
+    "eligibleShareClasses": [],
+    "holdingModes": [],
+    "minimumHoldingPeriod": null,
+    "residencyRestrictions": [],
+    "accountRestrictions": [],
+    "proofRequired": [],
+    "fees": {
+      "membershipFee": null,
+      "applicationFee": null,
+      "otherFees": [],
+      "notes": "Aucune adhésion à un club ou programme d'avantages n'est établie. Les frais du Direct Stock Purchase Plan relèvent d'un service d'investissement générique exclu de cette fiche."
+    },
+    "sourceIds": [
+      "S01",
+      "S02"
+    ]
+  },
+  "enrollment": {
+    "required": false,
+    "method": "not_applicable",
+    "applicationUrl": null,
+    "contact": "Pour les services ordinaires liés aux actions inscrites et au DSPP, P&G désigne EQ Shareowner Services au 1-800-742-6253 ou 1-651-450-4064. Il ne s'agit pas d'un contact d'adhésion à un club d'actionnaires.",
+    "steps": [
+      "Aucune procédure d'adhésion à un club ou à un programme d'avantages réservé n'est publiée.",
+      "Ne pas utiliser l'inscription au DSPP ou au registre EQ comme inscription à un programme d'avantages."
+    ],
+    "processingTime": null,
+    "renewal": null,
+    "deadlines": [],
+    "sourceIds": [
+      "S01",
+      "S02"
+    ]
+  },
+  "benefits": [],
+  "faqs": [
+    {
+      "question": "Procter & Gamble dispose-t-elle d'un club d'actionnaires formel ?",
+      "answer": "Aucun club formel avec adhésion, carte de membre, seuil global ou catalogue d'avantages n'est présenté dans les ressources officielles actuelles consultées. P&G propose un espace investisseurs et renvoie les services de registre et de plan d'achat d'actions à EQ Shareowner Services.",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "question": "Existe-t-il une réduction ou un cadeau actif réservé aux actionnaires P&G au 9 juin 2026 ?",
+      "answer": "Aucune réduction, aucun produit gratuit et aucun cadeau actif réservé aux actionnaires n'est officiellement prouvé au 9 juin 2026. Les pages investisseurs, le rapport annuel et les documents de l'assemblée décrivent la gouvernance et les services sur titres, sans conditions d'une offre commerciale actionnaire.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S04"
+      ]
+    },
+    {
+      "question": "Les actionnaires reçoivent-ils des produits ou un sac-cadeau lors de l'assemblée annuelle ?",
+      "answer": "Ce n'est pas un avantage actuel prouvé. Une source secondaire de 2020 affirme que les anciennes assemblées physiques comportaient habituellement des sacs de produits, mais elle ne publie ni règlement, ni seuil, ni procédure. L'assemblée 2025 était entièrement virtuelle et son proxy ne promettait aucun cadeau ou envoi de produits.",
+      "sourceIds": [
+        "S04",
+        "S08"
+      ]
+    },
+    {
+      "question": "Les coupons et remboursements P&G brandSAVER sont-ils des avantages actionnaires ?",
+      "answer": "Non. P&G brandSAVER propose au public des coupons, remboursements et récompenses liés aux achats de produits P&G. La page d'inscription annonce une adhésion gratuite et ne demande aucune détention d'actions. Ces offres consommateurs ne sont donc pas spécifiques aux actionnaires.",
+      "sourceIds": [
+        "S07"
+      ]
+    },
+    {
+      "question": "Le Direct Stock Purchase Plan administré par EQ constitue-t-il un bénéfice actionnaire ?",
+      "answer": "Non pour cette fiche. Le DSPP permet l'achat direct d'actions et le réinvestissement des dividendes, mais il est ouvert aux actionnaires actuels comme aux nouveaux investisseurs. Il s'agit d'un service d'investissement et de registre générique, expressément exclu des bénéfices par le contrat de recherche.",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "question": "Qui est l'agent de transfert actuel et quels éléments doivent rester exclus ?",
+      "answer": "L'agent de transfert et administrateur du DSPP est EQ Shareowner Services, et non Computershare, selon les sources officielles actuelles. Le DRS, le DSPP, le DRIP, le dividende ordinaire, le vote, l'assemblée annuelle et les publications financières restent des services ou droits génériques, pas des avantages commerciaux.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S09"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "The Procter & Gamble Company est cotée au New York Stock Exchange sous le symbole PG.",
+      "status": "verified",
+      "sourceIds": [
+        "S02",
+        "S03"
+      ],
+      "notes": "Le rapport annuel 2025 et la publication officielle du troisième trimestre fiscal 2026 confirment l'identité de l'émetteur, la cotation NYSE et le symbole PG."
+    },
+    {
+      "id": "C02",
+      "statement": "P&G organise ses activités en cinq segments couvrant dix catégories de biens de consommation courante.",
+      "status": "verified",
+      "sourceIds": [
+        "S02",
+        "S03"
+      ],
+      "notes": "Les documents financiers officiels décrivent les segments Beauty, Grooming, Health Care, Fabric & Home Care et Baby, Feminine & Family Care."
+    },
+    {
+      "id": "C03",
+      "statement": "Procter & Gamble appartient au S&P 500 au 9 juin 2026.",
+      "status": "verified",
+      "sourceIds": [
+        "S05",
+        "S06"
+      ],
+      "notes": "S&P Dow Jones Indices cite P&G comme composante et le portefeuille réglementaire du fonds SPDR S&P 500 au 31 mars 2026 contient toujours l'action."
+    },
+    {
+      "id": "C04",
+      "statement": "Aucun club ou avantage commercial réservé aux actionnaires P&G n'est identifié dans les sources officielles actuelles consultées.",
+      "status": "uncertain",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S04"
+      ],
+      "notes": "Il s'agit d'un constat de recherche sur les ressources disponibles au 9 juin 2026, non d'une preuve absolue d'inexistence."
+    },
+    {
+      "id": "C05",
+      "statement": "EQ Shareowner Services est l'agent de transfert actuel et l'administrateur du P&G Direct Stock Purchase Plan.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "notes": "Les coordonnées et les fonctions d'EQ sont identiques sur la page de contacts investisseurs et dans le rapport annuel 2025."
+    },
+    {
+      "id": "C06",
+      "statement": "Le P&G Direct Stock Purchase Plan est ouvert aux actionnaires actuels et aux nouveaux investisseurs.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "notes": "Cette ouverture confirme qu'il s'agit d'un service d'investissement générique et non d'un bénéfice réservé aux actionnaires existants."
+    },
+    {
+      "id": "C07",
+      "statement": "L'assemblée annuelle 2025 de P&G s'est tenue uniquement en ligne par webdiffusion audio.",
+      "status": "verified",
+      "sourceIds": [
+        "S04"
+      ],
+      "notes": "Le proxy fixe l'assemblée au 14 octobre 2025 et la décrit expressément comme une réunion virtuelle accessible par webdiffusion audio."
+    },
+    {
+      "id": "C08",
+      "statement": "Des sacs de produits auraient été distribués lors d'anciennes assemblées physiques de P&G.",
+      "status": "uncertain",
+      "sourceIds": [
+        "S08"
+      ],
+      "notes": "L'affirmation provient d'une seule source secondaire de 2020, sans conditions officielles, dates détaillées ni preuve d'une reconduction après le passage aux assemblées virtuelles."
+    },
+    {
+      "id": "C09",
+      "statement": "Les offres P&G brandSAVER ne sont pas conditionnées par la détention d'actions P&G.",
+      "status": "verified",
+      "sourceIds": [
+        "S07"
+      ],
+      "notes": "Le portail présente des coupons et remboursements pour les consommateurs, annonce une inscription gratuite et ne mentionne aucune preuve d'actionnariat."
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "Le P&G Direct Stock Purchase Plan ou son mécanisme de réinvestissement des dividendes constitue un bénéfice actionnaire distinct.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "claim": "La participation à l'assemblée annuelle de P&G constitue à elle seule un avantage réservé.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S04"
+      ]
+    },
+    {
+      "claim": "Le dividende ordinaire et son historique de croissance constituent un bénéfice du programme actionnaires.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S02",
+        "S03"
+      ]
+    },
+    {
+      "claim": "Le DRS, l'inscription au registre et les services de transfert sont des avantages commerciaux.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "claim": "Tout actionnaire P&G reçoit actuellement un sac-cadeau, du shampooing ou d'autres produits gratuits.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S04",
+        "S08"
+      ]
+    },
+    {
+      "claim": "Les anciens sacs de produits évoqués lors des assemblées physiques forment encore un avantage actionnaire actif.",
+      "reason": "secondary_source_only",
+      "sourceIds": [
+        "S08"
+      ]
+    },
+    {
+      "claim": "Les coupons, remboursements et récompenses P&G brandSAVER sont des réductions réservées aux actionnaires.",
+      "reason": "not_shareholder_specific",
+      "sourceIds": [
+        "S07"
+      ]
+    },
+    {
+      "claim": "Une seule action P&G suffit pour adhérer à un programme d'avantages commerciaux.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S04"
+      ]
+    },
+    {
+      "claim": "Computershare est encore l'agent de transfert et l'administrateur du plan P&G au 9 juin 2026.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S09"
+      ]
+    },
+    {
+      "claim": "Les présentations, démonstrations de produits et publications financières publiques sont des bénéfices actionnaires.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S02",
+        "S04"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.pginvestor.com/resources/investor-contacts/default.aspx",
+      "title": "Investor Contacts",
+      "publisher": "The Procter & Gamble Company",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle actuelle pour les investisseurs individuels : EQ Shareowner Services est l'agent de transfert et l'administrateur du DSPP; le plan est présenté aux actionnaires actuels comme aux investisseurs potentiels. Aucun club ou avantage commercial n'y est annoncé."
+    },
+    {
+      "id": "S02",
+      "url": "https://s204.q4cdn.com/332108499/files/doc_financials/2025/ar/2025_annual_report.pdf",
+      "title": "P&G 2025 Annual Report",
+      "publisher": "The Procter & Gamble Company",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2025-07-29",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Rapport annuel officiel confirmant les activités, les cinq segments, le symbole PG, la cotation NYSE, EQ comme agent de transfert et administrateur du DSPP, ainsi que l'ouverture du plan aux actionnaires actuels et aux nouveaux investisseurs."
+    },
+    {
+      "id": "S03",
+      "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000056/fy2526q3jfm8-kexhibit991.htm",
+      "title": "P&G Announces Fiscal Year 2026 Third Quarter Results",
+      "publisher": "The Procter & Gamble Company et U.S. Securities and Exchange Commission",
+      "sourceType": "regulatory_filing",
+      "official": true,
+      "publishedAt": "2026-04-24",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Publication officielle la plus récente avant la date de référence, confirmant l'identité de P&G, le symbole NYSE:PG, les résultats du troisième trimestre fiscal 2026 et l'existence du dividende ordinaire, exclu des bénéfices."
+    },
+    {
+      "id": "S04",
+      "url": "https://s204.q4cdn.com/332108499/files/doc_financials/2025/ar/2025-Proxy-PG.pdf",
+      "title": "P&G 2025 Proxy Statement",
+      "publisher": "The Procter & Gamble Company",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2025-08-29",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "expired",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Proxy officiel de l'assemblée du 14 octobre 2025 : réunion entièrement virtuelle par webdiffusion audio, droits de vote et questions des actionnaires. Le document ne publie aucune remise, distribution de produits ou autre cadeau."
+    },
+    {
+      "id": "S05",
+      "url": "https://www.spglobal.com/spdji/en/landing/investment-themes/the-500/",
+      "title": "The 500 - Investment Themes",
+      "publisher": "S&P Dow Jones Indices",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page actuelle de l'administrateur de l'indice citant explicitement Procter & Gamble parmi les sociétés incluses dans le S&P 500."
+    },
+    {
+      "id": "S06",
+      "url": "https://www.sec.gov/Archives/edgar/data/884394/000119312526247066/d75559dn30d.htm",
+      "title": "State Street SPDR S&P 500 ETF Trust Semi-Annual Report",
+      "publisher": "State Street SPDR S&P 500 ETF Trust et U.S. Securities and Exchange Commission",
+      "sourceType": "regulatory_filing",
+      "official": true,
+      "publishedAt": "2026-03-31",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "C",
+      "evidenceSummary": "État réglementaire du fonds répliquant le S&P 500 au 31 mars 2026, dont le portefeuille contient 26 940 982 actions Procter & Gamble. Il corrobore l'appartenance récente à l'indice."
+    },
+    {
+      "id": "S07",
+      "url": "https://pgbrandsaver.com/",
+      "title": "P&G brandSAVER - Coupons, Rebates and Rewards",
+      "publisher": "The Procter & Gamble Company",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Portail officiel de coupons, remboursements et récompenses pour les consommateurs de marques P&G. L'inscription est annoncée comme gratuite et aucune détention d'actions n'est exigée; ces remises ne sont pas actionnaire-spécifiques."
+    },
+    {
+      "id": "S08",
+      "url": "https://www.soundboardgovernance.com/post/the-procter-gamble-company-2020-virtual-annual-meeting",
+      "title": "The Procter & Gamble Company 2020 Virtual Annual Meeting",
+      "publisher": "Soundboard Governance",
+      "sourceType": "reputable_secondary",
+      "official": false,
+      "publishedAt": "2020-10-14",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "archived",
+      "evidenceGrade": "D",
+      "evidenceSummary": "Compte rendu secondaire indiquant que 2020 était la première assemblée virtuelle de P&G et affirmant que les réunions physiques antérieures comportaient habituellement des sacs de produits. Aucune condition officielle ou reconduction actuelle n'est fournie."
+    },
+    {
+      "id": "S09",
+      "url": "https://www.betterinvesting.org/meet-our-community/our-corporate-partners/procter-gamble-company",
+      "title": "Procter & Gamble Company",
+      "publisher": "BetterInvesting",
+      "sourceType": "reputable_secondary",
+      "official": false,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "undated",
+      "evidenceGrade": "D",
+      "evidenceSummary": "Page secondaire non datée décrivant encore Computershare comme agent de transfert et l'ancien Shareholder Investment Program. Son contenu est dépassé par les pages officielles P&G 2025-2026 qui désignent EQ Shareowner Services."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Agent de transfert et statut du plan d'achat direct",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S09"
+      ],
+      "positions": [
+        "Une page secondaire non datée présente encore Computershare comme agent de transfert et qualifie le dispositif de Shareholder Investment Program.",
+        "La page officielle actuelle et le rapport annuel 2025 désignent EQ Shareowner Services comme agent de transfert et administrateur du Direct Stock Purchase Plan.",
+        "Les sources officielles précisent que le DSPP est aussi ouvert aux nouveaux investisseurs, ce qui empêche de le traiter comme avantage réservé aux actionnaires existants."
+      ],
+      "resolution": "Retenir EQ Shareowner Services comme agent actuel et exclure le DSPP, le DRIP et le DRS des bénéfices. La mention de Computershare et l'ancien intitulé sont obsolètes.",
+      "impact": "benefit_excluded"
+    },
+    {
+      "topic": "Sacs de produits lors des assemblées annuelles",
+      "sourceIds": [
+        "S04",
+        "S08"
+      ],
+      "positions": [
+        "Un compte rendu secondaire de 2020 affirme que les anciennes assemblées physiques de P&G comprenaient habituellement des sacs de produits.",
+        "Le proxy officiel 2025 prévoit une assemblée entièrement virtuelle et ne promet aucun cadeau, produit gratuit ou envoi aux actionnaires."
+      ],
+      "resolution": "Conserver l'allégation comme pratique historique non suffisamment documentée et ne retenir aucun cadeau actif au 9 juin 2026.",
+      "impact": "benefit_excluded"
+    }
+  ],
+  "handoff": {
+    "researchStatus": "complete_with_uncertainties",
+    "readyForDevelopment": true,
+    "benefitCount": 0,
+    "faqCount": 6,
+    "blockingIssues": [],
+    "developerNotes": [
+      "Ne pas créer de club P&G : clubName et clubUrl restent null.",
+      "Conserver une liste de bénéfices vide au 9 juin 2026.",
+      "Ne pas transformer le DSPP, le DRIP, le DRS, le dividende, le vote, l'assemblée annuelle, les publications ou les services EQ en bénéfices.",
+      "Ne pas reprendre Computershare comme agent actuel : P&G désigne EQ Shareowner Services.",
+      "Ne pas présenter les coupons et remboursements P&G brandSAVER comme des réductions actionnaires.",
+      "Ne pas présenter les anciens sacs de produits évoqués par une source secondaire comme un cadeau actif ou garanti.",
+      "Le dossier final Prisma ne doit pas être créé par le chercheur."
+    ]
+  }
+}

@@ -1,0 +1,458 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "arcelormittal",
+    "name": "ArcelorMittal",
+    "description": "ArcelorMittal est un groupe intégré de sidérurgie et de mines, présent dans 60 pays et actif notamment dans l'automobile, la construction, l'ingénierie et les machines. Ses actions sont cotées sous le symbole MT à Paris, Amsterdam, Luxembourg et New York, et le groupe appartient au CAC 40.",
+    "sector": "Industrie & Équipements",
+    "stockIndex": "CAC40",
+    "ticker": "MT",
+    "website": "https://corporate.arcelormittal.com/",
+    "clubName": null,
+    "clubUrl": null
+  },
+  "offerClassification": {
+    "primaryKind": "investor_relations_only",
+    "otherKinds": [],
+    "officialProgrammeName": null,
+    "status": "active",
+    "statusReason": "Au 9 juin 2026, ArcelorMittal maintient un espace Relations investisseurs actif avec informations boursières, contacts, dividendes et documents d'assemblée, mais aucun club, programme d'adhésion ou avantage concret réservé aux actionnaires individuels n'est officiellement établi.",
+    "sourceIds": [
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S09"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": null,
+    "eligibleShareClasses": [],
+    "holdingModes": [],
+    "minimumHoldingPeriod": null,
+    "residencyRestrictions": [],
+    "accountRestrictions": [],
+    "proofRequired": [],
+    "fees": {
+      "membershipFee": null,
+      "applicationFee": null,
+      "otherFees": [],
+      "notes": "Sans objet : aucun dispositif d'adhésion actionnaire n'est prouvé. Les frais éventuels de courtage, de garde ou de réinvestissement relèvent de l'intermédiaire financier et non d'une cotisation ArcelorMittal."
+    },
+    "sourceIds": [
+      "S03",
+      "S06",
+      "S09"
+    ]
+  },
+  "enrollment": {
+    "required": false,
+    "method": "not_applicable",
+    "applicationUrl": null,
+    "contact": null,
+    "steps": [],
+    "processingTime": null,
+    "renewal": null,
+    "deadlines": [],
+    "sourceIds": [
+      "S03",
+      "S04",
+      "S09"
+    ]
+  },
+  "benefits": [],
+  "faqs": [
+    {
+      "question": "ArcelorMittal possède-t-il un club ou un programme pour les actionnaires individuels ?",
+      "answer": "Aucun club formel, programme d'adhésion ou règlement d'avantages n'a été trouvé dans les sources officielles actuelles au 9 juin 2026. Le site propose un espace Relations investisseurs, des contacts, des informations de cotation et des documents d'assemblée, ce qui relève de l'information financière standard.",
+      "sourceIds": [
+        "S03",
+        "S04",
+        "S05",
+        "S09"
+      ]
+    },
+    {
+      "question": "Faut-il détenir au moins une action ArcelorMittal pour accéder à un dispositif dédié ?",
+      "answer": "Aucun seuil global d'adhésion n'est officiellement publié, puisqu'aucun dispositif actionnaire n'est prouvé. Détenir une action donne la qualité d'actionnaire et les droits ordinaires attachés au titre, mais ne permet pas d'affirmer l'existence d'un club accessible dès une action.",
+      "sourceIds": [
+        "S03",
+        "S05",
+        "S06",
+        "S09"
+      ]
+    },
+    {
+      "question": "Les actionnaires individuels peuvent-ils visiter les sites industriels d'ArcelorMittal ?",
+      "answer": "Le rapport annuel 2025 mentionne des visites d'usines et des rencontres avec des investisseurs individuels dans la politique générale de relations investisseurs. Il ne publie toutefois ni programme d'adhésion, ni seuil, ni calendrier, ni procédure garantissant ou réservant ces visites aux actionnaires individuels. Elles ne sont donc pas retenues comme avantage.",
+      "sourceIds": [
+        "S05",
+        "S06"
+      ]
+    },
+    {
+      "question": "Le dividende ou le plan de réinvestissement constitue-t-il un avantage actionnaire ?",
+      "answer": "Non dans le cadre de cette fiche. Le dividende de base est un versement ordinaire à tous les actionnaires éligibles. Le DRIP proposé pour certaines actions intégrées à Euroclear Nederland permet de réinvestir le dividende net, mais la source officielle n'établit aucun rabais, abondement ou autre avantage économique propre.",
+      "sourceIds": [
+        "S07"
+      ]
+    },
+    {
+      "question": "L'assemblée générale, le vote et les rapports financiers sont-ils comptés comme bénéfices ?",
+      "answer": "Non. La participation à l'assemblée et le vote sont des droits ordinaires de l'actionnaire, tandis que les rapports, résultats, présentations et webcasts sont des publications de relations investisseurs. Le rapport annuel papier gratuit sur demande reste une publication et non un avantage commercial ou de fidélité.",
+      "sourceIds": [
+        "S05",
+        "S08",
+        "S10"
+      ]
+    },
+    {
+      "question": "Comment contacter ArcelorMittal pour une question sur ses actions ?",
+      "answer": "La page officielle Investor contacts fournit les coordonnées de l'équipe Relations investisseurs à Luxembourg et dans plusieurs régions. Pour les questions de registre ou de cotation, ArcelorMittal indique aussi ABN AMRO pour les actions européennes et Citibank pour les actions de New York. Ces contacts n'impliquent aucune adhésion à un club.",
+      "sourceIds": [
+        "S02",
+        "S04"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "ArcelorMittal est coté sous le symbole MT à Paris, Amsterdam, Luxembourg et New York et figure dans le CAC 40.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "notes": "Les places espagnoles utilisent le symbole MTS."
+    },
+    {
+      "id": "C02",
+      "statement": "L'offre actuelle vérifiable d'ArcelorMittal relève uniquement des relations investisseurs et non d'un club ou programme actionnaire.",
+      "status": "partially_verified",
+      "sourceIds": [
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S09"
+      ],
+      "notes": "Conclusion fondée sur l'examen des rubriques officielles actuelles et du rapport annuel 2025. L'ancienne URL individual-shareholders est indisponible, ce qui empêche d'exclure absolument tout contenu historique."
+    },
+    {
+      "id": "C03",
+      "statement": "Le rapport annuel 2025 cite des visites d'usines et des rencontres avec des investisseurs individuels parmi les activités de relations investisseurs.",
+      "status": "verified",
+      "sourceIds": [
+        "S06"
+      ],
+      "notes": "Le document ne fournit aucune condition d'éligibilité ou procédure permettant de transformer cette activité en avantage actionnaire garanti."
+    },
+    {
+      "id": "C04",
+      "statement": "La page Dividends décrit un dividende ordinaire de base et un DRIP pour certaines actions Euroclear Nederland.",
+      "status": "verified",
+      "sourceIds": [
+        "S07"
+      ],
+      "notes": "La source ne mentionne ni décote de souscription, ni abondement, ni prime de fidélité."
+    },
+    {
+      "id": "C05",
+      "statement": "ArcelorMittal fournit gratuitement sur demande une copie papier du rapport annuel 2025 sur formulaire 20-F.",
+      "status": "verified",
+      "sourceIds": [
+        "S08"
+      ],
+      "notes": "Cette faculté est une mise à disposition de publication et n'est pas retenue comme bénéfice."
+    },
+    {
+      "id": "C06",
+      "statement": "La page officielle Shareholder events est consacrée aux assemblées générales et à leur documentation réglementaire.",
+      "status": "verified",
+      "sourceIds": [
+        "S05"
+      ],
+      "notes": "Aucun calendrier d'événements de club ou de visites réservées aux actionnaires individuels n'y est présenté."
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "ArcelorMittal exploite un club gratuit accessible dès la détention d'une action.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S03",
+        "S06",
+        "S09"
+      ]
+    },
+    {
+      "claim": "La participation à l'assemblée générale annuelle constitue un avantage du club.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S05"
+      ]
+    },
+    {
+      "claim": "Le droit de vote aux assemblées est un bénéfice actionnaire distinct.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S05"
+      ]
+    },
+    {
+      "claim": "Le dividende ordinaire versé par ArcelorMittal est un avantage de fidélité.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S07"
+      ]
+    },
+    {
+      "claim": "Le plan de réinvestissement du dividende offre un avantage économique spécifique.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S07"
+      ]
+    },
+    {
+      "claim": "Les rapports, présentations, résultats et webcasts publics sont des avantages réservés.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S03",
+        "S08",
+        "S10"
+      ]
+    },
+    {
+      "claim": "Les visites de sites industriels sont un avantage garanti et réservé aux actionnaires individuels.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S05",
+        "S06"
+      ]
+    },
+    {
+      "claim": "La copie papier gratuite du rapport annuel constitue un cadeau actionnaire.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S08"
+      ]
+    },
+    {
+      "claim": "Le numéro de téléphone Relations investisseurs est un service de club actionnaire.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S04"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://corporate.arcelormittal.com/",
+      "title": "ArcelorMittal - Smarter steels for people and planet",
+      "publisher": "ArcelorMittal",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Le site institutionnel décrit ArcelorMittal comme un groupe mondial de sidérurgie et de mines et renvoie vers les rubriques officielles consacrées aux investisseurs."
+    },
+    {
+      "id": "S02",
+      "url": "https://corporate.arcelormittal.com/investors/equity-investors/listing-and-listings-agents",
+      "title": "Listing and listings agents",
+      "publisher": "ArcelorMittal",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La page confirme les cotations MT à New York, Amsterdam, Paris et Luxembourg, MTS en Espagne, l'appartenance au CAC 40 et les agents de cotation ABN AMRO et Citibank."
+    },
+    {
+      "id": "S03",
+      "url": "https://corporate.arcelormittal.com/investors/equity-investors",
+      "title": "Equity investors",
+      "publisher": "ArcelorMittal",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La rubrique actuelle oriente les actionnaires vers les dividendes, assemblées, analystes, cotations, rachats d'actions et formulaires IFRS, sans club, adhésion ni avantages commerciaux."
+    },
+    {
+      "id": "S04",
+      "url": "https://corporate.arcelormittal.com/investors/investor-contacts",
+      "title": "Investor contacts",
+      "publisher": "ArcelorMittal",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La page fournit l'adresse et les coordonnées de l'équipe Relations investisseurs, avec des contacts par région, sans formulaire d'adhésion ni service présenté comme avantage actionnaire."
+    },
+    {
+      "id": "S05",
+      "url": "https://corporate.arcelormittal.com/investors/equity-investors/shareholder-events",
+      "title": "Shareholder events",
+      "publisher": "ArcelorMittal",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La page rassemble les assemblées générales, procès-verbaux, résultats de vote, convocations et formulaires de procuration, notamment pour le 5 mai 2026, sans programme d'événements de club."
+    },
+    {
+      "id": "S06",
+      "url": "https://cdn.arcelormittal.com/media/g5obzl05/annual-report-2025.pdf",
+      "title": "Annual Report 2025",
+      "publisher": "ArcelorMittal",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2026-03-06",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Le rapport décrit le groupe, ses activités et sa politique de relations investisseurs. Il cite des conférences, appels, visites d'usines et rencontres avec des investisseurs individuels, sans règlement, seuil ou adhésion à un programme."
+    },
+    {
+      "id": "S07",
+      "url": "https://corporate.arcelormittal.com/investors/equity-investors/dividends",
+      "title": "Dividends",
+      "publisher": "ArcelorMittal",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La page présente le dividende de base 2026 et un DRIP pour les actions intégrées à Euroclear Nederland. Aucun rabais, abondement ou dividende majoré de fidélité n'est indiqué."
+    },
+    {
+      "id": "S08",
+      "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-announces-the-publication-of-its-annual-report-2025-on-form-20-f-and-the-publication-of-its-2025-annual-report",
+      "title": "ArcelorMittal announces the publication of its Annual Report 2025 on Form 20-F and the publication of its 2025 annual report",
+      "publisher": "ArcelorMittal",
+      "sourceType": "regulatory_filing",
+      "official": true,
+      "publishedAt": "2026-03-06",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Le communiqué confirme la publication des rapports 2025 et l'envoi gratuit sur demande d'une copie papier du Form 20-F aux actionnaires, service documentaire exclu des bénéfices."
+    },
+    {
+      "id": "S09",
+      "url": "https://corporate.arcelormittal.com/investors/individual-shareholders",
+      "title": "Historical individual shareholders URL",
+      "publisher": "ArcelorMittal",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "unavailable",
+      "evidenceGrade": "E",
+      "evidenceSummary": "Cette ancienne URL citée par les données historiques du projet n'a pas fourni de contenu vérifiable lors de la recherche et n'apparaît pas dans la navigation actuelle Equity investors. Elle ne prouve donc aucun programme actif."
+    },
+    {
+      "id": "S10",
+      "url": "https://corporate.arcelormittal.com/investors/reports-and-presentations",
+      "title": "Reports and presentations",
+      "publisher": "ArcelorMittal",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "La page répertorie et date les publications financières, dont le rapport annuel 2025 publié le 6 mars 2026, le Fact Book 2025 et les présentations destinées aux investisseurs."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Existence d'un club accessible dès une action",
+      "sourceIds": [
+        "S03",
+        "S06",
+        "S09"
+      ],
+      "positions": [
+        "Les données historiques du projet présentent ArcelorMittal comme un club gratuit accessible dès une action.",
+        "Les sources officielles actuelles ne publient ni nom de club, ni seuil, ni règlement, ni formulaire, et l'ancienne URL individual-shareholders est indisponible."
+      ],
+      "resolution": "La revendication historique est rejetée faute de preuve officielle actuelle. La fiche doit être classée investor_relations_only avec un seuil global nul.",
+      "impact": "benefit_excluded"
+    },
+    {
+      "topic": "Qualification des visites de sites industriels",
+      "sourceIds": [
+        "S05",
+        "S06"
+      ],
+      "positions": [
+        "Les données historiques du projet décrivent des visites de Dunkerque, Fos-sur-Mer ou Gand comme réservées aux actionnaires individuels.",
+        "Le rapport annuel 2025 cite des visites d'usines dans l'activité générale de relations investisseurs, tandis que la page Shareholder events actuelle ne publie que les assemblées générales."
+      ],
+      "resolution": "Les visites ne sont pas retenues : aucune condition, invitation, disponibilité, réservation aux actionnaires ou procédure active n'est officiellement publiée.",
+      "impact": "benefit_excluded"
+    },
+    {
+      "topic": "Statut technique de l'ancienne page actionnaires individuels",
+      "sourceIds": [
+        "S03",
+        "S09"
+      ],
+      "positions": [
+        "L'URL historique reste située sur le domaine officiel et pourrait correspondre à un ancien contenu.",
+        "Son contenu est indisponible au 9 juin 2026 et la structure officielle actuelle ne comporte plus de rubrique actionnaires individuels distincte."
+      ],
+      "resolution": "L'URL est documentée comme indisponible, sans conclure formellement à une suppression. Elle ne peut pas servir de preuve d'un dispositif actif.",
+      "impact": "wording_only"
+    }
+  ],
+  "handoff": {
+    "researchStatus": "complete_with_uncertainties",
+    "readyForDevelopment": true,
+    "benefitCount": 0,
+    "faqCount": 6,
+    "blockingIssues": [],
+    "developerNotes": [
+      "Créer une fiche sans clubName, sans clubUrl, avec minShares à null et un tableau benefits vide.",
+      "Ne pas transformer l'espace Equity investors ou l'ancienne URL individual-shareholders en club.",
+      "Ne pas réintroduire l'assemblée générale, le vote, le dividende ordinaire, le DRIP, les publications ou la copie papier du rapport annuel comme bénéfices.",
+      "Ne pas retenir les visites de sites sans nouvelle preuve officielle fournissant des conditions et une procédure actives.",
+      "Présenter honnêtement ArcelorMittal comme disposant uniquement de relations investisseurs au 9 juin 2026."
+    ]
+  }
+}

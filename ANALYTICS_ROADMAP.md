@@ -47,10 +47,10 @@ but the current Hobby dashboard does not expose those event reports.
    company page.
 2. [Done] Add previous and next company navigation on detail pages.
 3. [Done] Add related companies based on sector and index.
-4. Make the primary club registration CTA sticky on mobile.
-5. Separate the official club link from the generic investor-relations page.
-6. Add a clear "How to join" summary above the full benefit list.
-7. Show the minimum investment and holding mode next to every CTA.
+4. [Done] Make the primary registration CTA sticky on mobile.
+5. [Done] Separate the shareholder procedure from the generic company website.
+6. [Done] Add a clear "How to join" summary above the full benefit list.
+7. [Done] Show the estimated investment and holding mode beside the main CTA.
 8. Add a comparison shortlist for two to four companies.
 
 The repeated home-page views suggest that users currently use the home page as

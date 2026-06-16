@@ -1,0 +1,875 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "air-liquide",
+    "name": "Air Liquide",
+    "description": "Air Liquide est un leader mondial des gaz, technologies et services pour l'industrie et la santé. Présent dans 59 pays avec environ 65 000 collaborateurs, le Groupe sert 4,3 millions de clients et de patients et a réalisé près de 27 milliards d'euros de chiffre d'affaires en 2025.",
+    "sector": "Industrie & Équipements",
+    "stockIndex": "CAC40",
+    "ticker": "AI",
+    "website": "https://www.airliquide.com/",
+    "clubName": null,
+    "clubUrl": null
+  },
+  "offerClassification": {
+    "primaryKind": "shareholder_benefit",
+    "otherKinds": [
+      "shareholder_program",
+      "investor_relations_only"
+    ],
+    "officialProgrammeName": "Prime de Fidélité",
+    "status": "active",
+    "statusReason": "Air Liquide propose une Prime de Fidélité statutaire et plusieurs conditions financières propres aux actionnaires, mais aucun club ou « Cercle des Actionnaires » à adhésion générale n'est présenté dans les sources officielles actuelles. Le CCA est un comité de travail limité à 12 membres sélectionnés, et le Carré des Actionnaires est un lieu d'accueil.",
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S05",
+      "S06",
+      "S10",
+      "S11",
+      "S16"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": null,
+    "eligibleShareClasses": [
+      "Action ordinaire L'Air Liquide S.A., ISIN FR0000120073"
+    ],
+    "holdingModes": [
+      "bearer",
+      "registered_administered",
+      "registered_pure"
+    ],
+    "minimumHoldingPeriod": "Aucune durée minimale globale. La Prime de Fidélité exige plus de deux années civiles pleines au nominatif pur ou administré. L'attribution générale du 10 juin 2026 est ouverte à tous les actionnaires sans condition d'ancienneté.",
+    "residencyRestrictions": [
+      "Aucune restriction de résidence propre aux avantages n'a été trouvée. L'ouverture et le fonctionnement d'un compte au nominatif pur restent soumis aux contrôles d'identité, fiscaux et de sanctions applicables à Uptevia."
+    ],
+    "accountRestrictions": [
+      "Air Liquide ne propose pas de PEA au nominatif pur.",
+      "Un PEA peut rester dans l'établissement financier et les actions Air Liquide peuvent y être converties au nominatif administré pour devenir éligibles à la Prime de Fidélité.",
+      "Depuis le 1er janvier 2026, Uptevia est mandatée par Air Liquide pour la gestion administrative du registre au nominatif pur.",
+      "Les rompus de l'attribution d'Actions Gratuites sont calculés séparément par compte et par mode de détention."
+    ],
+    "proofRequired": [
+      "Aucun justificatif ni formulaire n'est requis pour recevoir automatiquement la Prime de Fidélité lorsque les titres enregistrés remplissent les conditions.",
+      "La conversion au nominatif administré ou le transfert au nominatif pur passe par l'établissement financier et peut nécessiter le formulaire Air Liquide correspondant.",
+      "L'ouverture d'un compte au nominatif pur exige les justificatifs d'identité, de domicile et autres pièces demandées dans les conditions particulières."
+    ],
+    "fees": {
+      "membershipFee": null,
+      "applicationFee": null,
+      "otherFees": [
+        "Au nominatif pur, les droits de garde et frais de gestion sont gratuits.",
+        "Au nominatif pur, le courtage est de 0,10 % HT en ligne et de 0,15 % HT par les autres canaux, sans forfait minimum.",
+        "La banque peut facturer la conversion au nominatif administré ou le transfert au nominatif pur; Air Liquide invite l'actionnaire à vérifier les frais auprès de son établissement."
+      ],
+      "notes": "Il n'existe pas de cotisation de club identifiée. Les frais dépendent surtout du mode de détention et de l'établissement financier."
+    },
+    "sourceIds": [
+      "S02",
+      "S04",
+      "S07",
+      "S08",
+      "S15",
+      "S17"
+    ]
+  },
+  "enrollment": {
+    "required": false,
+    "method": "automatic",
+    "applicationUrl": null,
+    "contact": "Direction du Service Actionnaires Air Liquide : 0 800 166 179 depuis la France, +33 1 57 05 02 26 depuis l'étranger, du lundi au vendredi de 8 h 45 à 18 h, heure de Paris; courrier : TSA 91948, 62978 Arras Cedex 9.",
+    "steps": [
+      "Détenir des actions Air Liquide au porteur, au nominatif administré ou au nominatif pur.",
+      "Pour la Prime de Fidélité, acheter au nominatif pur ou demander à sa banque la conversion des titres au nominatif administré.",
+      "Conserver les titres au nominatif pendant plus de deux années civiles pleines et rester détenteur aux dates statutaires d'éligibilité.",
+      "Pour bénéficier des tarifs du nominatif pur, ouvrir un compte chez Air Liquide ou demander à sa banque le transfert des titres hors PEA."
+    ],
+    "processingTime": "La conversion ou le transfert peut prendre plusieurs semaines; Air Liquide recommandait d'engager en novembre 2026 une conversion devant être effective avant le 29 décembre 2026.",
+    "renewal": "Aucun renouvellement d'adhésion. Les avantages sont appliqués automatiquement tant que les titres et le compte continuent de remplir leurs conditions.",
+    "deadlines": [
+      "5 juin 2026 à la clôture d'Euronext Paris : dernier jour d'exécution d'un achat pris en compte pour l'attribution du 10 juin 2026.",
+      "10 juin 2026 : 33e attribution d'Actions Gratuites.",
+      "29 décembre 2026 : conversion au nominatif administré à rendre effective, ou dernier jour d'exécution au nominatif pur, pour viser la Prime de Fidélité à partir de 2029.",
+      "Les actions achetées les 30 et 31 décembre 2026 sont comptabilisées en 2027 et ne deviennent éligibles à la Prime de Fidélité qu'à partir de 2030."
+    ],
+    "sourceIds": [
+      "S02",
+      "S04",
+      "S08",
+      "S12",
+      "S16",
+      "S17"
+    ]
+  },
+  "benefits": [
+    {
+      "id": "B01",
+      "type": "cadeau",
+      "title": "Majoration de 10 % du dividende",
+      "description": "Les actions inscrites au nominatif pur ou administré depuis plus de deux années civiles pleines bénéficient d'un dividende par action majoré de 10 %. Pour le dividende payé le 20 mai 2026 au titre de 2025, le montant était de 4,07 euros par action éligible au lieu de 3,70 euros.",
+      "value": "+10 %; 4,07 € au lieu de 3,70 € par action en 2026",
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "registered_administered",
+        "registered_pure"
+      ],
+      "requiredHoldingPeriod": "Inscription nominative au 31 décembre depuis au moins deux ans, soit plus de deux années civiles pleines, puis conservation jusqu'à la date de mise en paiement du dividende.",
+      "availability": "guaranteed",
+      "validFrom": "1996-01-01",
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Détenir les actions au nominatif pur ou au nominatif administré.",
+        "Conserver les actions pendant la durée requise et jusqu'à la mise en paiement.",
+        "Aucune demande de prime n'est nécessaire; l'application est automatique."
+      ],
+      "limitsAndExclusions": [
+        "Les actions au porteur ne sont pas éligibles.",
+        "Le nombre de titres éligibles aux majorations est plafonné à 0,5 % du capital de la Société pour un même actionnaire.",
+        "La majoration statutaire reste liée aux conditions de distribution du dividende définies à l'article 21 des statuts.",
+        "Aucun seuil numérique distinct n'est publié: la majoration s'applique par action éligible."
+      ],
+      "primarySourceId": "S06",
+      "supportingSourceIds": [
+        "S02",
+        "S05",
+        "S17"
+      ],
+      "sourceUrl": "https://www.airliquide.com/sites/airliquide.com/files/2026-05/13-05-2026-statuts-mai-2026.pdf",
+      "evidenceGrade": "A",
+      "uncertainty": null
+    },
+    {
+      "id": "B02",
+      "type": "cadeau",
+      "title": "Attribution 2026 d'une action gratuite pour 10",
+      "description": "L'Assemblée Générale du 5 mai 2026 a approuvé une attribution le 10 juin 2026 d'une action gratuite pour 10 actions détenues. Tous les actionnaires en bénéficient, au porteur, au nominatif administré ou au nominatif pur. Un nombre inférieur ou non multiple de 10 produit un rompu payé en numéraire.",
+      "value": "1 action gratuite pour 10 détenues",
+      "requiredShares": 10,
+      "requiredHoldingModes": [
+        "bearer",
+        "registered_administered",
+        "registered_pure"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "guaranteed",
+      "validFrom": "2026-05-05",
+      "validUntil": "2026-06-10",
+      "requestDeadline": "5 juin 2026 à la clôture d'Euronext Paris pour l'exécution d'un nouvel achat pris en compte dans l'opération",
+      "procedure": [
+        "Détenir les actions dans l'un des trois modes de détention admis.",
+        "Pour un nouvel achat, faire exécuter l'ordre au plus tard le 5 juin 2026 à la clôture.",
+        "Aucune demande n'est nécessaire; l'attribution et, le cas échéant, le paiement du rompu sont automatiques."
+      ],
+      "limitsAndExclusions": [
+        "Dix actions sont nécessaires pour recevoir une action gratuite entière; les fractions sont réglées en numéraire.",
+        "Les rompus ne sont pas fongibles entre un compte-titres et un PEA, ni entre deux modes de détention.",
+        "L'opération est ponctuelle et datée; Air Liquide indique procéder généralement, et non annuellement, à une attribution tous les deux ans."
+      ],
+      "primarySourceId": "S05",
+      "supportingSourceIds": [
+        "S01",
+        "S03",
+        "S04"
+      ],
+      "sourceUrl": "https://www.airliquide.com/fr/assemblee-generale-des-actionnaires-2026",
+      "evidenceGrade": "A",
+      "uncertainty": null
+    },
+    {
+      "id": "B03",
+      "type": "cadeau",
+      "title": "Majoration de 10 % des actions gratuites",
+      "description": "Pour l'attribution du 10 juin 2026, les actions bénéficiant de la Prime de Fidélité donnent droit à 10 % d'actions gratuites supplémentaires. Avec 100 actions éligibles, l'actionnaire reçoit 10 actions au titre de la parité générale et une action supplémentaire; une fraction inférieure est payée comme rompu.",
+      "value": "+10 % d'actions gratuites; 1 action supplémentaire pour 100 actions éligibles",
+      "requiredShares": 100,
+      "requiredHoldingModes": [
+        "registered_administered",
+        "registered_pure"
+      ],
+      "requiredHoldingPeriod": "Plus de deux années civiles pleines au nominatif et conservation jusqu'à la veille de la date d'attribution selon les statuts.",
+      "availability": "guaranteed",
+      "validFrom": "2026-05-05",
+      "validUntil": "2026-06-10",
+      "requestDeadline": "Aucune demande; les titres devaient déjà remplir l'ancienneté nominative requise et rester détenus jusqu'à la date statutaire.",
+      "procedure": [
+        "Détenir les actions au nominatif pur ou administré depuis la durée requise.",
+        "Conserver les titres jusqu'à la veille de l'attribution.",
+        "Aucune demande n'est nécessaire; la majoration et le rompu éventuel sont calculés automatiquement."
+      ],
+      "limitsAndExclusions": [
+        "Les titres au porteur ne bénéficient que de l'attribution générale, sans majoration de fidélité.",
+        "Cent actions éligibles sont nécessaires pour une action majorée entière; une fraction produit un rompu en numéraire.",
+        "Le nombre de titres éligibles aux majorations est plafonné à 0,5 % du capital pour un même actionnaire.",
+        "Le calcul reste séparé par compte et par mode de détention."
+      ],
+      "primarySourceId": "S06",
+      "supportingSourceIds": [
+        "S02",
+        "S04",
+        "S05"
+      ],
+      "sourceUrl": "https://www.airliquide.com/sites/airliquide.com/files/2026-05/13-05-2026-statuts-mai-2026.pdf",
+      "evidenceGrade": "A",
+      "uncertainty": null
+    },
+    {
+      "id": "B04",
+      "type": "reduction",
+      "title": "Droits de garde et frais de gestion offerts",
+      "description": "Pour les actions détenues sur un compte-titres au nominatif pur chez Air Liquide, les droits de garde et les frais de gestion sont gratuits. Cet avantage de coût est propre au nominatif pur; au porteur ou au nominatif administré, la tarification dépend de l'établissement financier.",
+      "value": "0 € de droits de garde et de frais de gestion chez Air Liquide",
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "registered_pure"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "guaranteed",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Ouvrir un compte-titres au nominatif pur chez Air Liquide ou y transférer des actions détenues hors PEA.",
+        "Finaliser la convention de compte et fournir les justificatifs demandés."
+      ],
+      "limitsAndExclusions": [
+        "Air Liquide ne propose pas de PEA au nominatif pur.",
+        "L'établissement financier d'origine peut facturer le transfert.",
+        "Aucun seuil numérique de titres n'est indiqué pour la gratuité de la tenue de compte."
+      ],
+      "primarySourceId": "S07",
+      "supportingSourceIds": [
+        "S01",
+        "S08",
+        "S15"
+      ],
+      "sourceUrl": "https://www.airliquide.com/sites/airliquide.com/files/2026-03/fiche-pratique-mode-de-detention-2026.pdf",
+      "evidenceGrade": "A",
+      "uncertainty": null
+    },
+    {
+      "id": "B05",
+      "type": "reduction",
+      "title": "Courtage à tarif préférentiel au nominatif pur",
+      "description": "Les ordres passés sur un compte-titres au nominatif pur chez Air Liquide bénéficient d'un taux de courtage de 0,10 % HT depuis l'Espace Actionnaire en ligne ou de 0,15 % HT par téléphone, formulaire de contact ou courrier, sans forfait minimum.",
+      "value": "0,10 % HT en ligne; 0,15 % HT par les autres canaux; sans forfait minimum",
+      "requiredShares": 1,
+      "requiredHoldingModes": [
+        "registered_pure"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "guaranteed",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Détenir un compte-titres au nominatif pur chez Air Liquide.",
+        "Passer l'ordre depuis l'Espace Actionnaire pour le taux en ligne, ou utiliser un autre canal proposé par le Service Actionnaires."
+      ],
+      "limitsAndExclusions": [
+        "Le taux est exprimé hors taxes.",
+        "Le tarif Air Liquide ne s'applique pas aux comptes au porteur ou au nominatif administré tenus par une banque.",
+        "Air Liquide indique que le taux en ligne s'applique dès la première action."
+      ],
+      "primarySourceId": "S07",
+      "supportingSourceIds": [
+        "S08",
+        "S09"
+      ],
+      "sourceUrl": "https://www.airliquide.com/sites/airliquide.com/files/2026-03/fiche-pratique-mode-de-detention-2026.pdf",
+      "evidenceGrade": "A",
+      "uncertainty": null
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Air Liquide possède-t-il un club ou un Cercle des Actionnaires ?",
+      "answer": "Aucun club ou « Cercle des Actionnaires » à adhésion générale n'est identifié dans l'offre officielle actuelle. Air Liquide présente plutôt une Prime de Fidélité et des avantages liés au mode de détention. Le Comité de Communication auprès des Actionnaires n'est pas un club: il réunit 12 actionnaires sélectionnés pour travailler sur la communication. Le Carré des Actionnaires est un lieu d'accueil sur rendez-vous.",
+      "sourceIds": [
+        "S01",
+        "S10",
+        "S11",
+        "S16"
+      ]
+    },
+    {
+      "question": "Comment rendre des actions Air Liquide éligibles à la Prime de Fidélité ?",
+      "answer": "Les actions doivent être au nominatif pur chez Air Liquide ou au nominatif administré dans une banque, puis être conservées plus de deux années civiles pleines. Pour des titres achetés en 2026, la conversion devait être effective avant le 29 décembre 2026 afin de viser la prime à partir de 2029; Air Liquide recommandait d'engager la démarche auprès de la banque au plus tard en novembre.",
+      "sourceIds": [
+        "S02",
+        "S08",
+        "S12",
+        "S17"
+      ]
+    },
+    {
+      "question": "Quel dividende majoré a été payé par Air Liquide en 2026 ?",
+      "answer": "Le dividende approuvé le 5 mai 2026 et mis en paiement le 20 mai 2026 était de 3,70 euros par action ordinaire et de 4,07 euros par action bénéficiant de la Prime de Fidélité. La majoration est donc de 10 %. Elle est automatique pour les actions nominatives éligibles, dans la limite légale de 0,5 % du capital par actionnaire.",
+      "sourceIds": [
+        "S05",
+        "S06",
+        "S17"
+      ]
+    },
+    {
+      "question": "Quelles étaient les conditions de l'attribution d'Actions Gratuites du 10 juin 2026 ?",
+      "answer": "L'opération approuvée le 5 mai 2026 attribuait une action gratuite pour 10 détenues à tous les actionnaires, quel que soit leur mode de détention. Pour qu'un nouvel achat soit comptabilisé, l'ordre devait être exécuté au plus tard le 5 juin 2026 à la clôture. Un solde inférieur à 10 ou non multiple de 10 génère un rompu payé en numéraire.",
+      "sourceIds": [
+        "S04",
+        "S05"
+      ]
+    },
+    {
+      "question": "Comment fonctionne la majoration de fidélité sur les Actions Gratuites ?",
+      "answer": "Les actions au nominatif éligibles donnent droit à 10 % d'Actions Gratuites supplémentaires. Lors d'une opération à raison de 1 pour 10, 100 actions éligibles donnent donc 10 actions au titre de la parité générale et une action supplémentaire au titre de la Prime de Fidélité. Avec moins de 100 actions éligibles, la fraction de majoration est réglée comme un rompu.",
+      "sourceIds": [
+        "S02",
+        "S04",
+        "S06"
+      ]
+    },
+    {
+      "question": "Quels coûts et quelles contraintes accompagnent le nominatif pur ?",
+      "answer": "Chez Air Liquide, les droits de garde et frais de gestion sont gratuits. Le courtage est de 0,10 % HT en ligne et de 0,15 % HT par les autres canaux, sans forfait minimum. En revanche, Air Liquide ne propose pas de PEA au nominatif pur et la banque d'origine peut facturer le transfert. Pour conserver un PEA, il faut rester dans la banque et demander le nominatif administré.",
+      "sourceIds": [
+        "S07",
+        "S08",
+        "S17"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "L'action ordinaire Air Liquide est cotée sur Euronext Paris sous le symbole AI, porte l'ISIN FR0000120073 et appartient au CAC 40.",
+      "status": "verified",
+      "sourceIds": [
+        "S13",
+        "S14"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C02",
+      "statement": "Aucun club ou Cercle des Actionnaires à adhésion générale n'est présenté dans les sources officielles actuelles d'Air Liquide.",
+      "status": "partially_verified",
+      "sourceIds": [
+        "S01",
+        "S09",
+        "S10",
+        "S11",
+        "S16"
+      ],
+      "notes": "Constat négatif fondé sur l'offre actionnaires, le Guide 2026 et les dispositifs officiellement nommés. Le CCA et le Carré des Actionnaires sont documentés séparément et ne constituent pas un club d'avantages."
+    },
+    {
+      "id": "C03",
+      "statement": "La Prime de Fidélité majore de 10 % le dividende et le nombre d'Actions Gratuites pour les titres au nominatif détenus plus de deux années civiles pleines.",
+      "status": "verified",
+      "sourceIds": [
+        "S02",
+        "S06"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C04",
+      "statement": "Le dividende payé le 20 mai 2026 était de 3,70 euros par action et de 4,07 euros par action bénéficiant de la Prime de Fidélité.",
+      "status": "verified",
+      "sourceIds": [
+        "S05",
+        "S17"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C05",
+      "statement": "La 33e attribution d'Actions Gratuites a été fixée au 10 juin 2026 à raison d'une action gratuite pour 10 détenues.",
+      "status": "verified",
+      "sourceIds": [
+        "S04",
+        "S05"
+      ],
+      "notes": "Fait vérifié au 9 juin 2026, soit la veille de l'opération."
+    },
+    {
+      "id": "C06",
+      "statement": "L'attribution générale du 10 juin 2026 concerne le porteur, le nominatif administré et le nominatif pur; le dernier jour d'exécution d'un nouvel achat éligible était le 5 juin 2026.",
+      "status": "verified",
+      "sourceIds": [
+        "S04",
+        "S05"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C07",
+      "statement": "Au nominatif pur, Air Liquide ne facture ni droits de garde ni frais de gestion et applique un courtage de 0,10 % HT en ligne ou 0,15 % HT par les autres canaux, sans minimum.",
+      "status": "verified",
+      "sourceIds": [
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C08",
+      "statement": "Air Liquide ne propose pas de PEA au nominatif pur, mais les titres d'un PEA bancaire peuvent être convertis au nominatif administré.",
+      "status": "verified",
+      "sourceIds": [
+        "S07",
+        "S08",
+        "S17"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C09",
+      "statement": "Le Comité de Communication auprès des Actionnaires compte 12 membres sélectionnés, exige au moins une action et prévoit sa prochaine campagne de recrutement à l'été 2027.",
+      "status": "verified",
+      "sourceIds": [
+        "S10",
+        "S11"
+      ],
+      "notes": "Le règlement précise que les membres ne sont pas rémunérés; seuls leurs frais de déplacement liés au Comité sont dédommagés."
+    },
+    {
+      "id": "C10",
+      "statement": "Pour des titres acquis en 2026, la date opérationnelle officielle retenue pour viser la Prime de Fidélité en 2029 est le 29 décembre 2026.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S08",
+        "S12",
+        "S17"
+      ],
+      "notes": "La conversion peut prendre plusieurs semaines; la Fiche Pratique conseille une demande à la banque au plus tard en novembre."
+    },
+    {
+      "id": "C11",
+      "statement": "Le nombre de titres bénéficiant des majorations de fidélité est limité à 0,5 % du capital de la Société pour un même actionnaire.",
+      "status": "verified",
+      "sourceIds": [
+        "S06"
+      ],
+      "notes": null
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "Il suffit de détenir une action pour adhérer à un club ou Cercle des Actionnaires Air Liquide.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01",
+        "S10",
+        "S11",
+        "S16"
+      ]
+    },
+    {
+      "claim": "Le Comité de Communication auprès des Actionnaires est le club d'avantages d'Air Liquide.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S10",
+        "S11"
+      ]
+    },
+    {
+      "claim": "Le Carré des Actionnaires est un cercle auquel les actionnaires doivent adhérer.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S16"
+      ]
+    },
+    {
+      "claim": "Les réunions en région, conférences, visites de sites et communications actionnaires constituent des avantages garantis avec des conditions d'accès établies.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S12",
+        "S16"
+      ]
+    },
+    {
+      "claim": "La participation à l'Assemblée Générale et le droit de vote sont des avantages du programme actionnaires.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S06"
+      ]
+    },
+    {
+      "claim": "Air Liquide réinvestit automatiquement les dividendes en actions.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S17"
+      ]
+    },
+    {
+      "claim": "Le nominatif est obligatoire pour recevoir l'attribution générale d'Actions Gratuites du 10 juin 2026.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S04",
+        "S05"
+      ]
+    },
+    {
+      "claim": "Air Liquide attribue chaque année une action gratuite pour 10 détenues.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "claim": "Deux années au nominatif confèrent automatiquement un droit de vote double chez Air Liquide.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S06"
+      ]
+    },
+    {
+      "claim": "Le dividende ordinaire versé à tous les actionnaires est en lui-même un avantage de club.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S05"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.airliquide.com/fr/actionnaires/avantages",
+      "title": "Je profite de mes avantages",
+      "publisher": "Air Liquide",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle actuelle décrivant la Prime de Fidélité, le calendrier 2026-2029, l'attribution du 10 juin 2026, les rompus et les conditions financières du nominatif pur."
+    },
+    {
+      "id": "S02",
+      "url": "https://www.airliquide.com/sites/airliquide.com/files/2026-03/fiche-pratique-prime-de-fidelite-2026.pdf",
+      "title": "Fiche Pratique n°3 - Prime de Fidélité 2026",
+      "publisher": "Air Liquide",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2026-03-20",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Fiche 2026 datée par le calendrier officiel, précisant la majoration de 10 %, les trois conditions, l'automaticité, la date du 29 décembre 2026 et l'éligibilité à partir de 2029."
+    },
+    {
+      "id": "S03",
+      "url": "https://www.airliquide.com/sites/airliquide.com/files/2026-03/fiche-pratique-les-actions-gratuites-2026.pdf",
+      "title": "Fiche Pratique n°5 - Les Actions Gratuites 2026",
+      "publisher": "Air Liquide",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2026-03-20",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Fiche 2026 expliquant la parité de 1 pour 10, l'accès dans tous les modes de détention, la majoration de fidélité, les rompus et leur non-fongibilité; son statut pré-AG est dépassé par la décision du 5 mai."
+    },
+    {
+      "id": "S04",
+      "url": "https://www.airliquide.com/fr/attribution-actions-gratuites",
+      "title": "Attribution d'Actions Gratuites",
+      "publisher": "Air Liquide",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page opérationnelle actuelle précisant le 10 juin 2026, la parité de 1 pour 10, le dernier ordre le 5 juin, les bénéficiaires, la majoration de 10 % et le traitement des rompus."
+    },
+    {
+      "id": "S05",
+      "url": "https://www.airliquide.com/fr/assemblee-generale-des-actionnaires-2026",
+      "title": "Assemblée Générale des Actionnaires 2026",
+      "publisher": "Air Liquide",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": "2026-05-05",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Compte rendu officiel daté confirmant le dividende de 3,70 euros, le dividende majoré de 4,07 euros et l'attribution approuvée d'une action pour 10 le 10 juin 2026."
+    },
+    {
+      "id": "S06",
+      "url": "https://www.airliquide.com/sites/airliquide.com/files/2026-05/13-05-2026-statuts-mai-2026.pdf",
+      "title": "Statuts d'Air Liquide mis à jour au 5 mai 2026",
+      "publisher": "Air Liquide",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2026-05-05",
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Texte statutaire certifié définissant la majoration de 10 % du dividende, la majoration des attributions gratuites, les dates de conservation, le plafond de 0,5 % du capital et l'absence de droit de vote double."
+    },
+    {
+      "id": "S07",
+      "url": "https://www.airliquide.com/sites/airliquide.com/files/2026-03/fiche-pratique-mode-de-detention-2026.pdf",
+      "title": "Fiche Pratique n°1 - Trois façons de détenir vos actions Air Liquide",
+      "publisher": "Air Liquide",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2026-03-20",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Comparatif 2026 des modes de détention, des droits à prime, des frais gratuits au nominatif pur, des taux de courtage, du PEA et des codes ISIN d'ancienneté."
+    },
+    {
+      "id": "S08",
+      "url": "https://www.airliquide.com/sites/airliquide.com/files/2026-03/fiche-pratique-inscription-au-nominatif-2026.pdf",
+      "title": "Fiche Pratique n°2 - Inscription au nominatif 2026",
+      "publisher": "Air Liquide",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2026-03-20",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Procédure officielle de conversion et de transfert, frais bancaires possibles, délai de plusieurs semaines, échéance du 29 décembre 2026 et tarifs du nominatif pur."
+    },
+    {
+      "id": "S09",
+      "url": "https://www.airliquide.com/fr/actionnaires/devenir-actionnaire-air-liquide",
+      "title": "Devenir Actionnaire d'Air Liquide",
+      "publisher": "Air Liquide",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page actuelle présentant l'ouverture de compte, les données actionnariales à fin 2025, la prime de 10 %, le courtage de 0,10 % HT dès la première action et l'opération 2026."
+    },
+    {
+      "id": "S10",
+      "url": "https://www.airliquide.com/fr/actionnaires/comite-communication-actionnaires",
+      "title": "Comité de Communication auprès des Actionnaires",
+      "publisher": "Air Liquide",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page actuelle distinguant le CCA d'un club: 12 membres nommés pour trois ans, une action minimum, participation active et prochaine campagne de recrutement à l'été 2027."
+    },
+    {
+      "id": "S11",
+      "url": "https://www.airliquide.com/sites/airliquide.com/files/2024-07/reglement-du-comite-de-communication-aupres-des-actionnaires-d-air-liquide-cca.pdf",
+      "title": "Règlement du Comité de Communication auprès des Actionnaires",
+      "publisher": "Air Liquide",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": "2024-07",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Règlement officiel lié depuis la page actuelle: composition, seuil d'une action, justificatif pour le porteur, sélection, mandat, obligations, absence de rémunération et dédommagement des déplacements."
+    },
+    {
+      "id": "S12",
+      "url": "https://www.airliquide.com/fr/histoires/actionnariat/calendrier-de-lactionnaire-les-temps-forts-de-2026",
+      "title": "Calendrier de l'Actionnaire : les temps forts de 2026",
+      "publisher": "Air Liquide",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": "2026-04-17",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Calendrier officiel daté donnant les publications 2026, les réunions en région et surtout l'échéance du 29 décembre 2026, avec report à 2030 pour les achats des 30 et 31 décembre."
+    },
+    {
+      "id": "S13",
+      "url": "https://www.airliquide.com/fr/actionnaires/action-air-liquide",
+      "title": "L'action Air Liquide",
+      "publisher": "Air Liquide",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Fiche signalétique officielle au 31 décembre 2025: Euronext Paris, ISIN FR0000120073, poids dans le CAC 40 et description actuelle du Groupe."
+    },
+    {
+      "id": "S14",
+      "url": "https://live.euronext.com/en/product/equities/FR0000120073-XPAR",
+      "title": "AIR LIQUIDE - FR0000120073 - Euronext Paris",
+      "publisher": "Euronext",
+      "sourceType": "official_partner",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "C",
+      "evidenceSummary": "Fiche de l'opérateur de marché confirmant l'émetteur, l'ISIN FR0000120073, le marché Euronext Paris et le symbole AI dans les informations réglementées associées."
+    },
+    {
+      "id": "S15",
+      "url": "https://www.airliquide.com/sites/airliquide.com/files/2026-01/air-liquide-conditions-generales-2026.pdf",
+      "title": "Conditions générales du compte-titres au nominatif pur Air Liquide 2026",
+      "publisher": "Air Liquide et Uptevia",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": "2026-01",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Conditions 2026 précisant le mandat d'Uptevia, les types de titulaires, les justificatifs d'identité et de domicile, les coordonnées d'envoi et les contrôles réglementaires du compte."
+    },
+    {
+      "id": "S16",
+      "url": "https://www.airliquide.com/fr/actionnaires/actionnariat-pratique",
+      "title": "L'actionnariat en pratique",
+      "publisher": "Air Liquide",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page de services et contacts précisant les horaires, numéros, adresse postale et le Carré des Actionnaires, qui est un accueil sur rendez-vous au 75 quai d'Orsay."
+    },
+    {
+      "id": "S17",
+      "url": "https://www.airliquide.com/fr/aide/dividende",
+      "title": "Dividende - Aide Actionnaires",
+      "publisher": "Air Liquide",
+      "sourceType": "official_faq",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "FAQ officielle confirmant les modes nominatifs, les deux années civiles pleines, l'échéance du 29 décembre 2026 pour 2029 et l'absence de réinvestissement automatique du dividende."
+    },
+    {
+      "id": "S18",
+      "url": "https://www.airliquide.com/fr/actionnaires/acheter-actions",
+      "title": "J'achète des actions",
+      "publisher": "Air Liquide",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page actuelle comparant les modes de détention et les frais; une transcription y emploie encore l'expression générale « avant le 31 décembre », moins précise que les documents 2026 fixant le 29 décembre."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Date limite 2026 pour inscrire les titres au nominatif",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S08",
+        "S12",
+        "S17",
+        "S18"
+      ],
+      "positions": [
+        "Les pages et fiches opérationnelles 2026 fixent une conversion effective avant le 29 décembre 2026 pour bénéficier de la Prime de Fidélité à partir de 2029.",
+        "La transcription de la page « J'achète des actions » emploie la formule moins précise « avant le 31 décembre »."
+      ],
+      "resolution": "Retenir le 29 décembre 2026, date précise répétée dans les Fiches Pratiques 2026, la FAQ dividende et le calendrier publié le 17 avril 2026. La Fiche n°2 conseille de demander la conversion à la banque au plus tard en novembre.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Dernier jour de conservation pour la majoration des Actions Gratuites",
+      "sourceIds": [
+        "S02",
+        "S04",
+        "S06"
+      ],
+      "positions": [
+        "La page opérationnelle indique que l'actionnaire doit être encore détenteur le jour de l'attribution.",
+        "La Fiche Prime de Fidélité et les statuts mis à jour au 5 mai 2026 indiquent une conservation jusqu'à la veille de l'attribution."
+      ],
+      "resolution": "Employer la formulation statutaire « jusqu'à la veille de la date d'attribution », tout en indiquant qu'aucune cession ne doit compromettre l'éligibilité opérationnelle. Le conflit ne modifie ni la parité ni l'ancienneté.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Caractère conditionnel ou approuvé de l'attribution du 10 juin 2026",
+      "sourceIds": [
+        "S03",
+        "S05"
+      ],
+      "positions": [
+        "La Fiche Pratique publiée en mars 2026 présentait l'opération comme prévue sous réserve de la décision de l'Assemblée Générale.",
+        "La page de l'Assemblée Générale du 5 mai 2026 confirme l'approbation de l'opération et sa réalisation le 10 juin 2026."
+      ],
+      "resolution": "Retenir la source postérieure du 5 mai 2026: au 9 juin 2026, l'opération est approuvée et prévue pour le lendemain.",
+      "impact": "none"
+    }
+  ],
+  "handoff": {
+    "researchStatus": "complete_with_uncertainties",
+    "readyForDevelopment": true,
+    "benefitCount": 5,
+    "faqCount": 6,
+    "blockingIssues": [],
+    "developerNotes": [
+      "Ne pas créer de club dans le dossier final: company.clubName et company.clubUrl restent null.",
+      "Conserver eligibility.globalMinimumShares à null; le seuil d'une action du CCA ne doit pas devenir un seuil global, car le CCA n'est pas le programme d'avantages.",
+      "Garder séparés le dividende majoré, l'attribution générale du 10 juin 2026 et la majoration de fidélité des Actions Gratuites.",
+      "La recherche est arrêtée au 9 juin 2026, veille de l'attribution. B02 et B03 portent donc une date de fin au 10 juin 2026.",
+      "Ne pas transformer le CCA, le Carré des Actionnaires, l'Assemblée Générale, les réunions régionales, les publications ou l'Espace Actionnaire en bénéfices.",
+      "Pour les Actions Gratuites, préserver les seuils de 10 et 100 actions pour une action entière et expliquer que les fractions donnent lieu à un rompu en numéraire.",
+      "La formulation juridique retenue pour la conservation des titres majorés est celle des statuts: jusqu'à la veille de l'attribution."
+    ]
+  }
+}

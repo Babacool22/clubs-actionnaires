@@ -1,0 +1,81 @@
+{
+  "slug": "repsol",
+  "name": "Repsol",
+  "description": "Repsol est un groupe énergétique mondial actif dans l'exploration et la production, l'industrie, les carburants, l'électricité et le gaz, les renouvelables et les solutions de mobilité. Son action ordinaire, identifiée par le symbole REP à Madrid, appartient à l'indice IBEX 35.",
+  "sector": "Énergie",
+  "stockIndex": "IBEX 35",
+  "ticker": "REP",
+  "website": "https://www.repsol.com/",
+  "minShares": 1,
+  "lastVerifiedAt": "2026-06-09",
+  "benefits": [
+    {
+      "type": "reduction",
+      "title": "Extra actionnaire en solde Waylet sur le carburant",
+      "description": "À partir de 50 actions, le membre reçoit sur ses ravitaillements un solde Waylet additionnel propre à son niveau d'actionnariat: 1, 2, 3 ou 4 centimes par litre. Seul cet extra est spécifique aux actionnaires; le solde de base lié aux contrats et services Repsol est une offre client ordinaire.",
+      "value": "+1 c€/L de 50 à 849 actions; +2 c€/L de 850 à 2 499; +3 c€/L de 2 500 à 12 499; +4 c€/L à partir de 12 500",
+      "requiredShares": 50,
+      "sourceUrl": "https://www.repsol.com/es/accionistas-inversores/club-accionistas/descuentos-accionistas/index.cshtml"
+    },
+    {
+      "type": "evenement",
+      "title": "Événements informatifs et de loisirs réservés",
+      "description": "Repsol organise périodiquement pour les utilisateurs d'En acción des événements informatifs ou de loisirs. Les dates et modalités d'inscription sont publiées dans l'espace privé, et aucune place n'est garantie.",
+      "value": null,
+      "requiredShares": 1,
+      "sourceUrl": "https://www.repsol.com/es/registro/condiciones/en-accion/index.cshtml"
+    },
+    {
+      "type": "cadeau",
+      "title": "Promotions et tirages ponctuels avec lots",
+      "description": "Les membres d'En acción qui conservent leur qualité d'actionnaire peuvent participer aux promotions et tirages ponctuels proposés par Repsol. Des tirages de billets de concerts, festivals ou événements sportifs sont annoncés comme récurrents, mais tout gain reste aléatoire.",
+      "value": "Aucun lot garanti; nature et valeur fixées par chaque règlement",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.repsol.com/es/registro/condiciones/en-accion/index.cshtml"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Le Club d'actionnaires En acción est-il actif au 9 juin 2026 ?",
+      "answer": "Oui. Repsol publie une page de Club mise à jour en mars 2026, des conditions d'adhésion actives, une page de remises mise à jour en avril 2026 et son rapport de gouvernement d'entreprise 2025 décrit encore En acción comme un club auquel les actionnaires individuels adhèrent volontairement."
+    },
+    {
+      "question": "Combien d'actions Repsol faut-il détenir pour rejoindre En acción ?",
+      "answer": "Les conditions autorisent toute personne physique majeure détenant n'importe quel nombre d'actions Repsol inscrites à son nom dans IBERCLEAR. Dans le schéma numérique du dossier, cela correspond à un minimum global d'une action. Le seuil de 50 actions concerne les avantages Waylet, pas l'adhésion au Club."
+    },
+    {
+      "question": "Quels sont les niveaux actionnaires et leur extra carburant Waylet ?",
+      "answer": "ONE couvre 50 à 849 actions et ajoute 1 c€/L; PLUS, 850 à 2 499 actions, ajoute 2 c€/L; PREMIUM, 2 500 à 12 499 actions, ajoute 3 c€/L; PLATINUM, à partir de 12 500 actions, ajoute 4 c€/L. Il s'agit de l'extra actionnaire, distinct du solde client ordinaire."
+    },
+    {
+      "question": "Comment activer les avantages Waylet réservés aux actionnaires ?",
+      "answer": "Il faut avoir au moins 50 actions, être inscrit à En acción et à Waylet avec le même NIF et la même adresse électronique, et faire apparaître les actions au nom du titulaire dans IBERCLEAR. Si Waylet existe déjà, les mêmes identifiants servent à entrer dans le Club et à accepter ses conditions."
+    },
+    {
+      "question": "Un actionnaire résidant hors d'Espagne peut-il utiliser les avantages ?",
+      "answer": "Repsol ne publie pas de condition générale de résidence pour adhérer et fournit un numéro de contact depuis l'étranger. Toutefois, les titres doivent être nominatifs dans IBERCLEAR et l'extra Waylet exige un NIF concordant. La page publique ne confirme pas la génération de l'extra carburant hors du réseau espagnol."
+    },
+    {
+      "question": "Les événements et tirages sont-ils garantis ou ouverts en permanence ?",
+      "answer": "Non. Les événements ont des places limitées et l'ordre d'inscription n'oblige pas Repsol. Les tirages sont ponctuels et régis par des bases particulières publiées dans l'espace privé. Au 9 juin 2026, aucune campagne actionnaire avec règlement public et inscriptions encore ouvertes n'a été identifiée."
+    }
+  ],
+  "sources": [
+    "https://www.repsol.com/es/accionistas-inversores/club-accionistas/descuentos-accionistas/index.cshtml",
+    "https://www.repsol.com/es/registro/condiciones/en-accion/index.cshtml",
+    "https://www.repsol.com/en/about-us/index.cshtml",
+    "https://www.repsol.com/es/accionistas-inversores/informacion-bursatil/datos-de-la-accion/index.cshtml",
+    "https://www.repsol.com/es/accionistas-inversores/club-accionistas/index.cshtml",
+    "https://www.repsol.com/en/shareholders-and-investors/shareholders-club/shareholder-discounts/index.cshtml",
+    "https://www.repsol.com/es/accionistas-inversores/club-accionistas/como-activo-mi-cuenta-en-accion/index.cshtml",
+    "https://www.repsol.com/content/dam/repsol-corporate/es/accionistas-e-inversores/informes-anuales/2025/informe-anual-gobierno-corporativo.pdf",
+    "https://www.repsol.com/es/accionistas-inversores/club-accionistas/actualidad-en-accion/club-accionistas/ser-accionista-repsol-rentabilidad-ventajas-diarias/index.cshtml",
+    "https://www.repsol.com/es/accionistas-inversores/club-accionistas/comite-consultivo/index.cshtml",
+    "https://www.repsol.es/particulares/faqs/waylet/el-saldo-acumulado-en-waylet-caduca/",
+    "https://www.repsol.es/particulares/faqs/waylet/hay-limite-saldo/",
+    "https://www.repsol.com/es/sala-prensa/notas-prensa/2026/repsol-amplia-hasta-31-mayo-descuentos-combustibles-waylet/index.cshtml",
+    "https://www.repsol.com/es/sala-prensa/notas-prensa/2025/repsol-sortea-10-000-euros-diarios-entre-los-clientes-que-repost/index.cshtml"
+  ],
+  "clubName": "En acción",
+  "clubUrl": "https://www.repsol.com/es/accionistas-inversores/club-accionistas/index.cshtml"
+}

@@ -1,0 +1,108 @@
+{
+  "slug": "generali",
+  "name": "Assicurazioni Generali",
+  "description": "Assicurazioni Generali S.p.A. est un groupe italien coté, actif dans l'assurance, la gestion d'actifs et les services financiers. Son action ordinaire, code G et ISIN IT0000062072, est négociée sur Euronext Milan et appartient notamment à l'indice FTSE MIB.",
+  "sector": "Assurance & Finance",
+  "stockIndex": "FTSE MIB",
+  "ticker": "G",
+  "website": "https://www.generali.com",
+  "clubName": "Generali Shareholders' Club",
+  "clubUrl": "https://www.generali.com/investors/shareholders-club",
+  "minShares": 1,
+  "lastVerifiedAt": "2026-06-09",
+  "benefits": [
+    {
+      "type": "reduction",
+      "title": "Tarif actionnaire pour l'exposition Robert Doisneau à Rome",
+      "description": "Du 5 mars au 19 juillet 2026, les membres inscrits peuvent activer l'initiative dans le portail du Club, puis présenter à la billetterie la communication nominative reçue afin d'acheter un billet à 12 € au lieu du plein tarif de 15 €. L'offre est personnelle, non transférable et soumise aux créneaux et places disponibles. Le nombre maximal de billets et le cumul avec d'autres tarifs ne sont pas publiés. Generali Italia annonce 25 %, mais les montants de l'organisateur correspondent à une baisse de 20 %; le tarif fixe de 12 € est donc la valeur opérationnelle retenue.",
+      "value": "12 € au lieu de 15 €",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.generali.it/le-nostre-iniziative/robert-doisneau/"
+    },
+    {
+      "type": "reduction",
+      "title": "Réduction sur le Festival della Bellezza 2026",
+      "description": "Du 4 mai à octobre 2026, les membres inscrits peuvent obtenir environ 20 % de réduction sur les billets des événements éligibles du Festival della Bellezza en activant l'initiative dans le portail du Club et en suivant la communication reçue; une preuve d'activation doit être présentée à la billetterie lorsque ce canal est disponible. Les événements de Piazza San Marco à Venise sont exclus. L'offre est personnelle, non transférable et soumise aux places disponibles, aux mises en vente, reports ou annulations. La date finale exacte, la grille de tarifs par événement et la procédure pour les ventes uniquement en ligne ne sont pas publiées.",
+      "value": "Environ 20 %",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.generali.it/le-nostre-iniziative/il-festival-della-bellezza/"
+    },
+    {
+      "type": "reduction",
+      "title": "Réduction pour l'exposition Nino Springolo à Trévise",
+      "description": "Du 14 mars au 1er novembre 2026, les membres inscrits peuvent activer l'initiative dans le portail du Club, puis présenter à la billetterie la communication reçue pour obtenir 20 % de réduction sur l'exposition Nino Springolo et « I due compagni » au Museo Bailo. L'offre est personnelle, non transférable et soumise aux horaires et à la capacité du musée. Le nombre maximal de billets et le cumul avec d'autres tarifs ne sont pas publiés. Le musée affiche 10 € en plein tarif et un tarif réduit générique de 8 €, sans identifier publiquement ce dernier comme le tarif actionnaire Generali.",
+      "value": "20 %; 8 € sur la base du plein tarif actuel de 10 €",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.generali.it/le-nostre-iniziative/nino-springolo/"
+    },
+    {
+      "type": "reduction",
+      "title": "Tarif actionnaire pour l'exposition Hokusai à Rome",
+      "description": "Du 27 mars au 29 juin 2026, les membres inscrits peuvent activer l'initiative dans le portail du Club, puis présenter à la billetterie la communication nominative reçue afin d'acheter un billet à 15 € au lieu du plein tarif de 17 €. L'offre est personnelle, non transférable et soumise aux places disponibles. La prévente est recommandée par l'organisateur, alors que la procédure publique du Club prévoit une présentation en billetterie; le nombre maximal de billets et le cumul avec d'autres tarifs ne sont pas publiés. Generali Italia annonce 15 %, mais les montants actuels correspondent à environ 11,8 %.",
+      "value": "15 € au lieu de 17 €",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.generali.it/le-nostre-iniziative/hokusaii-il-grande-maestro-dell-arte-giapponese/"
+    },
+    {
+      "type": "reduction",
+      "title": "Tarif actionnaire pour l'exposition M.C. Escher à Padoue",
+      "description": "Du 18 février au 19 juillet 2026, les membres inscrits peuvent activer l'initiative dans le portail du Club, puis présenter à la billetterie la communication nominative reçue afin d'acheter un billet à 14 € au lieu du plein tarif de 16 €. L'offre est personnelle, non transférable et soumise aux places disponibles. Le nombre maximal de billets et le cumul avec d'autres tarifs ne sont pas publiés. Generali Italia annonce 15 %, mais les montants actuels correspondent à une baisse de 12,5 %; le tarif fixe de 14 € est donc la valeur opérationnelle retenue.",
+      "value": "14 € au lieu de 16 €",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.generali.it/le-nostre-iniziative/escher-tutti-i-capolavori/"
+    },
+    {
+      "type": "service",
+      "title": "Accès réservé à l'initiative d'achat Leone Alato",
+      "description": "Les membres inscrits disposent d'un accès réservé à une initiative d'achat Leone Alato sur une sélection de produits alimentaires et viticoles. La procédure publiée consiste à ouvrir la page dédiée au Club et à saisir le code TOPSHAREHOLDERS lors du paiement. La marque DUEMANI est exclue et l'accès dépend des produits disponibles ainsi que des pays desservis par la boutique. Aucune date de début ou de fin, capacité, valeur économique, remise ni gratuité de livraison propre aux actionnaires n'est publiée; ces éléments ne sont donc pas promis.",
+      "value": null,
+      "requiredShares": 1,
+      "sourceUrl": "https://ecommerce.leonealato.net/gb/gbp/it/share_holders_top"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Combien d'actions faut-il détenir pour rejoindre le Club des actionnaires Generali ?",
+      "answer": "Le Generali Shareholders' Club est un club formel régi par un règlement. Une action ordinaire Assicurazioni Generali, ISIN IT0000062072, suffit pour l'adhésion d'une personne physique majeure. Le règlement admet aussi le représentant légal ou l'associé de contrôle d'une entité actionnaire, à condition que cette entité réponde aux critères de PME de Generali: moins de 250 salariés et au plus 50 millions d'euros de chiffre d'affaires annuel ou 43 millions d'euros de total de bilan."
+    },
+    {
+      "question": "Comment s'inscrire et faut-il toujours fournir une attestation du courtier ?",
+      "answer": "L'inscription se fait sur le portail du Club. Une personne physique choisit son profil, renseigne notamment son identité, son code fiscal, son téléphone et son adresse électronique, saisit le code à six chiffres reçu par courriel, valide le captcha puis le code reçu par SMS. L'attestation de l'intermédiaire n'est pas systématique si Generali retrouve l'actionnaire dans son registre; elle est demandée si le registre n'est pas à jour ou si Generali l'exige. Pour une entité, il faut aussi envoyer au support l'attestation bancaire, l'auto-certification signée et l'extrait du registre de la société, puis attendre la validation."
+    },
+    {
+      "question": "L'adhésion au Shareholders' Club de Generali est-elle payante ou renouvelée chaque année ?",
+      "answer": "L'adhésion et la participation au Club sont gratuites et de durée indéterminée. Aucun renouvellement annuel n'est demandé, mais Generali contrôle chaque année, pendant la première semaine d'octobre, la détention constatée au 30 septembre et la catégorie du membre. Après un contrôle négatif, une attestation peut être fournie jusqu'au 30 octobre; sans justificatif recevable, la qualité de membre et l'accès aux initiatives cessent le 15 novembre."
+    },
+    {
+      "question": "Les avantages sont-ils identiques pour tous les membres du Club Generali ?",
+      "answer": "Pas nécessairement. Le règlement classe les membres selon leur nombre d'actions: Bronze en dessous de 1 000, Silver de 1 000 à 4 999, Gold de 5 000 à 49 999, Platinum de 50 000 à 99 999 et Diamond à partir de 100 000. Generali peut différencier les initiatives par catégorie. Les six offres publiques retenues visent les membres inscrits sans publier de seuil supérieur à une action, mais les éventuelles conditions supplémentaires affichées dans le portail réservé prévalent lors de l'activation."
+    },
+    {
+      "question": "Quels avantages concrets étaient disponibles au 9 juin 2026 ?",
+      "answer": "Les avantages vérifiables au 9 juin 2026 comprenaient des tarifs ou réductions pour les expositions Robert Doisneau, Hokusai, M.C. Escher et Nino Springolo, ainsi qu'environ 20 % sur les événements éligibles du Festival della Bellezza 2026. Les dates, capacités et divergences tarifaires sont précisées dans chaque offre. Une initiative d'achat Leone Alato était aussi accessible par un parcours réservé, mais aucune remise ni livraison gratuite spécifique aux actionnaires n'était prouvée."
+    },
+    {
+      "question": "Les partenaires cités par Generali garantissent-ils tous une remise permanente ?",
+      "answer": "Non. Generali cite notamment ARTE Generali, Banca Generali, Europ Assistance, Generali Italia, Generali Jeniot, Generali Welion, Leone Alato et The Human Safety Net, mais ces listes datées décrivent des collaborations et non une remise permanente chez chaque partenaire. Les conditions peuvent varier selon la catégorie du membre et être modifiées. La Barcolana57 de 2025 n'est pas présentée comme une offre active en 2026."
+    }
+  ],
+  "sources": [
+    "https://www.generali.com/investors/shareholders-club/regulations",
+    "https://www.generali.com/investors/shareholders-club",
+    "https://www.generali.com/investors/shareholders-club/FAQ",
+    "https://www.generali.com/doc/jcr%3A9694fb34-1e49-4aa2-879c-855d09d8468c/Manuale%20d%20Iscrizione%20Club%20degli%20Azionisti%20ITA.pdf/lang%3Ait/Manuale_d_Iscrizione_Club_degli_Azionisti_ITA.pdf",
+    "https://www.generali.it/le-nostre-iniziative/robert-doisneau/",
+    "https://www.generali.it/le-nostre-iniziative/il-festival-della-bellezza/",
+    "https://www.generali.it/le-nostre-iniziative/nino-springolo/",
+    "https://www.generali.it/le-nostre-iniziative/hokusaii-il-grande-maestro-dell-arte-giapponese/",
+    "https://www.generali.it/le-nostre-iniziative/escher-tutti-i-capolavori/",
+    "https://ecommerce.leonealato.net/gb/gbp/it/share_holders_top",
+    "https://festivalbellezza.it/ver/edizione-2026/",
+    "https://www.arthemisia.it/it/mostra-robert-doisneau-roma-informazioni/",
+    "https://www.arthemisia.it/it/mostra-hokusai-roma-informazioni/",
+    "https://www.arthemisia.it/it/mostra-escher-padova-informazioni/",
+    "https://www.museicivicitreviso.it/it/news-ed-eventi/news-ed-eventi/dettaglio/nino-springolo-e-i-due-compagni",
+    "https://www.borsaitaliana.it/borsa/azioni/scheda/IT0000062072-MTAA.html?lang=it",
+    "https://www.generali.com/doc/jcr%3A0ebd769b-e86f-4771-b114-466bbc66a620/Investor-s%20Info_Novembre2025_ENG_DIGITAL.pdf/lang%3Aen/Investor-s_Info_Novembre2025_ENG_DIGITAL.pdf"
+  ]
+}

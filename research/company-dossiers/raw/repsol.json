@@ -1,0 +1,772 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "repsol",
+    "name": "Repsol",
+    "description": "Repsol est un groupe énergétique mondial actif dans l'exploration et la production, l'industrie, les carburants, l'électricité et le gaz, les renouvelables et les solutions de mobilité. Son action ordinaire, identifiée par le symbole REP à Madrid, appartient à l'indice IBEX 35.",
+    "sector": "Énergie",
+    "stockIndex": "IBEX 35",
+    "ticker": "REP",
+    "website": "https://www.repsol.com/",
+    "clubName": "En acción",
+    "clubUrl": "https://www.repsol.com/es/accionistas-inversores/club-accionistas/index.cshtml"
+  },
+  "offerClassification": {
+    "primaryKind": "shareholder_club",
+    "otherKinds": [
+      "shareholder_program",
+      "shareholder_benefit",
+      "investor_relations_only"
+    ],
+    "officialProgrammeName": "En acción",
+    "status": "active",
+    "statusReason": "Au 9 juin 2026, Repsol maintient un club formel à adhésion volontaire, un portail d'inscription, des conditions de service actuelles et une page de remises actionnaires mise à jour en avril 2026.",
+    "sourceIds": [
+      "S03",
+      "S04",
+      "S05",
+      "S08"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": 1,
+    "eligibleShareClasses": [
+      "Actions ordinaires Repsol, S.A. inscrites au nom de la personne physique dans les registres comptables d'IBERCLEAR"
+    ],
+    "holdingModes": [
+      "broker_account",
+      "registered_administered"
+    ],
+    "minimumHoldingPeriod": null,
+    "residencyRestrictions": [
+      "Aucune condition générale de résidence n'est publiée pour adhérer à En acción.",
+      "La portée territoriale des événements et tirages dépend des conditions particulières accessibles dans l'espace privé.",
+      "La page publique de l'avantage Waylet ne précise pas si l'extra actionnaire peut être généré hors du réseau espagnol; aucune disponibilité en France ou dans un autre pays ne doit être affirmée."
+    ],
+    "accountRestrictions": [
+      "Le membre doit être une personne physique âgée d'au moins 18 ans.",
+      "Les actions doivent être inscrites au nom du titulaire dans IBERCLEAR; Repsol signale que certains courtiers en ligne ne communiquent pas systématiquement l'identité du titulaire.",
+      "Les avantages Waylet exigent au moins 50 actions et une inscription à En acción et à Waylet avec le même NIF et la même adresse électronique.",
+      "Les conditions publiques ne prévoient pas l'adhésion des personnes morales ni des titulaires d'ADR."
+    ],
+    "proofRequired": [
+      "Formulaire d'adhésion complété avec des informations exactes.",
+      "Vérification par Repsol de la qualité d'actionnaire et de l'inscription nominative dans IBERCLEAR.",
+      "Pour Waylet, concordance du NIF et de l'adresse électronique entre En acción et Waylet."
+    ],
+    "fees": {
+      "membershipFee": null,
+      "applicationFee": null,
+      "otherFees": [],
+      "notes": "Aucune cotisation ni aucuns frais de dossier ne sont publiés dans les conditions consultées, mais Repsol n'y formule pas explicitement une gratuité générale. Les frais de courtage et de conservation des titres restent extérieurs au Club."
+    },
+    "sourceIds": [
+      "S04",
+      "S05",
+      "S06",
+      "S07"
+    ]
+  },
+  "enrollment": {
+    "required": true,
+    "method": "online_form",
+    "applicationUrl": "https://accionistas.repsol.com/",
+    "contact": "Service actionnaires: 900 100 100 depuis l'Espagne; +34 91 050 9096 depuis l'étranger; infoaccionistas@repsol.com. Aide à l'activation: 900 10 46 70.",
+    "steps": [
+      "Détenir au moins une action ordinaire Repsol inscrite à son nom dans IBERCLEAR.",
+      "Accéder au portail actionnaires et créer ou utiliser sa Cuenta Repsol.",
+      "Compléter le formulaire d'adhésion à En acción et accepter les conditions du programme.",
+      "Attendre la vérification par Repsol de l'identité et de la qualité d'actionnaire.",
+      "Pour obtenir l'extra Waylet, disposer d'au moins 50 actions et utiliser dans Waylet le même NIF et la même adresse électronique."
+    ],
+    "processingTime": "Aucun délai général d'adhésion n'est publié. L'inscription du titulaire dans IBERCLEAR peut prendre jusqu'à une semaine après l'achat; un changement de niveau Waylet est appliqué 15 à 20 jours après la modification du nombre d'actions.",
+    "renewal": "Aucun renouvellement manuel n'est publié. La perte de la qualité d'actionnaire met fin aux avantages spéciaux; une Cuenta Repsol inutilisée pendant deux ans peut être supprimée avec les inscriptions aux services en ligne.",
+    "deadlines": [
+      "Aucune date limite générale d'adhésion au Club n'est publiée.",
+      "Les événements, promotions et tirages ont leurs propres dates d'inscription et conditions particulières dans l'espace privé."
+    ],
+    "sourceIds": [
+      "S04",
+      "S05",
+      "S07",
+      "S09"
+    ]
+  },
+  "benefits": [
+    {
+      "id": "B01",
+      "type": "reduction",
+      "title": "Extra actionnaire en solde Waylet sur le carburant",
+      "description": "À partir de 50 actions, le membre reçoit sur ses ravitaillements un solde Waylet additionnel propre à son niveau d'actionnariat: 1, 2, 3 ou 4 centimes par litre. Seul cet extra est spécifique aux actionnaires; le solde de base lié aux contrats et services Repsol est une offre client ordinaire.",
+      "value": "+1 c€/L de 50 à 849 actions; +2 c€/L de 850 à 2 499; +3 c€/L de 2 500 à 12 499; +4 c€/L à partir de 12 500",
+      "requiredShares": 50,
+      "requiredHoldingModes": [
+        "Actions inscrites au nom du titulaire dans IBERCLEAR",
+        "Compte En acción et compte Waylet avec le même NIF et la même adresse électronique"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "guaranteed",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "S'inscrire à En acción et faire vérifier son actionnariat.",
+        "S'inscrire à Waylet avec le même NIF et la même adresse électronique.",
+        "Payer le ravitaillement par Waylet selon les modalités affichées dans l'application.",
+        "Attendre 15 à 20 jours après une variation du nombre d'actions pour le changement automatique de niveau."
+      ],
+      "limitsAndExclusions": [
+        "L'extra actionnaire commence à 50 actions; l'adhésion au Club reste possible en dessous de ce seuil.",
+        "Les montants totaux de 6 à 24 c€/L affichés par Repsol incluent un solde client ordinaire de 5 à 20 c€/L et ne constituent pas intégralement un avantage actionnaire.",
+        "Les conditions publiques ne donnent ni liste exhaustive des carburants éligibles, ni plafond propre à l'extra actionnaire, ni portée géographique explicite.",
+        "Le solde Waylet suit les règles générales de Waylet et expire notamment en cas de résiliation ou d'absence de transaction pendant douze mois.",
+        "Repsol peut modifier ou supprimer les avantages sans droit à indemnisation, après information dans En acción."
+      ],
+      "primarySourceId": "S05",
+      "supportingSourceIds": [
+        "S04",
+        "S06",
+        "S09",
+        "S11",
+        "S12"
+      ],
+      "sourceUrl": "https://www.repsol.com/es/accionistas-inversores/club-accionistas/descuentos-accionistas/index.cshtml",
+      "evidenceGrade": "A",
+      "uncertainty": "La grille et les seuils sont actuels au 9 juin 2026, mais les conditions publiques ne précisent pas le territoire, les carburants exclus ni un éventuel plafond spécifique à l'extra actionnaire."
+    },
+    {
+      "id": "B02",
+      "type": "evenement",
+      "title": "Événements informatifs et de loisirs réservés",
+      "description": "Repsol organise périodiquement pour les utilisateurs d'En acción des événements informatifs ou de loisirs. Les dates et modalités d'inscription sont publiées dans l'espace privé, et aucune place n'est garantie.",
+      "value": null,
+      "requiredShares": 1,
+      "requiredHoldingModes": [
+        "Adhésion active à En acción",
+        "Maintien de la qualité d'actionnaire"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "subject_to_capacity",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Consulter les activités disponibles dans l'espace privé En acción.",
+        "Lire les conditions particulières de l'événement.",
+        "S'inscrire dans le délai indiqué selon la procédure publiée."
+      ],
+      "limitsAndExclusions": [
+        "Les places sont limitées.",
+        "L'ordre d'inscription peut être pris en compte, mais il ne lie pas Repsol.",
+        "Le territoire, les dates, l'âge éventuel des accompagnants et les frais annexes dépendent de chaque événement.",
+        "Repsol peut demander une autorisation révocable pour l'utilisation gratuite et sans durée définie de photographies ou vidéos prises pendant l'activité."
+      ],
+      "primarySourceId": "S04",
+      "supportingSourceIds": [
+        "S03",
+        "S09"
+      ],
+      "sourceUrl": "https://www.repsol.com/es/registro/condiciones/en-accion/index.cshtml",
+      "evidenceGrade": "A",
+      "uncertainty": "Aucun calendrier public complet ni événement encore réservable n'a pu être vérifié sans accès à l'espace privé au 9 juin 2026."
+    },
+    {
+      "id": "B03",
+      "type": "cadeau",
+      "title": "Promotions et tirages ponctuels avec lots",
+      "description": "Les membres d'En acción qui conservent leur qualité d'actionnaire peuvent participer aux promotions et tirages ponctuels proposés par Repsol. Des tirages de billets de concerts, festivals ou événements sportifs sont annoncés comme récurrents, mais tout gain reste aléatoire.",
+      "value": "Aucun lot garanti; nature et valeur fixées par chaque règlement",
+      "requiredShares": 1,
+      "requiredHoldingModes": [
+        "Adhésion active à En acción",
+        "Maintien de la qualité d'actionnaire",
+        "Respect des conditions particulières de la promotion"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "lottery",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Consulter la rubrique des tirages dans le menu Participa de l'espace privé ou la newsletter actionnaires.",
+        "Lire et accepter le règlement de la campagne concernée.",
+        "S'inscrire avant l'échéance et accomplir les formalités prévues.",
+        "En cas de sélection, respecter la procédure d'acceptation et de remise du lot."
+      ],
+      "limitsAndExclusions": [
+        "Les conditions particulières prévalent sur les conditions générales du Club.",
+        "Aucune campagne actionnaire avec règlement public et inscription encore ouverte n'a été identifiée au 9 juin 2026.",
+        "Le nombre d'actions, la résidence, le territoire, le nombre de participations, les dates et la fiscalité peuvent varier selon la campagne.",
+        "Les tirages Waylet ouverts à tous les clients ne sont pas inclus dans cet avantage."
+      ],
+      "primarySourceId": "S04",
+      "supportingSourceIds": [
+        "S09"
+      ],
+      "sourceUrl": "https://www.repsol.com/es/registro/condiciones/en-accion/index.cshtml",
+      "evidenceGrade": "A",
+      "uncertainty": "Les règlements détaillés sont annoncés dans l'espace privé. Aucun règlement public d'un tirage actionnaire encore ouvert n'a été trouvé à la date de référence."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Le Club d'actionnaires En acción est-il actif au 9 juin 2026 ?",
+      "answer": "Oui. Repsol publie une page de Club mise à jour en mars 2026, des conditions d'adhésion actives, une page de remises mise à jour en avril 2026 et son rapport de gouvernement d'entreprise 2025 décrit encore En acción comme un club auquel les actionnaires individuels adhèrent volontairement.",
+      "sourceIds": [
+        "S03",
+        "S04",
+        "S05",
+        "S08"
+      ]
+    },
+    {
+      "question": "Combien d'actions Repsol faut-il détenir pour rejoindre En acción ?",
+      "answer": "Les conditions autorisent toute personne physique majeure détenant n'importe quel nombre d'actions Repsol inscrites à son nom dans IBERCLEAR. Dans le schéma numérique du dossier, cela correspond à un minimum global d'une action. Le seuil de 50 actions concerne les avantages Waylet, pas l'adhésion au Club.",
+      "sourceIds": [
+        "S04",
+        "S05"
+      ]
+    },
+    {
+      "question": "Quels sont les niveaux actionnaires et leur extra carburant Waylet ?",
+      "answer": "ONE couvre 50 à 849 actions et ajoute 1 c€/L; PLUS, 850 à 2 499 actions, ajoute 2 c€/L; PREMIUM, 2 500 à 12 499 actions, ajoute 3 c€/L; PLATINUM, à partir de 12 500 actions, ajoute 4 c€/L. Il s'agit de l'extra actionnaire, distinct du solde client ordinaire.",
+      "sourceIds": [
+        "S04",
+        "S05",
+        "S06"
+      ]
+    },
+    {
+      "question": "Comment activer les avantages Waylet réservés aux actionnaires ?",
+      "answer": "Il faut avoir au moins 50 actions, être inscrit à En acción et à Waylet avec le même NIF et la même adresse électronique, et faire apparaître les actions au nom du titulaire dans IBERCLEAR. Si Waylet existe déjà, les mêmes identifiants servent à entrer dans le Club et à accepter ses conditions.",
+      "sourceIds": [
+        "S05",
+        "S06",
+        "S07"
+      ]
+    },
+    {
+      "question": "Un actionnaire résidant hors d'Espagne peut-il utiliser les avantages ?",
+      "answer": "Repsol ne publie pas de condition générale de résidence pour adhérer et fournit un numéro de contact depuis l'étranger. Toutefois, les titres doivent être nominatifs dans IBERCLEAR et l'extra Waylet exige un NIF concordant. La page publique ne confirme pas la génération de l'extra carburant hors du réseau espagnol.",
+      "sourceIds": [
+        "S04",
+        "S05",
+        "S09"
+      ]
+    },
+    {
+      "question": "Les événements et tirages sont-ils garantis ou ouverts en permanence ?",
+      "answer": "Non. Les événements ont des places limitées et l'ordre d'inscription n'oblige pas Repsol. Les tirages sont ponctuels et régis par des bases particulières publiées dans l'espace privé. Au 9 juin 2026, aucune campagne actionnaire avec règlement public et inscriptions encore ouvertes n'a été identifiée.",
+      "sourceIds": [
+        "S04",
+        "S09"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "Repsol est un groupe énergétique mondial dont l'action ordinaire se négocie à Madrid sous le symbole REP.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "notes": "Le code ISIN officiel publié est ES0173516115."
+    },
+    {
+      "id": "C02",
+      "statement": "En acción est un club actionnaire formel et actif auquel l'adhésion est volontaire.",
+      "status": "verified",
+      "sourceIds": [
+        "S03",
+        "S04",
+        "S08"
+      ],
+      "notes": "Le Club intègre également le Programa Energías Repsol."
+    },
+    {
+      "id": "C03",
+      "statement": "Une personne physique majeure peut adhérer avec n'importe quel nombre d'actions, soit une action au minimum dans le schéma numérique.",
+      "status": "verified",
+      "sourceIds": [
+        "S04"
+      ],
+      "notes": "Les actions doivent être inscrites au nom du titulaire dans IBERCLEAR."
+    },
+    {
+      "id": "C04",
+      "statement": "Les avantages Waylet réservés aux actionnaires exigent au moins 50 actions.",
+      "status": "verified",
+      "sourceIds": [
+        "S05",
+        "S06",
+        "S09"
+      ],
+      "notes": "Ce seuil ne doit pas être utilisé comme seuil global d'adhésion au Club."
+    },
+    {
+      "id": "C05",
+      "statement": "Les niveaux actionnaires sont ONE, PLUS, PREMIUM et PLATINUM aux seuils respectifs de 50, 850, 2 500 et 12 500 actions.",
+      "status": "verified",
+      "sourceIds": [
+        "S04",
+        "S05",
+        "S06"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C06",
+      "statement": "L'extra actionnaire sur les ravitaillements est de 1 à 4 centimes par litre selon le niveau.",
+      "status": "verified",
+      "sourceIds": [
+        "S05",
+        "S06"
+      ],
+      "notes": "Les montants de 5 à 20 c€/L affichés en base sont des avantages clients ordinaires; seuls les 1 à 4 c€/L supplémentaires sont retenus."
+    },
+    {
+      "id": "C07",
+      "statement": "En acción et Waylet doivent utiliser le même NIF et la même adresse électronique pour activer l'extra actionnaire.",
+      "status": "verified",
+      "sourceIds": [
+        "S05",
+        "S06",
+        "S07"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C08",
+      "statement": "Un changement de nombre d'actions entraîne automatiquement le nouveau niveau après 15 à 20 jours.",
+      "status": "verified",
+      "sourceIds": [
+        "S05",
+        "S06",
+        "S09"
+      ],
+      "notes": "Le délai court après la prise en compte de la modification dans IBERCLEAR."
+    },
+    {
+      "id": "C09",
+      "statement": "Repsol prévoit des événements à capacité limitée et des promotions ou tirages ponctuels pour les membres actionnaires.",
+      "status": "verified",
+      "sourceIds": [
+        "S04",
+        "S09"
+      ],
+      "notes": "Les conditions détaillées et les échéances sont publiées au cas par cas dans l'espace privé."
+    },
+    {
+      "id": "C10",
+      "statement": "Le solde Waylet expire en cas de résiliation ou d'absence de transaction Waylet pendant douze mois.",
+      "status": "verified",
+      "sourceIds": [
+        "S11"
+      ],
+      "notes": "Il s'agit d'une règle générale Waylet qui s'applique au solde, et non d'un avantage supplémentaire réservé aux actionnaires."
+    },
+    {
+      "id": "C11",
+      "statement": "La perte de la qualité d'actionnaire met fin aux avantages spéciaux associés à cette qualité.",
+      "status": "verified",
+      "sourceIds": [
+        "S04"
+      ],
+      "notes": "Les conditions permettent de rester utilisateur de certains services sans conserver les remises spéciales."
+    },
+    {
+      "id": "C12",
+      "statement": "La page actuelle du Comité consultatif exige 850 actions et un an d'ancienneté dans En acción.",
+      "status": "partially_verified",
+      "sourceIds": [
+        "S09",
+        "S10"
+      ],
+      "notes": "La page dédiée indique 850 actions, tandis qu'un article officiel du 28 octobre 2025 indique 1 000 actions. Le Comité n'est pas retenu comme bénéfice."
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "Il faut détenir 50 actions pour devenir membre du Club En acción.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S04",
+        "S05"
+      ]
+    },
+    {
+      "claim": "La totalité des 6 à 24 centimes par litre affichés par Repsol est une remise réservée aux actionnaires.",
+      "reason": "not_shareholder_specific",
+      "sourceIds": [
+        "S05",
+        "S06"
+      ]
+    },
+    {
+      "claim": "Les actionnaires bénéficient encore d'une remise carburant allant jusqu'à 40 centimes par litre au 9 juin 2026.",
+      "reason": "expired",
+      "sourceIds": [
+        "S05",
+        "S13"
+      ]
+    },
+    {
+      "claim": "Les offres Waylet ordinaires liées à la lumière, au gaz, au solaire, aux assurances ou à la carte bancaire sont des avantages actionnaires.",
+      "reason": "not_shareholder_specific",
+      "sourceIds": [
+        "S05",
+        "S13"
+      ]
+    },
+    {
+      "claim": "Les tirages Waylet ouverts à tous les clients particuliers sont des tirages du Club En acción.",
+      "reason": "not_shareholder_specific",
+      "sourceIds": [
+        "S14"
+      ]
+    },
+    {
+      "claim": "Les billets de concerts, festivals et événements sportifs sont garantis à chaque membre.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S04",
+        "S09"
+      ]
+    },
+    {
+      "claim": "Le suivi de l'investissement, les informations financières et la revue actionnaires constituent des avantages économiques distincts.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S03",
+        "S04",
+        "S08"
+      ]
+    },
+    {
+      "claim": "Le dividende ordinaire, le vote et la participation à l'assemblée générale sont des bénéfices du Club.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S08"
+      ]
+    },
+    {
+      "claim": "Tout membre peut entrer au Comité consultatif dès qu'il atteint le seuil d'actions.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S10"
+      ]
+    },
+    {
+      "claim": "L'extra actionnaire Waylet est officiellement utilisable dans toutes les stations Repsol en Europe.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S05",
+        "S06"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.repsol.com/en/about-us/index.cshtml",
+      "title": "About us",
+      "publisher": "Repsol",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2025-07",
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La page présente Repsol comme un groupe énergétique mondial actif dans plus de vingt pays, couvrant les activités industrielles, la mobilité et différentes solutions énergétiques."
+    },
+    {
+      "id": "S02",
+      "url": "https://www.repsol.com/es/accionistas-inversores/informacion-bursatil/datos-de-la-accion/index.cshtml",
+      "title": "Datos de las acciones de Repsol",
+      "publisher": "Repsol",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2026-03",
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "La page mise à jour en mars 2026 publie l'ISIN ES0173516115 et les symboles REP.MC pour Reuters et REP SM pour Bloomberg sur le marché continu de Madrid."
+    },
+    {
+      "id": "S03",
+      "url": "https://www.repsol.com/es/accionistas-inversores/club-accionistas/index.cshtml",
+      "title": "Club de Accionistas En acción",
+      "publisher": "Repsol",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2026-03",
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "La page active du Club, mise à jour en mars 2026, propose inscription et connexion, renvoie aux remises, au Comité et aux conditions, et annonce des activités et réductions exclusives."
+    },
+    {
+      "id": "S04",
+      "url": "https://www.repsol.com/es/registro/condiciones/en-accion/index.cshtml",
+      "title": "Condiciones del servicio En acción",
+      "publisher": "Repsol",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2025-07",
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Les conditions mises à jour en juillet 2025 fixent l'âge, l'inscription nominative dans IBERCLEAR, l'adhésion en ligne, les quatre niveaux, les événements à capacité limitée, les tirages soumis à leurs bases et la perte des avantages lorsque cesse l'actionnariat."
+    },
+    {
+      "id": "S05",
+      "url": "https://www.repsol.com/es/accionistas-inversores/club-accionistas/descuentos-accionistas/index.cshtml",
+      "title": "Descuentos accionistas",
+      "publisher": "Repsol",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2026-04",
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "La page mise à jour en avril 2026 exige 50 actions, En acción et Waylet avec le même NIF et courriel, distingue le solde client de l'extra actionnaire de 1 à 4 c€/L et annonce 15 à 20 jours pour un changement de niveau."
+    },
+    {
+      "id": "S06",
+      "url": "https://www.repsol.com/en/shareholders-and-investors/shareholders-club/shareholder-discounts/index.cshtml",
+      "title": "Discounts and shareholder benefits",
+      "publisher": "Repsol",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La version anglaise confirme le seuil de 50 actions, la concordance NIF-courriel, l'inscription dans IBERCLEAR, les niveaux et l'application automatique du nouveau niveau après 15 à 20 jours."
+    },
+    {
+      "id": "S07",
+      "url": "https://www.repsol.com/es/accionistas-inversores/club-accionistas/como-activo-mi-cuenta-en-accion/index.cshtml",
+      "title": "Cómo activo mi cuenta En acción",
+      "publisher": "Repsol",
+      "sourceType": "official_faq",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2026-03",
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "La FAQ explique l'utilisation des identifiants Waylet ou d'un autre service Repsol, la création d'un compte si nécessaire, l'acceptation des conditions et le numéro d'aide 900 10 46 70."
+    },
+    {
+      "id": "S08",
+      "url": "https://www.repsol.com/content/dam/repsol-corporate/es/accionistas-e-inversores/informes-anuales/2025/informe-anual-gobierno-corporativo.pdf",
+      "title": "Informe Anual de Gobierno Corporativo 2025",
+      "publisher": "Repsol",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2026",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Le rapport 2025 décrit En acción comme le Club de accionistas destiné à renforcer la relation directe et bidirectionnelle avec les actionnaires individuels, qui peuvent y adhérer volontairement."
+    },
+    {
+      "id": "S09",
+      "url": "https://www.repsol.com/es/accionistas-inversores/club-accionistas/actualidad-en-accion/club-accionistas/ser-accionista-repsol-rentabilidad-ventajas-diarias/index.cshtml",
+      "title": "Ser accionista de Repsol: rentabilidad y beneficios exclusivos",
+      "publisher": "Repsol",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": "2025-10-28",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "L'article confirme le seuil Waylet de 50 actions, les niveaux, le délai de 15 à 20 jours, les usages du solde et des tirages périodiques de billets; son seuil de 1 000 actions pour le Comité contredit la page dédiée."
+    },
+    {
+      "id": "S10",
+      "url": "https://www.repsol.com/es/accionistas-inversores/club-accionistas/comite-consultivo/index.cshtml",
+      "title": "Comité Consultivo de Accionistas de Repsol",
+      "publisher": "Repsol",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La page dédiée décrit un organe consultatif de douze actionnaires et fixe actuellement deux conditions de candidature: un an d'ancienneté dans En acción et au moins 850 actions."
+    },
+    {
+      "id": "S11",
+      "url": "https://www.repsol.es/particulares/faqs/waylet/el-saldo-acumulado-en-waylet-caduca/",
+      "title": "¿El saldo acumulado en Waylet caduca?",
+      "publisher": "Repsol",
+      "sourceType": "official_faq",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La FAQ précise que le solde Waylet expire si l'utilisateur se désinscrit ou s'il n'effectue aucune transaction Waylet pendant douze mois."
+    },
+    {
+      "id": "S12",
+      "url": "https://www.repsol.es/particulares/faqs/waylet/hay-limite-saldo/",
+      "title": "¿Hay límite en el saldo que obtengo repostando?",
+      "publisher": "Repsol",
+      "sourceType": "official_faq",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La FAQ générale indique l'absence de plafond de consommation pour le profil Waylet seul et un plafond annuel de 2 000 litres lorsque d'autres énergies sont souscrites, sans isoler l'extra actionnaire."
+    },
+    {
+      "id": "S13",
+      "url": "https://www.repsol.com/es/sala-prensa/notas-prensa/2026/repsol-amplia-hasta-31-mayo-descuentos-combustibles-waylet/index.cshtml",
+      "title": "Repsol amplía hasta el 31 de mayo los descuentos en combustibles con Waylet",
+      "publisher": "Repsol",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": "2026-04-29",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "expired",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Le communiqué prolongeait jusqu'au 31 mai 2026 une mesure temporaire pour clients particuliers pouvant porter les économies Waylet jusqu'à 40 c€/L selon les énergies souscrites; elle était expirée au 9 juin."
+    },
+    {
+      "id": "S14",
+      "url": "https://www.repsol.com/es/sala-prensa/notas-prensa/2025/repsol-sortea-10-000-euros-diarios-entre-los-clientes-que-repost/index.cshtml",
+      "title": "Repsol sortea 10.000 euros diarios entre los clientes que reposten o recarguen con Waylet",
+      "publisher": "Repsol",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": "2025-07-14",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "expired",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Cette campagne du 14 juillet au 14 septembre 2025 visait tous les clients particuliers payant par Waylet et non les seuls actionnaires; elle ne constitue donc pas un avantage En acción."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Seuil d'adhésion et seuil des avantages",
+      "sourceIds": [
+        "S04",
+        "S05",
+        "S06"
+      ],
+      "positions": [
+        "Les conditions générales permettent à une personne physique majeure détenant n'importe quel nombre d'actions nominativement inscrit dans IBERCLEAR d'adhérer au Club.",
+        "Les pages de remises exigent 50 actions pour accéder aux avantages Waylet et aux quatre niveaux."
+      ],
+      "resolution": "Fixer globalMinimumShares à 1 et requiredShares à 50 pour l'extra Waylet. Ne pas présenter 50 actions comme condition générale d'adhésion.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Montant réellement spécifique aux actionnaires",
+      "sourceIds": [
+        "S05",
+        "S06",
+        "S13"
+      ],
+      "positions": [
+        "La grille actionnaires affiche des totaux de 6 à 24 c€/L, composés d'une base client de 5 à 20 c€/L et d'un extra actionnaire de 1 à 4 c€/L.",
+        "Une campagne client temporaire a porté certains soldes Waylet jusqu'à 40 c€/L, mais elle a pris fin le 31 mai 2026."
+      ],
+      "resolution": "Retenir uniquement l'extra actionnaire de 1 à 4 c€/L. Exclure le solde client ordinaire et la campagne à 40 c€/L, expirée avant la date de référence.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Seuil du Comité consultatif",
+      "sourceIds": [
+        "S09",
+        "S10"
+      ],
+      "positions": [
+        "La page dédiée actuelle du Comité exige au moins 850 actions et un an d'ancienneté dans En acción.",
+        "L'article officiel du 28 octobre 2025 indique 1 000 actions et le maintien de ce niveau pendant le mandat."
+      ],
+      "resolution": "Privilégier la page dédiée pour le seuil actuel de candidature, signaler la contradiction et ne pas transformer le Comité, sélectif et consultatif, en bénéfice garanti.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Portée géographique",
+      "sourceIds": [
+        "S04",
+        "S05",
+        "S09"
+      ],
+      "positions": [
+        "Aucune résidence espagnole n'est explicitement exigée pour adhérer, et Repsol publie un numéro d'assistance depuis l'étranger.",
+        "L'actionnariat doit être identifié dans IBERCLEAR, l'avantage exige un NIF concordant et les pages publiques Waylet ne précisent pas la génération de l'extra hors du réseau espagnol."
+      ],
+      "resolution": "Ne pas imposer une résidence espagnole générale, mais présenter IBERCLEAR, le NIF et Waylet comme contraintes pratiques et laisser la portée territoriale de l'extra carburant comme incertitude.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Disponibilité des tirages",
+      "sourceIds": [
+        "S04",
+        "S09"
+      ],
+      "positions": [
+        "Les conditions générales prévoient des promotions et tirages avec prix pour les membres actionnaires.",
+        "Les campagnes, bases, dates et modalités sont publiées dans l'espace privé; l'article de 2025 ne donne que des exemples passés de billets et abonnements."
+      ],
+      "resolution": "Conserver la catégorie générale comme avantage soumis à tirage, sans annoncer de lot, de campagne ou de date limite encore ouverte au 9 juin 2026.",
+      "impact": "wording_only"
+    }
+  ],
+  "handoff": {
+    "researchStatus": "complete_with_uncertainties",
+    "readyForDevelopment": true,
+    "benefitCount": 3,
+    "faqCount": 6,
+    "blockingIssues": [],
+    "developerNotes": [
+      "Classer Repsol comme club actionnaire formel actif sous le nom En acción.",
+      "Conserver minShares à 1 pour l'adhésion générale; le seuil de 50 actions s'applique uniquement à l'extra Waylet.",
+      "Pour le carburant, retenir seulement l'extra actionnaire de 1 à 4 c€/L selon ONE, PLUS, PREMIUM et PLATINUM.",
+      "Ne pas reprendre comme avantage actionnaire le solde Waylet client de 5 à 20 c€/L, les totaux de 6 à 24 c€/L ni la campagne temporaire à 40 c€/L expirée le 31 mai 2026.",
+      "Indiquer que les actions doivent être inscrites au nom du titulaire dans IBERCLEAR et que Waylet doit utiliser le même NIF et la même adresse électronique.",
+      "Ne pas promettre l'utilisation de l'extra Waylet hors d'Espagne: la portée géographique publique n'est pas précisée.",
+      "Présenter les événements comme soumis à capacité et les tirages comme aléatoires et régis par des bases particulières dans l'espace privé.",
+      "Ne pas annoncer de tirage actionnaire actuellement ouvert: aucun règlement public encore ouvert n'a été identifié au 9 juin 2026.",
+      "Ne pas transformer la revue, le suivi de l'investissement, le vote, l'assemblée, le dividende ou le Comité consultatif en bénéfices.",
+      "Si le Comité est mentionné à titre informatif, utiliser avec prudence le seuil de 850 actions de la page dédiée et signaler que l'article du 28 octobre 2025 indique 1 000 actions."
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "thales",
+  "name": "Thales",
+  "description": "Thales est un groupe français de hautes technologies spécialisé dans la défense et la sécurité, l'aéronautique et l'espace, ainsi que la cybersécurité et l'identité numérique. Son action ordinaire est cotée sur Euronext Paris et appartient notamment à l'indice CAC 40.",
+  "sector": "Aéronautique & Défense",
+  "stockIndex": "CAC40",
+  "ticker": "HO",
+  "website": "https://www.thalesgroup.com/fr",
+  "minShares": null,
+  "lastVerifiedAt": "2026-06-09",
+  "benefits": [
+    {
+      "type": "reduction",
+      "title": "Exonération des droits de garde au nominatif pur",
+      "description": "Thales indique que les actions détenues au nominatif pur bénéficient d'une exonération des droits de garde. Le guide lié à la page officielle ajoute que certains frais de gestion courants sont également pris en charge, tandis que les frais de courtage, commissions et taxes sur les transactions restent dus.",
+      "value": "Droits de garde exonérés ; montant des autres économies non chiffré publiquement",
+      "requiredShares": null,
+      "sourceUrl": "https://www.thalesgroup.com/fr/relations-investisseurs/actionnaires-individuels"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Thales possède-t-il un club ou un cercle des actionnaires individuels ?",
+      "answer": "Aucun club ou cercle formel n'est présenté dans les sources officielles actuelles consultées au 9 juin 2026. Thales propose plutôt un espace pour les actionnaires individuels et un dispositif de détention au nominatif, géré pour le nominatif pur par Société Générale Securities Services."
+    },
+    {
+      "question": "Quel avantage concret est actuellement prouvé pour un actionnaire individuel de Thales ?",
+      "answer": "L'avantage économique clairement prouvé est l'exonération des droits de garde pour les actions détenues au nominatif pur. Certains frais de gestion courants sont aussi pris en charge, mais les achats et ventes restent soumis aux frais de courtage, commissions et taxes applicables."
+    },
+    {
+      "question": "Combien d'actions faut-il détenir pour bénéficier du dispositif au nominatif ?",
+      "answer": "Thales ne publie aucun seuil global d'adhésion ni nombre minimal chiffré pour l'exonération des droits de garde. Il faut naturellement détenir des actions Thales et les faire inscrire sous la forme requise, mais le rapport conserve donc le seuil à null au lieu de supposer une action."
+    },
+    {
+      "question": "Quelle différence existe entre le nominatif pur et le nominatif administré chez Thales ?",
+      "answer": "Au nominatif pur, les titres sont inscrits dans le registre Thales et conservés sur un compte géré par SGSS ; c'est ce mode qui ouvre l'exonération des droits de garde. Au nominatif administré, les titres sont identifiés dans le registre mais restent conservés et gérés par la banque ou le courtier de l'actionnaire."
+    },
+    {
+      "question": "Comment transférer ou acheter des actions Thales au nominatif pur ?",
+      "answer": "Pour transférer des titres existants, l'actionnaire complète le formulaire officiel et l'envoie à son intermédiaire financier. Pour un achat direct, il utilise l'ordre d'achat Thales et l'adresse à SGSS par courrier ou fax avec le paiement et les justificatifs requis. SGSS confirme ensuite l'inscription en compte."
+    },
+    {
+      "question": "Les visites de sites, conférences et réunions régionales sont-elles garanties aux actionnaires Thales ?",
+      "answer": "Non. Aucun programme Thales daté et actuel de visites de sites ou de conférences réservées aux actionnaires individuels n'a été trouvé. Le guide nominatif lié par Thales évoque génériquement des invitations à des réunions régionales, mais sans calendrier ni conditions propres à Thales ; cet élément n'est donc pas retenu comme bénéfice actif."
+    }
+  ],
+  "sources": [
+    "https://www.thalesgroup.com/fr/relations-investisseurs/actionnaires-individuels",
+    "https://www.thalesgroup.com/sites/default/files/2025-07/investisseur-guide-actionnaire-nominatif-francais.pdf",
+    "https://www.thalesgroup.com/sites/default/files/2025-09/01740_THALES_ORDRED%27ACHATDETITRESENNOMINATIFPUR_FR_20250327_094641.pdf",
+    "https://www.thalesgroup.com/sites/default/files/2025-07/investisseur-conversion-transfert-nominatif-francais.pdf",
+    "https://www.thalesgroup.com/fr/relations-investisseurs/action-et-actionnariat",
+    "https://www.thalesgroup.com/sites/default/files/2026-04/Franc%CC%A7ais%20-%20DEU%202025_INT_0.pdf",
+    "https://www.thalesgroup.com/sites/default/files/2026-04/AGM%2012%20mai%202026%20-%20Brochure%20de%20convocation.pdf"
+  ]
+}

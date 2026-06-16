@@ -1,0 +1,56 @@
+{
+  "slug": "capgemini",
+  "name": "Capgemini",
+  "description": "Capgemini est un groupe mondial de services de transformation business et technologique. Il propose des prestations de stratégie, technologie, design, ingénierie et opérations, avec plus de 420 000 collaborateurs dans plus de 50 pays à fin 2025. L'action Capgemini SE est cotée sur Euronext Paris.",
+  "sector": "Technologie & Logiciels",
+  "stockIndex": "CAC40",
+  "ticker": "CAP",
+  "website": "https://www.capgemini.com/fr-fr/",
+  "minShares": null,
+  "lastVerifiedAt": "2026-06-09",
+  "benefits": [
+    {
+      "type": "reduction",
+      "title": "Exonération des droits de garde et frais de gestion courante",
+      "description": "Pour les actions Capgemini inscrites au nominatif pur et gérées par Uptevia, Capgemini annonce la gratuité de la gestion, l'exonération totale des droits de garde et l'absence de frais liés à la gestion courante des titres. Les ordres de bourse, la fiscalité et les éventuels frais de transfert restent exclus.",
+      "value": "Droits de garde et frais de gestion courante non facturés; ordres de bourse exclus.",
+      "requiredShares": null,
+      "sourceUrl": "https://investors.capgemini.com/fr/devenir-actionnaire/"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Capgemini dispose-t-il d'un club ou d'un cercle d'actionnaires au 9 juin 2026 ?",
+      "answer": "Non. Les pages officielles actuelles ne présentent ni club ou cercle avec adhésion, ni règlement, ni statut de membre. Capgemini propose un espace d'information pour les actionnaires et un avantage lié au nominatif pur, mais ces éléments ne doivent pas être renommés en club d'actionnaires."
+    },
+    {
+      "question": "Quel avantage concret est officiellement prouvé pour un actionnaire Capgemini ?",
+      "answer": "L'avantage retenu est l'exonération des droits de garde et des frais de gestion courante lorsque les actions sont détenues au nominatif pur chez Uptevia. Les ordres de bourse, la fiscalité et les éventuels frais de transfert depuis un autre établissement restent à la charge de l'actionnaire."
+    },
+    {
+      "question": "Combien d'actions faut-il détenir et pendant combien de temps pour bénéficier de la gratuité ?",
+      "answer": "Capgemini ne publie ni nombre minimal d'actions ni durée minimale de détention pour cet avantage. Le rapport conserve donc ces deux conditions à l'état inconnu et ne reprend pas l'affirmation historique selon laquelle une seule action suffirait."
+    },
+    {
+      "question": "Comment transférer des actions Capgemini au nominatif pur et quels frais peuvent subsister ?",
+      "answer": "L'actionnaire complète le formulaire officiel puis l'adresse à l'établissement financier qui détient ses titres; ceux-ci sont ensuite transférés chez Uptevia. Le nominatif pur n'est pas compatible avec un PEA selon le formulaire. Capgemini ne rembourse pas les frais de transfert et les ordres de bourse restent facturés."
+    },
+    {
+      "question": "Les réunions régionales ou présentations virtuelles de Capgemini sont-elles un avantage garanti ?",
+      "answer": "Capgemini indique dans son Document d'Enregistrement Universel 2025 participer chaque année à au moins un événement dédié aux actionnaires individuels, et la lettre de juin 2025 évoque des réunions régionales, virtuelles ou hybrides. Toutefois, aucun calendrier 2026, seuil, mode d'inscription ou caractère réservé n'est publié; ces rencontres ne sont donc pas retenues comme bénéfice prouvé."
+    },
+    {
+      "question": "Pourquoi la lettre aux actionnaires, le numéro dédié, l'assemblée générale et le dividende ne sont-ils pas comptés comme avantages ?",
+      "answer": "La lettre, les alertes et le numéro de contact relèvent des relations investisseurs ordinaires. La participation à l'assemblée générale, le vote, les questions aux dirigeants et le dividende ordinaire sont des droits ou mécanismes généraux attachés à l'action. Ils sont donc documentés mais exclus de la liste des bénéfices."
+    }
+  ],
+  "sources": [
+    "https://investors.capgemini.com/fr/devenir-actionnaire/",
+    "https://investors.capgemini.com/fr/wp-content/uploads/sites/3/2023/03/become_a_shareholder.pdf",
+    "https://investors.capgemini.com/fr/file/23123?download=1",
+    "https://investors.capgemini.com/fr/structure-de-lactionnariat/",
+    "https://investors.capgemini.com/fr/file/22457?download=1",
+    "https://investors.capgemini.com/fr/",
+    "https://investors.capgemini.com/fr/event/assemblee-generale-2026/"
+  ]
+}

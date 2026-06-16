@@ -1,0 +1,607 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "carnival-corporation",
+    "name": "Carnival Corporation",
+    "description": "Carnival Corporation Ltd. est un groupe mondial de croisières réunissant huit marques, dont Carnival Cruise Line, Princess Cruises, Holland America Line, Cunard, Costa, AIDA, P&O Cruises et Seabourn. Depuis le 7 mai 2026, la structure est unifiée sous une société bermudienne cotée uniquement au NYSE.",
+    "sector": "Hôtellerie & Tourisme",
+    "stockIndex": "S&P 500",
+    "ticker": "CCL",
+    "website": "https://www.carnivalcorp.com/",
+    "clubName": null,
+    "clubUrl": null
+  },
+  "offerClassification": {
+    "primaryKind": "shareholder_benefit",
+    "otherKinds": [
+      "shareholder_program",
+      "investor_relations_only"
+    ],
+    "officialProgrammeName": "Shareholder Benefit",
+    "status": "active",
+    "statusReason": "Carnival publie un avantage formel de crédit à bord pour les détenteurs d'au moins 100 actions, valable sur les départs jusqu'au 31 décembre 2026. Il n'existe pas de club avec adhésion distincte; la demande de chaque crédit passe par Stockperks.",
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S05"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": 100,
+    "eligibleShareClasses": [
+      "Actions ordinaires Carnival Corporation Ltd. cotées au New York Stock Exchange sous le symbole CCL"
+    ],
+    "holdingModes": [
+      "broker_account",
+      "transfer_agent"
+    ],
+    "minimumHoldingPeriod": "Aucune durée minimale de détention n'est publiée. La détention d'au moins 100 actions doit être validée par Stockperks pour demander l'avantage.",
+    "residencyRestrictions": [],
+    "accountRestrictions": [
+      "Le demandeur doit créer un profil Stockperks et faire valider son portefeuille avant de soumettre une demande pour une réservation éligible.",
+      "L'actionnaire doit voyager dans la cabine à laquelle le crédit est appliqué.",
+      "Un seul crédit actionnaire est accordé par cabine occupée par un actionnaire, même si plusieurs occupants détiennent chacun au moins 100 actions.",
+      "Depuis l'unification du 7 mai 2026, les anciennes actions Carnival plc ont été échangées une pour une contre des intérêts dans des actions Carnival Corporation Ltd.; les pages de marques mentionnant encore Carnival plc utilisent une terminologie antérieure."
+    ],
+    "proofRequired": [
+      "Validation des titres dans Stockperks, soit par liaison d'un compte de courtage, soit par fourniture d'une preuve de détention acceptée.",
+      "Les pages officielles Cunard précisent que Stockperks n'accepte pas les captures d'écran.",
+      "Un ancien certificat d'actions émis par Equiniti peut être fourni dans Stockperks, mais un compte Stockperks reste nécessaire.",
+      "Informations de réservation et sélection de la marque de croisière pour chaque demande."
+    ],
+    "fees": {
+      "membershipFee": null,
+      "applicationFee": null,
+      "otherFees": [],
+      "notes": "Aucun droit d'adhésion ni frais de demande n'est publié. Les éventuels frais de courtage, de conservation ou de transmission d'un justificatif dépendent de l'intermédiaire financier et ne font pas partie de l'avantage."
+    },
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S03",
+      "S05",
+      "S06"
+    ]
+  },
+  "enrollment": {
+    "required": true,
+    "method": "online_form",
+    "applicationUrl": "https://www.carnivalcorp.com/investors/shareholder-information/shareholder-benefit/",
+    "contact": "Assistance Stockperks et confidentialité : carnivalcorp@stockperks.com. Questions sur l'avantage : AIDA kabinengruss@aida.de; Carnival Cruise Line shareholders@carnival.com; Costa shareholder@costa.it; Cunard UK guestservices@cunard.co.uk, Australie/Nouvelle-Zélande shareholderbenefit@carnivalaustralia.com, Amérique du Nord SB@cunard.com; Holland America Hal_Reservations@hollandamerica.com; P&O Cruises GuestServices@pocruises.com; Princess sbpcl@princesscruises.com; Seabourn seareservations@seabourn.com.",
+    "steps": [
+      "Télécharger l'application Stockperks et créer un profil utilisateur.",
+      "Rechercher Carnival dans l'application puis sélectionner la marque de croisière concernée.",
+      "Choisir « Validate your portfolio » et faire valider la détention d'au moins 100 actions CCL par liaison du compte de courtage ou par justificatif accepté.",
+      "Après validation, soumettre une demande distincte pour chaque réservation éligible au moins trois semaines avant le départ."
+    ],
+    "processingTime": null,
+    "renewal": "Il n'existe pas d'adhésion annuelle. Chaque réservation exige une demande. Cunard indique qu'un compte de courtage enregistré évite de fournir une nouvelle preuve à chaque voyage; l'avantage lui-même est revu annuellement après le 31 décembre 2026.",
+    "deadlines": [
+      "Règle corporate : soumettre la demande au moins trois semaines avant la date de départ.",
+      "Le crédit ne peut pas être traité une fois à bord.",
+      "Cunard demande une soumission dans les 90 jours précédant le départ et au plus tard 21 jours avant celui-ci.",
+      "La page P&O Cruises ouvre aussi la fenêtre 90 jours avant le départ, mais se contredit entre une limite de 14 jours et l'instruction de trois semaines; 21 jours est la règle prudente.",
+      "L'avantage est annoncé pour les croisières dont le départ intervient au plus tard le 31 décembre 2026."
+    ],
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ]
+  },
+  "benefits": [
+    {
+      "id": "B01",
+      "type": "reduction",
+      "title": "Crédit à bord selon la durée et la devise",
+      "description": "Un actionnaire détenant au moins 100 actions reçoit un crédit à bord par cabine qu'il occupe. Pour une croisière de 6 jours ou moins : 50 dollars US, 40 euros, 30 livres sterling ou 50 dollars australiens; de 7 à 13 jours : 100 dollars US, 75 euros, 60 livres ou 100 dollars australiens; à partir de 14 jours : 250 dollars US, 200 euros, 150 livres ou 250 dollars australiens.",
+      "value": "≤ 6 jours : US$50 / €40 / £30 / A$50; 7-13 jours : US$100 / €75 / £60 / A$100; ≥ 14 jours : US$250 / €200 / £150 / A$250",
+      "requiredShares": 100,
+      "requiredHoldingModes": [
+        "Compte de courtage validé dans Stockperks",
+        "Détention enregistrée ou certificat accepté comme preuve par Stockperks"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "guaranteed",
+      "validFrom": null,
+      "validUntil": "2026-12-31",
+      "requestDeadline": "Au moins trois semaines avant le départ; aucune demande ne peut être traitée à bord. Certaines marques britanniques n'acceptent les demandes qu'à partir de 90 jours avant le départ.",
+      "procedure": [
+        "Détenir au moins 100 actions Carnival Corporation Ltd. sous le symbole CCL.",
+        "Créer un profil dans l'application Stockperks et sélectionner la marque de croisière.",
+        "Faire valider le portefeuille par liaison d'un compte de courtage ou par preuve de détention acceptée.",
+        "Soumettre la demande liée à la réservation dans le délai applicable."
+      ],
+      "limitsAndExclusions": [
+        "Le barème en dollars US concerne les marques d'Amérique du Nord; le barème en euros Costa et AIDA; le barème en livres P&O Cruises UK, Cunard et Princess UK; le barème en dollars australiens Carnival Cruise Line et Princess en Australie.",
+        "Pour Carnival Cruise Line, Cunard et Princess Cruises, la devise et donc le barème sont déterminés par la devise opérationnelle à bord du navire.",
+        "Pour les nouvelles réservations AIDA depuis le 15 juillet 2025, seuls les tarifs Comfort et Premium sont éligibles.",
+        "Les salariés, agents de voyages voyageant à un tarif professionnel ou interline, accompagnateurs de groupe, voyageurs à tarif réduit et passagers à titre gratuit sont exclus.",
+        "Le crédit est non remboursable, non transférable et non échangeable contre des espèces.",
+        "Le crédit actionnaire ne peut pas être utilisé pour les crédits ou frais de casino ni pour les pourboires portés au compte de bord.",
+        "Un seul crédit est permis par cabine occupée par l'actionnaire.",
+        "Cunard et P&O Cruises UK indiquent que le crédit s'ajoute aux autres sommes à bord et reste cumulable avec les tarifs ordinaires, mais certaines promotions, notamment Friends and Family, TIS, tarifs nets professionnels ou réservations gratuites, sont exclues; aucune règle de cumul universelle n'est publiée pour toutes les marques.",
+        "Carnival se réserve le droit de modifier ou de supprimer l'avantage et ses conditions à tout moment sans préavis."
+      ],
+      "primarySourceId": "S01",
+      "supportingSourceIds": [
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "sourceUrl": "https://www.carnivalcorp.com/investors/shareholder-information/shareholder-benefit/",
+      "evidenceGrade": "A",
+      "uncertainty": "La page P&O Cruises UK affiche un barème décalé d'une nuit et une limite de demande contradictoire. Le rapport retient les conditions corporate, plus récentes dans la hiérarchie et communes au groupe, tout en recommandant de vérifier la fiche de la marque dans Stockperks pour les croisières P&O."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Combien d'actions Carnival faut-il détenir pour recevoir le crédit à bord ?",
+      "answer": "Il faut faire valider au moins 100 actions Carnival Corporation Ltd. La page corporate actuelle vise les actions Carnival Corporation; depuis l'unification du 7 mai 2026, les anciennes actions Carnival plc ont été échangées une pour une contre des intérêts dans les actions de la société unifiée cotée au NYSE sous CCL. Aucun délai minimal de détention n'est publié.",
+      "sourceIds": [
+        "S01",
+        "S05",
+        "S06",
+        "S07"
+      ]
+    },
+    {
+      "question": "Quel est le montant du shareholder benefit selon la durée et la région ?",
+      "answer": "Le barème corporate par cabine est de US$50, €40, £30 ou A$50 jusqu'à 6 jours; US$100, €75, £60 ou A$100 de 7 à 13 jours; US$250, €200, £150 ou A$250 à partir de 14 jours. Les devises correspondent respectivement à l'Amérique du Nord, l'Europe continentale, le Royaume-Uni et l'Australie. Pour Carnival Cruise Line, Cunard et Princess, la devise opérationnelle du navire décide du barème.",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "question": "Quelles marques de Carnival Corporation acceptent ce crédit actionnaire ?",
+      "answer": "La page officielle couvre Carnival Cruise Line, Princess Cruises, Holland America Line, Seabourn, Cunard, Costa Cruises, AIDA Cruises et P&O Cruises UK. Pour AIDA, les nouvelles réservations sont éligibles en tarifs Comfort ou Premium depuis le 15 juillet 2025. L'ancienne marque P&O Cruises Australia a été intégrée à Carnival Cruise Line et les réservations concernées doivent sélectionner Carnival Cruise Line dans Stockperks.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S10"
+      ]
+    },
+    {
+      "question": "Comment prouver ses 100 actions et demander l'avantage dans Stockperks ?",
+      "answer": "Carnival a officiellement chargé Stockperks du traitement. Il faut créer un profil, rechercher Carnival, sélectionner la compagnie, valider le portefeuille puis déposer une demande pour chaque réservation. Cunard précise que la validation peut se faire en liant un compte de courtage ou en fournissant une preuve de détention; les captures d'écran ne sont pas acceptées, tandis qu'un certificat Equiniti peut être transmis.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03"
+      ]
+    },
+    {
+      "question": "Quelle est la date limite de demande et jusqu'à quand l'offre 2026 est-elle valable ?",
+      "answer": "La règle corporate impose une demande au moins trois semaines avant le départ et interdit le traitement à bord. Le crédit est annoncé pour les départs jusqu'au 31 décembre 2026 inclus. Cunard limite en outre les demandes à la fenêtre comprise entre 90 et 21 jours avant le départ. P&O affiche à la fois 14 jours et trois semaines; il faut donc appliquer le délai prudent de 21 jours.",
+      "sourceIds": [
+        "S01",
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "question": "Le crédit actionnaire Carnival est-il cumulable et quelles dépenses sont exclues ?",
+      "answer": "Une seule attribution est possible par cabine occupée par l'actionnaire. Le crédit est non remboursable, non transférable, non convertible en espèces et inutilisable au casino ou pour les pourboires. Cunard et P&O UK le présentent comme additionnel aux autres crédits et cumulable avec les tarifs ordinaires, mais excluent certaines promotions et tous les tarifs professionnels, réduits ou gratuits. Aucune garantie de cumul identique n'est publiée pour les huit marques.",
+      "sourceIds": [
+        "S01",
+        "S03",
+        "S04"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "Depuis le 7 mai 2026, l'entité cotée est Carnival Corporation Ltd., société bermudienne cotée uniquement au NYSE sous le symbole CCL.",
+      "status": "verified",
+      "sourceIds": [
+        "S05",
+        "S07"
+      ],
+      "notes": "Le nom court du manifeste reste Carnival Corporation. Les anciennes références à Carnival Corporation & plc ou à CUK/LSE sont antérieures à l'unification."
+    },
+    {
+      "id": "C02",
+      "statement": "Le seuil officiel du crédit à bord est de 100 actions Carnival Corporation.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "notes": "Le seuil est global et identique pour les trois niveaux de crédit."
+    },
+    {
+      "id": "C03",
+      "statement": "Le barème corporate 2026 comporte trois durées et quatre devises : US$50/100/250, €40/75/200, £30/60/150 et A$50/100/250.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "notes": "Les seuils corporate sont au plus 6 jours, 7 à 13 jours et au moins 14 jours."
+    },
+    {
+      "id": "C04",
+      "statement": "L'avantage couvre huit marques de croisière et, pour Carnival Cruise Line, Cunard et Princess, la devise opérationnelle du navire détermine le barème.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S10"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C05",
+      "statement": "L'offre est annoncée pour les départs jusqu'au 31 décembre 2026 et la demande corporate doit être déposée au moins trois semaines avant le départ.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "notes": "Les marques britanniques peuvent ajouter une fenêtre de dépôt commençant 90 jours avant le départ."
+    },
+    {
+      "id": "C06",
+      "statement": "Stockperks est le partenaire officiellement désigné par Carnival pour valider le portefeuille et traiter les demandes de crédit.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "notes": "La validation peut nécessiter une liaison de courtier ou un justificatif; elle n'est pas toujours entièrement automatique."
+    },
+    {
+      "id": "C07",
+      "statement": "Le crédit est limité à une attribution par cabine occupée par l'actionnaire et exclut les tarifs professionnels, réduits ou gratuits.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S03",
+        "S04"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C08",
+      "statement": "Pour AIDA, les nouvelles réservations Comfort et Premium sont éligibles depuis le 15 juillet 2025.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "notes": "Entre le 1er juin et le 14 juillet 2025, seules les nouvelles réservations Premium étaient éligibles; cette période est passée."
+    },
+    {
+      "id": "C09",
+      "statement": "Le cumul avec d'autres crédits ou promotions est confirmé pour les tarifs ordinaires Cunard et P&O Cruises UK, mais pas comme règle universelle des huit marques.",
+      "status": "partially_verified",
+      "sourceIds": [
+        "S03",
+        "S04"
+      ],
+      "notes": "Les deux marques britanniques signalent des exclusions promotionnelles. La page corporate ne formule pas une garantie générale de cumul."
+    },
+    {
+      "id": "C10",
+      "statement": "Carnival Corporation Ltd. figure toujours dans le portefeuille du SPDR S&P 500 ETF Trust au 8 juin 2026.",
+      "status": "verified",
+      "sourceIds": [
+        "S09"
+      ],
+      "notes": "Cette détention par le fonds répliquant le S&P 500 corrobore la métadonnée d'indice au plus près de la date de recherche."
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "La vérification Stockperks constitue un avantage actionnaire distinct du crédit à bord.",
+      "reason": "duplicate",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "claim": "La couverture des huit marques constitue plusieurs bénéfices séparés.",
+      "reason": "duplicate",
+      "sourceIds": [
+        "S01"
+      ]
+    },
+    {
+      "claim": "Stockperks vérifie toujours automatiquement les actions sans aucun justificatif manuel.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S01",
+        "S03"
+      ]
+    },
+    {
+      "claim": "Le montant maximal est toujours de 250 dollars US, quelle que soit la région ou la devise du navire.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "claim": "Tous les tarifs réduits, professionnels ou gratuits sont éligibles au crédit actionnaire.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S01",
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "claim": "Le crédit actionnaire est garanti comme cumulable avec toutes les promotions de toutes les marques.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01",
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "claim": "Une demande standard peut encore être envoyée par courriel ou fax à la place de Stockperks.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S01",
+        "S04"
+      ]
+    },
+    {
+      "claim": "L'avantage est permanent et continuera automatiquement après le 31 décembre 2026.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01",
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "claim": "Le dividende ordinaire, le vote et l'accès aux informations investisseurs sont des bénéfices commerciaux du programme.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S08"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.carnivalcorp.com/investors/shareholder-information/shareholder-benefit/",
+      "title": "Shareholder Benefit",
+      "publisher": "Carnival Corporation Ltd.",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Conditions corporate actuelles donnant le seuil de 100 actions, les marques, les quatre devises, les trois durées, la validité jusqu'au 31 décembre 2026, le délai de trois semaines, les exclusions, les restrictions d'usage et la procédure Stockperks."
+    },
+    {
+      "id": "S02",
+      "url": "https://www.stockperks.com/carnivalcorp/",
+      "title": "Stockperks x Carnival",
+      "publisher": "Stockperks",
+      "sourceType": "official_partner",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "C",
+      "evidenceSummary": "Page du partenaire officiellement désigné reproduisant le barème, le seuil, la validité 2026 et la procédure dans l'application; elle ajoute l'instruction pour les anciennes réservations P&O Cruises Australia."
+    },
+    {
+      "id": "S03",
+      "url": "https://www.cunard.com/en-gb/advice-and-policies/shareholder-information",
+      "title": "Shareholder information",
+      "publisher": "Cunard",
+      "sourceType": "official_faq",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page de marque précisant la fenêtre de 90 à 21 jours, l'ajout aux autres crédits, les exclusions de tarifs, la validation par courtier ou justificatif, le refus des captures d'écran et l'acceptation des certificats Equiniti."
+    },
+    {
+      "id": "S04",
+      "url": "https://www.pocruises.com/help/shareholder-benefits",
+      "title": "Shareholder Benefits",
+      "publisher": "P&O Cruises",
+      "sourceType": "official_faq",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page P&O actuelle confirmant Stockperks, le seuil, la date de fin 2026, le cumul avec les tarifs ordinaires et les exclusions. Elle contient toutefois des contradictions internes sur le délai et un barème décalé par rapport aux conditions corporate."
+    },
+    {
+      "id": "S05",
+      "url": "https://www.carnivalcorp.com/unify/",
+      "title": "Unification of Carnival Corporation Legal Structure",
+      "publisher": "Carnival Corporation Ltd.",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": "2026-05-07",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Confirmation officielle de l'unification réalisée le 7 mai 2026 sous Carnival Corporation Ltd., société bermudienne, avec Carnival UK Ltd. comme filiale."
+    },
+    {
+      "id": "S06",
+      "url": "https://www.carnivalcorp.com/shareholder-faqs/",
+      "title": "Shareholder FAQs - Unification",
+      "publisher": "Carnival Corporation Ltd.",
+      "sourceType": "official_faq",
+      "official": true,
+      "publishedAt": "2026-02-27",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "archived",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Documentation officielle de l'unification détaillant l'échange une pour une des anciennes actions Carnival plc, les Depository Interests, le nominee Equiniti et les actions DRS; la page est archivée et n'est plus mise à jour."
+    },
+    {
+      "id": "S07",
+      "url": "https://www.carnivalcorp.com/investors/stock-performance/stock-chart/",
+      "title": "Stock Charts",
+      "publisher": "Carnival Corporation Ltd.",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page boursière actuelle n'affichant plus qu'une cotation : CCL au New York Stock Exchange."
+    },
+    {
+      "id": "S08",
+      "url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000007/ccl-20251130.htm",
+      "title": "Carnival Corporation & plc Annual Report on Form 10-K for 2025",
+      "publisher": "Carnival Corporation & plc et U.S. Securities and Exchange Commission",
+      "sourceType": "regulatory_filing",
+      "official": true,
+      "publishedAt": "2026-01-27",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Dernier rapport annuel déposé avant l'unification, décrivant le groupe, les cotations historiques et le projet de structure unifiée. Il sert de preuve d'identité et de contexte, pas de conditions de l'avantage."
+    },
+    {
+      "id": "S09",
+      "url": "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-spy.xlsx",
+      "title": "SPDR S&P 500 ETF Trust - Daily Holdings",
+      "publisher": "State Street Global Advisors",
+      "sourceType": "official_partner",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2026-06-08",
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "C",
+      "evidenceSummary": "Fichier quotidien du fonds SPY répliquant le S&P 500, daté du 8 juin 2026, contenant Carnival Corp Ltd. sous le symbole CCL; il corrobore l'appartenance à l'indice au plus près de la date de recherche."
+    },
+    {
+      "id": "S10",
+      "url": "https://www.carnivalcorp.com/our-company/our-cruise-lines/",
+      "title": "Our Cruise Lines",
+      "publisher": "Carnival Corporation Ltd.",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Présentation corporate actuelle des huit marques de croisière et de la flotte mondiale de plus de 90 navires."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Seuils de durée affichés par P&O Cruises UK",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S04"
+      ],
+      "positions": [
+        "Les conditions corporate et Stockperks fixent les tranches à 6 jours ou moins, 7 à 13 jours et 14 jours ou plus.",
+        "La page P&O Cruises UK affiche 5 nuits ou moins, 6 à 12 nuits et 13 nuits ou plus, tout en disant ailleurs que le maximum de 150 livres s'applique à partir de 14 nuits."
+      ],
+      "resolution": "Retenir le barème corporate, source primaire commune au groupe et explicitement valable jusqu'au 31 décembre 2026. Signaler aux voyageurs P&O de vérifier le montant présenté dans Stockperks avant le départ.",
+      "impact": "none"
+    },
+    {
+      "topic": "Date limite de demande chez P&O Cruises UK",
+      "sourceIds": [
+        "S01",
+        "S04"
+      ],
+      "positions": [
+        "Carnival impose une demande au moins trois semaines avant le départ.",
+        "La même page P&O indique à la fois une limite de 14 jours et une demande au plus tard trois semaines avant le départ."
+      ],
+      "resolution": "Appliquer le délai le plus prudent et conforme à la règle corporate : au moins 21 jours avant le départ, dans la fenêtre ouverte 90 jours avant le départ.",
+      "impact": "none"
+    },
+    {
+      "topic": "Références persistantes aux actions Carnival plc",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06"
+      ],
+      "positions": [
+        "Les pages Stockperks, Cunard et P&O mentionnent encore 100 actions Carnival Corporation ou Carnival plc.",
+        "Carnival confirme que l'unification a pris effet le 7 mai 2026 et que les anciennes actions Carnival plc ont été échangées une pour une contre des intérêts dans Carnival Corporation Ltd."
+      ],
+      "resolution": "Employer l'action actuelle Carnival Corporation Ltd. cotée au NYSE sous CCL. Conserver la mention des anciens titres plc uniquement pour expliquer leur conversion et les formulations obsolètes des pages de marques.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Cumul avec les promotions",
+      "sourceIds": [
+        "S01",
+        "S03",
+        "S04"
+      ],
+      "positions": [
+        "La page corporate ne promet pas un cumul avec toutes les promotions et exclut largement les voyages à tarif réduit ou gratuit.",
+        "Cunard et P&O indiquent que le crédit s'ajoute aux autres sommes à bord et se cumule avec les tarifs ordinaires, tout en avertissant que certaines promotions sont exclues."
+      ],
+      "resolution": "Ne pas publier de règle universelle de cumul. Présenter le cumul comme confirmé seulement pour les tarifs ordinaires Cunard et P&O UK, sous réserve des exclusions propres à la promotion et à la marque.",
+      "impact": "wording_only"
+    }
+  ],
+  "handoff": {
+    "researchStatus": "complete_with_uncertainties",
+    "readyForDevelopment": true,
+    "benefitCount": 1,
+    "faqCount": 6,
+    "blockingIssues": [],
+    "developerNotes": [
+      "Ne pas créer de club : company.clubName et company.clubUrl restent null.",
+      "Conserver un seul bénéfice. Les variantes de durée, de devise et de marque appartiennent au même crédit à bord.",
+      "Ne pas transformer Stockperks, la couverture multimarque ou les contacts de marque en bénéfices séparés.",
+      "Utiliser le barème corporate ≤ 6 jours, 7-13 jours et ≥ 14 jours malgré la page P&O contradictoire.",
+      "Conserver la date de fin au 31 décembre 2026 et le délai prudent de 21 jours avant le départ.",
+      "Mentionner que la devise opérationnelle du navire gouverne Carnival Cruise Line, Cunard et Princess.",
+      "Ne pas annoncer un cumul universel avec toutes les promotions; il n'est prouvé que pour les tarifs ordinaires de certaines marques britanniques.",
+      "Le nom du manifeste reste Carnival Corporation, mais la description doit refléter le nom juridique Carnival Corporation Ltd. depuis le 7 mai 2026.",
+      "Ne pas créer le dossier final Prisma à partir de cette étape de recherche."
+    ]
+  }
+}

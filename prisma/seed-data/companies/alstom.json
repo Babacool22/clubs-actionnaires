@@ -1,0 +1,55 @@
+{
+  "slug": "alstom",
+  "name": "Alstom",
+  "description": "Alstom conçoit et fournit des solutions de mobilité ferroviaire : trains à grande vitesse, métros, tramways, systèmes intégrés, services, infrastructures, signalisation et solutions digitales. Le groupe est coté sur Euronext Paris sous le symbole ALO.",
+  "sector": "Industrie & Équipements",
+  "stockIndex": "SBF 120",
+  "ticker": "ALO",
+  "website": "https://www.alstom.com",
+  "minShares": null,
+  "lastVerifiedAt": "2026-06-09",
+  "benefits": [
+    {
+      "type": "reduction",
+      "title": "Droits de garde pris en charge au nominatif pur",
+      "description": "Alstom prend en charge les droits de garde des actions inscrites au nominatif pur et gérées par Uptevia. Aucun seuil minimal ni aucune durée minimale de détention ne sont publiés pour cet avantage. Les frais de courtage restent dus, avec un tarif indiqué de 0,2 % du montant brut de la négociation, un minimum de 6,00 euros HT et un supplément de 10 euros HT pour un ordre papier.",
+      "value": "Droits de garde pris en charge par Alstom au nominatif pur",
+      "requiredShares": null,
+      "sourceUrl": "https://www.alstom.com/fr/finance/informations-pour-les-actionnaires-alstom"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Alstom dispose-t-il d'un club ou d'un cercle des actionnaires au 9 juin 2026 ?",
+      "answer": "Non. La page officielle destinée aux actionnaires, le Document d'enregistrement universel 2025/26 et la documentation de l'assemblée générale 2026 ne présentent aucun club, cercle ou dispositif d'adhésion. Alstom maintient seulement des services de relations investisseurs et de tenue des titres au nominatif."
+    },
+    {
+      "question": "Les actionnaires Alstom bénéficient-ils encore de visites de sites ou de réunions en région ?",
+      "answer": "Aucune offre active de visite de site ou de réunion régionale réservée aux actionnaires n'est publiée au 9 juin 2026. Des documents officiels de 2007 et 2011 mentionnaient de telles initiatives, mais ces archives ne prouvent pas leur maintien et elles ne sont donc pas retenues comme avantages actuels."
+    },
+    {
+      "question": "Quel avantage concret est actuellement prouvé pour un actionnaire individuel Alstom ?",
+      "answer": "L'unique avantage retenu est la prise en charge par Alstom des droits de garde pour les actions inscrites au nominatif pur et gérées par Uptevia. Les frais de courtage restent dus : 0,2 % du montant brut de la négociation, avec un minimum de 6,00 euros HT, auxquels s'ajoutent 10 euros HT pour un ordre papier."
+    },
+    {
+      "question": "Comment passer des actions Alstom du porteur au nominatif pur ?",
+      "answer": "L'actionnaire doit contacter le service actionnaires Alstom pour obtenir la procédure de transfert, puis transmettre l'instruction nécessaire à l'intermédiaire financier qui détient les titres. Après l'ouverture du compte au nominatif pur, Uptevia adresse les identifiants permettant d'accéder à son espace investisseurs."
+    },
+    {
+      "question": "Faut-il détenir un nombre minimal d'actions ou respecter une durée de détention ?",
+      "answer": "Alstom indique qu'aucun minimum n'est requis pour ouvrir un compte au nominatif pur. Aucun seuil propre à la prise en charge des droits de garde ni aucune durée minimale de détention ne sont publiés. Ces deux conditions restent donc à null et ne sont pas remplacées artificiellement par une action."
+    },
+    {
+      "question": "La participation à l'assemblée générale constitue-t-elle un avantage actionnaire Alstom ?",
+      "answer": "Non. La participation et le vote à l'assemblée générale sont des droits ordinaires attachés aux actions, pas un avantage commercial. La brochure de l'assemblée du 9 juillet 2026 précise que tout actionnaire peut participer quel que soit le nombre d'actions détenues, sous réserve des formalités et dates d'inscription applicables."
+    }
+  ],
+  "sources": [
+    "https://www.alstom.com/fr/finance/informations-pour-les-actionnaires-alstom",
+    "https://www.alstom.com/sites/alstom.com/files/2026/05/28/20260528_URD_Alstom_FR.pdf",
+    "https://www.alstom.com/sites/alstom.com/files/2026/06/01/20260709_AGM_BDC_FR.pdf",
+    "https://www.alstom.com/fr/finance/informations-financieres",
+    "https://www.alstom.com/sites/alstom.com/files/2018/07/08/Global/Group/Resources/Documents/Investors%20document/Lettres%20aux%20actionnaires%20mai07.pdf",
+    "https://www.alstom.com/sites/alstom.com/files/2011/06/28/Pres%20AG%2011%20FR%2016x9%20finale%20Internet_0.pdf"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "eurofins-scientific",
+  "name": "Eurofins Scientific",
+  "description": "Eurofins Scientific est un groupe international de services d'analyses et de laboratoire pour l'alimentation, l'environnement, la pharmacie, les cosmétiques, la génomique et les diagnostics spécialisés. Son réseau comptait plus de 950 laboratoires dans 59 pays et plus de 65 000 collaborateurs selon la fiche officielle mise à jour en avril 2026.",
+  "sector": "Santé & Pharmacie",
+  "stockIndex": "CAC40",
+  "ticker": "ERF",
+  "website": "https://www.eurofins.com/",
+  "minShares": null,
+  "lastVerifiedAt": "2026-06-09",
+  "benefits": [],
+  "faqs": [
+    {
+      "question": "Eurofins Scientific possède-t-elle un club ou un programme pour ses actionnaires ?",
+      "answer": "Non au 9 juin 2026. Les ressources officielles actuelles ne présentent aucun club formel, programme d'adhésion ou dispositif de fidélité. Eurofins propose un espace public de relations investisseurs, mais celui-ci ne publie ni statut de membre, ni formulaire d'adhésion, ni règlement d'avantages."
+    },
+    {
+      "question": "Faut-il détenir au moins une action Eurofins pour accéder à un avantage particulier ?",
+      "answer": "Aucun seuil global ou propre à un avantage n'est officiellement publié, puisqu'aucun avantage spécifique n'est prouvé. La détention d'une action ne permet donc pas d'affirmer l'accès à un club ou à des bénéfices réservés, et l'ancien seuil d'une action est rejeté faute de preuve actuelle."
+    },
+    {
+      "question": "L'inscription à la liste de diffusion Relations investisseurs constitue-t-elle une adhésion ?",
+      "answer": "Non. Eurofins met à disposition une page intitulée « IR Distribution List », mais aucune condition de détention d'actions, aucun statut de membre et aucun avantage réservé n'y sont publiés. Il s'agit d'un service générique de diffusion d'informations financières, pas d'un club d'actionnaires."
+    },
+    {
+      "question": "L'assemblée générale et le droit de vote sont-ils des bénéfices actionnaires ?",
+      "answer": "Non dans le cadre de cette fiche. La page de l'assemblée générale du 23 avril 2026 publie les convocations, les formulaires de participation, les procurations, les modalités de vote et les résultats. Ces éléments relèvent des droits ordinaires de l'actionnaire et sont donc rejetés comme avantages commerciaux ou de fidélité."
+    },
+    {
+      "question": "Le dividende et les rachats d'actions Eurofins sont-ils retenus comme avantages ?",
+      "answer": "Non. Le dividende brut de 0,72 euro par action au titre de 2025 est un versement ordinaire aux actionnaires éligibles. Les rachats d'actions sont des opérations de gestion du capital réalisées par la société; ils ne sont ni une remise, ni un cadeau, ni un service individuel que l'actionnaire peut demander."
+    },
+    {
+      "question": "Les Investor Days, publications et contacts officiels constituent-ils des avantages réservés ?",
+      "answer": "Non. Les Investor Days ne sont assortis d'aucun seuil, d'aucune procédure ni d'aucune garantie d'accès réservée aux actionnaires individuels. Les rapports, présentations, informations sur l'action et coordonnées Relations investisseurs sont accessibles dans le portail public Eurofins et relèvent de l'information financière standard."
+    }
+  ],
+  "sources": [
+    "https://www.eurofins.com/investors/shareholder-information/",
+    "https://www.eurofins.com/investors/",
+    "https://www.eurofins.com/sitemapxml/",
+    "https://www.eurofins.com/investors/eurofins-ir-distribution-list/",
+    "https://www.eurofins.com/investors/agm-2026/",
+    "https://www.eurofins.com/investors/share-buy-back-programmes/",
+    "https://www.eurofins.com/investors/reports-and-presentations/2026/",
+    "https://www.eurofins.com/investors/investor-relations-events-timetable/",
+    "https://www.eurofins.com/about-us/our-business/eurofins-fact-sheet/",
+    "https://www.eurofins.com/media-centre/newsletters/",
+    "https://www.eurofins.com/investor-relations/"
+  ]
+}

@@ -1,0 +1,484 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "teleperformance",
+    "name": "Teleperformance",
+    "description": "Teleperformance, qui utilise la marque TP, est un groupe mondial de services aux entreprises en solutions digitales. Il combine technologies avancées et expertise humaine pour gérer l'expérience client, le back-office, le conseil et des services spécialisés tels que l'interprétariat, le recouvrement et les services de visas.",
+    "sector": "Services aux entreprises",
+    "stockIndex": "CAC Large 60",
+    "ticker": "TEP",
+    "website": "https://www.tp.com/",
+    "clubName": null,
+    "clubUrl": null
+  },
+  "offerClassification": {
+    "primaryKind": "shareholder_benefit",
+    "otherKinds": [
+      "investor_relations_only"
+    ],
+    "officialProgrammeName": null,
+    "status": "active",
+    "statusReason": "Aucun club, programme formel, règlement d'adhésion ou statut de membre n'a été identifié dans l'espace officiel des actionnaires individuels ni dans le document d'enregistrement universel 2025. TP publie toutefois un avantage économique actif lié au nominatif pur : la gratuité des droits de garde et des frais de gestion courante.",
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": null,
+    "eligibleShareClasses": [
+      "Action ordinaire Teleperformance SE, ISIN FR0000051807"
+    ],
+    "holdingModes": [
+      "registered_pure"
+    ],
+    "minimumHoldingPeriod": null,
+    "residencyRestrictions": [
+      "Aucune restriction de résidence propre à l'avantage n'est publiée dans les sources officielles consultées."
+    ],
+    "accountRestrictions": [
+      "Les titres doivent être inscrits au nominatif pur dans un compte Teleperformance tenu par Uptevia.",
+      "Le nominatif administré ne bénéficie pas de la gratuité des droits de garde et reste soumis aux frais de l'intermédiaire financier.",
+      "La fiche officielle indique que le nominatif pur n'est pas compatible avec la détention des titres dans un PEA."
+    ],
+    "proofRequired": [
+      "L'inscription des titres au nom de l'actionnaire dans le registre de Teleperformance tenu par Uptevia matérialise l'éligibilité.",
+      "Aucun justificatif d'adhésion à un club ni seuil documentaire séparé n'est publié."
+    ],
+    "fees": {
+      "membershipFee": null,
+      "applicationFee": null,
+      "otherFees": [
+        "Les ordres de bourse restent soumis à des frais de courtage; aucun barème 2026 propre à Teleperformance n'est publié dans les sources consultées.",
+        "L'intermédiaire financier d'origine peut éventuellement facturer le transfert des titres vers le nominatif pur; TP ne publie pas de barème pour ces frais."
+      ],
+      "notes": "Il n'existe pas d'adhésion à un club. La gratuité officielle porte sur les droits de garde et la gestion courante des titres au nominatif pur, pas sur l'achat, la vente ou les frais éventuellement prélevés par un intermédiaire lors du transfert."
+    },
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S03"
+    ]
+  },
+  "enrollment": {
+    "required": true,
+    "method": "transfer_agent",
+    "applicationUrl": "https://www.investors.uptevia.com/",
+    "contact": "Uptevia, 90-110 esplanade du Général-de-Gaulle, 92931 Paris-La Défense Cedex, France; +33 1 49 37 82 36. La page TP affiche aussi le 0 800 00 75 35 depuis la France.",
+    "steps": [
+      "Détenir des actions ordinaires Teleperformance SE portant l'ISIN FR0000051807.",
+      "Contacter Uptevia afin d'inscrire les titres au nominatif pur ou d'obtenir les instructions de conversion.",
+      "Lorsque les titres sont déjà détenus au porteur ou au nominatif administré, suivre la procédure de transfert communiquée par Uptevia et l'intermédiaire financier.",
+      "Après ouverture du compte au nominatif pur, utiliser l'espace sécurisé Uptevia pour consulter le compte et transmettre les ordres."
+    ],
+    "processingTime": null,
+    "renewal": "Aucun renouvellement périodique n'est publié; l'avantage dépend du maintien des titres au nominatif pur chez Uptevia.",
+    "deadlines": [],
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S03"
+    ]
+  },
+  "benefits": [
+    {
+      "id": "B01",
+      "type": "reduction",
+      "title": "Droits de garde et gestion courante gratuits",
+      "description": "Les actions Teleperformance détenues au nominatif pur chez Uptevia sont exonérées de droits de garde et des frais liés à la gestion courante des titres, notamment certains transferts, changements de statut, opérations sur titres et le paiement des dividendes. Cet avantage ne constitue pas un club et ne s'applique pas au nominatif administré.",
+      "value": "Gratuité des droits de garde et des frais de gestion courante au nominatif pur",
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "registered_pure"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "guaranteed",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Contacter Uptevia pour inscrire ou convertir les actions Teleperformance au nominatif pur.",
+        "Conserver les titres dans le compte Teleperformance tenu par Uptevia afin de continuer à bénéficier de la gratuité publiée."
+      ],
+      "limitsAndExclusions": [
+        "Aucun seuil propre n'est publié; il ne faut pas remplacer ce seuil inconnu par une action.",
+        "Le nominatif administré conserve les titres chez la banque ou le courtier et n'inclut pas la gratuité des droits de garde.",
+        "Les ordres d'achat et de vente restent soumis à des frais de courtage.",
+        "Les frais éventuellement facturés par l'intermédiaire d'origine pour transférer les titres ne sont pas couverts par la gratuité annoncée.",
+        "Le compte au nominatif pur n'est pas compatible avec un PEA selon la fiche officielle comparative."
+      ],
+      "primarySourceId": "S02",
+      "supportingSourceIds": [
+        "S01",
+        "S03"
+      ],
+      "sourceUrl": "https://www.tp.com/media/msvfbns0/tp-urd-2025.pdf",
+      "evidenceGrade": "A",
+      "uncertainty": "Le document d'enregistrement universel 2025 confirme l'avantage et son périmètre de gestion courante, mais TP ne publie ni seuil minimal explicite ni barème 2026 des frais de courtage ou de transfert."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Teleperformance propose-t-elle un club ou un programme formel pour ses actionnaires ?",
+      "answer": "Aucun club, programme avec statut de membre, règlement d'adhésion ou formulaire d'inscription dédié n'a été identifié au 9 juin 2026. TP dispose d'un espace public pour les actionnaires individuels et publie un avantage distinct lié à la détention au nominatif pur.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S04",
+        "S05"
+      ]
+    },
+    {
+      "question": "Quel avantage concret est retenu pour les actionnaires individuels de Teleperformance ?",
+      "answer": "Le seul avantage économique spécifique retenu est la gratuité des droits de garde et des frais de gestion courante pour les actions inscrites au nominatif pur chez Uptevia. Les ordres de bourse et les éventuels frais de transfert ne sont pas annoncés comme gratuits.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03"
+      ]
+    },
+    {
+      "question": "Combien d'actions faut-il détenir pour bénéficier de la gratuité au nominatif pur ?",
+      "answer": "TP ne publie aucun seuil minimal propre à cet avantage. Il faut détenir des actions Teleperformance et les inscrire au nominatif pur, mais le rapport conserve donc le nombre requis à null au lieu de déduire arbitrairement un seuil d'une action.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03"
+      ]
+    },
+    {
+      "question": "Comment inscrire ses actions Teleperformance au nominatif pur ?",
+      "answer": "Il faut contacter Uptevia, mandataire de Teleperformance, au +33 1 49 37 82 36 ou via son espace investisseurs afin d'obtenir les instructions d'inscription ou de conversion. La procédure détaillée, les pièces à fournir et le délai de traitement ne sont pas publiés par TP.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03"
+      ]
+    },
+    {
+      "question": "Le nominatif administré donne-t-il droit aux mêmes frais gratuits que le nominatif pur ?",
+      "answer": "Non pour les droits de garde. Au nominatif administré, les titres restent gérés par la banque ou le courtier et les frais dépendent de cet intermédiaire. La gratuité des droits de garde publiée par TP est réservée au nominatif pur tenu par Uptevia.",
+      "sourceIds": [
+        "S01",
+        "S03"
+      ]
+    },
+    {
+      "question": "La newsletter, l'assemblée générale ou Investir Day sont-ils des avantages réservés ?",
+      "answer": "Non. Les newsletters et publications sont accessibles dans l'espace public de relations investisseurs. L'assemblée générale et le vote relèvent des droits ordinaires des actionnaires. Investir Day 2024 accueillait aussi des étudiants et d'autres participants, et aucun événement 2026 réservé aux seuls actionnaires n'est publié.",
+      "sourceIds": [
+        "S01",
+        "S04",
+        "S05"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "L'action ordinaire Teleperformance SE porte l'ISIN FR0000051807, le symbole Euronext TEP et est cotée sur Euronext Paris, compartiment A.",
+      "status": "verified",
+      "sourceIds": [
+        "S02",
+        "S05",
+        "S06"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C02",
+      "statement": "Le document d'enregistrement universel 2025 classe l'action TP dans le CAC Large 60 et non dans le CAC 40.",
+      "status": "verified",
+      "sourceIds": [
+        "S02"
+      ],
+      "notes": "La FAQ officielle non datée et le manifeste local conservent encore la mention CAC 40; la source datée du 11 mars 2026 est retenue."
+    },
+    {
+      "id": "C03",
+      "statement": "Aucun club ou programme formel d'actionnaires Teleperformance n'est présenté dans les sources officielles actuelles consultées.",
+      "status": "partially_verified",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S04",
+        "S05"
+      ],
+      "notes": "L'absence est établie par l'examen de l'espace actionnaires individuels et du document d'enregistrement universel 2025; elle ne peut exclure un dispositif non publié."
+    },
+    {
+      "id": "C04",
+      "statement": "Les droits de garde et les frais de gestion courante sont gratuits pour les actions détenues au nominatif pur chez Uptevia.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "notes": "Les frais de courtage et les éventuels frais de transfert ne sont pas compris dans cette gratuité."
+    },
+    {
+      "id": "C05",
+      "statement": "Aucun seuil minimal d'actions ni durée minimale de détention n'est publié pour bénéficier de la gratuité au nominatif pur.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "notes": "Le nombre requis doit rester null; la détention d'une action ne doit pas être transformée en seuil officiel."
+    },
+    {
+      "id": "C06",
+      "statement": "Investir Day 2024 n'était pas réservé aux actionnaires Teleperformance, puisque des étudiants et d'autres participants pouvaient assister aux interventions.",
+      "status": "verified",
+      "sourceIds": [
+        "S04",
+        "S05"
+      ],
+      "notes": "Aucun événement 2026 réservé aux seuls actionnaires individuels n'est publié sur la page officielle des événements."
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "Teleperformance anime un club actionnaires gratuit accessible dès la détention d'une action.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S04",
+        "S05"
+      ]
+    },
+    {
+      "claim": "L'assemblée générale annuelle constitue un avantage du club actionnaires Teleperformance.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S04",
+        "S05"
+      ]
+    },
+    {
+      "claim": "Le droit de vote ou le droit de vote double après quatre ans est un bénéfice commercial réservé.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S05"
+      ]
+    },
+    {
+      "claim": "Le dividende ordinaire versé par Teleperformance est un avantage du programme actionnaires.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S02",
+        "S05"
+      ]
+    },
+    {
+      "claim": "Les newsletters, rapports, communiqués, webcasts et présentations financières publics sont des bénéfices exclusifs des actionnaires.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S04",
+        "S05"
+      ]
+    },
+    {
+      "claim": "Investir Day est un événement Teleperformance réservé aux seuls actionnaires individuels.",
+      "reason": "not_shareholder_specific",
+      "sourceIds": [
+        "S01",
+        "S04",
+        "S05"
+      ]
+    },
+    {
+      "claim": "Le nominatif administré offre la gratuité des droits de garde comme le nominatif pur.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S01",
+        "S03"
+      ]
+    },
+    {
+      "claim": "Tous les frais, y compris le courtage et le transfert initial, sont gratuits au nominatif pur.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S02",
+        "S03"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.tp.com/fr-fr/investisseurs/actionnaires-individuels/devenir-actionnaire/",
+      "title": "Devenir actionnaire",
+      "publisher": "TP",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle active décrivant le nominatif pur, le nominatif administré et le porteur. Elle réserve la gratuité des droits de garde au nominatif pur chez Uptevia, donne les contacts et présente Investir Day sans publier de club ni de seuil d'adhésion."
+    },
+    {
+      "id": "S02",
+      "url": "https://www.tp.com/media/msvfbns0/tp-urd-2025.pdf",
+      "title": "Universal Registration Document 2025",
+      "publisher": "Teleperformance SE",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2026-03-11",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Document officiel déposé auprès de l'AMF le 11 mars 2026. Il confirme le symbole TEP, l'ISIN, la cotation, l'appartenance au CAC Large 60, la gratuité des droits de garde et de la gestion courante au nominatif, ainsi que la procédure de contact Uptevia."
+    },
+    {
+      "id": "S03",
+      "url": "https://www.tp.com/media/kbcer5z2/fact-sheet_different-ways-of-holding-teleperformance-shares_.pdf",
+      "title": "Different ways of holding Teleperformance shares",
+      "publisher": "Teleperformance",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2024-06",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Fiche officielle comparative toujours liée depuis la page actuelle. Elle indique la gratuité des frais de garde et de gestion au nominatif pur, des frais de courtage distincts, l'absence de PEA au nominatif pur et des frais dépendant de la banque au nominatif administré."
+    },
+    {
+      "id": "S04",
+      "url": "https://www.tp.com/fr-fr/investisseurs/actionnaires-individuels/evenements/",
+      "title": "Évènements",
+      "publisher": "TP",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "undated",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle affichant le calendrier financier 2026, l'assemblée générale et l'ancien Investir Day 2024. Elle précise que cet événement accueillait des actionnaires, des étudiants et d'autres participants, sans publier d'événement réservé aux actionnaires."
+    },
+    {
+      "id": "S05",
+      "url": "https://www.tp.com/fr-fr/investisseurs/actionnaires-individuels/faq-et-glossaire/",
+      "title": "FAQ et glossaire investisseurs",
+      "publisher": "TP",
+      "sourceType": "official_faq",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "undated",
+      "evidenceGrade": "B",
+      "evidenceSummary": "FAQ officielle non datée présentant le titre, les modes de détention, l'assemblée, les publications, le calendrier et Investir Day. Certaines données sont anciennes, notamment la structure du capital et la mention CAC 40, ce qui impose de privilégier le document 2025 daté."
+    },
+    {
+      "id": "S06",
+      "url": "https://live.euronext.com/fr/products/equities/company-news/2026-06-01-tp-information-mensuelle-relative-au-nombre-total",
+      "title": "TP : Information mensuelle relative au nombre total d'actions et de droits de vote",
+      "publisher": "Teleperformance SE",
+      "sourceType": "regulatory_filing",
+      "official": true,
+      "publishedAt": "2026-06-01",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Information réglementée publiée le 1er juin 2026 confirmant l'entité Teleperformance, le symbole TEP, l'ISIN FR0000051807, la cotation Euronext Paris compartiment A et la description actuelle des activités du groupe TP."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Indice boursier de référence",
+      "sourceIds": [
+        "S02",
+        "S05"
+      ],
+      "positions": [
+        "Le document d'enregistrement universel 2025 déposé le 11 mars 2026 classe TP dans le CAC Large 60 et ne mentionne plus le CAC 40.",
+        "La FAQ officielle non datée et le manifeste local indiquent encore CAC 40."
+      ],
+      "resolution": "Retenir CAC Large 60, information officielle la plus récente, précise et datée. Le manifeste doit être corrigé avant transformation, car conserver CAC40 contredirait la source 2026.",
+      "impact": "blocks_development"
+    },
+    {
+      "topic": "Périmètre de la gratuité selon le mode de détention",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "positions": [
+        "Le document d'enregistrement universel emploie par endroits le terme générique d'actionnaires au nominatif pour présenter l'exonération des frais.",
+        "La page détaillée et la fiche comparative précisent que la gratuité des droits de garde est propre au nominatif pur, tandis que le nominatif administré dépend des frais de la banque."
+      ],
+      "resolution": "Limiter le bénéfice au nominatif pur chez Uptevia. Le nominatif administré est exclu de la gratuité des droits de garde.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Caractère réservé des événements",
+      "sourceIds": [
+        "S01",
+        "S04",
+        "S05"
+      ],
+      "positions": [
+        "La page Devenir actionnaire parle d'événements dédiés et cite Investir Day 2024.",
+        "Les pages Évènements et FAQ indiquent que des étudiants et d'autres participants pouvaient également assister à Investir Day, et ne publient aucun événement 2026 réservé aux seuls actionnaires."
+      ],
+      "resolution": "Ne retenir aucun événement comme bénéfice actionnaire. La formulation marketing « événements dédiés » ne prouve ni exclusivité, ni seuil, ni procédure d'inscription réservée.",
+      "impact": "benefit_excluded"
+    },
+    {
+      "topic": "Adresse postale d'Uptevia",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "positions": [
+        "La page et la fiche comparative indiquent 90-100 esplanade du Général-de-Gaulle.",
+        "Le document d'enregistrement universel 2025 indique 90-110 esplanade du Général-de-Gaulle."
+      ],
+      "resolution": "Retenir 90-110, adresse figurant dans la source officielle la plus récente et datée, tout en privilégiant le téléphone et le portail Uptevia pour initier la démarche.",
+      "impact": "wording_only"
+    }
+  ],
+  "handoff": {
+    "researchStatus": "complete_with_uncertainties",
+    "readyForDevelopment": false,
+    "benefitCount": 1,
+    "faqCount": 6,
+    "blockingIssues": [
+      "Le manifeste local classe Teleperformance dans le CAC40, tandis que le document d'enregistrement universel 2025 déposé le 11 mars 2026 indique CAC Large 60. Cette métadonnée doit être arbitrée ou corrigée avant création du dossier final."
+    ],
+    "developerNotes": [
+      "Ne pas créer de club ni reprendre l'ancienne clubUrl : aucun dispositif formel d'adhésion n'est prouvé.",
+      "Conserver un seul bénéfice, limité à la gratuité des droits de garde et de la gestion courante au nominatif pur.",
+      "Laisser requiredShares à null : aucun seuil minimal propre au bénéfice n'est publié.",
+      "Ne pas étendre la gratuité au nominatif administré, aux ordres de bourse ou aux frais de transfert facturés par un intermédiaire.",
+      "Exclure la newsletter publique, les publications financières, les webcasts, l'assemblée générale, le vote, le vote double et le dividende.",
+      "Exclure Investir Day : l'événement n'était pas réservé aux actionnaires et aucun événement réservé n'est publié pour 2026.",
+      "Utiliser le domaine actuel https://www.tp.com/ et le ticker TEP.",
+      "Ne produire aucun dossier final tant que le conflit CAC40/CAC Large 60 n'est pas résolu."
+    ]
+  }
+}

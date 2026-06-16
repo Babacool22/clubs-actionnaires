@@ -1,0 +1,665 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "safran",
+    "name": "Safran",
+    "description": "Safran est un groupe international de haute technologie actif dans l'aéronautique, avec la propulsion, les équipements et les intérieurs, ainsi que dans l'espace et la défense. Coté sur Euronext Paris sous le symbole SAF, le Groupe appartient au CAC 40 et à l'Euro Stoxx 50.",
+    "sector": "Aéronautique & Défense",
+    "stockIndex": "CAC40",
+    "ticker": "SAF",
+    "website": "https://www.safran-group.com/fr",
+    "clubName": "Club Actionnaire Safran",
+    "clubUrl": "https://www.safran-group.com/fr/finance/actionnaires-individuels"
+  },
+  "offerClassification": {
+    "primaryKind": "shareholder_club",
+    "otherKinds": [
+      "shareholder_benefit",
+      "investor_relations_only"
+    ],
+    "officialProgrammeName": "Club Actionnaire Safran",
+    "status": "active",
+    "statusReason": "Safran présente un Club Actionnaire formel, avec adhésion gratuite, seuil d'une action, formulaire d'inscription et programme annuel 2026. Le Club organise des visites et des réunions actionnaires; Safran propose aussi un avantage distinct lié au nominatif pur et des services ordinaires d'information financière.",
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S03",
+      "S05"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": 1,
+    "eligibleShareClasses": [
+      "Action ordinaire Safran, ISIN FR0000073272"
+    ],
+    "holdingModes": [
+      "bearer",
+      "registered_administered",
+      "registered_pure"
+    ],
+    "minimumHoldingPeriod": "Aucune durée minimale de détention n'est publiée pour adhérer au Club Actionnaire.",
+    "residencyRestrictions": [
+      "Aucune restriction de résidence n'est publiée; le formulaire électronique permet de sélectionner un pays parmi une liste internationale."
+    ],
+    "accountRestrictions": [
+      "Le Club est réservé aux personnes physiques.",
+      "La page officielle et le Guide des actionnaires 2026 excluent les salariés actionnaires du Groupe.",
+      "La détention au nominatif n'est pas obligatoire pour adhérer: une action au porteur, au nominatif administré ou au nominatif pur est admise.",
+      "Le nominatif pur est géré par Uptevia et ne peut pas être conservé dans un PEA."
+    ],
+    "proofRequired": [
+      "Le formulaire demande le nombre d'actions Safran et le mode de détention.",
+      "L'actionnaire déclare sur l'honneur l'exactitude des informations fournies; aucune attestation externe n'est expressément exigée dans les formulaires consultés."
+    ],
+    "fees": {
+      "membershipFee": "0 €",
+      "applicationFee": "0 €",
+      "otherFees": [
+        "Les déplacements pour participer aux visites de sites restent à la charge des membres.",
+        "Le transfert ou la conversion de titres au nominatif peut être facturé par l'intermédiaire financier d'origine.",
+        "Les frais de courtage au nominatif pur restent applicables, sans barème chiffré publié dans le Guide 2026."
+      ],
+      "notes": "Safran prend en charge les droits de garde et les frais de gestion courante au nominatif pur. Cette gratuité est distincte de l'adhésion au Club."
+    },
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S04",
+      "S05",
+      "S06",
+      "S07"
+    ]
+  },
+  "enrollment": {
+    "required": true,
+    "method": "online_form",
+    "applicationUrl": "https://www.safran-group.com/fr/contact/finance/club-actionnaire",
+    "contact": "Club Actionnaire Safran : actionnaire.individuel@safrangroup.com, 0 800 17 17 17; courrier à Safran, Club Actionnaire, 2 boulevard du Général-Martial-Valin, 75724 Paris Cedex 15, France.",
+    "steps": [
+      "Détenir au moins une action ordinaire Safran au porteur, au nominatif administré ou au nominatif pur.",
+      "Remplir le formulaire électronique d'adhésion ou le bulletin papier avec ses coordonnées, son nombre d'actions et son mode de détention.",
+      "Déclarer sur l'honneur l'exactitude des informations et accepter l'avis de protection des données.",
+      "Envoyer le formulaire en ligne, par e-mail ou par courrier selon le support utilisé."
+    ],
+    "processingTime": null,
+    "renewal": "Aucun renouvellement périodique n'est indiqué. Le bulletin papier précise que les données sont conservées jusqu'à la demande de désinscription; retirer son consentement entraîne la suppression du Club.",
+    "deadlines": [
+      "Aucune date limite générale n'est publiée pour adhérer au Club.",
+      "Les visites de sites ont chacune une date de clôture d'inscription distincte dans le programme annuel."
+    ],
+    "sourceIds": [
+      "S01",
+      "S02",
+      "S05",
+      "S06"
+    ]
+  },
+  "benefits": [
+    {
+      "id": "B01",
+      "type": "evenement",
+      "title": "Visites gratuites de sites Safran en 2026",
+      "description": "Le programme 2026 réserve aux membres du Club cinq visites guidées: Safran Aircraft Engines Services Brussels à Steenokkerzeel, Safran Landing Systems à Villeurbanne, le Musée Aéronautique et Spatial Safran à Réau, Safran Aerosystems à Cognac et Safran Electronics & Defense à Éragny-sur-Oise. Chaque visite dispose de 15 places attribuées parmi les demandes.",
+      "value": "Participation gratuite; 15 places par visite; jusqu'à deux personnes par demande.",
+      "requiredShares": 1,
+      "requiredHoldingModes": [
+        "bearer",
+        "registered_administered",
+        "registered_pure"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "lottery",
+      "validFrom": "2026-04-08",
+      "validUntil": "2026-11-26",
+      "requestDeadline": "18 mars 2026, 8 avril 2026, 2 juin 2026, 1er septembre 2026 ou 5 novembre 2026 selon la visite.",
+      "procedure": [
+        "Être membre du Club Actionnaire Safran.",
+        "Choisir une visite et demander une ou deux places au maximum par courrier ou par e-mail à actionnaire.individuel@safrangroup.com avant la date de clôture.",
+        "Indiquer les coordonnées du membre et, le cas échéant, celles de l'accompagnant.",
+        "Attendre la confirmation de sélection environ deux semaines avant la visite; à défaut, Safran indique une inscription sur liste d'attente."
+      ],
+      "limitsAndExclusions": [
+        "Les visites sont exclusivement réservées aux membres du Club et sont gratuites.",
+        "Le nombre de places est limité à 15 pour chaque visite.",
+        "Safran indique tirer les participants au sort, avec priorité aux membres n'ayant jamais participé à une visite de site.",
+        "L'âge minimal est de 12 ans.",
+        "Une copie de la pièce d'identité du membre et de l'accompagnant peut être demandée pour certains sites protégés.",
+        "Les frais de déplacement ne sont pas pris en charge par Safran.",
+        "Au 9 juin 2026, les clôtures des visites de Steenokkerzeel, Villeurbanne et Réau étaient passées; les demandes restaient possibles pour Cognac et Éragny-sur-Oise jusqu'à leurs échéances respectives."
+      ],
+      "primarySourceId": "S03",
+      "supportingSourceIds": [
+        "S04"
+      ],
+      "sourceUrl": "https://www.safran-group.com/fr/download/media/450462",
+      "evidenceGrade": "A",
+      "uncertainty": "Le Guide 2026 évoque six sites industriels visités chaque année, tandis que le programme opérationnel 2026 n'en liste que cinq. Le rapport retient les cinq visites précisément datées."
+    },
+    {
+      "id": "B02",
+      "type": "evenement",
+      "title": "Invitations à deux réunions actionnaires régionales",
+      "description": "Le programme du Club annonce deux réunions actionnaires en région en 2026. La Direction de la Communication Financière doit y présenter Safran, ses axes stratégiques et ses performances financières et extra-financières, puis répondre aux questions. Le bulletin d'adhésion indique que les membres sont systématiquement conviés aux réunions organisées dans leur région.",
+      "value": null,
+      "requiredShares": 1,
+      "requiredHoldingModes": [
+        "bearer",
+        "registered_administered",
+        "registered_pure"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "unknown",
+      "validFrom": "2026",
+      "validUntil": "2026-12-31",
+      "requestDeadline": null,
+      "procedure": [
+        "Adhérer au Club Actionnaire Safran.",
+        "Attendre la communication des villes, dates et modalités d'inscription.",
+        "Répondre à l'invitation selon les instructions qui seront communiquées par Safran."
+      ],
+      "limitsAndExclusions": [
+        "Au 9 juin 2026, les lieux, dates, capacités et éventuelles dates limites n'étaient pas publiés.",
+        "Le programme ne permet pas d'affirmer que la présence est garantie à tous les membres.",
+        "L'Assemblée générale et le salon Investir Day ne sont pas inclus dans ce bénéfice."
+      ],
+      "primarySourceId": "S03",
+      "supportingSourceIds": [
+        "S02",
+        "S06"
+      ],
+      "sourceUrl": "https://www.safran-group.com/fr/download/media/450462",
+      "evidenceGrade": "A",
+      "uncertainty": "Le programme 2026 annonce deux réunions, alors que le Guide 2026 emploie le singulier. Les détails opérationnels de ces deux réunions n'étaient pas encore disponibles à la date de référence."
+    },
+    {
+      "id": "B03",
+      "type": "reduction",
+      "title": "Gratuité de la garde au nominatif pur",
+      "description": "Pour les actions inscrites au nominatif pur et gérées par Uptevia, Safran prend en charge les droits de garde et les frais de gestion courante. Cet avantage économique est distinct du Club: il nécessite un transfert au nominatif pur, hors PEA, demandé à l'intermédiaire financier qui détient les titres.",
+      "value": "Droits de garde et frais de gestion courante pris en charge par Safran.",
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "registered_pure"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "guaranteed",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Remplir le formulaire officiel de transfert au nominatif pur.",
+        "Adresser le formulaire à la banque ou à l'intermédiaire financier qui détient les actions.",
+        "L'intermédiaire organise le transfert vers Uptevia, mandatée par Safran."
+      ],
+      "limitsAndExclusions": [
+        "Le nominatif pur est incompatible avec la conservation des titres dans un PEA.",
+        "L'intermédiaire financier d'origine peut facturer la conversion ou le transfert.",
+        "Les frais de courtage ne sont pas inclus dans la gratuité.",
+        "Aucun seuil minimal propre à cet avantage n'est publié; il ne doit pas être remplacé par une action."
+      ],
+      "primarySourceId": "S02",
+      "supportingSourceIds": [
+        "S01",
+        "S07"
+      ],
+      "sourceUrl": "https://www.safran-group.com/fr/download/media/451099",
+      "evidenceGrade": "A",
+      "uncertainty": "Le Guide 2026 qualifie les frais de courtage d'avantageux mais ne fournit aucun taux ni minimum actuel; seul l'avantage précisément établi de garde et gestion courante gratuites est retenu."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Le Club Actionnaire Safran est-il actif au 9 juin 2026 ?",
+      "answer": "Oui. Safran publie une page d'adhésion, un Guide des actionnaires 2026, un programme 2026 et un formulaire dédié aux visites. Le Club est donc un dispositif formel et actif, distinct du simple espace de relations investisseurs et des droits ordinaires attachés à l'action.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03",
+        "S05"
+      ]
+    },
+    {
+      "question": "Quelles sont les conditions pour adhérer au Club Actionnaire Safran ?",
+      "answer": "L'adhésion est gratuite et exige au moins une action Safran. Elle concerne les personnes physiques détenant leurs titres au porteur, au nominatif administré ou au nominatif pur. La page et le Guide 2026 excluent les salariés actionnaires du Groupe. Aucune ancienneté minimale ni restriction de résidence n'est publiée.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S05",
+        "S06"
+      ]
+    },
+    {
+      "question": "Comment s'inscrire et quel justificatif faut-il fournir ?",
+      "answer": "L'actionnaire peut utiliser le formulaire électronique Safran ou envoyer le bulletin par e-mail ou courrier. Il renseigne ses coordonnées, le nombre d'actions et le mode de détention, puis déclare sur l'honneur l'exactitude des informations. Les formulaires consultés n'imposent pas de joindre une attestation bancaire. Aucun délai de traitement ni renouvellement périodique n'est annoncé.",
+      "sourceIds": [
+        "S02",
+        "S05",
+        "S06"
+      ]
+    },
+    {
+      "question": "Quelles visites sont réellement réservées aux membres en 2026 ?",
+      "answer": "Le programme 2026 prévoit cinq visites: Steenokkerzeel le 8 avril, Villeurbanne le 29 avril, Réau le 23 juin, Cognac le 22 septembre et Éragny-sur-Oise le 26 novembre. Chacune compte 15 places, est gratuite et réservée aux membres. La sélection combine tirage au sort et priorité aux personnes n'ayant jamais participé; deux places au maximum peuvent être demandées.",
+      "sourceIds": [
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "question": "Safran réserve-t-il des conférences ou formations précises aux membres en 2026 ?",
+      "answer": "La page générale mentionne des formations pratiques avec l'École de la Bourse, mais le programme 2026 ne donne ni date, ni thème, ni procédure d'inscription. Investir Day propose des conférences dans le cadre d'un salon destiné aux actionnaires individuels, sans preuve d'exclusivité pour les membres du Club. Ces éléments ne sont donc pas retenus comme bénéfices 2026. En revanche, deux réunions régionales du Club sont annoncées, sans détails au 9 juin.",
+      "sourceIds": [
+        "S01",
+        "S03"
+      ]
+    },
+    {
+      "question": "Safran verse-t-il une prime de fidélité de 10 % au nominatif ?",
+      "answer": "Non, aucune prime de fidélité ou majoration de 10 % n'est prévue dans les sources officielles actuelles consultées. Le Guide 2026 indique que le dividende est versé quel que soit le mode de détention, et l'Assemblée générale du 21 mai 2026 a fixé un montant unique de 3,35 euros par action. Le nominatif pur offre la gratuité de garde; le nominatif depuis deux ans ouvre un droit de vote double, qui est un droit statutaire et non un avantage de Club.",
+      "sourceIds": [
+        "S02",
+        "S08"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "Safran est cotée sur Euronext Paris sous le symbole SAF, porte l'ISIN FR0000073272 et appartient au CAC 40 et à l'Euro Stoxx 50.",
+      "status": "verified",
+      "sourceIds": [
+        "S02",
+        "S08"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C02",
+      "statement": "Safran exploite un Club Actionnaire formel et actif avec adhésion et programme annuel 2026.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03",
+        "S05"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C03",
+      "statement": "L'adhésion est gratuite à partir d'une action, sans ancienneté minimale, pour les personnes physiques non salariées actionnaires du Groupe.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "notes": "Le formulaire électronique conserve une option FCPE, créant un conflit avec l'exclusion explicite des salariés actionnaires dans la page et le Guide 2026."
+    },
+    {
+      "id": "C04",
+      "statement": "Le Club accepte la détention au porteur, au nominatif administré ou au nominatif pur et repose sur une déclaration sur l'honneur du nombre d'actions.",
+      "status": "verified",
+      "sourceIds": [
+        "S05",
+        "S06"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C05",
+      "statement": "Le programme 2026 comporte cinq visites de sites de 15 places chacune, gratuites et exclusivement réservées aux membres du Club.",
+      "status": "verified",
+      "sourceIds": [
+        "S03",
+        "S04"
+      ],
+      "notes": "Les demandes sont soumises aux échéances propres à chaque visite; Safran mentionne un tirage au sort et une priorité aux membres n'ayant jamais participé."
+    },
+    {
+      "id": "C06",
+      "statement": "Deux réunions actionnaires régionales sont prévues en 2026 pour présenter la stratégie et les performances de Safran et répondre aux questions.",
+      "status": "partially_verified",
+      "sourceIds": [
+        "S03",
+        "S06"
+      ],
+      "notes": "L'existence et le nombre sont publiés, mais les dates, lieux, capacités et inscriptions n'étaient pas disponibles au 9 juin 2026."
+    },
+    {
+      "id": "C07",
+      "statement": "Safran prend en charge les droits de garde et les frais de gestion courante des actions détenues au nominatif pur chez Uptevia.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S07"
+      ],
+      "notes": "Le transfert peut être facturé par l'intermédiaire d'origine et le courtage reste payant."
+    },
+    {
+      "id": "C08",
+      "statement": "Safran ne publie pas de prime de fidélité de 10 % sur le dividende pour les actions détenues au nominatif.",
+      "status": "verified",
+      "sourceIds": [
+        "S02",
+        "S08"
+      ],
+      "notes": "Le dividende 2025 payé en 2026 est fixé à un montant unique de 3,35 euros par action, quel que soit le mode de détention."
+    },
+    {
+      "id": "C09",
+      "statement": "La page générale annonce des formations pratiques avec l'École de la Bourse, sans offre opérationnelle datée dans le programme 2026.",
+      "status": "partially_verified",
+      "sourceIds": [
+        "S01",
+        "S03"
+      ],
+      "notes": "L'absence de date, thème, capacité et procédure empêche de retenir une formation comme bénéfice actuel."
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "Safran verse une prime de fidélité de 10 % sur le dividende après deux années civiles pleines au nominatif.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S02",
+        "S08"
+      ]
+    },
+    {
+      "claim": "Les visites actuelles du Club concernent Villaroche, Gennevilliers et Bordes.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S03",
+        "S04",
+        "S09"
+      ]
+    },
+    {
+      "claim": "Le Club garantit des conférences thématiques réservées sur la propulsion durable, l'espace et la défense en 2026.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01",
+        "S03"
+      ]
+    },
+    {
+      "claim": "Les formations avec l'École de la Bourse constituent un bénéfice 2026 disponible avec des conditions d'inscription établies.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01",
+        "S03"
+      ]
+    },
+    {
+      "claim": "Les conférences d'Investir Day sont exclusivement réservées aux membres du Club Actionnaire Safran.",
+      "reason": "not_shareholder_specific",
+      "sourceIds": [
+        "S03"
+      ]
+    },
+    {
+      "claim": "La Lettre aux actionnaires, le Guide, les alertes e-mail et les publications financières publiques sont des bénéfices distincts du Club.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S06"
+      ]
+    },
+    {
+      "claim": "La participation à l'Assemblée générale, le vote et le droit de vote double après deux ans au nominatif sont des avantages du Club.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S02",
+        "S08"
+      ]
+    },
+    {
+      "claim": "Toute demande de visite de site est automatiquement acceptée.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "claim": "Les salariés actionnaires via un FCPE peuvent adhérer au Club dans les mêmes conditions que les autres personnes physiques.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S05",
+        "S06"
+      ]
+    },
+    {
+      "claim": "Les frais de courtage au nominatif pur bénéficient d'un tarif chiffré actuel pouvant être publié.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S02"
+      ]
+    },
+    {
+      "claim": "Le dividende ordinaire de 3,35 euros par action constitue un bénéfice du Club.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S02",
+        "S08"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.safran-group.com/fr/finance/actionnaires-individuels",
+      "title": "Actionnaires individuels",
+      "publisher": "Safran",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle actuelle décrivant le Club, son seuil d'une action, sa gratuité, l'exclusion des salariés actionnaires, les modes nominatifs, la gratuité de garde au nominatif pur, les visites, réunions et formations annoncées, ainsi que les formulaires et publications 2026."
+    },
+    {
+      "id": "S02",
+      "url": "https://www.safran-group.com/fr/download/media/451099",
+      "title": "Guide des actionnaires 2026",
+      "publisher": "Safran",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2026",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Guide officiel édition 2026 confirmant l'identité boursière, les modes de détention, les frais pris en charge au nominatif pur, le transfert hors PEA, le seuil et les exclusions du Club, les communications aux membres, les visites et les réunions actionnaires."
+    },
+    {
+      "id": "S03",
+      "url": "https://www.safran-group.com/fr/download/media/450462",
+      "title": "Programme Club Actionnaires Safran - édition 2026",
+      "publisher": "Safran",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2026",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Programme annuel officiel listant cinq visites datées, leurs capacités de 15 places, leurs échéances, l'inscription par e-mail, le tirage au sort, ainsi que deux réunions actionnaires régionales dont les détails doivent être communiqués ultérieurement."
+    },
+    {
+      "id": "S04",
+      "url": "https://www.safran-group.com/fr/download/media/450461",
+      "title": "Formulaire d'inscription aux visites de site du Club des actionnaires 2026",
+      "publisher": "Safran",
+      "sourceType": "official_form",
+      "official": true,
+      "publishedAt": "2026",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Formulaire opérationnel 2026 précisant les deux modes d'inscription, le maximum de deux places, la confirmation ou liste d'attente, la priorité aux nouveaux participants, l'exclusivité membres, la gratuité, l'âge minimal, les pièces d'identité possibles et l'absence de prise en charge du déplacement."
+    },
+    {
+      "id": "S05",
+      "url": "https://www.safran-group.com/fr/contact/finance/club-actionnaire",
+      "title": "Adhésion au club des actionnaires",
+      "publisher": "Safran",
+      "sourceType": "official_form",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Formulaire électronique actuel demandant identité, adresse, pays, téléphone, e-mail, date de naissance, nombre d'actions, type de détention et déclaration sur l'honneur. Il propose nominatif, porteur et FCPE, ce dernier choix entrant en conflit avec l'exclusion explicite des salariés actionnaires."
+    },
+    {
+      "id": "S06",
+      "url": "https://www.safran-group.com/fr/download/media/397375",
+      "title": "Bulletin d'adhésion - Club actionnaire Safran",
+      "publisher": "Safran",
+      "sourceType": "official_form",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "undated",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Bulletin officiel encore lié depuis la page actuelle. Il confirme une action au porteur ou au nominatif, la déclaration sur l'honneur, les communications postales, les visites et les invitations aux réunions régionales. Sa case FCPE est incompatible avec l'exclusion des salariés actionnaires publiée en 2026."
+    },
+    {
+      "id": "S07",
+      "url": "https://www.safran-group.com/fr/download/media/439070",
+      "title": "Inscription au nominatif administré ou transfert au nominatif pur",
+      "publisher": "Safran / Uptevia",
+      "sourceType": "official_form",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "undated",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Formulaire officiel de conversion ou transfert portant l'ISIN FR0000073272, à envoyer à l'intermédiaire financier, qui transmet à Uptevia. Il fournit l'adresse du service nominatif mais ne fixe ni délai ni barème de frais."
+    },
+    {
+      "id": "S08",
+      "url": "https://www.safran-group.com/fr/espace-presse/assemblee-generale-2026-actionnaires-safran-decide-versement-dividende-335-euros-action-2026-05-21",
+      "title": "L'Assemblée Générale 2026 des actionnaires de Safran décide le versement d'un dividende de 3,35 euros par action",
+      "publisher": "Safran",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": "2026-05-21",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Communiqué officiel post-assemblée confirmant le symbole SAF, l'approbation d'un dividende unique de 3,35 euros par action, son calendrier de paiement, les activités du Groupe et son appartenance au CAC 40 et à l'Euro Stoxx 50."
+    },
+    {
+      "id": "S09",
+      "url": "https://www.safran-group.com/fr/actualite/safran-recoit-grand-trophee-bronze-2023-meilleures-relations-actionnaires-2023-12-13",
+      "title": "Safran reçoit le Grand Trophée de Bronze 2023 des meilleures relations actionnaires",
+      "publisher": "Safran",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": "2023-12-13",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "archived",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Actualité historique décrivant les animations proposées au Club en 2023, dont visites, réunions régionales et conférence à Investir Day. Elle prouve l'activité passée du Club mais ne permet pas de présenter les événements ou sites de 2023 comme actifs en 2026."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Nombre de visites de sites en 2026",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "positions": [
+        "Le Guide des actionnaires 2026 indique que Safran offre la possibilité de visiter six sites industriels chaque année.",
+        "Le programme et le formulaire opérationnels 2026 ne listent que cinq visites, chacune avec une date et 15 places."
+      ],
+      "resolution": "Retenir cinq visites pour l'année 2026, car le programme annuel et le formulaire d'inscription sont les sources opérationnelles les plus précises. La formule de six visites du Guide reste signalée comme incohérence.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Éligibilité des salariés actionnaires et des détenteurs via FCPE",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S05",
+        "S06"
+      ],
+      "positions": [
+        "La page officielle et le Guide 2026 précisent que le Club n'est pas ouvert aux salariés actionnaires du Groupe.",
+        "Les formulaires électronique et papier proposent néanmoins un mode de détention via FCPE."
+      ],
+      "resolution": "Appliquer l'exclusion explicite et répétée dans les textes 2026. Ne pas présenter le FCPE comme un mode éligible tant que Safran n'a pas clarifié ou corrigé ses formulaires.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Nombre de réunions actionnaires régionales en 2026",
+      "sourceIds": [
+        "S02",
+        "S03"
+      ],
+      "positions": [
+        "Le Guide 2026 évoque une réunion d'actionnaires en région chaque année.",
+        "Le programme 2026 annonce précisément deux réunions en région, avec lieux et dates à communiquer ultérieurement."
+      ],
+      "resolution": "Retenir deux réunions pour 2026, conformément au programme annuel spécifique. Conserver l'incertitude sur leurs modalités tant qu'elles ne sont pas publiées.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Formations et conférences réservées aux membres en 2026",
+      "sourceIds": [
+        "S01",
+        "S03",
+        "S09"
+      ],
+      "positions": [
+        "La page générale du Club mentionne des formations pratiques en partenariat avec l'École de la Bourse, et une actualité de 2023 cite une conférence à Investir Day.",
+        "Le programme 2026 ne contient aucune formation datée et présente Investir Day comme un salon destiné aux actionnaires individuels, sans exclusivité démontrée pour les membres du Club."
+      ],
+      "resolution": "Exclure les formations et conférences des bénéfices 2026. Seules les deux réunions régionales annoncées dans le programme sont retenues, avec leurs incertitudes opérationnelles.",
+      "impact": "benefit_excluded"
+    }
+  ],
+  "handoff": {
+    "researchStatus": "complete_with_uncertainties",
+    "readyForDevelopment": true,
+    "benefitCount": 3,
+    "faqCount": 6,
+    "blockingIssues": [],
+    "developerNotes": [
+      "Créer un Club Actionnaire Safran actif avec un seuil global d'une action et une adhésion gratuite.",
+      "Conserver l'exclusion des salariés actionnaires malgré la case FCPE encore présente dans les formulaires.",
+      "Retenir exactement trois bénéfices: visites 2026, invitations aux deux réunions régionales 2026 et gratuité de garde/gestion courante au nominatif pur.",
+      "Pour les visites, conserver les cinq sites du programme 2026, les 15 places, le maximum de deux personnes, la sélection avec priorité aux nouveaux participants, les échéances et l'absence de prise en charge des déplacements.",
+      "Ne pas reprendre Villaroche, Gennevilliers ou Bordes comme visites 2026.",
+      "Ne pas créer de bénéfice pour les formations, les conférences d'Investir Day, l'Assemblée générale, le vote, le droit de vote double, les publications ou le dividende ordinaire.",
+      "Rejeter explicitement la prétendue prime de fidélité de 10 %: le dividende 2025 payé en 2026 est de 3,35 euros par action quel que soit le mode de détention.",
+      "Laisser le seuil propre à la gratuité de garde au nominatif pur à null; aucune source ne fixe un minimum pour cet avantage."
+    ]
+  }
+}

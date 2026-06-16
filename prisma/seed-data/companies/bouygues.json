@@ -1,0 +1,61 @@
+{
+  "slug": "bouygues",
+  "name": "Bouygues",
+  "description": "Bouygues est un groupe international diversifié de services présent dans la construction, les énergies et services, les télécoms et les médias. Ses six principaux métiers sont Colas, Bouygues Construction, Bouygues Immobilier, Equans, Bouygues Telecom et TF1. L'action Bouygues est cotée sur Euronext Paris.",
+  "sector": "Construction & Concessions",
+  "stockIndex": "CAC40",
+  "ticker": "EN",
+  "website": "https://www.bouygues.com/",
+  "minShares": null,
+  "lastVerifiedAt": "2026-06-09",
+  "benefits": [
+    {
+      "type": "reduction",
+      "title": "Droits de garde et frais de gestion pris en charge",
+      "description": "Pour les actions Bouygues détenues au nominatif pur sur un compte-titres ouvert directement chez Bouygues, la société prend en charge les droits de garde et les frais de gestion. Aucun seuil minimal ni aucune durée minimale de détention ne sont publiés. Le nominatif pur n'est pas accepté dans un PEA et les frais de courtage restent à la charge de l'actionnaire.",
+      "value": "Aucun droit de garde ni frais de gestion facturé au nominatif pur; frais de courtage exclus.",
+      "requiredShares": null,
+      "sourceUrl": "https://www.bouygues.com/contacter-bouygues-pour-obtenir-des-informations-financieres/"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Bouygues dispose-t-il d'un club ou d'un programme formel pour les actionnaires au 9 juin 2026 ?",
+      "answer": "Non. Les ressources officielles actuelles présentent des relations actionnaires, le nominatif et un espace sécurisé, mais aucun club avec adhésion, règlement ou statut de membre. Bouygues a également confirmé ne pas envisager de comité consultatif des actionnaires individuels. La fiche reste donc sans club."
+    },
+    {
+      "question": "Quels avantages concrets Bouygues accorde-t-il aux actionnaires au nominatif ?",
+      "answer": "Au nominatif pur, Bouygues prend en charge les droits de garde et les frais de gestion, hors courtage. Il s'agit du seul bénéfice admissible retenu. Aucun seuil minimal ni durée de détention n'est publié pour cet avantage. OLIS-Actionnaires est un outil de gestion des titres et non un bénéfice distinct."
+    },
+    {
+      "question": "Qui tient le registre et comment transférer des actions Bouygues au nominatif pur ?",
+      "answer": "Bouygues assure directement la tenue de ses comptes-titres nominatifs et est adhérent d'Euroclear France comme émetteur sous le numéro 791; aucun teneur de registre externe n'est désigné. L'actionnaire demande le transfert à son intermédiaire financier. Après réception des titres, Bouygues envoie un avis d'entrée et une convention d'ouverture de compte."
+    },
+    {
+      "question": "Combien d'actions faut-il détenir et pendant combien de temps pour obtenir le bénéfice retenu ?",
+      "answer": "Bouygues ne publie ni nombre minimal d'actions ni durée minimale de détention pour la prise en charge des droits de garde et frais de gestion au nominatif pur. Ces conditions restent donc inconnues. La durée de plus de deux ans concerne le droit de vote double, qui est un droit statutaire générique et non un avantage commercial retenu."
+    },
+    {
+      "question": "Bouygues verse-t-il une prime de fidélité ou un dividende majoré après deux ans au nominatif ?",
+      "answer": "Non. En avril 2026, Bouygues a répondu qu'il maintenait le principe d'égalité entre les actionnaires pour sa politique de dividende. Le seul mécanisme de fidélité officiellement cité est le droit de vote double après plus de deux années de détention au nominatif; ce droit n'est pas un dividende majoré et n'est pas compté comme bénéfice."
+    },
+    {
+      "question": "Les réunions régionales, visites de sites et le magazine sont-ils des avantages actuels réservés ?",
+      "answer": "Non. Bouygues participe encore à des rencontres régionales, mais l'événement de Lille du 3 juin 2026 était ouvert aux actionnaires, investisseurs individuels et épargnants: il n'était donc pas réservé aux actionnaires. En 2025, Bouygues indiquait seulement pouvoir étudier à l'avenir une visite de chantier si la sécurité le permettait. Aucun programme actuel de visites ni magazine actionnarial réservé n'a été prouvé."
+    }
+  ],
+  "sources": [
+    "https://www.bouygues.com/contacter-bouygues-pour-obtenir-des-informations-financieres/",
+    "https://www.bouygues.com/devenir-actionnaire/",
+    "https://www.bouygues.com/faq/",
+    "https://www.bouygues.com/app/uploads/2025/11/Reponses-aux-questions-ecrites-des-actionnaires.pdf",
+    "https://www.bouygues.com/app/uploads/2025/03/qa-ag-29-avril-2005-questions-ecrites-vf-1.pdf",
+    "https://www.bouygues.com/",
+    "https://www.bouygues.com/accedez-au-site-olis-actionnaires/",
+    "https://serviceactionnaires.bouygues.com/actionnaire/auth/loginHome.index.action",
+    "https://www.bouygues.com/app/uploads/2026/03/bouygues_deu_2025_fr_web.pdf",
+    "https://www.bouygues.com/agenda-contacts/",
+    "https://www.placedesinvestisseurs.org/evenements/bouygues-et-fdj-united-a-la-rencontre-des-actionnaires-a-lille-le-03-06-2026/",
+    "https://live.euronext.com/en/products/equities/company-news/2026-01-02-bouygues-press-release"
+  ]
+}

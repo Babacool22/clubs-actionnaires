@@ -9,6 +9,7 @@ import {
   TrackedLink,
 } from "@/components/TrackedLink";
 import CatalogueReturnLink from "@/components/CatalogueReturnLink";
+import RegistrationPanel from "@/components/RegistrationPanel";
 import { toYahooSymbol } from "@/lib/yahoo";
 import { BASE_URL } from "@/lib/seo";
 import type { Metadata } from "next";
@@ -57,6 +58,136 @@ const typeLabels: Record<string, string> = {
 
 function sectorFamily(sector: string) {
   return sector.toLocaleLowerCase("fr").split(/[&/]/)[0].trim();
+}
+
+function normalizeText(value: string) {
+  return value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLocaleLowerCase("fr");
+}
+
+function findRegistrationProcedure(
+  faqs: Array<{ question: string; answer: string }>,
+  benefits: Array<{ title: string; description: string }>
+) {
+  const rankedFaqs = faqs
+    .map((faq) => {
+      const question = normalizeText(faq.question);
+      const answer = normalizeText(faq.answer);
+      let score = 0;
+
+      if (question.includes("comment")) score += 2;
+      if (
+        question.includes("rejoindre") ||
+        question.includes("devenir actionnaire") ||
+        question.includes("adherer") ||
+        question.includes("inscription") ||
+        question.includes("acceder") ||
+        question.includes("beneficier")
+      ) {
+        score += 4;
+      }
+      if (
+        question.includes("combien d'action") ||
+        question.includes("nombre d'action")
+      ) {
+        score += 3;
+      }
+      if (
+        answer.includes("inscription") ||
+        answer.includes("adhesion") ||
+        answer.includes("attestation") ||
+        answer.includes("justificatif") ||
+        answer.includes("preuve de detention")
+      ) {
+        score += 2;
+      }
+
+      return { answer: faq.answer, score };
+    })
+    .sort((a, b) => b.score - a.score);
+
+  if (rankedFaqs[0]?.score >= 4) return rankedFaqs[0].answer;
+
+  const registrationBenefit = benefits.find((benefit) => {
+    const title = normalizeText(benefit.title);
+    return title.includes("adhesion") || title.includes("inscription");
+  });
+
+  return (
+    registrationBenefit?.description.replace(/\s*\(Source\s*:[^)]+\)\s*$/, "") ??
+    null
+  );
+}
+
+function getHoldingMode(procedure: string | null) {
+  if (!procedure) return "À vérifier";
+
+  const text = normalizeText(procedure);
+  const mentionsBearer = text.includes("au porteur");
+  const mentionsRegistered = text.includes("au nominatif");
+
+  if (mentionsBearer && mentionsRegistered) return "Porteur ou nominatif";
+  if (
+    text.includes("compte titres ordinaire") &&
+    (text.includes("pas de pea") ||
+      text.includes("non eligible au pea") ||
+      text.includes("n'est pas eligible au pea"))
+  ) {
+    return "Compte-titres ordinaire";
+  }
+  if (text.includes("pea") && text.includes("compte titres")) {
+    return "PEA ou compte-titres";
+  }
+  if (mentionsRegistered) return "Nominatif mentionné";
+  if (mentionsBearer) return "Au porteur";
+
+  return "À vérifier";
+}
+
+function getProofRequirement(procedure: string | null) {
+  if (!procedure) {
+    return "Les pièces demandées doivent être vérifiées sur la page officielle.";
+  }
+
+  const text = normalizeText(procedure);
+  if (text.includes("stockperks")) {
+    return "La détention est vérifiée via Stockperks selon la procédure indiquée.";
+  }
+  if (text.includes("attestation")) {
+    return "Préparez une attestation de détention fournie par votre intermédiaire financier.";
+  }
+  if (text.includes("justificatif") || text.includes("preuve de detention")) {
+    return "Préparez un justificatif récent prouvant la détention de vos actions.";
+  }
+
+  return "Consultez la page officielle pour connaître les pièces éventuellement demandées.";
+}
+
+function getMembershipCost(
+  faqs: Array<{ question: string; answer: string }>,
+  procedure: string | null
+) {
+  const feeFaq = faqs.find((faq) => {
+    const question = normalizeText(faq.question);
+    return (
+      question.includes("payant") ||
+      question.includes("gratuit") ||
+      question.includes("cotisation")
+    );
+  });
+  const source = normalizeText(feeFaq?.answer ?? procedure ?? "");
+
+  if (
+    source.includes("gratuit") ||
+    source.includes("aucune cotisation") ||
+    source.includes("aucun frais d'inscription")
+  ) {
+    return "Gratuit";
+  }
+
+  return "À vérifier";
 }
 
 export default async function EntreprisePage({ params }: Props) {
@@ -126,9 +257,15 @@ export default async function EntreprisePage({ params }: Props) {
   const hasCitedSources = company.benefits.some((benefit) =>
     benefit.description.includes("(Source :")
   );
+  const registrationProcedure = findRegistrationProcedure(
+    company.faqs,
+    company.benefits
+  );
+  const yahooSymbol = toYahooSymbol(company.ticker, company.stockIndex);
+  const officialRegistrationUrl = company.clubUrl ?? company.website;
 
   return (
-    <div className="max-w-5xl mx-auto px-[var(--space-md)] sm:px-[var(--space-lg)] lg:px-[var(--space-xl)] py-[var(--space-xl)] sm:py-[var(--space-2xl)]">
+    <div className={`max-w-5xl mx-auto px-[var(--space-md)] sm:px-[var(--space-lg)] lg:px-[var(--space-xl)] pt-[var(--space-xl)] sm:pt-[var(--space-2xl)] ${officialRegistrationUrl ? "pb-28 sm:pb-[var(--space-2xl)]" : "pb-[var(--space-xl)] sm:pb-[var(--space-2xl)]"}`}>
       {/* Breadcrumb */}
       <nav className="flex items-center gap-[var(--space-sm)] mb-[var(--space-xl)] sm:mb-[var(--space-2xl)]">
         <CatalogueReturnLink
@@ -241,7 +378,6 @@ export default async function EntreprisePage({ params }: Props) {
 
         {/* Data row */}
         {(() => {
-          const yahooSymbol = toYahooSymbol(company.ticker, company.stockIndex);
           return (
             <div className="grid grid-cols-2 sm:flex sm:flex-wrap items-start sm:items-center gap-x-[var(--space-lg)] gap-y-[var(--space-xl)] sm:gap-[var(--space-xl)] border-t border-border pt-[var(--space-lg)]">
               {company.minShares && (
@@ -292,7 +428,7 @@ export default async function EntreprisePage({ params }: Props) {
                     }}
                     className="col-span-2 sm:col-span-1 min-h-11 inline-flex items-center font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-interactive hover:text-text-display transition-colors duration-[var(--duration-micro)]"
                   >
-                    CLUB OFFICIEL →
+                    ESPACE ACTIONNAIRES →
                   </TrackedExternalLink>
                 </>
               )}
@@ -300,6 +436,24 @@ export default async function EntreprisePage({ params }: Props) {
           );
         })()}
       </div>
+
+      {officialRegistrationUrl && (
+        <RegistrationPanel
+          companyName={company.name}
+          companySlug={company.slug}
+          minShares={company.minShares}
+          yahooSymbol={yahooSymbol}
+          holdingMode={getHoldingMode(registrationProcedure)}
+          membershipCost={getMembershipCost(
+            company.faqs,
+            registrationProcedure
+          )}
+          proofRequirement={getProofRequirement(registrationProcedure)}
+          procedure={registrationProcedure}
+          officialUrl={officialRegistrationUrl}
+          companyWebsite={company.website}
+        />
+      )}
 
       {/* Benefits */}
       <div className="mb-[var(--space-2xl)] sm:mb-[var(--space-3xl)]">
@@ -354,37 +508,6 @@ export default async function EntreprisePage({ params }: Props) {
       {company.faqs.length > 0 && (
         <Faq items={company.faqs} companyName={company.name} />
       )}
-
-      {/* CTA */}
-      <div className="border-t border-border pt-[var(--space-xl)]">
-        <p className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled mb-[var(--space-md)]">
-          ACTIONNAIRE DE {company.name.toUpperCase()} ?
-        </p>
-        <div className="flex items-center gap-[var(--space-md)]">
-          {company.clubUrl ? (
-            <TrackedExternalLink
-              href={company.clubUrl}
-              eventName="Join Official Club"
-              eventProperties={{
-                company: company.slug,
-                minShares: company.minShares,
-              }}
-              className="w-full sm:w-auto min-h-12 inline-flex items-center justify-center gap-[var(--space-sm)] bg-text-display text-black px-[var(--space-lg)] py-[var(--space-sm)] font-[family-name:var(--font-data)] text-[12px] sm:text-[13px] tracking-[0.08em] uppercase hover:opacity-80 transition-opacity duration-[var(--duration-micro)]"
-            >
-              S&apos;INSCRIRE AU CLUB →
-            </TrackedExternalLink>
-          ) : company.website ? (
-            <TrackedExternalLink
-              href={company.website}
-              eventName="Open Company Website"
-              eventProperties={{ company: company.slug }}
-              className="w-full sm:w-auto min-h-12 inline-flex items-center justify-center gap-[var(--space-sm)] bg-text-display text-black px-[var(--space-lg)] py-[var(--space-sm)] font-[family-name:var(--font-data)] text-[12px] sm:text-[13px] tracking-[0.08em] uppercase hover:opacity-80 transition-opacity duration-[var(--duration-micro)]"
-            >
-              SITE OFFICIEL →
-            </TrackedExternalLink>
-          ) : null}
-        </div>
-      </div>
 
       {(previousCompany || nextCompany) && (
         <nav

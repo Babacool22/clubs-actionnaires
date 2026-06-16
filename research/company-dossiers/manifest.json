@@ -1,0 +1,581 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "templatePath": "research/company-dossiers/RESEARCH_TEMPLATE.md",
+  "companies": [
+    {
+      "slug": "3m",
+      "name": "3M",
+      "stockIndex": "S&P 500",
+      "sector": "Industrie & Équipements",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/3m.json",
+      "finalDossierPath": "prisma/seed-data/companies/3m.json",
+      "orchestratorNotes": [
+        "Rapport approuvé avec zéro bénéfice actif. La Holiday Gift Box 2026 n'est pas prouvée et doit rester exclue.",
+        "Ne créer ni clubName ni clubUrl; conserver minShares à null."
+      ],
+      "approvedAt": "2026-06-10"
+    },
+    {
+      "slug": "air-liquide",
+      "name": "Air Liquide",
+      "stockIndex": "CAC40",
+      "sector": "Industrie & Équipements",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/air-liquide.json",
+      "finalDossierPath": "prisma/seed-data/companies/air-liquide.json",
+      "orchestratorNotes": [
+        "Les cinq bénéfices sont admis au cutoff du 9 juin 2026.",
+        "B02 et B03 sont des opérations datées du 10 juin 2026 et ne doivent jamais être présentées comme permanentes ou garanties pour une année ultérieure.",
+        "Dans le dossier final, classer la majoration du dividende en type priorite pour rester cohérent avec la taxonomie."
+      ],
+      "approvedAt": "2026-06-10"
+    },
+    {
+      "slug": "airbus",
+      "name": "Airbus",
+      "stockIndex": "CAC40",
+      "sector": "Aéronautique & Défense",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/airbus.json",
+      "finalDossierPath": "prisma/seed-data/companies/airbus.json",
+      "orchestratorNotes": [
+        "Arbitrage: Airbus est le nom public canonique du manifeste; Airbus SE est la raison sociale et peut rester dans la description.",
+        "Conserver les métadonnées normalisées du manifeste: secteur Aéronautique & Défense et stockIndex CAC40.",
+        "Un seul bénéfice est approuvé: absence de droits de garde et frais de gestion au nominatif pur."
+      ],
+      "approvedAt": "2026-06-10"
+    },
+    {
+      "slug": "alstom",
+      "name": "Alstom",
+      "stockIndex": "SBF 120",
+      "sector": "Industrie & Équipements",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/alstom.json",
+      "finalDossierPath": "prisma/seed-data/companies/alstom.json",
+      "orchestratorNotes": [
+        "Arbitrage résolu: Alstom est sortie du CAC 40 le 18 mars 2024; le manifeste retient désormais SBF 120.",
+        "Le seul blockingIssue du rapport est levé par cette correction. L'orchestrateur autorise le développement malgré handoff.readyForDevelopment=false dans le rapport raw.",
+        "Conserver uniquement la prise en charge des droits de garde au nominatif pur."
+      ],
+      "approvedAt": "2026-06-10"
+    },
+    {
+      "slug": "arcelormittal",
+      "name": "ArcelorMittal",
+      "stockIndex": "CAC40",
+      "sector": "Industrie & Équipements",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/arcelormittal.json",
+      "finalDossierPath": "prisma/seed-data/companies/arcelormittal.json",
+      "orchestratorNotes": [
+        "Rapport approuvé avec zéro bénéfice et classification investor_relations_only.",
+        "Ne pas réintroduire le club historique, les visites de sites, le DRIP, l'assemblée générale ou les publications publiques."
+      ],
+      "approvedAt": "2026-06-10"
+    },
+    {
+      "slug": "generali",
+      "name": "Assicurazioni Generali",
+      "stockIndex": "FTSE MIB",
+      "sector": "Assurance & Finance",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/generali.json",
+      "finalDossierPath": "prisma/seed-data/companies/generali.json",
+      "orchestratorNotes": [
+        "Les six bénéfices sont admis avec leurs dates, capacités et incertitudes.",
+        "Pour Leone Alato, décrire uniquement un accès réservé à l'initiative d'achat; ne promettre ni remise ni livraison gratuite non prouvée."
+      ],
+      "approvedAt": "2026-06-10"
+    },
+    {
+      "slug": "banco-santander",
+      "name": "Banco Santander",
+      "stockIndex": "IBEX 35",
+      "sector": "Banque & Finance",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/banco-santander.json",
+      "finalDossierPath": "prisma/seed-data/companies/banco-santander.json",
+      "orchestratorNotes": [
+        "Les huit bénéfices sont approuvés, avec minShares global à null.",
+        "Conserver les restrictions espagnoles, les exigences de dépôt chez Santander et le seuil propre de 1 000 actions pour la Cuenta Santander.",
+        "Retenir 10 % chez Consorcio et ne pas réintroduire la remise carburant."
+      ],
+      "approvedAt": "2026-06-10"
+    },
+    {
+      "slug": "berkshire-hathaway",
+      "name": "Berkshire Hathaway",
+      "stockIndex": "S&P 500",
+      "sector": "Holding & Conglomérat",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/berkshire-hathaway.json",
+      "finalDossierPath": "prisma/seed-data/companies/berkshire-hathaway.json",
+      "orchestratorNotes": [
+        "Un seul bénéfice actif est approuvé: réduction GEICO de 8 % au New Jersey.",
+        "Les offres commerciales de l'Annual Meeting 2026 sont expirées et doivent rester exclues."
+      ],
+      "approvedAt": "2026-06-10"
+    },
+    {
+      "slug": "bouygues",
+      "name": "Bouygues",
+      "stockIndex": "CAC40",
+      "sector": "Construction & Concessions",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/bouygues.json",
+      "finalDossierPath": "prisma/seed-data/companies/bouygues.json",
+      "orchestratorNotes": [
+        "Révision Batch 1 confirmée: OLIS-Actionnaires a été retiré des bénéfices et classé comme service générique de relations investisseurs.",
+        "Un seul bénéfice est approuvé: prise en charge des droits de garde et frais de gestion au nominatif pur, sans seuil minimal publié.",
+        "Ne créer ni clubName ni clubUrl et ne pas réintroduire les rencontres régionales, visites, dividende majoré ou publications comme bénéfices."
+      ],
+      "approvedAt": "2026-06-15"
+    },
+    {
+      "slug": "capgemini",
+      "name": "Capgemini",
+      "stockIndex": "CAC40",
+      "sector": "Technologie & Logiciels",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/capgemini.json",
+      "finalDossierPath": "prisma/seed-data/companies/capgemini.json",
+      "orchestratorNotes": [
+        "Un seul bénéfice est approuvé: exonération des droits de garde et frais de gestion courante au nominatif pur.",
+        "Ne pas publier les anciens barèmes de courtage ni les rencontres non assorties de conditions actuelles."
+      ],
+      "approvedAt": "2026-06-10"
+    },
+    {
+      "slug": "carnival-corporation",
+      "name": "Carnival Corporation",
+      "stockIndex": "S&P 500",
+      "sector": "Hôtellerie & Tourisme",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/carnival-corporation.json",
+      "finalDossierPath": "prisma/seed-data/companies/carnival-corporation.json",
+      "orchestratorNotes": [
+        "Un seul bénéfice consolidé est approuvé: crédit à bord pour 100 actions, valable jusqu'au 31 décembre 2026.",
+        "Utiliser le barème corporate et le délai prudent de 21 jours; ne pas créer de bénéfices séparés par marque, devise ou tranche."
+      ],
+      "approvedAt": "2026-06-10"
+    },
+    {
+      "slug": "credit-agricole",
+      "name": "Crédit Agricole SA",
+      "stockIndex": "CAC40",
+      "sector": "Banque & Finance",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/credit-agricole.json",
+      "finalDossierPath": "prisma/seed-data/companies/credit-agricole.json",
+      "orchestratorNotes": [
+        "Les cinq bénéfices et le seuil global de 50 actions ACA sont approuvés.",
+        "Utiliser le nom Club des actionnaires de Crédit Agricole S.A.; exclure PEE, CCI, CCA et parts sociales du seuil.",
+        "Ne pas qualifier les billets de gratuits ni d'illimités."
+      ],
+      "approvedAt": "2026-06-10"
+    },
+    {
+      "slug": "danone",
+      "name": "Danone",
+      "stockIndex": "CAC40",
+      "sector": "Boissons & Agroalimentaire",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/danone.json",
+      "finalDossierPath": "prisma/seed-data/companies/danone.json",
+      "orchestratorNotes": [
+        "Un seul bénéfice est approuvé: droits de garde gratuits au nominatif pur.",
+        "La prime de fidélité de 10 %, les visites d'usines et le club supposé sont explicitement exclus."
+      ],
+      "approvedAt": "2026-06-10"
+    },
+    {
+      "slug": "edenred",
+      "name": "Edenred",
+      "stockIndex": "CAC Next 20",
+      "sector": "Services aux entreprises",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/edenred.json",
+      "finalDossierPath": "prisma/seed-data/companies/edenred.json",
+      "orchestratorNotes": [
+        "Arbitrage résolu: Edenred appartient au CAC Next 20 au 9 juin 2026; le manifeste est corrigé.",
+        "Deux bénéfices sont approuvés. Le seuil global est 1 action au nominatif, tandis que le porteur exige 30 actions.",
+        "Les invitations restent ponctuelles et discrétionnaires."
+      ],
+      "approvedAt": "2026-06-10"
+    },
+    {
+      "slug": "essilorluxottica",
+      "name": "EssilorLuxottica",
+      "stockIndex": "CAC40",
+      "sector": "Santé & Pharmacie",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/essilorluxottica.json",
+      "finalDossierPath": "prisma/seed-data/companies/essilorluxottica.json",
+      "orchestratorNotes": [
+        "Un seul bénéfice est approuvé: absence de frais de garde et d'administration au nominatif pur.",
+        "Ne créer ni club ni programme et laisser minShares à null."
+      ],
+      "approvedAt": "2026-06-10"
+    },
+    {
+      "slug": "eurofins-scientific",
+      "name": "Eurofins Scientific",
+      "stockIndex": "CAC40",
+      "sector": "Santé & Pharmacie",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/eurofins-scientific.json",
+      "finalDossierPath": "prisma/seed-data/companies/eurofins-scientific.json",
+      "orchestratorNotes": [
+        "Rapport approuvé avec zéro bénéfice et classification investor_relations_only.",
+        "Ne pas convertir la liste de diffusion, les Investor Days, l'assemblée générale ou les publications en bénéfices."
+      ],
+      "approvedAt": "2026-06-10"
+    },
+    {
+      "slug": "iberdrola",
+      "name": "Iberdrola",
+      "stockIndex": "IBEX 35",
+      "sector": "Énergie",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/iberdrola.json",
+      "finalDossierPath": "prisma/seed-data/companies/iberdrola.json",
+      "orchestratorNotes": [
+        "Les trois catégories de bénéfices du Club OLA sont approuvées comme discrétionnaires ou soumises à tirage.",
+        "Conserver minShares à null et ne présenter aucune campagne de tirage comme ouverte au 9 juin 2026.",
+        "Ne pas promettre une accessibilité depuis n'importe quel courtier ou un support téléphonique 24 h/24."
+      ],
+      "approvedAt": "2026-06-10"
+    },
+    {
+      "slug": "intesa-sanpaolo",
+      "name": "Intesa Sanpaolo",
+      "stockIndex": "FTSE MIB",
+      "sector": "Banque & Finance",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/intesa-sanpaolo.json",
+      "finalDossierPath": "prisma/seed-data/companies/intesa-sanpaolo.json",
+      "orchestratorNotes": [
+        "Les sept bénéfices sont approuvés avec un seuil global de 1 000 actions détenues pendant 12 mois.",
+        "Les quatre offres Plus sont strictement saisonnières du 1er au 30 juin 2026.",
+        "Conserver les restrictions de banque, compte et dépôt administré; aucune cotisation distincte n'est publiée."
+      ],
+      "approvedAt": "2026-06-10"
+    },
+    {
+      "slug": "kering",
+      "name": "Kering",
+      "stockIndex": "CAC40",
+      "sector": "Luxe",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/kering.json",
+      "finalDossierPath": "prisma/seed-data/companies/kering.json",
+      "orchestratorNotes": [
+        "Deux bénéfices sont approuvés: invitations discrétionnaires et gratuité des frais au nominatif pur.",
+        "Ne créer aucun club et ne reprendre ni les offres 2025 expirées ni des défilés ou vernissages non prouvés."
+      ],
+      "approvedAt": "2026-06-10"
+    },
+    {
+      "slug": "legrand",
+      "name": "Legrand",
+      "stockIndex": "CAC40",
+      "sector": "Industrie & Équipements",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/legrand.json",
+      "finalDossierPath": "prisma/seed-data/companies/legrand.json",
+      "orchestratorNotes": [
+        "Conserver les métadonnées normalisées du manifeste: secteur Industrie & Équipements et stockIndex CAC40; les variantes du rapport sont descriptives ou typographiques.",
+        "Un seul bénéfice est approuvé: gratuité des droits de garde et frais ordinaires de gestion au nominatif pur.",
+        "Les visites 2025 sont expirées et aucune nouvelle visite n'est actuellement réservable."
+      ],
+      "approvedAt": "2026-06-10"
+    },
+    {
+      "slug": "mapfre",
+      "name": "Mapfre",
+      "stockIndex": "IBEX 35",
+      "sector": "Assurance & Finance",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/mapfre.json",
+      "finalDossierPath": "prisma/seed-data/companies/mapfre.json",
+      "orchestratorNotes": [
+        "Les cinq bénéfices du Club MAPFRE Accionista sont approuvés avec un seuil global de 1 000 actions et une résidence en Espagne maintenus en permanence.",
+        "Distinguer le simple niveau d'information accessible dès une action du niveau Plata donnant accès aux bénéfices; ne jamais publier une action comme seuil du Club.",
+        "Pour le carburant, retenir uniquement 6 % en Tréboles sur la carte Repsol péninsule et Baléares jusqu'au 31 décembre 2026; exclure les anciens taux et services historiques."
+      ],
+      "approvedAt": "2026-06-15"
+    },
+    {
+      "slug": "mcdonalds",
+      "name": "McDonald's",
+      "stockIndex": "S&P 500",
+      "sector": "Restauration",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/mcdonalds.json",
+      "finalDossierPath": "prisma/seed-data/companies/mcdonalds.json",
+      "orchestratorNotes": [
+        "Rapport approuvé avec zéro bénéfice et classification investor_relations_only.",
+        "Les coupons repas japonais concernent McDonald's Holdings Company (Japan), émetteur distinct du titre MCD, et doivent rester exclus.",
+        "Ne pas transformer le DSPP, le DRIP, le dividende, l'assemblée annuelle, les anciens cadeaux ou les services de transfert en bénéfices."
+      ],
+      "approvedAt": "2026-06-15"
+    },
+    {
+      "slug": "norwegian-cruise-line",
+      "name": "Norwegian Cruise Line Holdings",
+      "stockIndex": "S&P 500",
+      "sector": "Hôtellerie & Tourisme",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/norwegian-cruise-line.json",
+      "finalDossierPath": "prisma/seed-data/companies/norwegian-cruise-line.json",
+      "orchestratorNotes": [
+        "Un seul bénéfice consolidé est approuvé: crédit à bord pour les détenteurs d'au moins 100 actions NCLH.",
+        "Conserver les montants par durée et par marque dans une seule description, ainsi que la demande au moins quinze jours avant le départ.",
+        "Ne garantir aucun cumul avec d'autres promotions et conserver toutes les exclusions de réservation, de cabine et de preuve de détention."
+      ],
+      "approvedAt": "2026-06-15"
+    },
+    {
+      "slug": "pernod-ricard",
+      "name": "Pernod Ricard",
+      "stockIndex": "CAC40",
+      "sector": "Vins & Spiritueux",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/pernod-ricard.json",
+      "finalDossierPath": "prisma/seed-data/companies/pernod-ricard.json",
+      "orchestratorNotes": [
+        "Les trois bénéfices sont approuvés: candidature aux événements du Club Premium, communications réservées aux membres et gratuité de garde au nominatif pur.",
+        "Le seuil de 24 actions s'applique au Club et aux deux premiers bénéfices, mais pas à la gratuité au nominatif pur dont le seuil propre reste null.",
+        "Les événements de juin 2026 étaient déjà fermés aux inscriptions au cutoff; ne promettre aucune place, visite récurrente, remise produit ou adhésion gratuite non explicitement publiée."
+      ],
+      "approvedAt": "2026-06-15"
+    },
+    {
+      "slug": "procter-gamble",
+      "name": "Procter & Gamble",
+      "stockIndex": "S&P 500",
+      "sector": "Biens de consommation",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/procter-gamble.json",
+      "finalDossierPath": "prisma/seed-data/companies/procter-gamble.json",
+      "orchestratorNotes": [
+        "Rapport approuvé avec zéro bénéfice et classification investor_relations_only.",
+        "EQ Shareowner Services est l'agent actuel; ne pas reprendre Computershare ni l'ancien intitulé Shareholder Investment Program.",
+        "Exclure le DSPP, le DRIP, le DRS, brandSAVER, les dividendes et les anciens sacs de produits non prouvés pour 2026."
+      ],
+      "approvedAt": "2026-06-15"
+    },
+    {
+      "slug": "repsol",
+      "name": "Repsol",
+      "stockIndex": "IBEX 35",
+      "sector": "Énergie",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/repsol.json",
+      "finalDossierPath": "prisma/seed-data/companies/repsol.json",
+      "orchestratorNotes": [
+        "Les trois bénéfices du Club En acción sont approuvés avec un seuil global d'une action.",
+        "L'extra actionnaire Waylet exige 50 actions et doit rester séparé du solde client ordinaire; conserver les contraintes pratiques liées à IBERCLEAR, au NIF et à Waylet.",
+        "Présenter événements et tirages comme catégories ponctuelles soumises à capacité ou tirage, sans annoncer de campagne ou de lot ouvert au 9 juin 2026."
+      ],
+      "approvedAt": "2026-06-15"
+    },
+    {
+      "slug": "royal-caribbean",
+      "name": "Royal Caribbean Group",
+      "stockIndex": "S&P 500",
+      "sector": "Hôtellerie & Tourisme",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/royal-caribbean.json",
+      "finalDossierPath": "prisma/seed-data/companies/royal-caribbean.json",
+      "orchestratorNotes": [
+        "Un seul bénéfice consolidé est approuvé: crédit à bord pour 100 actions RCL, avec montants variables selon la durée et la marque.",
+        "Retenir le délai prudent de trois semaines avant le départ et les deux formulaires électroniques actuels, avec relevé de courtage de moins de 90 jours.",
+        "Ne promettre aucun cumul universel avec promotions, tarifs réduits, coupons ou autres crédits à bord."
+      ],
+      "approvedAt": "2026-06-15"
+    },
+    {
+      "slug": "safran",
+      "name": "Safran",
+      "stockIndex": "CAC40",
+      "sector": "Aéronautique & Défense",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/safran.json",
+      "finalDossierPath": "prisma/seed-data/companies/safran.json",
+      "orchestratorNotes": [
+        "Les trois bénéfices sont approuvés: cinq visites datées en 2026, deux réunions régionales annoncées pour 2026 et gratuité de garde au nominatif pur.",
+        "Le Club est gratuit dès une action, mais les salariés actionnaires et la détention via FCPE restent exclus malgré les cases contradictoires des formulaires.",
+        "Conserver les capacités, tirages, échéances et frais de déplacement des visites; ne pas réintroduire la prime de fidélité, les formations ou Investir Day."
+      ],
+      "approvedAt": "2026-06-15"
+    },
+    {
+      "slug": "saint-gobain",
+      "name": "Saint-Gobain",
+      "stockIndex": "CAC40",
+      "sector": "Industrie & Équipements",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/saint-gobain.json",
+      "finalDossierPath": "prisma/seed-data/companies/saint-gobain.json",
+      "orchestratorNotes": [
+        "Les six bénéfices sont approuvés pour le Club des actionnaires, accessible gratuitement dès une action aux personnes physiques.",
+        "Les visites, conférences, activités culturelles et jeux sont des catégories actuelles du Club mais restent soumis aux places, règlements et calendriers; ne garantir aucun lieu ou lot précis.",
+        "Conserver séparément la gratuité de garde et le courtage à 0,30 % HT au nominatif pur; ne créer ni Cercle à 100 actions, ni prime de fidélité."
+      ],
+      "approvedAt": "2026-06-15"
+    },
+    {
+      "slug": "schneider-electric",
+      "name": "Schneider Electric",
+      "stockIndex": "CAC40",
+      "sector": "Industrie & Équipements",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/schneider-electric.json",
+      "finalDossierPath": "prisma/seed-data/companies/schneider-electric.json",
+      "orchestratorNotes": [
+        "Un seul bénéfice est approuvé: prise en charge des droits de garde et frais de gestion courante au nominatif pur chez Uptevia.",
+        "Le Comité Consultatif est un programme sélectif d'environ dix membres et non un club ouvert; son seuil de 25 actions ne devient ni minShares global ni seuil du bénéfice.",
+        "Exclure les remboursements de mandat anciens, visites historiques, publications, Innovation Talks, assemblée, vote et dividende."
+      ],
+      "approvedAt": "2026-06-15"
+    },
+    {
+      "slug": "stellantis",
+      "name": "Stellantis",
+      "stockIndex": "CAC40",
+      "sector": "Automobile",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/stellantis.json",
+      "finalDossierPath": "prisma/seed-data/companies/stellantis.json",
+      "orchestratorNotes": [
+        "Le Loyalty Voting Program est un programme actionnaire formel accessible dès une action, mais il ne produit aucun bénéfice commercial ou économique admissible.",
+        "Conserver minShares à 1 pour l'accès au programme et benefits vide; les actions spéciales de vote et le vote de fidélité restent exclus comme droits de gouvernance.",
+        "Ne créer aucun club, aucune remise véhicule et ne pas prolonger par analogie l'ancien Club actionnaires PSA."
+      ],
+      "approvedAt": "2026-06-15"
+    },
+    {
+      "slug": "stmicroelectronics",
+      "name": "STMicroelectronics",
+      "stockIndex": "CAC40",
+      "sector": "Technologie & Logiciels",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/stmicroelectronics.json",
+      "finalDossierPath": "prisma/seed-data/companies/stmicroelectronics.json",
+      "orchestratorNotes": [
+        "Rapport approuvé avec zéro bénéfice et classification investor_relations_only.",
+        "Le manifeste conserve STMicroelectronics comme nom public canonique; STMicroelectronics N.V. peut figurer dans la description et STMPA reste le ticker parisien.",
+        "Exclure Global Invest Direct, le DSPP/DRIP, les registres, l'ancienne page actionnaires, les visites non prouvées et les plans d'actions salariés."
+      ],
+      "approvedAt": "2026-06-15"
+    },
+    {
+      "slug": "telefonica",
+      "name": "Telefónica",
+      "stockIndex": "IBEX 35",
+      "sector": "Télécommunications",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/telefonica.json",
+      "finalDossierPath": "prisma/seed-data/companies/telefonica.json",
+      "orchestratorNotes": [
+        "Les cinq bénéfices de la Zona Accionistas sont approuvés, sans seuil minimal d'actions publié.",
+        "Employer plusieurs centaines de remises, conserver les dates du tirage 2026, les conditions Meliá et NH, ainsi que la visite soumise à vérification et capacité.",
+        "Ne pas qualifier le dispositif de club formel et signaler les limites pratiques d'accès sans DNI espagnol ou depuis un compte étranger; aucun requiredShares ne doit être remplacé par 1."
+      ],
+      "approvedAt": "2026-06-15"
+    },
+    {
+      "slug": "teleperformance",
+      "name": "Teleperformance",
+      "stockIndex": "CAC Large 60",
+      "sector": "Services aux entreprises",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/teleperformance.json",
+      "finalDossierPath": "prisma/seed-data/companies/teleperformance.json",
+      "orchestratorNotes": [
+        "Arbitrage résolu: Teleperformance est sortie du CAC 40 avec effet au 22 septembre 2025 et reste dans le CAC Large 60; le manifeste est corrigé.",
+        "Le seul blockingIssue du rapport est levé par cette correction. L'orchestrateur autorise le développement malgré handoff.readyForDevelopment=false dans le rapport raw.",
+        "Un seul bénéfice est approuvé: gratuité des droits de garde et de la gestion courante au nominatif pur chez Uptevia, sans seuil minimal publié."
+      ],
+      "approvedAt": "2026-06-15"
+    },
+    {
+      "slug": "thales",
+      "name": "Thales",
+      "stockIndex": "CAC40",
+      "sector": "Aéronautique & Défense",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/thales.json",
+      "finalDossierPath": "prisma/seed-data/companies/thales.json",
+      "orchestratorNotes": [
+        "Le rapport interrompu a néanmoins été finalisé, validé et contient toutes les données nécessaires au développement.",
+        "Un seul bénéfice est approuvé: exonération des droits de garde au nominatif pur chez SGSS, avec requiredShares à null et frais de transaction exclus.",
+        "Conserver les métadonnées normalisées du manifeste et exclure club, visites, conférences, réunions régionales non datées, droit de vote double et assemblée générale."
+      ],
+      "approvedAt": "2026-06-15"
+    },
+    {
+      "slug": "coca-cola",
+      "name": "The Coca-Cola Company",
+      "stockIndex": "S&P 500",
+      "sector": "Boissons & Agroalimentaire",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/coca-cola.json",
+      "finalDossierPath": "prisma/seed-data/companies/coca-cola.json",
+      "orchestratorNotes": [
+        "Un seul bénéfice est approuvé: un arbre planté au nom de l'actionnaire qui choisit les communications électroniques, conformément au proxy 2026.",
+        "Présenter Tree Planting Program comme un libellé descriptif du mécanisme, jamais comme un club ou une marque commerciale; ne promettre ni valeur monétaire, produit, certificat, lieu ou calendrier.",
+        "Conserver globalMinimumShares et requiredShares à null et exclure les admissions World of Coca-Cola expirées, les avantages des embouteilleurs et les services Computershare."
+      ],
+      "approvedAt": "2026-06-15"
+    },
+    {
+      "slug": "hershey",
+      "name": "The Hershey Company",
+      "stockIndex": "S&P 500",
+      "sector": "Boissons & Agroalimentaire",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/hershey.json",
+      "finalDossierPath": "prisma/seed-data/companies/hershey.json",
+      "orchestratorNotes": [
+        "Rapport approuve avec zero benefice actif publiable et classification volontairement prudente, car la sample box 2026 est mentionnee sans conditions officielles accessibles.",
+        "Ne pas reprendre les catalogues, cadeaux historiques, sample boxes indisponibles, services Computershare, DSPP, DRIP, DRS, dividende ou assemblee comme avantages actionnaires."
+      ],
+      "approvedAt": "2026-06-16"
+    },
+    {
+      "slug": "walmart",
+      "name": "Walmart",
+      "stockIndex": "S&P 500",
+      "sector": "Distribution & Retail",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/walmart.json",
+      "finalDossierPath": "prisma/seed-data/companies/walmart.json",
+      "orchestratorNotes": [
+        "Rapport approuve avec zero benefice actif reserve aux actionnaires externes.",
+        "Ne pas convertir les avantages salaries, l'Associate Celebration 2025 expiree, le DSPP, le DRIP, le DRS, le dividende ou les services Computershare en benefices actionnaires.",
+        "Conserver la mention factuelle du passage au Nasdaq Global Select Market depuis le 9 decembre 2025 dans la description et la FAQ, sans en faire un avantage."
+      ],
+      "approvedAt": "2026-06-16"
+    },
+    {
+      "slug": "whitbread",
+      "name": "Whitbread",
+      "stockIndex": "FTSE 100",
+      "sector": "Hôtellerie & Tourisme",
+      "status": "ready_for_development",
+      "rawReportPath": "research/company-dossiers/raw/whitbread.json",
+      "finalDossierPath": "prisma/seed-data/companies/whitbread.json",
+      "orchestratorNotes": [
+        "Un seul benefice est approuve: le petit-dejeuner gratuit Premier Inn pour les detenteurs d'au moins 64 actions, sous conditions et jusqu'au 30 juin 2027.",
+        "Ne pas creer de club et ne pas publier la reduction restaurant de 10 %, faute de conditions officielles actuelles suffisamment detaillees.",
+        "Conserver l'exigence de carte originale, le courriel de confirmation, les limites de deux adultes par chambre et deux chambres, l'obligation pour l'actionnaire d'occuper une chambre, la disponibilite et l'exclusion de l'Allemagne."
+      ],
+      "approvedAt": "2026-06-16"
+    }
+  ]
+}

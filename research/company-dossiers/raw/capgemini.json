@@ -1,0 +1,478 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "capgemini",
+    "name": "Capgemini",
+    "description": "Capgemini est un groupe mondial de services de transformation business et technologique. Il propose des prestations de stratégie, technologie, design, ingénierie et opérations, avec plus de 420 000 collaborateurs dans plus de 50 pays à fin 2025. L'action Capgemini SE est cotée sur Euronext Paris.",
+    "sector": "Technologie & Logiciels",
+    "stockIndex": "CAC40",
+    "ticker": "CAP",
+    "website": "https://www.capgemini.com/fr-fr/",
+    "clubName": null,
+    "clubUrl": null
+  },
+  "offerClassification": {
+    "primaryKind": "shareholder_benefit",
+    "otherKinds": [
+      "investor_relations_only"
+    ],
+    "officialProgrammeName": null,
+    "status": "active",
+    "statusReason": "Aucun club, cercle ou programme formel avec adhésion et statut de membre n'est présenté dans les ressources officielles actuelles. Capgemini publie toutefois un avantage économique actif lié au nominatif pur chez Uptevia, distinct de ses services ordinaires de relations investisseurs.",
+    "sourceIds": [
+      "S01",
+      "S03",
+      "S06"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": null,
+    "eligibleShareClasses": [
+      "Actions ordinaires Capgemini SE, ISIN FR0000125338"
+    ],
+    "holdingModes": [
+      "registered_pure"
+    ],
+    "minimumHoldingPeriod": null,
+    "residencyRestrictions": [],
+    "accountRestrictions": [
+      "Les titres doivent être inscrits au nominatif pur dans le registre de Capgemini et conservés sur un compte-titres géré par Uptevia.",
+      "Le formulaire officiel indique que le nominatif pur n'est pas compatible avec un PEA; le nominatif administré peut en revanche rester dans le compte ou le PEA de l'intermédiaire financier.",
+      "Les ordres de bourse restent facturés et ne sont pas couverts par la gratuité de la gestion courante."
+    ],
+    "proofRequired": [
+      "Formulaire de conversion au nominatif pur complété et signé lorsqu'il s'agit de transférer des titres détenus au porteur.",
+      "Identité, adresse, adresse électronique et référence du compte-titres du titulaire.",
+      "Nombre d'actions Capgemini SE à transférer."
+    ],
+    "fees": {
+      "membershipFee": null,
+      "applicationFee": null,
+      "otherFees": [
+        "Les frais éventuellement facturés par l'intermédiaire financier pour le transfert des titres vers Uptevia ne sont pas remboursés par Capgemini.",
+        "Les ordres d'achat ou de vente restent soumis aux frais de courtage applicables chez Uptevia.",
+        "La fiscalité des transactions et des frais est indépendante du mode de détention."
+      ],
+      "notes": "Il n'existe pas de cotisation d'adhésion documentée puisqu'aucun club ou programme formel n'est proposé. Les derniers tarifs de courtage doivent être demandés à Uptevia; les taux publiés par Capgemini à titre indicatif pour le début de 2023 ne doivent pas être présentés comme actuels."
+    },
+    "sourceIds": [
+      "S01",
+      "S02"
+    ]
+  },
+  "enrollment": {
+    "required": true,
+    "method": "broker_or_bank",
+    "applicationUrl": "https://investors.capgemini.com/fr/wp-content/uploads/sites/3/2023/03/become_a_shareholder.pdf",
+    "contact": "Uptevia, Service Relations Investisseurs, 12 place des Etats-Unis, CS 40083, 92549 Montrouge Cedex; +33 (0)1 57 78 34 44; ct-contact@uptevia.com.",
+    "steps": [
+      "Télécharger et compléter le formulaire officiel de conversion d'actions Capgemini au nominatif pur.",
+      "Indiquer l'identité du titulaire, la référence du compte-titres et le nombre d'actions concernées.",
+      "Adresser le formulaire signé à l'établissement financier qui conserve actuellement les actions.",
+      "L'intermédiaire organise le transfert des titres vers Uptevia, qui devient l'interlocuteur pour le compte nominatif pur.",
+      "Une personne souhaitant ouvrir directement un compte et acquérir des titres au nominatif pur peut contacter Uptevia selon les coordonnées publiées par Capgemini."
+    ],
+    "processingTime": null,
+    "renewal": null,
+    "deadlines": [],
+    "sourceIds": [
+      "S01",
+      "S02"
+    ]
+  },
+  "benefits": [
+    {
+      "id": "B01",
+      "type": "reduction",
+      "title": "Exonération des droits de garde et frais de gestion courante",
+      "description": "Pour les actions Capgemini inscrites au nominatif pur et gérées par Uptevia, Capgemini annonce la gratuité de la gestion, l'exonération totale des droits de garde et l'absence de frais liés à la gestion courante des titres. Les ordres de bourse, la fiscalité et les éventuels frais de transfert restent exclus.",
+      "value": "Droits de garde et frais de gestion courante non facturés; ordres de bourse exclus.",
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "registered_pure"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "guaranteed",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Ouvrir un compte nominatif pur auprès d'Uptevia ou demander à son intermédiaire financier le transfert d'actions Capgemini au nominatif pur.",
+        "Pour une conversion de titres existants, utiliser le formulaire officiel et l'envoyer à l'établissement dépositaire."
+      ],
+      "limitsAndExclusions": [
+        "Aucun nombre minimal d'actions n'est publié; il ne faut pas remplacer ce seuil inconnu par une action.",
+        "Aucune durée minimale de détention n'est publiée.",
+        "Le nominatif pur est détenu sur un compte-titres chez Uptevia et n'est pas compatible avec un PEA selon le formulaire officiel.",
+        "Capgemini ne rembourse pas les frais de transfert éventuellement prélevés par l'intermédiaire financier d'origine.",
+        "Les ordres de bourse restent payants; les barèmes affichés pour le début de 2023 sont seulement indicatifs et ne sont pas retenus comme tarifs au 9 juin 2026."
+      ],
+      "primarySourceId": "S01",
+      "supportingSourceIds": [
+        "S02"
+      ],
+      "sourceUrl": "https://investors.capgemini.com/fr/devenir-actionnaire/",
+      "evidenceGrade": "B",
+      "uncertainty": "La page officielle est opérationnelle et précise sur la gratuité, mais elle n'est pas datée et ne publie ni seuil minimal, ni durée de détention, ni date de fin. Les tarifs de courtage actuels doivent être obtenus directement auprès d'Uptevia."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Capgemini dispose-t-il d'un club ou d'un cercle d'actionnaires au 9 juin 2026 ?",
+      "answer": "Non. Les pages officielles actuelles ne présentent ni club ou cercle avec adhésion, ni règlement, ni statut de membre. Capgemini propose un espace d'information pour les actionnaires et un avantage lié au nominatif pur, mais ces éléments ne doivent pas être renommés en club d'actionnaires.",
+      "sourceIds": [
+        "S01",
+        "S03",
+        "S06"
+      ]
+    },
+    {
+      "question": "Quel avantage concret est officiellement prouvé pour un actionnaire Capgemini ?",
+      "answer": "L'avantage retenu est l'exonération des droits de garde et des frais de gestion courante lorsque les actions sont détenues au nominatif pur chez Uptevia. Les ordres de bourse, la fiscalité et les éventuels frais de transfert depuis un autre établissement restent à la charge de l'actionnaire.",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "question": "Combien d'actions faut-il détenir et pendant combien de temps pour bénéficier de la gratuité ?",
+      "answer": "Capgemini ne publie ni nombre minimal d'actions ni durée minimale de détention pour cet avantage. Le rapport conserve donc ces deux conditions à l'état inconnu et ne reprend pas l'affirmation historique selon laquelle une seule action suffirait.",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "question": "Comment transférer des actions Capgemini au nominatif pur et quels frais peuvent subsister ?",
+      "answer": "L'actionnaire complète le formulaire officiel puis l'adresse à l'établissement financier qui détient ses titres; ceux-ci sont ensuite transférés chez Uptevia. Le nominatif pur n'est pas compatible avec un PEA selon le formulaire. Capgemini ne rembourse pas les frais de transfert et les ordres de bourse restent facturés.",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "question": "Les réunions régionales ou présentations virtuelles de Capgemini sont-elles un avantage garanti ?",
+      "answer": "Capgemini indique dans son Document d'Enregistrement Universel 2025 participer chaque année à au moins un événement dédié aux actionnaires individuels, et la lettre de juin 2025 évoque des réunions régionales, virtuelles ou hybrides. Toutefois, aucun calendrier 2026, seuil, mode d'inscription ou caractère réservé n'est publié; ces rencontres ne sont donc pas retenues comme bénéfice prouvé.",
+      "sourceIds": [
+        "S03",
+        "S05",
+        "S06"
+      ]
+    },
+    {
+      "question": "Pourquoi la lettre aux actionnaires, le numéro dédié, l'assemblée générale et le dividende ne sont-ils pas comptés comme avantages ?",
+      "answer": "La lettre, les alertes et le numéro de contact relèvent des relations investisseurs ordinaires. La participation à l'assemblée générale, le vote, les questions aux dirigeants et le dividende ordinaire sont des droits ou mécanismes généraux attachés à l'action. Ils sont donc documentés mais exclus de la liste des bénéfices.",
+      "sourceIds": [
+        "S01",
+        "S03",
+        "S05",
+        "S06",
+        "S07"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "L'action ordinaire Capgemini SE porte l'ISIN FR0000125338, le code mnémonique CAP, est cotée sur Euronext Paris et appartient notamment au CAC 40.",
+      "status": "verified",
+      "sourceIds": [
+        "S04"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C02",
+      "statement": "Capgemini ne présente aucun club, cercle ou programme formel destiné aux actionnaires individuels dans ses ressources officielles actuelles.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S03",
+        "S06"
+      ],
+      "notes": "La conclusion porte sur l'absence de dispositif formel publié; elle n'exclut pas les actions ponctuelles de dialogue avec les actionnaires."
+    },
+    {
+      "id": "C03",
+      "statement": "La détention au nominatif pur chez Uptevia donne droit à la gratuité de la gestion et à l'exonération des droits de garde et frais de gestion courante.",
+      "status": "verified",
+      "sourceIds": [
+        "S01"
+      ],
+      "notes": "Les ordres de bourse ne sont pas inclus dans la gratuité."
+    },
+    {
+      "id": "C04",
+      "statement": "La conversion au nominatif pur s'effectue par un formulaire adressé à l'intermédiaire financier, avec transfert du compte-titres vers Uptevia.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "notes": "Le formulaire indique que le nominatif pur n'est pas compatible avec un PEA."
+    },
+    {
+      "id": "C05",
+      "statement": "Aucun seuil minimal d'actions ni durée minimale de détention n'est publié pour l'avantage au nominatif pur.",
+      "status": "uncertain",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "notes": "Il s'agit d'une absence constatée dans les documents officiels disponibles, pas de la preuve qu'aucun seuil interne ne peut exister."
+    },
+    {
+      "id": "C06",
+      "statement": "Capgemini organise ou rejoint de manière récurrente des rencontres d'information destinées aux actionnaires individuels.",
+      "status": "partially_verified",
+      "sourceIds": [
+        "S03",
+        "S05"
+      ],
+      "notes": "La récurrence est officiellement déclarée, mais aucun événement 2026 distinct de l'assemblée générale n'a été identifié avec des conditions d'accès, un calendrier et une preuve de réservation aux seuls actionnaires."
+    },
+    {
+      "id": "C07",
+      "statement": "Les statuts de Capgemini n'accordent ni droit de vote double ni autre privilège aux actions nominatives.",
+      "status": "verified",
+      "sourceIds": [
+        "S03"
+      ],
+      "notes": "Aucun dividende majoré ou action gratuite de fidélité n'est publié dans les sources consultées."
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "Capgemini exploite un club ou une communauté d'actionnaires avec adhésion formelle.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01",
+        "S03",
+        "S06"
+      ]
+    },
+    {
+      "claim": "La détention d'une seule action suffit pour accéder au dispositif et à tous ses avantages.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "claim": "Capgemini propose actuellement des webinaires technologiques exclusifs réservés aux membres d'un club d'actionnaires.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S03",
+        "S05",
+        "S06"
+      ]
+    },
+    {
+      "claim": "Les réunions régionales et présentations virtuelles sont un avantage actif, garanti et réservé aux actionnaires selon des conditions publiées.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S03",
+        "S05"
+      ]
+    },
+    {
+      "claim": "La lettre aux actionnaires et les alertes financières publiques constituent des bénéfices exclusifs.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S01",
+        "S05",
+        "S06"
+      ]
+    },
+    {
+      "claim": "Le numéro gratuit et l'équipe de relations actionnariales sont des avantages commerciaux distincts.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S01",
+        "S05"
+      ]
+    },
+    {
+      "claim": "La participation à l'assemblée générale, le vote et la possibilité de poser des questions sont des avantages du dispositif.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S07"
+      ]
+    },
+    {
+      "claim": "Le dividende ordinaire versé par Capgemini constitue un avantage réservé aux membres d'un programme.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S03",
+        "S05"
+      ]
+    },
+    {
+      "claim": "Les barèmes de courtage indicatifs du début de 2023 sont les tarifs applicables au 9 juin 2026.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01"
+      ]
+    },
+    {
+      "claim": "Le nominatif donne droit à un vote double, à un dividende majoré ou à un autre privilège de fidélité.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S03"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://investors.capgemini.com/fr/devenir-actionnaire/",
+      "title": "Devenir actionnaire",
+      "publisher": "Capgemini",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "undated",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle consacrée aux modes de détention. Elle identifie Uptevia comme teneur de registre, décrit le porteur et les deux formes de nominatif, annonce la gratuité de la gestion et des droits de garde au nominatif pur, précise les exclusions et fournit la procédure de conversion."
+    },
+    {
+      "id": "S02",
+      "url": "https://investors.capgemini.com/fr/wp-content/uploads/sites/3/2023/03/become_a_shareholder.pdf",
+      "title": "Demande de conversion d'actions au nominatif pur ou au nominatif administré",
+      "publisher": "Capgemini",
+      "sourceType": "official_form",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "undated",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Formulaire officiel lié depuis la page actuelle. Il doit être envoyé à l'établissement dépositaire, identifie l'action par son ISIN, prévoit le transfert au nominatif pur chez Uptevia et indique que ce mode de détention n'est pas compatible avec un PEA."
+    },
+    {
+      "id": "S03",
+      "url": "https://investors.capgemini.com/fr/file/23123?download=1",
+      "title": "Document d'Enregistrement Universel 2025",
+      "publisher": "Capgemini",
+      "sourceType": "regulatory_filing",
+      "official": true,
+      "publishedAt": "2026-03-23",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Dépôt officiel auprès de l'AMF le 23 mars 2026. Il présente les activités du Groupe, la cotation, le dialogue avec les actionnaires individuels, la participation annuelle à au moins un événement dédié et l'absence de droit de vote double ou de privilège attaché aux actions."
+    },
+    {
+      "id": "S04",
+      "url": "https://investors.capgemini.com/fr/structure-de-lactionnariat/",
+      "title": "Structure de l'actionnariat",
+      "publisher": "Capgemini",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2026-02-28",
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle donnant l'ISIN FR0000125338, le code CAP, Euronext Paris Compartiment A, l'éligibilité PEA et SRD ainsi que les principaux indices, dont le CAC 40. La répartition générale du capital affichée reste datée du 31 décembre 2024."
+    },
+    {
+      "id": "S05",
+      "url": "https://investors.capgemini.com/fr/file/22457?download=1",
+      "title": "Lettre aux actionnaires - Juin 2025",
+      "publisher": "Capgemini",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2025-06",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "archived",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Lettre officielle historique décrivant des réunions d'information dans de grandes villes et des présentations virtuelles ou hybrides pour les actionnaires individuels. Elle ne publie toutefois ni dates futures, ni procédure d'inscription, ni condition de détention ou caractère exclusif."
+    },
+    {
+      "id": "S06",
+      "url": "https://investors.capgemini.com/fr/",
+      "title": "Capgemini Investors",
+      "publisher": "Capgemini",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Accueil actuel du site investisseurs au 9 juin 2026. Il présente les rubriques actionnaires, les événements publiés, la lettre aux actionnaires, les contacts et le formulaire public d'alertes. Aucun club, formulaire d'adhésion ni événement 2026 réservé aux actionnaires individuels n'y est affiché."
+    },
+    {
+      "id": "S07",
+      "url": "https://investors.capgemini.com/fr/event/assemblee-generale-2026/",
+      "title": "Assemblée générale 2026",
+      "publisher": "Capgemini",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2026-05-20",
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Page officielle datée de l'assemblée générale du 20 mai 2026, avec retransmission, vote et questions à distance via VOTACCESS. Ces modalités sont utilisées uniquement pour documenter et exclure les droits ordinaires d'assemblée et de vote des bénéfices actionnariaux."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Actualité des barèmes de courtage au nominatif pur",
+      "sourceIds": [
+        "S01"
+      ],
+      "positions": [
+        "La page officielle demande de contacter Uptevia pour connaître les derniers barèmes de bourse applicables.",
+        "La même page affiche uniquement à titre indicatif des taux et minimums qui étaient applicables au début de 2023."
+      ],
+      "resolution": "Ne publier aucun taux de courtage comme actuel. Indiquer seulement que les ordres de bourse restent payants et que le tarif doit être demandé à Uptevia.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Statut des rencontres avec les actionnaires individuels",
+      "sourceIds": [
+        "S03",
+        "S05",
+        "S06"
+      ],
+      "positions": [
+        "Le Document d'Enregistrement Universel 2025 indique que Capgemini participe chaque année à au moins un événement en présentiel ou virtuel dédié aux actionnaires individuels.",
+        "La lettre de juin 2025 évoque des réunions régulières en région et des présentations virtuelles ou hybrides.",
+        "Le site investisseurs actuel ne publie aucun événement 2026 distinct de l'assemblée générale avec conditions d'accès, procédure d'inscription ou preuve qu'il est réservé aux actionnaires."
+      ],
+      "resolution": "Conserver la pratique comme information partiellement vérifiée, mais exclure les rencontres des bénéfices tant qu'une offre actuelle, réservée et assortie de conditions pratiques n'est pas publiée.",
+      "impact": "benefit_excluded"
+    }
+  ],
+  "handoff": {
+    "researchStatus": "complete_with_uncertainties",
+    "readyForDevelopment": true,
+    "benefitCount": 1,
+    "faqCount": 6,
+    "blockingIssues": [],
+    "developerNotes": [
+      "Ne pas créer de clubName ni de clubUrl: aucun club, cercle ou programme formel n'est prouvé.",
+      "Classer Capgemini comme offrant un avantage actionnarial isolé au nominatif pur, avec des services de relations investisseurs distincts.",
+      "Conserver uniquement B01 et laisser le seuil global ainsi que requiredShares à null.",
+      "Ne pas publier les barèmes de courtage indicatifs du début de 2023 comme tarifs actuels.",
+      "Ne pas transformer les réunions régionales, présentations virtuelles ou prétendus webinaires exclusifs en bénéfices tant que leurs conditions actuelles et leur caractère réservé ne sont pas prouvés.",
+      "Exclure la lettre aux actionnaires, les alertes, le numéro de contact, l'assemblée générale, le vote, les questions à distance et le dividende ordinaire."
+    ]
+  }
+}

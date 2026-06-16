@@ -1,0 +1,737 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "iberdrola",
+    "name": "Iberdrola",
+    "description": "Iberdrola est un groupe énergétique espagnol actif dans les réseaux de transport et de distribution, la production renouvelable, le stockage et la fourniture d'énergie. Son action IBE est cotée sur les marchés espagnols et appartient à l'indice IBEX 35.",
+    "sector": "Énergie",
+    "stockIndex": "IBEX 35",
+    "ticker": "IBE",
+    "website": "https://www.iberdrola.com/",
+    "clubName": "OLA Club del Accionista",
+    "clubUrl": "https://www.iberdrola.com/accionistas-inversores/accionistas/club-accionista"
+  },
+  "offerClassification": {
+    "primaryKind": "shareholder_club",
+    "otherKinds": [
+      "shareholder_benefit",
+      "investor_relations_only"
+    ],
+    "officialProgrammeName": "OLA Club del Accionista",
+    "status": "active",
+    "statusReason": "Au 9 juin 2026, Iberdrola maintient un club formel avec inscription, identifiants personnels, vérification périodique de la qualité d'actionnaire, conditions d'utilisation et fonctionnalités réservées aux utilisateurs enregistrés.",
+    "sourceIds": [
+      "S03",
+      "S04",
+      "S05",
+      "S07",
+      "S12"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": null,
+    "eligibleShareClasses": [
+      "Actions ordinaires Iberdrola inscrites au nom de la personne physique dans un registre d'annotations en compte auprès d'une entité espagnole",
+      "American Depositary Receipts (ADR) représentatifs d'actions Iberdrola",
+      "CREST Depository Interests (CDI) représentatifs d'actions Iberdrola"
+    ],
+    "holdingModes": [
+      "broker_account",
+      "unspecified"
+    ],
+    "minimumHoldingPeriod": null,
+    "residencyRestrictions": [
+      "Aucune condition générale de résidence n'est publiée pour le Club; le formulaire propose de nombreux pays et les conditions prévoient le cas d'un utilisateur domicilié hors d'Espagne.",
+      "Les tirages ont leurs propres limites territoriales: la campagne de recrutement 2026 était limitée au territoire espagnol et le tirage de vélos 2026 à un « ámbito territorial nacional »."
+    ],
+    "accountRestrictions": [
+      "Pour une personne physique détenant l'action ordinaire, la page espagnole d'inscription exige des actions déposées auprès d'une entité espagnole et inscrites à son nom dans le registre d'annotations en compte.",
+      "Les personnes morales et les titulaires d'ADR ou de CDI peuvent demander des identifiants, mais la page espagnole précise que l'accès peut être limité à certaines fonctionnalités.",
+      "Un représentant peut être traité comme utilisateur; Iberdrola peut vérifier la qualité d'actionnaire et le pouvoir de représentation à l'inscription puis périodiquement.",
+      "Aucune source officielle actuelle ne confirme qu'une action détenue auprès de n'importe quel courtier étranger ou dans un PEA français permet l'inscription ordinaire."
+    ],
+    "proofRequired": [
+      "Identité ou référence adaptée au profil: DNI, NIF, NIE, SSN-TIN ou Shareholder Reference Number.",
+      "Nombre total d'actions déclaré, coordonnées et adresse.",
+      "Vérification de la qualité d'actionnaire à partir des données des entités chargées du registre comptable des actions.",
+      "Document justificatif demandé selon le profil; le représentant d'une personne morale doit notamment fournir une procuration ou sa nomination comme représentant légal."
+    ],
+    "fees": {
+      "membershipFee": null,
+      "applicationFee": null,
+      "otherFees": [],
+      "notes": "Les conditions et le formulaire ne publient aucune cotisation ni aucuns frais de dossier, mais ils n'énoncent pas explicitement une gratuité générale. Les frais de courtage, de conservation des titres ou de communication internationale restent extérieurs au Club."
+    },
+    "sourceIds": [
+      "S04",
+      "S05",
+      "S06",
+      "S07",
+      "S10",
+      "S11"
+    ]
+  },
+  "enrollment": {
+    "required": true,
+    "method": "online_form",
+    "applicationUrl": "https://www.iberdrola.com/accionistas-inversores/accionistas/club-accionista/alta-club-accionista",
+    "contact": "Oficina del Accionista: 900 10 00 19; +34 91 110 06 13 depuis l'étranger; accionistas@iberdrola.com; C/ Tomás Redondo, 1, 28033 Madrid, Espagne",
+    "steps": [
+      "Détenir un titre Iberdrola selon l'un des profils acceptés par le formulaire.",
+      "Choisir le profil personne physique, personne morale, ADR ou CDI dans le formulaire en ligne.",
+      "Renseigner l'identité ou la référence d'actionnaire, le nombre total d'actions, le pays, l'adresse et les coordonnées.",
+      "Joindre le justificatif demandé selon le profil, notamment le pouvoir du représentant d'une personne morale.",
+      "Accepter la politique de confidentialité et les conditions d'utilisation du Club.",
+      "Attendre la vérification de la qualité d'actionnaire et la délivrance des identifiants personnels."
+    ],
+    "processingTime": null,
+    "renewal": "Aucun renouvellement manuel n'est publié. Iberdrola effectue des contrôles périodiques et peut résilier l'adhésion lorsque l'utilisateur n'est plus actionnaire.",
+    "deadlines": [
+      "Aucune échéance générale d'inscription au Club n'est publiée.",
+      "L'inscription au tirage du kit technologique 2026 a pris fin le 28 avril 2026 à 23 h 59.",
+      "L'inscription au tirage de vélos électriques lié à l'assemblée 2026 a pris fin le 28 mai 2026 à 23 h 59."
+    ],
+    "sourceIds": [
+      "S04",
+      "S05",
+      "S07",
+      "S08",
+      "S10",
+      "S11"
+    ]
+  },
+  "benefits": [
+    {
+      "id": "B01",
+      "type": "evenement",
+      "title": "Invitations à des événements réservés",
+      "description": "Iberdrola prévoit l'envoi aux membres du Club d'invitations à des événements corporatifs, culturels ou de loisirs organisés par l'entreprise et présentés comme exclusifs aux utilisateurs ou aux actionnaires.",
+      "value": null,
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "Inscription active à OLA Club del Accionista"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "discretionary",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "S'inscrire au Club et maintenir ses coordonnées et préférences de communication à jour.",
+        "Suivre les invitations envoyées par Iberdrola et respecter les modalités propres à chaque événement."
+      ],
+      "limitsAndExclusions": [
+        "Aucun calendrier public, quota, fréquence ou droit automatique à une invitation n'est publié.",
+        "La participation dépend de l'organisation de l'événement et des conditions précisées dans chaque invitation.",
+        "Aucun transport, hébergement ou autre coût annexe n'est annoncé comme pris en charge."
+      ],
+      "primarySourceId": "S04",
+      "supportingSourceIds": [
+        "S03",
+        "S09"
+      ],
+      "sourceUrl": "https://www.iberdrola.com/accionistas-inversores/accionistas/club-accionista/condiciones-uso",
+      "evidenceGrade": "A",
+      "uncertainty": "L'existence de cette catégorie est actuelle, mais aucune invitation ouverte ni condition détaillée d'un événement précis n'a été trouvée au 9 juin 2026."
+    },
+    {
+      "id": "B02",
+      "type": "evenement",
+      "title": "Visites ponctuelles d'installations Iberdrola",
+      "description": "Les conditions d'utilisation indiquent que les membres peuvent participer aux visites d'installations proposées par Iberdrola. Il s'agit d'une possibilité ponctuelle, sans calendrier public ni place garantie.",
+      "value": null,
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "Inscription active à OLA Club del Accionista"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "discretionary",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "S'inscrire au Club et surveiller les communications ou invitations d'Iberdrola.",
+        "Présenter une demande ou confirmer sa présence selon les instructions de la visite proposée."
+      ],
+      "limitsAndExclusions": [
+        "Aucune visite actuellement réservable, aucune fréquence et aucun nombre de places ne sont publiés.",
+        "La formulation officielle vise uniquement les visites proposées par Iberdrola.",
+        "Les éventuelles exigences de sécurité, d'âge, de mobilité ou de déplacement ne sont pas publiées dans les conditions générales."
+      ],
+      "primarySourceId": "S04",
+      "supportingSourceIds": [
+        "S12"
+      ],
+      "sourceUrl": "https://www.iberdrola.com/accionistas-inversores/accionistas/club-accionista/condiciones-uso",
+      "evidenceGrade": "A",
+      "uncertainty": "Aucune offre de visite datée et encore ouverte n'a été identifiée; seule la catégorie de fonctionnalité est officiellement confirmée."
+    },
+    {
+      "id": "B03",
+      "type": "cadeau",
+      "title": "Participation à des tirages ponctuels",
+      "description": "Les membres peuvent participer aux tirages et prix spéciaux organisés par Iberdrola selon un règlement propre à chaque campagne. Le gain n'est jamais garanti et les deux campagnes 2026 identifiées avaient déjà clos leurs inscriptions au 9 juin 2026.",
+      "value": "Aucun gain garanti; lot, valeur, territoire et fiscalité définis par chaque règlement",
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "Inscription active à OLA Club del Accionista",
+        "Conditions de détention ou de représentation propres à chaque tirage"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "lottery",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Lire et accepter le règlement et l'avis de confidentialité de la campagne concernée.",
+        "S'inscrire dans le délai prévu et fournir les données exigées.",
+        "Accomplir les actes supplémentaires imposés par le règlement, par exemple voter ou déléguer pour le tirage de vélos 2026.",
+        "En cas de gain, répondre dans les délais et signer le document d'acceptation."
+      ],
+      "limitsAndExclusions": [
+        "Aucun tirage avec une période d'inscription encore ouverte n'a été identifié au 9 juin 2026.",
+        "La campagne du kit technologique était réservée aux personnes physiques majeures, actionnaires et membres du Club, sur le territoire espagnol, avec une seule participation.",
+        "Le tirage de vélos 2026 exigeait notamment d'être majeur, personne physique, membre du Club et d'avoir voté ou délégué avant le 28 mai 2026; certains bénéficiaires ultimes pouvaient participer via représentation de leur intermédiaire.",
+        "Les participants devaient encore être actionnaires ou bénéficiaires ultimes et membres du Club au moment du tirage.",
+        "Les lots sont personnels, non échangeables contre de l'argent et soumis aux obligations fiscales applicables."
+      ],
+      "primarySourceId": "S04",
+      "supportingSourceIds": [
+        "S03",
+        "S10",
+        "S11"
+      ],
+      "sourceUrl": "https://www.iberdrola.com/accionistas-inversores/accionistas/club-accionista/condiciones-uso",
+      "evidenceGrade": "A",
+      "uncertainty": "La catégorie de tirages reste prévue par les conditions du Club, mais aucune nouvelle campagne ouverte après le 28 mai 2026 n'a été trouvée à la date de référence."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "OLA Club del Accionista est-il encore actif au 9 juin 2026 ?",
+      "answer": "Oui. Iberdrola publie une page active du Club, un formulaire d'inscription, des conditions d'utilisation mises à jour le 26 février 2025 et une politique officielle du 25 mars 2025. Le dispositif est donc classé comme club actionnaire formel, tout en comportant aussi de nombreuses fonctions de relations actionnaires.",
+      "sourceIds": [
+        "S03",
+        "S04",
+        "S05",
+        "S12"
+      ]
+    },
+    {
+      "question": "Combien d'actions Iberdrola faut-il détenir pour s'inscrire au Club OLA ?",
+      "answer": "Aucun seuil numérique n'est publié dans les conditions, le formulaire ou la politique de confidentialité actuels. Il faut être actionnaire et indiquer son nombre d'actions, mais cela ne permet pas de conclure officiellement qu'une seule action suffit. Le seuil global reste donc inconnu.",
+      "sourceIds": [
+        "S04",
+        "S05",
+        "S07"
+      ]
+    },
+    {
+      "question": "Comment l'inscription et la vérification de l'actionnariat fonctionnent-elles ?",
+      "answer": "L'inscription se fait en ligne en choisissant le profil personne physique, personne morale, ADR ou CDI, puis en fournissant l'identité ou la référence d'actionnaire, le nombre d'actions et les coordonnées. Iberdrola compare notamment l'identifiant déclaré aux données des teneurs du registre et peut demander des justificatifs selon le profil.",
+      "sourceIds": [
+        "S04",
+        "S05",
+        "S06",
+        "S07"
+      ]
+    },
+    {
+      "question": "Le Club OLA est-il accessible depuis l'étranger ou avec des ADR et CDI ?",
+      "answer": "Le formulaire accepte des pays étrangers et prévoit les profils ADR et CDI, ainsi que les personnes morales. Toutefois, la voie ordinaire des personnes physiques exige des actions déposées auprès d'une entité espagnole et inscrites à leur nom. La version espagnole précise en outre que les personnes morales et porteurs d'ADR ou CDI peuvent n'accéder qu'à certaines fonctionnalités.",
+      "sourceIds": [
+        "S05",
+        "S06",
+        "S07",
+        "S08"
+      ]
+    },
+    {
+      "question": "Quels tirages Iberdrola étaient encore ouverts au 9 juin 2026 ?",
+      "answer": "Aucun des deux tirages 2026 identifiés n'acceptait encore de nouvelles inscriptions. Le kit technologique avait clôturé le 28 avril 2026. Le tirage de cinquante vélos avait clôturé le 28 mai 2026; les tirages quotidiens étaient passés et le tirage de trente vélos restait programmé au 17 juin 2026 pour les personnes déjà inscrites.",
+      "sourceIds": [
+        "S10",
+        "S11"
+      ]
+    },
+    {
+      "question": "L'assistance du Club OLA est-elle réellement disponible vingt-quatre heures sur vingt-quatre ?",
+      "answer": "Le portail permet de déposer des questions toute l'année, mais la ligne téléphonique n'est pas ouverte en continu. Iberdrola publie un horaire du lundi au vendredi, de 9 h à 19 h de septembre à juillet et de 9 h à 14 h en août. Le délai maximal de deux jours ouvrés figurait dans un communiqué du 30 avril 2024, mais n'est pas repris comme garantie dans les conditions actuelles.",
+      "sourceIds": [
+        "S04",
+        "S08",
+        "S09"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "Iberdrola est un groupe énergétique axé sur les réseaux et les renouvelables, coté sous le symbole IBE et membre de l'IBEX 35.",
+      "status": "verified",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "notes": "La page de cotation mentionne également des ADR et plusieurs autres indices internationaux."
+    },
+    {
+      "id": "C02",
+      "statement": "OLA Club del Accionista est un club formel actif qui exige une inscription et l'acceptation de conditions d'utilisation.",
+      "status": "verified",
+      "sourceIds": [
+        "S03",
+        "S04",
+        "S05",
+        "S12"
+      ],
+      "notes": "Le nom anglais affiché par Iberdrola est « OLS Shareholder's Club », tandis que les pages espagnoles et plusieurs passages anglais conservent OLA."
+    },
+    {
+      "id": "C03",
+      "statement": "Aucun seuil minimal chiffré d'actions n'est publié pour l'inscription au Club.",
+      "status": "verified",
+      "sourceIds": [
+        "S04",
+        "S05",
+        "S07"
+      ],
+      "notes": "Les sources exigent la qualité d'actionnaire et demandent le nombre d'actions, sans fixer un minimum numérique."
+    },
+    {
+      "id": "C04",
+      "statement": "L'inscription ordinaire d'une personne physique détentrice d'actions exige un dépôt auprès d'une entité espagnole et une inscription des titres à son nom.",
+      "status": "verified",
+      "sourceIds": [
+        "S05",
+        "S06"
+      ],
+      "notes": "Les personnes morales et porteurs d'ADR ou de CDI disposent aussi d'une procédure, avec une portée fonctionnelle moins claire."
+    },
+    {
+      "id": "C05",
+      "statement": "Iberdrola vérifie la qualité d'actionnaire à l'inscription et périodiquement, puis peut mettre fin à l'adhésion lorsque l'utilisateur cesse d'être actionnaire.",
+      "status": "verified",
+      "sourceIds": [
+        "S04",
+        "S07"
+      ],
+      "notes": "La politique de confidentialité décrit une comparaison automatisée avec les données des entités chargées du registre comptable."
+    },
+    {
+      "id": "C06",
+      "statement": "Les catégories concrètes dépassant les relations investisseurs génériques sont les invitations exclusives, les visites proposées et les tirages ponctuels.",
+      "status": "verified",
+      "sourceIds": [
+        "S03",
+        "S04"
+      ],
+      "notes": "La disponibilité et les conditions sont fixées au cas par cas; aucun droit automatique à un événement, une visite ou un lot n'est publié."
+    },
+    {
+      "id": "C07",
+      "statement": "La ligne de l'Oficina del Accionista fonctionne selon des horaires ouvrés et non vingt-quatre heures sur vingt-quatre.",
+      "status": "verified",
+      "sourceIds": [
+        "S08"
+      ],
+      "notes": "Le numéro espagnol et un numéro pour les appels internationaux sont publiés."
+    },
+    {
+      "id": "C08",
+      "statement": "Le communiqué de 2024 annonçait une réponse aux questions en ligne sous deux jours ouvrés, mais les conditions actuelles ne reprennent pas ce délai.",
+      "status": "partially_verified",
+      "sourceIds": [
+        "S04",
+        "S09"
+      ],
+      "notes": "Le délai est historiquement officiel, mais il n'est pas présenté comme engagement actuel dans les conditions mises à jour en 2025."
+    },
+    {
+      "id": "C09",
+      "statement": "Les périodes d'inscription des deux tirages 2026 identifiés étaient closes au 9 juin 2026.",
+      "status": "verified",
+      "sourceIds": [
+        "S10",
+        "S11"
+      ],
+      "notes": "Le tirage notarié de trente vélos restait prévu au 17 juin 2026 pour les participants déjà inscrits."
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "Le Club OLA est officiellement accessible dès la détention d'une seule action Iberdrola.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S04",
+        "S05",
+        "S07"
+      ]
+    },
+    {
+      "claim": "L'adhésion au Club OLA est officiellement et totalement gratuite.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S04",
+        "S05"
+      ]
+    },
+    {
+      "claim": "Une action Iberdrola détenue auprès de n'importe quel courtier étranger ou dans un PEA français suffit pour s'inscrire.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S05",
+        "S06"
+      ]
+    },
+    {
+      "claim": "Le support téléphonique du Club fonctionne vingt-quatre heures sur vingt-quatre et garantit actuellement une réponse sous deux jours ouvrés.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S04",
+        "S08",
+        "S09"
+      ]
+    },
+    {
+      "claim": "Accionistas NEWS, les rapports, les bulletins et les communiqués financiers constituent des bénéfices économiques à retenir.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S03",
+        "S04",
+        "S09",
+        "S12"
+      ]
+    },
+    {
+      "claim": "La ligne actionnaires et le portail de questions sont des avantages commerciaux distincts du Club.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S04",
+        "S08",
+        "S12"
+      ]
+    },
+    {
+      "claim": "Le vote, la délégation, la participation à l'assemblée et le dividende ordinaire sont des avantages du Club.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S03",
+        "S09",
+        "S12"
+      ]
+    },
+    {
+      "claim": "Le tirage du kit technologique ou celui des vélos électriques acceptait encore des inscriptions le 9 juin 2026.",
+      "reason": "expired",
+      "sourceIds": [
+        "S10",
+        "S11"
+      ]
+    },
+    {
+      "claim": "Tous les membres, y compris les personnes morales et porteurs d'ADR ou de CDI, disposent exactement des mêmes fonctionnalités.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S05",
+        "S06"
+      ]
+    },
+    {
+      "claim": "Le service de vidéointerprétation ComunicA est un avantage réservé aux membres du Club OLA.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S08"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.iberdrola.com/about-us/our-company",
+      "title": "Iberdrola Group",
+      "publisher": "Iberdrola",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La page décrit Iberdrola comme un groupe énergétique actif dans les réseaux, les renouvelables, le stockage et les solutions clients, avec des indicateurs 2025 issus du rapport intégré publié en mars 2026."
+    },
+    {
+      "id": "S02",
+      "url": "https://www.iberdrola.com/shareholders-investors/share/price",
+      "title": "Iberdrola shares - Today's share price",
+      "publisher": "Iberdrola",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La page confirme le symbole IBE sur le marché de Madrid, la présence continue dans l'IBEX 35 depuis sa création et l'existence d'ADR représentant quatre actions ordinaires."
+    },
+    {
+      "id": "S03",
+      "url": "https://www.iberdrola.com/accionistas-inversores/accionistas/club-accionista",
+      "title": "OLA Club del Accionista",
+      "publisher": "Iberdrola",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La page active présente le Club et son formulaire, puis liste les questions, l'assistance, les invitations à des événements, les tirages, les contenus, le vote et les autres fonctionnalités."
+    },
+    {
+      "id": "S04",
+      "url": "https://www.iberdrola.com/accionistas-inversores/accionistas/club-accionista/condiciones-uso",
+      "title": "Términos y condiciones de uso de OLA Club del Accionista",
+      "publisher": "Iberdrola",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2025-02-26",
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Les conditions datées définissent les fonctionnalités, notamment questions, téléphone, invitations, tirages et visites, puis exigent la qualité d'actionnaire, l'acceptation des textes et l'inscription avec vérification périodique."
+    },
+    {
+      "id": "S05",
+      "url": "https://www.iberdrola.com/accionistas-inversores/accionistas/club-accionista/alta-club-accionista",
+      "title": "Formulario de alta en OLA Club del Accionista",
+      "publisher": "Iberdrola",
+      "sourceType": "official_form",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Le formulaire espagnol fixe les conditions de dépôt des actions ordinaires des personnes physiques, prévoit les personnes morales, ADR et CDI, demande le nombre d'actions, l'identité, le pays, les coordonnées et certains justificatifs."
+    },
+    {
+      "id": "S06",
+      "url": "https://www.iberdrola.com/shareholders-investors/shareholders/shareholders-club/new-shareholders-club",
+      "title": "OLS Shareholder's Club registration form",
+      "publisher": "Iberdrola",
+      "sourceType": "official_form",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La version anglaise confirme l'exigence d'une entité espagnole pour les personnes physiques et les profils personne morale, ADR et CDI, mais omet la réserve espagnole limitant ces profils à certaines fonctionnalités."
+    },
+    {
+      "id": "S07",
+      "url": "https://www.iberdrola.com/shareholders-investors/shareholders/shareholders-club/new-shareholders-club/legal-conditions",
+      "title": "OLS Shareholder's Club Privacy Policy",
+      "publisher": "Iberdrola",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2025-02-26",
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "La politique détaille les données collectées, la vérification auprès des teneurs du registre, les décisions automatisées d'accès ou de résiliation, les contrôles périodiques et la conservation jusqu'à la perte de la qualité d'actionnaire."
+    },
+    {
+      "id": "S08",
+      "url": "https://www.iberdrola.com/accionistas-inversores/accionistas/oficina-accionista",
+      "title": "Oficina del accionista",
+      "publisher": "Iberdrola",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "La page publie les numéros espagnol et international, l'adresse électronique, l'adresse postale et les horaires ouvrés, ainsi que des contacts distincts pour les titulaires de CDI et d'ADR."
+    },
+    {
+      "id": "S09",
+      "url": "https://www.iberdrola.com/sala-comunicacion/noticias/detalle/intensificamos-la-relacion-con-nuestros-accionistas-a-traves-del-club-ola",
+      "title": "Intensificamos la relación con nuestros accionistas a través del club OLA",
+      "publisher": "Iberdrola",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": "2024-04-30",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "archived",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Le communiqué historique annonce un portail accessible toute l'année, une réponse aux questions en ligne sous deux jours ouvrés, la ligne téléphonique, les invitations, les tirages et l'accès aux contenus."
+    },
+    {
+      "id": "S10",
+      "url": "https://www.iberdrola.com/documents/20125/3709241/bases-sorteo-ola-club-accionista.pdf",
+      "title": "Bases legales campaña de captación OLA Club del Accionista",
+      "publisher": "Iberdrola",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "expired",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Le règlement 2026 fixe une période du 13 mars au 28 avril, un territoire espagnol, les conditions de majorité, personne physique, actionnariat et adhésion, puis un kit technologique tiré le 11 mai."
+    },
+    {
+      "id": "S11",
+      "url": "https://www.iberdrola.com/documents/20125/3000360/jga-bases-legales-sorteo.pdf",
+      "title": "Bases legales sorteo bicicletas eléctricas JGA26",
+      "publisher": "Iberdrola",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Le règlement prévoit cinquante vélos, une inscription close le 28 mai 2026, des tirages quotidiens déjà passés et un tirage de trente vélos le 17 juin 2026, avec conditions d'adhésion, vote ou délégation et maintien de l'actionnariat."
+    },
+    {
+      "id": "S12",
+      "url": "https://www.iberdrola.com/documents/20125/41815/politica_comunicacion_y_contactos.pdf",
+      "title": "Política de comunicación y contactos con accionistas, inversores institucionales y asesores de voto",
+      "publisher": "Iberdrola",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2025-03-25",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "es",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "La politique du conseil décrit OLA comme un système interactif permanent à inscription volontaire, avec identifiant et mot de passe, information, questions, vote, visualisation de l'assemblée et activités d'implication."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Seuil minimal d'inscription",
+      "sourceIds": [
+        "S04",
+        "S05",
+        "S07"
+      ],
+      "positions": [
+        "Les données historiques du projet affirment que le Club est accessible dès une action.",
+        "Les conditions et formulaires actuels exigent seulement la qualité d'actionnaire et la déclaration du nombre d'actions, sans publier de seuil numérique."
+      ],
+      "resolution": "Conserver globalMinimumShares à null et rejeter la formulation « dès une action » tant qu'une source officielle actuelle ne fixe pas ce seuil.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Accès des personnes morales, ADR et CDI",
+      "sourceIds": [
+        "S05",
+        "S06"
+      ],
+      "positions": [
+        "La page espagnole permet à ces profils de demander des identifiants pour « determinadas funcionalidades ».",
+        "La version anglaise indique qu'ils peuvent demander des identifiants, sans traduire la limitation à certaines fonctionnalités."
+      ],
+      "resolution": "Retenir la version espagnole, plus précise et cohérente avec la langue principale du règlement: l'accès existe, mais l'égalité complète des fonctionnalités n'est pas prouvée.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Portée géographique générale",
+      "sourceIds": [
+        "S05",
+        "S06",
+        "S07",
+        "S10",
+        "S11"
+      ],
+      "positions": [
+        "Le formulaire accepte de nombreux pays et les conditions prévoient le domicile hors d'Espagne.",
+        "Les personnes physiques détentrices d'actions ordinaires doivent passer par une entité espagnole, et les tirages 2026 utilisent une portée territoriale nationale ou espagnole."
+      ],
+      "resolution": "Ne pas imposer une résidence espagnole générale, mais publier les restrictions de compte et vérifier séparément le territoire de chaque tirage ou événement.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Disponibilité de l'assistance",
+      "sourceIds": [
+        "S04",
+        "S08",
+        "S09"
+      ],
+      "positions": [
+        "Le communiqué du 30 avril 2024 présente un contact possible toute l'année et une réponse en ligne sous deux jours ouvrés.",
+        "La page actuelle de l'Oficina del Accionista limite les appels aux jours ouvrés et les conditions mises à jour en 2025 ne garantissent aucun délai de réponse."
+      ],
+      "resolution": "Distinguer le dépôt de questions en ligne, disponible toute l'année, de la ligne téléphonique aux horaires publiés. Ne pas présenter deux jours ouvrés comme garantie actuelle.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Disponibilité des tirages au 9 juin 2026",
+      "sourceIds": [
+        "S04",
+        "S10",
+        "S11"
+      ],
+      "positions": [
+        "Les conditions générales prévoient la participation des membres à des tirages organisés ponctuellement.",
+        "Les deux règlements 2026 identifiés avaient clos leurs inscriptions le 28 avril et le 28 mai, même si un tirage de vélos restait programmé au 17 juin pour les inscrits."
+      ],
+      "resolution": "Conserver la catégorie générale comme bénéfice soumis à tirage, sans annoncer de campagne ouverte à la date de référence et sans présenter les lots 2026 comme disponibles aux nouveaux inscrits.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Nom anglais du Club",
+      "sourceIds": [
+        "S03",
+        "S04",
+        "S06",
+        "S07"
+      ],
+      "positions": [
+        "Les sources espagnoles utilisent « OLA Club del Accionista » et développent historiquement OLA comme « On Line Accionistas ».",
+        "Les pages anglaises utilisent surtout « OLS Shareholder's Club », tout en conservant parfois OLA dans leur propre texte."
+      ],
+      "resolution": "Employer le nom espagnol officiel OLA Club del Accionista dans le dossier français et mentionner OLS uniquement comme libellé de la version anglaise.",
+      "impact": "wording_only"
+    }
+  ],
+  "handoff": {
+    "researchStatus": "complete_with_uncertainties",
+    "readyForDevelopment": true,
+    "benefitCount": 3,
+    "faqCount": 6,
+    "blockingIssues": [],
+    "developerNotes": [
+      "Présenter Iberdrola comme un club actionnaire formel actif, avec OLA Club del Accionista comme nom principal.",
+      "Conserver minShares à null: aucune source officielle actuelle ne prouve un seuil d'une action.",
+      "Ne pas promettre l'accès depuis n'importe quel courtier ou PEA; reprendre l'exigence d'une entité espagnole pour la voie ordinaire des personnes physiques.",
+      "Ne pas présenter l'adhésion comme gratuite: aucune cotisation n'est publiée, mais la gratuité générale n'est pas formulée contractuellement.",
+      "Conserver seulement trois bénéfices: invitations exclusives, visites proposées et tirages ponctuels, tous sans disponibilité garantie.",
+      "Ne pas réintroduire Accionistas NEWS, les rapports, la ligne téléphonique, les questions en ligne, le vote, l'assemblée ou le dividende ordinaire dans les bénéfices.",
+      "Indiquer que la ligne téléphonique suit des horaires ouvrés et que le délai de deux jours ouvrés provient d'un communiqué de 2024 non repris dans les conditions actuelles.",
+      "Ne pas présenter les tirages du kit technologique ou des vélos 2026 comme ouverts au 9 juin 2026.",
+      "Maintenir la restriction « certaines fonctionnalités » pour les personnes morales et porteurs d'ADR ou de CDI malgré l'omission de cette nuance dans la version anglaise."
+    ]
+  }
+}

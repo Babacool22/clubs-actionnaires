@@ -1,0 +1,556 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "legrand",
+    "name": "Legrand",
+    "description": "Legrand est un spécialiste mondial des infrastructures électriques et numériques du bâtiment. Le Groupe équipe les bâtiments résidentiels, tertiaires et industriels ainsi que les centres de données, avec des solutions de distribution électrique, de câblage, de pilotage et de connectivité.",
+    "sector": "Équipements électriques et numériques du bâtiment",
+    "stockIndex": "CAC 40",
+    "ticker": "LR",
+    "website": "https://www.legrand.com/",
+    "clubName": null,
+    "clubUrl": null
+  },
+  "offerClassification": {
+    "primaryKind": "shareholder_benefit",
+    "otherKinds": [
+      "investor_relations_only"
+    ],
+    "officialProgrammeName": null,
+    "status": "active",
+    "statusReason": "Legrand ne publie aucun club ni programme formel avec adhésion. Le seul avantage actuel suffisamment précis est la gratuité des droits de garde et des frais de gestion au nominatif pur, hors opérations et courtage facturés. Les visites de site sont ponctuelles et aucune nouvelle date n'était ouverte à la réservation au 9 juin 2026.",
+    "sourceIds": [
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S07",
+      "S08"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": null,
+    "eligibleShareClasses": [
+      "Actions ordinaires Legrand SA, ISIN FR0010307819"
+    ],
+    "holdingModes": [
+      "registered_pure"
+    ],
+    "minimumHoldingPeriod": null,
+    "residencyRestrictions": [],
+    "accountRestrictions": [
+      "L'avantage retenu suppose un compte de titres au nominatif pur tenu par Société Générale Securities Services.",
+      "Les actions au nominatif administré et au porteur restent gérées par l'intermédiaire financier de l'actionnaire et ne bénéficient pas de la gratuité publiée pour le nominatif pur."
+    ],
+    "proofRequired": [
+      "Inscription des actions Legrand au nominatif pur dans un compte tenu par Société Générale Securities Services.",
+      "Code émetteur et identifiant demandés par Société Générale Securities Services pour les demandes relatives au compte."
+    ],
+    "fees": {
+      "membershipFee": null,
+      "applicationFee": null,
+      "otherFees": [
+        "Frais de traitement de 150 euros par dossier de mutation, notamment pour un nantissement, une donation ou une succession, selon les tarifs applicables au 1er mai 2024.",
+        "Ordres par internet : 0,40 % du montant brut avec un minimum de 14 euros, selon les tarifs applicables au 1er mai 2024.",
+        "Ordres transmis par un autre canal : barème de 0,60 %, 0,50 % ou 0,40 % selon le montant, avec un minimum de 14 euros pour les ordres inférieurs à 75 000 euros, selon les tarifs applicables au 1er mai 2024."
+      ],
+      "notes": "Il n'existe pas de cotisation d'adhésion puisqu'aucun club n'est publié. Legrand indique que les droits de garde et les frais de gestion sont gratuits au nominatif pur, sous réserve des frais de mutation et de courtage détaillés sur la page officielle."
+    },
+    "sourceIds": [
+      "S04"
+    ]
+  },
+  "enrollment": {
+    "required": true,
+    "method": "transfer_agent",
+    "applicationUrl": "https://www.legrand.com/fr/investisseurs-et-actionnaires/espace-actionnaires/etre-actionnaire-de-legrand",
+    "contact": "Société Générale Securities Services, +33 (0)2 51 85 67 89, du lundi au vendredi de 9 h à 18 h, SGSS/SBO/ISS/CLI, 32 rue du Champ-de-Tir, CS 30812, 44308 Nantes Cedex 3, France.",
+    "steps": [
+      "Pour un premier achat au nominatif pur, contacter Société Générale Securities Services afin de recevoir le kit premier achat.",
+      "Compléter et retourner les documents demandés dans le kit afin que le compte de titres au nominatif pur soit ouvert et tenu par Société Générale Securities Services.",
+      "Pour des actions déjà détenues au porteur ou au nominatif administré, contacter l'intermédiaire financier et Société Générale Securities Services; la page officielle ne publie pas de formulaire de transfert ni de délai standard."
+    ],
+    "processingTime": null,
+    "renewal": null,
+    "deadlines": [],
+    "sourceIds": [
+      "S04"
+    ]
+  },
+  "benefits": [
+    {
+      "id": "B01",
+      "type": "reduction",
+      "title": "Droits de garde et frais de gestion gratuits au nominatif pur",
+      "description": "Les actions Legrand inscrites au nominatif pur sont tenues par Société Générale Securities Services sans droits de garde ni frais ordinaires de gestion. Restent dus les frais de courtage ainsi que 150 euros pour certains dossiers de mutation, selon le barème officiel daté du 1er mai 2024.",
+      "value": "Droits de garde et frais ordinaires de gestion gratuits; courtage et frais de mutation exclus.",
+      "requiredShares": null,
+      "requiredHoldingModes": [
+        "registered_pure"
+      ],
+      "requiredHoldingPeriod": null,
+      "availability": "guaranteed",
+      "validFrom": null,
+      "validUntil": null,
+      "requestDeadline": null,
+      "procedure": [
+        "Contacter Société Générale Securities Services pour demander le kit premier achat au nominatif pur.",
+        "Ouvrir ou faire tenir le compte de titres Legrand au nominatif pur auprès de Société Générale Securities Services.",
+        "Utiliser Sharinbox et les coordonnées de Société Générale Securities Services pour la gestion ultérieure du compte."
+      ],
+      "limitsAndExclusions": [
+        "Aucun nombre minimal d'actions n'est publié pour bénéficier de la gratuité.",
+        "Aucune durée minimale de détention n'est publiée.",
+        "La gratuité ne s'applique pas aux frais de courtage.",
+        "Les dossiers de mutation, notamment nantissement, donation ou succession, sont facturés 150 euros par dossier selon le tarif publié.",
+        "Les tarifs chiffrés affichés sont datés du 1er mai 2024 et Legrand ne publie pas de date de fin ni de confirmation tarifaire plus récente."
+      ],
+      "primarySourceId": "S04",
+      "supportingSourceIds": [
+        "S03"
+      ],
+      "sourceUrl": "https://www.legrand.com/fr/investisseurs-et-actionnaires/espace-actionnaires/etre-actionnaire-de-legrand",
+      "evidenceGrade": "B",
+      "uncertainty": "La page officielle est active et affirme la gratuité, mais le barème détaillé est encore présenté comme applicable au 1er mai 2024 et aucun seuil minimal n'est publié."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Legrand possède-t-il un club ou un programme formel pour ses actionnaires individuels ?",
+      "answer": "Non. Au 9 juin 2026, l'espace actionnaires, le guide, les lettres et les formulaires officiels ne donnent aucun nom de club, règlement, statut de membre ou procédure d'adhésion. Legrand propose des services de relations actionnaires et un avantage lié au nominatif pur, sans programme formel.",
+      "sourceIds": [
+        "S03",
+        "S04",
+        "S05",
+        "S08"
+      ]
+    },
+    {
+      "question": "Quel avantage financier actuel est prouvé pour un actionnaire Legrand ?",
+      "answer": "Legrand indique que les droits de garde et les frais ordinaires de gestion sont gratuits lorsque les actions sont détenues au nominatif pur chez Société Générale Securities Services. Les frais de courtage restent dus et certains dossiers de mutation sont facturés 150 euros selon le barème daté du 1er mai 2024.",
+      "sourceIds": [
+        "S04"
+      ]
+    },
+    {
+      "question": "Comment placer des actions Legrand au nominatif pur pour obtenir cette gratuité ?",
+      "answer": "Pour un premier achat, Legrand demande de contacter Société Générale Securities Services au +33 (0)2 51 85 67 89 afin de recevoir un kit premier achat. Pour des titres déjà détenus ailleurs, il faut contacter son intermédiaire et Société Générale Securities Services; aucun formulaire précis ni délai standard n'est publié sur la page officielle.",
+      "sourceIds": [
+        "S04"
+      ]
+    },
+    {
+      "question": "Combien d'actions faut-il détenir et pendant combien de temps ?",
+      "answer": "Aucun seuil global, nombre minimal d'actions ou délai minimal de détention n'est publié pour la gratuité au nominatif pur. Ces champs restent donc à null: la qualité d'actionnaire implique la détention d'actions, mais la recherche ne doit pas transformer cette évidence en seuil officiel d'une action.",
+      "sourceIds": [
+        "S04"
+      ]
+    },
+    {
+      "question": "Des visites de sites ou conférences sont-elles actuellement réservables par les actionnaires ?",
+      "answer": "Non au 9 juin 2026. Une visite du Legrand Campus Paris a bien été annoncée comme exclusivement réservée aux actionnaires en 2025 et s'est tenue le 8 décembre 2025. La page actuelle promet de nouvelles dates prochainement, mais ne donne ni date, ni formulaire, ni procédure de réservation; aucune visite ou conférence ne peut donc être présentée comme disponible.",
+      "sourceIds": [
+        "S05",
+        "S06",
+        "S07"
+      ]
+    },
+    {
+      "question": "Legrand offre-t-il une prime de fidélité, un dividende majoré ou une lettre réservée aux actionnaires ?",
+      "answer": "Aucun dividende majoré ni prime de fidélité n'est officiellement publié. Les statuts du 27 mai 2026 précisent même que deux années d'inscription nominative ne donnent pas de droit de vote double. Le dividende ordinaire est exclu des bénéfices, et le formulaire de la lettre accepte aussi les personnes déclarant ne pas être actionnaires.",
+      "sourceIds": [
+        "S08",
+        "S09",
+        "S10"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "L'action Legrand porte le code ISIN FR0010307819, le symbole LR, est cotée sur Euronext Paris et appartient au CAC 40.",
+      "status": "verified",
+      "sourceIds": [
+        "S02",
+        "S11"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C02",
+      "statement": "Aucun club ou programme formel avec adhésion n'est publié pour les actionnaires individuels de Legrand.",
+      "status": "partially_verified",
+      "sourceIds": [
+        "S03",
+        "S04",
+        "S05",
+        "S08"
+      ],
+      "notes": "Il s'agit d'un constat d'absence dans l'ensemble des ressources officielles dédiées consultées, et non d'une déclaration explicite de Legrand affirmant qu'aucun club n'existe."
+    },
+    {
+      "id": "C03",
+      "statement": "Les droits de garde et les frais ordinaires de gestion sont gratuits pour les actions Legrand détenues au nominatif pur.",
+      "status": "verified",
+      "sourceIds": [
+        "S04"
+      ],
+      "notes": "Les frais de courtage et les frais de certains dossiers de mutation restent dus."
+    },
+    {
+      "id": "C04",
+      "statement": "Aucun seuil minimal d'actions ni durée minimale de détention n'est publié pour la gratuité au nominatif pur.",
+      "status": "uncertain",
+      "sourceIds": [
+        "S04"
+      ],
+      "notes": "Cette conclusion résulte de l'absence de seuil dans la page officielle disponible; elle ne prouve pas qu'aucune règle opérationnelle interne n'existe."
+    },
+    {
+      "id": "C05",
+      "statement": "Une visite du Legrand Campus Paris réservée aux actionnaires individuels a effectivement eu lieu le 8 décembre 2025.",
+      "status": "verified",
+      "sourceIds": [
+        "S05",
+        "S07"
+      ],
+      "notes": "La lettre de juin 2025 annonçait initialement le 3 décembre 2025; la page de compte rendu et la lettre de décembre indiquent le 8 décembre."
+    },
+    {
+      "id": "C06",
+      "statement": "Aucune nouvelle visite de site ou conférence réservée aux actionnaires n'était ouverte à la réservation au 9 juin 2026.",
+      "status": "partially_verified",
+      "sourceIds": [
+        "S03",
+        "S05"
+      ],
+      "notes": "La page actuelle annonce seulement que de nouvelles dates seront proposées prochainement, sans date, formulaire, seuil ni procédure."
+    },
+    {
+      "id": "C07",
+      "statement": "L'abonnement à la lettre aux actionnaires n'est pas réservé aux détenteurs d'actions Legrand.",
+      "status": "verified",
+      "sourceIds": [
+        "S08"
+      ],
+      "notes": "Le formulaire propose explicitement de déclarer être ou ne pas être actionnaire."
+    },
+    {
+      "id": "C08",
+      "statement": "Les actions Legrand inscrites au nominatif depuis deux ans ne bénéficient pas d'un droit de vote double.",
+      "status": "verified",
+      "sourceIds": [
+        "S09"
+      ],
+      "notes": "Les statuts officiels datés du 27 mai 2026 écartent expressément ce mécanisme."
+    },
+    {
+      "id": "C09",
+      "statement": "Aucun dividende majoré ni prime de fidélité réservé aux actionnaires de longue durée n'est publié par Legrand.",
+      "status": "uncertain",
+      "sourceIds": [
+        "S09",
+        "S10"
+      ],
+      "notes": "Les statuts excluent le droit de vote double et la page dividende ne décrit que les distributions ordinaires; Legrand ne publie toutefois pas une déclaration générale d'absence de toute prime de fidélité."
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "Legrand exploite un club des actionnaires ou un programme d'adhésion formel.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S03",
+        "S04",
+        "S05",
+        "S08"
+      ]
+    },
+    {
+      "claim": "Une seule action suffit officiellement pour accéder à tous les avantages Legrand.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S04",
+        "S05"
+      ]
+    },
+    {
+      "claim": "La visite du Legrand Campus Paris annoncée pour décembre 2025 est encore réservable.",
+      "reason": "expired",
+      "sourceIds": [
+        "S05",
+        "S06",
+        "S07"
+      ]
+    },
+    {
+      "claim": "Legrand propose actuellement des visites de sites ou conférences avec une date et une procédure de réservation publiées.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S03",
+        "S05"
+      ]
+    },
+    {
+      "claim": "Les journées investisseurs, conférences de résultats et webcasts constituent des avantages réservés aux actionnaires individuels.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S03",
+        "S06"
+      ]
+    },
+    {
+      "claim": "La lettre aux actionnaires est un bénéfice exclusif réservé aux actionnaires Legrand.",
+      "reason": "not_shareholder_specific",
+      "sourceIds": [
+        "S08"
+      ]
+    },
+    {
+      "claim": "La participation à l'assemblée générale et l'exercice du vote sont des bénéfices commerciaux du dispositif.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S03",
+        "S09"
+      ]
+    },
+    {
+      "claim": "Le dividende ordinaire versé par Legrand constitue un avantage du programme actionnaires.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S10"
+      ]
+    },
+    {
+      "claim": "L'inscription au nominatif pendant deux ans procure un droit de vote double ou un avantage de fidélité équivalent.",
+      "reason": "contradicted",
+      "sourceIds": [
+        "S09"
+      ]
+    },
+    {
+      "claim": "Le service téléphonique de relations actionnaires, Sharinbox et l'envoi des documents d'assemblée sont des avantages commerciaux distincts.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S03",
+        "S04"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.legrand.com/fr/le-groupe/lessentiel-de-legrand",
+      "title": "L'essentiel de Legrand",
+      "publisher": "Legrand",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Présentation officielle actuelle du métier de Legrand, de ses marchés résidentiels, tertiaires, industriels et centres de données, ainsi que de ses principales familles de solutions électriques et numériques."
+    },
+    {
+      "id": "S02",
+      "url": "https://www.legrand.com/fr/investisseurs-et-actionnaires/cours-de-laction",
+      "title": "Cours de l'action Legrand : cotation, indice CAC 40",
+      "publisher": "Legrand",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": "2026-06-09",
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Page officielle de cotation identifiant Legrand sous le symbole LR sur Euronext Paris et affichant le CAC 40, avec des données de marché horodatées au 9 juin 2026."
+    },
+    {
+      "id": "S03",
+      "url": "https://www.legrand.com/fr/investisseurs-et-actionnaires/espace-actionnaires",
+      "title": "Espace actionnaires",
+      "publisher": "Legrand",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page centrale des relations avec les actionnaires. Elle renvoie vers le guide, les modes de détention, les contacts, les lettres, les visites, l'assemblée générale et les publications, sans nommer de club ni publier de procédure d'adhésion."
+    },
+    {
+      "id": "S04",
+      "url": "https://www.legrand.com/fr/investisseurs-et-actionnaires/espace-actionnaires/etre-actionnaire-de-legrand",
+      "title": "Être actionnaire de Legrand",
+      "publisher": "Legrand",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle comparant porteur, nominatif administré et nominatif pur. Elle désigne Société Générale Securities Services pour le pur, annonce la gratuité de la garde et de la gestion, détaille les frais exclus au tarif du 1er mai 2024 et indique la demande d'un kit premier achat."
+    },
+    {
+      "id": "S05",
+      "url": "https://www.legrand.com/fr/investisseurs-et-actionnaires/espace-actionnaires/visite-de-site",
+      "title": "Visite de site Legrand",
+      "publisher": "Legrand",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Compte rendu officiel d'une visite du Legrand Campus Paris tenue le 8 décembre pour des actionnaires individuels. La page promet de nouvelles dates prochainement mais ne publie aucune date, réservation, condition, capacité ou procédure active."
+    },
+    {
+      "id": "S06",
+      "url": "https://www.legrandgroup.com/sites/default/files/Documents_PDF_Legrand/Finance/Lettres/FR_Legrand-LA-juin-2025_1750669411.pdf",
+      "title": "Lettre aux actionnaires - Juin 2025",
+      "publisher": "Legrand",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2025-06",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "expired",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Lettre officielle annonçant une visite du Legrand Campus Paris le 3 décembre 2025 et la qualifiant d'exclusivement réservée aux actionnaires. Le document ne donne pas de seuil, de justificatif, de formulaire ou de limite de places et l'offre est expirée."
+    },
+    {
+      "id": "S07",
+      "url": "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/News/2025/FR_LA-Legrand-decembre-2025-V2_1766065084.pdf",
+      "title": "Lettre aux actionnaires - Décembre 2025",
+      "publisher": "Legrand",
+      "sourceType": "official_pdf",
+      "official": true,
+      "publishedAt": "2025-12-15",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "expired",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Lettre officielle rendant compte de la journée actionnaires tenue au Legrand Campus Paris le 8 décembre 2025, avec présentation du Groupe, questions-réponses RSE et visite du showroom. Elle confirme la réalisation mais non une offre active en 2026."
+    },
+    {
+      "id": "S08",
+      "url": "https://www.legrand.com/fr/investisseurs-et-actionnaires/espace-actionnaires/abonnement-lettre-aux-actionnaires",
+      "title": "Abonnement lettre aux actionnaires",
+      "publisher": "Legrand",
+      "sourceType": "official_form",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Formulaire officiel d'abonnement demandant les coordonnées de la personne et proposant explicitement les choix « actionnaire » ou « non actionnaire ». L'abonnement ne constitue donc pas un bénéfice exclusif ni une adhésion à un club."
+    },
+    {
+      "id": "S09",
+      "url": "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2026/AG/Statuts%20LEGRAND_27052026_FR_VDEF_1779867404.pdf",
+      "title": "Statuts de Legrand au 27 mai 2026",
+      "publisher": "Legrand",
+      "sourceType": "official_terms",
+      "official": true,
+      "publishedAt": "2026-05-27",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Statuts officiels à jour précisant que les actions entièrement libérées inscrites au nominatif depuis deux ans au nom du même actionnaire ne bénéficient pas d'un droit de vote double."
+    },
+    {
+      "id": "S10",
+      "url": "https://www.legrand.com/fr/investisseurs-et-actionnaires/espace-actionnaires/dividende",
+      "title": "Dividende par action en euro",
+      "publisher": "Legrand",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Page officielle retraçant les distributions ordinaires par action et leurs modalités fiscales. Elle ne décrit aucun dividende majoré, aucune prime de fidélité et aucun traitement différent selon l'ancienneté ou le mode de détention."
+    },
+    {
+      "id": "S11",
+      "url": "https://www.legrand.com/fr/investisseurs-et-actionnaires/espace-actionnaires/questions-reponses",
+      "title": "Questions et réponses sur l'action Legrand",
+      "publisher": "Legrand",
+      "sourceType": "official_faq",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "fr",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "FAQ officielle indiquant la cotation sur Euronext Paris, l'appartenance notamment au CAC 40, l'ISIN FR0010307819 et le secteur ICB des composants et équipements électriques."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Date de la visite actionnaires du Legrand Campus Paris en 2025",
+      "sourceIds": [
+        "S05",
+        "S06",
+        "S07"
+      ],
+      "positions": [
+        "La lettre de juin 2025 annonçait la visite pour le 3 décembre 2025.",
+        "La lettre de décembre 2025 et la page officielle de compte rendu indiquent que la visite s'est tenue le 8 décembre 2025."
+      ],
+      "resolution": "Retenir le 8 décembre 2025 comme date effectivement réalisée et considérer l'offre comme expirée. Ne pas reprendre le 3 décembre ni présenter la visite comme encore disponible.",
+      "impact": "benefit_excluded"
+    },
+    {
+      "topic": "Disponibilité actuelle de nouvelles visites de sites",
+      "sourceIds": [
+        "S03",
+        "S05",
+        "S06",
+        "S07"
+      ],
+      "positions": [
+        "L'espace actionnaires présente les visites de sites comme un rendez-vous proposé aux actionnaires.",
+        "La page de visite promet de nouvelles dates très prochainement, mais ne publie ni date, ni formulaire, ni procédure.",
+        "Les seules invitations précises retrouvées concernent décembre 2025 et sont expirées."
+      ],
+      "resolution": "Ne pas créer de bénéfice de visite actif au 9 juin 2026. Une future visite ne pourra être ajoutée qu'à partir d'une invitation officielle datée, réellement ouverte et accompagnée de ses conditions de réservation.",
+      "impact": "benefit_excluded"
+    }
+  ],
+  "handoff": {
+    "researchStatus": "complete_with_uncertainties",
+    "readyForDevelopment": true,
+    "benefitCount": 1,
+    "faqCount": 6,
+    "blockingIssues": [],
+    "developerNotes": [
+      "Ne pas créer de clubName ni de clubUrl : aucun club ou programme formel d'adhésion n'est prouvé.",
+      "Conserver minShares à null : aucun seuil global ni seuil officiel pour la gratuité au nominatif pur n'est publié.",
+      "Retenir un seul bénéfice, la gratuité des droits de garde et des frais ordinaires de gestion au nominatif pur.",
+      "Mentionner que les frais de courtage et certains frais de mutation restent dus et que les tarifs chiffrés sont datés du 1er mai 2024.",
+      "Ne pas ajouter de visite ou conférence : la visite de décembre 2025 est expirée et aucune nouvelle date n'était réservable au 9 juin 2026.",
+      "Exclure l'assemblée générale, le vote, le dividende ordinaire, les journées investisseurs, les webcasts, Sharinbox, les contacts actionnaires et la lettre ouverte aux non-actionnaires.",
+      "Ne pas présenter le nominatif comme un mécanisme de fidélité : les statuts 2026 excluent le droit de vote double après deux ans et aucun dividende majoré n'est publié."
+    ]
+  }
+}

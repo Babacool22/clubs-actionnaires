@@ -1,0 +1,94 @@
+{
+  "slug": "credit-agricole",
+  "name": "Crédit Agricole SA",
+  "description": "Crédit Agricole S.A. est l'entité cotée du groupe bancaire coopératif et mutualiste Crédit Agricole. Elle rassemble notamment des métiers de banque de proximité, d'épargne, d'assurance, de gestion d'actifs, de financement et de banque de grande clientèle. Son action ordinaire ACA est distincte des titres émis par les Caisses régionales.",
+  "sector": "Banque & Finance",
+  "stockIndex": "CAC40",
+  "ticker": "ACA",
+  "website": "https://www.credit-agricole.com",
+  "clubName": "Club des actionnaires de Crédit Agricole S.A.",
+  "clubUrl": "https://www.credit-agricole.com/finance/actionnaires-individuels/club-des-actionnaires",
+  "minShares": 50,
+  "lastVerifiedAt": "2026-06-09",
+  "benefits": [
+    {
+      "type": "reduction",
+      "title": "Tarifs préférentiels CA Grands Crus en 2026",
+      "description": "Les membres qui conservent au moins 50 actions Crédit Agricole S.A. ACA, au porteur ou au nominatif et hors PEE, peuvent créer un compte sur le site CA Grands Crus Vignobles & Services avec le statut « Club des Actionnaires », la catégorie « Actionnaire Crédit Agricole S.A. » et le code CLUB2026. Ils accèdent ainsi à une sélection de vins à tarifs préférentiels jusqu'au 31 décembre 2026. Le taux de remise, les prix, les frais de livraison et les stocks ne sont pas publiés sur la page du Club. Les CCI, CCA et parts sociales des Caisses régionales ne comptent pas dans le seuil de 50 actions ACA.",
+      "value": "Tarifs préférentiels; taux de remise et prix exacts non publiés",
+      "requiredShares": 50,
+      "sourceUrl": "https://clubactionnaires.credit-agricole.com/event/detail/720"
+    },
+    {
+      "type": "evenement",
+      "title": "Billets pour la Fondation Maeght",
+      "description": "Les membres qui conservent au moins 50 actions Crédit Agricole S.A. ACA, au porteur ou au nominatif et hors PEE, peuvent demander dans leur Espace Actionnaire des billets pour la Fondation Maeght à Saint-Paul-de-Vence. Les inscriptions et la validité annoncée courent du 26 janvier au 31 décembre 2026. Le prix éventuel, le nombre de billets et leurs modalités de remise ne sont pas publics; l'offre reste soumise aux disponibilités. Le règlement limite à deux par année civile les offres préférentielles culturelles et de loisirs dont peut bénéficier un membre. Les CCI, CCA et parts sociales ne sont pas éligibles au seuil du Club.",
+      "value": null,
+      "requiredShares": 50,
+      "sourceUrl": "https://clubactionnaires.credit-agricole.com/event/detail/722"
+    },
+    {
+      "type": "evenement",
+      "title": "Billets coupe-file pour le château de Chambord",
+      "description": "Les membres qui conservent au moins 50 actions Crédit Agricole S.A. ACA, au porteur ou au nominatif et hors PEE, peuvent demander dans leur Espace Actionnaire des billets coupe-file pour le château de Chambord. Les demandes sont ouvertes du 19 février au 31 décembre 2026 et les billets annoncés restent valables jusqu'au 24 février 2027. Leur prix éventuel et leur quantité ne sont pas publiés; l'offre reste soumise aux disponibilités et aux conditions du site. Le règlement plafonne à deux par année civile les offres préférentielles culturelles et de loisirs par membre. Les CCI, CCA et parts sociales ne sont pas éligibles.",
+      "value": "Billets coupe-file; prix et quantité non publiés",
+      "requiredShares": 50,
+      "sourceUrl": "https://clubactionnaires.credit-agricole.com/event/detail/723"
+    },
+    {
+      "type": "evenement",
+      "title": "Billets pour le musée du quai Branly",
+      "description": "Les membres qui conservent au moins 50 actions Crédit Agricole S.A. ACA, au porteur ou au nominatif et hors PEE, peuvent demander dans leur Espace Actionnaire des billets pour le musée du quai Branly - Jacques Chirac. Les demandes sont ouvertes du 1er juin au 31 décembre 2026 et les billets annoncés restent valables jusqu'au 8 juin 2028. Leur prix éventuel, leur quantité et leur mode de remise ne sont pas publics; l'offre reste soumise aux disponibilités et aux conditions du musée. Le règlement plafonne à deux par année civile les offres préférentielles culturelles et de loisirs par membre. Les CCI, CCA et parts sociales ne sont pas éligibles.",
+      "value": null,
+      "requiredShares": 50,
+      "sourceUrl": "https://clubactionnaires.credit-agricole.com/event/detail/726"
+    },
+    {
+      "type": "evenement",
+      "title": "Rencontres, formations et événements du Club",
+      "description": "Les membres qui conservent au moins 50 actions Crédit Agricole S.A. ACA, au porteur ou au nominatif et hors PEE, peuvent être conviés à des Rendez-vous du Club, à des réunions d'information avec les dirigeants, à des formations conçues pour eux et à des manifestations culturelles ou sportives associées au Groupe. Les propositions et inscriptions sont communiquées dans l'Espace Actionnaire ou directement aux membres. Aucun calendrier permanent, nombre minimal d'événements ni droit garanti à une place n'est publié; les manifestations peuvent être modifiées ou annulées. Les CCI, CCA et parts sociales ne sont pas éligibles.",
+      "value": null,
+      "requiredShares": 50,
+      "sourceUrl": "https://www.credit-agricole.com/finance/actionnaires-individuels/club-des-actionnaires"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Le dispositif s'appelle-t-il Cercle ou Club des actionnaires ?",
+      "answer": "Au 9 juin 2026, l'appellation officielle est « Club des actionnaires de Crédit Agricole S.A. ». La page institutionnelle, le formulaire et le règlement actuels utilisent le mot Club. « Cercle des actionnaires » ne doit donc pas être repris comme nom officiel actuel, même s'il apparaît dans des contenus historiques ou d'anciennes données."
+    },
+    {
+      "question": "Combien d'actions ACA faut-il détenir pour adhérer au Club ?",
+      "answer": "Il faut détenir au moins 50 actions ordinaires Crédit Agricole S.A., code ACA et ISIN FR0000045072. L'ancien seuil d'une action applicable à certains détenteurs n'est plus en vigueur. Le membre doit conserver au moins 50 actions ACA pour rester éligible aux offres du Club."
+    },
+    {
+      "question": "Les actions au porteur, au nominatif et dans un PEE sont-elles admises ?",
+      "answer": "Les actions ACA peuvent être détenues au porteur, au nominatif administré ou au nominatif pur, sans durée minimale publiée. En revanche, les actions détenues dans un plan d'épargne entreprise sont expressément exclues. Une preuve récente indiquant le nom, la date et le nombre de titres doit être fournie lors de l'inscription."
+    },
+    {
+      "question": "Comment adhérer, combien cela coûte-t-il et faut-il renouveler ?",
+      "answer": "L'adhésion se fait gratuitement au moyen du formulaire en ligne du Club, avec création d'identifiants et téléversement d'un justificatif de détention. Le règlement prévoit une adhésion valable pour une année civile et un renouvellement automatique tant que les conditions restent remplies. Aucun délai de traitement n'est publié; les éventuels frais liés à l'achat, à la garde ou au transfert des actions dépendent de l'intermédiaire financier."
+    },
+    {
+      "question": "Quelles offres étaient actives pour les membres au 9 juin 2026 ?",
+      "answer": "Les offres officielles vérifiées comprennent des tarifs préférentiels CA Grands Crus pour 2026, des billets pour la Fondation Maeght, des billets coupe-file pour Chambord et des billets pour le musée du quai Branly. Le Club propose aussi des rencontres et formations. Les pages publiques ne précisent pas toujours le prix ni la quantité des billets, et le règlement plafonne à deux les offres préférentielles culturelles et de loisirs par membre et par année civile."
+    },
+    {
+      "question": "Les CCI, CCA ou parts sociales des Caisses régionales donnent-ils accès au Club ?",
+      "answer": "Non, pas à eux seuls. Le Club exige 50 actions du capital de Crédit Agricole S.A., identifiées par le code ACA. Les CCI de certaines Caisses régionales, ainsi que les CCA et parts sociales du réseau mutualiste, sont des titres distincts émis au niveau régional. Ils ne doivent pas être confondus avec l'action cotée Crédit Agricole S.A. et ne comptent pas dans le seuil du Club."
+    }
+  ],
+  "sources": [
+    "https://www.credit-agricole.com/finance/actionnaires-individuels/club-des-actionnaires",
+    "https://clubactionnaires.credit-agricole.com/security/register",
+    "https://clubactionnaires.credit-agricole.com/club_offer/",
+    "https://clubactionnaires.credit-agricole.com/event/detail/720",
+    "https://clubactionnaires.credit-agricole.com/event/detail/722",
+    "https://clubactionnaires.credit-agricole.com/event/detail/723",
+    "https://clubactionnaires.credit-agricole.com/event/detail/726",
+    "https://www.credit-agricole.com/finance/action-et-dividende",
+    "https://www.credit-agricole.com/pdfPreview/210505",
+    "https://www.credit-agricole.com/pdfPreview/108050",
+    "https://rapport-integre.credit-agricole.com/"
+  ]
+}

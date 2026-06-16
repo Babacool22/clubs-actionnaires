@@ -1,0 +1,536 @@
+{
+  "schemaVersion": "1.0",
+  "researchAsOf": "2026-06-09",
+  "company": {
+    "slug": "stmicroelectronics",
+    "name": "STMicroelectronics N.V.",
+    "description": "STMicroelectronics N.V. est une société néerlandaise de semi-conducteurs, dont le siège statutaire est à Amsterdam et les principaux bureaux opérationnels à Genève. Elle conçoit, développe et fabrique des composants pour l'automobile, l'industrie, l'énergie et les objets connectés.",
+    "sector": "Technologie & Logiciels",
+    "stockIndex": "CAC40",
+    "ticker": "STMPA",
+    "website": "https://www.st.com/",
+    "clubName": null,
+    "clubUrl": null
+  },
+  "offerClassification": {
+    "primaryKind": "investor_relations_only",
+    "otherKinds": [],
+    "officialProgrammeName": null,
+    "status": "active",
+    "statusReason": "Au 9 juin 2026, STMicroelectronics maintient un portail public de relations investisseurs, des alertes email et des services de registre. Aucun club, programme d'avantages, seuil d'adhésion, événement réservé ou bénéfice commercial destiné aux actionnaires individuels n'est officiellement prouvé. Le plan Global Invest Direct est un DSPP/DRIP administré et sponsorisé par JPMorgan, ouvert aussi aux nouveaux investisseurs, et non un avantage actionnaire de ST.",
+    "sourceIds": [
+      "S02",
+      "S03",
+      "S04",
+      "S11",
+      "S13"
+    ]
+  },
+  "eligibility": {
+    "globalMinimumShares": null,
+    "eligibleShareClasses": [],
+    "holdingModes": [],
+    "minimumHoldingPeriod": null,
+    "residencyRestrictions": [],
+    "accountRestrictions": [
+      "Aucun mode de détention ne donne accès à un club ou à un programme d'avantages officiellement prouvé.",
+      "Les actions européennes inscrites via Euroclear France, les actions du registre de New York et les actions du registre néerlandais relèvent de circuits de tenue de titres distincts, sans avantage de fidélité publié."
+    ],
+    "proofRequired": [],
+    "fees": {
+      "membershipFee": null,
+      "applicationFee": null,
+      "otherFees": [],
+      "notes": "Sans objet pour un club ou programme d'avantages. Global Invest Direct comporte des frais d'achat, de réinvestissement et de vente publiés par JPMorgan, mais ce service d'investissement générique est exclu des bénéfices."
+    },
+    "sourceIds": [
+      "S02",
+      "S03",
+      "S05",
+      "S11",
+      "S12"
+    ]
+  },
+  "enrollment": {
+    "required": false,
+    "method": "not_applicable",
+    "applicationUrl": null,
+    "contact": null,
+    "steps": [
+      "Aucune procédure d'adhésion à un club ou à un programme d'avantages STMicroelectronics n'est publiée.",
+      "Ne pas confondre l'inscription aux alertes investisseurs, l'ouverture d'un compte Global Invest Direct ou l'inscription dans un registre de titres avec une adhésion actionnaire."
+    ],
+    "processingTime": null,
+    "renewal": null,
+    "deadlines": [],
+    "sourceIds": [
+      "S03",
+      "S04",
+      "S05",
+      "S07",
+      "S13"
+    ]
+  },
+  "benefits": [],
+  "faqs": [
+    {
+      "question": "STMicroelectronics possède-t-elle un club ou un programme d'avantages pour les actionnaires individuels ?",
+      "answer": "Aucun club formel, programme de fidélité ou catalogue d'avantages réservé aux actionnaires individuels n'est présenté dans le portail investisseurs, sa FAQ ou son plan de site officiels au 9 juin 2026. L'ancienne adresse /individual-shareholders renvoie une erreur HTTP 404 et ne doit pas être utilisée comme URL de club.",
+      "sourceIds": [
+        "S03",
+        "S04",
+        "S13"
+      ]
+    },
+    {
+      "question": "Faut-il détenir au moins une action STMicroelectronics pour obtenir un avantage réservé ?",
+      "answer": "Aucun seuil global d'une action, ni aucun autre seuil d'adhésion ou d'avantage, n'est officiellement publié puisqu'aucun bénéfice réservé n'est prouvé. Acheter une action STMPA donne la qualité ordinaire d'actionnaire, mais ne permet pas d'affirmer l'accès à un club, à une visite de site ou à une offre commerciale.",
+      "sourceIds": [
+        "S02",
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "question": "La détention au nominatif procure-t-elle un avantage particulier chez STMicroelectronics ?",
+      "answer": "Aucun avantage de fidélité lié au nominatif n'est publié. STMicroelectronics N.V. est une société néerlandaise : TMF Netherlands gère les actions du registre néerlandais, JPMorgan les actions du registre de New York, tandis que la majorité des actions cotées en Europe est inscrite via Euroclear France. Ces circuits de registre ne constituent pas un club et n'ouvrent aucun bénéfice spécifique prouvé.",
+      "sourceIds": [
+        "S02",
+        "S05"
+      ]
+    },
+    {
+      "question": "Global Invest Direct est-il un avantage réservé aux actionnaires de STMicroelectronics ?",
+      "answer": "Non pour cette fiche. La FAQ de ST renvoie vers Global Invest Direct pour acheter des titres et réinvestir les dividendes, mais la brochure précise que JPMorgan sponsorise et administre ce plan, non l'émetteur, et qu'il est ouvert aux premiers acheteurs comme aux détenteurs existants. Le minimum initial standard est de 250 dollars, avec des frais et des restrictions; il s'agit d'un DSPP/DRIP générique exclu des bénéfices.",
+      "sourceIds": [
+        "S03",
+        "S11",
+        "S12"
+      ]
+    },
+    {
+      "question": "Les conférences investisseurs ou les visites des sites de Crolles et Catane sont-elles réservées aux actionnaires ?",
+      "answer": "Aucune réservation de ce type n'est officiellement établie. La page actuelle des événements publie des résultats, conférences, webcasts et présentations destinés au marché, sans seuil d'actions ni procédure d'inscription pour un membre. Crolles et Catane sont bien des sites industriels de ST, mais aucune visite active et réservée aux actionnaires individuels n'est publiée.",
+      "sourceIds": [
+        "S01",
+        "S04",
+        "S06"
+      ]
+    },
+    {
+      "question": "Les plans d'actions attribuées aux salariés sont-ils accessibles aux actionnaires particuliers ?",
+      "answer": "Non. Le rapport annuel et la page de rachats d'actions décrivent des stock awards destinés aux dirigeants, cadres et salariés sélectionnés, avec des conditions de service et parfois de performance. Ces plans relèvent de la rémunération des salariés; ils ne sont ni ouverts aux actionnaires particuliers ni assimilables à un avantage attaché à la détention de l'action cotée.",
+      "sourceIds": [
+        "S02",
+        "S10"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "L'émetteur coté est STMicroelectronics N.V., société organisée selon le droit néerlandais, dont l'action ordinaire est cotée à Paris sous STMPA et appartient au CAC 40.",
+      "status": "verified",
+      "sourceIds": [
+        "S02",
+        "S03"
+      ],
+      "notes": "Le rapport annuel distingue le siège statutaire néerlandais des bureaux opérationnels situés à Genève; la FAQ officielle donne les tickers STM, STMPA et STMMI."
+    },
+    {
+      "id": "C02",
+      "statement": "Le portail investisseurs et son plan de site actuels ne présentent aucune rubrique de club, d'adhésion actionnaire, d'avantage commercial ou de fidélité actionnaire.",
+      "status": "verified",
+      "sourceIds": [
+        "S03",
+        "S04"
+      ],
+      "notes": "Cette vérification négative porte sur les ressources officielles en ligne accessibles au 9 juin 2026."
+    },
+    {
+      "id": "C03",
+      "statement": "Global Invest Direct permet l'achat de titres et le réinvestissement des dividendes, mais il est sponsorisé et administré par JPMorgan et ouvert aux nouveaux investisseurs.",
+      "status": "verified",
+      "sourceIds": [
+        "S03",
+        "S11",
+        "S12"
+      ],
+      "notes": "Le plan comporte des frais et n'est pas retenu comme bénéfice, conformément à l'exclusion des DSPP et DRIP sans avantage économique propre."
+    },
+    {
+      "id": "C04",
+      "statement": "ST distingue le registre néerlandais, le registre de New York et les actions européennes inscrites via Euroclear France, sans publier d'avantage lié au nominatif.",
+      "status": "verified",
+      "sourceIds": [
+        "S02",
+        "S05"
+      ],
+      "notes": "TMF Netherlands B.V. est le contact du registre néerlandais et JPMorgan Chase Bank celui du registre de New York."
+    },
+    {
+      "id": "C05",
+      "statement": "La page officielle des événements présente des conférences et webcasts investisseurs, sans événement garanti ou réservé aux actionnaires individuels.",
+      "status": "verified",
+      "sourceIds": [
+        "S06"
+      ],
+      "notes": "Aucun seuil, justificatif de détention, formulaire de membre, capacité réservée ou procédure de demande actionnaire n'est publié."
+    },
+    {
+      "id": "C06",
+      "statement": "Les plans actuels d'attribution d'actions concernent les dirigeants, cadres et salariés sélectionnés et relèvent de la rémunération en actions.",
+      "status": "verified",
+      "sourceIds": [
+        "S02",
+        "S10"
+      ],
+      "notes": "Ils sont distincts de l'action cotée détenue par le public et ne constituent pas un programme pour actionnaires individuels."
+    },
+    {
+      "id": "C07",
+      "statement": "Aucun seuil global, mode de détention, durée minimale, justificatif, cotisation ou procédure d'adhésion à un programme d'avantages STMicroelectronics n'est officiellement publié.",
+      "status": "verified",
+      "sourceIds": [
+        "S03",
+        "S04",
+        "S05",
+        "S13"
+      ],
+      "notes": "Les modalités du DSPP/DRIP, des registres et des alertes email ne doivent pas être réutilisées comme conditions d'un club inexistant."
+    }
+  ],
+  "rejectedClaims": [
+    {
+      "claim": "STMicroelectronics dispose d'un club ou d'une communauté d'actionnaires accessible dès une action.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S03",
+        "S04",
+        "S13"
+      ]
+    },
+    {
+      "claim": "L'adresse https://investors.st.com/individual-shareholders est une page active d'adhésion au club.",
+      "reason": "discontinued",
+      "sourceIds": [
+        "S04",
+        "S13"
+      ]
+    },
+    {
+      "claim": "La participation à l'assemblée générale annuelle aux Pays-Bas est un avantage du programme actionnaire.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S08"
+      ]
+    },
+    {
+      "claim": "Le droit de vote ou les instructions de vote via Euroclear France constituent un bénéfice actionnaire.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S02",
+        "S08"
+      ]
+    },
+    {
+      "claim": "Le dividende trimestriel ordinaire de STMicroelectronics est un avantage spécifique ou de fidélité.",
+      "reason": "generic_legal_right",
+      "sourceIds": [
+        "S09"
+      ]
+    },
+    {
+      "claim": "Les publications trimestrielles, rapports, présentations et communications investisseurs sont des services réservés aux actionnaires.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S03",
+        "S06",
+        "S07"
+      ]
+    },
+    {
+      "claim": "L'inscription aux alertes email investisseurs constitue une adhésion à un programme actionnaire.",
+      "reason": "generic_investor_relations",
+      "sourceIds": [
+        "S05",
+        "S07"
+      ]
+    },
+    {
+      "claim": "STMicroelectronics propose actuellement des visites réservées aux actionnaires sur les sites de Crolles et Catane.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S01",
+        "S04",
+        "S06"
+      ]
+    },
+    {
+      "claim": "Les Capital Markets Days, roadshows et conférences publiés par ST sont des événements réservés aux actionnaires individuels.",
+      "reason": "insufficient_evidence",
+      "sourceIds": [
+        "S06"
+      ]
+    },
+    {
+      "claim": "Global Invest Direct est un bénéfice économique offert par STMicroelectronics à ses actionnaires.",
+      "reason": "not_shareholder_specific",
+      "sourceIds": [
+        "S03",
+        "S11",
+        "S12"
+      ]
+    },
+    {
+      "claim": "Les stock awards et plans d'actions salariés sont accessibles aux détenteurs ordinaires de l'action STMicroelectronics.",
+      "reason": "not_shareholder_specific",
+      "sourceIds": [
+        "S02",
+        "S10"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://investors.st.com/st-glance",
+      "title": "ST at a glance",
+      "publisher": "STMicroelectronics",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Présente le groupe, ses activités, ses cotations à New York, Paris et Milan, ses effectifs et ses principaux sites industriels, notamment Crolles et Catane. La page ne mentionne aucune visite ou offre réservée aux actionnaires."
+    },
+    {
+      "id": "S02",
+      "url": "https://investors.st.com/static-files/1fd3e86c-e7a9-4392-a1d0-b65a7e2fee21",
+      "title": "STMicroelectronics N.V. 2025 Annual Report on Form 20-F",
+      "publisher": "STMicroelectronics N.V.",
+      "sourceType": "regulatory_filing",
+      "official": true,
+      "publishedAt": "2026-02-26",
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Confirme l'entité néerlandaise, le siège statutaire à Amsterdam, les bureaux opérationnels à Genève, l'action ordinaire, les cotations, l'ISIN NL0000226223, le CAC 40, les registres New York et Euroclear France, ainsi que les stock awards réservés aux dirigeants et salariés sélectionnés."
+    },
+    {
+      "id": "S03",
+      "url": "https://investors.st.com/resources/faqs",
+      "title": "STMicroelectronics Investor Relations FAQs",
+      "publisher": "STMicroelectronics",
+      "sourceType": "official_faq",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Donne les tickers STM, STMPA et STMMI et renvoie vers Global Invest Direct pour l'achat direct et le réinvestissement. La FAQ ne présente aucun club, seuil d'adhésion, visite réservée ou avantage commercial actionnaire."
+    },
+    {
+      "id": "S04",
+      "url": "https://investors.st.com/sitemap",
+      "title": "STMicroelectronics Investor Relations Site Map",
+      "publisher": "STMicroelectronics",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Recense les rubriques actuelles du portail investisseurs : informations financières, action, événements, gouvernance, contacts, FAQ, alertes et copie papier. Aucune rubrique de club, programme d'avantages ou fidélité actionnaire n'y figure."
+    },
+    {
+      "id": "S05",
+      "url": "https://investors.st.com/resources/contacts",
+      "title": "STMicroelectronics Investor Relations Contacts",
+      "publisher": "STMicroelectronics",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Publie les contacts IR et distingue JPMorgan Chase Bank pour les actions du registre de New York de TMF Netherlands B.V. pour les actions du registre néerlandais. Aucun contact d'adhésion à un club n'est indiqué."
+    },
+    {
+      "id": "S06",
+      "url": "https://investors.st.com/events-and-presentations",
+      "title": "STMicroelectronics Events and presentations",
+      "publisher": "STMicroelectronics",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Présente le calendrier financier, les conférences, webcasts et présentations investisseurs jusqu'au 2 juin 2026. Aucun événement n'est décrit comme réservé aux actionnaires individuels et aucune procédure liée à la détention d'actions n'est publiée."
+    },
+    {
+      "id": "S07",
+      "url": "https://investors.st.com/resources/email-alerts",
+      "title": "STMicroelectronics Email alerts",
+      "publisher": "STMicroelectronics",
+      "sourceType": "official_form",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Formulaire public d'abonnement aux alertes SEC, calendrier, actualités et rapports annuels. Il demande une adresse email et une activation, sans preuve de détention ni avantage réservé aux actionnaires."
+    },
+    {
+      "id": "S08",
+      "url": "https://investors.st.com/governance/general-meeting-shareholders",
+      "title": "STMicroelectronics General meeting of shareholders",
+      "publisher": "STMicroelectronics",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "B",
+      "evidenceSummary": "Centralise les convocations, ordres du jour, résultats et instructions de vote, dont ceux de l'assemblée 2026. Ces documents relèvent de la gouvernance et des droits ordinaires, pas d'un avantage commercial."
+    },
+    {
+      "id": "S09",
+      "url": "https://investors.st.com/stock-bond/dividends",
+      "title": "STMicroelectronics Dividends",
+      "publisher": "STMicroelectronics",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Décrit la politique de dividende et le dividende ordinaire approuvé le 27 mai 2026, soit 0,36 dollar par action versé en quatre acomptes. Aucun dividende majoré ou mécanisme de fidélité n'est publié."
+    },
+    {
+      "id": "S10",
+      "url": "https://investors.st.com/stock-bond/share-buyback",
+      "title": "STMicroelectronics Share buyback",
+      "publisher": "STMicroelectronics",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "A",
+      "evidenceSummary": "Indique que le programme de rachat 2024-2027 sert notamment à satisfaire les obligations de ST liées à ses employee stock award plans. Il confirme la nature salariale de ces plans, distincte d'un avantage pour actionnaires particuliers."
+    },
+    {
+      "id": "S11",
+      "url": "https://www.shareowneronline.com/umbraco/api/sosfileservices/File?fileId=60715a91-f170-46fa-9d63-c704e0bed3cd&filename=GID+Brochure+%28PDF%2A%29",
+      "title": "Global Invest Direct - Direct Purchase Plan brochure",
+      "publisher": "JPMorgan Chase Bank, N.A. / EQ Shareowner Services",
+      "sourceType": "official_partner",
+      "official": false,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "undated",
+      "evidenceGrade": "C",
+      "evidenceSummary": "Brochure du plan désigné par ST. Elle précise que JPMorgan sponsorise et administre le plan, non l'émetteur, et qu'il accueille premiers acheteurs et détenteurs existants. Elle détaille l'inscription, les restrictions géographiques, le minimum initial de 250 dollars, le minimum additionnel de 25 dollars et les frais."
+    },
+    {
+      "id": "S12",
+      "url": "https://www.shareowneronline.com/transactional/anonymous/newsol/register/dspp?dsppOnly=true",
+      "title": "Shareowner Online Investment Plans - STMicroelectronics N.V.",
+      "publisher": "EQ Shareowner Services",
+      "sourceType": "official_partner",
+      "official": false,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "current",
+      "evidenceGrade": "C",
+      "evidenceSummary": "Liste transactionnelle actuelle des plans d'achat direct, incluant STMicroelectronics N.V. avec un minimum initial affiché de 250 dollars. Ce service confirme l'accès au DSPP mais ne prouve aucun avantage économique réservé."
+    },
+    {
+      "id": "S13",
+      "url": "https://investors.st.com/individual-shareholders",
+      "title": "Legacy STMicroelectronics individual shareholders URL",
+      "publisher": "STMicroelectronics",
+      "sourceType": "official_webpage",
+      "official": true,
+      "publishedAt": null,
+      "lastUpdatedAt": null,
+      "accessedAt": "2026-06-09",
+      "language": "en",
+      "status": "unavailable",
+      "evidenceGrade": "E",
+      "evidenceSummary": "L'adresse utilisée historiquement comme page d'actionnaires individuels répond HTTP 404 au 9 juin 2026. Aucun contenu, formulaire, règlement, seuil ou avantage actif ne peut donc être prouvé à partir de cette URL."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Gratuité annoncée de Global Invest Direct",
+      "sourceIds": [
+        "S03",
+        "S11"
+      ],
+      "positions": [
+        "La FAQ de ST indique que l'inscription à Global Invest Direct est gratuite.",
+        "La brochure de JPMorgan publie un frais de 15 dollars pour un premier achat standard, ainsi que des frais d'achat, de réinvestissement et de vente."
+      ],
+      "resolution": "Interpréter la gratuité comme l'absence de cotisation d'inscription distincte, et non comme une absence de frais de transaction. Le plan reste exclu des bénéfices en tant que DSPP/DRIP générique.",
+      "impact": "wording_only"
+    },
+    {
+      "topic": "Ancienne page d'actionnaires individuels",
+      "sourceIds": [
+        "S04",
+        "S13"
+      ],
+      "positions": [
+        "L'ancienne URL contient dans son chemin l'expression individual-shareholders, ce qui peut laisser supposer une rubrique dédiée.",
+        "Au 9 juin 2026, cette URL répond HTTP 404 et le plan de site actuel ne contient aucune rubrique équivalente."
+      ],
+      "resolution": "Ne pas conclure à l'existence d'un club ou programme actif, ne pas utiliser cette adresse comme clubUrl et conserver l'absence de bénéfices.",
+      "impact": "benefit_excluded"
+    }
+  ],
+  "handoff": {
+    "researchStatus": "complete",
+    "readyForDevelopment": true,
+    "benefitCount": 0,
+    "faqCount": 6,
+    "blockingIssues": [],
+    "developerNotes": [
+      "Générer un dossier final sans clubName, sans clubUrl, sans minShares et avec un tableau benefits vide.",
+      "Conserver STMicroelectronics N.V. comme entité néerlandaise et STMPA comme ticker de l'action cotée à Paris; ne pas confondre la société avec STMicroelectronics Holding N.V. ou des filiales opérationnelles.",
+      "Ne pas transformer le registre néerlandais, le registre de New York, Euroclear France ou une détention au nominatif en avantage de fidélité.",
+      "Ne pas reprendre l'ancienne URL /individual-shareholders, qui répond HTTP 404 au 9 juin 2026.",
+      "Ne pas transformer Global Invest Direct, ses achats directs, son DRIP ou ses services de compte en bénéfice actionnaire.",
+      "Ne pas réintroduire l'assemblée générale, le vote, le dividende ordinaire, les publications, les alertes email, les conférences investisseurs, les roadshows ou les visites de sites non prouvées comme bénéfices.",
+      "Exclure les employee stock award plans : ils concernent les dirigeants et salariés sélectionnés et ne sont pas accessibles aux actionnaires particuliers.",
+      "Aucun dossier final n'a été créé dans le cadre de cette recherche."
+    ]
+  }
+}

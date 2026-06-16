@@ -1,0 +1,76 @@
+{
+  "slug": "safran",
+  "name": "Safran",
+  "description": "Safran est un groupe international de haute technologie actif dans l'aéronautique, avec la propulsion, les équipements et les intérieurs, ainsi que dans l'espace et la défense. Coté sur Euronext Paris sous le symbole SAF, le Groupe appartient au CAC 40 et à l'Euro Stoxx 50.",
+  "sector": "Aéronautique & Défense",
+  "stockIndex": "CAC40",
+  "ticker": "SAF",
+  "website": "https://www.safran-group.com/fr",
+  "minShares": 1,
+  "lastVerifiedAt": "2026-06-09",
+  "benefits": [
+    {
+      "type": "evenement",
+      "title": "Visites gratuites de sites Safran en 2026",
+      "description": "Le programme 2026 réserve aux membres du Club cinq visites guidées: Safran Aircraft Engines Services Brussels à Steenokkerzeel, Safran Landing Systems à Villeurbanne, le Musée Aéronautique et Spatial Safran à Réau, Safran Aerosystems à Cognac et Safran Electronics & Defense à Éragny-sur-Oise. Chaque visite dispose de 15 places attribuées parmi les demandes.",
+      "value": "Participation gratuite; 15 places par visite; jusqu'à deux personnes par demande.",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.safran-group.com/fr/download/media/450462"
+    },
+    {
+      "type": "evenement",
+      "title": "Invitations à deux réunions actionnaires régionales",
+      "description": "Le programme du Club annonce deux réunions actionnaires en région en 2026. La Direction de la Communication Financière doit y présenter Safran, ses axes stratégiques et ses performances financières et extra-financières, puis répondre aux questions. Le bulletin d'adhésion indique que les membres sont systématiquement conviés aux réunions organisées dans leur région.",
+      "value": null,
+      "requiredShares": 1,
+      "sourceUrl": "https://www.safran-group.com/fr/download/media/450462"
+    },
+    {
+      "type": "reduction",
+      "title": "Gratuité de la garde au nominatif pur",
+      "description": "Pour les actions inscrites au nominatif pur et gérées par Uptevia, Safran prend en charge les droits de garde et les frais de gestion courante. Cet avantage économique est distinct du Club: il nécessite un transfert au nominatif pur, hors PEA, demandé à l'intermédiaire financier qui détient les titres.",
+      "value": "Droits de garde et frais de gestion courante pris en charge par Safran.",
+      "requiredShares": null,
+      "sourceUrl": "https://www.safran-group.com/fr/download/media/451099"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Le Club Actionnaire Safran est-il actif au 9 juin 2026 ?",
+      "answer": "Oui. Safran publie une page d'adhésion, un Guide des actionnaires 2026, un programme 2026 et un formulaire dédié aux visites. Le Club est donc un dispositif formel et actif, distinct du simple espace de relations investisseurs et des droits ordinaires attachés à l'action."
+    },
+    {
+      "question": "Quelles sont les conditions pour adhérer au Club Actionnaire Safran ?",
+      "answer": "L'adhésion est gratuite et exige au moins une action Safran. Elle concerne les personnes physiques détenant leurs titres au porteur, au nominatif administré ou au nominatif pur. La page et le Guide 2026 excluent les salariés actionnaires du Groupe. Aucune ancienneté minimale ni restriction de résidence n'est publiée."
+    },
+    {
+      "question": "Comment s'inscrire et quel justificatif faut-il fournir ?",
+      "answer": "L'actionnaire peut utiliser le formulaire électronique Safran ou envoyer le bulletin par e-mail ou courrier. Il renseigne ses coordonnées, le nombre d'actions et le mode de détention, puis déclare sur l'honneur l'exactitude des informations. Les formulaires consultés n'imposent pas de joindre une attestation bancaire. Aucun délai de traitement ni renouvellement périodique n'est annoncé."
+    },
+    {
+      "question": "Quelles visites sont réellement réservées aux membres en 2026 ?",
+      "answer": "Le programme 2026 prévoit cinq visites: Steenokkerzeel le 8 avril, Villeurbanne le 29 avril, Réau le 23 juin, Cognac le 22 septembre et Éragny-sur-Oise le 26 novembre. Chacune compte 15 places, est gratuite et réservée aux membres. La sélection combine tirage au sort et priorité aux personnes n'ayant jamais participé; deux places au maximum peuvent être demandées."
+    },
+    {
+      "question": "Safran réserve-t-il des conférences ou formations précises aux membres en 2026 ?",
+      "answer": "La page générale mentionne des formations pratiques avec l'École de la Bourse, mais le programme 2026 ne donne ni date, ni thème, ni procédure d'inscription. Investir Day propose des conférences dans le cadre d'un salon destiné aux actionnaires individuels, sans preuve d'exclusivité pour les membres du Club. Ces éléments ne sont donc pas retenus comme bénéfices 2026. En revanche, deux réunions régionales du Club sont annoncées, sans détails au 9 juin."
+    },
+    {
+      "question": "Safran verse-t-il une prime de fidélité de 10 % au nominatif ?",
+      "answer": "Non, aucune prime de fidélité ou majoration de 10 % n'est prévue dans les sources officielles actuelles consultées. Le Guide 2026 indique que le dividende est versé quel que soit le mode de détention, et l'Assemblée générale du 21 mai 2026 a fixé un montant unique de 3,35 euros par action. Le nominatif pur offre la gratuité de garde; le nominatif depuis deux ans ouvre un droit de vote double, qui est un droit statutaire et non un avantage de Club."
+    }
+  ],
+  "sources": [
+    "https://www.safran-group.com/fr/download/media/450462",
+    "https://www.safran-group.com/fr/download/media/451099",
+    "https://www.safran-group.com/fr/finance/actionnaires-individuels",
+    "https://www.safran-group.com/fr/download/media/450461",
+    "https://www.safran-group.com/fr/contact/finance/club-actionnaire",
+    "https://www.safran-group.com/fr/download/media/397375",
+    "https://www.safran-group.com/fr/download/media/439070",
+    "https://www.safran-group.com/fr/espace-presse/assemblee-generale-2026-actionnaires-safran-decide-versement-dividende-335-euros-action-2026-05-21",
+    "https://www.safran-group.com/fr/actualite/safran-recoit-grand-trophee-bronze-2023-meilleures-relations-actionnaires-2023-12-13"
+  ],
+  "clubName": "Club Actionnaire Safran",
+  "clubUrl": "https://www.safran-group.com/fr/finance/actionnaires-individuels"
+}

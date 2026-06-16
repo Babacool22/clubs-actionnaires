@@ -1,0 +1,50 @@
+{
+  "slug": "arcelormittal",
+  "name": "ArcelorMittal",
+  "description": "ArcelorMittal est un groupe intégré de sidérurgie et de mines, présent dans 60 pays et actif notamment dans l'automobile, la construction, l'ingénierie et les machines. Ses actions sont cotées sous le symbole MT à Paris, Amsterdam, Luxembourg et New York, et le groupe appartient au CAC 40.",
+  "sector": "Industrie & Équipements",
+  "stockIndex": "CAC40",
+  "ticker": "MT",
+  "website": "https://corporate.arcelormittal.com/",
+  "minShares": null,
+  "lastVerifiedAt": "2026-06-09",
+  "benefits": [],
+  "faqs": [
+    {
+      "question": "ArcelorMittal possède-t-il un club ou un programme pour les actionnaires individuels ?",
+      "answer": "Non au 9 juin 2026. Les sources officielles actuelles ne présentent ni club formel, ni programme d'adhésion, ni règlement d'avantages. ArcelorMittal maintient un espace de relations investisseurs avec des informations boursières, des contacts et des documents d'assemblée, ce qui relève de l'information financière standard."
+    },
+    {
+      "question": "Faut-il détenir au moins une action ArcelorMittal pour accéder à un dispositif dédié ?",
+      "answer": "Aucun seuil global d'adhésion n'est publié, puisqu'aucun club ou programme actionnaire actif n'est prouvé. Détenir une action confère les droits ordinaires attachés au titre, mais ne permet pas d'affirmer qu'un dispositif dédié est accessible dès une action. Le seuil reste donc à null."
+    },
+    {
+      "question": "Les actionnaires individuels peuvent-ils bénéficier de visites de sites industriels ?",
+      "answer": "Le rapport annuel 2025 mentionne des visites d'usines et des rencontres avec des investisseurs individuels dans la politique générale de relations investisseurs. Il ne publie toutefois ni calendrier, ni seuil, ni procédure garantissant ou réservant ces visites aux actionnaires individuels. Elles ne sont donc pas retenues comme avantage."
+    },
+    {
+      "question": "Le dividende ou le plan de réinvestissement constitue-t-il un avantage actionnaire ?",
+      "answer": "Non dans cette fiche. Le dividende de base est un versement ordinaire aux actionnaires éligibles. Le plan de réinvestissement proposé pour certaines actions intégrées à Euroclear Nederland permet de réinvestir le dividende net, mais la source officielle n'établit ni rabais, ni abondement, ni avantage économique propre."
+    },
+    {
+      "question": "L'assemblée générale, le vote et les publications financières sont-ils des bénéfices ?",
+      "answer": "Non. La participation à l'assemblée générale et le vote sont des droits ordinaires de l'actionnaire. Les rapports, résultats, présentations et webcasts relèvent des relations investisseurs. La copie papier gratuite du rapport annuel sur demande reste également un service documentaire, pas un cadeau ou un avantage commercial."
+    },
+    {
+      "question": "Comment contacter ArcelorMittal pour une question relative à ses actions ?",
+      "answer": "La page officielle Investor contacts fournit les coordonnées de l'équipe Relations investisseurs à Luxembourg et dans plusieurs régions. ArcelorMittal indique aussi ABN AMRO pour les actions européennes et Citibank pour les actions cotées à New York. Ces contacts sont des services d'information et n'impliquent aucune adhésion à un club."
+    }
+  ],
+  "sources": [
+    "https://corporate.arcelormittal.com/investors/equity-investors",
+    "https://corporate.arcelormittal.com/investors/investor-contacts",
+    "https://corporate.arcelormittal.com/investors/equity-investors/shareholder-events",
+    "https://cdn.arcelormittal.com/media/g5obzl05/annual-report-2025.pdf",
+    "https://corporate.arcelormittal.com/investors/equity-investors/dividends",
+    "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-announces-the-publication-of-its-annual-report-2025-on-form-20-f-and-the-publication-of-its-2025-annual-report",
+    "https://corporate.arcelormittal.com/investors/reports-and-presentations",
+    "https://corporate.arcelormittal.com/investors/equity-investors/listing-and-listings-agents",
+    "https://corporate.arcelormittal.com/investors/individual-shareholders",
+    "https://corporate.arcelormittal.com/"
+  ]
+}
