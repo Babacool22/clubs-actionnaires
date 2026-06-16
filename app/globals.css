@@ -125,6 +125,7 @@ body {
 
 html, body {
   transition: background-color var(--duration-transition) var(--ease), color var(--duration-transition) var(--ease);
+  overflow-x: clip;
 }
 ::-webkit-scrollbar-thumb {
   background: var(--border-visible);

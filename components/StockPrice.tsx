@@ -82,11 +82,11 @@ export function StockPrice({ symbol }: { symbol: string }) {
 
   if (quote === "error") {
     return (
-      <div>
-        <p className="font-[family-name:var(--font-display)] text-[36px] font-bold text-text-disabled leading-none">
+      <div className="min-w-0">
+        <p className="break-words font-[family-name:var(--font-display)] text-[36px] font-bold text-text-disabled leading-none [overflow-wrap:anywhere]">
           —
         </p>
-        <p className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]">
+        <p className="break-words font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled mt-[var(--space-xs)] [overflow-wrap:anywhere]">
           COURS INDISPONIBLE
         </p>
       </div>
@@ -95,11 +95,11 @@ export function StockPrice({ symbol }: { symbol: string }) {
 
   if (!quote) {
     return (
-      <div>
-        <p className="font-[family-name:var(--font-display)] text-[36px] font-bold text-text-disabled leading-none animate-pulse">
+      <div className="min-w-0">
+        <p className="break-words font-[family-name:var(--font-display)] text-[36px] font-bold text-text-disabled leading-none animate-pulse [overflow-wrap:anywhere]">
           ···
         </p>
-        <p className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]">
+        <p className="break-words font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled mt-[var(--space-xs)] [overflow-wrap:anywhere]">
           COURS EN DIRECT
         </p>
       </div>
@@ -111,12 +111,12 @@ export function StockPrice({ symbol }: { symbol: string }) {
   const colorClass = isUp ? "text-[var(--success)]" : "text-[var(--error)]";
 
   return (
-    <div>
-      <p className="font-[family-name:var(--font-display)] text-[36px] font-bold text-text-display leading-none">
+    <div className="min-w-0">
+      <p className="break-words font-[family-name:var(--font-display)] text-[36px] font-bold text-text-display leading-none [overflow-wrap:anywhere]">
         {formatPrice(quote.price, quote.currency)}
       </p>
       <p
-        className={`font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] ${colorClass} mt-[var(--space-xs)]`}
+        className={`break-words font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] ${colorClass} mt-[var(--space-xs)] [overflow-wrap:anywhere]`}
       >
         {sign}
         {quote.change.toFixed(2)} ({sign}
@@ -145,11 +145,11 @@ export function MinSharesCost({
 
   if (quote === "error") {
     return (
-      <div>
+      <div className="min-w-0">
         <p className={`font-[family-name:var(--font-display)] ${valueClass} font-bold text-text-disabled leading-none`}>
           —
         </p>
-        <p className={`font-[family-name:var(--font-data)] ${labelClass} tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]`}>
+        <p className={`break-words font-[family-name:var(--font-data)] ${labelClass} tracking-[0.08em] text-text-disabled mt-[var(--space-xs)] [overflow-wrap:anywhere]`}>
           INDISPONIBLE
         </p>
       </div>
@@ -158,11 +158,11 @@ export function MinSharesCost({
 
   if (!quote) {
     return (
-      <div>
-        <p className={`font-[family-name:var(--font-display)] ${valueClass} font-bold text-text-disabled leading-none animate-pulse`}>
+      <div className="min-w-0">
+        <p className={`break-words font-[family-name:var(--font-display)] ${valueClass} font-bold text-text-disabled leading-none animate-pulse [overflow-wrap:anywhere]`}>
           ···
         </p>
-        <p className={`font-[family-name:var(--font-data)] ${labelClass} tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]`}>
+        <p className={`break-words font-[family-name:var(--font-data)] ${labelClass} tracking-[0.08em] text-text-disabled mt-[var(--space-xs)] [overflow-wrap:anywhere]`}>
           COURS EN CHARGEMENT
         </p>
       </div>
@@ -172,11 +172,11 @@ export function MinSharesCost({
   const total = quote.price * minShares;
 
   return (
-    <div>
-      <p className={`font-[family-name:var(--font-display)] ${valueClass} font-bold text-text-display leading-none`}>
+    <div className="min-w-0">
+      <p className={`break-words font-[family-name:var(--font-display)] ${valueClass} font-bold text-text-display leading-none [overflow-wrap:anywhere]`}>
         {formatTotal(total, quote.currency)}
       </p>
-      <p className={`font-[family-name:var(--font-data)] ${labelClass} tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]`}>
+      <p className={`break-words font-[family-name:var(--font-data)] ${labelClass} tracking-[0.08em] text-text-disabled mt-[var(--space-xs)] [overflow-wrap:anywhere]`}>
         {label}
       </p>
     </div>

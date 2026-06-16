@@ -190,6 +190,17 @@ function getMembershipCost(
   return "À vérifier";
 }
 
+function splitRenderedSource(description: string) {
+  const match = description.match(/\s*\(Source\s*:\s*(https?:\/\/[^)]+)\)\s*$/);
+
+  if (!match) return { text: description, sourceUrl: null };
+
+  return {
+    text: description.slice(0, match.index).trim(),
+    sourceUrl: match[1],
+  };
+}
+
 export default async function EntreprisePage({ params }: Props) {
   const { slug } = await params;
   const [company, catalogueCompanies] = await Promise.all([
@@ -265,16 +276,16 @@ export default async function EntreprisePage({ params }: Props) {
   const officialRegistrationUrl = company.clubUrl ?? company.website;
 
   return (
-    <div className={`max-w-5xl mx-auto px-[var(--space-md)] sm:px-[var(--space-lg)] lg:px-[var(--space-xl)] pt-[var(--space-xl)] sm:pt-[var(--space-2xl)] ${officialRegistrationUrl ? "pb-28 sm:pb-[var(--space-2xl)]" : "pb-[var(--space-xl)] sm:pb-[var(--space-2xl)]"}`}>
+    <div className={`w-full max-w-5xl mx-auto overflow-x-clip px-[var(--space-md)] sm:px-[var(--space-lg)] lg:px-[var(--space-xl)] pt-[var(--space-xl)] sm:pt-[var(--space-2xl)] ${officialRegistrationUrl ? "pb-28 sm:pb-[var(--space-2xl)]" : "pb-[var(--space-xl)] sm:pb-[var(--space-2xl)]"}`}>
       {/* Breadcrumb */}
-      <nav className="flex items-center gap-[var(--space-sm)] mb-[var(--space-xl)] sm:mb-[var(--space-2xl)]">
+      <nav className="flex min-w-0 items-center gap-[var(--space-sm)] mb-[var(--space-xl)] sm:mb-[var(--space-2xl)]">
         <CatalogueReturnLink
-          className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled hover:text-text-display transition-colors duration-[var(--duration-micro)]"
+          className="shrink-0 font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled hover:text-text-display transition-colors duration-[var(--duration-micro)]"
         >
           CATALOGUE
         </CatalogueReturnLink>
-        <span className="text-text-disabled">/</span>
-        <span className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-secondary">
+        <span className="shrink-0 text-text-disabled">/</span>
+        <span className="min-w-0 break-words font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-secondary [overflow-wrap:anywhere]">
           {company.name.toUpperCase()}
         </span>
       </nav>
@@ -335,16 +346,16 @@ export default async function EntreprisePage({ params }: Props) {
       {/* Company Header */}
       <div className="mb-[var(--space-2xl)] sm:mb-[var(--space-3xl)]">
         {/* Top metadata row */}
-        <div className="flex flex-wrap items-center gap-[var(--space-sm)] sm:gap-[var(--space-md)] mb-[var(--space-lg)]">
+        <div className="flex min-w-0 flex-wrap items-center gap-[var(--space-sm)] sm:gap-[var(--space-md)] mb-[var(--space-lg)]">
           {company.ticker && (
-            <span className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled">
+            <span className="break-words font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled [overflow-wrap:anywhere]">
               {company.ticker}
             </span>
           )}
           <span className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-secondary border border-border-visible px-[var(--space-sm)] py-[var(--space-2xs)]">
             {company.stockIndex}
           </span>
-          <span className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled">
+          <span className="min-w-0 break-words font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled [overflow-wrap:anywhere]">
             {company.sector.toUpperCase()}
           </span>
         </div>
@@ -355,15 +366,15 @@ export default async function EntreprisePage({ params }: Props) {
         </h1>
 
         {/* Secondary — Description */}
-        <p className="text-[16px] sm:text-[18px] text-text-secondary leading-[1.5] sm:leading-[1.3] max-w-2xl mb-[var(--space-lg)]">
+        <p className="max-w-2xl break-words text-[16px] sm:text-[18px] text-text-secondary leading-[1.5] sm:leading-[1.3] mb-[var(--space-lg)] [overflow-wrap:anywhere]">
           {company.description}
         </p>
 
-        <div className="max-w-3xl border-l-2 border-accent pl-[var(--space-md)] mb-[var(--space-xl)]">
-          <p className="font-[family-name:var(--font-data)] text-[10px] tracking-[0.08em] text-accent mb-[var(--space-xs)]">
+        <div className="max-w-3xl min-w-0 border-l-2 border-accent pl-[var(--space-md)] mb-[var(--space-xl)]">
+          <p className="break-words font-[family-name:var(--font-data)] text-[10px] tracking-[0.08em] text-accent mb-[var(--space-xs)] [overflow-wrap:anywhere]">
             {hasCitedSources ? "FICHE DETAILLEE · SOURCES CITEES" : "FICHE SYNTHETIQUE"}
           </p>
-          <p className="text-[14px] sm:text-[15px] text-text-secondary leading-[1.6]">
+          <p className="break-words text-[14px] sm:text-[15px] text-text-secondary leading-[1.6] [overflow-wrap:anywhere]">
             Cette fiche recense {company.benefits.length} avantage
             {company.benefits.length > 1 ? "s" : ""} ou service
             {company.benefits.length > 1 ? "s" : ""}
@@ -379,10 +390,10 @@ export default async function EntreprisePage({ params }: Props) {
         {/* Data row */}
         {(() => {
           return (
-            <div className="grid grid-cols-2 sm:flex sm:flex-wrap items-start sm:items-center gap-x-[var(--space-lg)] gap-y-[var(--space-xl)] sm:gap-[var(--space-xl)] border-t border-border pt-[var(--space-lg)]">
+            <div className="grid min-w-0 grid-cols-2 sm:flex sm:flex-wrap items-start sm:items-center gap-x-[var(--space-lg)] gap-y-[var(--space-xl)] sm:gap-[var(--space-xl)] border-t border-border pt-[var(--space-lg)]">
               {company.minShares && (
                 <>
-                  <div>
+                  <div className="min-w-0">
                     <p className="font-[family-name:var(--font-display)] text-[36px] font-bold text-text-display leading-none">
                       {company.minShares}
                     </p>
@@ -393,7 +404,7 @@ export default async function EntreprisePage({ params }: Props) {
                   <div className="hidden sm:block w-px h-8 bg-border-visible" />
                 </>
               )}
-              <div>
+              <div className="min-w-0">
                 <p className="font-[family-name:var(--font-display)] text-[36px] font-bold text-text-display leading-none">
                   {company.benefits.length}
                 </p>
@@ -426,7 +437,7 @@ export default async function EntreprisePage({ params }: Props) {
                       company: company.slug,
                       placement: "header",
                     }}
-                    className="col-span-2 sm:col-span-1 min-h-11 inline-flex items-center font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-interactive hover:text-text-display transition-colors duration-[var(--duration-micro)]"
+                    className="col-span-2 sm:col-span-1 min-h-11 min-w-0 break-words inline-flex items-center font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-interactive hover:text-text-display transition-colors duration-[var(--duration-micro)] [overflow-wrap:anywhere]"
                   >
                     ESPACE ACTIONNAIRES →
                   </TrackedExternalLink>
@@ -477,26 +488,45 @@ export default async function EntreprisePage({ params }: Props) {
 
                 {/* Benefit items */}
                 <div className="border-t border-border">
-                  {benefits.map((benefit) => (
-                    <div
-                      key={benefit.id}
-                      className="border-b border-border py-[var(--space-lg)] flex flex-col sm:flex-row sm:items-start sm:justify-between gap-[var(--space-sm)] sm:gap-[var(--space-lg)] hover:bg-surface transition-colors duration-[var(--duration-micro)] px-0 sm:px-[var(--space-md)]"
-                    >
-                      <div className="flex-1">
-                        <h4 className="text-[16px] font-medium text-text-display mb-[var(--space-xs)]">
-                          {benefit.title}
-                        </h4>
-                        <p className="text-[14px] text-text-secondary leading-[1.5]">
-                          {benefit.description}
-                        </p>
+                  {benefits.map((benefit) => {
+                    const renderedSource = splitRenderedSource(
+                      benefit.description
+                    );
+
+                    return (
+                      <div
+                        key={benefit.id}
+                        className="border-b border-border py-[var(--space-lg)] flex min-w-0 flex-col sm:flex-row sm:items-start sm:justify-between gap-[var(--space-sm)] sm:gap-[var(--space-lg)] hover:bg-surface transition-colors duration-[var(--duration-micro)] px-0 sm:px-[var(--space-md)]"
+                      >
+                        <div className="min-w-0 flex-1">
+                          <h4 className="break-words text-[16px] font-medium text-text-display mb-[var(--space-xs)] [overflow-wrap:anywhere]">
+                            {benefit.title}
+                          </h4>
+                          <p className="break-words text-[14px] text-text-secondary leading-[1.5] [overflow-wrap:anywhere]">
+                            {renderedSource.text}
+                          </p>
+                          {renderedSource.sourceUrl && (
+                            <TrackedExternalLink
+                              href={renderedSource.sourceUrl}
+                              eventName="Open Benefit Source"
+                              eventProperties={{
+                                company: company.slug,
+                                benefit: benefit.title,
+                              }}
+                              className="mt-[var(--space-sm)] inline-flex max-w-full break-words font-[family-name:var(--font-data)] text-[10px] tracking-[0.08em] text-interactive hover:text-text-display transition-colors duration-[var(--duration-micro)] [overflow-wrap:anywhere]"
+                            >
+                              SOURCE OFFICIELLE →
+                            </TrackedExternalLink>
+                          )}
+                        </div>
+                        {benefit.value && (
+                          <span className="max-w-full break-words font-[family-name:var(--font-data)] text-[12px] sm:text-[13px] text-accent font-bold sm:max-w-[14rem] sm:text-right [overflow-wrap:anywhere]">
+                            {benefit.value}
+                          </span>
+                        )}
                       </div>
-                      {benefit.value && (
-                        <span className="flex-shrink-0 font-[family-name:var(--font-data)] text-[12px] sm:text-[13px] text-accent font-bold sm:whitespace-nowrap">
-                          {benefit.value}
-                        </span>
-                      )}
-                    </div>
-                  ))}
+                    );
+                  })}
                 </div>
               </div>
             );
@@ -519,12 +549,12 @@ export default async function EntreprisePage({ params }: Props) {
               href={`/entreprises/${previousCompany.slug}`}
               eventName="Browse Previous Company"
               eventProperties={{ from: company.slug, to: previousCompany.slug }}
-              className="bg-surface min-h-24 p-[var(--space-md)] flex flex-col justify-between hover:bg-surface-raised transition-colors duration-[var(--duration-micro)]"
+              className="bg-surface min-h-24 min-w-0 p-[var(--space-md)] flex flex-col justify-between hover:bg-surface-raised transition-colors duration-[var(--duration-micro)]"
             >
-              <span className="font-[family-name:var(--font-data)] text-[9px] sm:text-[10px] tracking-[0.08em] text-text-disabled">
+              <span className="break-words font-[family-name:var(--font-data)] text-[9px] sm:text-[10px] tracking-[0.08em] text-text-disabled [overflow-wrap:anywhere]">
                 ← PRECEDENTE
               </span>
-              <span className="text-[14px] sm:text-[16px] font-medium text-text-display">
+              <span className="break-words text-[14px] sm:text-[16px] font-medium text-text-display [overflow-wrap:anywhere]">
                 {previousCompany.name}
               </span>
             </TrackedLink>
@@ -536,12 +566,12 @@ export default async function EntreprisePage({ params }: Props) {
               href={`/entreprises/${nextCompany.slug}`}
               eventName="Browse Next Company"
               eventProperties={{ from: company.slug, to: nextCompany.slug }}
-              className="bg-surface min-h-24 p-[var(--space-md)] flex flex-col items-end text-right justify-between hover:bg-surface-raised transition-colors duration-[var(--duration-micro)]"
+              className="bg-surface min-h-24 min-w-0 p-[var(--space-md)] flex flex-col items-end text-right justify-between hover:bg-surface-raised transition-colors duration-[var(--duration-micro)]"
             >
-              <span className="font-[family-name:var(--font-data)] text-[9px] sm:text-[10px] tracking-[0.08em] text-text-disabled">
+              <span className="break-words font-[family-name:var(--font-data)] text-[9px] sm:text-[10px] tracking-[0.08em] text-text-disabled [overflow-wrap:anywhere]">
                 SUIVANTE →
               </span>
-              <span className="text-[14px] sm:text-[16px] font-medium text-text-display">
+              <span className="break-words text-[14px] sm:text-[16px] font-medium text-text-display [overflow-wrap:anywhere]">
                 {nextCompany.name}
               </span>
             </TrackedLink>
@@ -563,15 +593,15 @@ export default async function EntreprisePage({ params }: Props) {
                 href={`/entreprises/${related.slug}`}
                 eventName="Open Related Company"
                 eventProperties={{ from: company.slug, to: related.slug }}
-                className="bg-surface p-[var(--space-md)] hover:bg-surface-raised transition-colors duration-[var(--duration-micro)]"
+                className="bg-surface min-w-0 p-[var(--space-md)] hover:bg-surface-raised transition-colors duration-[var(--duration-micro)]"
               >
-                <p className="font-[family-name:var(--font-data)] text-[10px] tracking-[0.08em] text-text-disabled mb-[var(--space-sm)]">
+                <p className="break-words font-[family-name:var(--font-data)] text-[10px] tracking-[0.08em] text-text-disabled mb-[var(--space-sm)] [overflow-wrap:anywhere]">
                   {related.stockIndex} · {related.sector.toUpperCase()}
                 </p>
-                <h2 className="text-[18px] font-medium text-text-display mb-[var(--space-sm)]">
+                <h2 className="break-words text-[18px] font-medium text-text-display mb-[var(--space-sm)] [overflow-wrap:anywhere]">
                   {related.name}
                 </h2>
-                <p className="font-[family-name:var(--font-data)] text-[10px] tracking-[0.05em] text-text-secondary">
+                <p className="break-words font-[family-name:var(--font-data)] text-[10px] tracking-[0.05em] text-text-secondary [overflow-wrap:anywhere]">
                   {related._count.benefits} AVANTAGES
                   {related.minShares
                     ? ` · ${related.minShares} ACTION${related.minShares > 1 ? "S" : ""} MIN.`
