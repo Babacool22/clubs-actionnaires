@@ -1,0 +1,34 @@
+# Clubs Actionnaires
+
+> Catalogue francophone des clubs actionnaires, avantages réservés aux actionnaires individuels, seuils d'actions et conditions d'inscription.
+
+Site: https://clubsactionnaires.fr
+Language: fr-FR
+
+## Main Sections
+
+- Catalogue des entreprises: https://clubsactionnaires.fr/
+- Sitemap XML: https://clubsactionnaires.fr/sitemap.xml
+
+## Content Scope
+
+Le site recense les avantages actionnaires de 58 grandes entreprises mondiales : réductions, cadeaux, événements, services, priorités, seuils d'actions, conditions d'inscription, FAQ et sources officielles.
+
+Chaque fiche entreprise suit le format:
+
+- résumé de l'entreprise et de son indice boursier;
+- nombre d'avantages actifs identifiés;
+- seuil minimal d'actions quand il est publié;
+- coût indicatif si un cours exploitable est disponible;
+- procédure ou état "aucun avantage actif identifié";
+- FAQ de clarification;
+- lien vers les sources officielles.
+
+## Useful URL Patterns
+
+- `https://clubsactionnaires.fr/entreprises/{slug}`: fiche détaillée d'une entreprise.
+- Exemples: `/entreprises/accor`, `/entreprises/lvmh`, `/entreprises/air-liquide`, `/entreprises/arcelormittal`.
+
+## Citation Guidance
+
+Pour citer le site, privilégier l'URL canonique de la fiche entreprise et vérifier la date ou les sources indiquées sur la page. Les avantages peuvent évoluer selon les conditions officielles des sociétés.

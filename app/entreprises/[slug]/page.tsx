@@ -11,10 +11,41 @@ import {
 import CatalogueReturnLink from "@/components/CatalogueReturnLink";
 import RegistrationPanel from "@/components/RegistrationPanel";
 import { toYahooSymbol } from "@/lib/yahoo";
-import { BASE_URL } from "@/lib/seo";
+import { BASE_URL, SITE_NAME, clampSeoText } from "@/lib/seo";
 import type { Metadata } from "next";
 
 type Props = { params: Promise<{ slug: string }> };
+
+type CompanySeoInput = {
+  name: string;
+  slug: string;
+  sector: string;
+  stockIndex: string;
+  minShares: number | null;
+  updatedAt?: Date;
+  benefits: Array<unknown>;
+};
+
+function buildCompanySeo(company: CompanySeoInput) {
+  const benefitCount = company.benefits.length;
+  const hasBenefits = benefitCount > 0;
+  const minSharesText = company.minShares
+    ? ` dès ${company.minShares} action${company.minShares > 1 ? "s" : ""}`
+    : "";
+
+  const title = hasBenefits
+    ? `Avantages actionnaires ${company.name}`
+    : `${company.name} : fiche actionnaire vérifiée`;
+
+  const description = hasBenefits
+    ? `Découvrez ${benefitCount} avantage${benefitCount > 1 ? "s" : ""} actionnaire${benefitCount > 1 ? "s" : ""} ${company.name}${minSharesText} : conditions, coût estimé, FAQ et sources officielles.`
+    : `Fiche actionnaire ${company.name} : aucun club ou avantage actif identifié. Consultez les FAQ, sources officielles et droits à ne pas confondre.`;
+
+  return {
+    title: clampSeoText(title, 60),
+    description: clampSeoText(description, 158),
+  };
+}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
@@ -24,22 +55,43 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   });
   if (!company) return { title: "Introuvable" };
   const url = `${BASE_URL}/entreprises/${company.slug}`;
-  const minPart = company.minShares
-    ? ` Dès ${company.minShares} action${company.minShares > 1 ? "s" : ""}.`
-    : "";
-  const description = `${company.benefits.length} avantages actionnaires ${company.name} (${company.sector}) : réductions, cadeaux, événements, services.${minPart} Source vérifiée.`;
+  const seo = buildCompanySeo(company);
+  const keywords = [
+    `avantages actionnaires ${company.name}`,
+    `club actionnaire ${company.name}`,
+    `combien actions ${company.name}`,
+    `conditions actionnaires ${company.name}`,
+    company.sector,
+    company.stockIndex,
+  ];
+
   return {
-    title: `Avantages actionnaires ${company.name} — Clubs Actionnaires`,
-    description,
+    title: seo.title,
+    description: seo.description,
+    keywords,
+    authors: [{ name: SITE_NAME, url: BASE_URL }],
+    category: company.sector,
     alternates: { canonical: url },
     openGraph: {
-      title: `Avantages actionnaires ${company.name}`,
-      description,
+      title: seo.title,
+      description: seo.description,
       url,
+      siteName: SITE_NAME,
       type: "article",
       locale: "fr_FR",
+      modifiedTime: company.updatedAt.toISOString(),
     },
-    twitter: { card: "summary", title: company.name, description },
+    twitter: { card: "summary", title: seo.title, description: seo.description },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+      },
+    },
   };
 }
 
@@ -273,7 +325,74 @@ export default async function EntreprisePage({ params }: Props) {
     company.benefits
   );
   const yahooSymbol = toYahooSymbol(company.ticker, company.stockIndex);
-  const officialRegistrationUrl = company.clubUrl ?? company.website;
+  const hasActiveBenefits = company.benefits.length > 0;
+  const officialRegistrationUrl = hasActiveBenefits
+    ? company.clubUrl ?? company.website
+    : null;
+  const pageUrl = `${BASE_URL}/entreprises/${company.slug}`;
+  const seo = buildCompanySeo(company);
+  const dateModified = company.updatedAt.toISOString();
+  const corporationJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Corporation",
+    "@id": `${pageUrl}#company`,
+    name: company.name,
+    description: company.description,
+    url: company.website ?? pageUrl,
+    tickerSymbol: company.ticker ?? undefined,
+    logo: company.logoUrl ?? undefined,
+    sameAs: [company.website, company.clubUrl].filter(Boolean),
+    mainEntityOfPage: { "@id": `${pageUrl}#webpage` },
+  };
+  const webpageJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${pageUrl}#webpage`,
+    url: pageUrl,
+    name: seo.title,
+    description: seo.description,
+    inLanguage: "fr-FR",
+    dateModified,
+    isPartOf: { "@id": `${BASE_URL}/#website` },
+    publisher: { "@id": `${BASE_URL}/#organization` },
+    about: { "@id": `${pageUrl}#company` },
+    mainEntity: hasActiveBenefits
+      ? { "@id": `${pageUrl}#benefits` }
+      : { "@id": `${pageUrl}#company` },
+  };
+  const benefitsJsonLd = hasActiveBenefits
+    ? {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "@id": `${pageUrl}#benefits`,
+        name: `Avantages actionnaires ${company.name}`,
+        numberOfItems: company.benefits.length,
+        itemListElement: company.benefits.map((benefit, i) => {
+          const renderedSource = splitRenderedSource(benefit.description);
+
+          return {
+            "@type": "ListItem",
+            position: i + 1,
+            item: {
+              "@type": "Offer",
+              name: benefit.title,
+              description: renderedSource.text,
+              category: benefit.type,
+              url: renderedSource.sourceUrl ?? pageUrl,
+              offeredBy: { "@id": `${pageUrl}#company` },
+              ...(benefit.value
+                ? {
+                    priceSpecification: {
+                      "@type": "PriceSpecification",
+                      description: benefit.value,
+                    },
+                  }
+                : {}),
+            },
+          };
+        }),
+      }
+    : null;
 
   return (
     <div className={`w-full max-w-5xl mx-auto overflow-x-clip px-[var(--space-md)] sm:px-[var(--space-lg)] lg:px-[var(--space-xl)] pt-[var(--space-xl)] sm:pt-[var(--space-2xl)] ${officialRegistrationUrl ? "pb-28 sm:pb-[var(--space-2xl)]" : "pb-[var(--space-xl)] sm:pb-[var(--space-2xl)]"}`}>
@@ -300,46 +419,21 @@ export default async function EntreprisePage({ params }: Props) {
         ]}
       />
 
-      {/* Corporation JSON-LD (invisible) */}
+      {/* WebPage + Corporation JSON-LD (invisible) */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Corporation",
-            name: company.name,
-            description: company.description,
-            url: company.website ?? undefined,
-            tickerSymbol: company.ticker ?? undefined,
-            logo: company.logoUrl ?? undefined,
-            sameAs: [company.website, company.clubUrl].filter(Boolean),
-          }),
-        }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webpageJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(corporationJsonLd) }}
       />
 
       {/* ItemList JSON-LD des avantages (invisible) */}
-      {company.benefits.length > 0 && (
+      {benefitsJsonLd && (
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "ItemList",
-              name: `Avantages actionnaires ${company.name}`,
-              numberOfItems: company.benefits.length,
-              itemListElement: company.benefits.map((b, i) => ({
-                "@type": "ListItem",
-                position: i + 1,
-                item: {
-                  "@type": "Offer",
-                  name: b.title,
-                  description: b.description,
-                  category: b.type,
-                  ...(b.value ? { priceSpecification: { "@type": "PriceSpecification", description: b.value } } : {}),
-                },
-              })),
-            }),
-          }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(benefitsJsonLd) }}
         />
       )}
 
@@ -472,8 +566,9 @@ export default async function EntreprisePage({ params }: Props) {
           AVANTAGES DU CLUB
         </p>
 
-        <div className="space-y-[var(--space-2xl)]">
-          {Object.entries(benefitsByType).map(([type, benefits]) => {
+        {hasActiveBenefits ? (
+          <div className="space-y-[var(--space-2xl)]">
+            {Object.entries(benefitsByType).map(([type, benefits]) => {
             const label = typeLabels[type] ?? type.toUpperCase();
 
             return (
@@ -530,8 +625,38 @@ export default async function EntreprisePage({ params }: Props) {
                 </div>
               </div>
             );
-          })}
-        </div>
+            })}
+          </div>
+        ) : (
+          <div className="border border-border-visible bg-surface p-[var(--space-md)] sm:p-[var(--space-xl)]">
+            <p className="font-[family-name:var(--font-data)] text-[10px] tracking-[0.08em] text-accent mb-[var(--space-sm)]">
+              AUCUN AVANTAGE ACTIF IDENTIFIE
+            </p>
+            <h2 className="break-words text-[22px] sm:text-[26px] font-medium text-text-display leading-[1.2] mb-[var(--space-sm)] [overflow-wrap:anywhere]">
+              Pas de club actionnaire publiable pour {company.name}
+            </h2>
+            <p className="break-words text-[14px] sm:text-[15px] text-text-secondary leading-[1.6] [overflow-wrap:anywhere]">
+              Les sources vérifiées ne montrent pas de club, remise, cadeau,
+              événement ou service économique réservé aux actionnaires
+              individuels. La fiche conserve donc les FAQ utiles pour éviter
+              de confondre les relations investisseurs, le dividende, l&apos;AG
+              ou les publications financières avec de vrais avantages.
+            </p>
+            {company.website && (
+              <TrackedExternalLink
+                href={company.website}
+                eventName="Open Investor Website"
+                eventProperties={{
+                  company: company.slug,
+                  placement: "no_benefits_state",
+                }}
+                className="mt-[var(--space-lg)] inline-flex min-h-11 max-w-full break-words items-center font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-interactive hover:text-text-display transition-colors duration-[var(--duration-micro)] [overflow-wrap:anywhere]"
+              >
+                CONSULTER LE SITE INVESTISSEURS →
+              </TrackedExternalLink>
+            )}
+          </div>
+        )}
       </div>
 
       {/* FAQ */}

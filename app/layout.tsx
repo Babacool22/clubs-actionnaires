@@ -5,7 +5,7 @@ import { Doto, Space_Grotesk, Space_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { BASE_URL } from "@/lib/seo";
+import { BASE_URL, SITE_NAME } from "@/lib/seo";
 
 const doto = Doto({
   subsets: ["latin"],
@@ -28,13 +28,27 @@ const spaceMono = Space_Mono({
   display: "swap",
 });
 
-const TITLE = "Clubs Actionnaires – Avantages exclusifs pour actionnaires";
+const TITLE = "Clubs Actionnaires – Avantages et clubs d'actionnaires";
 const DESCRIPTION =
-  "Découvrez les avantages exclusifs des clubs actionnaires : réductions, cadeaux, événements, invitations. Catalogue complet de 58 entreprises mondiales.";
+  "Comparez les clubs actionnaires, avantages, seuils d'actions, conditions d'inscription et sources officielles de 58 grandes entreprises mondiales.";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(BASE_URL),
+  applicationName: SITE_NAME,
   title: TITLE,
   description: DESCRIPTION,
+  keywords: [
+    "club actionnaire",
+    "clubs actionnaires",
+    "avantages actionnaires",
+    "combien d'actions pour avantages",
+    "actionnaire individuel",
+    "nominatif pur",
+    "nominatif administré",
+  ],
+  authors: [{ name: SITE_NAME, url: BASE_URL }],
+  creator: SITE_NAME,
+  publisher: SITE_NAME,
   alternates: {
     canonical: BASE_URL,
   },
@@ -42,9 +56,17 @@ export const metadata: Metadata = {
     title: TITLE,
     description: DESCRIPTION,
     url: BASE_URL,
-    siteName: "Clubs Actionnaires",
+    siteName: SITE_NAME,
     locale: "fr_FR",
     type: "website",
+    images: [
+      {
+        url: "/icon.png",
+        width: 512,
+        height: 512,
+        alt: "Clubs Actionnaires",
+      },
+    ],
   },
   twitter: {
     card: "summary",
@@ -54,6 +76,13 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
   },
   verification: {
     google: "3E63PHi85cqg7s4xw_uTjdoWQTHFJ4cfkpeyE70Gjl4",
@@ -69,14 +98,15 @@ const jsonLd = {
       name: "Clubs Actionnaires",
       url: BASE_URL,
       description: DESCRIPTION,
-      inLanguage: "fr",
+      inLanguage: "fr-FR",
     },
     {
       "@type": "Organization",
       "@id": `${BASE_URL}/#organization`,
-      name: "Clubs Actionnaires",
+      name: SITE_NAME,
       url: BASE_URL,
       description: DESCRIPTION,
+      logo: `${BASE_URL}/icon.png`,
     },
   ],
 };

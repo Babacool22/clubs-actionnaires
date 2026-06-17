@@ -40,6 +40,13 @@ async function fetchQuote(symbol: string) {
     .then(async (response) => {
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const quote = (await response.json()) as Quote;
+      if (
+        !Number.isFinite(quote.price) ||
+        !Number.isFinite(quote.change) ||
+        !Number.isFinite(quote.changePercent)
+      ) {
+        throw new Error("Invalid quote payload");
+      }
       quoteCache.set(symbol, { quote, fetchedAt: Date.now() });
       return quote;
     })

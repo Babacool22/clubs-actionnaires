@@ -44,6 +44,11 @@ export async function GET(_req: Request, { params }: Props) {
     const price: number = meta.regularMarketPrice;
     const previousClose: number =
       meta.chartPreviousClose ?? meta.previousClose ?? price;
+
+    if (!Number.isFinite(price) || !Number.isFinite(previousClose)) {
+      return NextResponse.json({ error: "No price data" }, { status: 404 });
+    }
+
     const change = price - previousClose;
     const changePercent = previousClose ? (change / previousClose) * 100 : 0;
 

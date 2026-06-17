@@ -1,7 +1,7 @@
 import { prisma } from "@/lib/prisma";
 import CatalogueClient from "@/components/CatalogueClient";
 import HeroVideo from "@/components/HeroVideo";
-import { BASE_URL } from "@/lib/seo";
+import { BASE_URL, SITE_NAME } from "@/lib/seo";
 import { Suspense } from "react";
 
 export default async function HomePage() {
@@ -17,17 +17,40 @@ export default async function HomePage() {
 
   const itemListJsonLd = {
     "@context": "https://schema.org",
-    "@type": "ItemList",
-    name: "Clubs actionnaires – Catalogue des entreprises",
-    description:
-      "Liste des clubs d'actionnaires avec leurs avantages exclusifs",
-    numberOfItems: companies.length,
-    itemListElement: companies.map((company, i) => ({
-      "@type": "ListItem",
-      position: i + 1,
-      name: `Club Actionnaires ${company.name}`,
-      url: `${BASE_URL}/entreprises/${company.slug}`,
-    })),
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": `${BASE_URL}/#catalogue`,
+        url: BASE_URL,
+        name: "Catalogue des clubs actionnaires",
+        description:
+          "Catalogue vérifié des avantages actionnaires, seuils d'actions et conditions d'inscription.",
+        isPartOf: { "@id": `${BASE_URL}/#website` },
+        publisher: { "@id": `${BASE_URL}/#organization` },
+        inLanguage: "fr-FR",
+        mainEntity: { "@id": `${BASE_URL}/#itemlist` },
+      },
+      {
+        "@type": "ItemList",
+        "@id": `${BASE_URL}/#itemlist`,
+        name: "Clubs actionnaires – Catalogue des entreprises",
+        description:
+          "Liste des clubs d'actionnaires avec leurs avantages exclusifs",
+        numberOfItems: companies.length,
+        itemListElement: companies.map((company, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          name: `Club Actionnaires ${company.name}`,
+          url: `${BASE_URL}/entreprises/${company.slug}`,
+        })),
+      },
+      {
+        "@type": "Organization",
+        "@id": `${BASE_URL}/#organization`,
+        name: SITE_NAME,
+        url: BASE_URL,
+      },
+    ],
   };
 
   return (
