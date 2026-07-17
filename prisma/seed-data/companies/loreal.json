@@ -7,15 +7,15 @@
   "clubName": "Relations actionnaires individuels L'Oréal",
   "clubUrl": "https://www.loreal-finance.com/fr/actionnaires-individuels",
   "minShares": 1,
-  "lastVerifiedAt": "2026-05-15",
+  "lastVerifiedAt": "2026-07-17",
   "benefits": [
     {
       "type": "dividend",
       "title": "Dividende majoré +10% (prime de fidélité)",
-      "description": "Dès 1 action — Majoration de 10% du dividende pour toute action inscrite au nominatif (pur ou administré) de manière continue pendant au moins deux années civiles complètes. La prime s'applique dans la limite de 0,5% du capital social par actionnaire ; au-delà, le dividende ordinaire s'applique.",
-      "value": "+10% sur le dividende (ex. 7,00€ → 7,70€ sur exercice 2024)",
+      "description": "Dès 1 action — Majoration de 10% du dividende pour toute action inscrite au nominatif (pur ou administré) de manière continue pendant au moins deux années civiles complètes. La prime s'applique dans la limite de 0,5% du capital social par actionnaire ; au-delà, le dividende ordinaire s'applique. Dividende 2025 approuvé à l'AG du 24 avril 2026 : 7,20€ ordinaire, 7,92€ majoré. Codes ISIN prime de fidélité : FR001400UH43 (éligible 2027), FR0014013RC7 (éligible 2028).",
+      "value": "+10% sur le dividende (ex. 7,20€ → 7,92€ au titre de l'exercice 2025)",
       "requiredShares": 1,
-      "sourceUrl": "https://www.loreal-finance.com/fr/guide-actionnaire-2025/fr/article/4/"
+      "sourceUrl": "https://www.loreal-finance.com/fr/laction"
     },
     {
       "type": "gift",
@@ -81,7 +81,11 @@
     },
     {
       "question": "Comment bénéficier du dividende majoré L'Oréal ?",
-      "answer": "Il faut inscrire ses actions au nominatif (pur ou administré) et les conserver pendant deux années civiles complètes consécutives. La majoration de 10% s'applique ensuite chaque année, dans la limite de 0,5% du capital social par actionnaire."
+      "answer": "Il faut inscrire ses actions au nominatif (pur ou administré) et les conserver pendant deux années civiles complètes consécutives. La majoration de 10% s'applique ensuite chaque année, dans la limite de 0,5% du capital social par actionnaire. Au titre de l'exercice 2025 (AG du 24 avril 2026), le dividende ordinaire s'élève à 7,20€ et le dividende majoré à 7,92€ par action éligible."
+    },
+    {
+      "question": "Quel est le montant actuel du dividende majoré L'Oréal ?",
+      "answer": "Pour le dividende au titre de l'exercice 2025, approuvé le 24 avril 2026, le montant ordinaire est de 7,20€ par action et le montant majoré de fidélité est de 7,92€ (+10%). Les actions déjà éligibles portent le code ISIN FR0011149590 ; les codes de transition sont FR001400UH43 (prime en 2027) et FR0014013RC7 (prime en 2028). Source : loreal-finance.com."
     },
     {
       "question": "Quelle différence entre nominatif et porteur chez L'Oréal ?",
@@ -101,6 +105,10 @@
     }
   ],
   "sources": [
+    {
+      "title": "L'Oréal Finance — L'action (dividende majoré 7,20€ → 7,92€)",
+      "url": "https://www.loreal-finance.com/fr/laction"
+    },
     {
       "title": "Guide de l'actionnaire L'Oréal 2025/2026 — Politique dynamique envers les actionnaires",
       "url": "https://www.loreal-finance.com/fr/guide-actionnaire-2025/fr/article/4/"

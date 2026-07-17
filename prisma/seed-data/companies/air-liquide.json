@@ -6,8 +6,8 @@
   "stockIndex": "CAC40",
   "ticker": "AI",
   "website": "https://www.airliquide.com/",
-  "minShares": null,
-  "lastVerifiedAt": "2026-06-09",
+  "minShares": 1,
+  "lastVerifiedAt": "2026-07-17",
   "sources": [
     "https://www.airliquide.com/fr/actionnaires/avantages",
     "https://www.airliquide.com/sites/airliquide.com/files/2026-03/fiche-pratique-prime-de-fidelite-2026.pdf",
@@ -72,8 +72,20 @@
   ],
   "faqs": [
     {
+      "question": "Comment devenir actionnaire d'Air Liquide et accéder aux avantages ?",
+      "answer": "Il suffit d'acheter au moins 1 action Air Liquide (ticker AI, ISIN FR0000120073) via un compte-titres ou un PEA. Pour la Prime de Fidélité (+10% de dividende et majoration des actions gratuites), les titres doivent être inscrits au nominatif pur (chez Air Liquide / Uptevia) ou au nominatif administré auprès de votre banque, puis conservés plus de deux années civiles pleines. L'accès aux informations actionnaires se fait via airliquide.com. Aucune cotisation n'est demandée."
+    },
+    {
+      "question": "Combien d'actions Air Liquide faut-il pour les avantages de base ?",
+      "answer": "Une seule action suffit pour détenir le titre et recevoir les communications actionnaires. Le courtage préférentiel au nominatif pur s'applique dès la première action. La Prime de Fidélité (+10% de dividende) exige le nominatif (pur ou administré) pendant plus de deux années civiles pleines, sans seuil numérique distinct. L'attribution gratuite historique (1 pour 10) s'applique à tous les modes de détention lorsqu'elle est décidée par l'AG."
+    },
+    {
       "question": "Air Liquide possède-t-il un club ou un Cercle des Actionnaires ?",
       "answer": "Aucun club ou « Cercle des Actionnaires » à adhésion générale n'est identifié dans l'offre officielle actuelle. Air Liquide présente plutôt une Prime de Fidélité et des avantages liés au mode de détention. Le Comité de Communication auprès des Actionnaires n'est pas un club: il réunit 12 actionnaires sélectionnés pour travailler sur la communication. Le Carré des Actionnaires est un lieu d'accueil sur rendez-vous."
+    },
+    {
+      "question": "Le programme actionnaires Air Liquide est-il payant ?",
+      "answer": "Non. Aucune cotisation ni frais d'inscription n'est demandé. Au nominatif pur, les droits de garde et frais de gestion sont gratuits chez Air Liquide ; le courtage est de 0,10 % HT en ligne ou 0,15 % HT par les autres canaux. La banque d'origine peut toutefois facturer le transfert vers le nominatif pur. Pour un PEA, privilégiez le nominatif administré chez votre établissement."
     },
     {
       "question": "Comment rendre des actions Air Liquide éligibles à la Prime de Fidélité ?",

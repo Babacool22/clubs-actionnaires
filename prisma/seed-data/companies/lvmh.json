@@ -9,7 +9,7 @@
   "clubUrl": "https://www.clublvmh-actionnaires.fr",
   "clubName": "Club Actionnaires LVMH",
   "minShares": 1,
-  "lastVerifiedAt": "2026-05-15",
+  "lastVerifiedAt": "2026-07-17",
   "sources": [
     "https://www.clublvmh-actionnaires.fr/",
     "https://www.lvmh.com/en/investors/shareholders-club",
@@ -21,10 +21,10 @@
     {
       "type": "reduction",
       "title": "Tarifs préférentiels vins, champagnes & spiritueux",
-      "description": "À partir de 1 action — Accès au site moethennessy.clublvmh-actionnaires.fr proposant la gamme Moët Hennessy à tarif réduit : Moët & Chandon Impérial 186€ le carton de 6, Ruinart Brut 270€ le carton de 6, Hennessy V.S.O.P. 47€ la bouteille. Produits personnalisables, livraison France métropolitaine standard.",
-      "value": "Tarifs membres sur la gamme Moët Hennessy",
+      "description": "À partir de 1 action — Accès au site moethennessy.clublvmh-actionnaires.fr proposant la gamme Moët Hennessy à tarif membres. Exemples historiques souvent cités (à confirmer sur l'espace club, tarifs révisables chaque année) : Moët & Chandon Impérial ≈186€ le carton de 6, Ruinart Brut ≈270€ le carton de 6, Hennessy V.S.O.P. ≈47€ la bouteille. Produits personnalisables, livraison France métropolitaine standard. Consultez toujours clublvmh-actionnaires.fr pour les prix en vigueur.",
+      "value": "Tarifs membres (révision annuelle — vérifier sur l'espace club)",
       "requiredShares": 1,
-      "sourceUrl": "https://club-actionnaire.com/2023-evenements-et-avantages-du-club-actionnaires-de-lvmh-epa-mc/"
+      "sourceUrl": "https://www.clublvmh-actionnaires.fr/"
     },
     {
       "type": "reduction",
@@ -118,7 +118,11 @@
     },
     {
       "question": "Quels sont les principaux avantages chiffrés du club ?",
-      "answer": "Les avantages les plus tangibles sont les abonnements presse à -40 à -60% (Les Echos, Investir, Connaissance des Arts, Le Parisien), les billets Fondation Louis Vuitton à 10€ (max 2/an), des tarifs membres sur les vins et spiritueux Moët Hennessy, et des visites gratuites ou à tarif réduit des maisons de champagne."
+      "answer": "Les avantages les plus tangibles sont les abonnements presse à -40 à -60% (Les Echos, Investir, Connaissance des Arts, Le Parisien), les billets Fondation Louis Vuitton à 10€ (max 2/an), des tarifs membres sur les vins et spiritueux Moët Hennessy (prix variables, à vérifier chaque année sur clublvmh-actionnaires.fr), et des visites gratuites ou à tarif réduit des maisons de champagne."
+    },
+    {
+      "question": "Les tarifs vins et spiritueux du Club LVMH sont-ils fixes ?",
+      "answer": "Non. Les tarifs membres sur Moët Hennessy sont sujets à révision annuelle. Les montants parfois cités (ex. Moët Impérial ≈186€/carton de 6, Ruinart Brut ≈270€/carton de 6, Hennessy VSOP ≈47€) sont indicatifs et peuvent ne plus correspondre au catalogue en vigueur. Vérifiez toujours les prix actuels sur l'espace membre clublvmh-actionnaires.fr avant toute commande."
     },
     {
       "question": "Le club offre-t-il des remises sur les produits Louis Vuitton ou Dior ?",

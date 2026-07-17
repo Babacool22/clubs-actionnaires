@@ -122,8 +122,8 @@ const companies = [
         type: "service",
         title: "Dividende majoré de fidélité",
         description:
-          "Prime de fidélité de 10% sur le dividende pour les actionnaires détenant leurs actions au nominatif depuis au moins 2 années civiles pleines.",
-        value: "+10% sur le dividende",
+          "Prime de fidélité de 10% sur le dividende pour les actionnaires détenant leurs actions au nominatif depuis au moins 2 années civiles pleines. Au titre de l'exercice 2025 (AG du 24 avril 2026) : 7,20€ ordinaire → 7,92€ majoré.",
+        value: "+10% (7,20€ → 7,92€ en 2026)",
       },
       {
         type: "evenement",

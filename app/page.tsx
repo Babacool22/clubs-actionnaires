@@ -189,13 +189,24 @@ export default async function HomePage() {
                 </div>
                 <p className="text-[15px] text-text-secondary leading-[1.7]">
                   Rendez-vous chez votre banque ou chez un courtier en ligne
-                  (Boursorama, Degiro, Trade Republic, Fortuneo...).
+                  (Boursorama, Fortuneo, Degiro, Trade Republic...).
                   Demandez l&apos;ouverture d&apos;un <strong className="text-text-primary">compte-titres ordinaire (CTO)</strong> ou
                   d&apos;un <strong className="text-text-primary">Plan d&apos;Épargne en Actions (PEA)</strong>.
                   Le PEA offre des avantages fiscaux après 5 ans de détention, mais
                   il est limité aux actions européennes. Le CTO est plus flexible.
                   L&apos;ouverture est généralement gratuite et se fait en ligne en
                   quelques minutes.
+                </p>
+                <p className="text-[15px] text-text-secondary leading-[1.7] mt-[var(--space-sm)]">
+                  <strong className="text-text-primary">Attention nominatif :</strong>{" "}
+                  tous les courtiers ne gèrent pas le nominatif administré de la
+                  même façon. Degiro indique ne pas pouvoir inscrire ses clients
+                  au registre des actionnaires (structure omnibus). Chez Trade
+                  Republic, le nominatif reste partiel ou limité selon les titres
+                  et l&apos;évolution du service — vérifiez dans l&apos;app ou auprès du
+                  support avant d&apos;acheter pour une prime de fidélité. Les banques
+                  en ligne françaises (Boursorama, Fortuneo, etc.) restent en
+                  général plus adaptées pour le nominatif administré.
                 </p>
               </div>
 
@@ -254,7 +265,10 @@ export default async function HomePage() {
                 </ul>
                 <p className="text-[15px] text-text-secondary leading-[1.7] mt-[var(--space-sm)]">
                   Pour passer au nominatif, contactez votre courtier ou
-                  directement le service actionnaires de l&apos;entreprise.
+                  directement le service actionnaires de l&apos;entreprise. Si votre
+                  courtier (ex. Degiro) ne propose pas le nominatif, le nominatif
+                  pur auprès du teneur de registre de l&apos;émetteur (Uptevia, SGSS,
+                  etc.) reste souvent une alternative hors PEA.
                 </p>
               </div>
 
