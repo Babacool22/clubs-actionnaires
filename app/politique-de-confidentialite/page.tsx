@@ -51,7 +51,7 @@ export default function PolitiqueConfidentialitePage() {
           <ul className="list-disc pl-5 space-y-1">
             <li>
               <strong className="text-text-primary">Identité :</strong>{" "}
-              [NOM PRÉNOM]
+              COULONNIER Bastien
             </li>
             <li>
               <strong className="text-text-primary">Contact :</strong>{" "}
