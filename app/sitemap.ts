@@ -24,12 +24,26 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       .map((company) => company.updatedAt)
       .sort((a, b) => b.getTime() - a.getTime())[0] ?? new Date();
 
+  const legalLastMod = new Date("2026-03-01");
+
   return [
     {
       url: BASE_URL,
       lastModified: latestUpdate,
       changeFrequency: "weekly",
       priority: 1,
+    },
+    {
+      url: `${BASE_URL}/mentions-legales`,
+      lastModified: legalLastMod,
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
+    {
+      url: `${BASE_URL}/politique-de-confidentialite`,
+      lastModified: legalLastMod,
+      changeFrequency: "yearly",
+      priority: 0.3,
     },
     ...companyUrls,
   ];

@@ -1,43 +1,43 @@
-﻿{
-    "name":  "clubs-actionnaires",
-    "version":  "0.1.0",
-    "private":  true,
-    "scripts":  {
-                    "dev":  "next dev",
-                    "build":  "prisma generate \u0026\u0026 prisma migrate deploy \u0026\u0026 npm run db:seed \u0026\u0026 next build",
-                    "start":  "next start",
-                    "lint":  "eslint",
-                    "db:seed":  "npx tsx prisma/seed.ts \u0026\u0026 npx tsx prisma/update-from-dossiers.ts",
-                    "seed":  "npx tsx prisma/seed.ts",
-                    "update-dossiers":  "npx tsx prisma/update-from-dossiers.ts",
-                    "db:setup":  "prisma migrate deploy \u0026\u0026 npm run db:seed",
-                    "postinstall":  "prisma generate"
-                },
-    "prisma":  {
-                   "seed":  "npx tsx prisma/seed.ts"
-               },
-    "dependencies":  {
-                         "@libsql/client":  "^0.17.2",
-                         "@prisma/adapter-libsql":  "^7.6.0",
-                         "@prisma/client":  "^7.6.0",
-                         "@vercel/analytics":  "^2.0.1",
-                         "@vercel/speed-insights":  "^2.0.0",
-                         "libsql":  "^0.5.29",
-                         "next":  "16.2.1",
-                         "prisma":  "^7.6.0",
-                         "react":  "19.2.4",
-                         "react-dom":  "19.2.4"
-                     },
-    "devDependencies":  {
-                            "@tailwindcss/postcss":  "^4",
-                            "@types/node":  "^20",
-                            "@types/react":  "^19",
-                            "@types/react-dom":  "^19",
-                            "dotenv":  "^17.3.1",
-                            "eslint":  "^9",
-                            "eslint-config-next":  "16.2.1",
-                            "tailwindcss":  "^4",
-                            "tsx":  "^4.21.0",
-                            "typescript":  "^5"
-                        }
+{
+  "name": "clubs-actionnaires",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "prisma generate && prisma db push && npm run db:seed && next build",
+    "start": "next start",
+    "lint": "eslint",
+    "db:seed": "npx tsx prisma/seed.ts && npx tsx prisma/update-from-dossiers.ts",
+    "seed": "npx tsx prisma/seed.ts",
+    "update-dossiers": "npx tsx prisma/update-from-dossiers.ts",
+    "db:setup": "prisma db push && npm run db:seed",
+    "postinstall": "prisma generate"
+  },
+  "prisma": {
+    "seed": "npx tsx prisma/seed.ts"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.17.2",
+    "@prisma/adapter-libsql": "^7.6.0",
+    "@prisma/client": "^7.6.0",
+    "@vercel/analytics": "^2.0.1",
+    "@vercel/speed-insights": "^2.0.0",
+    "libsql": "^0.5.29",
+    "next": "16.2.1",
+    "prisma": "^7.6.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "dotenv": "^17.3.1",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.1",
+    "tailwindcss": "^4",
+    "tsx": "^4.21.0",
+    "typescript": "^5"
+  }
 }
