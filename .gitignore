@@ -1,6 +1,4 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
+﻿# dependencies
 /node_modules
 /.pnp
 .pnp.*
@@ -30,12 +28,13 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
+# env files
 .env*
+!.env.example
 
 # vercel
 .vercel
-.codex-artifacts/
+.codex-prompts/
 
 # typescript
 *.tsbuildinfo
@@ -43,7 +42,12 @@ next-env.d.ts
 
 /app/generated/prisma
 
-.vercel
-
 # Claude Code local config
 .claude/
+
+# SQLite / bases locales — ne jamais committer
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+dev.db
