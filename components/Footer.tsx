@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="border-t border-border mt-[var(--space-4xl)]">
@@ -11,17 +13,87 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-[14px] text-text-secondary leading-relaxed max-w-sm">
-              Catalogue des avantages actionnaires des plus grandes entreprises mondiales.
+              Catalogue des avantages actionnaires des plus grandes entreprises
+              mondiales.
             </p>
           </div>
-          <div className="text-right">
-            <p className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] uppercase text-text-disabled">
-              Informations indicatives
-            </p>
-            <p className="text-[12px] text-text-disabled mt-[var(--space-xs)] max-w-xs">
-              Verifiez les conditions directement aupres des entreprises.
-            </p>
+
+          <div className="flex flex-col sm:flex-row gap-[var(--space-xl)] sm:gap-[var(--space-2xl)]">
+            <div>
+              <p className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] uppercase text-text-disabled mb-[var(--space-sm)]">
+                Navigation
+              </p>
+              <ul className="space-y-[var(--space-xs)]">
+                <li>
+                  <Link
+                    href="/#catalogue"
+                    className="text-[13px] text-text-secondary hover:text-text-display transition-colors"
+                  >
+                    Catalogue
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/#inscription"
+                    className="text-[13px] text-text-secondary hover:text-text-display transition-colors"
+                  >
+                    Guide d&apos;inscription
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/#about"
+                    className="text-[13px] text-text-secondary hover:text-text-display transition-colors"
+                  >
+                    À propos
+                  </Link>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <p className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] uppercase text-text-disabled mb-[var(--space-sm)]">
+                Légal
+              </p>
+              <ul className="space-y-[var(--space-xs)]">
+                <li>
+                  <Link
+                    href="/mentions-legales"
+                    className="text-[13px] text-text-secondary hover:text-text-display transition-colors"
+                  >
+                    Mentions légales
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/politique-de-confidentialite"
+                    className="text-[13px] text-text-secondary hover:text-text-display transition-colors"
+                  >
+                    Confidentialité
+                  </Link>
+                </li>
+              </ul>
+            </div>
+
+            <div className="max-w-xs">
+              <p className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] uppercase text-text-disabled mb-[var(--space-sm)]">
+                Informations indicatives
+              </p>
+              <p className="text-[12px] text-text-disabled leading-relaxed">
+                Vérifiez les conditions directement auprès des entreprises.
+                Aucun conseil en investissement.
+              </p>
+            </div>
           </div>
+        </div>
+
+        <div className="mt-[var(--space-xl)] pt-[var(--space-lg)] border-t border-border flex flex-col sm:flex-row justify-between gap-[var(--space-sm)]">
+          <p className="text-[11px] text-text-disabled">
+            © {new Date().getFullYear()} Clubs Actionnaires
+          </p>
+          <p className="text-[11px] text-text-disabled">
+            Données non contractuelles · Sources officielles prioritaires
+          </p>
         </div>
       </div>
     </footer>
