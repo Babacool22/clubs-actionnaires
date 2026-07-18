@@ -59,7 +59,7 @@ export default function MentionsLegalesPage() {
             <li>
               <strong className="text-text-primary">Éditeur :</strong>{" "}
               {/* TODO: remplace par ton nom complet ou ta raison sociale */}
-              [NOM PRÉNOM / RAISON SOCIALE]
+              COULONNIER Bastien
             </li>
             <li>
               <strong className="text-text-primary">Statut :</strong>{" "}
@@ -80,7 +80,7 @@ export default function MentionsLegalesPage() {
               <strong className="text-text-primary">
                 Directeur de la publication :
               </strong>{" "}
-              [NOM PRÉNOM]
+              COULONNIER Bastien
             </li>
           </ul>
           <p className="text-[13px] text-text-disabled">
