@@ -4,6 +4,7 @@ import BenefitBadge from "@/components/BenefitBadge";
 import { StockPrice, MinSharesCost } from "@/components/StockPrice";
 import Faq from "@/components/Faq";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+import CompanyLogo from "@/components/CompanyLogo";
 import {
   TrackedExternalLink,
   TrackedLink,
@@ -439,6 +440,8 @@ export default async function EntreprisePage({ params }: Props) {
 
       {/* Company Header */}
       <div className="mb-[var(--space-2xl)] sm:mb-[var(--space-3xl)]">
+        <div className="grid min-w-0 items-start gap-[var(--space-xl)] md:grid-cols-[minmax(0,1fr)_minmax(11rem,17rem)] md:gap-[var(--space-3xl)]">
+          <div className="min-w-0">
         {/* Top metadata row */}
         <div className="flex min-w-0 flex-wrap items-center gap-[var(--space-sm)] sm:gap-[var(--space-md)] mb-[var(--space-lg)]">
           {company.ticker && (
@@ -479,6 +482,12 @@ export default async function EntreprisePage({ params }: Props) {
             {!hasCitedSources &&
               " Les conditions peuvent évoluer : vérifiez toujours la page officielle avant toute démarche."}
           </p>
+        </div>
+          </div>
+
+          <div className="flex justify-start md:justify-end md:pt-[var(--space-3xl)]">
+            <CompanyLogo name={company.name} logoUrl={company.logoUrl} />
+          </div>
         </div>
 
         {/* Data row */}

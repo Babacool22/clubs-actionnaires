@@ -126,5 +126,6 @@
       "question": "Que se passe-t-il si je passe sous le seuil de 200 actions ?",
       "answer": "L'adhésion est suspendue pour une durée maximale de 2 ans. Au-delà, elle est résiliée si l'actionnaire n'a pas reconstitué une détention d'au moins 200 titres BNP Paribas."
     }
-  ]
+  ],
+  "logoUrl": "/logos/bnp-paribas-app.png"
 }

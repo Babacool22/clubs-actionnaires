@@ -49,5 +49,6 @@
     "https://www.shareowneronline.com/umbraco/api/sosfileservices/File?fileId=60715a91-f170-46fa-9d63-c704e0bed3cd&filename=GID+Brochure+%28PDF%2A%29",
     "https://www.shareowneronline.com/transactional/anonymous/newsol/register/dspp?dsppOnly=true",
     "https://investors.st.com/individual-shareholders"
-  ]
+  ],
+  "logoUrl": "/logos/stmicroelectronics-blue.png"
 }

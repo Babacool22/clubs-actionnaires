@@ -7,7 +7,7 @@
   "ticker": "KER",
   "website": "https://www.kering.com/fr/",
   "minShares": null,
-  "lastVerifiedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-07-21",
   "benefits": [
     {
       "type": "reduction",
@@ -20,7 +20,7 @@
     {
       "type": "evenement",
       "title": "Invitations à des événements exclusifs",
-      "description": "Kering annonce depuis mai 2026 l'envoi plus fréquent d'invitations à des événements exclusifs pour ses actionnaires, notamment des visites d'expositions, des conférences et des occasions de découvrir ses Maisons. Pour recevoir les communications électroniques et d'éventuelles invitations, les actionnaires au nominatif doivent renseigner leur adresse électronique auprès de Société Générale Securities Services ou contacter le Service Actionnaires. Aucun calendrier, seuil d'actions, mode de détention, critère de sélection, nombre de places ou droit automatique à une invitation n'est publié; l'accès reste discrétionnaire et dépend des modalités propres à chaque événement.",
+      "description": "Kering annonce depuis mai 2026 vouloir envoyer plus fréquemment des invitations à des événements exclusifs aux actionnaires. Pour recevoir les communications électroniques et d'éventuelles invitations, les actionnaires au nominatif doivent renseigner leur adresse électronique auprès de Société Générale Securities Services ou contacter le Service Actionnaires. Aucun calendrier, seuil d'actions, mode de détention requis, critère de sélection, nombre de places ou droit automatique à une invitation n'est publié; l'accès reste discrétionnaire et dépend des modalités propres à chaque événement.",
       "value": null,
       "requiredShares": null,
       "sourceUrl": "https://www.kering.com/api/download-file/?path=KERING_LETTRE_ACTIONNAIRES_MAI_26_FR_23_04_v_F_d2698f51d9.pdf"
@@ -29,11 +29,11 @@
   "faqs": [
     {
       "question": "Kering possède-t-il un club ou une communauté formelle d'actionnaires ?",
-      "answer": "Non. Aucun club formel, nom de communauté, règlement, carte de membre ou formulaire d'adhésion n'est publié au 9 juin 2026. L'ancienne URL consacrée aux actionnaires individuels renvoie une erreur 404. Kering propose néanmoins des services de relations actionnaires et deux avantages concrets documentés, sans les rattacher à un club."
+      "answer": "Aucun club formel publié, nom de communauté, règlement, carte de membre ou formulaire d'adhésion n'a été trouvé dans les pages officielles actuelles au 21 juillet 2026. L'ancienne URL consacrée aux actionnaires individuels renvoie une page introuvable. Kering propose néanmoins des services de relations actionnaires et deux avantages concrets documentés, sans les rattacher à un club formel."
     },
     {
       "question": "Quels événements Kering propose-t-il actuellement à ses actionnaires ?",
-      "answer": "La lettre de mai 2026 annonce des invitations plus fréquentes à des événements exclusifs et cite les visites d'expositions, les conférences et la découverte des Maisons. Au 9 juin 2026, aucun calendrier ni événement précis ouvert à l'inscription n'était publié. Les invitations restent donc discrétionnaires, ponctuelles et non garanties."
+      "answer": "La lettre de mai 2026 annonce l'envoi plus fréquent d'invitations à des événements exclusifs, sans détailler les formats dans cette source. Au 21 juillet 2026, aucun calendrier ni événement précis ouvert à l'inscription n'était publié. Les invitations restent donc discrétionnaires, ponctuelles et non garanties."
     },
     {
       "question": "Comment recevoir les futures invitations aux événements de Kering ?",
@@ -49,7 +49,7 @@
     },
     {
       "question": "Les défilés, vernissages et anciennes visites de 2025 sont-ils garantis en 2026 ?",
-      "answer": "Non. Les sources actuelles ne promettent ni défilés, ni vernissages, ni présentations de collections. Les offres de 2025 concernant la Galerie Boucheron et les Rencontres d'Arles étaient personnelles, limitées en places et expirées au plus tard le 5 octobre 2025. Elles constituent un précédent, mais ne sont pas des offres disponibles au 9 juin 2026."
+      "answer": "Non. Les sources actuelles ne promettent ni défilés, ni vernissages, ni présentations de collections. Les offres de 2025 concernant la Galerie Boucheron et les Rencontres d'Arles étaient personnelles, limitées en places et expirées au plus tard le 5 octobre 2025. Elles constituent un précédent, mais ne sont pas des offres disponibles au 21 juillet 2026."
     }
   ],
   "sources": [
@@ -62,5 +62,6 @@
     "https://www.kering.com/fr/finance/informations-actionnaires/vos-publications/",
     "https://www.kering.com/api/download-file/?path=01_Document_d_Enregistrement_Universel_2025_FR_5a41111e66.pdf",
     "https://www.kering.com/fr/groupe/"
-  ]
+  ],
+  "logoUrl": "/logos/kering.svg"
 }

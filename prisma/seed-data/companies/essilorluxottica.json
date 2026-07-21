@@ -7,7 +7,7 @@
   "ticker": "EL",
   "website": "https://www.essilorluxottica.com/",
   "minShares": null,
-  "lastVerifiedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-07-21",
   "benefits": [
     {
       "type": "reduction",
@@ -21,7 +21,7 @@
   "faqs": [
     {
       "question": "EssilorLuxottica dispose-t-elle d'un club ou d'un programme pour les actionnaires individuels ?",
-      "answer": "Aucun club formel, nom de programme, formulaire d'adhésion ou statut de membre n'a été trouvé dans les pages officielles actuelles au 9 juin 2026. L'ancienne URL dédiée aux actionnaires individuels renvoie une page 404. La société propose surtout un espace d'information investisseurs et un avantage lié au nominatif pur."
+      "answer": "Aucun club formel, nom de programme, formulaire d'adhésion ou statut de membre n'a été trouvé dans les pages officielles actuelles au 21 juillet 2026. L'ancienne URL dédiée aux actionnaires individuels affiche une page introuvable de type soft 404. La société propose surtout un espace d'information investisseurs et les avantages usuels liés au nominatif."
     },
     {
       "question": "Quel avantage concret est actuellement prouvé pour un actionnaire individuel ?",
@@ -41,7 +41,7 @@
     },
     {
       "question": "Les visites de sites, l'assemblée générale ou le dividende en actions sont-ils des avantages actifs ?",
-      "answer": "Aucune visite de site ou de centre d'innovation réservée aux actionnaires n'est actuellement prouvée. La participation à l'assemblée générale relève des droits ordinaires de l'actionnaire et n'est pas retenue comme bénéfice. L'option 2026 de paiement du dividende en actions était saisonnière : elle a fermé le 28 mai 2026, avec livraison le 3 juin 2026, donc elle n'était plus disponible au 9 juin 2026."
+      "answer": "Aucune visite de site ou de centre d'innovation réservée aux actionnaires n'est actuellement prouvée. La participation à l'assemblée générale relève des droits ordinaires de l'actionnaire et n'est pas retenue comme bénéfice. L'option 2026 de paiement du dividende en actions était saisonnière : elle a fermé le 28 mai 2026, avec livraison le 3 juin 2026, donc elle n'était plus disponible au 21 juillet 2026."
     }
   ],
   "sources": [
@@ -52,6 +52,8 @@
     "https://www.essilorluxottica.com/en/newsroom/press-releases/result-payment-dividends-2026/",
     "https://www.essilorluxottica.com/en/newsroom/press-releases/2026-annual-shareholders-meeting/",
     "https://www.essilorluxottica.com/en/group/",
-    "https://www.essilorluxottica.com/en/newsroom/press-releases/2025-universal-registration-document-filed/"
-  ]
+    "https://www.essilorluxottica.com/en/newsroom/press-releases/2025-universal-registration-document-filed/",
+    "https://media.essilorluxottica.com/cms/caas/v1/media/284322/data/f95ef2e9903624401eeb5d083d1061bc/essilorluxottica-urd-en-2025-mel-march06.pdf"
+  ],
+  "logoUrl": "/logos/essilorluxottica-wide.png"
 }

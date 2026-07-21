@@ -101,5 +101,6 @@
     "https://live.euronext.com/en/product/equities/FR0000125007-XPAR"
   ],
   "clubName": "Club des actionnaires de Saint-Gobain",
-  "clubUrl": "https://www.saint-gobain.com/fr/finance/actionnaires-individuels/club-des-actionnaires"
+  "clubUrl": "https://www.saint-gobain.com/fr/finance/actionnaires-individuels/club-des-actionnaires",
+  "logoUrl": "/logos/saint-gobain.svg"
 }

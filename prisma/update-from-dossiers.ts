@@ -70,6 +70,7 @@ type Dossier = {
   website?: string;
   clubName?: string;
   clubUrl?: string;
+  logoUrl?: string | null;
   minShares: number | null;
   lastVerifiedAt?: string;
   benefits: DossierBenefit[];
@@ -135,6 +136,7 @@ async function main() {
         ticker: hasField(d, "ticker") ? d.ticker ?? null : company.ticker,
         website: hasField(d, "website") ? d.website ?? null : company.website,
         clubUrl: hasField(d, "clubUrl") ? d.clubUrl ?? null : null,
+        logoUrl: hasField(d, "logoUrl") ? d.logoUrl ?? null : company.logoUrl,
         minShares: hasField(d, "minShares") ? d.minShares ?? null : null,
       },
     });
