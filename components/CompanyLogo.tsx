@@ -20,10 +20,12 @@ const LOGOS_WITH_TIGHT_PADDING = new Set([
   "capgemini",
   "carnival-corporation-white-vignette",
   "legrand-white-vignette",
+  "loreal",
   "teleperformance",
 ]);
 
 const LOGOS_WITH_ROUNDED_IMAGE = new Set(["hermes"]);
+const LOGOS_WITH_ADAPTIVE_MONOCHROME = new Set(["loreal"]);
 
 const TIGHT_LOGO_PADDING = "clamp(0.35rem, 0.9vw, 0.75rem)";
 const TRANSPARENT_LOGO_RADIUS = "0px";
@@ -71,6 +73,7 @@ export default function CompanyLogo({ name, logoUrl }: CompanyLogoProps) {
       className="company-logo-shell"
       data-logo-key={logoKey}
       data-logo-mode={logoMode}
+      data-adaptive-monochrome={LOGOS_WITH_ADAPTIVE_MONOCHROME.has(logoKey) ? "true" : "false"}
       style={{ borderRadius: logoRadius, overflow: "hidden" }}
     >
       {logoUrl ? (

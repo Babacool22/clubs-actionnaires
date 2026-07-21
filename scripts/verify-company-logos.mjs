@@ -82,6 +82,7 @@ if (!component.includes("next/image") || !component.includes("className=\"compan
 if (
   !component.includes("LOGOS_WITH_RAW_BACKGROUND") ||
   !component.includes("LOGOS_WITH_ROUNDED_IMAGE") ||
+  !component.includes("LOGOS_WITH_ADAPTIVE_MONOCHROME") ||
   !component.includes('data-logo-mode={logoMode}') ||
   component.includes("LOGOS_WITH_PLATE") ||
   component.includes("data-plate") ||
@@ -101,6 +102,7 @@ if (!css.includes("aspect-ratio: 1 / 1") || !css.includes("object-fit: contain")
 if (
   !css.includes('.company-logo-shell[data-logo-mode="raw"]') ||
   !css.includes('.company-logo-shell[data-logo-mode="transparent"]') ||
+  !css.includes('data-adaptive-monochrome="true"') ||
   css.includes("data-plate")
 ) {
   fail("les styles logo doivent garder les transparents sans vignette et arrondir les fonds bruts");
