@@ -8,7 +8,6 @@ type CompanyLogoProps = {
 const LOGOS_WITH_RAW_BACKGROUND = new Set([
   "carnival-corporation-white",
   "carnival-corporation-white-vignette",
-  "hermes",
   "legrand-white-vignette",
   "lvmh",
   "norwegian-cruise-line-blue",
@@ -23,6 +22,8 @@ const LOGOS_WITH_TIGHT_PADDING = new Set([
   "legrand-white-vignette",
   "teleperformance",
 ]);
+
+const LOGOS_WITH_ROUNDED_IMAGE = new Set(["hermes"]);
 
 const TIGHT_LOGO_PADDING = "clamp(0.35rem, 0.9vw, 0.75rem)";
 const TRANSPARENT_LOGO_RADIUS = "0px";
@@ -59,8 +60,9 @@ export default function CompanyLogo({ name, logoUrl }: CompanyLogoProps) {
       : logoMode === "fallback"
         ? FALLBACK_LOGO_RADIUS
         : TRANSPARENT_LOGO_RADIUS;
+  const imageRadius = LOGOS_WITH_ROUNDED_IMAGE.has(logoKey) ? VIGNETTE_LOGO_RADIUS : logoRadius;
   const imageStyle = {
-    borderRadius: logoRadius,
+    borderRadius: imageRadius,
     ...(LOGOS_WITH_TIGHT_PADDING.has(logoKey) ? { padding: TIGHT_LOGO_PADDING } : {}),
   };
 
