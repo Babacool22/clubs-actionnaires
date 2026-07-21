@@ -5,17 +5,16 @@ type CompanyLogoProps = {
   logoUrl: string | null;
 };
 
-const LOGOS_WITH_PLATE = new Set([
-  "arcelormittal-color",
-  "carnival-corporation",
+const LOGOS_WITH_RAW_BACKGROUND = new Set([
   "carnival-corporation-white",
   "carnival-corporation-white-vignette",
-  "kering",
+  "hermes",
   "legrand-white-vignette",
-  "loreal",
-  "michelin",
-  "renault",
-  "telefonica",
+  "lvmh",
+  "norwegian-cruise-line-blue",
+  "royal-caribbean",
+  "sanofi-purple",
+  "stellantis-brand",
 ]);
 
 const LOGOS_WITH_TIGHT_PADDING = new Set([
@@ -25,22 +24,9 @@ const LOGOS_WITH_TIGHT_PADDING = new Set([
   "teleperformance",
 ]);
 
-const LOGOS_WITH_VIGNETTE_RADIUS = new Set([
-  "accor-gold",
-  "bnp-paribas-app",
-  "bouygues",
-  "carnival-corporation-white-vignette",
-  "generali",
-  "iberdrola-color",
-  "legrand-white-vignette",
-  "lvmh",
-  "mcdonalds",
-  "norwegian-cruise-line-blue",
-  "procter-gamble-blue",
-]);
-
 const TIGHT_LOGO_PADDING = "clamp(0.35rem, 0.9vw, 0.75rem)";
-const DEFAULT_LOGO_RADIUS = "8px";
+const TRANSPARENT_LOGO_RADIUS = "0px";
+const FALLBACK_LOGO_RADIUS = "8px";
 const VIGNETTE_LOGO_RADIUS = "clamp(14px, 2vw, 22px)";
 
 function logoKeyFromUrl(logoUrl: string | null) {
@@ -65,9 +51,14 @@ function initialsFromName(name: string) {
 
 export default function CompanyLogo({ name, logoUrl }: CompanyLogoProps) {
   const logoKey = logoKeyFromUrl(logoUrl);
-  const needsPlate = logoUrl ? LOGOS_WITH_PLATE.has(logoKey) : true;
-  const needsVignetteRadius = logoUrl ? LOGOS_WITH_VIGNETTE_RADIUS.has(logoKey) : false;
-  const logoRadius = needsVignetteRadius ? VIGNETTE_LOGO_RADIUS : DEFAULT_LOGO_RADIUS;
+  const hasRawBackground = logoUrl ? LOGOS_WITH_RAW_BACKGROUND.has(logoKey) : false;
+  const logoMode = logoUrl ? (hasRawBackground ? "raw" : "transparent") : "fallback";
+  const logoRadius =
+    logoMode === "raw"
+      ? VIGNETTE_LOGO_RADIUS
+      : logoMode === "fallback"
+        ? FALLBACK_LOGO_RADIUS
+        : TRANSPARENT_LOGO_RADIUS;
   const imageStyle = {
     borderRadius: logoRadius,
     ...(LOGOS_WITH_TIGHT_PADDING.has(logoKey) ? { padding: TIGHT_LOGO_PADDING } : {}),
@@ -77,8 +68,7 @@ export default function CompanyLogo({ name, logoUrl }: CompanyLogoProps) {
     <div
       className="company-logo-shell"
       data-logo-key={logoKey}
-      data-plate={needsPlate ? "true" : "false"}
-      data-vignette={needsVignetteRadius ? "true" : "false"}
+      data-logo-mode={logoMode}
       style={{ borderRadius: logoRadius, overflow: "hidden" }}
     >
       {logoUrl ? (

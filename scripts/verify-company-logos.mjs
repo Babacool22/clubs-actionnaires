@@ -77,10 +77,15 @@ if (!component.includes("next/image") || !component.includes("className=\"compan
   ok("CompanyLogo rend les logos en couleur");
 }
 
-if (!component.includes("LOGOS_WITH_PLATE") || !component.includes("data-plate")) {
-  fail("CompanyLogo doit garder les plaques blanches seulement pour les logos monochromes");
+if (
+  !component.includes("LOGOS_WITH_RAW_BACKGROUND") ||
+  !component.includes('data-logo-mode={logoMode}') ||
+  component.includes("LOGOS_WITH_PLATE") ||
+  component.includes("data-plate")
+) {
+  fail("CompanyLogo doit arrondir seulement les logos avec fond brut, sans plaque artificielle");
 } else {
-  ok("CompanyLogo limite les plaques blanches aux logos monochromes");
+  ok("CompanyLogo distingue les logos transparents des fonds bruts");
 }
 
 if (!css.includes("aspect-ratio: 1 / 1") || !css.includes("object-fit: contain")) {
@@ -89,10 +94,14 @@ if (!css.includes("aspect-ratio: 1 / 1") || !css.includes("object-fit: contain")
   ok("les styles logo gardent un carre responsive proportionnel");
 }
 
-if (!css.includes('.company-logo-shell[data-plate="true"]')) {
-  fail("les styles logo doivent rendre la plaque blanche conditionnelle");
+if (
+  !css.includes('.company-logo-shell[data-logo-mode="raw"]') ||
+  !css.includes('.company-logo-shell[data-logo-mode="transparent"]') ||
+  css.includes("data-plate")
+) {
+  fail("les styles logo doivent garder les transparents sans vignette et arrondir les fonds bruts");
 } else {
-  ok("les styles logo rendent la plaque blanche conditionnelle");
+  ok("les styles logo gardent les transparents sans vignette");
 }
 
 if (!updater.includes("logoUrl") || !updater.includes("company.logoUrl")) {

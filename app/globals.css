@@ -130,28 +130,23 @@ body {
   overflow: hidden;
 }
 
-.company-logo-shell[data-plate="true"] {
-  border: 1px solid var(--border-visible);
-  background: #f7f7f2;
-  box-shadow: 0 20px 80px rgba(0, 0, 0, 0.18);
-}
-
-.company-logo-shell[data-vignette="true"] {
+.company-logo-shell[data-logo-mode="raw"] {
   border-color: color-mix(in srgb, var(--border-visible) 75%, transparent);
   box-shadow:
     0 18px 48px rgba(0, 0, 0, 0.22),
     inset 0 0 0 1px rgba(255, 255, 255, 0.04);
 }
 
-.company-logo-shell[data-plate="false"] {
+.company-logo-shell[data-logo-mode="transparent"] {
   border-color: transparent;
   background: transparent;
   box-shadow: none;
 }
 
-.company-logo-shell[data-plate="false"][data-vignette="true"] {
-  border-color: color-mix(in srgb, var(--border-visible) 55%, transparent);
-  box-shadow: 0 16px 44px rgba(0, 0, 0, 0.18);
+.company-logo-shell[data-logo-mode="fallback"] {
+  border: 1px solid var(--border-visible);
+  background: var(--surface-raised);
+  box-shadow: 0 20px 80px rgba(0, 0, 0, 0.18);
 }
 
 .company-logo-image {
