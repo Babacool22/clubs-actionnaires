@@ -66,6 +66,8 @@ const css = fs.readFileSync(cssPath, "utf8");
 const updater = fs.readFileSync(updaterPath, "utf8");
 const rawBackgroundBlock =
   component.match(/const LOGOS_WITH_RAW_BACKGROUND = new Set\(\[([\s\S]*?)\]\);/)?.[1] ?? "";
+const roundedImageBlock =
+  component.match(/const LOGOS_WITH_ROUNDED_IMAGE = new Set\(\[([\s\S]*?)\]\);/)?.[1] ?? "";
 
 if (!page.includes("<CompanyLogo") || !page.includes("logoUrl={company.logoUrl}")) {
   fail("la fiche entreprise ne rend pas CompanyLogo avec company.logoUrl");
@@ -86,7 +88,11 @@ if (
   !component.includes('data-logo-mode={logoMode}') ||
   component.includes("LOGOS_WITH_PLATE") ||
   component.includes("data-plate") ||
-  rawBackgroundBlock.includes('"hermes"')
+  rawBackgroundBlock.includes('"hermes"') ||
+  rawBackgroundBlock.includes('"lvmh"') ||
+  rawBackgroundBlock.includes('"legrand-white-vignette"') ||
+  !roundedImageBlock.includes('"lvmh"') ||
+  !roundedImageBlock.includes('"legrand-white-vignette"')
 ) {
   fail("CompanyLogo doit arrondir seulement les logos avec fond brut, sans plaque artificielle");
 } else {

@@ -8,8 +8,6 @@ type CompanyLogoProps = {
 const LOGOS_WITH_RAW_BACKGROUND = new Set([
   "carnival-corporation-white",
   "carnival-corporation-white-vignette",
-  "legrand-white-vignette",
-  "lvmh",
   "norwegian-cruise-line-blue",
   "royal-caribbean",
   "sanofi-purple",
@@ -21,10 +19,11 @@ const LOGOS_WITH_TIGHT_PADDING = new Set([
   "carnival-corporation-white-vignette",
   "legrand-white-vignette",
   "loreal",
+  "michelin",
   "teleperformance",
 ]);
 
-const LOGOS_WITH_ROUNDED_IMAGE = new Set(["hermes"]);
+const LOGOS_WITH_ROUNDED_IMAGE = new Set(["hermes", "legrand-white-vignette", "lvmh"]);
 const LOGOS_WITH_ADAPTIVE_MONOCHROME = new Set(["loreal"]);
 
 const TIGHT_LOGO_PADDING = "clamp(0.35rem, 0.9vw, 0.75rem)";
