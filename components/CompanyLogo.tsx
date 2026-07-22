@@ -13,7 +13,6 @@ const LOGOS_WITH_TIGHT_PADDING = new Set([
   "carnival-corporation-white-vignette",
   "loreal",
   "michelin",
-  "teleperformance",
 ]);
 
 const LOGOS_WITH_MAX_FILL = new Set([
@@ -24,6 +23,7 @@ const LOGOS_WITH_MAX_FILL = new Set([
   "essilorluxottica-wide",
   "eurofins-scientific-color",
   "legrand-white-vignette",
+  "teleperformance",
 ]);
 
 const LOGOS_WITH_VISUAL_BOOST = new Set([

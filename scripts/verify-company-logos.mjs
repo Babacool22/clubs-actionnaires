@@ -131,7 +131,8 @@ if (
   !maxFillBlock.includes('"carrefour"') ||
   !maxFillBlock.includes('"essilorluxottica-wide"') ||
   !maxFillBlock.includes('"eurofins-scientific-color"') ||
-  !maxFillBlock.includes('"legrand-white-vignette"')
+  !maxFillBlock.includes('"legrand-white-vignette"') ||
+  !maxFillBlock.includes('"teleperformance"')
 ) {
   fail("CompanyLogo doit agrandir uniquement les logos selectionnes comme trop petits");
 } else {
