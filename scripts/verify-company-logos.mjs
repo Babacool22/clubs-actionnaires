@@ -68,6 +68,12 @@ const rawBackgroundBlock =
   component.match(/const LOGOS_WITH_RAW_BACKGROUND = new Set\(\[([\s\S]*?)\]\);/)?.[1] ?? "";
 const roundedImageBlock =
   component.match(/const LOGOS_WITH_ROUNDED_IMAGE = new Set\(\[([\s\S]*?)\]\);/)?.[1] ?? "";
+const maxFillBlock =
+  component.match(/const LOGOS_WITH_MAX_FILL = new Set\(\[([\s\S]*?)\]\);/)?.[1] ?? "";
+const visualBoostBlock =
+  component.match(/const LOGOS_WITH_VISUAL_BOOST = new Set\(\[([\s\S]*?)\]\);/)?.[1] ?? "";
+const strongVisualBoostBlock =
+  component.match(/const LOGOS_WITH_STRONG_VISUAL_BOOST = new Set\(\[([\s\S]*?)\]\);/)?.[1] ?? "";
 
 if (!page.includes("<CompanyLogo") || !page.includes("logoUrl={company.logoUrl}")) {
   fail("la fiche entreprise ne rend pas CompanyLogo avec company.logoUrl");
@@ -84,6 +90,9 @@ if (!component.includes("next/image") || !component.includes("className=\"compan
 if (
   !component.includes("LOGOS_WITH_RAW_BACKGROUND") ||
   !component.includes("LOGOS_WITH_ROUNDED_IMAGE") ||
+  !component.includes("LOGOS_WITH_MAX_FILL") ||
+  !component.includes("LOGOS_WITH_VISUAL_BOOST") ||
+  !component.includes("LOGOS_WITH_STRONG_VISUAL_BOOST") ||
   !component.includes("LOGOS_WITH_ADAPTIVE_MONOCHROME") ||
   !component.includes('data-logo-mode={logoMode}') ||
   component.includes("LOGOS_WITH_PLATE") ||
@@ -91,12 +100,46 @@ if (
   rawBackgroundBlock.includes('"hermes"') ||
   rawBackgroundBlock.includes('"lvmh"') ||
   rawBackgroundBlock.includes('"legrand-white-vignette"') ||
+  rawBackgroundBlock.includes('"axa"') ||
+  rawBackgroundBlock.includes('"orange"') ||
+  !roundedImageBlock.includes('"axa"') ||
   !roundedImageBlock.includes('"lvmh"') ||
-  !roundedImageBlock.includes('"legrand-white-vignette"')
+  !roundedImageBlock.includes('"legrand-white-vignette"') ||
+  !roundedImageBlock.includes('"orange"')
 ) {
   fail("CompanyLogo doit arrondir seulement les logos avec fond brut, sans plaque artificielle");
 } else {
   ok("CompanyLogo distingue les logos transparents des fonds bruts");
+}
+
+if (
+  !maxFillBlock.includes('"3m"') ||
+  !maxFillBlock.includes('"danone-vertical"') ||
+  !maxFillBlock.includes('"capgemini"') ||
+  !maxFillBlock.includes('"carrefour"') ||
+  !maxFillBlock.includes('"essilorluxottica-wide"') ||
+  !maxFillBlock.includes('"eurofins-scientific-color"') ||
+  !maxFillBlock.includes('"legrand-white-vignette"')
+) {
+  fail("CompanyLogo doit agrandir uniquement les logos selectionnes comme trop petits");
+} else {
+  ok("CompanyLogo agrandit les logos trop petits selectionnes");
+}
+
+if (
+  !visualBoostBlock.includes('"carrefour"') ||
+  !visualBoostBlock.includes('"essilorluxottica-wide"') ||
+  !visualBoostBlock.includes('"eurofins-scientific-color"') ||
+  !visualBoostBlock.includes('"legrand-white-vignette"') ||
+  visualBoostBlock.includes('"capgemini"') ||
+  visualBoostBlock.includes('"3m"') ||
+  visualBoostBlock.includes('"danone-vertical"') ||
+  !strongVisualBoostBlock.includes('"capgemini"') ||
+  strongVisualBoostBlock.includes('"carrefour"')
+) {
+  fail("CompanyLogo doit booster seulement les logos horizontaux signales comme trop petits");
+} else {
+  ok("CompanyLogo booste seulement les logos horizontaux trop petits");
 }
 
 if (!css.includes("aspect-ratio: 1 / 1") || !css.includes("object-fit: contain")) {

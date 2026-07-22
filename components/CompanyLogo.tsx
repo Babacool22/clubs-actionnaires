@@ -15,18 +15,38 @@ const LOGOS_WITH_RAW_BACKGROUND = new Set([
 ]);
 
 const LOGOS_WITH_TIGHT_PADDING = new Set([
-  "capgemini",
   "carnival-corporation-white-vignette",
-  "legrand-white-vignette",
   "loreal",
   "michelin",
   "teleperformance",
 ]);
 
-const LOGOS_WITH_ROUNDED_IMAGE = new Set(["hermes", "legrand-white-vignette", "lvmh"]);
+const LOGOS_WITH_MAX_FILL = new Set([
+  "3m",
+  "capgemini",
+  "carrefour",
+  "danone-vertical",
+  "essilorluxottica-wide",
+  "eurofins-scientific-color",
+  "legrand-white-vignette",
+]);
+
+const LOGOS_WITH_VISUAL_BOOST = new Set([
+  "carrefour",
+  "essilorluxottica-wide",
+  "eurofins-scientific-color",
+  "legrand-white-vignette",
+]);
+
+const LOGOS_WITH_STRONG_VISUAL_BOOST = new Set(["capgemini"]);
+
+const LOGOS_WITH_ROUNDED_IMAGE = new Set(["axa", "hermes", "legrand-white-vignette", "lvmh", "orange"]);
 const LOGOS_WITH_ADAPTIVE_MONOCHROME = new Set(["loreal"]);
 
 const TIGHT_LOGO_PADDING = "clamp(0.35rem, 0.9vw, 0.75rem)";
+const MAX_LOGO_PADDING = "clamp(0.1rem, 0.35vw, 0.3rem)";
+const BOOSTED_LOGO_SCALE = "1.15";
+const STRONG_BOOSTED_LOGO_SCALE = "1.45";
 const TRANSPARENT_LOGO_RADIUS = "0px";
 const FALLBACK_LOGO_RADIUS = "8px";
 const VIGNETTE_LOGO_RADIUS = "clamp(14px, 2vw, 22px)";
@@ -62,9 +82,20 @@ export default function CompanyLogo({ name, logoUrl }: CompanyLogoProps) {
         ? FALLBACK_LOGO_RADIUS
         : TRANSPARENT_LOGO_RADIUS;
   const imageRadius = LOGOS_WITH_ROUNDED_IMAGE.has(logoKey) ? VIGNETTE_LOGO_RADIUS : logoRadius;
+  const imagePadding = LOGOS_WITH_MAX_FILL.has(logoKey)
+    ? MAX_LOGO_PADDING
+    : LOGOS_WITH_TIGHT_PADDING.has(logoKey)
+      ? TIGHT_LOGO_PADDING
+      : undefined;
+  const imageScale = LOGOS_WITH_STRONG_VISUAL_BOOST.has(logoKey)
+    ? STRONG_BOOSTED_LOGO_SCALE
+    : LOGOS_WITH_VISUAL_BOOST.has(logoKey)
+      ? BOOSTED_LOGO_SCALE
+      : undefined;
   const imageStyle = {
     borderRadius: imageRadius,
-    ...(LOGOS_WITH_TIGHT_PADDING.has(logoKey) ? { padding: TIGHT_LOGO_PADDING } : {}),
+    ...(imagePadding ? { padding: imagePadding } : {}),
+    ...(imageScale ? { transform: `scale(${imageScale})` } : {}),
   };
 
   return (
