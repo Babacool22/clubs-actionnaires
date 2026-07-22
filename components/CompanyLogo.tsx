@@ -7,8 +7,6 @@ type CompanyLogoProps = {
 
 const LOGOS_WITH_RAW_BACKGROUND = new Set([
   "carnival-corporation-white",
-  "carnival-corporation-white-vignette",
-  "norwegian-cruise-line-blue",
 ]);
 
 const LOGOS_WITH_TIGHT_PADDING = new Set([
@@ -39,9 +37,11 @@ const LOGOS_WITH_STRONG_VISUAL_BOOST = new Set(["capgemini"]);
 
 const LOGOS_WITH_ROUNDED_IMAGE = new Set([
   "axa",
+  "carnival-corporation-white-vignette",
   "hermes",
   "legrand-white-vignette",
   "lvmh",
+  "norwegian-cruise-line-blue",
   "orange",
   "royal-caribbean",
   "sanofi-purple",

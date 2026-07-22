@@ -102,14 +102,18 @@ if (
   rawBackgroundBlock.includes('"hermes"') ||
   rawBackgroundBlock.includes('"lvmh"') ||
   rawBackgroundBlock.includes('"legrand-white-vignette"') ||
+  rawBackgroundBlock.includes('"carnival-corporation-white-vignette"') ||
+  rawBackgroundBlock.includes('"norwegian-cruise-line-blue"') ||
   rawBackgroundBlock.includes('"axa"') ||
   rawBackgroundBlock.includes('"orange"') ||
   rawBackgroundBlock.includes('"royal-caribbean"') ||
   rawBackgroundBlock.includes('"sanofi-purple"') ||
   rawBackgroundBlock.includes('"stellantis-brand"') ||
   !roundedImageBlock.includes('"axa"') ||
+  !roundedImageBlock.includes('"carnival-corporation-white-vignette"') ||
   !roundedImageBlock.includes('"lvmh"') ||
   !roundedImageBlock.includes('"legrand-white-vignette"') ||
+  !roundedImageBlock.includes('"norwegian-cruise-line-blue"') ||
   !roundedImageBlock.includes('"orange"') ||
   !roundedImageBlock.includes('"royal-caribbean"') ||
   !roundedImageBlock.includes('"sanofi-purple"') ||
