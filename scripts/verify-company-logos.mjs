@@ -8,6 +8,7 @@ const pagePath = path.join(root, "app", "entreprises", "[slug]", "page.tsx");
 const componentPath = path.join(root, "components", "CompanyLogo.tsx");
 const cssPath = path.join(root, "app", "globals.css");
 const updaterPath = path.join(root, "prisma", "update-from-dossiers.ts");
+const telefonicaLogoPath = path.join(publicDir, "logos", "telefonica.svg");
 
 function fail(message) {
   console.error(`x ${message}`);
@@ -64,6 +65,7 @@ const page = fs.readFileSync(pagePath, "utf8");
 const component = fs.readFileSync(componentPath, "utf8");
 const css = fs.readFileSync(cssPath, "utf8");
 const updater = fs.readFileSync(updaterPath, "utf8");
+const telefonicaLogo = fs.readFileSync(telefonicaLogoPath, "utf8");
 const rawBackgroundBlock =
   component.match(/const LOGOS_WITH_RAW_BACKGROUND = new Set\(\[([\s\S]*?)\]\);/)?.[1] ?? "";
 const roundedImageBlock =
@@ -102,10 +104,16 @@ if (
   rawBackgroundBlock.includes('"legrand-white-vignette"') ||
   rawBackgroundBlock.includes('"axa"') ||
   rawBackgroundBlock.includes('"orange"') ||
+  rawBackgroundBlock.includes('"royal-caribbean"') ||
+  rawBackgroundBlock.includes('"sanofi-purple"') ||
+  rawBackgroundBlock.includes('"stellantis-brand"') ||
   !roundedImageBlock.includes('"axa"') ||
   !roundedImageBlock.includes('"lvmh"') ||
   !roundedImageBlock.includes('"legrand-white-vignette"') ||
-  !roundedImageBlock.includes('"orange"')
+  !roundedImageBlock.includes('"orange"') ||
+  !roundedImageBlock.includes('"royal-caribbean"') ||
+  !roundedImageBlock.includes('"sanofi-purple"') ||
+  !roundedImageBlock.includes('"stellantis-brand"')
 ) {
   fail("CompanyLogo doit arrondir seulement les logos avec fond brut, sans plaque artificielle");
 } else {
@@ -152,11 +160,18 @@ if (
   !css.includes('.company-logo-shell[data-logo-mode="raw"]') ||
   !css.includes('.company-logo-shell[data-logo-mode="transparent"]') ||
   !css.includes('data-adaptive-monochrome="true"') ||
+  !component.includes('"renault"') ||
   css.includes("data-plate")
 ) {
   fail("les styles logo doivent garder les transparents sans vignette et arrondir les fonds bruts");
 } else {
   ok("les styles logo gardent les transparents sans vignette");
+}
+
+if (!telefonicaLogo.includes('fill="#0066FF"')) {
+  fail("le logo Telefonica doit avoir une couleur explicite visible sur fond noir");
+} else {
+  ok("le logo Telefonica reste visible sur fond noir");
 }
 
 if (!updater.includes("logoUrl") || !updater.includes("company.logoUrl")) {

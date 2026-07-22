@@ -9,9 +9,6 @@ const LOGOS_WITH_RAW_BACKGROUND = new Set([
   "carnival-corporation-white",
   "carnival-corporation-white-vignette",
   "norwegian-cruise-line-blue",
-  "royal-caribbean",
-  "sanofi-purple",
-  "stellantis-brand",
 ]);
 
 const LOGOS_WITH_TIGHT_PADDING = new Set([
@@ -40,8 +37,17 @@ const LOGOS_WITH_VISUAL_BOOST = new Set([
 
 const LOGOS_WITH_STRONG_VISUAL_BOOST = new Set(["capgemini"]);
 
-const LOGOS_WITH_ROUNDED_IMAGE = new Set(["axa", "hermes", "legrand-white-vignette", "lvmh", "orange"]);
-const LOGOS_WITH_ADAPTIVE_MONOCHROME = new Set(["loreal"]);
+const LOGOS_WITH_ROUNDED_IMAGE = new Set([
+  "axa",
+  "hermes",
+  "legrand-white-vignette",
+  "lvmh",
+  "orange",
+  "royal-caribbean",
+  "sanofi-purple",
+  "stellantis-brand",
+]);
+const LOGOS_WITH_ADAPTIVE_MONOCHROME = new Set(["loreal", "renault"]);
 
 const TIGHT_LOGO_PADDING = "clamp(0.35rem, 0.9vw, 0.75rem)";
 const MAX_LOGO_PADDING = "clamp(0.1rem, 0.35vw, 0.3rem)";
