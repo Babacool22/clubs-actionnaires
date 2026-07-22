@@ -1,6 +1,7 @@
 import { prisma } from "@/lib/prisma";
 import CatalogueClient from "@/components/CatalogueClient";
 import HeroVideo from "@/components/HeroVideo";
+import NewsletterCta from "@/components/NewsletterCta";
 import { BASE_URL, SITE_NAME } from "@/lib/seo";
 import { Suspense } from "react";
 
@@ -115,6 +116,8 @@ export default async function HomePage() {
           </div>
         </div>
       </section>
+
+      <NewsletterCta variant="compact" placement="home_dashboard_top" />
 
       {/* Catalogue */}
       <section

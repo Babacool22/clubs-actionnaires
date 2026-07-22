@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NewsletterCta from "./NewsletterCta";
 
 export default function Footer() {
   return (
@@ -48,6 +49,14 @@ export default function Footer() {
                     À propos
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    href="/#newsletter"
+                    className="text-[13px] text-text-secondary hover:text-text-display transition-colors"
+                  >
+                    Le Club Actionnaire
+                  </Link>
+                </li>
               </ul>
             </div>
 
@@ -84,6 +93,8 @@ export default function Footer() {
                 Aucun conseil en investissement.
               </p>
             </div>
+
+            <NewsletterCta variant="footer" placement="footer_email_box" />
           </div>
         </div>
 
