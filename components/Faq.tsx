@@ -1,6 +1,7 @@
 "use client";
 
 import { track } from "@vercel/analytics";
+import { serializeJsonLd } from "@/lib/seo";
 
 type FaqItem = { question: string; answer: string };
 
@@ -56,7 +57,7 @@ export default function Faq({
       </div>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(jsonLd) }}
       />
     </section>
   );

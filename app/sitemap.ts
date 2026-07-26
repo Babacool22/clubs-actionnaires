@@ -1,12 +1,14 @@
 import type { MetadataRoute } from "next";
 import { prisma } from "@/lib/prisma";
 import { BASE_URL } from "@/lib/seo";
+import { hasEnglishCompanyTranslation } from "@/lib/company-translations";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const companies = await prisma.company.findMany({
     select: {
       slug: true,
       updatedAt: true,
+      lastVerifiedAt: true,
       _count: { select: { benefits: true } },
     },
     orderBy: { name: "asc" },
@@ -14,14 +16,22 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const companyUrls: MetadataRoute.Sitemap = companies.map((company) => ({
     url: `${BASE_URL}/entreprises/${company.slug}`,
-    lastModified: company.updatedAt,
+    lastModified: company.lastVerifiedAt ?? company.updatedAt,
     changeFrequency: "monthly",
     priority: company._count.benefits > 0 ? 0.8 : 0.55,
   }));
+  const englishCompanyUrls: MetadataRoute.Sitemap = companies
+    .filter((company) => hasEnglishCompanyTranslation(company.slug))
+    .map((company) => ({
+      url: `${BASE_URL}/en/companies/${company.slug}`,
+      lastModified: company.lastVerifiedAt ?? company.updatedAt,
+      changeFrequency: "monthly",
+      priority: company._count.benefits > 0 ? 0.75 : 0.5,
+    }));
 
   const latestUpdate =
     companies
-      .map((company) => company.updatedAt)
+      .map((company) => company.lastVerifiedAt ?? company.updatedAt)
       .sort((a, b) => b.getTime() - a.getTime())[0] ?? new Date();
 
   const legalLastMod = new Date("2026-03-01");
@@ -32,6 +42,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       lastModified: latestUpdate,
       changeFrequency: "weekly",
       priority: 1,
+    },
+    {
+      url: `${BASE_URL}/en`,
+      lastModified: latestUpdate,
+      changeFrequency: "weekly",
+      priority: 0.6,
     },
     {
       url: `${BASE_URL}/mentions-legales`,
@@ -45,6 +61,19 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: "yearly",
       priority: 0.3,
     },
+    {
+      url: `${BASE_URL}/a-propos`,
+      lastModified: new Date("2026-07-26"),
+      changeFrequency: "monthly",
+      priority: 0.6,
+    },
+    {
+      url: `${BASE_URL}/faq`,
+      lastModified: new Date("2026-07-26"),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
     ...companyUrls,
+    ...englishCompanyUrls,
   ];
 }

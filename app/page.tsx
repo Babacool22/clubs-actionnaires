@@ -1,9 +1,21 @@
+import type { Metadata } from "next";
 import { prisma } from "@/lib/prisma";
 import CatalogueClient from "@/components/CatalogueClient";
 import HeroVideo from "@/components/HeroVideo";
 import NewsletterCta from "@/components/NewsletterCta";
-import { BASE_URL, SITE_NAME } from "@/lib/seo";
+import { BASE_URL, SITE_NAME, serializeJsonLd } from "@/lib/seo";
 import { Suspense } from "react";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: BASE_URL,
+    languages: {
+      "fr-FR": BASE_URL,
+      "en-US": `${BASE_URL}/en`,
+      "x-default": BASE_URL,
+    },
+  },
+};
 
 export default async function HomePage() {
   const companies = await prisma.company.findMany({
@@ -30,6 +42,7 @@ export default async function HomePage() {
         publisher: { "@id": `${BASE_URL}/#organization` },
         inLanguage: "fr-FR",
         mainEntity: { "@id": `${BASE_URL}/#itemlist` },
+        hasPart: { "@id": `${BASE_URL}/#presentation-video` },
       },
       {
         "@type": "ItemList",
@@ -51,6 +64,17 @@ export default async function HomePage() {
         name: SITE_NAME,
         url: BASE_URL,
       },
+      {
+        "@type": "VideoObject",
+        "@id": `${BASE_URL}/#presentation-video`,
+        name: "Présentation de Clubs Actionnaires",
+        description:
+          "Présentation du catalogue Clubs Actionnaires et de son fonctionnement.",
+        thumbnailUrl: `${BASE_URL}/presentation-poster.jpg`,
+        uploadDate: "2026-05-09T19:39:14+02:00",
+        contentUrl: `${BASE_URL}/presentation.mp4`,
+        inLanguage: "fr-FR",
+      },
     ],
   };
 
@@ -58,7 +82,7 @@ export default async function HomePage() {
     <div>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(itemListJsonLd) }}
       />
 
       {/* Hero — Nothing style: asymmetric, display type, data-driven */}

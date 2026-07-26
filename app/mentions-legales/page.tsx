@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { BASE_URL, SITE_NAME } from "@/lib/seo";
+import { BASE_URL, SITE_NAME, SOCIAL_IMAGE_PATH } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: `Mentions légales | ${SITE_NAME}`,
@@ -17,6 +17,21 @@ export const metadata: Metadata = {
     siteName: SITE_NAME,
     locale: "fr_FR",
     type: "website",
+    images: [
+      {
+        url: SOCIAL_IMAGE_PATH,
+        width: 1200,
+        height: 630,
+        alt: SITE_NAME,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `Mentions légales | ${SITE_NAME}`,
+    description:
+      "Éditeur, hébergeur et conditions d'utilisation des informations.",
+    images: [SOCIAL_IMAGE_PATH],
   },
   robots: {
     index: true,
@@ -58,17 +73,14 @@ export default function MentionsLegalesPage() {
           <ul className="list-disc pl-5 space-y-1">
             <li>
               <strong className="text-text-primary">Éditeur :</strong>{" "}
-              {/* TODO: remplace par ton nom complet ou ta raison sociale */}
               COULONNIER Bastien
             </li>
             <li>
               <strong className="text-text-primary">Statut :</strong>{" "}
               Personne physique / particulier
-              {/* ou : Auto-entrepreneur / SASU, etc. */}
             </li>
             <li>
               <strong className="text-text-primary">Email de contact :</strong>{" "}
-              {/* TODO: mets un vrai email */}
               <a
                 href="mailto:contact@clubsactionnaires.fr"
                 className="text-interactive hover:underline"
@@ -83,9 +95,6 @@ export default function MentionsLegalesPage() {
               COULONNIER Bastien
             </li>
           </ul>
-          <p className="text-[13px] text-text-disabled">
-            Remplace les champs entre crochets avant la mise en production.
-          </p>
         </section>
 
         <section className="space-y-[var(--space-sm)]">

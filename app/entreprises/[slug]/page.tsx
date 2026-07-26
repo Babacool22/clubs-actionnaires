@@ -12,7 +12,14 @@ import {
 import CatalogueReturnLink from "@/components/CatalogueReturnLink";
 import RegistrationPanel from "@/components/RegistrationPanel";
 import { toYahooSymbol } from "@/lib/yahoo";
-import { BASE_URL, SITE_NAME, clampSeoText } from "@/lib/seo";
+import {
+  BASE_URL,
+  SITE_NAME,
+  SOCIAL_IMAGE_PATH,
+  clampSeoText,
+  serializeJsonLd,
+} from "@/lib/seo";
+import { hasEnglishCompanyTranslation } from "@/lib/company-translations";
 import type { Metadata } from "next";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -57,6 +64,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!company) return { title: "Introuvable" };
   const url = `${BASE_URL}/entreprises/${company.slug}`;
   const seo = buildCompanySeo(company);
+  const lastVerifiedAt = company.lastVerifiedAt ?? company.updatedAt;
   const keywords = [
     `avantages actionnaires ${company.name}`,
     `club actionnaire ${company.name}`,
@@ -72,7 +80,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     keywords,
     authors: [{ name: SITE_NAME, url: BASE_URL }],
     category: company.sector,
-    alternates: { canonical: url },
+    alternates: {
+      canonical: url,
+      ...(hasEnglishCompanyTranslation(company.slug)
+        ? {
+            languages: {
+              "fr-FR": url,
+              "en-US": `${BASE_URL}/en/companies/${company.slug}`,
+            },
+          }
+        : {}),
+    },
     openGraph: {
       title: seo.title,
       description: seo.description,
@@ -80,9 +98,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       siteName: SITE_NAME,
       type: "article",
       locale: "fr_FR",
-      modifiedTime: company.updatedAt.toISOString(),
+      modifiedTime: lastVerifiedAt.toISOString(),
+      images: [
+        {
+          url: SOCIAL_IMAGE_PATH,
+          width: 1200,
+          height: 630,
+          alt: `${seo.title} — ${SITE_NAME}`,
+        },
+      ],
     },
-    twitter: { card: "summary", title: seo.title, description: seo.description },
+    twitter: {
+      card: "summary_large_image",
+      title: seo.title,
+      description: seo.description,
+      images: [SOCIAL_IMAGE_PATH],
+    },
     robots: {
       index: true,
       follow: true,
@@ -254,6 +285,12 @@ function splitRenderedSource(description: string) {
   };
 }
 
+function absoluteLogoUrl(logoUrl: string | null) {
+  if (!logoUrl) return undefined;
+  if (logoUrl.startsWith("http")) return logoUrl;
+  return `${BASE_URL}${logoUrl}`;
+}
+
 export default async function EntreprisePage({ params }: Props) {
   const { slug } = await params;
   const [company, catalogueCompanies] = await Promise.all([
@@ -332,7 +369,14 @@ export default async function EntreprisePage({ params }: Props) {
     : null;
   const pageUrl = `${BASE_URL}/entreprises/${company.slug}`;
   const seo = buildCompanySeo(company);
-  const dateModified = company.updatedAt.toISOString();
+  const lastVerifiedAt = company.lastVerifiedAt ?? company.updatedAt;
+  const dateModified = lastVerifiedAt.toISOString();
+  const lastVerifiedLabel = new Intl.DateTimeFormat("fr-FR", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+    timeZone: "UTC",
+  }).format(lastVerifiedAt);
   const corporationJsonLd = {
     "@context": "https://schema.org",
     "@type": "Corporation",
@@ -341,7 +385,7 @@ export default async function EntreprisePage({ params }: Props) {
     description: company.description,
     url: company.website ?? pageUrl,
     tickerSymbol: company.ticker ?? undefined,
-    logo: company.logoUrl ?? undefined,
+    logo: absoluteLogoUrl(company.logoUrl),
     sameAs: [company.website, company.clubUrl].filter(Boolean),
     mainEntityOfPage: { "@id": `${pageUrl}#webpage` },
   };
@@ -423,18 +467,20 @@ export default async function EntreprisePage({ params }: Props) {
       {/* WebPage + Corporation JSON-LD (invisible) */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(webpageJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(webpageJsonLd) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(corporationJsonLd) }}
+        dangerouslySetInnerHTML={{
+          __html: serializeJsonLd(corporationJsonLd),
+        }}
       />
 
       {/* ItemList JSON-LD des avantages (invisible) */}
       {benefitsJsonLd && (
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(benefitsJsonLd) }}
+          dangerouslySetInnerHTML={{ __html: serializeJsonLd(benefitsJsonLd) }}
         />
       )}
 
@@ -481,6 +527,9 @@ export default async function EntreprisePage({ params }: Props) {
             {benefitTypeNames ? ` : ${benefitTypeNames}.` : "."}
             {!hasCitedSources &&
               " Les conditions peuvent évoluer : vérifiez toujours la page officielle avant toute démarche."}
+          </p>
+          <p className="font-[family-name:var(--font-data)] text-[10px] tracking-[0.05em] text-text-disabled mt-[var(--space-sm)]">
+            DERNIÈRE VÉRIFICATION : {lastVerifiedLabel.toUpperCase()}
           </p>
         </div>
           </div>

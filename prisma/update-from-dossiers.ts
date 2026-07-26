@@ -47,6 +47,21 @@ function normalizeType(raw: string): string {
   return "service";
 }
 
+function parseVerificationDate(value: string | undefined, slug: string) {
+  if (!value) return null;
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(value)) {
+    throw new Error(
+      `Date de verification invalide pour "${slug}": "${value}" (format attendu: YYYY-MM-DD).`,
+    );
+  }
+
+  const date = new Date(`${value}T00:00:00.000Z`);
+  if (Number.isNaN(date.getTime())) {
+    throw new Error(`Date de verification impossible pour "${slug}": "${value}".`);
+  }
+  return date;
+}
+
 type SourceEntry = string | { url: string; title?: string };
 
 type DossierBenefit = {
@@ -138,6 +153,7 @@ async function main() {
         clubUrl: hasField(d, "clubUrl") ? d.clubUrl ?? null : null,
         logoUrl: hasField(d, "logoUrl") ? d.logoUrl ?? null : company.logoUrl,
         minShares: hasField(d, "minShares") ? d.minShares ?? null : null,
+        lastVerifiedAt: parseVerificationDate(d.lastVerifiedAt, d.slug),
       },
     });
 

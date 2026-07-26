@@ -1,5 +1,6 @@
 export const BASE_URL = "https://clubsactionnaires.fr";
 export const SITE_NAME = "Clubs Actionnaires";
+export const SOCIAL_IMAGE_PATH = "/opengraph-image";
 
 export function clampSeoText(value: string, maxLength: number) {
   const normalized = value.replace(/\s+/g, " ").trim();
@@ -13,4 +14,8 @@ export function clampSeoText(value: string, maxLength: number) {
   }
 
   return `${truncated}...`;
+}
+
+export function serializeJsonLd(value: unknown) {
+  return JSON.stringify(value).replace(/</g, "\\u003c");
 }

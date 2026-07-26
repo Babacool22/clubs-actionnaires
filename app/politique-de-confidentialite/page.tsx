@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { BASE_URL, SITE_NAME } from "@/lib/seo";
+import { BASE_URL, SITE_NAME, SOCIAL_IMAGE_PATH } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: `Politique de confidentialité | ${SITE_NAME}`,
@@ -17,6 +17,21 @@ export const metadata: Metadata = {
     siteName: SITE_NAME,
     locale: "fr_FR",
     type: "website",
+    images: [
+      {
+        url: SOCIAL_IMAGE_PATH,
+        width: 1200,
+        height: 630,
+        alt: SITE_NAME,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `Politique de confidentialité | ${SITE_NAME}`,
+    description:
+      "Données personnelles, cookies et droits des utilisateurs sur Clubs Actionnaires.",
+    images: [SOCIAL_IMAGE_PATH],
   },
   robots: {
     index: true,
