@@ -3,9 +3,7 @@ import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Doto, Space_Grotesk, Space_Mono } from "next/font/google";
 import "../globals.css";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import NewsletterCta from "@/components/NewsletterCta";
+import SiteChrome from "@/components/SiteChrome";
 import {
   BASE_URL,
   SITE_NAME,
@@ -178,10 +176,7 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-full flex flex-col bg-black text-text-primary">
-        <Header />
-        <main className="flex-1">{children}</main>
-        <NewsletterCta placement="global_before_footer" />
-        <Footer />
+        <SiteChrome>{children}</SiteChrome>
         <Analytics />
         <SpeedInsights />
       </body>

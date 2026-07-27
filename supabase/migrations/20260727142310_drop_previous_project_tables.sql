@@ -1,0 +1,11 @@
+drop table if exists public.expense_participants cascade;
+drop table if exists public.expense_splits cascade;
+drop table if exists public.expenses cascade;
+drop table if exists public.settlements cascade;
+drop table if exists public.invite_tokens cascade;
+drop table if exists public.memberships cascade;
+drop table if exists public.tasks cascade;
+drop table if exists public.categories cascade;
+drop table if exists public.colocs cascade;
+drop table if exists public.profiles cascade;
+drop table if exists public.users cascade;

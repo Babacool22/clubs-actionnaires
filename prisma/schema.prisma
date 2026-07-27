@@ -46,3 +46,21 @@ model Faq {
 
   @@index([companyId, order])
 }
+
+model NewsletterIssue {
+  id            Int       @id @default(autoincrement())
+  sendDate      DateTime  @unique
+  title         String
+  subject       String
+  previewText   String
+  html          String
+  status        String    @default("draft")
+  beehiivPostId String?
+  segment       String?
+  scheduledAt   DateTime?
+  validatedAt   DateTime?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  @@index([status, sendDate])
+}
