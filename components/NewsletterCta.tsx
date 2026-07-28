@@ -4,23 +4,6 @@ import { track } from "@vercel/analytics";
 import { useId, useState } from "react";
 import type { FormEvent } from "react";
 
-const NEWSLETTER_URL = process.env.NEXT_PUBLIC_NEWSLETTER_URL?.trim() ?? "";
-
-function buildNewsletterUrl(email: string) {
-  const url = new URL(NEWSLETTER_URL, window.location.origin);
-  const trimmedEmail = email.trim();
-
-  if (trimmedEmail) {
-    url.searchParams.set("email", trimmedEmail);
-  }
-
-  url.searchParams.set("utm_source", "clubsactionnaires.fr");
-  url.searchParams.set("utm_medium", "site_cta");
-  url.searchParams.set("utm_campaign", "le_club_actionnaire");
-
-  return url.toString();
-}
-
 type NewsletterCtaVariant = "full" | "compact" | "footer";
 
 type NewsletterCtaProps = {
@@ -46,7 +29,7 @@ export default function NewsletterCta({
   const isCompact = variant === "compact";
   const isFooter = variant === "footer";
 
-  function handleSubmit(event: FormEvent<HTMLFormElement>) {
+  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
     const formData = new FormData(event.currentTarget);
@@ -55,16 +38,36 @@ export default function NewsletterCta({
     track("Newsletter CTA Submit", {
       placement,
       hasEmail: email.trim().length > 0,
-      configured: NEWSLETTER_URL.length > 0,
+      configured: true,
     });
 
-    if (!NEWSLETTER_URL) {
-      setStatus("Lien newsletter a connecter.");
-      return;
-    }
+    setStatus("Inscription en cours...");
 
-    setStatus("");
-    window.open(buildNewsletterUrl(email), "_blank", "noopener,noreferrer");
+    try {
+      const response = await fetch("/api/newsletter/subscribe", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          email,
+          placement,
+          website: String(formData.get("website") ?? ""),
+        }),
+      });
+      const result = (await response.json().catch(() => ({}))) as {
+        message?: string;
+        error?: string;
+      };
+
+      if (!response.ok) {
+        setStatus(result.error ?? "Inscription impossible. Réessayez.");
+        return;
+      }
+
+      setStatus(result.message ?? "Inscription enregistrée.");
+      event.currentTarget.reset();
+    } catch {
+      setStatus("Connexion impossible. Réessayez dans quelques instants.");
+    }
   }
 
   if (isFooter) {
@@ -83,6 +86,13 @@ export default function NewsletterCta({
           <label htmlFor={emailInputId} className="sr-only">
             Adresse email
           </label>
+          <input
+            name="website"
+            tabIndex={-1}
+            autoComplete="off"
+            aria-hidden="true"
+            className="absolute -left-[9999px] h-px w-px opacity-0"
+          />
           <div className="grid grid-cols-[minmax(0,1fr)_auto] border border-border-visible">
             <input
               id={emailInputId}
@@ -151,6 +161,13 @@ export default function NewsletterCta({
           >
             Adresse email
           </label>
+          <input
+            name="website"
+            tabIndex={-1}
+            autoComplete="off"
+            aria-hidden="true"
+            className="absolute -left-[9999px] h-px w-px opacity-0"
+          />
           <div className="grid grid-cols-1 gap-px bg-border sm:grid-cols-[minmax(0,1fr)_auto]">
             <input
               id={emailInputId}
