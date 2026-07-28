@@ -1,14 +1,20 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import NewsletterDeleteButton from "@/components/NewsletterDeleteButton";
 import NewsletterAdminWorkbench from "@/components/NewsletterAdminWorkbench";
+import NewsletterTemplateButton from "@/components/NewsletterTemplateButton";
 import {
   getNewsletterIssue,
   issueStatusLabel,
   listNewsletterIssues,
   type NewsletterIssue,
 } from "@/lib/newsletter";
+import { CLUBS_ACTIONNAIRES_WEEKLY_TEMPLATE } from "@/lib/newsletter-template";
 import {
   generateNewsletterDraftAction,
+  deleteNewsletterIssueAction,
+  sendNewsletterToBeehiivAction,
+  scheduleNewsletterInBeehiivAction,
   updateNewsletterIssueAction,
   updateNewsletterStatusAction,
 } from "./actions";
@@ -67,7 +73,7 @@ function toParisDateTimeInput(date: Date) {
 function tokenHref(token: string, issueId?: number) {
   const params = new URLSearchParams();
   if (token) params.set("token", token);
-  if (issueId) params.set("issue", String(issueId));
+  if (issueId && issueId > 0) params.set("issue", String(issueId));
   const query = params.toString();
   return `/admin/newsletter${query ? `?${query}` : ""}`;
 }
@@ -86,6 +92,29 @@ function StatusPill({ status }: { status: string }) {
     >
       {issueStatusLabel(status)}
     </span>
+  );
+}
+
+function FeedbackBanner({
+  error,
+  success,
+}: {
+  error?: string;
+  success?: string;
+}) {
+  if (!error && !success) return null;
+
+  const isError = Boolean(error);
+  return (
+    <div
+      className={`mb-[var(--space-lg)] border p-[var(--space-md)] text-[14px] leading-[1.5] ${
+        isError
+          ? "border-accent bg-black text-accent"
+          : "border-success bg-black text-success"
+      }`}
+    >
+      {error ?? success}
+    </div>
   );
 }
 
@@ -200,6 +229,9 @@ function IssueList({
 
 function IssueEditor({ issue, token }: { issue: NewsletterIssue; token: string }) {
   const htmlTextareaId = `newsletter-html-${issue.id}`;
+  const canScheduleInBeehiiv =
+    issue.status === "validated" || issue.status === "synced";
+  const alreadyScheduled = issue.status === "scheduled";
 
   return (
     <div className="grid min-w-0 gap-[var(--space-lg)]">
@@ -211,6 +243,11 @@ function IssueEditor({ issue, token }: { issue: NewsletterIssue; token: string }
               <span className="font-[family-name:var(--font-data)] text-[11px] uppercase text-text-disabled">
                 Envoi {formatParisDateTime(issue.sendDate)}
               </span>
+              {issue.beehiivPostId ? (
+                <span className="font-[family-name:var(--font-data)] text-[11px] uppercase text-text-disabled">
+                  beehiiv {issue.beehiivPostId}
+                </span>
+              ) : null}
             </div>
             <h1 className="break-words text-[26px] font-medium leading-[1.15] text-text-display sm:text-[32px]">
               {issue.subject}
@@ -226,20 +263,17 @@ function IssueEditor({ issue, token }: { issue: NewsletterIssue; token: string }
                 Valider
               </button>
             </form>
+            <NewsletterDeleteButton
+              action={deleteNewsletterIssueAction}
+              adminToken={token}
+              issueId={issue.id}
+            />
             <form action={updateNewsletterStatusAction}>
               <input type="hidden" name="adminToken" value={token} />
               <input type="hidden" name="issueId" value={issue.id} />
               <input type="hidden" name="status" value="draft" />
               <button className="min-h-10 border border-border-visible px-[var(--space-md)] font-[family-name:var(--font-data)] text-[11px] uppercase text-text-display transition-colors hover:bg-surface-raised">
                 Brouillon
-              </button>
-            </form>
-            <form action={updateNewsletterStatusAction}>
-              <input type="hidden" name="adminToken" value={token} />
-              <input type="hidden" name="issueId" value={issue.id} />
-              <input type="hidden" name="status" value="archived" />
-              <button className="min-h-10 border border-border-visible px-[var(--space-md)] font-[family-name:var(--font-data)] text-[11px] uppercase text-text-secondary transition-colors hover:bg-surface-raised">
-                Archiver
               </button>
             </form>
           </div>
@@ -252,7 +286,7 @@ function IssueEditor({ issue, token }: { issue: NewsletterIssue; token: string }
           <div className="grid gap-[var(--space-md)] bg-surface p-[var(--space-md)] lg:grid-cols-2">
             <label className="grid gap-[var(--space-xs)]">
               <span className="font-[family-name:var(--font-data)] text-[11px] uppercase text-text-disabled">
-                Titre interne
+                Nom du brouillon (interne)
               </span>
               <input
                 name="title"
@@ -263,7 +297,7 @@ function IssueEditor({ issue, token }: { issue: NewsletterIssue; token: string }
 
             <label className="grid gap-[var(--space-xs)]">
               <span className="font-[family-name:var(--font-data)] text-[11px] uppercase text-text-disabled">
-                Date d&apos;envoi Paris
+                Date et heure souhaitees d&apos;envoi (heure de Paris)
               </span>
               <input
                 name="sendDate"
@@ -275,7 +309,7 @@ function IssueEditor({ issue, token }: { issue: NewsletterIssue; token: string }
 
             <label className="grid gap-[var(--space-xs)] lg:col-span-2">
               <span className="font-[family-name:var(--font-data)] text-[11px] uppercase text-text-disabled">
-                Sujet beehiiv
+                Objet de l&apos;e-mail (visible dans la boite de reception)
               </span>
               <input
                 name="subject"
@@ -286,7 +320,7 @@ function IssueEditor({ issue, token }: { issue: NewsletterIssue; token: string }
 
             <label className="grid gap-[var(--space-xs)] lg:col-span-2">
               <span className="font-[family-name:var(--font-data)] text-[11px] uppercase text-text-disabled">
-                Preview text
+                Texte d&apos;aperçu (affiche apres l&apos;objet dans la boite de reception)
               </span>
               <input
                 name="previewText"
@@ -297,7 +331,7 @@ function IssueEditor({ issue, token }: { issue: NewsletterIssue; token: string }
 
             <label className="grid gap-[var(--space-xs)] lg:col-span-2">
               <span className="font-[family-name:var(--font-data)] text-[11px] uppercase text-text-disabled">
-                Segment beehiiv
+                Segment beehiiv (optionnel : laisser vide pour tous les abonnes)
               </span>
               <input
                 name="segment"
@@ -309,8 +343,12 @@ function IssueEditor({ issue, token }: { issue: NewsletterIssue; token: string }
 
             <label className="grid gap-[var(--space-xs)] lg:col-span-2">
               <span className="font-[family-name:var(--font-data)] text-[11px] uppercase text-text-disabled">
-                HTML email
+                Contenu HTML de l&apos;e-mail
               </span>
+              <NewsletterTemplateButton
+                templateHtml={CLUBS_ACTIONNAIRES_WEEKLY_TEMPLATE}
+                targetTextareaId={htmlTextareaId}
+              />
               <textarea
                 id={htmlTextareaId}
                 name="html"
@@ -325,9 +363,39 @@ function IssueEditor({ issue, token }: { issue: NewsletterIssue; token: string }
             <p className="text-[12px] text-text-disabled">
               Derniere mise a jour : {formatParisDateTime(issue.updatedAt)}
             </p>
-            <button className="min-h-11 bg-accent px-[var(--space-lg)] font-[family-name:var(--font-data)] text-[11px] uppercase text-text-display transition-opacity hover:opacity-90">
-              Enregistrer
-            </button>
+            <div className="flex flex-wrap gap-[var(--space-sm)]">
+              <button
+                formAction={sendNewsletterToBeehiivAction}
+                className="min-h-11 border border-border-visible px-[var(--space-lg)] font-[family-name:var(--font-data)] text-[11px] uppercase text-text-display transition-colors hover:bg-surface-raised"
+              >
+                {issue.beehiivPostId
+                  ? "Renvoyer vers beehiiv"
+                  : "Envoyer vers beehiiv"}
+              </button>
+              <button
+                formAction={scheduleNewsletterInBeehiivAction}
+                disabled={!canScheduleInBeehiiv}
+                title={
+                  alreadyScheduled
+                    ? "Cette newsletter est deja programmee."
+                    : canScheduleInBeehiiv
+                      ? "Programmer l'envoi dans beehiiv a la date indiquee."
+                      : "Validez d'abord cette newsletter avant de la programmer."
+                }
+                className={`min-h-11 border px-[var(--space-lg)] font-[family-name:var(--font-data)] text-[11px] uppercase transition-colors ${
+                  canScheduleInBeehiiv
+                    ? "border-success bg-success text-white hover:opacity-90"
+                    : "cursor-not-allowed border-border-visible text-text-disabled"
+                }`}
+              >
+                {alreadyScheduled
+                  ? "Programmée dans beehiiv"
+                  : "Programmer dans beehiiv"}
+              </button>
+              <button className="min-h-11 bg-accent px-[var(--space-lg)] font-[family-name:var(--font-data)] text-[11px] uppercase text-text-display transition-opacity hover:opacity-90">
+                Enregistrer
+              </button>
+            </div>
           </div>
         </form>
       </section>
@@ -343,6 +411,9 @@ function IssueEditor({ issue, token }: { issue: NewsletterIssue; token: string }
 export default async function NewsletterAdminPage({ searchParams }: PageProps) {
   const params = await searchParams;
   const token = firstParam(params.token) ?? "";
+  const beehiivError = firstParam(params.beehiivError);
+  const beehiivSuccess = firstParam(params.beehiivSuccess);
+  const deleted = firstParam(params.deleted);
 
   if (!hasAdminAccess(token)) {
     return <AccessGate />;
@@ -374,6 +445,8 @@ export default async function NewsletterAdminPage({ searchParams }: PageProps) {
           </button>
         </form>
       </div>
+
+      <FeedbackBanner error={beehiivError} success={beehiivSuccess ?? deleted} />
 
       {hydratedIssue ? (
         <div className="grid gap-[var(--space-lg)] lg:grid-cols-[20rem_minmax(0,1fr)]">

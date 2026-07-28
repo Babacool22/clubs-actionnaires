@@ -14,6 +14,7 @@ export default function NewsletterAdminWorkbench({
   sourceTextareaId,
 }: NewsletterAdminWorkbenchProps) {
   const [mode, setMode] = useState<"preview" | "code">("preview");
+  const [viewport, setViewport] = useState<"desktop" | "mobile">("desktop");
   const [copyStatus, setCopyStatus] = useState("");
   const [currentHtml, setCurrentHtml] = useState(html);
 
@@ -46,7 +47,8 @@ export default function NewsletterAdminWorkbench({
   return (
     <div className="min-w-0 border border-border bg-black">
       <div className="flex flex-col gap-[var(--space-sm)] border-b border-border p-[var(--space-md)] sm:flex-row sm:items-center sm:justify-between">
-        <div className="inline-grid grid-cols-2 border border-border-visible bg-surface">
+        <div className="flex flex-wrap gap-[var(--space-sm)]">
+          <div className="inline-grid grid-cols-2 border border-border-visible bg-surface">
           <button
             type="button"
             onClick={() => setMode("preview")}
@@ -69,6 +71,33 @@ export default function NewsletterAdminWorkbench({
           >
             HTML
           </button>
+          </div>
+          {mode === "preview" ? (
+            <div className="inline-grid grid-cols-2 border border-border-visible bg-surface">
+              <button
+                type="button"
+                onClick={() => setViewport("desktop")}
+                className={`min-h-10 px-[var(--space-md)] font-[family-name:var(--font-data)] text-[11px] uppercase transition-colors ${
+                  viewport === "desktop"
+                    ? "bg-text-display text-black"
+                    : "text-text-secondary hover:text-text-display"
+                }`}
+              >
+                Ordinateur
+              </button>
+              <button
+                type="button"
+                onClick={() => setViewport("mobile")}
+                className={`min-h-10 px-[var(--space-md)] font-[family-name:var(--font-data)] text-[11px] uppercase transition-colors ${
+                  viewport === "mobile"
+                    ? "bg-text-display text-black"
+                    : "text-text-secondary hover:text-text-display"
+                }`}
+              >
+                Mobile
+              </button>
+            </div>
+          ) : null}
         </div>
 
         <div className="flex items-center gap-[var(--space-sm)]">
@@ -88,12 +117,25 @@ export default function NewsletterAdminWorkbench({
       </div>
 
       {mode === "preview" ? (
-        <iframe
-          title="Apercu newsletter beehiiv"
-          srcDoc={currentHtml}
-          sandbox=""
-          className="h-[42rem] w-full bg-white"
-        />
+        <div className="overflow-auto bg-surface-raised p-[var(--space-md)]">
+          <div
+            className={`mx-auto overflow-hidden border border-border-visible bg-white shadow-2xl transition-[width] ${
+              viewport === "mobile" ? "w-[375px] max-w-full" : "w-full"
+            }`}
+          >
+            <iframe
+              title={`Apercu newsletter beehiiv ${viewport}`}
+              srcDoc={currentHtml}
+              sandbox=""
+              className="h-[42rem] w-full bg-white"
+            />
+          </div>
+          <p className="mx-auto mt-[var(--space-sm)] max-w-[680px] text-center font-[family-name:var(--font-data)] text-[10px] uppercase text-text-disabled">
+            {viewport === "mobile"
+              ? "Apercu a 375 px de large"
+              : "Apercu sur ordinateur"}
+          </p>
+        </div>
       ) : (
         <pre className="max-h-[42rem] overflow-auto whitespace-pre-wrap break-words p-[var(--space-md)] font-[family-name:var(--font-data)] text-[12px] leading-[1.6] text-text-secondary">
           {currentHtml}

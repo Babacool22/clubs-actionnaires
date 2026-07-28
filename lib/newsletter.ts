@@ -481,13 +481,66 @@ export async function updateNewsletterIssueStatus(
   return toNewsletterIssue(data);
 }
 
-export async function createBeehiivPost(issueId: number, options?: { confirm?: boolean }) {
+export async function deleteNewsletterIssue(id: number) {
+  const supabase = createSupabaseAdminClient();
+  const { error } = await supabase
+    .from(newsletterIssuesTableName())
+    .delete()
+    .eq("id", id);
+
+  if (error) throw error;
+}
+
+function beehiivPublicationId(publicationId: string) {
+  const trimmed = publicationId.trim();
+  return trimmed.startsWith("pub_") ? trimmed : `pub_${trimmed}`;
+}
+
+function beehiivApiConfig() {
   const apiKey = process.env.BEEHIIV_API_KEY;
   const publicationId = process.env.BEEHIIV_PUBLICATION_ID;
   if (!apiKey || !publicationId) {
     throw new Error("BEEHIIV_API_KEY et BEEHIIV_PUBLICATION_ID sont requis.");
   }
 
+  return {
+    apiBase: process.env.BEEHIIV_API_BASE_URL ?? "https://api.beehiiv.com/v2",
+    apiKey,
+    publicationId: beehiivPublicationId(publicationId),
+  };
+}
+
+function buildBeehiivPostBody(
+  issue: NewsletterIssue,
+  status: "draft" | "confirmed",
+) {
+  const body: Record<string, unknown> = {
+    title: issue.title,
+    subtitle: issue.previewText,
+    body_content: issue.html,
+    status,
+    email_settings: {
+      email_subject_line: issue.subject,
+      email_preview_text: issue.previewText,
+    },
+  };
+
+  if (status === "confirmed") {
+    body.scheduled_at = issue.sendDate.toISOString();
+  }
+
+  if (issue.segment) {
+    body.recipients = {
+      email: {
+        include_segment_ids: [issue.segment],
+      },
+    };
+  }
+
+  return body;
+}
+
+async function getNewsletterIssueRow(issueId: number) {
   const supabase = createSupabaseAdminClient();
   const { data: issueRow, error: issueError } = await supabase
     .from(newsletterIssuesTableName())
@@ -496,27 +549,15 @@ export async function createBeehiivPost(issueId: number, options?: { confirm?: b
     .single<NewsletterIssueRow>();
 
   if (issueError) throw issueError;
+  return issueRow;
+}
 
-  const issue = toNewsletterIssue(issueRow);
-  const apiBase = process.env.BEEHIIV_API_BASE_URL ?? "https://api.beehiiv.com/v2";
+export async function createBeehiivPost(issueId: number, options?: { confirm?: boolean }) {
+  const { apiBase, apiKey, publicationId } = beehiivApiConfig();
+  const supabase = createSupabaseAdminClient();
+  const issue = toNewsletterIssue(await getNewsletterIssueRow(issueId));
   const status = options?.confirm ? "confirmed" : "draft";
-  const body: Record<string, unknown> = {
-    title: issue.title,
-      subtitle: issue.previewText,
-      body_content: {
-        type: "html",
-        html: issue.html,
-    },
-    status,
-    email_settings: {
-      subject_line: issue.subject,
-      preview_text: issue.previewText,
-    },
-  };
-
-  if (options?.confirm) {
-    body.scheduled_at = issue.sendDate.toISOString();
-  }
+  const body = buildBeehiivPostBody(issue, status);
 
   const response = await fetch(`${apiBase}/publications/${publicationId}/posts`, {
     method: "POST",
@@ -541,6 +582,61 @@ export async function createBeehiivPost(issueId: number, options?: { confirm?: b
       beehiiv_post_id: beehiivPostId,
       status: options?.confirm ? "scheduled" : "synced",
       scheduled_at: options?.confirm ? issue.sendDate.toISOString() : null,
+      updated_at: new Date().toISOString(),
+    })
+    .eq("id", issue.id)
+    .select(NEWSLETTER_ISSUE_SELECT)
+    .single<NewsletterIssueRow>();
+
+  if (updateError) throw updateError;
+  return toNewsletterIssue(updatedIssue);
+}
+
+export async function scheduleBeehiivPost(issueId: number) {
+  const { apiBase, apiKey, publicationId } = beehiivApiConfig();
+  const supabase = createSupabaseAdminClient();
+  const issue = toNewsletterIssue(await getNewsletterIssueRow(issueId));
+
+  if (issue.status === "draft") {
+    throw new Error("Valide d'abord cette newsletter avant de la programmer.");
+  }
+
+  if (issue.status === "scheduled") {
+    throw new Error("Cette newsletter est deja programmee dans beehiiv.");
+  }
+
+  if (!["validated", "synced"].includes(issue.status)) {
+    throw new Error("Cette newsletter ne peut pas etre programmee depuis son statut actuel.");
+  }
+
+  const body = buildBeehiivPostBody(issue, "confirmed");
+  const postId = issue.beehiivPostId;
+  const endpoint = postId
+    ? `${apiBase}/publications/${publicationId}/posts/${postId}`
+    : `${apiBase}/publications/${publicationId}/posts`;
+  const response = await fetch(endpoint, {
+    method: postId ? "PATCH" : "POST",
+    headers: {
+      Authorization: `Bearer ${apiKey}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(body),
+  });
+
+  if (!response.ok) {
+    const details = await response.text();
+    throw new Error(`beehiiv a refuse la programmation (${response.status}): ${details}`);
+  }
+
+  const payload = (await response.json()) as { data?: { id?: string }; id?: string };
+  const beehiivPostId = postId ?? payload.data?.id ?? payload.id ?? null;
+
+  const { data: updatedIssue, error: updateError } = await supabase
+    .from(newsletterIssuesTableName())
+    .update({
+      beehiiv_post_id: beehiivPostId,
+      status: "scheduled",
+      scheduled_at: issue.sendDate.toISOString(),
       updated_at: new Date().toISOString(),
     })
     .eq("id", issue.id)
