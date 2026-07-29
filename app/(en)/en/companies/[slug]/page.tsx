@@ -143,12 +143,22 @@ export default async function EnglishCompanyPage({ params }: Props) {
 
   if (!company) notFound();
 
+  if (translation.benefits.length !== company.benefits.length) {
+    throw new Error(
+      `English benefit count mismatch for ${slug}: ${translation.benefits.length}/${company.benefits.length}`
+    );
+  }
+  if (translation.faqs.length !== company.faqs.length) {
+    throw new Error(
+      `English FAQ count mismatch for ${slug}: ${translation.faqs.length}/${company.faqs.length}`
+    );
+  }
+
   const benefits = company.benefits.map((benefit, index) => ({
     ...benefit,
-    title: translation.benefits[index]?.title ?? benefit.title,
-    description:
-      translation.benefits[index]?.description ?? benefit.description,
-    value: translation.benefits[index]?.value ?? benefit.value,
+    title: translation.benefits[index].title,
+    description: translation.benefits[index].description,
+    value: translation.benefits[index].value ?? benefit.value,
     sourceUrl: splitRenderedSource(benefit.description).sourceUrl,
   }));
   const faqs = translation.faqs.map((faq, index) => ({
@@ -315,7 +325,7 @@ export default async function EnglishCompanyPage({ params }: Props) {
                 DETAILED PAGE - CITED SOURCES
               </p>
               <p className="break-words text-[14px] sm:text-[15px] text-text-secondary leading-[1.6] [overflow-wrap:anywhere]">
-                This English pilot tracks {benefits.length} shareholder benefit
+                This page tracks {benefits.length} shareholder benefit
                 {benefits.length > 1 ? "s" : ""} or service
                 {benefits.length > 1 ? "s" : ""} available from{" "}
                 {company.minShares ?? 1} share

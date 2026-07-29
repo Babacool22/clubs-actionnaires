@@ -3,6 +3,7 @@ import { prisma } from "@/lib/prisma";
 import CatalogueClient from "@/components/CatalogueClient";
 import HeroVideo from "@/components/HeroVideo";
 import NewsletterCta from "@/components/NewsletterCta";
+import ParticleDotoText from "@/components/ParticleDotoText";
 import { BASE_URL, SITE_NAME, serializeJsonLd } from "@/lib/seo";
 import { Suspense } from "react";
 
@@ -92,11 +93,9 @@ export default async function HomePage() {
             {/* Primary layer — Display typography */}
             <h1
               aria-label="CLUBS ACTIONNAIRES"
-              className="font-[family-name:var(--font-display)] text-[42px] sm:text-[48px] md:text-[72px] font-bold text-text-display leading-[1.0] tracking-[-0.03em] mb-[var(--space-lg)]"
+              className="font-[family-name:var(--font-display)] text-[42px] sm:text-[48px] md:text-[72px] font-bold text-text-display leading-[1.0] tracking-[0.01em] mb-[var(--space-lg)]"
             >
-              CLUBS
-              <br />
-              ACTIONNAIRES
+              <ParticleDotoText lines={["CLUBS", "ACTIONN\u200AAIRES"]} />
             </h1>
 
             {/* Secondary layer */}
@@ -107,8 +106,11 @@ export default async function HomePage() {
             {/* Data metrics — tertiary layer */}
             <div className="grid grid-cols-3 gap-[var(--space-sm)] sm:flex sm:items-end sm:gap-[var(--space-2xl)]">
               <div className="min-w-0">
-                <p className="font-[family-name:var(--font-display)] text-[34px] sm:text-[48px] font-bold text-text-display leading-none">
-                  {companies.length}
+                <p
+                  aria-label={`${companies.length}`}
+                  className="font-[family-name:var(--font-display)] text-[34px] sm:text-[48px] font-bold text-text-display leading-none"
+                >
+                  <ParticleDotoText lines={[`${companies.length}`]} />
                 </p>
                 <p className="font-[family-name:var(--font-data)] text-[9px] sm:text-[11px] tracking-[0.05em] sm:tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]">
                   ENTREPRISES
@@ -116,8 +118,11 @@ export default async function HomePage() {
               </div>
               <div className="hidden sm:block w-px h-10 bg-border-visible" />
               <div className="min-w-0 border-l border-border-visible pl-[var(--space-sm)] sm:border-0 sm:pl-0">
-                <p className="font-[family-name:var(--font-display)] text-[34px] sm:text-[48px] font-bold text-text-display leading-none">
-                  {totalBenefits}
+                <p
+                  aria-label={`${totalBenefits}`}
+                  className="font-[family-name:var(--font-display)] text-[34px] sm:text-[48px] font-bold text-text-display leading-none"
+                >
+                  <ParticleDotoText lines={[`${totalBenefits}`]} />
                 </p>
                 <p className="font-[family-name:var(--font-data)] text-[9px] sm:text-[11px] tracking-[0.05em] sm:tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]">
                   AVANTAGES
@@ -125,8 +130,11 @@ export default async function HomePage() {
               </div>
               <div className="hidden sm:block w-px h-10 bg-border-visible" />
               <div className="min-w-0 border-l border-border-visible pl-[var(--space-sm)] sm:border-0 sm:pl-0">
-                <p className="font-[family-name:var(--font-display)] text-[34px] sm:text-[48px] font-bold text-text-display leading-none">
-                  {sectors.length}
+                <p
+                  aria-label={`${sectors.length}`}
+                  className="font-[family-name:var(--font-display)] text-[34px] sm:text-[48px] font-bold text-text-display leading-none"
+                >
+                  <ParticleDotoText lines={[`${sectors.length}`]} />
                 </p>
                 <p className="font-[family-name:var(--font-data)] text-[9px] sm:text-[11px] tracking-[0.05em] sm:tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]">
                   SECTEURS

@@ -49,44 +49,44 @@ export const companyEnglishTranslations: Record<
       {
         title: "Preferential rates on wines, champagnes and spirits",
         description:
-          "From 1 share, members can access the Moet Hennessy members' store, with selected wines, champagnes and spirits offered at club rates. Prices are reviewed regularly, so always check the current catalogue in the official members' area before ordering.",
-        value: "Member rates, reviewed periodically",
+          "From 1 share, members can access the Moet Hennessy members' store. Historical examples, which must be checked against the current annually revised catalogue, include Moet & Chandon Imperial at about EUR186 per case of 6, Ruinart Brut at about EUR270 per case of 6 and Hennessy V.S.O.P. at about EUR47 per bottle. Products can be personalised and standard delivery is available in mainland France.",
+        value: "Member rates, revised annually",
       },
       {
         title: "Les Echos Digital Premium subscription -50%",
         description:
-          "From 1 share, club members may access a discounted annual Les Echos Digital Premium subscription through the members' area.",
-        value: "Around -50%",
+          "From 1 share, club members may subscribe to Les Echos Digital Premium for EUR234 including tax per year through the members' area, approximately 50% below the public rate.",
+        value: "EUR234/year, around -50%",
       },
       {
         title: "Investir Privilege subscription -50%",
         description:
-          "From 1 share, members may subscribe to Investir Privilege at a reduced annual rate through the club.",
-        value: "Around -50%",
+          "From 1 share, members may subscribe to Investir Privilege for EUR138 including tax per year through their personal club area, approximately 50% below the public rate.",
+        value: "EUR138/year, around -50%",
       },
       {
         title: "Connaissance des Arts subscription -40%",
         description:
-          "From 1 share, LVMH shareholders' club members may access a preferential annual subscription to Connaissance des Arts.",
-        value: "Around -40%",
+          "From 1 share, members may subscribe to Connaissance des Arts for EUR69 per year through the members' area, approximately 40% below the public rate.",
+        value: "EUR69/year, around -40%",
       },
       {
         title: "Le Parisien paper and digital subscription -60%",
         description:
-          "From 1 share, the club has historically offered a discounted Le Parisien paper and digital subscription.",
-        value: "Around -60%",
+          "From 1 share, the club offers the Le Parisien paper and digital package for EUR29.95 per month, approximately 60% below the standard rate.",
+        value: "EUR29.95/month, around -60%",
       },
       {
         title: "Fondation Louis Vuitton tickets",
         description:
-          "From 1 share, members may access preferential fast-track tickets for Fondation Louis Vuitton, with annual limits per member.",
-        value: "Preferential member ticketing",
+          "From 1 share, members may buy Premium fast-track tickets for Fondation Louis Vuitton at EUR10 each, limited to 2 tickets per member per year. The annual Y-Pass is EUR150 instead of EUR180.",
+        value: "EUR10/ticket, max. 2/year; Y-Pass EUR150",
       },
       {
         title: "Visits to selected champagne houses and maisons",
         description:
-          "From 1 share, the club can provide access to free or discounted visits at selected group houses, subject to availability and booking conditions.",
-        value: "Free or discounted, depending on the house",
+          "From 1 share, members can book visits directly with selected group houses and present their membership card: Hennessy and Veuve Clicquot are free for 2 people, Ruinart is EUR35 per person instead of EUR75, Moet & Chandon offers a free visit and tasting, and Mercier offers a visit with a complimentary glass.",
+        value: "Free to about -50%, depending on the house",
       },
       {
         title: "Private events and house experiences",
@@ -97,13 +97,13 @@ export const companyEnglishTranslations: Record<
       {
         title: "LVMH Shareholders' Club membership card",
         description:
-          "The membership card is issued after online registration and verification of share ownership. It gives access to the club's benefits during its validity period.",
-        value: "Free, generally valid for 2 years",
+          "From 1 share, the renewable personal membership card is valid for 2 years and gives access to all club benefits. It is issued after online registration with proof of share ownership dated within the last 3 months and proof of identity.",
+        value: "Free, valid for 2 years and renewable",
       },
       {
         title: "Dedicated shareholder relations service",
         description:
-          "LVMH provides a shareholder relations contact channel for questions about share ownership, the club and shareholder events.",
+          "From 1 share, members can contact the dedicated Shareholder Relations service on 01 44 13 21 50, Monday to Friday from 9:30 a.m. to 6 p.m., or at clubactionnaires@lvmh.com for questions about ownership, club registration or events.",
         value: "Free",
       },
     ],
@@ -111,7 +111,7 @@ export const companyEnglishTranslations: Record<
       {
         question: "How many LVMH shares do I need to join the club?",
         answer:
-          "One LVMH share is enough to apply for the LVMH Shareholders' Club. Membership is free and no annual fee is required.",
+          "One LVMH share is enough to join the LVMH Shareholders' Club. Membership is free, no annual fee is required, and the renewable membership card is valid for 2 years. The entry cost is the live market price of one MC share.",
       },
       {
         question: "Are the benefits restricted to registered shares?",
@@ -121,22 +121,22 @@ export const companyEnglishTranslations: Record<
       {
         question: "How do I apply for the LVMH Shareholders' Club?",
         answer:
-          "Registration is completed online through the official club website. You need a recent shareholding certificate from your broker and proof of identity.",
+          "Register online at clublvmh-actionnaires.fr with a shareholding certificate issued by your broker within the last 3 months and proof of identity. The membership card is sent within 2 to 3 weeks.",
       },
       {
         question: "Is there a minimum holding period?",
         answer:
-          "No specific minimum holding period is required for club membership. You need to hold at least 1 share when applying and be able to document it.",
+          "No minimum holding period is required. You need to hold at least 1 share when applying and be able to document it. LVMH does not offer an enhanced dividend or a loyalty bonus linked to the holding period.",
       },
       {
         question: "What are the main measurable benefits?",
         answer:
-          "The clearest benefits are discounted media subscriptions, preferential Fondation Louis Vuitton ticketing, member rates on selected Moet Hennessy products and access to selected visits or events.",
+          "The clearest benefits include press subscriptions discounted by about 40% to 60%, Fondation Louis Vuitton tickets at EUR10 with a limit of 2 per year, annually revised member prices on selected Moet Hennessy products, and free or discounted visits to selected houses.",
       },
       {
         question: "Are the wine and spirits prices fixed?",
         answer:
-          "No. Member prices can change over time. Check the official LVMH Shareholders' Club members' area for the current catalogue and terms before ordering.",
+          "No. Member prices are reviewed annually. Historical examples include Moet Imperial at about EUR186 per case of 6, Ruinart Brut at about EUR270 per case of 6 and Hennessy V.S.O.P. at about EUR47 per bottle. Always check the current catalogue at clublvmh-actionnaires.fr before ordering.",
       },
       {
         question: "Does the club offer discounts on Louis Vuitton or Dior products?",
@@ -145,6 +145,11 @@ export const companyEnglishTranslations: Record<
       },
     ],
   },
+  ...companyEnglishTranslationsGroup1,
+  ...companyEnglishTranslationsGroup2,
+  ...companyEnglishTranslationsGroup3,
+  ...companyEnglishTranslationsGroup4,
+  ...companyEnglishTranslationsGroup5,
 };
 
 export function getEnglishCompanyTranslation(slug: string) {
@@ -158,3 +163,8 @@ export function getEnglishCompanySlugs() {
 export function hasEnglishCompanyTranslation(slug: string) {
   return slug in companyEnglishTranslations;
 }
+import { companyEnglishTranslationsGroup1 } from "@/lib/company-translations/en/group-1";
+import { companyEnglishTranslationsGroup2 } from "@/lib/company-translations/en/group-2";
+import { companyEnglishTranslationsGroup3 } from "@/lib/company-translations/en/group-3";
+import { companyEnglishTranslationsGroup4 } from "@/lib/company-translations/en/group-4";
+import { companyEnglishTranslationsGroup5 } from "@/lib/company-translations/en/group-5";

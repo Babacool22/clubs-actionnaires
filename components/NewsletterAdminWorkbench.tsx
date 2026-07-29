@@ -44,33 +44,57 @@ export default function NewsletterAdminWorkbench({
     }
   }
 
+  function downloadHtml() {
+    const blob = new Blob([currentHtml], { type: "text/html;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+    const anchor = document.createElement("a");
+    anchor.href = url;
+    anchor.download = "clubs-actionnaires-newsletter.html";
+    document.body.appendChild(anchor);
+    anchor.click();
+    anchor.remove();
+    URL.revokeObjectURL(url);
+    setCopyStatus("Fichier HTML telecharge.");
+    window.setTimeout(() => setCopyStatus(""), 1800);
+  }
+
   return (
     <div className="min-w-0 border border-border bg-black">
+      <div className="flex justify-end border-b border-border bg-surface p-[var(--space-md)]">
+        <a
+          href="https://app.beehiiv.com/"
+          target="_blank"
+          rel="noreferrer"
+          className="shrink-0 font-[family-name:var(--font-data)] text-[11px] uppercase text-accent hover:underline"
+        >
+          Ouvrir beehiiv
+        </a>
+      </div>
       <div className="flex flex-col gap-[var(--space-sm)] border-b border-border p-[var(--space-md)] sm:flex-row sm:items-center sm:justify-between">
         <div className="flex flex-wrap gap-[var(--space-sm)]">
           <div className="inline-grid grid-cols-2 border border-border-visible bg-surface">
-          <button
-            type="button"
-            onClick={() => setMode("preview")}
-            className={`min-h-10 px-[var(--space-md)] font-[family-name:var(--font-data)] text-[11px] uppercase transition-colors ${
-              mode === "preview"
-                ? "bg-text-display text-black"
-                : "text-text-secondary hover:text-text-display"
-            }`}
-          >
-            Apercu
-          </button>
-          <button
-            type="button"
-            onClick={() => setMode("code")}
-            className={`min-h-10 px-[var(--space-md)] font-[family-name:var(--font-data)] text-[11px] uppercase transition-colors ${
-              mode === "code"
-                ? "bg-text-display text-black"
-                : "text-text-secondary hover:text-text-display"
-            }`}
-          >
-            HTML
-          </button>
+            <button
+              type="button"
+              onClick={() => setMode("preview")}
+              className={`min-h-10 px-[var(--space-md)] font-[family-name:var(--font-data)] text-[11px] uppercase transition-colors ${
+                mode === "preview"
+                  ? "bg-text-display text-black"
+                  : "text-text-secondary hover:text-text-display"
+              }`}
+            >
+              Apercu
+            </button>
+            <button
+              type="button"
+              onClick={() => setMode("code")}
+              className={`min-h-10 px-[var(--space-md)] font-[family-name:var(--font-data)] text-[11px] uppercase transition-colors ${
+                mode === "code"
+                  ? "bg-text-display text-black"
+                  : "text-text-secondary hover:text-text-display"
+              }`}
+            >
+              HTML
+            </button>
           </div>
           {mode === "preview" ? (
             <div className="inline-grid grid-cols-2 border border-border-visible bg-surface">
@@ -106,13 +130,22 @@ export default function NewsletterAdminWorkbench({
               {copyStatus}
             </span>
           )}
-          <button
-            type="button"
-            onClick={copyHtml}
-            className="min-h-10 border border-border-visible px-[var(--space-md)] font-[family-name:var(--font-data)] text-[11px] uppercase text-text-display transition-colors hover:bg-surface-raised"
-          >
-            {copyLabel}
-          </button>
+          <div className="flex flex-wrap gap-[var(--space-xs)]">
+            <button
+              type="button"
+              onClick={copyHtml}
+              className="min-h-10 border border-border-visible px-[var(--space-md)] font-[family-name:var(--font-data)] text-[11px] uppercase text-text-display transition-colors hover:bg-surface-raised"
+            >
+              {copyLabel}
+            </button>
+            <button
+              type="button"
+              onClick={downloadHtml}
+              className="min-h-10 border border-border-visible px-[var(--space-md)] font-[family-name:var(--font-data)] text-[11px] uppercase text-text-display transition-colors hover:bg-surface-raised"
+            >
+              Telecharger HTML
+            </button>
+          </div>
         </div>
       </div>
 

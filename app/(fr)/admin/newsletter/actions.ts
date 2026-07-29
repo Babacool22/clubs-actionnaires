@@ -101,6 +101,14 @@ function compactFeedbackMessage(message: string) {
   return message.length > 600 ? `${message.slice(0, 597)}...` : message;
 }
 
+function beehiivActionError(error: unknown, fallback: string) {
+  const message = error instanceof Error ? error.message : fallback;
+  if (message.includes("SEND_API_NOT_ENTERPRISE_PLAN")) {
+    return "Le plan beehiiv actuel ne permet pas l'envoi automatique par API. Utilisez l'import HTML manuel du cockpit, puis programmez l'edition dans beehiiv.";
+  }
+  return compactFeedbackMessage(message);
+}
+
 export async function generateNewsletterDraftAction(formData: FormData) {
   const token = assertAdminToken(formData);
   const issue = await createNextNewsletterIssue();
@@ -130,15 +138,15 @@ export async function sendNewsletterToBeehiivAction(formData: FormData) {
   try {
     await createBeehiivPost(issueId, { confirm: false });
   } catch (error) {
-    const message =
-      error instanceof Error
-        ? error.message
-        : "beehiiv a refuse la creation du brouillon.";
+    const message = beehiivActionError(
+      error,
+      "beehiiv a refuse la creation du brouillon.",
+    );
 
     revalidatePath("/admin/newsletter");
     redirect(
       adminNewsletterUrlWithFeedback(token, issueId, {
-        beehiivError: compactFeedbackMessage(message),
+        beehiivError: message,
       }),
     );
   }
@@ -161,15 +169,15 @@ export async function scheduleNewsletterInBeehiivAction(formData: FormData) {
   try {
     await scheduleBeehiivPost(issueId);
   } catch (error) {
-    const message =
-      error instanceof Error
-        ? error.message
-        : "beehiiv a refuse la programmation.";
+    const message = beehiivActionError(
+      error,
+      "beehiiv a refuse la programmation.",
+    );
 
     revalidatePath("/admin/newsletter");
     redirect(
       adminNewsletterUrlWithFeedback(token, issueId, {
-        beehiivError: compactFeedbackMessage(message),
+        beehiivError: message,
       }),
     );
   }

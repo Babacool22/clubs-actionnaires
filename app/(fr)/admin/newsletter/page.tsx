@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import NewsletterDeleteButton from "@/components/NewsletterDeleteButton";
 import NewsletterAdminWorkbench from "@/components/NewsletterAdminWorkbench";
+import NewsletterGrokAssistant from "@/components/NewsletterGrokAssistant";
 import NewsletterTemplateButton from "@/components/NewsletterTemplateButton";
 import {
   getNewsletterIssue,
@@ -189,46 +190,49 @@ function IssueList({
   token: string;
 }) {
   return (
-    <aside className="min-w-0 border border-border bg-surface">
-      <div className="border-b border-border p-[var(--space-md)]">
-        <p className="font-[family-name:var(--font-data)] text-[11px] uppercase text-text-disabled">
-          Brouillons
-        </p>
-      </div>
-      <div className="divide-y divide-border">
-        {issues.map((issue) => {
-          const active = issue.id === selectedIssueId;
+    <aside className="min-w-0 lg:sticky lg:top-20 lg:self-start">
+      <details open className="group border border-border bg-surface">
+        <summary className="cursor-pointer border-b border-border p-[var(--space-md)] font-[family-name:var(--font-data)] text-[11px] uppercase text-text-disabled marker:text-accent">
+          Brouillons ({issues.length})
+        </summary>
+        <div className="max-h-[32rem] divide-y divide-border overflow-y-auto overscroll-contain">
+          {issues.map((issue) => {
+            const active = issue.id === selectedIssueId;
 
-          return (
-            <Link
-              key={issue.id}
-              href={tokenHref(token, issue.id)}
-              className={`block p-[var(--space-md)] transition-colors ${
-                active ? "bg-black" : "hover:bg-surface-raised"
-              }`}
-            >
-              <div className="mb-[var(--space-sm)] flex items-center justify-between gap-[var(--space-sm)]">
-                <span className="font-[family-name:var(--font-data)] text-[11px] text-text-disabled">
-                  #{issue.id}
-                </span>
-                <StatusPill status={issue.status} />
-              </div>
-              <h2 className="mb-[var(--space-xs)] line-clamp-2 text-[15px] font-medium leading-[1.25] text-text-display">
-                {issue.subject}
-              </h2>
-              <p className="font-[family-name:var(--font-data)] text-[11px] uppercase text-text-disabled">
-                {formatParisDateTime(issue.sendDate)}
-              </p>
-            </Link>
-          );
-        })}
-      </div>
+            return (
+              <Link
+                key={issue.id}
+                href={tokenHref(token, issue.id)}
+                className={`block p-[var(--space-md)] transition-colors ${
+                  active ? "bg-black" : "hover:bg-surface-raised"
+                }`}
+              >
+                <div className="mb-[var(--space-sm)] flex items-center justify-between gap-[var(--space-sm)]">
+                  <span className="font-[family-name:var(--font-data)] text-[11px] text-text-disabled">
+                    #{issue.id}
+                  </span>
+                  <StatusPill status={issue.status} />
+                </div>
+                <h2 className="mb-[var(--space-xs)] line-clamp-2 text-[14px] font-medium leading-[1.25] text-text-display">
+                  {issue.subject}
+                </h2>
+                <p className="font-[family-name:var(--font-data)] text-[10px] uppercase text-text-disabled">
+                  {formatParisDateTime(issue.sendDate)}
+                </p>
+              </Link>
+            );
+          })}
+        </div>
+      </details>
     </aside>
   );
 }
 
 function IssueEditor({ issue, token }: { issue: NewsletterIssue; token: string }) {
   const htmlTextareaId = `newsletter-html-${issue.id}`;
+  const titleInputId = `newsletter-title-${issue.id}`;
+  const subjectInputId = `newsletter-subject-${issue.id}`;
+  const previewTextInputId = `newsletter-preview-${issue.id}`;
   const canScheduleInBeehiiv =
     issue.status === "validated" || issue.status === "synced";
   const alreadyScheduled = issue.status === "scheduled";
@@ -289,6 +293,7 @@ function IssueEditor({ issue, token }: { issue: NewsletterIssue; token: string }
                 Nom du brouillon (interne)
               </span>
               <input
+                id={titleInputId}
                 name="title"
                 defaultValue={issue.title}
                 className="min-h-11 border border-border-visible bg-black px-[var(--space-md)] text-text-display outline-none focus:border-text-secondary"
@@ -312,6 +317,7 @@ function IssueEditor({ issue, token }: { issue: NewsletterIssue; token: string }
                 Objet de l&apos;e-mail (visible dans la boite de reception)
               </span>
               <input
+                id={subjectInputId}
                 name="subject"
                 defaultValue={issue.subject}
                 className="min-h-11 border border-border-visible bg-black px-[var(--space-md)] text-text-display outline-none focus:border-text-secondary"
@@ -323,6 +329,7 @@ function IssueEditor({ issue, token }: { issue: NewsletterIssue; token: string }
                 Texte d&apos;aperçu (affiche apres l&apos;objet dans la boite de reception)
               </span>
               <input
+                id={previewTextInputId}
                 name="previewText"
                 defaultValue={issue.previewText}
                 className="min-h-11 border border-border-visible bg-black px-[var(--space-md)] text-text-display outline-none focus:border-text-secondary"
@@ -428,7 +435,7 @@ export default async function NewsletterAdminPage({ searchParams }: PageProps) {
     : null;
 
   return (
-    <div className="mx-auto max-w-7xl px-[var(--space-md)] py-[var(--space-2xl)] sm:px-[var(--space-lg)] lg:px-[var(--space-xl)]">
+    <div className="mx-auto max-w-[1600px] px-[var(--space-md)] py-[var(--space-2xl)] sm:px-[var(--space-lg)] lg:px-[var(--space-xl)]">
       <div className="mb-[var(--space-xl)] flex flex-col gap-[var(--space-md)] border-b border-border pb-[var(--space-lg)] lg:flex-row lg:items-end lg:justify-between">
         <div>
           <p className="mb-[var(--space-sm)] font-[family-name:var(--font-data)] text-[11px] uppercase text-accent">
@@ -449,13 +456,25 @@ export default async function NewsletterAdminPage({ searchParams }: PageProps) {
       <FeedbackBanner error={beehiivError} success={beehiivSuccess ?? deleted} />
 
       {hydratedIssue ? (
-        <div className="grid gap-[var(--space-lg)] lg:grid-cols-[20rem_minmax(0,1fr)]">
+        <div className="grid items-start gap-[var(--space-lg)] lg:grid-cols-[14rem_minmax(0,1fr)] xl:grid-cols-[14rem_minmax(0,1fr)_22rem]">
           <IssueList
             issues={issues}
             selectedIssueId={hydratedIssue.id}
             token={token}
           />
           <IssueEditor issue={hydratedIssue} token={token} />
+          <div className="min-w-0 lg:col-start-2 xl:sticky xl:top-20 xl:col-start-3 xl:row-start-1 xl:self-start">
+            <NewsletterGrokAssistant
+              issueId={hydratedIssue.id}
+              adminToken={token}
+              targetIds={{
+                title: `newsletter-title-${hydratedIssue.id}`,
+                subject: `newsletter-subject-${hydratedIssue.id}`,
+                previewText: `newsletter-preview-${hydratedIssue.id}`,
+                html: `newsletter-html-${hydratedIssue.id}`,
+              }}
+            />
+          </div>
         </div>
       ) : (
         <EmptyState token={token} />
