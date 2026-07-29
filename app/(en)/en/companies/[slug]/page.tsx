@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { prisma } from "@/lib/prisma";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import CompanyLogo from "@/components/CompanyLogo";
+import ParticleDotoText from "@/components/ParticleDotoText";
 import { MinSharesCost, StockPrice } from "@/components/StockPrice";
 import { TrackedExternalLink } from "@/components/TrackedLink";
 import { toYahooSymbol } from "@/lib/yahoo";
@@ -312,8 +313,11 @@ export default async function EnglishCompanyPage({ params }: Props) {
               </span>
             </div>
 
-            <h1 className="font-[family-name:var(--font-display)] text-[40px] sm:text-[48px] md:text-[72px] font-bold text-text-display leading-[1.0] mb-[var(--space-lg)] break-words">
-              {translation.name.toUpperCase()}
+            <h1
+              aria-label={translation.name}
+              className="font-[family-name:var(--font-display)] text-[40px] sm:text-[48px] md:text-[72px] font-bold text-text-display leading-[1.0] tracking-[0.01em] mb-[var(--space-lg)] break-words"
+            >
+              <ParticleDotoText lines={[translation.name.toUpperCase()]} wrap />
             </h1>
 
             <p className="max-w-2xl break-words text-[16px] sm:text-[18px] text-text-secondary leading-[1.5] sm:leading-[1.3] mb-[var(--space-lg)] [overflow-wrap:anywhere]">
@@ -369,14 +373,23 @@ export default async function EnglishCompanyPage({ params }: Props) {
           {yahooSymbol && (
             <>
               <div className="hidden sm:block w-px h-8 bg-border-visible" />
-              <StockPrice symbol={yahooSymbol} />
+              <StockPrice
+                symbol={yahooSymbol}
+                locale="en-US"
+                loadingLabel="LIVE PRICE"
+                unavailableLabel="PRICE UNAVAILABLE"
+              />
               {company.minShares && (
                 <>
                   <div className="hidden sm:block w-px h-8 bg-border-visible" />
-                  <MinSharesCost
-                    symbol={yahooSymbol}
-                    minShares={company.minShares}
-                  />
+                <MinSharesCost
+                  symbol={yahooSymbol}
+                  minShares={company.minShares}
+                  locale="en-US"
+                  label="MIN. COST"
+                  loadingLabel="PRICE LOADING"
+                  unavailableLabel="UNAVAILABLE"
+                />
                 </>
               )}
             </>
@@ -435,7 +448,10 @@ export default async function EnglishCompanyPage({ params }: Props) {
                   symbol={yahooSymbol}
                   minShares={company.minShares}
                   compact
+                  locale="en-US"
                   label="CURRENT PRICE"
+                  loadingLabel="PRICE LOADING"
+                  unavailableLabel="UNAVAILABLE"
                 />
               ) : (
                 <p className="text-[18px] sm:text-[20px] font-medium text-text-display">

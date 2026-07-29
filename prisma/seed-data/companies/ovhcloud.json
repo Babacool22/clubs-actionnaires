@@ -1,0 +1,67 @@
+{
+  "slug": "ovhcloud",
+  "name": "OVHcloud",
+  "description": "OVHcloud est un fournisseur européen de cloud qui conçoit ses serveurs et exploite ses centres de données. Le Groupe propose des services d'hébergement, de cloud public et privé et de solutions de confiance destinées aux entreprises et organisations publiques.",
+  "sector": "Technologie & Logiciels",
+  "stockIndex": "SBF 120",
+  "ticker": "OVH",
+  "website": "https://corporate.ovhcloud.com",
+  "clubName": "Club Actionnaires OVHcloud",
+  "clubUrl": "https://corporate.ovhcloud.com/asia/investor-relations/retail-shareholders-and-employees/",
+  "minShares": 25,
+  "lastVerifiedAt": "2026-07-29",
+  "benefits": [
+    {
+      "type": "service",
+      "title": "Informations régulières sur le Groupe et le cloud",
+      "description": "Les membres reçoivent des informations régulières sur l'entreprise, l'actualité du secteur et l'avancement de la feuille de route d'OVHcloud.",
+      "value": null,
+      "requiredShares": 25,
+      "sourceUrl": "https://corporate.ovhcloud.com/asia/investor-relations/retail-shareholders-and-employees/"
+    },
+    {
+      "type": "evenement",
+      "title": "Visites et rencontres exclusives",
+      "description": "Le Club prévoit des événements exclusifs pouvant prendre la forme de visites de sites, de rencontres avec des dirigeants ou de rendez-vous professionnels. La programmation et les capacités varient ; l'adhésion ne garantit pas une place.",
+      "value": "Sur invitation",
+      "requiredShares": 25,
+      "sourceUrl": "https://corporate.ovhcloud.com/asia/investor-relations/retail-shareholders-and-employees/"
+    },
+    {
+      "type": "priorite",
+      "title": "Accès privilégié pour poser ses questions",
+      "description": "Le Club annonce un accès privilégié permettant aux membres d'adresser leurs questions à OVHcloud et de renforcer le dialogue avec les équipes du Groupe.",
+      "value": null,
+      "requiredShares": 25,
+      "sourceUrl": "https://corporate.ovhcloud.com/asia/investor-relations/retail-shareholders-and-employees/"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Quel est le seuil pour rejoindre le Club Actionnaires OVHcloud ?",
+      "answer": "Il faut détenir au moins 25 actions OVHcloud. Le site officiel ne publie pas de durée minimale de détention."
+    },
+    {
+      "question": "Comment adhérer au Club OVHcloud ?",
+      "answer": "L'inscription s'effectue depuis le lien officiel « Join the Shareholders Club ». Le membre doit pouvoir justifier la détention d'au moins 25 actions ; le formulaire précise les pièces demandées au moment de l'inscription."
+    },
+    {
+      "question": "Quels événements le Club OVHcloud propose-t-il ?",
+      "answer": "OVHcloud cite des visites de sites, des rencontres avec des dirigeants et des événements professionnels. Les dates, lieux et capacités dépendent du calendrier du Club et les invitations ne sont pas automatiques."
+    },
+    {
+      "question": "Le Club offre-t-il des crédits cloud ou des remises commerciales ?",
+      "answer": "Aucun crédit cloud, bon d'achat ou pourcentage de réduction n'est publié comme avantage permanent. Les avantages officiels portent sur l'information, les événements et le dialogue avec le Groupe."
+    },
+    {
+      "question": "Comment s'abonner aux informations investisseurs sans rejoindre le Club ?",
+      "answer": "OVHcloud indique qu'il est possible de demander l'inscription à la liste de diffusion des relations investisseurs par e-mail à investor.relations@ovhcloud.com."
+    }
+  ],
+  "sources": [
+    "https://corporate.ovhcloud.com/asia/investor-relations/retail-shareholders-and-employees/",
+    "https://live.euronext.com/en/product/equities/FR0014005HJ9-XPAR",
+    "https://corporate.ovhcloud.com/en/investor-relations/"
+  ],
+  "logoUrl": "/logos/ovhcloud-blue.png"
+}

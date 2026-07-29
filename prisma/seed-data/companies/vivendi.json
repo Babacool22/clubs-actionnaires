@@ -1,0 +1,61 @@
+{
+  "slug": "vivendi",
+  "name": "Vivendi",
+  "description": "Vivendi est un groupe français coté qui détient un portefeuille de participations dans les contenus, les médias, le divertissement et les jeux vidéo. Depuis la scission de décembre 2024, son périmètre comprend notamment Gameloft et des participations dans Universal Music Group, Banijay, MediaForEurope et Prisa.",
+  "sector": "Holding & Conglomérat",
+  "stockIndex": "SBF 120",
+  "ticker": "VIV",
+  "website": "https://www.vivendi.com",
+  "clubName": "Club des Actionnaires de Vivendi",
+  "clubUrl": "https://www.vivendi.com/actionnaires-investisseurs/actionnaires-individuels/club-des-actionnaires/",
+  "minShares": 1,
+  "lastVerifiedAt": "2026-07-29",
+  "benefits": [
+    {
+      "type": "service",
+      "title": "Publications actionnaires au format choisi",
+      "description": "Dès 1 action, les membres peuvent recevoir la Lettre aux actionnaires, les communiqués de presse et le Document d'enregistrement universel. Le membre choisit un envoi électronique ou papier. Depuis la scission de 2024, les anciennes avant-premières StudioCanal+, visites de l'Olympia et autres activités liées aux sociétés séparées ne sont plus proposées.",
+      "value": "Gratuit",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.vivendi.com/wp-content/uploads/2026/04/20260416_VIV_ensemble-avril-2026.pdf"
+    },
+    {
+      "type": "service",
+      "title": "Service d'information dédié",
+      "description": "Le service Informations Actionnaires Individuels répond aux questions par e-mail, courrier et téléphone. L'adhésion au Club est gratuite, valable sans renouvellement tant que le membre reste actionnaire et peut être demandée avec un justificatif de détention de moins de trois mois.",
+      "value": "Numéro vert 0 805 050 050",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.vivendi.com/actionnaires-investisseurs/actionnaires-individuels/livret-de-lactionnaire/informations/"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Combien d'actions Vivendi faut-il détenir pour rejoindre le Club ?",
+      "answer": "Une action Vivendi au porteur ou au nominatif suffit. L'adhésion est réservée aux personnes physiques, elle est gratuite et reste valable tant que le membre conserve au moins une action."
+    },
+    {
+      "question": "Comment adhérer au Club des Actionnaires de Vivendi ?",
+      "answer": "Il faut compléter le bulletin officiel, joindre un justificatif de détention d'au moins une action établi par l'intermédiaire financier et daté de moins de trois mois, puis envoyer le dossier à Vivendi par e-mail ou par courrier."
+    },
+    {
+      "question": "Quels documents les membres peuvent-ils recevoir ?",
+      "answer": "Le Club permet de recevoir la Lettre aux actionnaires, les communiqués de presse et le Document d'enregistrement universel. Le membre peut choisir le format électronique ou papier."
+    },
+    {
+      "question": "Vivendi propose-t-il encore des avant-premières ou des visites de l'Olympia ?",
+      "answer": "Non. Vivendi indique qu'après la scission de décembre 2024, Canal+, Havas et Louis Hachette Group sont devenus indépendants. Les activités organisées avec ces anciennes filiales, dont les avant-premières StudioCanal+ et les visites de l'Olympia, ne peuvent plus être proposées."
+    },
+    {
+      "question": "Faut-il renouveler son adhésion au Club Vivendi ?",
+      "answer": "Non. D'après les conditions générales publiées en 2026, l'adhésion n'a pas besoin d'être renouvelée tant que le membre reste actionnaire et ne demande pas sa radiation."
+    }
+  ],
+  "sources": [
+    "https://www.vivendi.com/actionnaires-investisseurs/actionnaires-individuels/club-des-actionnaires/",
+    "https://www.vivendi.com/actionnaires-investisseurs/actionnaires-individuels/club-des-actionnaires/adherer-au-club-des-actionnaires-de-vivendi/",
+    "https://www.vivendi.com/wp-content/uploads/2026/06/20260603_VIV_Livret-Club-des-actionnaires.pdf",
+    "https://www.vivendi.com/wp-content/uploads/2026/04/20260416_VIV_ensemble-avril-2026.pdf",
+    "https://live.euronext.com/en/product/equities/FR0000127771-XPAR/company-information"
+  ],
+  "logoUrl": "/logos/vivendi-purple.png"
+}

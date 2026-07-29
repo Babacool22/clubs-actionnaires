@@ -150,6 +150,7 @@ export const companyEnglishTranslations: Record<
   ...companyEnglishTranslationsGroup3,
   ...companyEnglishTranslationsGroup4,
   ...companyEnglishTranslationsGroup5,
+  ...companyEnglishTranslationsGroup6,
 };
 
 export function getEnglishCompanyTranslation(slug: string) {
@@ -168,3 +169,4 @@ import { companyEnglishTranslationsGroup2 } from "@/lib/company-translations/en/
 import { companyEnglishTranslationsGroup3 } from "@/lib/company-translations/en/group-3";
 import { companyEnglishTranslationsGroup4 } from "@/lib/company-translations/en/group-4";
 import { companyEnglishTranslationsGroup5 } from "@/lib/company-translations/en/group-5";
+import { companyEnglishTranslationsGroup6 } from "@/lib/company-translations/en/group-6";

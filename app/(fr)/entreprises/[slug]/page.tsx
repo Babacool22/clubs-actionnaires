@@ -11,6 +11,7 @@ import {
 } from "@/components/TrackedLink";
 import CatalogueReturnLink from "@/components/CatalogueReturnLink";
 import RegistrationPanel from "@/components/RegistrationPanel";
+import ParticleDotoText from "@/components/ParticleDotoText";
 import { toYahooSymbol } from "@/lib/yahoo";
 import {
   BASE_URL,
@@ -504,8 +505,11 @@ export default async function EntreprisePage({ params }: Props) {
         </div>
 
         {/* Primary — Company name */}
-        <h1 className="font-[family-name:var(--font-display)] text-[40px] sm:text-[48px] md:text-[72px] font-bold text-text-display leading-[1.0] tracking-[-0.03em] mb-[var(--space-lg)] break-words">
-          {company.name.toUpperCase()}
+        <h1
+          aria-label={company.name}
+          className="font-[family-name:var(--font-display)] text-[40px] sm:text-[48px] md:text-[72px] font-bold text-text-display leading-[1.0] tracking-[0.01em] mb-[var(--space-lg)] break-words"
+        >
+          <ParticleDotoText lines={[company.name.toUpperCase()]} wrap />
         </h1>
 
         {/* Secondary — Description */}

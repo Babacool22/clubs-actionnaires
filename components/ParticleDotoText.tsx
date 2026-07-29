@@ -4,6 +4,7 @@ import { useEffect, useRef } from "react";
 
 type ParticleDotoTextProps = {
   lines: string[];
+  wrap?: boolean;
 };
 
 type Particle = {
@@ -21,6 +22,7 @@ const DAMPING = 0.82;
 
 export default function ParticleDotoText({
   lines,
+  wrap = false,
 }: ParticleDotoTextProps) {
   const rootRef = useRef<HTMLSpanElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -129,11 +131,42 @@ export default function ParticleDotoText({
 
       lineElements.forEach((lineElement, index) => {
         const lineBounds = lineElement.getBoundingClientRect();
-        maskContext.fillText(
-          lines[index],
-          lineBounds.left - bounds.left,
-          lineBounds.top - bounds.top
+
+        if (!wrap) {
+          maskContext.fillText(
+            lines[index],
+            lineBounds.left - bounds.left,
+            lineBounds.top - bounds.top
+          );
+          return;
+        }
+
+        const textNode = Array.from(lineElement.childNodes).find(
+          (node) => node.nodeType === Node.TEXT_NODE
         );
+
+        if (!textNode) {
+          return;
+        }
+
+        letterSpacingContext.letterSpacing = "0px";
+
+        Array.from(lines[index]).forEach((character, characterIndex) => {
+          if (character.trim().length === 0) {
+            return;
+          }
+
+          const range = document.createRange();
+          range.setStart(textNode, characterIndex);
+          range.setEnd(textNode, characterIndex + 1);
+          const characterBounds = range.getBoundingClientRect();
+
+          maskContext.fillText(
+            character,
+            characterBounds.left - bounds.left,
+            characterBounds.top - bounds.top
+          );
+        });
       });
 
       const pixels = maskContext.getImageData(0, 0, width, height).data;
@@ -259,10 +292,15 @@ export default function ParticleDotoText({
       root.removeEventListener("pointermove", updatePointer);
       root.removeEventListener("pointerleave", releasePointer);
     };
-  }, [lines]);
+  }, [lines, wrap]);
 
   return (
-    <span ref={rootRef} className="particle-doto-text" aria-hidden="true">
+    <span
+      ref={rootRef}
+      className={`particle-doto-text${wrap ? " particle-doto-text--wrap" : ""}`}
+      data-wrap={wrap}
+      aria-hidden="true"
+    >
       <span className="particle-doto-text__measure">
         {lines.map((line, index) => (
           <span className="particle-doto-text__line" key={`${line}-${index}`}>

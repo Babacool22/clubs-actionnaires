@@ -20,7 +20,7 @@ const EN_URL = `${BASE_URL}/en`;
 export const metadata: Metadata = {
   title: "Shareholder clubs and benefits",
   description:
-    "Compare 58 shareholder clubs, their eligibility thresholds, benefits, enrolment conditions and official sources.",
+    "Compare 65 shareholder clubs, their eligibility thresholds, benefits, enrolment conditions and official sources.",
   alternates: {
     canonical: EN_URL,
     languages: {

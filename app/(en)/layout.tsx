@@ -36,7 +36,7 @@ const spaceMono = Space_Mono({
 
 const TITLE = "Shareholder Clubs - Benefits and eligibility";
 const DESCRIPTION =
-  "Compare shareholder clubs, eligibility thresholds, benefits, enrolment conditions and official sources for 58 major global companies.";
+  "Compare shareholder clubs, eligibility thresholds, benefits, enrolment conditions and official sources for 65 major global companies.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),

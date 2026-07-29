@@ -125,6 +125,11 @@ body {
   overflow: visible;
 }
 
+.particle-doto-text--wrap {
+  display: block;
+  width: 100%;
+}
+
 .particle-doto-text__measure {
   display: block;
   color: transparent;
@@ -137,6 +142,12 @@ body {
   width: max-content;
   min-height: 1em;
   white-space: nowrap;
+}
+
+.particle-doto-text--wrap .particle-doto-text__line {
+  width: auto;
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 
 .particle-doto-text__canvas {

@@ -1,9 +1,12 @@
 const SUFFIX_BY_INDEX: Record<string, string> = {
   CAC40: ".PA",
   SBF120: ".PA",
+  "SBF 120": ".PA",
+  "CAC Small": ".PA",
   "IBEX 35": ".MC",
   "FTSE MIB": ".MI",
   "FTSE 100": ".L",
+  "SIX Swiss Exchange": ".SW",
   "S&P 500": "",
 };
 
