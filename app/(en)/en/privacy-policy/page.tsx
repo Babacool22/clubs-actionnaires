@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     languages: {
       "fr-FR": `${BASE_URL}/politique-de-confidentialite`,
       "en-US": PAGE_URL,
+      "x-default": `${BASE_URL}/politique-de-confidentialite`,
     },
   },
   openGraph: {

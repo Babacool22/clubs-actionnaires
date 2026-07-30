@@ -144,6 +144,13 @@ const jsonLd = {
       founder: {
         "@type": "Person",
         name: "Bastien Coulonnier",
+        url: `${BASE_URL}/a-propos`,
+      },
+      contactPoint: {
+        "@type": "ContactPoint",
+        contactType: "editorial",
+        email: "contact@clubsactionnaires.fr",
+        availableLanguage: ["French", "English"],
       },
     },
   ],

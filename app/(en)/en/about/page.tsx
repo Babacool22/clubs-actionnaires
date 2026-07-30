@@ -18,6 +18,7 @@ export const metadata: Metadata = {
     languages: {
       "fr-FR": `${BASE_URL}/a-propos`,
       "en-US": PAGE_URL,
+      "x-default": `${BASE_URL}/a-propos`,
     },
   },
   openGraph: {

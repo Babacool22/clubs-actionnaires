@@ -74,6 +74,18 @@ export default function Footer() {
                     FAQ
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    href={
+                      isEnglish
+                        ? "/en/shareholder-clubs-report"
+                        : "/observatoire"
+                    }
+                    className="text-[13px] text-text-secondary transition-colors hover:text-text-display"
+                  >
+                    {isEnglish ? "Data report" : "Observatoire"}
+                  </Link>
+                </li>
               </ul>
             </div>
 

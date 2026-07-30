@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Suspense } from "react";
 import CatalogueClient from "@/components/CatalogueClient";
 import NewsletterCta from "@/components/NewsletterCta";
@@ -184,6 +185,29 @@ export default async function EnglishHomePage() {
             locale="en"
           />
         </Suspense>
+      </section>
+
+      <section className="border-t border-border">
+        <div className="mx-auto grid max-w-7xl gap-[var(--space-lg)] px-[var(--space-md)] py-[var(--space-2xl)] sm:px-[var(--space-lg)] lg:grid-cols-[1fr_auto] lg:items-center lg:px-[var(--space-xl)]">
+          <div>
+            <p className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-accent">
+              2026 DATA REPORT
+            </p>
+            <h2 className="mt-[var(--space-sm)] text-[24px] font-medium text-text-display">
+              {companies.length} companies and {totalBenefits} benefits reviewed
+            </h2>
+            <p className="mt-[var(--space-xs)] max-w-2xl text-[14px] leading-relaxed text-text-secondary">
+              Explore consolidated findings, methodology and downloadable
+              catalogue data.
+            </p>
+          </div>
+          <Link
+            href="/en/shareholder-clubs-report"
+            className="w-fit border border-border-visible px-[var(--space-lg)] py-[var(--space-sm)] font-[family-name:var(--font-data)] text-[11px] font-bold uppercase tracking-[0.06em] text-text-display transition-colors hover:border-accent hover:text-accent"
+          >
+            Read the report
+          </Link>
+        </div>
       </section>
 
       <section className="border-t border-border">

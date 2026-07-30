@@ -8,6 +8,11 @@ export const metadata: Metadata = {
     "Mentions légales du site Clubs Actionnaires : éditeur, hébergeur, propriété intellectuelle et responsabilité.",
   alternates: {
     canonical: `${BASE_URL}/mentions-legales`,
+    languages: {
+      "fr-FR": `${BASE_URL}/mentions-legales`,
+      "en-US": `${BASE_URL}/en/legal-notice`,
+      "x-default": `${BASE_URL}/mentions-legales`,
+    },
   },
   openGraph: {
     title: `Mentions légales | ${SITE_NAME}`,

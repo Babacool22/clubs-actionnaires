@@ -11,7 +11,14 @@ export const metadata: Metadata = {
   title: `À propos | ${SITE_NAME}`,
   description:
     "Découvrez la mission, la méthode de vérification et l'éditeur de Clubs Actionnaires.",
-  alternates: { canonical: `${BASE_URL}/a-propos` },
+  alternates: {
+    canonical: `${BASE_URL}/a-propos`,
+    languages: {
+      "fr-FR": `${BASE_URL}/a-propos`,
+      "en-US": `${BASE_URL}/en/about`,
+      "x-default": `${BASE_URL}/a-propos`,
+    },
+  },
   openGraph: {
     title: `À propos | ${SITE_NAME}`,
     description:

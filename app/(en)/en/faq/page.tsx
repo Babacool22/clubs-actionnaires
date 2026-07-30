@@ -51,6 +51,7 @@ export const metadata: Metadata = {
     languages: {
       "fr-FR": `${BASE_URL}/faq`,
       "en-US": PAGE_URL,
+      "x-default": `${BASE_URL}/faq`,
     },
   },
   openGraph: {

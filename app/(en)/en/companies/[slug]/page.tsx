@@ -5,6 +5,7 @@ import { prisma } from "@/lib/prisma";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import CompanyLogo from "@/components/CompanyLogo";
 import ParticleDotoText from "@/components/ParticleDotoText";
+import GeoAnswerSummary from "@/components/GeoAnswerSummary";
 import { MinSharesCost, StockPrice } from "@/components/StockPrice";
 import { TrackedExternalLink } from "@/components/TrackedLink";
 import { toYahooSymbol } from "@/lib/yahoo";
@@ -14,6 +15,7 @@ import {
   SOCIAL_IMAGE_PATH,
   clampSeoText,
   serializeJsonLd,
+  withSeoBrand,
 } from "@/lib/seo";
 import {
   getEnglishCompanySlugs,
@@ -65,7 +67,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const url = `${BASE_URL}/en/companies/${slug}`;
   const frUrl = `${BASE_URL}/entreprises/${slug}`;
-  const title = clampSeoText(translation.seoTitle, 60);
+  const title = withSeoBrand(translation.seoTitle);
   const description = clampSeoText(translation.seoDescription, 158);
   const lastVerifiedAt = company.lastVerifiedAt ?? company.updatedAt;
 
@@ -87,6 +89,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       languages: {
         "fr-FR": frUrl,
         "en-US": url,
+        "x-default": frUrl,
       },
     },
     openGraph: {
@@ -187,6 +190,30 @@ export default async function EnglishCompanyPage({ params }: Props) {
     year: "numeric",
     timeZone: "UTC",
   }).format(lastVerifiedAt);
+  const hasActiveBenefits = benefits.length > 0;
+  const officialSourceUrl = company.clubUrl ?? company.website;
+  const programmeStatus = hasActiveBenefits
+    ? company.clubUrl
+      ? "Documented shareholder club, programme or dedicated area"
+      : "Documented shareholder benefits without a separate club"
+    : "No active shareholder club or benefit identified";
+  const thresholdLabel = company.minShares
+    ? `${company.minShares} share${company.minShares > 1 ? "s" : ""}`
+    : "Threshold not confirmed or not applicable";
+  const mainBenefits = hasActiveBenefits
+    ? benefits
+        .slice(0, 3)
+        .map((benefit) => benefit.title)
+        .join("; ")
+    : "No active benefit confirmed";
+  const registrationSummary = translation.registrationProcedure
+    ? clampSeoText(translation.registrationProcedure, 260)
+    : officialSourceUrl
+      ? "Check the official company page before taking action, as conditions and required documents may change."
+      : "No official enrolment procedure is currently documented.";
+  const quickAnswer = hasActiveBenefits
+    ? `${translation.name} has ${benefits.length} documented shareholder benefit${benefits.length > 1 ? "s" : ""} or service${benefits.length > 1 ? "s" : ""}${company.minShares ? `, available from ${thresholdLabel}` : ""}.`
+    : `No active shareholder club or benefit was identified for ${translation.name} as of the latest verification date.`;
   const seoTitle = clampSeoText(translation.seoTitle, 60);
   const seoDescription = clampSeoText(translation.seoDescription, 158);
 
@@ -409,6 +436,30 @@ export default async function EnglishCompanyPage({ params }: Props) {
           )}
         </div>
       </div>
+
+      <GeoAnswerSummary
+        eyebrow="QUICK ANSWER"
+        title={`${translation.name}: key facts`}
+        summary={quickAnswer}
+        items={[
+          { label: "PROGRAMME STATUS", value: programmeStatus },
+          { label: "REFERENCE THRESHOLD", value: thresholdLabel },
+          {
+            label: "DOCUMENTED BENEFITS",
+            value: `${benefits.length} benefit${benefits.length > 1 ? "s" : ""} or service${benefits.length > 1 ? "s" : ""}`,
+          },
+          { label: "MAIN BENEFITS", value: mainBenefits },
+          { label: "HOW TO JOIN", value: registrationSummary },
+          { label: "LAST VERIFIED", value: lastVerifiedLabel },
+          {
+            label: "OFFICIAL SOURCE",
+            value: officialSourceUrl
+              ? "Open the company's official source"
+              : "No official URL documented",
+            href: officialSourceUrl,
+          },
+        ]}
+      />
 
       {company.clubUrl && (
         <section

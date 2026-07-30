@@ -12,6 +12,7 @@ import {
 import CatalogueReturnLink from "@/components/CatalogueReturnLink";
 import RegistrationPanel from "@/components/RegistrationPanel";
 import ParticleDotoText from "@/components/ParticleDotoText";
+import GeoAnswerSummary from "@/components/GeoAnswerSummary";
 import { toYahooSymbol } from "@/lib/yahoo";
 import {
   BASE_URL,
@@ -19,6 +20,7 @@ import {
   SOCIAL_IMAGE_PATH,
   clampSeoText,
   serializeJsonLd,
+  withSeoBrand,
 } from "@/lib/seo";
 import { hasEnglishCompanyTranslation } from "@/lib/company-translations";
 import type { Metadata } from "next";
@@ -51,7 +53,7 @@ function buildCompanySeo(company: CompanySeoInput) {
     : `Fiche actionnaire ${company.name} : aucun club ou avantage actif identifié. Consultez les FAQ, sources officielles et droits à ne pas confondre.`;
 
   return {
-    title: clampSeoText(title, 60),
+    title: withSeoBrand(title),
     description: clampSeoText(description, 158),
   };
 }
@@ -88,6 +90,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             languages: {
               "fr-FR": url,
               "en-US": `${BASE_URL}/en/companies/${company.slug}`,
+              "x-default": url,
             },
           }
         : {}),
@@ -368,6 +371,7 @@ export default async function EntreprisePage({ params }: Props) {
   const officialRegistrationUrl = hasActiveBenefits
     ? company.clubUrl ?? company.website
     : null;
+  const officialSourceUrl = company.clubUrl ?? company.website;
   const pageUrl = `${BASE_URL}/entreprises/${company.slug}`;
   const seo = buildCompanySeo(company);
   const lastVerifiedAt = company.lastVerifiedAt ?? company.updatedAt;
@@ -378,6 +382,28 @@ export default async function EntreprisePage({ params }: Props) {
     year: "numeric",
     timeZone: "UTC",
   }).format(lastVerifiedAt);
+  const programmeStatus = hasActiveBenefits
+    ? company.clubUrl
+      ? "Club, programme ou espace actionnaires documenté"
+      : "Avantages actionnaires documentés sans club distinct"
+    : "Aucun club ou avantage actif identifié";
+  const thresholdLabel = company.minShares
+    ? `${company.minShares} action${company.minShares > 1 ? "s" : ""}`
+    : "Seuil non confirmé ou non applicable";
+  const mainBenefits = hasActiveBenefits
+    ? company.benefits
+        .slice(0, 3)
+        .map((benefit) => benefit.title)
+        .join(" ; ")
+    : "Aucun avantage actif confirmé";
+  const registrationSummary = registrationProcedure
+    ? clampSeoText(registrationProcedure, 260)
+    : officialSourceUrl
+      ? "Consultez la page officielle avant toute démarche : les conditions et justificatifs peuvent évoluer."
+      : "Aucune procédure d'inscription officielle n'est actuellement documentée.";
+  const quickAnswer = hasActiveBenefits
+    ? `${company.name} compte ${company.benefits.length} avantage${company.benefits.length > 1 ? "s" : ""} ou service${company.benefits.length > 1 ? "s" : ""} actionnaire${company.benefits.length > 1 ? "s" : ""} documenté${company.benefits.length > 1 ? "s" : ""}${company.minShares ? `, accessible${company.benefits.length > 1 ? "s" : ""} à partir de ${thresholdLabel}` : ""}.`
+    : `Aucun club ou avantage actionnaire actif n'a été identifié pour ${company.name} à la date de la dernière vérification.`;
   const corporationJsonLd = {
     "@context": "https://schema.org",
     "@type": "Corporation",
@@ -603,6 +629,33 @@ export default async function EntreprisePage({ params }: Props) {
           );
         })()}
       </div>
+
+      <GeoAnswerSummary
+        eyebrow="REPONSE RAPIDE"
+        title={`${company.name} : l'essentiel`}
+        summary={quickAnswer}
+        items={[
+          { label: "STATUT DU PROGRAMME", value: programmeStatus },
+          { label: "SEUIL DE REFERENCE", value: thresholdLabel },
+          {
+            label: "AVANTAGES RECENSES",
+            value: `${company.benefits.length} avantage${company.benefits.length > 1 ? "s" : ""} ou service${company.benefits.length > 1 ? "s" : ""}`,
+          },
+          { label: "PRINCIPAUX AVANTAGES", value: mainBenefits },
+          { label: "INSCRIPTION", value: registrationSummary },
+          {
+            label: "DERNIERE VERIFICATION",
+            value: lastVerifiedLabel,
+          },
+          {
+            label: "SOURCE OFFICIELLE",
+            value: officialSourceUrl
+              ? "Consulter la source de l'entreprise"
+              : "Aucune URL officielle documentée",
+            href: officialSourceUrl,
+          },
+        ]}
+      />
 
       {officialRegistrationUrl && (
         <RegistrationPanel

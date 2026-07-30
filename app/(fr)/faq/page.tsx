@@ -11,7 +11,14 @@ export const metadata: Metadata = {
   title: `FAQ des clubs actionnaires | ${SITE_NAME}`,
   description:
     "Réponses aux questions fréquentes sur les clubs actionnaires, les seuils d'actions, l'inscription et les justificatifs.",
-  alternates: { canonical: `${BASE_URL}/faq` },
+  alternates: {
+    canonical: `${BASE_URL}/faq`,
+    languages: {
+      "fr-FR": `${BASE_URL}/faq`,
+      "en-US": `${BASE_URL}/en/faq`,
+      "x-default": `${BASE_URL}/faq`,
+    },
+  },
   openGraph: {
     title: `FAQ des clubs actionnaires | ${SITE_NAME}`,
     description:
