@@ -25,7 +25,7 @@ export type CompanyEnglishTranslation = {
   membershipCost: string;
 };
 
-export const companyEnglishTranslations: Record<
+const baseCompanyEnglishTranslations: Record<
   string,
   CompanyEnglishTranslation
 > = {
@@ -153,6 +153,18 @@ export const companyEnglishTranslations: Record<
   ...companyEnglishTranslationsGroup6,
 };
 
+export const companyEnglishTranslations = Object.fromEntries(
+  Object.entries(baseCompanyEnglishTranslations).map(([slug, translation]) => [
+    slug,
+    {
+      ...translation,
+      ...(canonicalEnglishTranslationOverrides[
+        slug as keyof typeof canonicalEnglishTranslationOverrides
+      ] ?? {}),
+    },
+  ])
+) as Record<string, CompanyEnglishTranslation>;
+
 export function getEnglishCompanyTranslation(slug: string) {
   return companyEnglishTranslations[slug] ?? null;
 }
@@ -170,3 +182,4 @@ import { companyEnglishTranslationsGroup3 } from "@/lib/company-translations/en/
 import { companyEnglishTranslationsGroup4 } from "@/lib/company-translations/en/group-4";
 import { companyEnglishTranslationsGroup5 } from "@/lib/company-translations/en/group-5";
 import { companyEnglishTranslationsGroup6 } from "@/lib/company-translations/en/group-6";
+import { canonicalEnglishTranslationOverrides } from "@/lib/company-translations/canonical-overrides";

@@ -13,6 +13,7 @@
     "db:setup": "prisma db push && npm run db:seed",
     "verify:logos": "node scripts/verify-company-logos.mjs",
     "verify:english": "npx tsx scripts/validate-english-translations.ts",
+    "verify:shareholder-access": "node scripts/validate-shareholder-access.mjs",
     "gsc:sites": "node scripts/gsc-sites.mjs",
     "gsc:download": "node scripts/gsc-search-analytics.mjs",
     "gsc:bulk": "node scripts/gsc-bulk-bigquery.mjs",

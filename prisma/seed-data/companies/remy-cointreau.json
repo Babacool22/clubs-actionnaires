@@ -8,8 +8,8 @@
   "website": "https://www.remy-cointreau.com",
   "clubName": "Club des Actionnaires Rémy Cointreau",
   "clubUrl": "https://www.remy-cointreau.com/fr/finance/actionnaires/page/2025/",
-  "minShares": 1,
-  "lastVerifiedAt": "2026-07-29",
+  "minShares": null,
+  "lastVerifiedAt": "2026-07-31",
   "benefits": [
     {
       "type": "reduction",

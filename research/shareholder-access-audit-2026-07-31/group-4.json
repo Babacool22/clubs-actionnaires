@@ -1,0 +1,169 @@
+{
+  "orange": {
+    "programStatus": "active",
+    "minShares": 1,
+    "minSharesMeaning": "Une action suffit pour être membre de plein droit du Club des Investisseurs Individuels et accéder aux After Hours classiques. Les After Hours Premium sont réservés aux détenteurs de plus de 1 500 actions.",
+    "holdingMode": "Actions au porteur, au nominatif administré ou au nominatif pur.",
+    "membershipCost": "Gratuit, hors coût d’acquisition et éventuels frais de conservation ou de courtage des actions.",
+    "proofRequirement": "Les actionnaires nominatifs sont identifiables par Orange. Les porteurs doivent communiquer leur adresse e-mail au Club. Pour les After Hours, le participant déclare sur l’honneur détenir au moins une action à la date de l’événement.",
+    "procedure": "La qualité de membre est automatique à partir d’une action. Disposer d’une adresse e-mail, puis contacter contact@investisseurs-individuels.orange.com ou le 0 800 05 10 10 pour vérifier l’inscription. Les demandes d’invitation aux événements se font ensuite en ligne.",
+    "officialUrl": "https://www.orange.com/fr/finance/actionnaires-individuels/vos-questions-sur-lactionnariat",
+    "sources": [
+      "https://www.orange.com/fr/finance/actionnaires-individuels/vos-questions-sur-lactionnariat",
+      "https://investisseurs-individuels.orange.com/fr/event/list",
+      "https://static.investisseurs-individuels.orange.com/documents/pdf/ORANGE_Reglement_After_Hours.pdf"
+    ],
+    "confidence": "high",
+    "notes": "Club exclusivement numérique. Le seuil de 1 500 actions concerne uniquement les expériences Premium, pas l’adhésion générale. Audit au 2026-07-31."
+  },
+  "ovhcloud": {
+    "programStatus": "active",
+    "minShares": 25,
+    "minSharesMeaning": "Il faut détenir au moins 25 actions OVHcloud pour adhérer au Club Actionnaires.",
+    "holdingMode": "Actions au porteur, au nominatif administré ou au nominatif pur. Le nominatif est géré par Uptevia.",
+    "membershipCost": "Gratuit, hors coût d’acquisition et frais éventuels liés à la détention des actions.",
+    "proofRequirement": "Attestation de détention d’au moins 25 actions OVHcloud fournie par l’intermédiaire financier, à téléverser dans le formulaire.",
+    "procedure": "Créer un compte sur le site du Club, renseigner ses coordonnées et le nombre d’actions, joindre l’attestation de détention, accepter les règles puis soumettre la demande. Le compte est validé manuellement et les accès sont envoyés par e-mail.",
+    "officialUrl": "https://clubactionnaires.ovhcloud.com/",
+    "sources": [
+      "https://clubactionnaires.ovhcloud.com/",
+      "https://corporate.ovhcloud.com/fr/investor-relations/retail-shareholders-and-employees/"
+    ],
+    "confidence": "high",
+    "notes": "Avantages confirmés : informations régulières, visites de sites, rencontres avec les dirigeants, événements professionnels et accès privilégié aux équipes. Audit au 2026-07-31."
+  },
+  "pernod-ricard": {
+    "programStatus": "active",
+    "minShares": 24,
+    "minSharesMeaning": "Le Club Premium est réservé aux personnes physiques majeures détenant au moins 24 actions Pernod Ricard et disposant d’une adresse e-mail.",
+    "holdingMode": "Actions au porteur, au nominatif administré ou au nominatif pur.",
+    "membershipCost": "Aucun frais d’adhésion n’est indiqué par Pernod Ricard.",
+    "proofRequirement": "Une attestation de détention est demandée aux actionnaires au porteur. Les actionnaires identifiés au nominatif peuvent être contrôlés à partir du registre.",
+    "procedure": "Remplir le formulaire d’adhésion du Club Premium. Joindre une attestation de détention lorsque les actions sont au porteur. Une fois membre, l’inscription aux événements s’effectue depuis l’onglet dédié et peut faire l’objet d’un tirage au sort.",
+    "officialUrl": "https://club-premium.pernod-ricard.com/frequently-asked-questions",
+    "sources": [
+      "https://club-premium.pernod-ricard.com/frequently-asked-questions",
+      "https://www.pernod-ricard.com/fr/investisseurs/actionnaires-individuels"
+    ],
+    "confidence": "high",
+    "notes": "Le seuil actuel est bien de 24 actions. Le Club propose des informations dédiées et des événements sur mesure. Audit au 2026-07-31."
+  },
+  "procter-gamble": {
+    "programStatus": "no_shareholder_club_or_perk",
+    "minShares": null,
+    "minSharesMeaning": "Non applicable : aucun club ou avantage commercial récurrent destiné aux actionnaires n’a été identifié dans les sources officielles actuelles.",
+    "holdingMode": "Actions détenues chez un courtier ou directement via le P&G Direct Stock Purchase Plan administré par EQ Shareowner Services.",
+    "membershipCost": "Non applicable. Le Direct Stock Purchase Plan peut comporter ses propres frais d’achat, de vente ou de gestion.",
+    "proofRequirement": "Non applicable pour un club. EQ vérifie les positions inscrites dans le Direct Stock Purchase Plan.",
+    "procedure": "Aucune adhésion à un club n’est proposée. Pour acheter directement des actions ou gérer une position enregistrée, contacter EQ Shareowner Services et consulter le prospectus courant du Direct Stock Purchase Plan.",
+    "officialUrl": "https://www.pginvestor.com/resources/investor-contacts/default.aspx",
+    "sources": [
+      "https://www.pginvestor.com/resources/investor-contacts/default.aspx",
+      "https://www.pginvestor.com/financials/annual-reports/default.aspx",
+      "https://us.pg.com/structure-and-governance/corporate-governance-overview/"
+    ],
+    "confidence": "high",
+    "notes": "Le DSPP est un dispositif d’achat et de réinvestissement, pas un club ni un programme d’avantages. Les programmes d’actionnariat salarié ne doivent pas être présentés comme accessibles au public. Audit au 2026-07-31."
+  },
+  "publicis": {
+    "programStatus": "no_current_shareholder_club",
+    "minShares": null,
+    "minSharesMeaning": "Non applicable : le site officiel actuel ne présente aucun club ni programme permanent d’avantages pour actionnaires individuels.",
+    "holdingMode": "Actions au porteur, au nominatif administré ou au nominatif pur. Les ADR Publicis sont également disponibles aux États-Unis.",
+    "membershipCost": "Non applicable. Au nominatif pur, les droits de garde sont gratuits, mais les opérations de bourse sont facturées par Uptevia.",
+    "proofRequirement": "Non applicable pour un club. La participation à l’Assemblée générale exige la justification habituelle de la qualité d’actionnaire.",
+    "procedure": "Aucune adhésion à un club n’est proposée. Pour bénéficier des avantages administratifs du nominatif pur, transmettre à son intermédiaire financier le formulaire de conversion signé ; celui-ci contacte ensuite Uptevia.",
+    "officialUrl": "https://www.publicisgroupe.com/fr/investisseurs/actionnaires/devenir-actionnaire",
+    "sources": [
+      "https://www.publicisgroupe.com/fr/investisseurs/actionnaires/devenir-actionnaire",
+      "https://www.publicisgroupe.com/fr/investisseurs/actionnaires/assemblee-generale",
+      "https://www.publicisgroupe.com/fr/investisseurs/actionnaires/tout-sur-laction"
+    ],
+    "confidence": "high",
+    "notes": "Les cadeaux ponctuellement distribués lors de certaines assemblées générales ne constituent pas un avantage permanent garanti et ne sont pas documentés comme tel par Publicis. Audit au 2026-07-31."
+  },
+  "remy-cointreau": {
+    "programStatus": "active",
+    "minShares": 1,
+    "minSharesMeaning": "Le Club est présenté comme ouvert aux actionnaires individuels sans seuil supérieur publié. Une action constitue donc le minimum logique, mais la page officielle actuelle ne formule pas explicitement le chiffre « 1 ».",
+    "holdingMode": "Actions au porteur, au nominatif administré ou au nominatif pur.",
+    "membershipCost": "Aucun frais d’adhésion n’est indiqué.",
+    "proofRequirement": "La page actuelle indique une carte obtenue sur simple demande, sans détailler le justificatif exigé. Une preuve de qualité d’actionnaire peut être demandée, notamment pour une détention au porteur.",
+    "procedure": "Demander la carte de membre auprès de club.desactionnaires@remy-cointreau.com ou via le service Relations actionnaires. Présenter ensuite la carte lors des visites des sites ouverts au public.",
+    "officialUrl": "https://www.remy-cointreau.com/fr/finance/actionnaires/",
+    "sources": [
+      "https://www.remy-cointreau.com/fr/finance/actionnaires/",
+      "https://www.remy-cointreau.com/app/uploads/2026/06/Notice-of-meeting-published-in-BALO-on-June-12-2026-French-only.pdf"
+    ],
+    "confidence": "medium",
+    "notes": "Avantages actuels confirmés : entrée gratuite sur les sites de production ouverts au public et réduction de 10 % sur les achats sur place, sur présentation de la carte. Le seuil exact mériterait une confirmation directe du service actionnaires. Audit au 2026-07-31."
+  },
+  "repsol": {
+    "programStatus": "active",
+    "minShares": 1,
+    "minSharesMeaning": "Toute personne physique majeure détenant au moins une action peut adhérer au Club En acción. Au moins 50 actions sont toutefois nécessaires pour bénéficier des remises actionnaires via Waylet.",
+    "holdingMode": "Actions inscrites au nom du titulaire dans les registres d’IBERCLEAR. Une position détenue par l’intermédiaire financier est recevable si celui-ci communique correctement l’identité du titulaire à IBERCLEAR.",
+    "membershipCost": "Aucun frais d’adhésion séparé n’est indiqué.",
+    "proofRequirement": "La qualité et le nombre d’actions sont contrôlés électroniquement dans IBERCLEAR à partir du NIF. Le compte En acción et le compte Waylet doivent utiliser le même NIF et la même adresse e-mail.",
+    "procedure": "S’inscrire sur le Club En acción en remplissant le formulaire. Pour les remises, créer ou utiliser un compte Waylet avec le même NIF et la même adresse e-mail. La validation de la détention peut prendre environ une semaine ; une modification du nombre d’actions est répercutée sous 15 à 20 jours.",
+    "officialUrl": "https://www.repsol.com/en/shareholders-and-investors/shareholders-club/index.cshtml",
+    "sources": [
+      "https://www.repsol.com/es/registro/condiciones/en-accion/index.cshtml",
+      "https://www.repsol.com/en/shareholders-and-investors/shareholders-club/shareholder-discounts/index.cshtml",
+      "https://www.repsol.com/en/shareholders-and-investors/shareholders-club/index.cshtml"
+    ],
+    "confidence": "high",
+    "notes": "Paliers de remises : One 50–849 actions, Plus 850–2 499, Premium 2 500–12 499 et Platinum à partir de 12 500. Il faut distinguer le seuil d’adhésion au Club du seuil d’accès aux remises. Audit au 2026-07-31."
+  },
+  "royal-caribbean": {
+    "programStatus": "active_shareholder_benefit",
+    "minShares": 100,
+    "minSharesMeaning": "Il faut détenir au moins 100 actions Royal Caribbean Group au moment de la croisière. Ce programme est un avantage actionnaire, pas un club.",
+    "holdingMode": "Actions enregistrées directement ou détenues dans un compte de courtage, sous réserve de pouvoir produire une preuve actuelle de propriété.",
+    "membershipCost": "Aucun frais d’adhésion. Le coût correspond à l’acquisition et à la conservation des 100 actions.",
+    "proofRequirement": "Copie d’une carte de procuration récente ou relevé de courtage actuel montrant au moins 100 actions. Le numéro de compte doit être masqué avant transmission.",
+    "procedure": "Soumettre la demande électronique avec identité, réservation, navire, date de départ et preuve de détention. La demande doit parvenir environ deux à trois semaines avant le départ. Le titulaire doit voyager dans la cabine créditée et conserver les 100 actions jusqu’à la croisière.",
+    "officialUrl": "https://www.rclinvestor.com/contact-us/faqs/shareholder-benefit/",
+    "sources": [
+      "https://www.rclinvestor.com/contact-us/faqs/shareholder-benefit/",
+      "https://www.rclinvestor.com/content/uploads/2026/07/RCG-Shareholder-Benefit-Offer-June-1-2023-v1-Final.pdf",
+      "https://www.rclinvestor.com/content/uploads/2019/07/RCL-Shareholder-Onboard-Credit-Offer-Request-Form.pdf"
+    ],
+    "confidence": "high",
+    "notes": "Crédit par cabine : 50 USD jusqu’à 5 nuits, 100 USD pour 6–13 nuits, 250 USD à partir de 14 nuits et 1 000 USD pour une World Cruise. Exclusions officielles : croisières charter ou gratuites, Celebrity River Cruises et Galápagos. Audit au 2026-07-31."
+  },
+  "saint-gobain": {
+    "programStatus": "active",
+    "minShares": 1,
+    "minSharesMeaning": "Une seule action Saint-Gobain suffit pour adhérer au Club.",
+    "holdingMode": "Actions au porteur, au nominatif administré ou au nominatif pur.",
+    "membershipCost": "Gratuit.",
+    "proofRequirement": "Les actionnaires au nominatif sont identifiés dans le registre. Le formulaire public actuel ne demande pas de pièce immédiatement, mais Saint-Gobain peut contrôler la qualité d’actionnaire ; les porteurs doivent pouvoir la justifier auprès du service actionnaires.",
+    "procedure": "Créer un compte dans l’espace du Club, renseigner ses coordonnées et ses préférences de communication. Les actionnaires au nominatif peuvent aussi être intégrés automatiquement ; les porteurs s’inscrivent depuis l’espace actionnaire.",
+    "officialUrl": "https://www.saint-gobain.com/fr/finance/actionnaires-individuels/club-des-actionnaires",
+    "sources": [
+      "https://www.saint-gobain.com/fr/finance/actionnaires-individuels/club-des-actionnaires",
+      "https://actionnaires.saint-gobain.com/fr/security/register",
+      "https://www.saint-gobain.com/fr/faq"
+    ],
+    "confidence": "high",
+    "notes": "Avantages confirmés : visites de sites, conférences, rencontres, jeux et invitations culturelles. Audit au 2026-07-31."
+  },
+  "sanofi": {
+    "programStatus": "no_shareholder_club",
+    "minShares": null,
+    "minSharesMeaning": "Non applicable : Sanofi confirme explicitement ne pas avoir de club ni de comité d’actionnaires individuels.",
+    "holdingMode": "Actions au porteur, au nominatif administré ou au nominatif pur auprès d’Uptevia ; ADR également disponibles aux États-Unis.",
+    "membershipCost": "Non applicable. Au nominatif pur, les droits de garde et de gestion sont gratuits, mais les ordres supportent une commission bancaire et des frais de courtage.",
+    "proofRequirement": "Non applicable pour un club. Pour l’Assemblée générale, les porteurs demandent une attestation à leur intermédiaire ; les actionnaires au nominatif sont identifiés dans le registre.",
+    "procedure": "Aucune adhésion à un club n’est possible. Les actionnaires peuvent s’abonner aux alertes Relations investisseurs, consulter les publications ou contacter relations.actionnaires@sanofi.com.",
+    "officialUrl": "https://www.sanofi.com/fr/investisseurs/actionnaires-individuels",
+    "sources": [
+      "https://www.sanofi.com/assets/dotcom/pages/docs/investor-relations/individual-shareholders/FAQ-Individual-Shareholders-FR.pdf",
+      "https://www.sanofi.com/fr/investisseurs/actionnaires-individuels",
+      "https://www.sanofi.com/fr/investisseurs/publications-actionnaires"
+    ],
+    "confidence": "high",
+    "notes": "Ne pas présenter les avantages du nominatif pur, le dividende ou les alertes d’information comme un club d’actionnaires. Audit au 2026-07-31."
+  }
+}

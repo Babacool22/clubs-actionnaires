@@ -1,0 +1,301 @@
+{
+  "3m": {
+    "programStatus": "unclear",
+    "minShares": null,
+    "minSharesMeaning": "Les conditions officielles 2025 réservaient l'achat de la Holiday Gift Box aux actionnaires 3M, sans publier de seuil minimal. L'offre 2026 n'était pas encore officiellement documentée au 31 juillet 2026.",
+    "holdingMode": "Actions inscrites directement ou détenues par l'intermédiaire d'un courtier; les conditions publiques ne distinguent pas les modes de détention.",
+    "membershipCost": "Pas d'adhésion. La boîte est payante; aucun tarif officiel 2026 n'était publié à la date de l'audit.",
+    "proofRequirement": "Accès au site de commande au moyen du code promotionnel communiqué aux actionnaires. La méthode précise de vérification n'est pas détaillée publiquement.",
+    "procedure": "Attendre l'ouverture de l'offre saisonnière, accéder au portail 3M Gift Box, saisir le code promotionnel actionnaire puis commander la boîte dans la limite des stocks.",
+    "officialUrl": "https://apfco.com/secure/W1309/Home/EnterPromoCode",
+    "sources": [
+      {
+        "url": "https://apfco.com/secure/W1309/Content/assets/terms_and_conditions.pdf",
+        "title": "3M Shareholder Gift Box Purchase Agreement",
+        "publishedOrUpdated": "2025"
+      },
+      {
+        "url": "https://investors.3m.com/resources/faq",
+        "title": "3M Investor Relations FAQ",
+        "publishedOrUpdated": null
+      },
+      {
+        "url": "https://www.reddit.com/r/dividends/comments/1p4dyha/unboxing_the_3m_shareholder_holiday_gift_box_2025/",
+        "title": "Unboxing the 3M Shareholder Holiday Gift Box 2025",
+        "publishedOrUpdated": "2025-11-23"
+      }
+    ],
+    "confidence": "medium",
+    "notes": "L'offre 2025 est confirmée et le portail existe encore, mais cela ne suffit pas à garantir qu'une édition 2026 sera ouverte. Ne pas afficher un tarif ou un seuil 2026 avant publication de nouvelles conditions."
+  },
+  "airbus": {
+    "programStatus": "active",
+    "minShares": 1,
+    "minSharesMeaning": "Une action suffit pour être actionnaire et participer à l'assemblée. Aucun seuil supérieur n'est annoncé pour accéder aux services liés au nominatif.",
+    "holdingMode": "Nominatif pur ou nominatif administré pour les services dédiés. Les actions au porteur restent admises pour les droits ordinaires et l'assemblée, avec certification par l'intermédiaire.",
+    "membershipCost": "Pas de frais d'adhésion. Au nominatif pur, Airbus prend en charge les frais de garde et de gestion; les frais de courtage restent dus.",
+    "proofRequirement": "Au nominatif, l'inscription au registre Airbus constitue la preuve. Au porteur, l'intermédiaire financier doit certifier la qualité d'actionnaire lorsque cela est requis.",
+    "procedure": "Acheter une action ou demander à son intermédiaire de transférer les titres au nominatif pur ou administré au moyen du formulaire Airbus. Le compte est ensuite géré par Société Générale Securities Services via Sharinbox.",
+    "officialUrl": "https://www.airbus.com/en/investors/individual-shareholders",
+    "sources": [
+      {
+        "url": "https://www.airbus.com/en/investors/individual-shareholders",
+        "title": "Airbus Individual Shareholders",
+        "publishedOrUpdated": null
+      },
+      {
+        "url": "https://www.airbus.com/sites/g/files/jlcbta136/files/2021-06/CONVERSION%20ON%20PURE%20REGISTERED%20FORM.pdf",
+        "title": "Airbus Conversion to Registered Shares Form",
+        "publishedOrUpdated": "2021-06"
+      },
+      {
+        "url": "https://www.airbus.com/sites/g/files/jlcbta136/files/2026-03/airbus_-_agm_2026_information_notice.pdf",
+        "title": "Airbus AGM 2026 Information Notice",
+        "publishedOrUpdated": "2026-03"
+      }
+    ],
+    "confidence": "high",
+    "notes": "Il ne s'agit pas d'un club classique avec adhésion séparée, mais d'un dispositif actif réservé principalement aux actionnaires nominatifs."
+  },
+  "alstom": {
+    "programStatus": "active",
+    "minShares": null,
+    "minSharesMeaning": "Alstom indique explicitement qu'aucun minimum n'est requis pour ouvrir un compte au nominatif pur. Il faut néanmoins détenir ou acquérir au moins une action pour être actionnaire.",
+    "holdingMode": "L'avantage de gratuité concerne le nominatif pur. Le nominatif administré et le porteur restent possibles, mais sont gérés par l'intermédiaire financier.",
+    "membershipCost": "Pas d'adhésion. Les droits de garde des actions au nominatif pur sont pris en charge par Alstom; les opérations de bourse peuvent rester facturées.",
+    "proofRequirement": "Aucun justificatif d'adhésion séparé. L'inscription des actions au registre Alstom constitue la preuve. Pour une participation à l'assemblée au porteur, l'intermédiaire délivre les documents nécessaires.",
+    "procedure": "Demander le formulaire de transfert au nominatif à Alstom ou à Uptevia, le compléter et le transmettre à l'intermédiaire financier. Uptevia ouvre et administre ensuite le compte nominatif pur.",
+    "officialUrl": "https://www.alstom.com/fr/finance/informations-pour-les-actionnaires-alstom",
+    "sources": [
+      {
+        "url": "https://www.alstom.com/fr/finance/informations-pour-les-actionnaires-alstom",
+        "title": "Informations pour les actionnaires Alstom",
+        "publishedOrUpdated": null
+      },
+      {
+        "url": "https://www.alstom.com/finance/information-alstom-shareholders",
+        "title": "Information for Alstom Shareholders",
+        "publishedOrUpdated": null
+      }
+    ],
+    "confidence": "high",
+    "notes": "Aucun club événementiel distinct n'est présenté. Le dispositif exact est un service actif destiné aux actionnaires, avec avantages liés au nominatif pur."
+  },
+  "arcelormittal": {
+    "programStatus": "no_formal_program",
+    "minShares": null,
+    "minSharesMeaning": "Aucun seuil de club ou d'avantage commercial n'a été identifié. Une seule action suffit pour assister et voter à l'assemblée générale.",
+    "holdingMode": "Actions détenues directement ou par l'intermédiaire d'un établissement financier selon les marchés de cotation.",
+    "membershipCost": "Non applicable.",
+    "proofRequirement": "Non applicable à un club. Pour l'assemblée, la qualité d'actionnaire doit être établie à la date d'enregistrement selon les instructions de la convocation.",
+    "procedure": "Aucune adhésion. Les actionnaires consultent les informations et documents d'assemblée dans l'espace Equity Investors et suivent les instructions de leur intermédiaire pour voter ou participer.",
+    "officialUrl": "https://corporate.arcelormittal.com/investors/equity-investors",
+    "sources": [
+      {
+        "url": "https://corporate.arcelormittal.com/investors/equity-investors",
+        "title": "ArcelorMittal Equity Investors",
+        "publishedOrUpdated": null
+      },
+      {
+        "url": "https://corporate.arcelormittal.com/investors/equity-investors/shareholder-events",
+        "title": "ArcelorMittal Shareholder Events",
+        "publishedOrUpdated": "2026"
+      },
+      {
+        "url": "https://corporate.arcelormittal.com/media/dvck4ncb/annual-report-2025.pdf",
+        "title": "ArcelorMittal Annual Report 2025",
+        "publishedOrUpdated": "2026"
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Conclusion fondée sur l'absence de club ou de programme d'avantages dans les espaces actionnaires officiels examinés. Les droits d'assemblée ne doivent pas être présentés comme un club."
+  },
+  "arkema": {
+    "programStatus": "active",
+    "minShares": 5,
+    "minSharesMeaning": "Le seuil dépend du mode de détention: 5 actions au nominatif ou 25 actions au porteur.",
+    "holdingMode": "Porteur, nominatif pur ou nominatif administré. Le seuil réduit à 5 actions s'applique aux titres nominatifs.",
+    "membershipCost": "Adhésion facultative et gratuite. Les frais de transport pour participer aux événements restent à la charge du membre.",
+    "proofRequirement": "Justificatif de détention daté de moins de trois mois, tel qu'un relevé de titres fourni par l'intermédiaire financier, accompagné du bulletin d'inscription complété.",
+    "procedure": "Télécharger et compléter le bulletin, indiquer le nombre d'actions et l'établissement financier, joindre un justificatif récent puis envoyer l'ensemble par courriel à club-actionnaires@arkema.com ou par courrier au Club des actionnaires Arkema.",
+    "officialUrl": "https://www.arkema.com/global/fr/investor-relations/individual-shareholder/shareholders-club/",
+    "sources": [
+      {
+        "url": "https://www.arkema.com/global/fr/investor-relations/individual-shareholder/shareholders-club/",
+        "title": "Club des actionnaires Arkema",
+        "publishedOrUpdated": "2026"
+      },
+      {
+        "url": "https://www.arkema.com/files/live/sites/shared_arkema/files/downloads/investorrelations/fr/finance/ARK-leaflet-ACABA25.pdf",
+        "title": "Bulletin d'inscription et règlement du Club des actionnaires Arkema",
+        "publishedOrUpdated": "2025-04"
+      }
+    ],
+    "confidence": "high",
+    "notes": "Le programme 2026 publié par Arkema confirme que le Club est actuellement actif."
+  },
+  "banco-santander": {
+    "programStatus": "unclear",
+    "minShares": 1,
+    "minSharesMeaning": "Une action confère juridiquement la qualité d'actionnaire. Aucun seuil supérieur actuel n'est publié pour recevoir les communications actionnaires.",
+    "holdingMode": "Actions détenues chez Banco Santander ou auprès d'un autre dépositaire. Les ADR sont également reconnus pour certains droits, avec une procédure propre à Citibank.",
+    "membershipCost": "Aucun frais d'adhésion publié. Les frais d'achat et de conservation dépendent du dépositaire; certaines opérations effectuées directement chez Santander bénéficient de tarifs particuliers.",
+    "proofRequirement": "Santander peut demander l'identité, le numéro fiscal et le nombre d'actions. Le relevé du compte-titres constitue la preuve de détention.",
+    "procedure": "Demander l'inscription aux communications ou l'accès aux services actionnaires par courriel, téléphone ou WhatsApp. Pour transférer les actions chez Santander, remettre le dernier relevé de compte-titres signé à une agence.",
+    "officialUrl": "https://www.santander.com/en/shareholders-and-investors/general-information/faqs",
+    "sources": [
+      {
+        "url": "https://www.santander.com/en/shareholders-and-investors/general-information/faqs",
+        "title": "Banco Santander Shareholders and Investors FAQs",
+        "publishedOrUpdated": null
+      },
+      {
+        "url": "https://microsite.bancosantander.es/files/accionistas/index.html",
+        "title": "Santander Exclusive Shareholder Space",
+        "publishedOrUpdated": null
+      },
+      {
+        "url": "https://www.bancosantander.es/en/particulares/ahorro-inversion/bolsa-inversion/accionistas-santander",
+        "title": "Santander Shareholders",
+        "publishedOrUpdated": "2026-03-31"
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Le service actionnaires est actif, mais les anciennes offres commerciales et bourses réservées aux actionnaires ne sont plus documentées assez clairement pour être présentées comme des avantages actuels garantis."
+  },
+  "berkshire-hathaway": {
+    "programStatus": "active",
+    "minShares": 1,
+    "minSharesMeaning": "Une action de classe A ou de classe B permet de demander les accréditations de l'assemblée annuelle et d'accéder aux événements et remises réservés aux actionnaires.",
+    "holdingMode": "Actionnaire inscrit directement ou bénéficiaire dont les titres sont détenus par une banque ou un courtier.",
+    "membershipCost": "Aucun frais d'adhésion. Les accréditations officielles sont délivrées aux actionnaires; les achats effectués pendant le week-end restent payants.",
+    "proofRequirement": "Carte de procuration, formulaire d'instructions de vote ou relevé du courtier indiquant les actions détenues à la date d'enregistrement, accompagné d'une pièce d'identité.",
+    "procedure": "Retourner le formulaire de demande d'accréditations joint aux documents de procuration. À défaut, se présenter au guichet de l'assemblée avec une preuve de détention à la date d'enregistrement et une pièce d'identité.",
+    "officialUrl": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526106253/d882687ddef14a.htm",
+    "sources": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526106253/d882687ddef14a.htm",
+        "title": "Berkshire Hathaway 2026 Proxy Statement",
+        "publishedOrUpdated": "2026-03-13"
+      },
+      {
+        "url": "https://www.berkshirehathaway.com/meet01/visguide2024.pdf",
+        "title": "Berkshire Hathaway Shareholders Guide",
+        "publishedOrUpdated": "2024"
+      },
+      {
+        "url": "https://www.theinvestorspodcast.com/how-to-attend-the-berkshire-hathaway-annual-meeting/",
+        "title": "How to Attend the 2026 Berkshire Hathaway Shareholder Meeting",
+        "publishedOrUpdated": "2026"
+      }
+    ],
+    "confidence": "high",
+    "notes": "Ce n'est pas un club permanent. L'avantage prend la forme du week-end annuel des actionnaires, avec événements et remises accessibles au moyen de l'accréditation."
+  },
+  "bouygues": {
+    "programStatus": "active",
+    "minShares": 1,
+    "minSharesMeaning": "Aucun seuil supérieur n'est annoncé. L'espace Olis est réservé aux détenteurs d'actions inscrites au nominatif; une action nominative suffit en pratique à avoir la qualité requise.",
+    "holdingMode": "Nominatif pur ou nominatif administré. Les actions au porteur ne permettent pas l'accès permanent à Olis tant qu'elles ne sont pas inscrites au nominatif.",
+    "membershipCost": "Aucun frais d'accès à Olis. Les frais de détention ou de transfert éventuels dépendent de l'intermédiaire financier.",
+    "proofRequirement": "L'inscription au registre nominatif Bouygues constitue la preuve. Un identifiant Olis est envoyé par courrier à l'actionnaire enregistré.",
+    "procedure": "Demander à son intermédiaire la conversion au nominatif pur ou administré. Après inscription dans le registre Bouygues, utiliser l'identifiant envoyé par courrier sur Olis-Actionnaires et créer le mot de passe lors de la première connexion.",
+    "officialUrl": "https://www.bouygues.com/devenir-actionnaire/",
+    "sources": [
+      {
+        "url": "https://www.bouygues.com/devenir-actionnaire/",
+        "title": "Bouygues - Devenir actionnaire",
+        "publishedOrUpdated": null
+      },
+      {
+        "url": "https://www.bouygues.com/accedez-au-site-olis-actionnaires/",
+        "title": "Bouygues - Accédez au site Olis-Actionnaires",
+        "publishedOrUpdated": null
+      },
+      {
+        "url": "https://www.bouygues.com/app/uploads/2025/03/qa-ag-29-avril-2005-questions-ecrites-vf-1.pdf",
+        "title": "Bouygues - Réponses aux questions écrites des actionnaires",
+        "publishedOrUpdated": "2025"
+      }
+    ],
+    "confidence": "high",
+    "notes": "Bouygues ne présente pas Olis comme un club événementiel et a indiqué ne pas envisager la création d'un club classique. Il faut le décrire comme un espace de gestion réservé aux actionnaires nominatifs."
+  },
+  "capgemini": {
+    "programStatus": "active",
+    "minShares": 1,
+    "minSharesMeaning": "Aucun seuil spécifique n'est annoncé pour les avantages du nominatif pur. Une action suffit en pratique pour ouvrir ou alimenter un compte nominatif.",
+    "holdingMode": "L'avantage de gratuité concerne le nominatif pur chez Uptevia. Le nominatif administré et le porteur restent possibles mais leurs frais dépendent de l'intermédiaire.",
+    "membershipCost": "Pas d'adhésion. Gestion courante et droits de garde gratuits au nominatif pur, hors ordres de bourse. Les frais éventuels de transfert vers Uptevia ne sont pas remboursés.",
+    "proofRequirement": "Aucun justificatif d'adhésion séparé. L'inscription des titres dans le registre Capgemini géré par Uptevia établit automatiquement la qualité d'actionnaire.",
+    "procedure": "Acheter directement des titres au nominatif pur auprès d'Uptevia ou compléter le formulaire de conversion et le transmettre à son intermédiaire financier.",
+    "officialUrl": "https://investors.capgemini.com/fr/devenir-actionnaire/",
+    "sources": [
+      {
+        "url": "https://investors.capgemini.com/fr/devenir-actionnaire/",
+        "title": "Capgemini - Devenir actionnaire",
+        "publishedOrUpdated": null
+      },
+      {
+        "url": "https://club-actionnaire.com/capgemini-pas-de-club-des-actionnaires/",
+        "title": "Capgemini : pas de Club des Actionnaires",
+        "publishedOrUpdated": "2023"
+      }
+    ],
+    "confidence": "high",
+    "notes": "Capgemini ne possède pas de club distinct. Le dispositif actif à présenter est l'avantage associé au nominatif pur, et non un club avec événements ou réductions."
+  },
+  "carnival-corporation": {
+    "programStatus": "active",
+    "minShares": 100,
+    "minSharesMeaning": "Le demandeur doit détenir au moins 100 actions Carnival Corporation au moment de la validation et de la demande.",
+    "holdingMode": "Actions inscrites directement ou détenues auprès d'un courtier, sous réserve que Stockperks puisse valider le portefeuille.",
+    "membershipCost": "Aucun frais d'adhésion annoncé. L'avantage est un crédit à bord; le voyage et les éventuels frais de courtage restent à la charge de l'actionnaire.",
+    "proofRequirement": "Validation du portefeuille et des 100 actions dans Stockperks, par connexion au courtier ou fourniture des informations de détention demandées par la plateforme.",
+    "procedure": "Télécharger Stockperks, créer un profil, rechercher Carnival, choisir la compagnie de croisière, sélectionner « Validate your portfolio », faire valider les actions puis déposer une demande pour la réservation au moins trois semaines avant le départ.",
+    "officialUrl": "https://www.carnivalcorp.com/investors/shareholder-information/shareholder-benefit/",
+    "sources": [
+      {
+        "url": "https://www.carnivalcorp.com/investors/shareholder-information/shareholder-benefit/",
+        "title": "Carnival Corporation Shareholder Benefit",
+        "publishedOrUpdated": "2026"
+      },
+      {
+        "url": "https://www.pocruises.com/help-hub/centre/loyalty-and-shareholder/shareholders/how-to-apply-for-the-shareholder-benefit",
+        "title": "P&O Cruises - How to apply for the shareholder benefit",
+        "publishedOrUpdated": "2026-03-10"
+      }
+    ],
+    "confidence": "high",
+    "notes": "Avantage disponible pour les départs jusqu'au 31 décembre 2026. Une seule attribution est permise par cabine occupée par l'actionnaire. Certaines réservations à tarif réduit, gratuit ou professionnel sont exclues."
+  },
+  "coca-cola": {
+    "programStatus": "no_formal_program",
+    "minShares": null,
+    "minSharesMeaning": "Aucun seuil de club ou d'avantage commercial n'est publié par The Coca-Cola Company. Une action suffit uniquement pour bénéficier des droits ordinaires d'actionnaire.",
+    "holdingMode": "Actionnaire inscrit directement chez Computershare ou bénéficiaire par l'intermédiaire d'une banque ou d'un courtier.",
+    "membershipCost": "Non applicable. Le plan d'achat direct et de réinvestissement peut comporter ses propres frais de transaction.",
+    "proofRequirement": "Non applicable à un club. Pour voter ou intervenir à l'assemblée, l'actionnaire utilise le numéro de contrôle figurant sur ses documents de procuration ou suit la procédure de son intermédiaire.",
+    "procedure": "Aucune adhésion à un club. Les investisseurs peuvent acheter des actions par leur courtier ou par le plan Computershare, puis gérer leurs droits via les services actionnaires officiels.",
+    "officialUrl": "https://investors.coca-colacompany.com/shareowners",
+    "sources": [
+      {
+        "url": "https://investors.coca-colacompany.com/shareowners",
+        "title": "The Coca-Cola Company Shareowners",
+        "publishedOrUpdated": "2026"
+      },
+      {
+        "url": "https://investors.coca-colacompany.com/shareowners/faqs",
+        "title": "The Coca-Cola Company Shareowner FAQs",
+        "publishedOrUpdated": null
+      },
+      {
+        "url": "https://investors.coca-colacompany.com/filings-reports/all-sec-filings/content/0001104659-26-028215/ko-20260429xdef14a.htm",
+        "title": "The Coca-Cola Company 2026 Proxy Statement",
+        "publishedOrUpdated": "2026-03-16"
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Ne pas confondre The Coca-Cola Company avec Coca-Cola Bottlers Japan, qui possède son propre programme d'avantages, ni avec les programmes de fidélité destinés aux consommateurs."
+  }
+}

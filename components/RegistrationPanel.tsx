@@ -1,5 +1,6 @@
 import { MinSharesCost } from "@/components/StockPrice";
 import { TrackedExternalLink } from "@/components/TrackedLink";
+import type { ShareholderAccess } from "@/lib/shareholder-access";
 
 type RegistrationPanelProps = {
   companyName: string;
@@ -12,6 +13,7 @@ type RegistrationPanelProps = {
   procedure: string | null;
   officialUrl: string;
   companyWebsite: string | null;
+  access?: Readonly<ShareholderAccess> | null;
 };
 
 export default function RegistrationPanel({
@@ -25,10 +27,84 @@ export default function RegistrationPanel({
   procedure,
   officialUrl,
   companyWebsite,
+  access,
 }: RegistrationPanelProps) {
+  const status = access?.programStatus ?? "formal_club";
+  const referenceShares = access?.minShares ?? minShares;
+  const thresholdLabel = access?.thresholdLabelFr;
+  const resolvedHoldingMode = access?.holdingModeFr || holdingMode;
+  const resolvedMembershipCost = access?.membershipCostFr || membershipCost;
+  const resolvedProofRequirement =
+    access?.proofRequirementFr || proofRequirement;
+  const resolvedProcedure = access?.procedureFr || procedure;
+  const resolvedOfficialUrl = access?.officialUrl || officialUrl;
+  const isNoProgram = status === "no_program";
+  const isUnclear = status === "unclear";
+  const hasPublishedThreshold = referenceShares !== null;
+  const shouldEstimateInvestment =
+    hasPublishedThreshold && !isNoProgram && !isUnclear;
+
+  const panelCopy = {
+    formal_club: {
+      eyebrow: "PARCOURS DU CLUB",
+      title: `Comment rejoindre le club ${companyName} ?`,
+      intro:
+        "Vérifiez les conditions au moment de votre demande : les seuils et procédures peuvent évoluer.",
+      cta: "REJOINDRE LE CLUB →",
+      eventName: "Join Official Club",
+    },
+    shareholder_benefit: {
+      eyebrow: "AVANTAGE ACTIONNAIRE",
+      title: `Comment demander l'avantage ${companyName} ?`,
+      intro:
+        "Vérifiez les conditions et les délais directement auprès de l'entreprise avant votre demande.",
+      cta: "DEMANDER L'AVANTAGE →",
+      eventName: "Request Shareholder Benefit",
+    },
+    shareholder_services: {
+      eyebrow: "SERVICES ACTIONNAIRES",
+      title: `Comment accéder aux services actionnaires ${companyName} ?`,
+      intro:
+        "Ces services relèvent de la détention ou de la relation actionnaire, sans constituer un club d'avantages.",
+      cta: "VOIR LES SERVICES OFFICIELS →",
+      eventName: "Open Shareholder Services",
+    },
+    no_program: {
+      eyebrow: "STATUT DU PROGRAMME",
+      title: `Aucun programme actionnaire actif identifié chez ${companyName}`,
+      intro:
+        "Les droits ordinaires liés à l'action ne sont pas présentés ici comme un club ou un avantage commercial.",
+      cta: "CONSULTER LA SOURCE OFFICIELLE →",
+      eventName: "Open Official Shareholder Source",
+    },
+    unclear: {
+      eyebrow: "CONDITIONS À CONFIRMER",
+      title: `Offre actionnaire ${companyName} : conditions 2026 non publiées`,
+      intro:
+        "Une offre antérieure ou ponctuelle est documentée, mais ses conditions actuelles ne peuvent pas être affirmées.",
+      cta: "VÉRIFIER L'OFFRE OFFICIELLE →",
+      eventName: "Verify Shareholder Offer",
+    },
+  }[status];
+
+  const thresholdValue = isNoProgram
+    ? "Non applicable"
+    : isUnclear
+      ? "Conditions 2026 non publiées"
+      : hasPublishedThreshold
+        ? `${referenceShares} action${referenceShares > 1 ? "s" : ""}`
+        : "Aucun seuil publié";
+
+  const investmentFallback = isNoProgram
+    ? "Non applicable"
+    : isUnclear
+      ? "Conditions 2026 non publiées"
+      : "Aucun seuil publié";
+
   const eventProperties = {
     company: companySlug,
-    minShares,
+    minShares: referenceShares,
+    programStatus: status,
   };
 
   return (
@@ -40,17 +116,16 @@ export default function RegistrationPanel({
       >
         <div className="p-[var(--space-md)] sm:p-[var(--space-xl)] border-b border-border">
           <p className="break-words font-[family-name:var(--font-data)] text-[10px] tracking-[0.08em] text-accent mb-[var(--space-sm)] [overflow-wrap:anywhere]">
-            PARCOURS ACTIONNAIRE
+            {panelCopy.eyebrow}
           </p>
           <h2
             id="registration-title"
             className="break-words font-[family-name:var(--font-body)] text-[26px] sm:text-[32px] font-medium text-text-display leading-[1.15] tracking-[-0.02em] [overflow-wrap:anywhere]"
           >
-            Comment accéder aux avantages {companyName} ?
+            {panelCopy.title}
           </h2>
           <p className="max-w-3xl break-words text-[14px] sm:text-[15px] text-text-secondary leading-[1.6] mt-[var(--space-sm)] [overflow-wrap:anywhere]">
-            Vérifiez les conditions au moment de votre demande : les seuils et
-            procédures peuvent évoluer.
+            {panelCopy.intro}
           </p>
         </div>
 
@@ -60,26 +135,29 @@ export default function RegistrationPanel({
               SEUIL REFERENCE
             </p>
             <p className="break-words text-[18px] sm:text-[20px] font-medium text-text-display leading-tight [overflow-wrap:anywhere]">
-              {minShares
-                ? `${minShares} action${minShares > 1 ? "s" : ""}`
-                : "À vérifier"}
+              {thresholdValue}
             </p>
+            {thresholdLabel && (
+              <p className="mt-[var(--space-xs)] break-words text-[11px] leading-[1.45] text-text-disabled [overflow-wrap:anywhere]">
+                {thresholdLabel}
+              </p>
+            )}
           </div>
 
           <div className="min-w-0 bg-[var(--black)] p-[var(--space-md)] min-h-28">
             <p className="break-words font-[family-name:var(--font-data)] text-[10px] tracking-[0.08em] text-text-disabled mb-[var(--space-sm)] [overflow-wrap:anywhere]">
               INVESTISSEMENT ESTIME
             </p>
-            {yahooSymbol && minShares ? (
+            {yahooSymbol && shouldEstimateInvestment ? (
               <MinSharesCost
                 symbol={yahooSymbol}
-                minShares={minShares}
+                minShares={referenceShares!}
                 compact
                 label="AU COURS ACTUEL"
               />
             ) : (
               <p className="break-words text-[18px] sm:text-[20px] font-medium text-text-display leading-tight [overflow-wrap:anywhere]">
-                À vérifier
+                {investmentFallback}
               </p>
             )}
           </div>
@@ -89,7 +167,7 @@ export default function RegistrationPanel({
               MODE DE DETENTION
             </p>
             <p className="break-words text-[18px] sm:text-[20px] font-medium text-text-display leading-tight [overflow-wrap:anywhere]">
-              {holdingMode}
+              {resolvedHoldingMode || "Non applicable"}
             </p>
           </div>
 
@@ -98,12 +176,41 @@ export default function RegistrationPanel({
               ACCES AU PROGRAMME
             </p>
             <p className="break-words text-[18px] sm:text-[20px] font-medium text-text-display leading-tight [overflow-wrap:anywhere]">
-              {membershipCost}
+              {resolvedMembershipCost}
             </p>
           </div>
         </div>
 
-        <div className="grid min-w-0 lg:grid-cols-[1fr_1.35fr]">
+        {access && access.alternateThresholds.length > 0 && (
+          <div className="border-t border-border p-[var(--space-md)] sm:p-[var(--space-xl)]">
+            <p className="font-[family-name:var(--font-data)] text-[10px] tracking-[0.08em] text-accent mb-[var(--space-md)]">
+              PALIERS ET CONDITIONS DISTINCTES
+            </p>
+            <div className="grid gap-px bg-border sm:grid-cols-2">
+              {access.alternateThresholds.map((threshold) => (
+                <div
+                  key={`${threshold.minShares}-${threshold.conditionFr}`}
+                  className="min-w-0 bg-surface p-[var(--space-md)]"
+                >
+                  <p className="text-[18px] font-medium text-text-display">
+                    {threshold.minShares} actions
+                  </p>
+                  <p className="mt-[var(--space-xs)] text-[12px] leading-[1.5] text-text-secondary">
+                    {threshold.conditionFr}
+                  </p>
+                  <p className="mt-[var(--space-sm)] text-[13px] leading-[1.5] text-text-display">
+                    {threshold.benefitFr}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <div
+          className={`grid min-w-0 ${isNoProgram ? "" : "lg:grid-cols-[1fr_1.35fr]"}`}
+        >
+          {!isNoProgram && (
           <div className="p-[var(--space-md)] sm:p-[var(--space-xl)] border-b lg:border-b-0 lg:border-r border-border">
             <p className="break-words font-[family-name:var(--font-data)] text-[10px] tracking-[0.08em] text-text-disabled mb-[var(--space-lg)] [overflow-wrap:anywhere]">
               LES ETAPES
@@ -115,12 +222,17 @@ export default function RegistrationPanel({
                 </span>
                 <div className="min-w-0">
                   <h3 className="break-words text-[15px] font-medium text-text-display [overflow-wrap:anywhere]">
-                    Détenir les actions requises
+                    {status === "shareholder_services"
+                      ? "Choisir le mode de détention adapté"
+                      : isUnclear
+                        ? "Confirmer les conditions actuelles"
+                        : "Détenir les actions requises"}
                   </h3>
                   <p className="break-words text-[13px] text-text-secondary mt-[var(--space-xs)] leading-[1.5] [overflow-wrap:anywhere]">
-                    {minShares
-                      ? `Conservez au moins ${minShares} action${minShares > 1 ? "s" : ""} avant d'engager la demande.`
-                      : "Vérifiez le seuil en vigueur sur la page officielle."}
+                    {thresholdLabel ??
+                      (hasPublishedThreshold
+                        ? `Conservez au moins ${referenceShares} action${referenceShares! > 1 ? "s" : ""} avant d'engager la demande.`
+                        : "Aucun seuil chiffré n'est publié par l'entreprise.")}
                   </p>
                 </div>
               </li>
@@ -133,7 +245,7 @@ export default function RegistrationPanel({
                     Préparer votre justificatif
                   </h3>
                   <p className="break-words text-[13px] text-text-secondary mt-[var(--space-xs)] leading-[1.5] [overflow-wrap:anywhere]">
-                    {proofRequirement}
+                    {resolvedProofRequirement}
                   </p>
                 </div>
               </li>
@@ -146,37 +258,38 @@ export default function RegistrationPanel({
                     Suivre la procédure officielle
                   </h3>
                   <p className="break-words text-[13px] text-text-secondary mt-[var(--space-xs)] leading-[1.5] [overflow-wrap:anywhere]">
-                    Ouvrez l’espace actionnaires et suivez les instructions
-                    actualisées de l’entreprise.
+                    Utilisez uniquement la source officielle et suivez les
+                    instructions actualisées de l’entreprise.
                   </p>
                 </div>
               </li>
             </ol>
           </div>
+          )}
 
           <div className="min-w-0 p-[var(--space-md)] sm:p-[var(--space-xl)] flex flex-col">
             <p className="break-words font-[family-name:var(--font-data)] text-[10px] tracking-[0.08em] text-text-disabled mb-[var(--space-md)] [overflow-wrap:anywhere]">
-              PROCEDURE DOCUMENTEE
+              {isNoProgram ? "CONSTAT DOCUMENTE" : "PROCEDURE DOCUMENTEE"}
             </p>
             <p className="min-w-0 flex-1 break-words text-[14px] sm:text-[15px] text-text-secondary leading-[1.65] [overflow-wrap:anywhere]">
-              {procedure ??
+              {resolvedProcedure ??
                 "La fiche ne permet pas encore de détailler la procédure. Consultez la source officielle avant toute démarche."}
             </p>
 
             <div className="flex min-w-0 flex-col sm:flex-row sm:items-center gap-[var(--space-md)] mt-[var(--space-xl)]">
               <TrackedExternalLink
-                href={officialUrl}
-                eventName="Join Official Club"
+                href={resolvedOfficialUrl}
+                eventName={panelCopy.eventName}
                 eventProperties={{
                   ...eventProperties,
                   placement: "registration_panel",
                 }}
                 className="min-h-12 min-w-0 max-w-full break-words inline-flex items-center justify-center bg-text-display text-black px-[var(--space-lg)] py-[var(--space-sm)] font-[family-name:var(--font-data)] text-[11px] sm:text-[12px] tracking-[0.06em] uppercase hover:opacity-80 transition-opacity duration-[var(--duration-micro)] [overflow-wrap:anywhere]"
               >
-                VOIR LA PROCEDURE OFFICIELLE →
+                {panelCopy.cta}
               </TrackedExternalLink>
 
-              {companyWebsite && companyWebsite !== officialUrl && (
+              {companyWebsite && companyWebsite !== resolvedOfficialUrl && (
                 <TrackedExternalLink
                   href={companyWebsite}
                   eventName="Open Company Website"
@@ -194,31 +307,31 @@ export default function RegistrationPanel({
         </div>
       </section>
 
+      {!isNoProgram && (
       <div className="fixed inset-x-0 bottom-0 z-40 sm:hidden overflow-x-clip border-t border-border-visible bg-[color:var(--black)]/95 backdrop-blur-md px-[var(--space-md)] pt-[var(--space-sm)] pb-[max(var(--space-sm),env(safe-area-inset-bottom))]">
         <div className="max-w-5xl mx-auto flex min-w-0 items-center gap-[var(--space-sm)]">
           <div className="min-w-0 flex-1">
             <p className="truncate font-[family-name:var(--font-data)] text-[9px] tracking-[0.08em] text-text-disabled">
-              {minShares
-                ? `DES ${minShares} ACTION${minShares > 1 ? "S" : ""}`
-                : "CONDITIONS A VERIFIER"}
+              {thresholdValue.toUpperCase()}
             </p>
             <p className="text-[13px] font-medium text-text-display truncate">
-              Avantages {companyName}
+              {status === "shareholder_services" ? "Services" : "Accès"} {companyName}
             </p>
           </div>
           <TrackedExternalLink
-            href={officialUrl}
-            eventName="Join Official Club"
+            href={resolvedOfficialUrl}
+            eventName={panelCopy.eventName}
             eventProperties={{
               ...eventProperties,
               placement: "mobile_sticky",
             }}
             className="min-h-12 max-w-[45vw] flex-shrink-0 break-words inline-flex items-center justify-center bg-text-display text-black px-[var(--space-sm)] font-[family-name:var(--font-data)] text-[10px] tracking-[0.04em] uppercase text-center leading-tight [overflow-wrap:anywhere]"
           >
-            PROCEDURE →
+            {status === "unclear" ? "VERIFIER →" : "PROCEDURE →"}
           </TrackedExternalLink>
         </div>
       </div>
+      )}
     </>
   );
 }

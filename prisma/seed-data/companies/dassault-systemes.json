@@ -8,8 +8,8 @@
   "website": "https://investor.3ds.com/fr",
   "clubUrl": "https://investor.3ds.com/fr",
   "clubName": "Relations actionnaires Dassault Systèmes",
-  "minShares": 1,
-  "lastVerifiedAt": "2026-05-15",
+  "minShares": null,
+  "lastVerifiedAt": "2026-07-31",
   "sources": [
     "https://investor.3ds.com/fr",
     "https://investor.3ds.com/shareholders-meeting/home/",
