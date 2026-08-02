@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import NewsletterCta from "./NewsletterCta";
 import { usePathname } from "next/navigation";
 
 export default function Footer() {
@@ -11,8 +10,8 @@ export default function Footer() {
   return (
     <footer className="mt-[var(--space-4xl)] border-t border-border">
       <div className="mx-auto max-w-7xl px-[var(--space-md)] py-[var(--space-2xl)] sm:px-[var(--space-lg)] lg:px-[var(--space-xl)]">
-        <div className="flex flex-col items-start justify-between gap-[var(--space-xl)] md:flex-row">
-          <div>
+        <div className="flex flex-col items-start justify-between gap-[var(--space-xl)] md:flex-row md:gap-[var(--space-2xl)]">
+          <div className="shrink-0">
             <div className="mb-[var(--space-sm)] flex items-center gap-[var(--space-sm)]">
               <div className="h-1.5 w-1.5 rounded-full bg-accent" />
               <span className="font-[family-name:var(--font-data)] text-[11px] font-bold uppercase tracking-[0.08em] text-text-display">
@@ -26,117 +25,39 @@ export default function Footer() {
             </p>
           </div>
 
-          <div className="flex flex-col gap-[var(--space-xl)] sm:flex-row sm:gap-[var(--space-2xl)]">
-            <div>
-              <p className="mb-[var(--space-sm)] font-[family-name:var(--font-data)] text-[11px] uppercase tracking-[0.08em] text-text-disabled">
-                Navigation
-              </p>
-              <ul className="space-y-[var(--space-xs)]">
-                <li>
-                  <Link
-                    href={isEnglish ? "/en#catalogue" : "/#catalogue"}
-                    className="text-[13px] text-text-secondary transition-colors hover:text-text-display"
-                  >
-                    Catalogue
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href={
-                      isEnglish ? "/en#registration-guide" : "/#inscription"
-                    }
-                    className="text-[13px] text-text-secondary transition-colors hover:text-text-display"
-                  >
-                    {isEnglish ? "How to join" : "Guide d'inscription"}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href={isEnglish ? "/en/about" : "/a-propos"}
-                    className="text-[13px] text-text-secondary transition-colors hover:text-text-display"
-                  >
-                    {isEnglish ? "About" : "A propos"}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href={isEnglish ? "/en#newsletter" : "/#newsletter"}
-                    className="text-[13px] text-text-secondary transition-colors hover:text-text-display"
-                  >
-                    {isEnglish ? "Newsletter (FR)" : "Le Club Actionnaire"}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href={isEnglish ? "/en/faq" : "/faq"}
-                    className="text-[13px] text-text-secondary transition-colors hover:text-text-display"
-                  >
-                    FAQ
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href={
-                      isEnglish
-                        ? "/en/shareholder-clubs-report"
-                        : "/observatoire"
-                    }
-                    className="text-[13px] text-text-secondary transition-colors hover:text-text-display"
-                  >
-                    {isEnglish ? "Data report" : "Observatoire"}
-                  </Link>
-                </li>
-              </ul>
-            </div>
+          <div className="flex min-w-0 flex-1 flex-col gap-[var(--space-lg)] md:items-end">
+            <nav
+              aria-label={isEnglish ? "Footer navigation" : "Navigation du pied de page"}
+              className="flex w-full flex-wrap items-center justify-start gap-x-[var(--space-lg)] gap-y-[var(--space-sm)] md:justify-end"
+            >
+              <Link href={isEnglish ? "/en#catalogue" : "/#catalogue"} className="whitespace-nowrap text-[13px] text-text-secondary transition-colors hover:text-text-display">
+                Catalogue
+              </Link>
+              <Link href={isEnglish ? "/en#registration-guide" : "/#inscription"} className="whitespace-nowrap text-[13px] text-text-secondary transition-colors hover:text-text-display">
+                {isEnglish ? "How to join" : "Guide d'inscription"}
+              </Link>
+              <Link href={isEnglish ? "/en/about" : "/a-propos"} className="whitespace-nowrap text-[13px] text-text-secondary transition-colors hover:text-text-display">
+                {isEnglish ? "About" : "A propos"}
+              </Link>
+              <Link href={isEnglish ? "/en/faq" : "/faq"} className="whitespace-nowrap text-[13px] text-text-secondary transition-colors hover:text-text-display">
+                FAQ
+              </Link>
+              <Link href={isEnglish ? "/en/shareholder-clubs-report" : "/observatoire"} className="whitespace-nowrap text-[13px] text-text-secondary transition-colors hover:text-text-display">
+                {isEnglish ? "Data report" : "Observatoire"}
+              </Link>
+              <Link href={isEnglish ? "/en/legal-notice" : "/mentions-legales"} className="whitespace-nowrap text-[13px] text-text-secondary transition-colors hover:text-text-display">
+                {isEnglish ? "Legal notice" : "Mentions legales"}
+              </Link>
+              <Link href={isEnglish ? "/en/privacy-policy" : "/politique-de-confidentialite"} className="whitespace-nowrap text-[13px] text-text-secondary transition-colors hover:text-text-display">
+                {isEnglish ? "Privacy policy" : "Confidentialite"}
+              </Link>
+            </nav>
 
-            <div>
-              <p className="mb-[var(--space-sm)] font-[family-name:var(--font-data)] text-[11px] uppercase tracking-[0.08em] text-text-disabled">
-                Legal
-              </p>
-              <ul className="space-y-[var(--space-xs)]">
-                <li>
-                  <Link
-                    href={
-                      isEnglish ? "/en/legal-notice" : "/mentions-legales"
-                    }
-                    className="text-[13px] text-text-secondary transition-colors hover:text-text-display"
-                  >
-                    {isEnglish ? "Legal notice" : "Mentions legales"}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href={
-                      isEnglish
-                        ? "/en/privacy-policy"
-                        : "/politique-de-confidentialite"
-                    }
-                    className="text-[13px] text-text-secondary transition-colors hover:text-text-display"
-                  >
-                    {isEnglish ? "Privacy policy" : "Confidentialite"}
-                  </Link>
-                </li>
-              </ul>
-            </div>
-
-            <div className="max-w-xs">
-              <p className="mb-[var(--space-sm)] font-[family-name:var(--font-data)] text-[11px] uppercase tracking-[0.08em] text-text-disabled">
-                {isEnglish
-                  ? "Indicative information"
-                  : "Informations indicatives"}
-              </p>
-              <p className="text-[12px] leading-relaxed text-text-disabled">
-                {isEnglish
-                  ? "Always verify conditions directly with each company. No investment advice."
-                  : "Verifiez les conditions directement aupres des entreprises. Aucun conseil en investissement."}
-              </p>
-            </div>
-
-            <NewsletterCta
-              variant="footer"
-              placement="footer_email_box"
-              locale={isEnglish ? "en" : "fr"}
-            />
+            <p className="max-w-xl text-[12px] leading-relaxed text-text-disabled md:text-right">
+              {isEnglish
+                ? "Always verify conditions directly with each company. No investment advice."
+                : "Verifiez les conditions directement aupres des entreprises. Aucun conseil en investissement."}
+            </p>
           </div>
         </div>
 

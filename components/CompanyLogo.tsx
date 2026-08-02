@@ -49,6 +49,7 @@ const LOGOS_WITH_ROUNDED_IMAGE = new Set([
   "hermes",
   "legrand-white-vignette",
   "lvmh",
+  "kering",
   "norwegian-cruise-line-blue",
   "orange",
   "royal-caribbean",
@@ -111,6 +112,14 @@ export default function CompanyLogo({ name, logoUrl }: CompanyLogoProps) {
         : undefined;
   const imageStyle = {
     borderRadius: imageRadius,
+    ...(logoKey === "kering"
+      ? {
+          top: "16.6667%",
+          width: "100%",
+          height: "66.6667%",
+          objectFit: "fill" as const,
+        }
+      : {}),
     ...(imagePadding ? { padding: imagePadding } : {}),
     ...(imageScale ? { transform: `scale(${imageScale})` } : {}),
   };

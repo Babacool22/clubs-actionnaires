@@ -153,6 +153,8 @@ body {
 .particle-doto-text__canvas {
   position: absolute;
   display: block;
+  image-rendering: pixelated;
+  opacity: 1;
   pointer-events: none;
 }
 

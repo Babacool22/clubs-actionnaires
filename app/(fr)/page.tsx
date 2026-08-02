@@ -6,6 +6,7 @@ import HeroVideo from "@/components/HeroVideo";
 import NewsletterCta from "@/components/NewsletterCta";
 import ParticleDotoText from "@/components/ParticleDotoText";
 import { BASE_URL, SITE_NAME, serializeJsonLd } from "@/lib/seo";
+import { sortCompaniesForCatalogue } from "@/lib/company-order";
 import { Suspense } from "react";
 
 export const metadata: Metadata = {
@@ -20,10 +21,10 @@ export const metadata: Metadata = {
 };
 
 export default async function HomePage() {
-  const companies = await prisma.company.findMany({
+  const companies = sortCompaniesForCatalogue(await prisma.company.findMany({
     include: { benefits: true },
     orderBy: { name: "asc" },
-  });
+  }));
 
   const sectors = [...new Set(companies.map((c) => c.sector))].sort();
   const indexes = [...new Set(companies.map((c) => c.stockIndex))].sort();
@@ -111,7 +112,7 @@ export default async function HomePage() {
                   aria-label={`${companies.length}`}
                   className="font-[family-name:var(--font-display)] text-[34px] sm:text-[48px] font-bold text-text-display leading-none"
                 >
-                  <ParticleDotoText lines={[`${companies.length}`]} />
+                  <ParticleDotoText lines={[`${companies.length}`]} thinFives />
                 </p>
                 <p className="font-[family-name:var(--font-data)] text-[9px] sm:text-[11px] tracking-[0.05em] sm:tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]">
                   ENTREPRISES
@@ -123,7 +124,7 @@ export default async function HomePage() {
                   aria-label={`${totalBenefits}`}
                   className="font-[family-name:var(--font-display)] text-[34px] sm:text-[48px] font-bold text-text-display leading-none"
                 >
-                  <ParticleDotoText lines={[`${totalBenefits}`]} />
+                  <ParticleDotoText lines={[`${totalBenefits}`]} thinFives />
                 </p>
                 <p className="font-[family-name:var(--font-data)] text-[9px] sm:text-[11px] tracking-[0.05em] sm:tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]">
                   AVANTAGES
@@ -135,7 +136,7 @@ export default async function HomePage() {
                   aria-label={`${sectors.length}`}
                   className="font-[family-name:var(--font-display)] text-[34px] sm:text-[48px] font-bold text-text-display leading-none"
                 >
-                  <ParticleDotoText lines={[`${sectors.length}`]} />
+                  <ParticleDotoText lines={[`${sectors.length}`]} thinFives />
                 </p>
                 <p className="font-[family-name:var(--font-data)] text-[9px] sm:text-[11px] tracking-[0.05em] sm:tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]">
                   SECTEURS

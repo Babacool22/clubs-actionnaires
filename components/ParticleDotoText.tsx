@@ -5,6 +5,7 @@ import { useEffect, useRef } from "react";
 type ParticleDotoTextProps = {
   lines: string[];
   wrap?: boolean;
+  thinFives?: boolean;
 };
 
 type Particle = {
@@ -23,6 +24,7 @@ const DAMPING = 0.82;
 export default function ParticleDotoText({
   lines,
   wrap = false,
+  thinFives = false,
 }: ParticleDotoTextProps) {
   const rootRef = useRef<HTMLSpanElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -57,19 +59,35 @@ export default function ParticleDotoText({
     let canvasPadding = 0;
     let canvasWidth = 0;
     let canvasHeight = 0;
+    let pixelScaleX = 1;
+    let pixelScaleY = 1;
+    let canvasSnapOffsetX = 0;
+    let canvasSnapOffsetY = 0;
     let influenceRadius = 64;
     let maxDisplacement = 28;
 
     const draw = () => {
-      context.clearRect(0, 0, canvasWidth, canvasHeight);
+      context.setTransform(1, 0, 0, 1, 0, 0);
+      context.clearRect(0, 0, canvas.width, canvas.height);
       context.fillStyle = color;
 
       particles.forEach((particle) => {
+        const centerX = Math.round(
+          (particle.x + canvasPadding - canvasSnapOffsetX) * pixelScaleX
+        );
+        const centerY = Math.round(
+          (particle.y + canvasPadding - canvasSnapOffsetY) * pixelScaleY
+        );
+        const squareSize = Math.max(
+          1,
+          Math.round(particle.size * Math.min(pixelScaleX, pixelScaleY))
+        );
+
         context.fillRect(
-          particle.x + canvasPadding - particle.size / 2,
-          particle.y + canvasPadding - particle.size / 2,
-          particle.size,
-          particle.size
+          Math.round(centerX - squareSize / 2),
+          Math.round(centerY - squareSize / 2),
+          squareSize,
+          squareSize
         );
       });
     };
@@ -78,31 +96,36 @@ export default function ParticleDotoText({
       const bounds = root.getBoundingClientRect();
       const styles = window.getComputedStyle(root);
       const fontSize = Number.parseFloat(styles.fontSize);
-      const devicePixelRatio = Math.min(window.devicePixelRatio || 1, 2);
+      const devicePixelRatio = window.devicePixelRatio || 1;
 
       width = Math.max(1, Math.ceil(bounds.width));
       height = Math.max(1, Math.ceil(bounds.height));
-      color = styles.color;
+      color =
+        document.documentElement.dataset.theme === "light"
+          ? "#000000"
+          : "#ffffff";
       influenceRadius = Math.max(42, fontSize * 1.12);
       maxDisplacement = Math.max(20, fontSize * 0.48);
       canvasPadding = Math.ceil(maxDisplacement + 6);
       canvasWidth = width + canvasPadding * 2;
       canvasHeight = height + canvasPadding * 2;
 
-      canvas.width = Math.ceil(canvasWidth * devicePixelRatio);
-      canvas.height = Math.ceil(canvasHeight * devicePixelRatio);
-      canvas.style.width = `${canvasWidth}px`;
-      canvas.style.height = `${canvasHeight}px`;
-      canvas.style.left = `${-canvasPadding}px`;
-      canvas.style.top = `${-canvasPadding}px`;
-      context.setTransform(
-        devicePixelRatio,
-        0,
-        0,
-        devicePixelRatio,
-        0,
-        0
-      );
+      canvas.width = Math.round(canvasWidth * devicePixelRatio);
+      canvas.height = Math.round(canvasHeight * devicePixelRatio);
+      canvas.style.width = `${canvas.width / devicePixelRatio}px`;
+      canvas.style.height = `${canvas.height / devicePixelRatio}px`;
+      const unsnappedCanvasLeft = bounds.left - canvasPadding;
+      const unsnappedCanvasTop = bounds.top - canvasPadding;
+      const snappedCanvasLeft =
+        Math.round(unsnappedCanvasLeft * devicePixelRatio) / devicePixelRatio;
+      const snappedCanvasTop =
+        Math.round(unsnappedCanvasTop * devicePixelRatio) / devicePixelRatio;
+      canvasSnapOffsetX = snappedCanvasLeft - unsnappedCanvasLeft;
+      canvasSnapOffsetY = snappedCanvasTop - unsnappedCanvasTop;
+      canvas.style.left = `${-canvasPadding + canvasSnapOffsetX}px`;
+      canvas.style.top = `${-canvasPadding + canvasSnapOffsetY}px`;
+      pixelScaleX = devicePixelRatio;
+      pixelScaleY = devicePixelRatio;
 
       const mask = document.createElement("canvas");
       mask.width = width;
@@ -120,6 +143,22 @@ export default function ParticleDotoText({
       maskContext.font = `${styles.fontWeight} ${styles.fontSize} ${styles.fontFamily}`;
       maskContext.textBaseline = "top";
 
+      const fiveMask =
+        thinFives && lines.some((line) => line.includes("5"))
+          ? document.createElement("canvas")
+          : null;
+      const fiveMaskContext = fiveMask?.getContext("2d", {
+        willReadFrequently: true,
+      });
+
+      if (fiveMask && fiveMaskContext) {
+        fiveMask.width = width;
+        fiveMask.height = height;
+        fiveMaskContext.fillStyle = "#ffffff";
+        fiveMaskContext.font = maskContext.font;
+        fiveMaskContext.textBaseline = "top";
+      }
+
       const letterSpacingContext = maskContext as CanvasRenderingContext2D & {
         letterSpacing?: string;
       };
@@ -128,6 +167,45 @@ export default function ParticleDotoText({
       const lineElements = root.querySelectorAll<HTMLElement>(
         ".particle-doto-text__line"
       );
+
+      const drawFiveCharacters = (
+        lineElement: HTMLElement,
+        lineIndex: number
+      ) => {
+        if (!fiveMaskContext) {
+          return;
+        }
+
+        const textNode = Array.from(lineElement.childNodes).find(
+          (node) => node.nodeType === Node.TEXT_NODE
+        );
+
+        if (!textNode) {
+          return;
+        }
+
+        const range = document.createRange();
+        const fiveLetterSpacingContext = fiveMaskContext as CanvasRenderingContext2D & {
+          letterSpacing?: string;
+        };
+        fiveLetterSpacingContext.letterSpacing = "0px";
+
+        Array.from(lines[lineIndex]).forEach((character, characterIndex) => {
+          if (character !== "5") {
+            return;
+          }
+
+          range.setStart(textNode, characterIndex);
+          range.setEnd(textNode, characterIndex + 1);
+          const characterBounds = range.getBoundingClientRect();
+
+          fiveMaskContext.fillText(
+            character,
+            characterBounds.left - bounds.left,
+            characterBounds.top - bounds.top
+          );
+        });
+      };
 
       lineElements.forEach((lineElement, index) => {
         const lineBounds = lineElement.getBoundingClientRect();
@@ -138,6 +216,7 @@ export default function ParticleDotoText({
             lineBounds.left - bounds.left,
             lineBounds.top - bounds.top
           );
+          drawFiveCharacters(lineElement, index);
           return;
         }
 
@@ -167,9 +246,14 @@ export default function ParticleDotoText({
             characterBounds.top - bounds.top
           );
         });
+
+        drawFiveCharacters(lineElement, index);
       });
 
       const pixels = maskContext.getImageData(0, 0, width, height).data;
+      const fivePixels = fiveMaskContext
+        ? fiveMaskContext.getImageData(0, 0, width, height).data
+        : null;
       const step = Math.max(3, Math.round(fontSize / 15));
       const squareSize = Math.max(1.6, step * 0.52);
       particles.length = 0;
@@ -177,6 +261,7 @@ export default function ParticleDotoText({
       for (let y = Math.floor(step / 2); y < height; y += step) {
         for (let x = Math.floor(step / 2); x < width; x += step) {
           let visible = false;
+          let fiveVisible = false;
 
           for (let offsetY = -1; offsetY <= 1 && !visible; offsetY += 1) {
             for (let offsetX = -1; offsetX <= 1; offsetX += 1) {
@@ -197,6 +282,27 @@ export default function ParticleDotoText({
             }
           }
 
+          if (fivePixels) {
+            for (let offsetY = -1; offsetY <= 1 && !fiveVisible; offsetY += 1) {
+              for (let offsetX = -1; offsetX <= 1; offsetX += 1) {
+                const sampleX = Math.min(
+                  width - 1,
+                  Math.max(0, x + offsetX)
+                );
+                const sampleY = Math.min(
+                  height - 1,
+                  Math.max(0, y + offsetY)
+                );
+                const alpha = fivePixels[(sampleY * width + sampleX) * 4 + 3];
+
+                if (alpha > 90) {
+                  fiveVisible = true;
+                  break;
+                }
+              }
+            }
+          }
+
           if (visible) {
             particles.push({
               homeX: x,
@@ -205,9 +311,10 @@ export default function ParticleDotoText({
               y,
               vx: 0,
               vy: 0,
-              size: squareSize,
+              size: fiveVisible ? squareSize * 0.82 : squareSize,
             });
           }
+
         }
       }
 
@@ -292,7 +399,7 @@ export default function ParticleDotoText({
       root.removeEventListener("pointermove", updatePointer);
       root.removeEventListener("pointerleave", releasePointer);
     };
-  }, [lines, wrap]);
+  }, [lines, thinFives, wrap]);
 
   return (
     <span

@@ -15,6 +15,7 @@ import {
   SOCIAL_IMAGE_PATH,
   serializeJsonLd,
 } from "@/lib/seo";
+import { sortCompaniesForCatalogue } from "@/lib/company-order";
 
 const EN_URL = `${BASE_URL}/en`;
 
@@ -64,7 +65,7 @@ export default async function EnglishHomePage() {
     orderBy: { name: "asc" },
   });
 
-  const translatedCompanies = companies.map((company) => {
+  const translatedCompanies = sortCompaniesForCatalogue(companies.map((company) => {
     const translation = getEnglishCompanyTranslation(company.slug);
     if (!translation) {
       throw new Error(`Missing English translation for ${company.slug}`);
@@ -88,7 +89,7 @@ export default async function EnglishHomePage() {
         value: translation.benefits[index].value ?? benefit.value,
       })),
     };
-  });
+  }));
 
   const sectors = [
     ...new Set(translatedCompanies.map((company) => company.sector)),
@@ -283,9 +284,9 @@ function Metric({ value, label }: { value: number; label: string }) {
     <div className="min-w-0">
       <p
         aria-label={`${value}`}
-        className="font-[family-name:var(--font-display)] text-[34px] font-bold leading-none text-text-display sm:text-[42px]"
+        className="font-[family-name:var(--font-display)] text-[34px] font-medium leading-none text-text-display sm:text-[42px]"
       >
-        <ParticleDotoText lines={[`${value}`]} />
+        <ParticleDotoText lines={[`${value}`]} thinFives />
       </p>
       <p className="mt-[var(--space-xs)] font-[family-name:var(--font-data)] text-[9px] tracking-[0.05em] text-text-disabled sm:text-[11px] sm:tracking-[0.08em]">
         {label}
