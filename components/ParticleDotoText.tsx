@@ -6,6 +6,7 @@ type ParticleDotoTextProps = {
   lines: string[];
   wrap?: boolean;
   thinFives?: boolean;
+  centerLines?: boolean;
 };
 
 type Particle = {
@@ -16,6 +17,7 @@ type Particle = {
   vx: number;
   vy: number;
   size: number;
+  thin: boolean;
 };
 
 const SPRING = 0.075;
@@ -25,6 +27,7 @@ export default function ParticleDotoText({
   lines,
   wrap = false,
   thinFives = false,
+  centerLines = false,
 }: ParticleDotoTextProps) {
   const rootRef = useRef<HTMLSpanElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -78,10 +81,12 @@ export default function ParticleDotoText({
         const centerY = Math.round(
           (particle.y + canvasPadding - canvasSnapOffsetY) * pixelScaleY
         );
-        const squareSize = Math.max(
-          1,
-          Math.round(particle.size * Math.min(pixelScaleX, pixelScaleY))
-        );
+        const squareSize = particle.thin
+          ? Math.max(1, particle.size * Math.min(pixelScaleX, pixelScaleY))
+          : Math.max(
+              1,
+              Math.round(particle.size * Math.min(pixelScaleX, pixelScaleY))
+            );
 
         context.fillRect(
           Math.round(centerX - squareSize / 2),
@@ -311,7 +316,8 @@ export default function ParticleDotoText({
               y,
               vx: 0,
               vy: 0,
-              size: fiveVisible ? squareSize * 0.82 : squareSize,
+              size: fiveVisible ? squareSize * 0.9 : squareSize,
+              thin: fiveVisible,
             });
           }
 
@@ -404,7 +410,7 @@ export default function ParticleDotoText({
   return (
     <span
       ref={rootRef}
-      className={`particle-doto-text${wrap ? " particle-doto-text--wrap" : ""}`}
+      className={`particle-doto-text${wrap ? " particle-doto-text--wrap" : ""}${centerLines ? " particle-doto-text--center" : ""}`}
       data-wrap={wrap}
       aria-hidden="true"
     >

@@ -1,12 +1,13 @@
 "use client";
 
-import { useEffect, useState, useMemo } from "react";
+import { useEffect, useRef, useState, useMemo } from "react";
 import { track } from "@vercel/analytics";
 import { useSearchParams } from "next/navigation";
 import CompanyCard from "./CompanyCard";
 import type { Company, Benefit } from "@/app/generated/prisma/client";
 
 type CompanyWithBenefits = Company & { benefits: Benefit[] };
+const INITIAL_VISIBLE_COMPANIES = 9;
 
 const BENEFIT_TYPES = [
   { value: "reduction", fr: "REDUCTION", en: "DISCOUNT" },
@@ -38,6 +39,8 @@ export default function CatalogueClient({
   const [selectedBenefitType, setSelectedBenefitType] = useState(
     () => searchParams.get("benefit") ?? ""
   );
+  const [isExpanded, setIsExpanded] = useState(false);
+  const revealHandleRef = useRef<HTMLDivElement>(null);
 
   const filtered = useMemo(() => {
     return companies.filter((company) => {
@@ -61,6 +64,24 @@ export default function CatalogueClient({
 
   const hasFilters =
     search || selectedSector || selectedIndex || selectedBenefitType;
+
+  const shouldCollapse =
+    !hasFilters && filtered.length > INITIAL_VISIBLE_COMPANIES;
+  const visibleCompanies =
+    shouldCollapse && !isExpanded
+      ? filtered.slice(0, INITIAL_VISIBLE_COMPANIES)
+      : filtered;
+  const previewCompanies =
+    shouldCollapse && !isExpanded
+      ? filtered.slice(
+          INITIAL_VISIBLE_COMPANIES,
+          INITIAL_VISIBLE_COMPANIES + 3
+        )
+      : [];
+  const hiddenCompanyCount = Math.max(
+    0,
+    filtered.length - INITIAL_VISIBLE_COMPANIES
+  );
 
   const catalogueQuery = useMemo(() => {
     const params = new URLSearchParams();
@@ -239,16 +260,86 @@ export default function CatalogueClient({
 
       {/* Grid */}
       {filtered.length > 0 ? (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-px bg-border">
-          {filtered.map((company) => (
-            <CompanyCard
-              key={company.id}
-              company={company}
-              catalogueReturnPath={catalogueReturnPath}
-              locale={locale}
-            />
-          ))}
-        </div>
+        <>
+          <div className="grid grid-cols-1 gap-px bg-transparent sm:grid-cols-2 lg:grid-cols-3">
+            {visibleCompanies.map((company) => (
+              <CompanyCard
+                key={company.id}
+                company={company}
+                catalogueReturnPath={catalogueReturnPath}
+                locale={locale}
+              />
+            ))}
+          </div>
+
+          {previewCompanies.length > 0 && (
+            <div className="catalogue-preview mt-px">
+              <div className="grid grid-cols-1 gap-px bg-transparent sm:grid-cols-2 lg:grid-cols-3">
+                {previewCompanies.map((company) => (
+                  <CompanyCard
+                    key={company.id}
+                    company={company}
+                    catalogueReturnPath={catalogueReturnPath}
+                    locale={locale}
+                  />
+                ))}
+              </div>
+            </div>
+          )}
+
+          {shouldCollapse && (
+            <div
+              ref={revealHandleRef}
+              className="flex justify-center bg-transparent py-[var(--space-md)]"
+            >
+              <button
+                type="button"
+                aria-expanded={isExpanded}
+                aria-label={
+                  isExpanded
+                    ? locale === "en"
+                      ? "Hide companies"
+                      : "Masquer les entreprises"
+                    : locale === "en"
+                      ? `Show ${hiddenCompanyCount} more companies`
+                      : `Afficher les ${hiddenCompanyCount} autres entreprises`
+                }
+                title={
+                  isExpanded
+                    ? locale === "en"
+                      ? "Hide companies"
+                      : "Masquer les entreprises"
+                    : locale === "en"
+                      ? `Show ${hiddenCompanyCount} more companies`
+                      : `Afficher les ${hiddenCompanyCount} autres entreprises`
+                }
+                onClick={() => {
+                  const nextExpanded = !isExpanded;
+                  setIsExpanded(nextExpanded);
+                  track(nextExpanded ? "Expand Catalogue" : "Collapse Catalogue", {
+                    visibleCompanies: isExpanded
+                      ? INITIAL_VISIBLE_COMPANIES
+                      : filtered.length,
+                  });
+
+                  if (!nextExpanded) {
+                    window.requestAnimationFrame(() => {
+                      window.requestAnimationFrame(() => {
+                        revealHandleRef.current?.scrollIntoView({
+                          behavior: "auto",
+                          block: "center",
+                        });
+                      });
+                    });
+                  }
+                }}
+                className="catalogue-reveal-handle"
+              >
+                <span aria-hidden="true" className="catalogue-reveal-arrow" />
+              </button>
+            </div>
+          )}
+        </>
       ) : (
         <div className="py-[var(--space-4xl)] text-center">
           <p className="font-[family-name:var(--font-display)] text-[36px] text-text-display tracking-[-0.02em] mb-[var(--space-md)]">
