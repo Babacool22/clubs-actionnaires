@@ -1,0 +1,59 @@
+{
+  "slug": "remy-cointreau",
+  "name": "Rémy Cointreau",
+  "description": "Rémy Cointreau est un groupe français de vins et spiritueux haut de gamme. Son portefeuille comprend notamment Rémy Martin, Louis XIII, Cointreau, Mount Gay, Metaxa, Bruichladdich et The Botanist. L'action est cotée à Paris et appartient au SBF 120.",
+  "sector": "Vins & Spiritueux",
+  "stockIndex": "SBF 120",
+  "ticker": "RCO",
+  "website": "https://www.remy-cointreau.com",
+  "clubName": "Club des Actionnaires Rémy Cointreau",
+  "clubUrl": "https://www.remy-cointreau.com/fr/finance/actionnaires/page/2025/",
+  "minShares": null,
+  "lastVerifiedAt": "2026-07-31",
+  "benefits": [
+    {
+      "type": "reduction",
+      "title": "Accès gratuit aux sites ouverts au public",
+      "description": "Sur présentation de la carte du Club, les membres bénéficient d'un accès gratuit aux sites de production du Groupe ouverts au public. Le site actionnaires cite notamment le parcours de visite Rémy Martin ; les sites effectivement ouverts et leurs conditions doivent être vérifiés avant le déplacement.",
+      "value": "Entrée gratuite",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.remy-cointreau.com/fr/finance/actionnaires/page/2025/"
+    },
+    {
+      "type": "reduction",
+      "title": "Réduction sur les achats sur place",
+      "description": "La carte de membre donne droit à une réduction de 10 % sur les achats effectués sur place lors d'une visite d'un site de production ouvert au public. L'offre ne constitue pas une remise générale sur tous les produits ou canaux de vente du Groupe.",
+      "value": "-10 %",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.remy-cointreau.com/fr/finance/actionnaires/page/2025/"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Combien d'actions Rémy Cointreau faut-il pour demander la carte du Club ?",
+      "answer": "La page officielle ne publie pas de seuil supérieur à la qualité d'actionnaire et indique que la carte est délivrée sur simple demande. La fiche retient donc un seuil pratique d'une action, sous réserve de la validation du service actionnaires."
+    },
+    {
+      "question": "Comment obtenir la carte du Club Rémy Cointreau ?",
+      "answer": "Il faut utiliser le lien de demande de carte ou contacter le Club à l'adresse club.desactionnaires@remy-cointreau.com. Le service peut demander une preuve récente de la qualité d'actionnaire."
+    },
+    {
+      "question": "L'entrée gratuite concerne-t-elle tous les sites du Groupe ?",
+      "answer": "Non. L'avantage concerne les sites de production ouverts au public et accessibles aux visites. Il faut vérifier les horaires, les réservations et les restrictions propres à chaque site avant de se déplacer."
+    },
+    {
+      "question": "Où s'applique la réduction de 10 % ?",
+      "answer": "La réduction s'applique aux achats réalisés sur place dans le cadre des sites de production ouverts au public. La page officielle ne la présente pas comme une remise valable sur les boutiques en ligne ou chez les distributeurs."
+    },
+    {
+      "question": "Le Club Rémy Cointreau est-il gratuit ?",
+      "answer": "La page officielle ne mentionne aucune cotisation. La carte est proposée sur simple demande aux actionnaires ; les frais de transport ou de séjour liés aux visites restent naturellement à la charge du membre."
+    }
+  ],
+  "sources": [
+    "https://www.remy-cointreau.com/fr/finance/actionnaires/page/2025/",
+    "https://live.euronext.com/en/product/equities/FR0000130395-XPAR",
+    "https://www.visitesremymartin.com/"
+  ],
+  "logoUrl": "/logos/remy-cointreau-red.png"
+}

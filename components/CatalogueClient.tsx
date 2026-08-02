@@ -1,29 +1,33 @@
 "use client";
 
-import { useEffect, useState, useMemo } from "react";
+import { useEffect, useRef, useState, useMemo } from "react";
 import { track } from "@vercel/analytics";
 import { useSearchParams } from "next/navigation";
 import CompanyCard from "./CompanyCard";
 import type { Company, Benefit } from "@/app/generated/prisma/client";
 
 type CompanyWithBenefits = Company & { benefits: Benefit[] };
+const INITIAL_VISIBLE_COMPANIES = 9;
 
 const BENEFIT_TYPES = [
-  { value: "reduction", label: "REDUCTION" },
-  { value: "cadeau", label: "CADEAU" },
-  { value: "evenement", label: "EVENEMENT" },
-  { value: "service", label: "SERVICE" },
+  { value: "reduction", fr: "REDUCTION", en: "DISCOUNT" },
+  { value: "cadeau", fr: "CADEAU", en: "GIFT" },
+  { value: "evenement", fr: "EVENEMENT", en: "EVENT" },
+  { value: "service", fr: "SERVICE", en: "SERVICE" },
 ];
 
 export default function CatalogueClient({
   companies,
   sectors,
   indexes,
+  locale = "fr",
 }: {
   companies: CompanyWithBenefits[];
   sectors: string[];
   indexes: string[];
+  locale?: "fr" | "en";
 }) {
+  const cataloguePath = locale === "en" ? "/en" : "/";
   const searchParams = useSearchParams();
   const [search, setSearch] = useState(() => searchParams.get("q") ?? "");
   const [selectedSector, setSelectedSector] = useState(
@@ -35,6 +39,8 @@ export default function CatalogueClient({
   const [selectedBenefitType, setSelectedBenefitType] = useState(
     () => searchParams.get("benefit") ?? ""
   );
+  const [isExpanded, setIsExpanded] = useState(false);
+  const revealHandleRef = useRef<HTMLDivElement>(null);
 
   const filtered = useMemo(() => {
     return companies.filter((company) => {
@@ -59,6 +65,24 @@ export default function CatalogueClient({
   const hasFilters =
     search || selectedSector || selectedIndex || selectedBenefitType;
 
+  const shouldCollapse =
+    !hasFilters && filtered.length > INITIAL_VISIBLE_COMPANIES;
+  const visibleCompanies =
+    shouldCollapse && !isExpanded
+      ? filtered.slice(0, INITIAL_VISIBLE_COMPANIES)
+      : filtered;
+  const previewCompanies =
+    shouldCollapse && !isExpanded
+      ? filtered.slice(
+          INITIAL_VISIBLE_COMPANIES,
+          INITIAL_VISIBLE_COMPANIES + 3
+        )
+      : [];
+  const hiddenCompanyCount = Math.max(
+    0,
+    filtered.length - INITIAL_VISIBLE_COMPANIES
+  );
+
   const catalogueQuery = useMemo(() => {
     const params = new URLSearchParams();
     if (search.trim()) params.set("q", search.trim());
@@ -71,8 +95,8 @@ export default function CatalogueClient({
   const catalogueReturnPath = useMemo(() => {
     const params = new URLSearchParams(catalogueQuery);
     params.set("restore", "1");
-    return `/?${params.toString()}#catalogue`;
-  }, [catalogueQuery]);
+    return `${cataloguePath}?${params.toString()}#catalogue`;
+  }, [cataloguePath, catalogueQuery]);
 
   useEffect(() => {
     if (searchParams.get("restore") !== "1") return;
@@ -88,12 +112,14 @@ export default function CatalogueClient({
   }, [searchParams]);
 
   useEffect(() => {
-    const nextUrl = catalogueQuery ? `/?${catalogueQuery}#catalogue` : "/";
+    const nextUrl = catalogueQuery
+      ? `${cataloguePath}?${catalogueQuery}#catalogue`
+      : cataloguePath;
     const currentUrl = `${window.location.pathname}${window.location.search}${window.location.hash}`;
     if (currentUrl !== nextUrl) {
       window.history.replaceState(null, "", nextUrl);
     }
-  }, [catalogueQuery]);
+  }, [cataloguePath, catalogueQuery]);
 
   useEffect(() => {
     const query = search.trim();
@@ -123,8 +149,12 @@ export default function CatalogueClient({
         <input
           type="text"
           inputMode="search"
-          aria-label="Rechercher une entreprise ou un secteur"
-          placeholder="RECHERCHER..."
+          aria-label={
+            locale === "en"
+              ? "Search for a company or sector"
+              : "Rechercher une entreprise ou un secteur"
+          }
+          placeholder={locale === "en" ? "SEARCH..." : "RECHERCHER..."}
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           className="w-full px-[var(--space-md)] py-[var(--space-md)] bg-surface border-b border-border-visible text-text-primary font-[family-name:var(--font-data)] text-[13px] tracking-[0.04em] placeholder:text-text-disabled focus:outline-none focus:border-text-primary transition-colors duration-[var(--duration-micro)]"
@@ -144,10 +174,12 @@ export default function CatalogueClient({
               value: value || "all",
             });
           }}
-          aria-label="Filtrer par indice"
+          aria-label={locale === "en" ? "Filter by index" : "Filtrer par indice"}
           className="w-full min-h-11 bg-transparent border border-border-visible px-[var(--space-sm)] sm:px-[var(--space-md)] py-[var(--space-sm)] font-[family-name:var(--font-data)] text-[10px] sm:text-[11px] tracking-[0.05em] sm:tracking-[0.08em] uppercase text-text-secondary cursor-pointer focus:outline-none focus:border-text-primary transition-colors duration-[var(--duration-micro)] appearance-none"
         >
-          <option value="">TOUS LES INDICES</option>
+          <option value="">
+            {locale === "en" ? "ALL INDEXES" : "TOUS LES INDICES"}
+          </option>
           {indexes.map((idx) => (
             <option key={idx} value={idx}>
               {idx}
@@ -166,10 +198,12 @@ export default function CatalogueClient({
               value: value || "all",
             });
           }}
-          aria-label="Filtrer par secteur"
+          aria-label={locale === "en" ? "Filter by sector" : "Filtrer par secteur"}
           className="w-full min-h-11 bg-transparent border border-border-visible px-[var(--space-sm)] sm:px-[var(--space-md)] py-[var(--space-sm)] font-[family-name:var(--font-data)] text-[10px] sm:text-[11px] tracking-[0.05em] sm:tracking-[0.08em] uppercase text-text-secondary cursor-pointer focus:outline-none focus:border-text-primary transition-colors duration-[var(--duration-micro)] appearance-none"
         >
-          <option value="">TOUS LES SECTEURS</option>
+          <option value="">
+            {locale === "en" ? "ALL SECTORS" : "TOUS LES SECTEURS"}
+          </option>
           {sectors.map((sector) => (
             <option key={sector} value={sector}>
               {sector.toUpperCase()}
@@ -196,7 +230,7 @@ export default function CatalogueClient({
                 : "bg-transparent text-text-secondary border-border-visible hover:border-text-secondary"
             }`}
           >
-            {type.label}
+            {type[locale]}
           </button>
         ))}
 
@@ -209,7 +243,7 @@ export default function CatalogueClient({
             }}
             className="col-span-2 sm:col-span-1 min-h-11 px-[var(--space-md)] py-[var(--space-sm)] font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-accent border border-accent hover:bg-accent-subtle transition-colors duration-[var(--duration-micro)]"
           >
-            REINITIALISER
+            {locale === "en" ? "RESET" : "REINITIALISER"}
           </button>
         )}
       </div>
@@ -218,28 +252,101 @@ export default function CatalogueClient({
       <div className="flex items-center justify-between mb-[var(--space-lg)]">
         <p className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled">
           <span className="text-text-display font-bold">{filtered.length}</span>{" "}
-          RESULTAT{filtered.length !== 1 ? "S" : ""}
+          {locale === "en"
+            ? `RESULT${filtered.length !== 1 ? "S" : ""}`
+            : `RESULTAT${filtered.length !== 1 ? "S" : ""}`}
         </p>
       </div>
 
       {/* Grid */}
       {filtered.length > 0 ? (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-px bg-border">
-          {filtered.map((company) => (
-            <CompanyCard
-              key={company.id}
-              company={company}
-              catalogueReturnPath={catalogueReturnPath}
-            />
-          ))}
-        </div>
+        <>
+          <div className="grid grid-cols-1 gap-px bg-transparent sm:grid-cols-2 lg:grid-cols-3">
+            {visibleCompanies.map((company) => (
+              <CompanyCard
+                key={company.id}
+                company={company}
+                catalogueReturnPath={catalogueReturnPath}
+                locale={locale}
+              />
+            ))}
+          </div>
+
+          {previewCompanies.length > 0 && (
+            <div className="catalogue-preview mt-px">
+              <div className="grid grid-cols-1 gap-px bg-transparent sm:grid-cols-2 lg:grid-cols-3">
+                {previewCompanies.map((company) => (
+                  <CompanyCard
+                    key={company.id}
+                    company={company}
+                    catalogueReturnPath={catalogueReturnPath}
+                    locale={locale}
+                  />
+                ))}
+              </div>
+            </div>
+          )}
+
+          {shouldCollapse && (
+            <div
+              ref={revealHandleRef}
+              className="flex justify-center bg-transparent py-[var(--space-md)]"
+            >
+              <button
+                type="button"
+                aria-expanded={isExpanded}
+                aria-label={
+                  isExpanded
+                    ? locale === "en"
+                      ? "Hide companies"
+                      : "Masquer les entreprises"
+                    : locale === "en"
+                      ? `Show ${hiddenCompanyCount} more companies`
+                      : `Afficher les ${hiddenCompanyCount} autres entreprises`
+                }
+                title={
+                  isExpanded
+                    ? locale === "en"
+                      ? "Hide companies"
+                      : "Masquer les entreprises"
+                    : locale === "en"
+                      ? `Show ${hiddenCompanyCount} more companies`
+                      : `Afficher les ${hiddenCompanyCount} autres entreprises`
+                }
+                onClick={() => {
+                  const nextExpanded = !isExpanded;
+                  setIsExpanded(nextExpanded);
+                  track(nextExpanded ? "Expand Catalogue" : "Collapse Catalogue", {
+                    visibleCompanies: isExpanded
+                      ? INITIAL_VISIBLE_COMPANIES
+                      : filtered.length,
+                  });
+
+                  if (!nextExpanded) {
+                    window.requestAnimationFrame(() => {
+                      window.requestAnimationFrame(() => {
+                        revealHandleRef.current?.scrollIntoView({
+                          behavior: "auto",
+                          block: "center",
+                        });
+                      });
+                    });
+                  }
+                }}
+                className="catalogue-reveal-handle"
+              >
+                <span aria-hidden="true" className="catalogue-reveal-arrow" />
+              </button>
+            </div>
+          )}
+        </>
       ) : (
         <div className="py-[var(--space-4xl)] text-center">
           <p className="font-[family-name:var(--font-display)] text-[36px] text-text-display tracking-[-0.02em] mb-[var(--space-md)]">
             0
           </p>
           <p className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled mb-[var(--space-xl)]">
-            AUCUN RESULTAT
+            {locale === "en" ? "NO RESULTS" : "AUCUN RESULTAT"}
           </p>
           <button
             onClick={() => {
@@ -248,7 +355,7 @@ export default function CatalogueClient({
             }}
             className="px-[var(--space-lg)] py-[var(--space-sm)] font-[family-name:var(--font-data)] text-[13px] tracking-[0.08em] uppercase bg-text-display text-black hover:opacity-80 transition-opacity duration-[var(--duration-micro)]"
           >
-            REINITIALISER
+            {locale === "en" ? "RESET" : "REINITIALISER"}
           </button>
         </div>
       )}

@@ -4,6 +4,8 @@ import type { Metadata } from "next";
 import { prisma } from "@/lib/prisma";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import CompanyLogo from "@/components/CompanyLogo";
+import ParticleDotoText from "@/components/ParticleDotoText";
+import GeoAnswerSummary from "@/components/GeoAnswerSummary";
 import { MinSharesCost, StockPrice } from "@/components/StockPrice";
 import { TrackedExternalLink } from "@/components/TrackedLink";
 import { toYahooSymbol } from "@/lib/yahoo";
@@ -13,11 +15,13 @@ import {
   SOCIAL_IMAGE_PATH,
   clampSeoText,
   serializeJsonLd,
+  withSeoBrand,
 } from "@/lib/seo";
 import {
   getEnglishCompanySlugs,
   getEnglishCompanyTranslation,
 } from "@/lib/company-translations";
+import { getShareholderAccess } from "@/lib/shareholder-access";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -64,7 +68,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const url = `${BASE_URL}/en/companies/${slug}`;
   const frUrl = `${BASE_URL}/entreprises/${slug}`;
-  const title = clampSeoText(translation.seoTitle, 60);
+  const title = withSeoBrand(translation.seoTitle);
   const description = clampSeoText(translation.seoDescription, 158);
   const lastVerifiedAt = company.lastVerifiedAt ?? company.updatedAt;
 
@@ -86,6 +90,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       languages: {
         "fr-FR": frUrl,
         "en-US": url,
+        "x-default": frUrl,
       },
     },
     openGraph: {
@@ -143,12 +148,22 @@ export default async function EnglishCompanyPage({ params }: Props) {
 
   if (!company) notFound();
 
+  if (translation.benefits.length !== company.benefits.length) {
+    throw new Error(
+      `English benefit count mismatch for ${slug}: ${translation.benefits.length}/${company.benefits.length}`
+    );
+  }
+  if (translation.faqs.length !== company.faqs.length) {
+    throw new Error(
+      `English FAQ count mismatch for ${slug}: ${translation.faqs.length}/${company.faqs.length}`
+    );
+  }
+
   const benefits = company.benefits.map((benefit, index) => ({
     ...benefit,
-    title: translation.benefits[index]?.title ?? benefit.title,
-    description:
-      translation.benefits[index]?.description ?? benefit.description,
-    value: translation.benefits[index]?.value ?? benefit.value,
+    title: translation.benefits[index].title,
+    description: translation.benefits[index].description,
+    value: translation.benefits[index].value ?? benefit.value,
     sourceUrl: splitRenderedSource(benefit.description).sourceUrl,
   }));
   const faqs = translation.faqs.map((faq, index) => ({
@@ -166,6 +181,8 @@ export default async function EnglishCompanyPage({ params }: Props) {
   );
 
   const yahooSymbol = toYahooSymbol(company.ticker, company.stockIndex);
+  const shareholderAccess = getShareholderAccess(company.slug);
+  const referenceShares = shareholderAccess?.minShares ?? company.minShares;
   const pageUrl = `${BASE_URL}/en/companies/${company.slug}`;
   const frUrl = `${BASE_URL}/entreprises/${company.slug}`;
   const lastVerifiedAt = company.lastVerifiedAt ?? company.updatedAt;
@@ -176,6 +193,66 @@ export default async function EnglishCompanyPage({ params }: Props) {
     year: "numeric",
     timeZone: "UTC",
   }).format(lastVerifiedAt);
+  const hasActiveBenefits = shareholderAccess
+    ? shareholderAccess.programStatus !== "no_program" && benefits.length > 0
+    : benefits.length > 0;
+  const officialSourceUrl =
+    shareholderAccess?.officialUrl ?? company.clubUrl ?? company.website;
+  const programmeStatus = shareholderAccess
+    ? {
+        formal_club: "Active, documented shareholders' club",
+        shareholder_benefit: "Active shareholder benefit without a separate club",
+        shareholder_services: "Shareholder services without a benefits club",
+        no_program: "No active shareholder programme identified",
+        unclear: "Possible offer; 2026 conditions have not been published",
+      }[shareholderAccess.programStatus]
+    : hasActiveBenefits
+      ? company.clubUrl
+        ? "Documented shareholder club, programme or dedicated area"
+        : "Documented shareholder benefits without a separate club"
+      : "No active shareholder club or benefit identified";
+  const alternateThresholdLabels: Record<string, string> = {
+    "compagnie-des-alpes":
+      "1 share for the Club; 400 registered shares held for 2 years for Shareholder Vouchers",
+    edenred: "1 registered share or 30 bearer shares",
+    mapfre:
+      "1 share for general information; 1,000 shares and Spanish residency for the Club",
+    orange:
+      "1 share for the Club; more than 1,500 shares for Premium After Hours",
+    repsol:
+      "1 share for the Club; Waylet tiers start at 50, 850, 2,500 and 12,500 shares",
+    totalenergies: "50 registered shares or 100 bearer shares",
+  };
+  const thresholdLabel = shareholderAccess
+    ? shareholderAccess.programStatus === "no_program"
+      ? "Not applicable"
+      : shareholderAccess.programStatus === "unclear"
+        ? "2026 conditions not published"
+        : alternateThresholdLabels[company.slug] ??
+          (referenceShares
+            ? `${referenceShares} share${referenceShares > 1 ? "s" : ""}`
+            : "No numeric threshold published")
+    : referenceShares
+      ? `${referenceShares} share${referenceShares > 1 ? "s" : ""}`
+      : "No numeric threshold published";
+  const mainBenefits = hasActiveBenefits
+    ? benefits
+        .slice(0, 3)
+        .map((benefit) => benefit.title)
+        .join("; ")
+    : "No active benefit confirmed";
+  const registrationSummary = translation.registrationProcedure
+    ? clampSeoText(translation.registrationProcedure, 260)
+    : officialSourceUrl
+      ? "Check the official company page before taking action, as conditions and required documents may change."
+      : "No official enrolment procedure is currently documented.";
+  const quickAnswer = shareholderAccess?.programStatus === "no_program"
+    ? `No active shareholder club or commercial benefit was identified for ${translation.name} as of the latest verification date.`
+    : shareholderAccess?.programStatus === "unclear"
+      ? `${translation.name} has a documented past or one-off shareholder offer, but its 2026 conditions have not been published.`
+      : hasActiveBenefits
+        ? `${translation.name} has ${benefits.length} documented shareholder benefit${benefits.length > 1 ? "s" : ""} or service${benefits.length > 1 ? "s" : ""}. Reference threshold: ${thresholdLabel}.`
+        : `No active shareholder club or benefit was identified for ${translation.name} as of the latest verification date.`;
   const seoTitle = clampSeoText(translation.seoTitle, 60);
   const seoDescription = clampSeoText(translation.seoDescription, 158);
 
@@ -302,8 +379,11 @@ export default async function EnglishCompanyPage({ params }: Props) {
               </span>
             </div>
 
-            <h1 className="font-[family-name:var(--font-display)] text-[40px] sm:text-[48px] md:text-[72px] font-bold text-text-display leading-[1.0] mb-[var(--space-lg)] break-words">
-              {translation.name.toUpperCase()}
+            <h1
+              aria-label={translation.name}
+              className="font-[family-name:var(--font-display)] text-[40px] sm:text-[48px] md:text-[72px] font-bold text-text-display leading-[1.0] tracking-[0.01em] mb-[var(--space-lg)] break-words"
+            >
+              <ParticleDotoText lines={[translation.name.toUpperCase()]} wrap />
             </h1>
 
             <p className="max-w-2xl break-words text-[16px] sm:text-[18px] text-text-secondary leading-[1.5] sm:leading-[1.3] mb-[var(--space-lg)] [overflow-wrap:anywhere]">
@@ -315,13 +395,11 @@ export default async function EnglishCompanyPage({ params }: Props) {
                 DETAILED PAGE - CITED SOURCES
               </p>
               <p className="break-words text-[14px] sm:text-[15px] text-text-secondary leading-[1.6] [overflow-wrap:anywhere]">
-                This English pilot tracks {benefits.length} shareholder benefit
-                {benefits.length > 1 ? "s" : ""} or service
-                {benefits.length > 1 ? "s" : ""} available from{" "}
-                {company.minShares ?? 1} share
-                {(company.minShares ?? 1) > 1 ? "s" : ""}. Conditions can
-                change, so always verify the official shareholders&apos; page before
-                applying.
+                This page tracks {benefits.length} documented shareholder
+                benefit{benefits.length > 1 ? "s" : ""} or service
+                {benefits.length > 1 ? "s" : ""}. Reference threshold:{" "}
+                {thresholdLabel}. Conditions can change, so always verify the
+                official shareholders&apos; page before applying.
               </p>
               <p className="font-[family-name:var(--font-data)] text-[10px] tracking-[0.05em] text-text-disabled mt-[var(--space-sm)]">
                 LAST VERIFIED: {lastVerifiedLabel.toUpperCase()}
@@ -335,14 +413,14 @@ export default async function EnglishCompanyPage({ params }: Props) {
         </div>
 
         <div className="grid min-w-0 grid-cols-2 sm:flex sm:flex-wrap items-start sm:items-center gap-x-[var(--space-lg)] gap-y-[var(--space-xl)] sm:gap-[var(--space-xl)] border-t border-border pt-[var(--space-lg)]">
-          {company.minShares && (
+          {referenceShares && shareholderAccess?.programStatus !== "no_program" && (
             <>
               <div className="min-w-0">
                 <p className="font-[family-name:var(--font-display)] text-[36px] font-bold text-text-display leading-none">
-                  {company.minShares}
+                  {referenceShares}
                 </p>
                 <p className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]">
-                  MIN. SHARE{company.minShares > 1 ? "S" : ""}
+                  MIN. SHARE{referenceShares > 1 ? "S" : ""}
                 </p>
               </div>
               <div className="hidden sm:block w-px h-8 bg-border-visible" />
@@ -359,23 +437,32 @@ export default async function EnglishCompanyPage({ params }: Props) {
           {yahooSymbol && (
             <>
               <div className="hidden sm:block w-px h-8 bg-border-visible" />
-              <StockPrice symbol={yahooSymbol} />
-              {company.minShares && (
+              <StockPrice
+                symbol={yahooSymbol}
+                locale="en-US"
+                loadingLabel="LIVE PRICE"
+                unavailableLabel="PRICE UNAVAILABLE"
+              />
+              {referenceShares && shareholderAccess?.programStatus !== "no_program" && (
                 <>
                   <div className="hidden sm:block w-px h-8 bg-border-visible" />
-                  <MinSharesCost
-                    symbol={yahooSymbol}
-                    minShares={company.minShares}
-                  />
+                <MinSharesCost
+                  symbol={yahooSymbol}
+                  minShares={referenceShares}
+                  locale="en-US"
+                  label="MIN. COST"
+                  loadingLabel="PRICE LOADING"
+                  unavailableLabel="UNAVAILABLE"
+                />
                 </>
               )}
             </>
           )}
-          {company.clubUrl && (
+          {officialSourceUrl && (
             <>
               <div className="hidden sm:block w-px h-8 bg-border-visible" />
               <TrackedExternalLink
-                href={company.clubUrl}
+                href={officialSourceUrl}
                 eventName="Open Official Club"
                 eventProperties={{ company: company.slug, placement: "en_header" }}
                 className="col-span-2 sm:col-span-1 min-h-11 min-w-0 break-words inline-flex items-center font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-interactive hover:text-text-display transition-colors [overflow-wrap:anywhere]"
@@ -387,7 +474,31 @@ export default async function EnglishCompanyPage({ params }: Props) {
         </div>
       </div>
 
-      {company.clubUrl && (
+      <GeoAnswerSummary
+        eyebrow="QUICK ANSWER"
+        title={`${translation.name}: key facts`}
+        summary={quickAnswer}
+        items={[
+          { label: "PROGRAMME STATUS", value: programmeStatus },
+          { label: "REFERENCE THRESHOLD", value: thresholdLabel },
+          {
+            label: "DOCUMENTED BENEFITS",
+            value: `${benefits.length} benefit${benefits.length > 1 ? "s" : ""} or service${benefits.length > 1 ? "s" : ""}`,
+          },
+          { label: "MAIN BENEFITS", value: mainBenefits },
+          { label: "HOW TO JOIN", value: registrationSummary },
+          { label: "LAST VERIFIED", value: lastVerifiedLabel },
+          {
+            label: "OFFICIAL SOURCE",
+            value: officialSourceUrl
+              ? "Open the company's official source"
+              : "No official URL documented",
+            href: officialSourceUrl,
+          },
+        ]}
+      />
+
+      {officialSourceUrl && shareholderAccess?.programStatus !== "no_program" && (
         <section
           id="how-to-join"
           className="mb-[var(--space-2xl)] sm:mb-[var(--space-3xl)] min-w-0 overflow-x-clip border border-border-visible bg-surface"
@@ -397,7 +508,11 @@ export default async function EnglishCompanyPage({ params }: Props) {
               SHAREHOLDER PATH
             </p>
             <h2 className="break-words text-[26px] sm:text-[32px] font-medium text-text-display leading-[1.15] [overflow-wrap:anywhere]">
-              How do you access {translation.name} benefits?
+              {shareholderAccess?.programStatus === "shareholder_services"
+                ? `How do you access ${translation.name} shareholder services?`
+                : shareholderAccess?.programStatus === "shareholder_benefit"
+                  ? `How do you request the ${translation.name} shareholder benefit?`
+                  : `How do you join the ${translation.name} shareholders' club?`}
             </h2>
             <p className="max-w-3xl text-[14px] sm:text-[15px] text-text-secondary leading-[1.6] mt-[var(--space-sm)]">
               Check the conditions when you apply: thresholds and procedures can
@@ -411,25 +526,28 @@ export default async function EnglishCompanyPage({ params }: Props) {
                 REFERENCE THRESHOLD
               </p>
               <p className="text-[18px] sm:text-[20px] font-medium text-text-display">
-                {company.minShares
-                  ? `${company.minShares} share${company.minShares > 1 ? "s" : ""}`
-                  : "Check official page"}
+                {thresholdLabel}
               </p>
             </div>
             <div className="bg-[var(--black)] p-[var(--space-md)] min-h-28">
               <p className="font-[family-name:var(--font-data)] text-[10px] tracking-[0.08em] text-text-disabled mb-[var(--space-sm)]">
                 ESTIMATED INVESTMENT
               </p>
-              {yahooSymbol && company.minShares ? (
+              {yahooSymbol && referenceShares ? (
                 <MinSharesCost
                   symbol={yahooSymbol}
-                  minShares={company.minShares}
+                  minShares={referenceShares}
                   compact
+                  locale="en-US"
                   label="CURRENT PRICE"
+                  loadingLabel="PRICE LOADING"
+                  unavailableLabel="UNAVAILABLE"
                 />
               ) : (
                 <p className="text-[18px] sm:text-[20px] font-medium text-text-display">
-                  Check official page
+                  {shareholderAccess?.programStatus === "unclear"
+                    ? "2026 conditions not published"
+                    : "No numeric threshold published"}
                 </p>
               )}
             </div>
@@ -459,7 +577,7 @@ export default async function EnglishCompanyPage({ params }: Props) {
               {translation.registrationProcedure}
             </p>
             <TrackedExternalLink
-              href={company.clubUrl}
+              href={officialSourceUrl}
               eventName="Join Official Club"
               eventProperties={{ company: company.slug, placement: "en_registration" }}
               className="mt-[var(--space-lg)] min-h-12 max-w-full break-words inline-flex items-center justify-center bg-text-display text-black px-[var(--space-lg)] py-[var(--space-sm)] font-[family-name:var(--font-data)] text-[11px] sm:text-[12px] tracking-[0.06em] uppercase hover:opacity-80 transition-opacity [overflow-wrap:anywhere]"

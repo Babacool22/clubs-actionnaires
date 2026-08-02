@@ -17,13 +17,20 @@ const LOGOS_WITH_TIGHT_PADDING = new Set([
 
 const LOGOS_WITH_MAX_FILL = new Set([
   "3m",
+  "arkema",
   "capgemini",
   "carrefour",
+  "compagnie-des-alpes",
   "danone-vertical",
   "essilorluxottica-wide",
   "eurofins-scientific-color",
+  "fdj-united",
+  "jungfraubahn",
   "legrand-white-vignette",
+  "ovhcloud-blue",
+  "remy-cointreau-red",
   "teleperformance",
+  "vivendi-purple",
 ]);
 
 const LOGOS_WITH_VISUAL_BOOST = new Set([
@@ -34,6 +41,7 @@ const LOGOS_WITH_VISUAL_BOOST = new Set([
 ]);
 
 const LOGOS_WITH_STRONG_VISUAL_BOOST = new Set(["capgemini"]);
+const LOGOS_WITH_WIDE_CANVAS_BOOST = new Set(["arkema"]);
 
 const LOGOS_WITH_ROUNDED_IMAGE = new Set([
   "axa",
@@ -41,6 +49,7 @@ const LOGOS_WITH_ROUNDED_IMAGE = new Set([
   "hermes",
   "legrand-white-vignette",
   "lvmh",
+  "kering",
   "norwegian-cruise-line-blue",
   "orange",
   "royal-caribbean",
@@ -52,6 +61,7 @@ const LOGOS_WITH_ADAPTIVE_MONOCHROME = new Set(["loreal", "renault"]);
 const TIGHT_LOGO_PADDING = "clamp(0.35rem, 0.9vw, 0.75rem)";
 const MAX_LOGO_PADDING = "clamp(0.1rem, 0.35vw, 0.3rem)";
 const BOOSTED_LOGO_SCALE = "1.15";
+const WIDE_CANVAS_BOOSTED_LOGO_SCALE = "1.28";
 const STRONG_BOOSTED_LOGO_SCALE = "1.45";
 const TRANSPARENT_LOGO_RADIUS = "0px";
 const FALLBACK_LOGO_RADIUS = "8px";
@@ -95,11 +105,21 @@ export default function CompanyLogo({ name, logoUrl }: CompanyLogoProps) {
       : undefined;
   const imageScale = LOGOS_WITH_STRONG_VISUAL_BOOST.has(logoKey)
     ? STRONG_BOOSTED_LOGO_SCALE
-    : LOGOS_WITH_VISUAL_BOOST.has(logoKey)
-      ? BOOSTED_LOGO_SCALE
-      : undefined;
+    : LOGOS_WITH_WIDE_CANVAS_BOOST.has(logoKey)
+      ? WIDE_CANVAS_BOOSTED_LOGO_SCALE
+      : LOGOS_WITH_VISUAL_BOOST.has(logoKey)
+        ? BOOSTED_LOGO_SCALE
+        : undefined;
   const imageStyle = {
     borderRadius: imageRadius,
+    ...(logoKey === "kering"
+      ? {
+          top: "16.6667%",
+          width: "100%",
+          height: "66.6667%",
+          objectFit: "fill" as const,
+        }
+      : {}),
     ...(imagePadding ? { padding: imagePadding } : {}),
     ...(imageScale ? { transform: `scale(${imageScale})` } : {}),
   };

@@ -16,6 +16,13 @@ export function clampSeoText(value: string, maxLength: number) {
   return `${truncated}...`;
 }
 
+export function withSeoBrand(value: string, maxLength = 60) {
+  const title = clampSeoText(value, maxLength);
+  const brandedTitle = `${title} | ${SITE_NAME}`;
+
+  return brandedTitle.length <= maxLength ? brandedTitle : title;
+}
+
 export function serializeJsonLd(value: unknown) {
   return JSON.stringify(value).replace(/</g, "\\u003c");
 }

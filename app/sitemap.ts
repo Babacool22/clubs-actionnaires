@@ -73,6 +73,42 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: "monthly",
       priority: 0.7,
     },
+    {
+      url: `${BASE_URL}/observatoire`,
+      lastModified: latestUpdate,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${BASE_URL}/en/about`,
+      lastModified: new Date("2026-07-29"),
+      changeFrequency: "monthly",
+      priority: 0.6,
+    },
+    {
+      url: `${BASE_URL}/en/faq`,
+      lastModified: new Date("2026-07-29"),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/en/shareholder-clubs-report`,
+      lastModified: latestUpdate,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/en/legal-notice`,
+      lastModified: new Date("2026-07-29"),
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
+    {
+      url: `${BASE_URL}/en/privacy-policy`,
+      lastModified: new Date("2026-07-29"),
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
     ...companyUrls,
     ...englishCompanyUrls,
   ];

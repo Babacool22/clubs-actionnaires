@@ -8,8 +8,8 @@
   "website": "https://www.michelin.com/finance/",
   "clubName": "Relations actionnaires individuels Michelin",
   "clubUrl": "https://www.michelin.com/finance/actionnaire-individuel/",
-  "minShares": 1,
-  "lastVerifiedAt": "2026-05-15",
+  "minShares": null,
+  "lastVerifiedAt": "2026-07-31",
   "benefits": [
     {
       "type": "cadeau",

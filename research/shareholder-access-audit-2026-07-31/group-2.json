@@ -1,0 +1,320 @@
+{
+  "compagnie-des-alpes": {
+    "programStatus": "active",
+    "minShares": 1,
+    "minSharesMeaning": "Une action détenue au 30 septembre 2025 suffit pour adhérer au Club pendant la campagne 2025-2026. Les Bons Actionnaires exigent séparément au moins 400 actions inscrites au nominatif depuis deux ans, soit depuis le 30 septembre 2023 pour cette campagne.",
+    "holdingMode": [
+      "porteur",
+      "nominatif administré",
+      "nominatif pur",
+      "actionnariat salarié direct"
+    ],
+    "membershipCost": "Gratuit",
+    "proofRequirement": "Certificat de détention daté exactement du 30 septembre précédant l'exercice fiscal. Pour 2025-2026, seul un certificat au 30 septembre 2025 est accepté. Le document doit indiquer le mode de détention et le nombre d'actions.",
+    "procedure": "Remplir le formulaire en ligne ou le bulletin papier, ou contacter le 01 86 86 02 14. Joindre le certificat de détention demandé. Après validation, les codes d'accès individuels à l'espace Club sont envoyés par e-mail.",
+    "officialUrl": "https://espace-actionnaires.compagniedesalpes.com/rejoindre-le-club",
+    "sources": [
+      {
+        "title": "Les avantages actionnaires",
+        "url": "https://espace-actionnaires.compagniedesalpes.com/rejoindre-le-club",
+        "role": "Source officielle actuelle des seuils 2025-2026"
+      },
+      {
+        "title": "Formulaire pour rejoindre le Club",
+        "url": "https://espace-actionnaires.compagniedesalpes.com/node/11",
+        "role": "Source officielle de la procédure et du justificatif"
+      }
+    ],
+    "confidence": "high",
+    "notes": "Ne pas confondre le seuil d'adhésion d'une action avec le seuil de 400 actions au nominatif pendant deux ans ouvrant l'accès aux Bons Actionnaires. La valeur exacte des bons 2025-2026 n'est pas publiée sur la page publique et ne doit pas être déduite des anciennes valeurs de 60 et 120 euros."
+  },
+  "credit-agricole": {
+    "programStatus": "active",
+    "minShares": 50,
+    "minSharesMeaning": "Le règlement actuel exige au moins 50 actions ordinaires Crédit Agricole S.A., code ACA et ISIN FR0000045072, quel que soit le mode de détention. L'ancien seuil d'une action applicable à certains détenteurs est historique et n'est plus valable.",
+    "holdingMode": [
+      "porteur",
+      "nominatif administré",
+      "nominatif pur"
+    ],
+    "membershipCost": "Gratuit",
+    "proofRequirement": "Justificatif indiquant le nom de l'actionnaire, la date du document et au moins 50 actions ACA : attestation de l'intermédiaire, relevé de portefeuille ou capture d'écran. Pour le nominatif pur, la confirmation d'inscription envoyée par Société Générale Securities Services peut également servir de preuve.",
+    "procedure": "Détenir 50 actions ACA hors PEE, remplir le formulaire du Club, créer ses identifiants, téléverser le justificatif récent et accepter le règlement. Le seuil doit ensuite être conservé pour rester membre.",
+    "officialUrl": "https://www.credit-agricole.com/finance/actionnaires-individuels/club-des-actionnaires",
+    "sources": [
+      {
+        "title": "Club des actionnaires de Crédit Agricole S.A.",
+        "url": "https://www.credit-agricole.com/finance/actionnaires-individuels/club-des-actionnaires",
+        "role": "Présentation officielle actuelle"
+      },
+      {
+        "title": "Inscription au Club",
+        "url": "https://clubactionnaires.credit-agricole.com/security/register",
+        "role": "Formulaire officiel et exigences de preuve"
+      },
+      {
+        "title": "Conditions générales du Club, décembre 2024",
+        "url": "https://static-actionnaires.credit-agricole.com/documents/pdf/CONDITIONS_GENERALES_DU_CLUB_Dec2024.pdf",
+        "role": "Règlement contractuel officiel"
+      }
+    ],
+    "confidence": "high",
+    "notes": "Les actions détenues dans un PEE sont exclues. Les CCI, CCA et parts sociales des Caisses régionales ne sont pas des actions Crédit Agricole S.A. ACA et ne comptent pas dans le seuil."
+  },
+  "danone": {
+    "programStatus": "no_formal_club_registered_share_benefit_active",
+    "minShares": 1,
+    "minSharesMeaning": "Danone ne publie aucun seuil d'adhésion, car aucun club formel n'est actuellement proposé. La gratuité des droits de garde s'applique dès qu'une ou plusieurs actions sont inscrites au nominatif pur.",
+    "holdingMode": [
+      "nominatif pur pour la gratuité des droits de garde",
+      "nominatif administré ou porteur sans cet avantage"
+    ],
+    "membershipCost": "Sans objet : aucun club. Aucun droit de garde au nominatif pur.",
+    "proofRequirement": "Demande signée d'inscription au nominatif pur comportant l'identité du titulaire, les références du compte et la quantité d'actions à transférer. L'inscription dans le compte tenu par Uptevia constitue ensuite la preuve.",
+    "procedure": "Compléter la demande d'inscription au nominatif pur figurant dans la brochure de convocation 2026, la remettre à l'établissement financier qui conserve les actions et lui demander le transfert vers Uptevia. Vérifier préalablement les éventuels frais de conversion ou de transfert facturés par la banque.",
+    "officialUrl": "https://www.danone.com/fr/investisseurs/comprendre-danone/laction-danone.html",
+    "sources": [
+      {
+        "title": "L'action Danone",
+        "url": "https://www.danone.com/fr/investisseurs/comprendre-danone/laction-danone.html",
+        "role": "Source officielle des modes de détention et des droits de garde"
+      },
+      {
+        "title": "Actionnaires Danone",
+        "url": "https://www.danone.com/fr/investisseurs/lettrr.html",
+        "role": "Rubrique officielle confirmant l'absence de club formel"
+      },
+      {
+        "title": "Brochure de convocation et résolutions 2026",
+        "url": "https://www.danone.com/content/dam/corp/global/danonecom/investors/fr-all-publications/2026/shareholders-meeting/Danonebrochuredeconvocationsetresolutions.pdf",
+        "role": "Procédure officielle de passage au nominatif pur"
+      }
+    ],
+    "confidence": "high",
+    "notes": "Le nominatif depuis deux ans donne un droit de vote double, pas un dividende majoré. Aucune prime de fidélité, visite d'usine réservée ou adhésion à un club n'est prouvée dans les ressources actuelles."
+  },
+  "dassault-systemes": {
+    "programStatus": "no_formal_program_verified",
+    "minShares": null,
+    "minSharesMeaning": "Aucun seuil de club ou d'avantage n'est applicable, car aucun club ni programme réservé aux actionnaires individuels n'est publié. Une action suffit uniquement pour exercer les droits ordinaires d'actionnaire, sous réserve des règles de participation à l'assemblée.",
+    "holdingMode": [
+      "porteur",
+      "nominatif"
+    ],
+    "membershipCost": "Sans objet",
+    "proofRequirement": "Aucun justificatif d'adhésion. Pour participer à une assemblée, les titres doivent être enregistrés dans les délais indiqués dans la convocation ; le détenteur au porteur peut devoir obtenir une attestation de participation auprès de son intermédiaire.",
+    "procedure": "Aucune inscription à un club. Les actionnaires peuvent suivre le site Investor Relations, s'inscrire aux alertes publiques et participer à l'assemblée selon la procédure de la convocation annuelle. Le service Relations Investisseurs est joignable à investors@3ds.com.",
+    "officialUrl": "https://investor.3ds.com/",
+    "sources": [
+      {
+        "title": "Shareholders Meeting 2026",
+        "url": "https://investor.3ds.com/shareholders-meeting/home",
+        "role": "Procédure et documents officiels de l'assemblée"
+      },
+      {
+        "title": "Regulated Information",
+        "url": "https://investor.3ds.com/regulated-information/",
+        "role": "Espace officiel des relations investisseurs"
+      },
+      {
+        "title": "Statuts de Dassault Systèmes",
+        "url": "https://investor.3ds.com/fr/news-releases/news-release-details/statuts-3ds",
+        "role": "Droits statutaires et formes de détention"
+      }
+    ],
+    "confidence": "medium_high",
+    "notes": "L'assemblée, le dividende, les alertes publiques et le droit de vote sont des droits ou services ordinaires, pas des avantages de club. Aucune remise sur les logiciels ni aucun cadeau d'assemblée n'est officiellement publié."
+  },
+  "edenred": {
+    "programStatus": "active",
+    "minShares": {
+      "registered": 1,
+      "bearer": 30
+    },
+    "minSharesMeaning": "La page opérationnelle actuelle exige une action au nominatif pur ou administré, ou trente actions au porteur. Une ancienne formulation du règlement PDF affiche une action au porteur, mais la page d'adhésion actuelle, plus récente et directement opérationnelle, fixe clairement le seuil à trente.",
+    "holdingMode": [
+      "nominatif pur",
+      "nominatif administré",
+      "porteur"
+    ],
+    "membershipCost": "Gratuit",
+    "proofRequirement": "Au porteur, attestation de l'établissement financier datée de moins d'un mois et indiquant le nombre d'actions Edenred. Au nominatif, le mode de détention est déclaré dans le formulaire et peut être contrôlé par Edenred.",
+    "procedure": "Disposer d'une adresse e-mail active, remplir le formulaire intégré à la page E-club, indiquer le mode de détention et joindre l'attestation récente lorsque les actions sont au porteur. Accepter le règlement. Edenred peut demander ultérieurement une nouvelle attestation au porteur.",
+    "officialUrl": "https://www.edenred.com/fr/investisseurs-actionnaires/e-club-actionnaires",
+    "sources": [
+      {
+        "title": "E-club des actionnaires Edenred",
+        "url": "https://www.edenred.com/fr/investisseurs-actionnaires/e-club-actionnaires",
+        "role": "Page opérationnelle officielle et seuils actuels"
+      },
+      {
+        "title": "Règlement de l'E-club",
+        "url": "https://www.edenred.com/system/files/documents/reglement-eclub-des-actionnaires-edenred-19042023_vf.pdf",
+        "role": "Règlement officiel, justificatifs et gratuité"
+      },
+      {
+        "title": "Devenir actionnaire",
+        "url": "https://www.edenred.com/fr/investisseurs-actionnaires/devenir-actionnaire",
+        "role": "Modes de détention et avantages du nominatif"
+      }
+    ],
+    "confidence": "high",
+    "notes": "Le club est réservé aux personnes physiques françaises ou étrangères, hors salariés selon le règlement. Les frais de déplacement, stationnement, hébergement et restauration liés aux événements restent normalement à la charge du membre."
+  },
+  "essilorluxottica": {
+    "programStatus": "no_formal_club_registered_share_benefit_active",
+    "minShares": 1,
+    "minSharesMeaning": "Aucun seuil d'adhésion n'existe, car aucun club formel actuel n'est publié. L'absence de frais de garde et d'administration s'applique aux actions inscrites au nominatif pur auprès de la société, sans quantité minimale publiée.",
+    "holdingMode": [
+      "nominatif pur pour l'avantage vérifié",
+      "nominatif administré",
+      "porteur"
+    ],
+    "membershipCost": "Sans objet : aucun club. Frais de garde et d'administration annoncés comme gratuits au nominatif pur.",
+    "proofRequirement": "L'inscription de l'actionnaire et de ses titres dans le registre EssilorLuxottica tenu par Uptevia constitue la preuve. Aucun justificatif d'adhésion à un club n'existe.",
+    "procedure": "Demander à la banque ou au courtier le transfert des actions au nominatif pur auprès d'Uptevia, ou contacter directement Uptevia pour l'ouverture et la gestion du compte nominatif. Vérifier les éventuels frais facturés par l'intermédiaire lors du transfert.",
+    "officialUrl": "https://www.essilorluxottica.com/en/investors/stock-and-shareholder-information/",
+    "sources": [
+      {
+        "title": "Stock and Shareholder Information",
+        "url": "https://www.essilorluxottica.com/en/investors/stock-and-shareholder-information/",
+        "role": "Source officielle des modes de détention, d'Uptevia et des frais"
+      },
+      {
+        "title": "Shareholders' Meeting of April 28, 2026",
+        "url": "https://www.essilorluxottica.com/en/investors/annual-shareholders-meetings/2026/",
+        "role": "Documents officiels destinés aux actionnaires"
+      }
+    ],
+    "confidence": "medium_high",
+    "notes": "L'ancienne page Individual Shareholders utilisée par le projet a été supprimée et ne prouve plus un programme. Les publications, webcasts, assemblées et options ponctuelles de dividende en actions ne constituent pas un club. Aucune visite de centre R&D réservée n'est actuellement prouvée."
+  },
+  "eurofins-scientific": {
+    "programStatus": "no_formal_program_verified",
+    "minShares": null,
+    "minSharesMeaning": "Aucun seuil n'est applicable : aucun club, programme d'adhésion ou avantage commercial réservé aux actionnaires individuels n'est publié.",
+    "holdingMode": [],
+    "membershipCost": "Sans objet",
+    "proofRequirement": "Aucun justificatif d'adhésion n'est prévu. Les justificatifs éventuellement nécessaires pour voter ou participer à une assemblée relèvent des règles ordinaires de l'assemblée et de l'intermédiaire financier.",
+    "procedure": "Aucune procédure d'adhésion. Utiliser l'espace Investors d'Eurofins pour consulter les rapports, les informations sur l'action, les assemblées et les coordonnées Investor Relations.",
+    "officialUrl": "https://www.eurofins.com/en/investors/",
+    "sources": [
+      {
+        "title": "Eurofins Investors",
+        "url": "https://www.eurofins.com/en/investors/",
+        "role": "Espace officiel des relations investisseurs"
+      },
+      {
+        "title": "The Eurofins Share",
+        "url": "https://www.eurofins.com/en/investors/the-eurofins-share/",
+        "role": "Information officielle sur l'action"
+      }
+    ],
+    "confidence": "medium",
+    "notes": "L'absence d'un programme est établie par l'examen des ressources investisseurs actuelles, mais reste une preuve négative. Les anciennes parts bénéficiaires liées à une détention nominative longue avaient des échéances de demande historiques et ne constituent pas un programme accessible aux nouveaux actionnaires en 2026."
+  },
+  "fdj-united": {
+    "programStatus": "active",
+    "minShares": 1,
+    "minSharesMeaning": "Une action FDJ UNITED détenue directement suffit, quel que soit le mode de détention. Les parts de FCPE détenues seules par un salarié ne rendent pas directement actionnaire et ne permettent pas d'adhérer.",
+    "holdingMode": [
+      "porteur",
+      "nominatif administré",
+      "nominatif pur"
+    ],
+    "membershipCost": "Gratuit",
+    "proofRequirement": "Justificatif datant de moins d'un mois attestant la détention d'au moins une action et mentionnant distinctement le nom et l'adresse postale. Au porteur ou au nominatif administré, le relevé est demandé à l'intermédiaire financier ; au nominatif pur, il est demandé à Uptevia.",
+    "procedure": "Remplir exclusivement le formulaire en ligne, indiquer le nombre d'actions au porteur et au nominatif, téléverser le justificatif récent, créer l'adresse e-mail et le mot de passe de l'espace personnel puis gérer les consentements.",
+    "officialUrl": "https://clubactionnaires-fdjunited.com/",
+    "sources": [
+      {
+        "title": "Club Actionnaires FDJ UNITED",
+        "url": "https://www.fdjunited.com/fr/club-actionnaires-fdjunited/",
+        "role": "Présentation officielle du Club"
+      },
+      {
+        "title": "Formulaire pour rejoindre le Club",
+        "url": "https://clubactionnaires-fdjunited.com/security/register",
+        "role": "Procédure officielle et justificatif"
+      },
+      {
+        "title": "Conditions d'adhésion",
+        "url": "https://clubactionnaires-fdjunited.com/page/conditions",
+        "role": "Conditions opérationnelles actuelles"
+      },
+      {
+        "title": "Guide de l'actionnaire 2026",
+        "url": "https://www.fdjunited.com/wp-content/uploads/2026/04/FDJUNITEDGuideActionnaire26.pdf",
+        "role": "Guide officiel et détail des événements"
+      }
+    ],
+    "confidence": "high",
+    "notes": "Le Guide 2026 mentionne une résidence en France métropolitaine, mais les conditions d'adhésion actuellement publiées ne reprennent pas cette restriction et le formulaire accepte de nombreux pays. Les conditions en ligne, directement applicables, ont été retenues. Signaler néanmoins ce conflit si la fiche promet explicitement une adhésion mondiale."
+  },
+  "generali": {
+    "programStatus": "active",
+    "minShares": 1,
+    "minSharesMeaning": "Une action ordinaire Assicurazioni Generali suffit pour rejoindre le Club. Le nombre d'actions détermine ensuite une catégorie allant de Bronze à Diamond, et certaines initiatives peuvent varier selon cette catégorie.",
+    "holdingMode": [
+      "actions enregistrées dans le registre des actionnaires à la suite d'une opération sur titres",
+      "détention auprès d'un intermédiaire dépositaire avec certification"
+    ],
+    "membershipCost": "Gratuit",
+    "proofRequirement": "La qualité d'actionnaire peut être reconnue grâce au registre des actionnaires et aux opérations sur titres intervenues pendant les douze mois précédant l'inscription. À défaut, une certification de détention délivrée par l'intermédiaire dépositaire peut être fournie. Les représentants d'une PME actionnaire doivent aussi transmettre l'attestation bancaire, l'auto-certification signée et un extrait du registre de la société.",
+    "procedure": "S'inscrire dans l'espace réservé du Club, renseigner son identité et ses coordonnées, confirmer l'adresse e-mail avec le code à six chiffres puis le téléphone par SMS. Les représentants ou associés de contrôle d'une PME actionnaire doivent ensuite envoyer les documents complémentaires au support.",
+    "officialUrl": "https://www.generali.com/investors/shareholders-club",
+    "sources": [
+      {
+        "title": "Generali Shareholders' Club",
+        "url": "https://www.generali.com/investors/shareholders-club",
+        "role": "Présentation officielle actuelle"
+      },
+      {
+        "title": "Regulations",
+        "url": "https://www.generali.com/investors/shareholders-club/regulations",
+        "role": "Règlement officiel, seuil, preuve et contrôle annuel"
+      },
+      {
+        "title": "FAQ",
+        "url": "https://www.generali.com/investors/shareholders-club/FAQ",
+        "role": "Procédure officielle d'inscription"
+      }
+    ],
+    "confidence": "high",
+    "notes": "Le contrôle annuel intervient pendant la première semaine d'octobre sur la situation au 30 septembre. Si le registre ne confirme pas la détention, une attestation peut être fournie jusqu'au 30 octobre ; sans preuve recevable, l'accès cesse le 15 novembre. L'adhésion des personnes morales est limitée aux représentants légaux ou associés de contrôle d'entités répondant aux critères de PME."
+  },
+  "hershey": {
+    "programStatus": "no_current_formal_program_one_off_2026_sample_box_unverified",
+    "minShares": null,
+    "minSharesMeaning": "Aucun nombre minimal d'actions n'est publié pour un club ou pour la sample box 2026. La date d'enregistrement de l'assemblée ne doit pas être réutilisée comme seuil ou condition de la boîte sans texte officiel explicite.",
+    "holdingMode": [],
+    "membershipCost": "Sans objet. Le prix, la gratuité et les frais d'expédition de la sample box ne sont pas publiés.",
+    "proofRequirement": "Aucune condition publique de preuve n'est disponible pour la sample box. Le guide actionnaire décrit seulement les services ordinaires de compte fournis par Computershare.",
+    "procedure": "Aucune procédure de club. Le Q&A officiel de l'assemblée 2026 renvoie vers thehersheycompany.com/asm2026 pour commander une sample box, mais la page ne fournit plus de conditions publiques vérifiables. Le Direct Stock Purchase Plan est un mécanisme d'achat via Computershare, pas un avantage commercial.",
+    "officialUrl": "https://investors.thehersheycompany.com/en_us/home/investor-resources.html",
+    "sources": [
+      {
+        "title": "2026 Annual Meeting of Stockholders Q&A",
+        "url": "https://investors.thehersheycompany.com/content/dam/hershey-corporate/documents/investors/Annual_Shareholder_Meeting_2026_QA.pdf",
+        "role": "Seule preuve officielle de la sample box 2026"
+      },
+      {
+        "title": "Investor Resources",
+        "url": "https://investors.thehersheycompany.com/en_us/home/investor-resources.html",
+        "role": "Ressources officielles actuelles"
+      },
+      {
+        "title": "Shareholder Guide",
+        "url": "https://investors.thehersheycompany.com/content/dam/hershey-corporate/documents/investors/shareholder-guide.pdf",
+        "role": "Services de compte et absence de club documenté"
+      },
+      {
+        "title": "Direct Stock Purchase and Dividend Reinvestment Plan",
+        "url": "https://investors.thehersheycompany.com/en_us/home/company-profile/stock-purchase.html",
+        "role": "Conditions officielles du plan Computershare"
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Supprimer toute affirmation selon laquelle Hershey exploite un catalogue Holiday Gift permanent réservé aux actionnaires. Le catalogue Corporate Gifting est une offre commerciale générale. La sample box semble avoir été une opération ponctuelle liée à l'assemblée 2026, mais son seuil, son prix, son territoire, sa période et sa disponibilité au 31 juillet 2026 ne sont pas publiquement vérifiables."
+  }
+}

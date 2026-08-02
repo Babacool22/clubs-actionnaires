@@ -1,0 +1,189 @@
+{
+  "schneider-electric": {
+    "programStatus": "individual_shareholder_services_active_no_formal_club",
+    "minShares": 1,
+    "minSharesMeaning": "Une action suffit pour participer et voter à l'assemblée générale. Le seuil de 25 actions concerne uniquement une candidature au Comité consultatif, pas l'accès général aux services actionnaires.",
+    "holdingMode": "Porteur, nominatif administré ou nominatif pur. Le nominatif donne accès à une convocation automatique, au vote double après deux années de détention et, au nominatif pur, à la gratuité des droits de garde.",
+    "membershipCost": "Pas de cotisation. L'achat de l'action et les éventuels frais du courtier restent à la charge de l'actionnaire.",
+    "proofRequirement": "Au porteur, une attestation de l'intermédiaire financier est nécessaire pour participer à l'assemblée. Au nominatif, l'inscription au registre tenu par Uptevia établit directement la qualité d'actionnaire.",
+    "procedure": "Acheter au moins une action. Pour passer au nominatif, utiliser le formulaire d'ouverture ou de transfert disponible auprès d'Uptevia. Il n'existe pas de formulaire distinct d'adhésion à un Club des actionnaires.",
+    "officialUrl": "https://www.se.com/ww/fr/about-us/investor-relations/individual-shareholders/becoming-shareholder/",
+    "sources": [
+      "https://www.se.com/ww/fr/about-us/investor-relations/individual-shareholders/becoming-shareholder/",
+      "https://www.se.com/ww/en/about-us/investor-relations/individual-shareholders/advisory-committee/"
+    ],
+    "confidence": "high",
+    "notes": "La fiche doit présenter un dispositif de relations avec les actionnaires individuels, pas un Club donnant automatiquement des avantages commerciaux. Le seuil de 25 actions est réservé aux candidats au Comité consultatif. Audit effectué le 2026-07-31."
+  },
+  "stellantis": {
+    "programStatus": "no_public_shareholder_benefits_club_loyalty_voting_program_active",
+    "minShares": 1,
+    "minSharesMeaning": "Une ou plusieurs actions peuvent être inscrites au Loyalty Register. Il ne s'agit pas d'un club d'avantages : le bénéfice est un droit de vote spécial après trois années ininterrompues d'inscription.",
+    "holdingMode": "Actions inscrites nominativement au Loyalty Register. Pendant cette inscription, elles ne sont pas librement négociables en bourse et doivent être retirées du registre avant une vente ordinaire.",
+    "membershipCost": "L'attribution de l'action de vote spéciale est gratuite. Stellantis prend en charge les frais de son agent ; les autres frais éventuels du courtier ou de l'actionnaire restent à la charge de celui-ci.",
+    "proofRequirement": "Election Form, confirmation du courtier attestant la propriété du nombre d'actions concerné et procuration signée. Pour les actions déjà en direct registration, l'agent peut vérifier directement l'identité et la propriété.",
+    "procedure": "Demander par l'intermédiaire du courtier l'inscription des actions au Loyalty Register, transmettre l'Election Form, la confirmation de détention et la procuration. Après trois années ininterrompues, chaque action admissible donne droit à une action spéciale de classe A.",
+    "officialUrl": "https://www.stellantis.com/fr/finance/informations-bourse-et-actionnaires/droits-de-vote-speciaux",
+    "sources": [
+      "https://www.stellantis.com/fr/finance/informations-bourse-et-actionnaires/droits-de-vote-speciaux",
+      "https://www.stellantis.com/content/dam/stellantis-corporate/investors/stock-and-shareholder-info/special-voting-shares/Special_Voting_Shares_Terms_and_Conditions.pdf",
+      "https://www.stellantis.com/en/investors/stock-and-shareholder-info/stock-info"
+    ],
+    "confidence": "high",
+    "notes": "Ne pas confondre avec The Stellantis Club, réservé aux salariés, retraités et bénéficiaires associés pour l'achat de véhicules. Audit effectué le 2026-07-31."
+  },
+  "stmicroelectronics": {
+    "programStatus": "no_public_shareholder_benefits_program_found",
+    "minShares": null,
+    "minSharesMeaning": "Non applicable : aucun Club ni programme public d'avantages pour actionnaires individuels n'est documenté.",
+    "holdingMode": "Non applicable au titre d'un club. Les actions peuvent être détenues selon les circuits ordinaires de marché ou dans le registre de la société.",
+    "membershipCost": "Non applicable.",
+    "proofRequirement": "Aucun justificatif d'adhésion à un programme n'est publié. Les justificatifs de détention ne concernent que l'exercice des droits d'actionnaire, notamment le vote.",
+    "procedure": "Aucune procédure d'adhésion à un Club. Les investisseurs peuvent utiliser le service d'alertes financières ou contacter investor.relations@st.com.",
+    "officialUrl": "https://investors.st.com/",
+    "sources": [
+      "https://investors.st.com/",
+      "https://investors.st.com/resources/contacts",
+      "https://investors.st.com/governance/general-meeting-shareholders"
+    ],
+    "confidence": "medium_high",
+    "notes": "Conclusion négative fondée sur l'audit du portail investisseurs et de ses ressources au 2026-07-31. Une association indépendante de petits actionnaires ne constituerait pas un programme officiel de STMicroelectronics."
+  },
+  "telefonica": {
+    "programStatus": "active_shareholder_offers_and_communications_program",
+    "minShares": 1,
+    "minSharesMeaning": "Aucun seuil supérieur n'est publié : il faut simplement avoir la qualité d'actionnaire de Telefónica, ce qui implique au moins une action.",
+    "holdingMode": "Aucune restriction officielle trouvée entre détention nominative et détention via un intermédiaire, sous réserve que Telefónica puisse vérifier la qualité d'actionnaire.",
+    "membershipCost": "Gratuit.",
+    "proofRequirement": "Identité complète et DNI ou document d'identité. Le portail d'offres transmet mensuellement le numéro d'identité à Telefónica pour vérifier le maintien dans le collectif des actionnaires.",
+    "procedure": "S'inscrire aux communications de l'Oficina del Accionista, puis créer gratuitement un compte dans Área Ofertas Accionistas avec nom, prénom, e-mail, DNI et mot de passe. Telefónica vérifie ensuite la qualité d'actionnaire.",
+    "officialUrl": "https://www.telefonica.com/es/zona-accionistas/ofertas/",
+    "sources": [
+      "https://www.telefonica.com/es/zona-accionistas/ofertas/",
+      "https://www.telefonica.com/es/zona-accionistas/newsletters-y-comunicaciones/",
+      "https://telefonica-accionistas.contigomas.com/signup",
+      "https://www.telefonica.com/en/shareholders-area/faqs/"
+    ],
+    "confidence": "high",
+    "notes": "Le programme est actif en 2026. Il fonctionne comme une zone d'offres et de communications réservée aux actionnaires plutôt que comme un club français classique. Audit effectué le 2026-07-31."
+  },
+  "teleperformance": {
+    "programStatus": "individual_shareholder_relations_active_no_formal_club",
+    "minShares": null,
+    "minSharesMeaning": "Aucun seuil d'adhésion n'est applicable puisqu'aucun Club officiel n'est proposé. Une action suffit juridiquement à être actionnaire, mais TP ne rattache pas ses services à un nombre minimal publié.",
+    "holdingMode": "Porteur, nominatif administré ou nominatif pur. Le nominatif pur est géré par Uptevia et bénéficie de la gratuité des droits de garde et frais de gestion courante.",
+    "membershipCost": "Pas de cotisation. Frais éventuels d'achat ou de détention selon l'intermédiaire.",
+    "proofRequirement": "Aucun justificatif d'adhésion à un club. L'inscription au nominatif établit directement la qualité d'actionnaire ; au porteur, l'intermédiaire financier conserve les titres.",
+    "procedure": "Pour le nominatif pur, contacter Uptevia. Pour recevoir les publications ou poser une question, utiliser le formulaire de contact actionnaires ou investor@teleperformance.com. Aucun processus d'adhésion à un Club n'est publié.",
+    "officialUrl": "https://www.tp.com/fr-fr/investisseurs/actionnaires-individuels/devenir-actionnaire/",
+    "sources": [
+      "https://www.tp.com/fr-fr/investisseurs/actionnaires-individuels/devenir-actionnaire/",
+      "https://club-actionnaire.com/teleperformance-absence-de-club-des-actionnaires/"
+    ],
+    "confidence": "high",
+    "notes": "Les événements Investir Day et le partenariat avec Place des Investisseurs relèvent de la relation actionnariale générale, pas d'un programme réservé à des membres. Audit effectué le 2026-07-31."
+  },
+  "thales": {
+    "programStatus": "individual_shareholder_information_active_no_formal_benefits_club",
+    "minShares": null,
+    "minSharesMeaning": "Aucun seuil de club n'est applicable. Thales documente les droits ordinaires des actionnaires et l'assemblée générale, sans publier de programme d'avantages pour actionnaires individuels.",
+    "holdingMode": "Détention nominative ou au porteur selon les règles ordinaires. Les actionnaires nominatifs reçoivent directement leur convocation ; les autres passent par leur intermédiaire.",
+    "membershipCost": "Non applicable.",
+    "proofRequirement": "Pour les démarches d'assemblée, la qualité d'actionnaire est établie par le registre nominatif ou par l'intermédiaire conservant les titres.",
+    "procedure": "Aucune adhésion à un Club. Consulter l'espace Investisseurs et la rubrique Actionnaires individuels pour l'assemblée, ou contacter les Relations investisseurs.",
+    "officialUrl": "https://www.thalesgroup.com/fr/investisseurs",
+    "sources": [
+      "https://www.thalesgroup.com/fr/investisseurs",
+      "https://www.thalesgroup.com/sites/default/files/2026-03/AGM%2012%20mai%202026%20-%20Avis%20de%20r%C3%A9union%20-%20BALO%206%20mars%202026.pdf",
+      "https://www.thalesgroup.com/sites/default/files/investor/documents/AGM_16_mai_2025_-_Avis_de_mise_%C3%A0_disposition_des_documents_1.pdf"
+    ],
+    "confidence": "medium",
+    "notes": "L'APAT est une association réservée au personnel actionnaire de Thales et ne doit pas être présentée comme un Club public pour actionnaires individuels. Audit effectué le 2026-07-31."
+  },
+  "totalenergies": {
+    "programStatus": "active_formal_shareholders_club",
+    "minShares": {
+      "registered": 50,
+      "bearer": 100
+    },
+    "minSharesMeaning": "Le seuil dépend du mode de détention : 50 actions au nominatif ou 100 actions au porteur.",
+    "holdingMode": "Nominatif ou porteur. Les actions au porteur restent chez l'intermédiaire financier ; les actions nominatives sont inscrites auprès du mandataire du Groupe.",
+    "membershipCost": "Adhésion gratuite, hors coût d'achat et frais éventuels de détention des actions.",
+    "proofRequirement": "Pour les actions au porteur, justificatif daté de moins de trois mois indiquant nom, prénom et nombre d'actions : attestation bancaire, capture du compte ou avis de dividende. La détention au nominatif est contrôlée dans les registres.",
+    "procedure": "Disposer d'une adresse e-mail, remplir le formulaire d'adhésion sur le site du Cercle et joindre le justificatif récent lorsque les titres sont au porteur.",
+    "officialUrl": "https://e-cercle.totalenergies.com/faq",
+    "sources": [
+      "https://e-cercle.totalenergies.com/faq",
+      "https://totalenergies.com/sites/g/files/nytnzq121/files/documents/totalenergies-guide-actionnaire-2026_2026_fr.pdf"
+    ],
+    "confidence": "high",
+    "notes": "L'adhésion reste valable tant que le membre conserve le seuil correspondant à son mode de détention et reste abonné aux communications électroniques du Cercle. Audit effectué le 2026-07-31."
+  },
+  "veolia": {
+    "programStatus": "individual_shareholder_services_active_formal_club_discontinued_or_not_publicly_available",
+    "minShares": 1,
+    "minSharesMeaning": "Une action suffit pour exercer les droits ordinaires d'actionnaire et accéder aux services généraux. Il n'existe plus de seuil d'adhésion à un Club public actuel.",
+    "holdingMode": "Porteur, nominatif administré ou nominatif pur. Le nominatif facilite les convocations et peut permettre la prise en charge de certains frais de garde.",
+    "membershipCost": "Pas de cotisation pour les services généraux. Club actuel non applicable.",
+    "proofRequirement": "Pour l'assemblée, attestation de participation délivrée par l'intermédiaire financier au porteur ; au nominatif, inscription dans le registre géré par Société Générale. Le Comité consultatif peut demander de justifier la qualité d'actionnaire.",
+    "procedure": "Aucune adhésion actuelle à un Club public. Les actionnaires utilisent le service actionnaires, les lettres d'information et les procédures d'assemblée. Une candidature séparée avec CV et lettre est possible lors des recrutements du Comité consultatif.",
+    "officialUrl": "https://www.veolia.com/fr/groupe/finance/actionnaires",
+    "sources": [
+      "https://www.veolia.com/fr/groupe/finance/actionnaires/gestion-de-vos-actions/les-differents-modes-de-detention",
+      "https://www.veolia.com/fr/groupe/finance/espace-actionnaires/assemblees-generales/participer-voter",
+      "https://www.veolia.com/fr/groupe/finance/actionnaires/comite-consultatif",
+      "https://club-actionnaire.com/veolia-absence-de-club-des-actionnaires/"
+    ],
+    "confidence": "high",
+    "notes": "Des documents historiques mentionnent un ancien Club Veolia, mais les pages officielles actuelles ne proposent plus d'adhésion. Ne pas réutiliser les anciennes conditions. Audit effectué le 2026-07-31."
+  },
+  "vinci": {
+    "programStatus": "active_formal_shareholders_club",
+    "minShares": 1,
+    "minSharesMeaning": "Une seule action VINCI suffit pour rejoindre le Club.",
+    "holdingMode": "Aucune restriction publiée : action détenue au porteur, au nominatif administré ou au nominatif pur.",
+    "membershipCost": "Gratuit, hors achat de l'action et frais éventuels du courtier.",
+    "proofRequirement": "Lors de l'inscription en ligne, le candidat déclare sur l'honneur détenir au moins une action VINCI. Aucun relevé de portefeuille n'est demandé par le formulaire public actuel.",
+    "procedure": "Créer un compte sur actionnaires.vinci.com, renseigner les informations personnelles, choisir le profil individuel, déclarer sur l'honneur détenir au moins une action, accepter les conditions et valider le CAPTCHA.",
+    "officialUrl": "https://www.vinci.com/finances/actionnaires/club-actionnaires",
+    "sources": [
+      "https://www.vinci.com/finances/actionnaires/club-actionnaires",
+      "https://actionnaires.vinci.com/user/register"
+    ],
+    "confidence": "high",
+    "notes": "La déclaration sur l'honneur est la preuve demandée par le formulaire visible au 2026-07-31."
+  },
+  "walmart": {
+    "programStatus": "no_public_shareholder_perks_or_membership_program_found",
+    "minShares": null,
+    "minSharesMeaning": "Non applicable : aucun Club ni avantage commercial général réservé aux actionnaires n'est publié.",
+    "holdingMode": "Actions détenues directement ou via un courtier selon les circuits ordinaires. Computershare agit comme agent de transfert.",
+    "membershipCost": "Non applicable.",
+    "proofRequirement": "Aucun justificatif d'adhésion puisqu'il n'existe pas de programme public d'avantages. La détention est vérifiée uniquement pour le vote, les dividendes et les autres droits légaux.",
+    "procedure": "Aucune adhésion à effectuer. Pour les questions sur les actions détenues directement, contacter Computershare ; pour les informations investisseurs, utiliser IR@walmart.com.",
+    "officialUrl": "https://stock.walmart.com/",
+    "sources": [
+      "https://stock.walmart.com/",
+      "https://stock.walmart.com/company-information/contacts",
+      "https://stock.walmart.com/sec-filings/all-sec-filings/content/0001193125-26-173673/wmt-20260423.htm"
+    ],
+    "confidence": "medium_high",
+    "notes": "Un ancien Shareholder Investment Program apparaît dans des dépôts historiques, mais il s'agissait d'un dispositif d'achat et de réinvestissement des dividendes, pas d'un programme d'avantages commerciaux. Aucun programme comparable actuel n'a été identifié au 2026-07-31."
+  },
+  "whitbread": {
+    "programStatus": "active_shareholder_benefits_program",
+    "minShares": 64,
+    "minSharesMeaning": "Il faut détenir au moins 64 actions Whitbread PLC pour recevoir la Shareholder Benefits Card.",
+    "holdingMode": "Actions inscrites directement au registre ou détenues via un nominee. En cas de nominee, la demande doit passer par celui-ci.",
+    "membershipCost": "Carte gratuite pour les actionnaires remplissant le seuil, hors coût d'achat et frais de conservation des actions.",
+    "proofRequirement": "La présence au registre permet l'envoi automatique ou la demande auprès de MUFG Corporate Markets. En détention via nominee, celui-ci doit confirmer la position et demander la carte. La carte originale et la confirmation de réservation sont ensuite exigées à l'hôtel ; une pièce d'identité peut être demandée.",
+    "procedure": "Détenir au moins 64 actions. Les actionnaires déjà enregistrés reçoivent normalement la carte avec le rapport annuel. Sinon, contacter MUFG Corporate Markets au +44 (0)344 855 2327 ou à Whitbread@cm.mpms.mufg.com. Via nominee, demander à celui-ci d'effectuer la démarche.",
+    "officialUrl": "https://www.whitbread.co.uk/investors/shareholder-centre/benefits/",
+    "sources": [
+      "https://www.whitbread.co.uk/investors/shareholder-centre/benefits/",
+      "https://cdn.whitbread.co.uk/media/2024/05/08.05.24_WTB_AR23_Chairman_Letter.pdf"
+    ],
+    "confidence": "high",
+    "notes": "La page officielle consultée indique notamment le petit-déjeuner Premier Inn gratuit sous conditions pour les séjours éligibles jusqu'au 30 juin 2027. Audit effectué le 2026-07-31."
+  }
+}

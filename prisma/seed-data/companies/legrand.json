@@ -6,8 +6,8 @@
   "stockIndex": "CAC40",
   "ticker": "LR",
   "website": "https://www.legrand.com/",
-  "minShares": null,
-  "lastVerifiedAt": "2026-06-09",
+  "minShares": 1,
+  "lastVerifiedAt": "2026-07-31",
   "benefits": [
     {
       "type": "reduction",

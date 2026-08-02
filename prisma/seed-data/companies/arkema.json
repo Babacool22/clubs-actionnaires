@@ -1,0 +1,60 @@
+{
+  "slug": "arkema",
+  "name": "Arkema",
+  "description": "Arkema est un groupe français de matériaux de spécialités présent dans les adhésifs, les matériaux avancés et les solutions de revêtement. Ses produits sont utilisés notamment dans les batteries, l'électronique, le bâtiment, l'automobile, les énergies nouvelles et la santé.",
+  "sector": "Chimie & Matériaux",
+  "stockIndex": "SBF 120",
+  "ticker": "AKE",
+  "website": "https://www.arkema.com",
+  "clubName": "Club des Actionnaires Arkema",
+  "clubUrl": "https://www.arkema.com/global/fr/investor-relations/individual-shareholder/shareholders-club/",
+  "minShares": 5,
+  "lastVerifiedAt": "2026-07-31",
+  "benefits": [
+    {
+      "type": "evenement",
+      "title": "Visites scientifiques et culturelles",
+      "description": "Le Club propose selon son programme des visites liées aux sciences et à la chimie : musées, institutions culturelles, monuments ou collections scientifiques. Les inscriptions sont limitées aux périodes annoncées et aucune visite particulière n'est garantie chaque année.",
+      "value": "Sur inscription",
+      "requiredShares": 5,
+      "sourceUrl": "https://www.arkema.com/global/fr/investor-relations/individual-shareholder/shareholders-club/"
+    },
+    {
+      "type": "evenement",
+      "title": "Découverte des produits et sites Arkema",
+      "description": "Certaines activités permettent de découvrir les produits et innovations du Groupe, notamment au showroom Le Lab ou lors de visites liées à l'univers industriel d'Arkema. Le programme varie selon les semestres.",
+      "value": "Sur inscription",
+      "requiredShares": 5,
+      "sourceUrl": "https://www.arkema.com/global/fr/investor-relations/individual-shareholder/shareholders-club/"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Quel est le seuil pour rejoindre le Club des Actionnaires Arkema ?",
+      "answer": "Il faut détenir au moins 5 actions Arkema au nominatif ou 25 actions au porteur. La fiche affiche le seuil minimal de 5 actions."
+    },
+    {
+      "question": "Comment adhérer au Club Arkema ?",
+      "answer": "Il faut compléter le bulletin officiel et l'envoyer avec un justificatif de détention daté de moins de trois mois, par e-mail ou par courrier au Club des actionnaires Arkema."
+    },
+    {
+      "question": "Quels types de visites Arkema organise-t-il ?",
+      "answer": "Le programme peut comprendre des musées scientifiques, la Cité des sciences, Sèvres, le Panthéon, des collections, des ateliers patrimoniaux ou Le Lab d'Arkema. La liste historique illustre le programme mais ne garantit pas la reconduction de chaque visite."
+    },
+    {
+      "question": "L'adhésion garantit-elle une place aux visites ?",
+      "answer": "Non. Les membres doivent s'inscrire pendant la période annoncée pour chaque activité et les capacités peuvent être limitées. Au 29 juillet 2026, les inscriptions aux visites du Panthéon du premier semestre étaient terminées."
+    },
+    {
+      "question": "Le Club Arkema est-il gratuit ?",
+      "answer": "La page officielle ne mentionne aucune cotisation. Le membre doit toutefois satisfaire au seuil de détention et transmettre les justificatifs demandés ; les éventuels frais de déplacement restent personnels."
+    }
+  ],
+  "sources": [
+    "https://www.arkema.com/global/fr/investor-relations/individual-shareholder/shareholders-club/",
+    "https://www.arkema.com/global/fr/investor-relations/individual-shareholder/",
+    "https://live.euronext.com/en/product/equities/FR0010313833-XPAR",
+    "https://live.euronext.com/en/product/indices/FR0003999481-XPAR"
+  ],
+  "logoUrl": "/logos/arkema.png"
+}

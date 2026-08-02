@@ -1,0 +1,12 @@
+.env*
+.next
+.vercel
+node_modules
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+NOTES_SESSION.md
+secrets
+data/gsc
+.codex-prompts

@@ -6,8 +6,8 @@
   "stockIndex": "CAC40",
   "ticker": "EL",
   "website": "https://www.essilorluxottica.com/",
-  "minShares": null,
-  "lastVerifiedAt": "2026-07-21",
+  "minShares": 1,
+  "lastVerifiedAt": "2026-07-31",
   "benefits": [
     {
       "type": "reduction",

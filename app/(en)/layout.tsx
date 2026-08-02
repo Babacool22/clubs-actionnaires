@@ -34,9 +34,9 @@ const spaceMono = Space_Mono({
   display: "swap",
 });
 
-const TITLE = "Clubs Actionnaires – Avantages et clubs d'actionnaires";
+const TITLE = "Shareholder Clubs - Benefits and eligibility";
 const DESCRIPTION =
-  "Comparez les clubs actionnaires, avantages, seuils d'actions, conditions d'inscription et sources officielles de 58 grandes entreprises mondiales.";
+  "Compare shareholder clubs, eligibility thresholds, benefits, enrolment conditions and official sources for 65 major global companies.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
@@ -44,13 +44,12 @@ export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
   keywords: [
-    "club actionnaire",
-    "clubs actionnaires",
-    "avantages actionnaires",
-    "combien d'actions pour avantages",
-    "actionnaire individuel",
-    "nominatif pur",
-    "nominatif administré",
+    "shareholder clubs",
+    "shareholder benefits",
+    "shareholder perks",
+    "individual shareholders",
+    "registered shares",
+    "shareholder eligibility",
   ],
   authors: [{ name: SITE_NAME, url: BASE_URL }],
   creator: SITE_NAME,
@@ -58,16 +57,16 @@ export const metadata: Metadata = {
   openGraph: {
     title: TITLE,
     description: DESCRIPTION,
-    url: BASE_URL,
+    url: `${BASE_URL}/en`,
     siteName: SITE_NAME,
-    locale: "fr_FR",
+    locale: "en_US",
     type: "website",
     images: [
       {
         url: SOCIAL_IMAGE_PATH,
         width: 1200,
         height: 630,
-        alt: "Clubs Actionnaires — catalogue des avantages actionnaires",
+        alt: "Shareholder Clubs catalogue",
       },
     ],
   },
@@ -145,6 +144,13 @@ const jsonLd = {
       founder: {
         "@type": "Person",
         name: "Bastien Coulonnier",
+        url: `${BASE_URL}/a-propos`,
+      },
+      contactPoint: {
+        "@type": "ContactPoint",
+        contactType: "editorial",
+        email: "contact@clubsactionnaires.fr",
+        availableLanguage: ["French", "English"],
       },
     },
   ],
@@ -180,7 +186,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col bg-black text-text-primary">
         <Header />
         <main className="flex-1">{children}</main>
-        <NewsletterCta placement="global_before_footer" />
+        <NewsletterCta placement="global_before_footer" locale="en" />
         <Footer />
         <Analytics />
         <SpeedInsights />

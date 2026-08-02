@@ -1,0 +1,84 @@
+{
+  "slug": "compagnie-des-alpes",
+  "name": "Compagnie des Alpes",
+  "description": "Compagnie des Alpes est un groupe français de loisirs et de tourisme. Il exploite des domaines skiables alpins, des parcs comme le Parc Astérix, le Futuroscope et Walibi, ainsi que des activités de distribution et de séjours en montagne.",
+  "sector": "Hôtellerie & Tourisme",
+  "stockIndex": "CAC Small",
+  "ticker": "CDA",
+  "website": "https://www.compagniedesalpes.com",
+  "clubName": "Club Actionnaires Compagnie des Alpes",
+  "clubUrl": "https://espace-actionnaires.compagniedesalpes.com/node/6",
+  "minShares": 1,
+  "lastVerifiedAt": "2026-07-31",
+  "benefits": [
+    {
+      "type": "service",
+      "title": "Informations et reportages dédiés",
+      "description": "Dès 1 action détenue à la date de référence, les membres reçoivent les communiqués de presse, des newsletters régulières et des reportages sur les coulisses et nouveautés du Groupe.",
+      "value": null,
+      "requiredShares": 1,
+      "sourceUrl": "https://espace-actionnaires.compagniedesalpes.com/node/6"
+    },
+    {
+      "type": "evenement",
+      "title": "Invitations à gagner pour des événements privés",
+      "description": "Le Club organise des opérations permettant de gagner des invitations à des événements privés. Les places sont attribuées selon les règles de chaque opération et ne sont pas garanties par l'adhésion.",
+      "value": "Par tirage au sort",
+      "requiredShares": 1,
+      "sourceUrl": "https://espace-actionnaires.compagniedesalpes.com/node/6"
+    },
+    {
+      "type": "evenement",
+      "title": "Réunions d'actionnaires en région ou à Paris",
+      "description": "Les membres peuvent recevoir des invitations à des réunions d'actionnaires organisées en région ou à Paris, notamment en collaboration avec la F2iC. Un numéro dédié est également publié.",
+      "value": "Sur invitation",
+      "requiredShares": 1,
+      "sourceUrl": "https://espace-actionnaires.compagniedesalpes.com/node/6"
+    },
+    {
+      "type": "priorite",
+      "title": "Bons Actionnaires à partir de 400 actions",
+      "description": "Les détenteurs d'au moins 400 actions au nominatif depuis deux ans bénéficient de bons facilitant l'accès aux domaines skiables, parcs de loisirs et séjours en montagne pour découvrir les nouveautés du Groupe.",
+      "value": "400 actions au nominatif depuis 2 ans",
+      "requiredShares": 400,
+      "sourceUrl": "https://espace-actionnaires.compagniedesalpes.com/node/6"
+    },
+    {
+      "type": "reduction",
+      "title": "Réductions sur des séjours Travelski",
+      "description": "L'espace actionnaires annonce des réductions sur les offres de séjours du tour-opérateur Travelski, en hébergement seul ou en formule packagée. Le taux et les dates dépendent des offres disponibles dans l'espace sécurisé.",
+      "value": "Selon l'offre",
+      "requiredShares": 1,
+      "sourceUrl": "https://espace-actionnaires.compagniedesalpes.com/node/6"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Combien d'actions faut-il pour adhérer au Club Compagnie des Alpes ?",
+      "answer": "Pour la campagne 2025-2026, une action détenue au 30 septembre 2025 suffit. Les conditions sont datées du 1er septembre 2025 et doivent être revérifiées à chaque nouvelle campagne."
+    },
+    {
+      "question": "Comment accéder à la plateforme du Club ?",
+      "answer": "L'actionnaire doit demander ses codes depuis l'espace actionnaires afin d'accéder à sa plateforme personnelle sécurisée. La procédure permet de vérifier la détention requise."
+    },
+    {
+      "question": "Quel est le seuil pour recevoir les Bons Actionnaires ?",
+      "answer": "Il faut détenir au moins 400 actions au nominatif depuis deux ans. Pour la campagne 2025-2026, la page précise une détention au nominatif remontant au 30 septembre 2023."
+    },
+    {
+      "question": "Une action donne-t-elle automatiquement des entrées gratuites dans les parcs ?",
+      "answer": "Non. Une action donne accès au Club et à ses communications. Les invitations privées sont à gagner, tandis que les Bons Actionnaires sont réservés au seuil renforcé de 400 actions au nominatif depuis deux ans."
+    },
+    {
+      "question": "Les réductions Travelski sont-elles fixes ?",
+      "answer": "Non. La page annonce des réductions sur des séjours Travelski, mais ne publie pas de pourcentage permanent. Les offres, dates, hébergements et conditions doivent être consultés dans l'espace actionnaires."
+    }
+  ],
+  "sources": [
+    "https://espace-actionnaires.compagniedesalpes.com/node/6",
+    "https://espace-actionnaires.compagniedesalpes.com/",
+    "https://live.euronext.com/en/product/equities/FR0000053324-XPAR",
+    "https://live.euronext.com/sites/default/files/documentation/index-composition/CAC_Small_Index_Composition.pdf"
+  ],
+  "logoUrl": "/logos/compagnie-des-alpes.png"
+}

@@ -2123,6 +2123,284 @@ const companies = [
       },
     ],
   },
+  {
+    slug: "vivendi",
+    name: "Vivendi",
+    description:
+      "Groupe français coté qui détient un portefeuille de participations dans les contenus, les médias, le divertissement et les jeux vidéo.",
+    sector: "Holding & Conglomérat",
+    stockIndex: "SBF 120",
+    ticker: "VIV",
+    website: "https://www.vivendi.com",
+    clubUrl:
+      "https://www.vivendi.com/actionnaires-investisseurs/actionnaires-individuels/club-des-actionnaires/",
+    logoUrl: "/logos/vivendi-purple.png",
+    minShares: 1,
+    benefits: [
+      {
+        type: "service",
+        title: "Publications actionnaires au format choisi",
+        description:
+          "Les membres peuvent recevoir la Lettre aux actionnaires, les communiqués de presse et le Document d'enregistrement universel par e-mail ou, sur demande, au format papier.",
+        value: "Gratuit",
+      },
+      {
+        type: "service",
+        title: "Service d'information dédié",
+        description:
+          "Le service Informations Actionnaires Individuels répond aux questions des actionnaires par e-mail, courrier et numéro vert.",
+        value: "Numéro vert",
+      },
+    ],
+  },
+  {
+    slug: "remy-cointreau",
+    name: "Rémy Cointreau",
+    description:
+      "Groupe français de vins et spiritueux haut de gamme, propriétaire notamment de Rémy Martin, Louis XIII, Cointreau, Mount Gay et Bruichladdich.",
+    sector: "Vins & Spiritueux",
+    stockIndex: "SBF 120",
+    ticker: "RCO",
+    website: "https://www.remy-cointreau.com",
+    clubUrl:
+      "https://www.remy-cointreau.com/fr/finance/actionnaires/page/2025/",
+    logoUrl: "/logos/remy-cointreau-red.png",
+    minShares: 1,
+    benefits: [
+      {
+        type: "reduction",
+        title: "Accès gratuit aux sites ouverts au public",
+        description:
+          "Sur présentation de la carte du Club, les membres bénéficient d'un accès gratuit aux sites de production du Groupe ouverts au public.",
+        value: "Entrée gratuite",
+      },
+      {
+        type: "reduction",
+        title: "Réduction sur les achats sur place",
+        description:
+          "Les membres du Club bénéficient d'une réduction de 10 % sur leurs achats réalisés dans les boutiques des sites de production visités.",
+        value: "-10 %",
+      },
+    ],
+  },
+  {
+    slug: "ovhcloud",
+    name: "OVHcloud",
+    description:
+      "Fournisseur européen de cloud qui conçoit et exploite ses centres de données, serveurs, solutions d'hébergement, cloud public et cloud privé.",
+    sector: "Technologie & Logiciels",
+    stockIndex: "SBF 120",
+    ticker: "OVH",
+    website: "https://corporate.ovhcloud.com",
+    clubUrl:
+      "https://corporate.ovhcloud.com/asia/investor-relations/retail-shareholders-and-employees/",
+    logoUrl: "/logos/ovhcloud-blue.png",
+    minShares: 25,
+    benefits: [
+      {
+        type: "service",
+        title: "Informations régulières sur le Groupe et le cloud",
+        description:
+          "Les membres reçoivent des informations régulières sur OVHcloud, sa feuille de route et l'actualité du secteur.",
+        value: null,
+      },
+      {
+        type: "evenement",
+        title: "Visites et rencontres exclusives",
+        description:
+          "Le Club propose selon son calendrier des visites de sites, des rencontres avec les dirigeants et des événements professionnels.",
+        value: "Sur invitation",
+      },
+      {
+        type: "priorite",
+        title: "Accès privilégié pour poser ses questions",
+        description:
+          "Les membres disposent d'un canal privilégié pour adresser leurs questions à l'équipe des relations investisseurs.",
+        value: null,
+      },
+    ],
+  },
+  {
+    slug: "jungfraubahn-holding",
+    name: "Jungfraubahn Holding",
+    description:
+      "Groupe suisse de transport et de tourisme de montagne qui exploite les chemins de fer de la Jungfrau et des activités liées au Jungfraujoch.",
+    sector: "Hôtellerie & Tourisme",
+    stockIndex: "SIX Swiss Exchange",
+    ticker: "JFN",
+    website: "https://www.jungfrau.ch",
+    clubUrl:
+      "https://www.jungfrau.ch/en-gb/corporate/investor-relations/jungfraubahn-holding-ag/shareholder-information/shareholders-club/",
+    logoUrl: "/logos/jungfraubahn.png",
+    minShares: 250,
+    benefits: [
+      {
+        type: "cadeau",
+        title: "Offre annuelle de billets",
+        description:
+          "Le Club envoie chaque automne une offre annuelle variable comprenant un ou plusieurs billets gratuits ou à tarif réduit.",
+        value: "Offre variable",
+      },
+      {
+        type: "reduction",
+        title: "50 % sur le réseau Jungfrau Railways",
+        description:
+          "La carte de membre donne droit à 50 % de réduction sur les billets du réseau Jungfrau Railways, sans cumul avec le demi-tarif suisse.",
+        value: "-50 %",
+      },
+      {
+        type: "reduction",
+        title: "10 % sur l'AlpsPass hiver",
+        description:
+          "Les membres bénéficient de 10 % de réduction sur l'AlpsPass d'hiver couvrant quatre régions de ski partenaires.",
+        value: "-10 %",
+      },
+      {
+        type: "reduction",
+        title: "10 % sur le Sportpass local",
+        description:
+          "Les actionnaires résidant dans l'arrondissement Interlaken-Oberhasli bénéficient de 10 % sur le Sportpass hiver de la Jungfrau Ski Region.",
+        value: "-10 %",
+      },
+      {
+        type: "reduction",
+        title: "10 % sur le pass été Jungfraubahnen",
+        description:
+          "Les membres bénéficient de 10 % de réduction sur le pass saison d'été Jungfraubahnen.",
+        value: "-10 %",
+      },
+      {
+        type: "cadeau",
+        title: "Calendrier Jungfrau Railways",
+        description:
+          "Un calendrier annuel Jungfrau Railways est offert aux membres du Club.",
+        value: "Gratuit",
+      },
+    ],
+  },
+  {
+    slug: "fdj-united",
+    name: "FDJ UNITED",
+    description:
+      "Groupe européen de jeux d'argent et de divertissement, actif dans la loterie, les paris sportifs et les jeux en ligne.",
+    sector: "Jeux & Divertissement",
+    stockIndex: "SBF 120",
+    ticker: "FDJU",
+    website: "https://www.fdjunited.com",
+    clubUrl: "https://www.fdjunited.com/fr/actionnaires-individuels/",
+    logoUrl: "/logos/fdj-united.png",
+    minShares: 1,
+    benefits: [
+      {
+        type: "evenement",
+        title: "Découverte des coulisses du Groupe",
+        description:
+          "Le Club organise des rencontres et visites permettant aux membres de découvrir les métiers et les coulisses de FDJ UNITED.",
+        value: "Sur inscription",
+      },
+      {
+        type: "evenement",
+        title: "Invitations à des événements sportifs",
+        description:
+          "Les membres peuvent candidater aux invitations sportives proposées dans le programme annuel du Club.",
+        value: "Sur inscription",
+      },
+      {
+        type: "evenement",
+        title: "Invitations à des événements culturels",
+        description:
+          "Le programme du Club comprend des rendez-vous culturels organisés dans différentes régions françaises.",
+        value: "Sur inscription",
+      },
+      {
+        type: "service",
+        title: "Décryptage de la stratégie",
+        description:
+          "Des échanges et contenus dédiés aident les membres à mieux comprendre la stratégie, les activités et l'actualité du Groupe.",
+        value: "Plus de 70 événements par an",
+      },
+    ],
+  },
+  {
+    slug: "compagnie-des-alpes",
+    name: "Compagnie des Alpes",
+    description:
+      "Groupe français de loisirs et de tourisme exploitant des domaines skiables, des parcs de loisirs et des activités de séjours en montagne.",
+    sector: "Hôtellerie & Tourisme",
+    stockIndex: "CAC Small",
+    ticker: "CDA",
+    website: "https://www.compagniedesalpes.com",
+    clubUrl: "https://espace-actionnaires.compagniedesalpes.com/node/6",
+    logoUrl: "/logos/compagnie-des-alpes.png",
+    minShares: 1,
+    benefits: [
+      {
+        type: "service",
+        title: "Informations et reportages dédiés",
+        description:
+          "Les membres reçoivent les communiqués de presse, des newsletters régulières et des reportages sur les coulisses et nouveautés du Groupe.",
+        value: null,
+      },
+      {
+        type: "evenement",
+        title: "Invitations à gagner pour des événements privés",
+        description:
+          "Le Club organise des opérations permettant de gagner des invitations à des événements privés.",
+        value: "Par tirage au sort",
+      },
+      {
+        type: "evenement",
+        title: "Réunions d'actionnaires en région ou à Paris",
+        description:
+          "Les membres peuvent recevoir des invitations à des réunions d'actionnaires organisées avec la F2iC.",
+        value: "Sur invitation",
+      },
+      {
+        type: "priorite",
+        title: "Bons Actionnaires à partir de 400 actions",
+        description:
+          "Les détenteurs d'au moins 400 actions au nominatif depuis deux ans accèdent à des bons pour découvrir domaines skiables, parcs et séjours en montagne.",
+        value: "400 actions au nominatif depuis 2 ans",
+      },
+      {
+        type: "reduction",
+        title: "Réductions sur des séjours Travelski",
+        description:
+          "L'espace actionnaires annonce des réductions sur des séjours Travelski, en hébergement seul ou en formule packagée, selon les offres disponibles.",
+        value: "Selon l'offre",
+      },
+    ],
+  },
+  {
+    slug: "arkema",
+    name: "Arkema",
+    description:
+      "Groupe français de matériaux de spécialités présent dans les adhésifs, les matériaux avancés et les solutions de revêtement.",
+    sector: "Chimie & Matériaux",
+    stockIndex: "SBF 120",
+    ticker: "AKE",
+    website: "https://www.arkema.com",
+    clubUrl:
+      "https://www.arkema.com/global/fr/investor-relations/individual-shareholder/shareholders-club/",
+    logoUrl: "/logos/arkema.png",
+    minShares: 5,
+    benefits: [
+      {
+        type: "evenement",
+        title: "Visites scientifiques et culturelles",
+        description:
+          "Le Club propose selon son programme des visites liées aux sciences et à la chimie, dans des musées, monuments et institutions culturelles.",
+        value: "Sur inscription",
+      },
+      {
+        type: "evenement",
+        title: "Découverte des produits et sites Arkema",
+        description:
+          "Certaines activités donnent accès aux coulisses d'Arkema, notamment à son showroom Le Lab, afin de découvrir ses matériaux et innovations.",
+        value: "Sur inscription",
+      },
+    ],
+  },
 ];
 
 async function main() {
@@ -2136,6 +2414,13 @@ async function main() {
         `⚠️  FAQ pour slug "${faqSlug}" mais aucune company correspondante`
       );
     }
+  }
+
+  const removedCompanies = await prisma.company.deleteMany({
+    where: { slug: { notIn: [...companySlugs] } },
+  });
+  if (removedCompanies.count > 0) {
+    console.log(`🧹 ${removedCompanies.count} ancienne entreprise supprimée`);
   }
 
   let withFaq = 0;

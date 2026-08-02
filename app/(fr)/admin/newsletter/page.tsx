@@ -1,14 +1,21 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import NewsletterDeleteButton from "@/components/NewsletterDeleteButton";
 import NewsletterAdminWorkbench from "@/components/NewsletterAdminWorkbench";
+import NewsletterGrokAssistant from "@/components/NewsletterGrokAssistant";
+import NewsletterTemplateButton from "@/components/NewsletterTemplateButton";
 import {
   getNewsletterIssue,
   issueStatusLabel,
   listNewsletterIssues,
   type NewsletterIssue,
 } from "@/lib/newsletter";
+import { CLUBS_ACTIONNAIRES_WEEKLY_TEMPLATE } from "@/lib/newsletter-template";
 import {
   generateNewsletterDraftAction,
+  deleteNewsletterIssueAction,
+  sendNewsletterToBeehiivAction,
+  scheduleNewsletterInBeehiivAction,
   updateNewsletterIssueAction,
   updateNewsletterStatusAction,
 } from "./actions";
@@ -67,7 +74,7 @@ function toParisDateTimeInput(date: Date) {
 function tokenHref(token: string, issueId?: number) {
   const params = new URLSearchParams();
   if (token) params.set("token", token);
-  if (issueId) params.set("issue", String(issueId));
+  if (issueId && issueId > 0) params.set("issue", String(issueId));
   const query = params.toString();
   return `/admin/newsletter${query ? `?${query}` : ""}`;
 }
@@ -86,6 +93,29 @@ function StatusPill({ status }: { status: string }) {
     >
       {issueStatusLabel(status)}
     </span>
+  );
+}
+
+function FeedbackBanner({
+  error,
+  success,
+}: {
+  error?: string;
+  success?: string;
+}) {
+  if (!error && !success) return null;
+
+  const isError = Boolean(error);
+  return (
+    <div
+      className={`mb-[var(--space-lg)] border p-[var(--space-md)] text-[14px] leading-[1.5] ${
+        isError
+          ? "border-accent bg-black text-accent"
+          : "border-success bg-black text-success"
+      }`}
+    >
+      {error ?? success}
+    </div>
   );
 }
 
@@ -160,46 +190,52 @@ function IssueList({
   token: string;
 }) {
   return (
-    <aside className="min-w-0 border border-border bg-surface">
-      <div className="border-b border-border p-[var(--space-md)]">
-        <p className="font-[family-name:var(--font-data)] text-[11px] uppercase text-text-disabled">
-          Brouillons
-        </p>
-      </div>
-      <div className="divide-y divide-border">
-        {issues.map((issue) => {
-          const active = issue.id === selectedIssueId;
+    <aside className="min-w-0 lg:sticky lg:top-20 lg:self-start">
+      <details open className="group border border-border bg-surface">
+        <summary className="cursor-pointer border-b border-border p-[var(--space-md)] font-[family-name:var(--font-data)] text-[11px] uppercase text-text-disabled marker:text-accent">
+          Brouillons ({issues.length})
+        </summary>
+        <div className="max-h-[32rem] divide-y divide-border overflow-y-auto overscroll-contain">
+          {issues.map((issue) => {
+            const active = issue.id === selectedIssueId;
 
-          return (
-            <Link
-              key={issue.id}
-              href={tokenHref(token, issue.id)}
-              className={`block p-[var(--space-md)] transition-colors ${
-                active ? "bg-black" : "hover:bg-surface-raised"
-              }`}
-            >
-              <div className="mb-[var(--space-sm)] flex items-center justify-between gap-[var(--space-sm)]">
-                <span className="font-[family-name:var(--font-data)] text-[11px] text-text-disabled">
-                  #{issue.id}
-                </span>
-                <StatusPill status={issue.status} />
-              </div>
-              <h2 className="mb-[var(--space-xs)] line-clamp-2 text-[15px] font-medium leading-[1.25] text-text-display">
-                {issue.subject}
-              </h2>
-              <p className="font-[family-name:var(--font-data)] text-[11px] uppercase text-text-disabled">
-                {formatParisDateTime(issue.sendDate)}
-              </p>
-            </Link>
-          );
-        })}
-      </div>
+            return (
+              <Link
+                key={issue.id}
+                href={tokenHref(token, issue.id)}
+                className={`block p-[var(--space-md)] transition-colors ${
+                  active ? "bg-black" : "hover:bg-surface-raised"
+                }`}
+              >
+                <div className="mb-[var(--space-sm)] flex items-center justify-between gap-[var(--space-sm)]">
+                  <span className="font-[family-name:var(--font-data)] text-[11px] text-text-disabled">
+                    #{issue.id}
+                  </span>
+                  <StatusPill status={issue.status} />
+                </div>
+                <h2 className="mb-[var(--space-xs)] line-clamp-2 text-[14px] font-medium leading-[1.25] text-text-display">
+                  {issue.subject}
+                </h2>
+                <p className="font-[family-name:var(--font-data)] text-[10px] uppercase text-text-disabled">
+                  {formatParisDateTime(issue.sendDate)}
+                </p>
+              </Link>
+            );
+          })}
+        </div>
+      </details>
     </aside>
   );
 }
 
 function IssueEditor({ issue, token }: { issue: NewsletterIssue; token: string }) {
   const htmlTextareaId = `newsletter-html-${issue.id}`;
+  const titleInputId = `newsletter-title-${issue.id}`;
+  const subjectInputId = `newsletter-subject-${issue.id}`;
+  const previewTextInputId = `newsletter-preview-${issue.id}`;
+  const canScheduleInBeehiiv =
+    issue.status === "validated" || issue.status === "synced";
+  const alreadyScheduled = issue.status === "scheduled";
 
   return (
     <div className="grid min-w-0 gap-[var(--space-lg)]">
@@ -211,6 +247,11 @@ function IssueEditor({ issue, token }: { issue: NewsletterIssue; token: string }
               <span className="font-[family-name:var(--font-data)] text-[11px] uppercase text-text-disabled">
                 Envoi {formatParisDateTime(issue.sendDate)}
               </span>
+              {issue.beehiivPostId ? (
+                <span className="font-[family-name:var(--font-data)] text-[11px] uppercase text-text-disabled">
+                  beehiiv {issue.beehiivPostId}
+                </span>
+              ) : null}
             </div>
             <h1 className="break-words text-[26px] font-medium leading-[1.15] text-text-display sm:text-[32px]">
               {issue.subject}
@@ -226,20 +267,17 @@ function IssueEditor({ issue, token }: { issue: NewsletterIssue; token: string }
                 Valider
               </button>
             </form>
+            <NewsletterDeleteButton
+              action={deleteNewsletterIssueAction}
+              adminToken={token}
+              issueId={issue.id}
+            />
             <form action={updateNewsletterStatusAction}>
               <input type="hidden" name="adminToken" value={token} />
               <input type="hidden" name="issueId" value={issue.id} />
               <input type="hidden" name="status" value="draft" />
               <button className="min-h-10 border border-border-visible px-[var(--space-md)] font-[family-name:var(--font-data)] text-[11px] uppercase text-text-display transition-colors hover:bg-surface-raised">
                 Brouillon
-              </button>
-            </form>
-            <form action={updateNewsletterStatusAction}>
-              <input type="hidden" name="adminToken" value={token} />
-              <input type="hidden" name="issueId" value={issue.id} />
-              <input type="hidden" name="status" value="archived" />
-              <button className="min-h-10 border border-border-visible px-[var(--space-md)] font-[family-name:var(--font-data)] text-[11px] uppercase text-text-secondary transition-colors hover:bg-surface-raised">
-                Archiver
               </button>
             </form>
           </div>
@@ -252,9 +290,10 @@ function IssueEditor({ issue, token }: { issue: NewsletterIssue; token: string }
           <div className="grid gap-[var(--space-md)] bg-surface p-[var(--space-md)] lg:grid-cols-2">
             <label className="grid gap-[var(--space-xs)]">
               <span className="font-[family-name:var(--font-data)] text-[11px] uppercase text-text-disabled">
-                Titre interne
+                Nom du brouillon (interne)
               </span>
               <input
+                id={titleInputId}
                 name="title"
                 defaultValue={issue.title}
                 className="min-h-11 border border-border-visible bg-black px-[var(--space-md)] text-text-display outline-none focus:border-text-secondary"
@@ -263,7 +302,7 @@ function IssueEditor({ issue, token }: { issue: NewsletterIssue; token: string }
 
             <label className="grid gap-[var(--space-xs)]">
               <span className="font-[family-name:var(--font-data)] text-[11px] uppercase text-text-disabled">
-                Date d&apos;envoi Paris
+                Date et heure souhaitees d&apos;envoi (heure de Paris)
               </span>
               <input
                 name="sendDate"
@@ -275,9 +314,10 @@ function IssueEditor({ issue, token }: { issue: NewsletterIssue; token: string }
 
             <label className="grid gap-[var(--space-xs)] lg:col-span-2">
               <span className="font-[family-name:var(--font-data)] text-[11px] uppercase text-text-disabled">
-                Sujet beehiiv
+                Objet de l&apos;e-mail (visible dans la boite de reception)
               </span>
               <input
+                id={subjectInputId}
                 name="subject"
                 defaultValue={issue.subject}
                 className="min-h-11 border border-border-visible bg-black px-[var(--space-md)] text-text-display outline-none focus:border-text-secondary"
@@ -286,9 +326,10 @@ function IssueEditor({ issue, token }: { issue: NewsletterIssue; token: string }
 
             <label className="grid gap-[var(--space-xs)] lg:col-span-2">
               <span className="font-[family-name:var(--font-data)] text-[11px] uppercase text-text-disabled">
-                Preview text
+                Texte d&apos;aperçu (affiche apres l&apos;objet dans la boite de reception)
               </span>
               <input
+                id={previewTextInputId}
                 name="previewText"
                 defaultValue={issue.previewText}
                 className="min-h-11 border border-border-visible bg-black px-[var(--space-md)] text-text-display outline-none focus:border-text-secondary"
@@ -297,7 +338,7 @@ function IssueEditor({ issue, token }: { issue: NewsletterIssue; token: string }
 
             <label className="grid gap-[var(--space-xs)] lg:col-span-2">
               <span className="font-[family-name:var(--font-data)] text-[11px] uppercase text-text-disabled">
-                Segment beehiiv
+                Segment beehiiv (optionnel : laisser vide pour tous les abonnes)
               </span>
               <input
                 name="segment"
@@ -309,8 +350,12 @@ function IssueEditor({ issue, token }: { issue: NewsletterIssue; token: string }
 
             <label className="grid gap-[var(--space-xs)] lg:col-span-2">
               <span className="font-[family-name:var(--font-data)] text-[11px] uppercase text-text-disabled">
-                HTML email
+                Contenu HTML de l&apos;e-mail
               </span>
+              <NewsletterTemplateButton
+                templateHtml={CLUBS_ACTIONNAIRES_WEEKLY_TEMPLATE}
+                targetTextareaId={htmlTextareaId}
+              />
               <textarea
                 id={htmlTextareaId}
                 name="html"
@@ -325,9 +370,39 @@ function IssueEditor({ issue, token }: { issue: NewsletterIssue; token: string }
             <p className="text-[12px] text-text-disabled">
               Derniere mise a jour : {formatParisDateTime(issue.updatedAt)}
             </p>
-            <button className="min-h-11 bg-accent px-[var(--space-lg)] font-[family-name:var(--font-data)] text-[11px] uppercase text-text-display transition-opacity hover:opacity-90">
-              Enregistrer
-            </button>
+            <div className="flex flex-wrap gap-[var(--space-sm)]">
+              <button
+                formAction={sendNewsletterToBeehiivAction}
+                className="min-h-11 border border-border-visible px-[var(--space-lg)] font-[family-name:var(--font-data)] text-[11px] uppercase text-text-display transition-colors hover:bg-surface-raised"
+              >
+                {issue.beehiivPostId
+                  ? "Renvoyer vers beehiiv"
+                  : "Envoyer vers beehiiv"}
+              </button>
+              <button
+                formAction={scheduleNewsletterInBeehiivAction}
+                disabled={!canScheduleInBeehiiv}
+                title={
+                  alreadyScheduled
+                    ? "Cette newsletter est deja programmee."
+                    : canScheduleInBeehiiv
+                      ? "Programmer l'envoi dans beehiiv a la date indiquee."
+                      : "Validez d'abord cette newsletter avant de la programmer."
+                }
+                className={`min-h-11 border px-[var(--space-lg)] font-[family-name:var(--font-data)] text-[11px] uppercase transition-colors ${
+                  canScheduleInBeehiiv
+                    ? "border-success bg-success text-white hover:opacity-90"
+                    : "cursor-not-allowed border-border-visible text-text-disabled"
+                }`}
+              >
+                {alreadyScheduled
+                  ? "Programmée dans beehiiv"
+                  : "Programmer dans beehiiv"}
+              </button>
+              <button className="min-h-11 bg-accent px-[var(--space-lg)] font-[family-name:var(--font-data)] text-[11px] uppercase text-text-display transition-opacity hover:opacity-90">
+                Enregistrer
+              </button>
+            </div>
           </div>
         </form>
       </section>
@@ -343,6 +418,9 @@ function IssueEditor({ issue, token }: { issue: NewsletterIssue; token: string }
 export default async function NewsletterAdminPage({ searchParams }: PageProps) {
   const params = await searchParams;
   const token = firstParam(params.token) ?? "";
+  const beehiivError = firstParam(params.beehiivError);
+  const beehiivSuccess = firstParam(params.beehiivSuccess);
+  const deleted = firstParam(params.deleted);
 
   if (!hasAdminAccess(token)) {
     return <AccessGate />;
@@ -357,7 +435,7 @@ export default async function NewsletterAdminPage({ searchParams }: PageProps) {
     : null;
 
   return (
-    <div className="mx-auto max-w-7xl px-[var(--space-md)] py-[var(--space-2xl)] sm:px-[var(--space-lg)] lg:px-[var(--space-xl)]">
+    <div className="mx-auto max-w-[1600px] px-[var(--space-md)] py-[var(--space-2xl)] sm:px-[var(--space-lg)] lg:px-[var(--space-xl)]">
       <div className="mb-[var(--space-xl)] flex flex-col gap-[var(--space-md)] border-b border-border pb-[var(--space-lg)] lg:flex-row lg:items-end lg:justify-between">
         <div>
           <p className="mb-[var(--space-sm)] font-[family-name:var(--font-data)] text-[11px] uppercase text-accent">
@@ -375,14 +453,28 @@ export default async function NewsletterAdminPage({ searchParams }: PageProps) {
         </form>
       </div>
 
+      <FeedbackBanner error={beehiivError} success={beehiivSuccess ?? deleted} />
+
       {hydratedIssue ? (
-        <div className="grid gap-[var(--space-lg)] lg:grid-cols-[20rem_minmax(0,1fr)]">
+        <div className="grid items-start gap-[var(--space-lg)] lg:grid-cols-[14rem_minmax(0,1fr)] xl:grid-cols-[14rem_minmax(0,1fr)_22rem]">
           <IssueList
             issues={issues}
             selectedIssueId={hydratedIssue.id}
             token={token}
           />
           <IssueEditor issue={hydratedIssue} token={token} />
+          <div className="min-w-0 lg:col-start-2 xl:sticky xl:top-20 xl:col-start-3 xl:row-start-1 xl:self-start">
+            <NewsletterGrokAssistant
+              issueId={hydratedIssue.id}
+              adminToken={token}
+              targetIds={{
+                title: `newsletter-title-${hydratedIssue.id}`,
+                subject: `newsletter-subject-${hydratedIssue.id}`,
+                previewText: `newsletter-preview-${hydratedIssue.id}`,
+                html: `newsletter-html-${hydratedIssue.id}`,
+              }}
+            />
+          </div>
         </div>
       ) : (
         <EmptyState token={token} />

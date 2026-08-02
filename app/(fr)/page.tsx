@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { prisma } from "@/lib/prisma";
 import CatalogueClient from "@/components/CatalogueClient";
 import HeroVideo from "@/components/HeroVideo";
 import NewsletterCta from "@/components/NewsletterCta";
+import ParticleDotoText from "@/components/ParticleDotoText";
 import { BASE_URL, SITE_NAME, serializeJsonLd } from "@/lib/seo";
+import { sortCompaniesForCatalogue } from "@/lib/company-order";
 import { Suspense } from "react";
 
 export const metadata: Metadata = {
@@ -18,10 +21,10 @@ export const metadata: Metadata = {
 };
 
 export default async function HomePage() {
-  const companies = await prisma.company.findMany({
+  const companies = sortCompaniesForCatalogue(await prisma.company.findMany({
     include: { benefits: true },
     orderBy: { name: "asc" },
-  });
+  }));
 
   const sectors = [...new Set(companies.map((c) => c.sector))].sort();
   const indexes = [...new Set(companies.map((c) => c.stockIndex))].sort();
@@ -87,56 +90,67 @@ export default async function HomePage() {
 
       {/* Hero — Nothing style: asymmetric, display type, data-driven */}
       <section className="border-b border-border">
-        <div className="max-w-7xl mx-auto px-[var(--space-md)] sm:px-[var(--space-lg)] lg:px-[var(--space-xl)] py-[var(--space-2xl)] sm:py-[var(--space-3xl)] md:py-[var(--space-4xl)] grid grid-cols-1 lg:grid-cols-2 gap-[var(--space-xl)] sm:gap-[var(--space-2xl)] items-center">
-          <div>
+        <div className="mx-auto flex max-w-5xl flex-col items-center px-[var(--space-md)] py-[var(--space-xl)] text-center sm:px-[var(--space-lg)] sm:py-[var(--space-2xl)] md:py-[var(--space-3xl)]">
+          <div className="flex w-full flex-col items-center">
             {/* Primary layer — Display typography */}
             <h1
               aria-label="CLUBS ACTIONNAIRES"
-              className="font-[family-name:var(--font-display)] text-[42px] sm:text-[48px] md:text-[72px] font-bold text-text-display leading-[1.0] tracking-[-0.03em] mb-[var(--space-lg)]"
+              className="font-[family-name:var(--font-display)] text-[42px] sm:text-[48px] md:text-[72px] font-bold text-text-display leading-[1.0] tracking-[0.01em] mb-[var(--space-lg)]"
             >
-              CLUBS
-              <br />
-              ACTIONNAIRES
+              <ParticleDotoText
+                lines={["CLUBS", "ACTIONN\u200AAIRES"]}
+                centerLines
+              />
             </h1>
 
             {/* Secondary layer */}
-            <p className="text-[16px] sm:text-[18px] text-text-secondary leading-[1.6] max-w-lg mb-[var(--space-xl)] sm:mb-[var(--space-2xl)]">
+            <p className="mx-auto mb-[var(--space-xl)] max-w-2xl text-[16px] leading-[1.6] text-text-secondary sm:mb-[var(--space-2xl)] sm:text-[18px]">
               Tous les avantages réservés aux actionnaires des plus grandes entreprises mondiales. Un catalogue pour tout comparer.
             </p>
 
-            {/* Data metrics — tertiary layer */}
-            <div className="grid grid-cols-3 gap-[var(--space-sm)] sm:flex sm:items-end sm:gap-[var(--space-2xl)]">
-              <div className="min-w-0">
-                <p className="font-[family-name:var(--font-display)] text-[34px] sm:text-[48px] font-bold text-text-display leading-none">
-                  {companies.length}
-                </p>
-                <p className="font-[family-name:var(--font-data)] text-[9px] sm:text-[11px] tracking-[0.05em] sm:tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]">
-                  ENTREPRISES
-                </p>
-              </div>
-              <div className="hidden sm:block w-px h-10 bg-border-visible" />
-              <div className="min-w-0 border-l border-border-visible pl-[var(--space-sm)] sm:border-0 sm:pl-0">
-                <p className="font-[family-name:var(--font-display)] text-[34px] sm:text-[48px] font-bold text-text-display leading-none">
-                  {totalBenefits}
-                </p>
-                <p className="font-[family-name:var(--font-data)] text-[9px] sm:text-[11px] tracking-[0.05em] sm:tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]">
-                  AVANTAGES
-                </p>
-              </div>
-              <div className="hidden sm:block w-px h-10 bg-border-visible" />
-              <div className="min-w-0 border-l border-border-visible pl-[var(--space-sm)] sm:border-0 sm:pl-0">
-                <p className="font-[family-name:var(--font-display)] text-[34px] sm:text-[48px] font-bold text-text-display leading-none">
-                  {sectors.length}
-                </p>
-                <p className="font-[family-name:var(--font-data)] text-[9px] sm:text-[11px] tracking-[0.05em] sm:tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]">
-                  SECTEURS
-                </p>
-              </div>
-            </div>
           </div>
 
-          <div className="w-full">
+          <div className="mt-[var(--space-lg)] w-full max-w-2xl">
             <HeroVideo />
+          </div>
+
+          {/* Data metrics — tertiary layer */}
+          <div className="mt-[var(--space-2xl)] flex w-full flex-wrap items-end justify-center gap-[var(--space-md)] sm:gap-[var(--space-2xl)]">
+            <div className="min-w-0">
+              <p
+                aria-label={`${companies.length}`}
+                className="font-[family-name:var(--font-display)] text-[34px] sm:text-[48px] font-bold text-text-display leading-none"
+              >
+                <ParticleDotoText lines={[`${companies.length}`]} thinFives />
+              </p>
+              <p className="font-[family-name:var(--font-data)] text-[9px] sm:text-[11px] tracking-[0.05em] sm:tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]">
+                ENTREPRISES
+              </p>
+            </div>
+            <div className="hidden sm:block w-px h-10 bg-border-visible" />
+            <div className="min-w-0 border-l border-border-visible pl-[var(--space-sm)] sm:border-0 sm:pl-0">
+              <p
+                aria-label={`${totalBenefits}`}
+                className="font-[family-name:var(--font-display)] text-[34px] sm:text-[48px] font-bold text-text-display leading-none"
+              >
+                <ParticleDotoText lines={[`${totalBenefits}`]} thinFives />
+              </p>
+              <p className="font-[family-name:var(--font-data)] text-[9px] sm:text-[11px] tracking-[0.05em] sm:tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]">
+                AVANTAGES
+              </p>
+            </div>
+            <div className="hidden sm:block w-px h-10 bg-border-visible" />
+            <div className="min-w-0 border-l border-border-visible pl-[var(--space-sm)] sm:border-0 sm:pl-0">
+              <p
+                aria-label={`${sectors.length}`}
+                className="font-[family-name:var(--font-display)] text-[34px] sm:text-[48px] font-bold text-text-display leading-none"
+              >
+                <ParticleDotoText lines={[`${sectors.length}`]} thinFives />
+              </p>
+              <p className="font-[family-name:var(--font-data)] text-[9px] sm:text-[11px] tracking-[0.05em] sm:tracking-[0.08em] text-text-disabled mt-[var(--space-xs)]">
+                SECTEURS
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -164,8 +178,8 @@ export default async function HomePage() {
 
       {/* About — minimal, text-only */}
       <section id="about" className="border-t border-border">
-        <div className="max-w-7xl mx-auto px-[var(--space-md)] sm:px-[var(--space-lg)] lg:px-[var(--space-xl)] py-[var(--space-3xl)]">
-          <div className="max-w-2xl">
+        <div className="mx-auto max-w-7xl px-[var(--space-md)] py-[var(--space-3xl)] text-center sm:px-[var(--space-lg)] lg:px-[var(--space-xl)]">
+          <div className="mx-auto max-w-2xl">
             <p className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled mb-[var(--space-lg)]">
               A PROPOS
             </p>
@@ -187,8 +201,8 @@ export default async function HomePage() {
 
       {/* Comment s'inscrire au registre */}
       <section id="inscription" className="border-t border-border">
-        <div className="max-w-7xl mx-auto px-[var(--space-md)] sm:px-[var(--space-lg)] lg:px-[var(--space-xl)] py-[var(--space-3xl)]">
-          <div className="max-w-3xl">
+        <div className="mx-auto max-w-7xl px-[var(--space-md)] py-[var(--space-3xl)] text-center sm:px-[var(--space-lg)] lg:px-[var(--space-xl)]">
+          <div className="mx-auto max-w-3xl">
             <p className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled mb-[var(--space-lg)]">
               GUIDE PRATIQUE
             </p>
@@ -205,8 +219,8 @@ export default async function HomePage() {
             {/* Steps */}
             <div className="space-y-[var(--space-xl)]">
               {/* Step 1 */}
-              <div className="border-l-2 border-accent pl-[var(--space-lg)]">
-                <div className="flex items-baseline gap-[var(--space-md)] mb-[var(--space-sm)]">
+              <div className="border-t-2 border-accent pt-[var(--space-lg)]">
+                <div className="mb-[var(--space-sm)] flex items-baseline justify-start gap-[var(--space-md)]">
                   <span className="font-[family-name:var(--font-display)] text-[32px] font-bold text-accent leading-none">
                     01
                   </span>
@@ -238,8 +252,8 @@ export default async function HomePage() {
               </div>
 
               {/* Step 2 */}
-              <div className="border-l-2 border-accent pl-[var(--space-lg)]">
-                <div className="flex items-baseline gap-[var(--space-md)] mb-[var(--space-sm)]">
+              <div className="border-t-2 border-accent pt-[var(--space-lg)]">
+                <div className="mb-[var(--space-sm)] flex items-baseline justify-start gap-[var(--space-md)]">
                   <span className="font-[family-name:var(--font-display)] text-[32px] font-bold text-accent leading-none">
                     02
                   </span>
@@ -258,8 +272,8 @@ export default async function HomePage() {
               </div>
 
               {/* Step 3 */}
-              <div className="border-l-2 border-accent pl-[var(--space-lg)]">
-                <div className="flex items-baseline gap-[var(--space-md)] mb-[var(--space-sm)]">
+              <div className="border-t-2 border-accent pt-[var(--space-lg)]">
+                <div className="mb-[var(--space-sm)] flex items-baseline justify-start gap-[var(--space-md)]">
                   <span className="font-[family-name:var(--font-display)] text-[32px] font-bold text-accent leading-none">
                     03
                   </span>
@@ -272,18 +286,18 @@ export default async function HomePage() {
                   détenues sous deux formes :
                 </p>
                 <ul className="mt-[var(--space-sm)] space-y-[var(--space-sm)]">
-                  <li className="text-[15px] text-text-secondary leading-[1.7] pl-[var(--space-md)] border-l border-border-visible">
+                  <li className="border-t border-border-visible pt-[var(--space-sm)] text-[15px] leading-[1.7] text-text-secondary">
                     <strong className="text-text-primary">Au porteur</strong> : vos actions restent chez votre
                     courtier. L&apos;entreprise ne sait pas que vous êtes actionnaire.
                     C&apos;est le mode par défaut.
                   </li>
-                  <li className="text-[15px] text-text-secondary leading-[1.7] pl-[var(--space-md)] border-l border-border-visible">
+                  <li className="border-t border-border-visible pt-[var(--space-sm)] text-[15px] leading-[1.7] text-text-secondary">
                     <strong className="text-text-primary">Au nominatif administré</strong> : vos actions restent
                     chez votre courtier, mais votre nom est inscrit dans le registre
                     de l&apos;entreprise. C&apos;est la condition pour accéder à la plupart
                     des clubs d&apos;actionnaires.
                   </li>
-                  <li className="text-[15px] text-text-secondary leading-[1.7] pl-[var(--space-md)] border-l border-border-visible">
+                  <li className="border-t border-border-visible pt-[var(--space-sm)] text-[15px] leading-[1.7] text-text-secondary">
                     <strong className="text-text-primary">Au nominatif pur</strong> : vos actions sont gérées
                     directement par l&apos;entreprise (via son teneur de registre,
                     souvent la Société Générale Securities Services ou CACEIS).
@@ -300,8 +314,8 @@ export default async function HomePage() {
               </div>
 
               {/* Step 4 */}
-              <div className="border-l-2 border-accent pl-[var(--space-lg)]">
-                <div className="flex items-baseline gap-[var(--space-md)] mb-[var(--space-sm)]">
+              <div className="border-t-2 border-accent pt-[var(--space-lg)]">
+                <div className="mb-[var(--space-sm)] flex items-baseline justify-start gap-[var(--space-md)]">
                   <span className="font-[family-name:var(--font-display)] text-[32px] font-bold text-accent leading-none">
                     04
                   </span>
@@ -321,8 +335,8 @@ export default async function HomePage() {
               </div>
 
               {/* Step 5 */}
-              <div className="border-l-2 border-accent pl-[var(--space-lg)]">
-                <div className="flex items-baseline gap-[var(--space-md)] mb-[var(--space-sm)]">
+              <div className="border-t-2 border-accent pt-[var(--space-lg)]">
+                <div className="mb-[var(--space-sm)] flex items-baseline justify-start gap-[var(--space-md)]">
                   <span className="font-[family-name:var(--font-display)] text-[32px] font-bold text-accent leading-none">
                     05
                   </span>
@@ -375,6 +389,30 @@ export default async function HomePage() {
           >
             DECOUVRIR LES AVANTAGES →
           </a>
+        </div>
+      </section>
+
+      <section className="border-t border-border">
+        <div className="mx-auto flex max-w-3xl flex-col items-center gap-[var(--space-lg)] px-[var(--space-md)] py-[var(--space-2xl)] text-center sm:px-[var(--space-lg)]">
+          <div className="flex flex-col items-center">
+            <p className="font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-accent">
+              OBSERVATOIRE 2026
+            </p>
+            <h2 className="mt-[var(--space-sm)] text-[24px] font-medium text-text-display">
+              {companies.length} entreprises et {totalBenefits} avantages
+              analysés
+            </h2>
+            <p className="mt-[var(--space-xs)] max-w-2xl text-[14px] leading-relaxed text-text-secondary">
+              Consultez les chiffres consolidés, la méthodologie et les données
+              téléchargeables du catalogue.
+            </p>
+          </div>
+          <Link
+            href="/observatoire"
+            className="w-fit border border-border-visible px-[var(--space-lg)] py-[var(--space-sm)] font-[family-name:var(--font-data)] text-[11px] font-bold uppercase tracking-[0.06em] text-text-display transition-colors hover:border-accent hover:text-accent"
+          >
+            Voir l&apos;observatoire
+          </Link>
         </div>
       </section>
     </div>

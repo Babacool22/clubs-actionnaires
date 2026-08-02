@@ -6,8 +6,8 @@
   "ticker": "AIR",
   "description": "Airbus SE est un groupe aérospatial européen qui conçoit, fabrique et fournit des avions commerciaux, des hélicoptères ainsi que des solutions de défense et d'espace. Son action ordinaire, identifiée par l'ISIN NL0000235190 et le symbole AIR, est notamment cotée à Paris et intégrée au CAC 40.",
   "website": "https://www.airbus.com/",
-  "minShares": null,
-  "lastVerifiedAt": "2026-06-09",
+  "minShares": 1,
+  "lastVerifiedAt": "2026-07-31",
   "benefits": [
     {
       "type": "reduction",

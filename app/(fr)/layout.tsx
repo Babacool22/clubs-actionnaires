@@ -34,7 +34,7 @@ const spaceMono = Space_Mono({
 
 const TITLE = "Clubs Actionnaires – Avantages et clubs d'actionnaires";
 const DESCRIPTION =
-  "Comparez les clubs actionnaires, avantages, seuils d'actions, conditions d'inscription et sources officielles de 58 grandes entreprises mondiales.";
+  "Comparez les clubs actionnaires, avantages, seuils d'actions, conditions d'inscription et sources officielles de 65 grandes entreprises mondiales.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
@@ -143,6 +143,13 @@ const jsonLd = {
       founder: {
         "@type": "Person",
         name: "Bastien Coulonnier",
+        url: `${BASE_URL}/a-propos`,
+      },
+      contactPoint: {
+        "@type": "ContactPoint",
+        contactType: "editorial",
+        email: "contact@clubsactionnaires.fr",
+        availableLanguage: ["French", "English"],
       },
     },
   ],

@@ -1,0 +1,284 @@
+{
+  "auditDate": "2026-07-31",
+  "group": 3,
+  "companies": {
+    "iberdrola": {
+      "programStatus": "formal_club",
+      "minShares": 1,
+      "minSharesMeaning": "Les conditions exigent uniquement d'etre actionnaire d'Iberdrola. Aucun seuil superieur a une action n'est publie.",
+      "holdingMode": "Actions acquises par une voie officielle, au porteur aupres d'un intermediaire ou inscrites directement. Aucun mode de detention particulier n'est impose.",
+      "membershipCost": "Aucun frais d'adhesion publie. Cout minimal variable : cours d'une action Iberdrola, hors courtage.",
+      "proofRequirement": "Iberdrola verifie la qualite d'actionnaire lors de l'inscription et peut la controler periodiquement. Le reglement ne prescrit pas publiquement un document unique.",
+      "procedure": "Acheter au moins une action, remplir le formulaire d'inscription a l'OLS Shareholders' Club, accepter les conditions et la politique de confidentialite, puis creer ses identifiants.",
+      "officialUrl": "https://www.iberdrola.com/shareholders-investors/shareholders/shareholders-club/terms-use",
+      "sources": [
+        {
+          "title": "Terms and Conditions of Use for OLS Shareholders' Club",
+          "url": "https://www.iberdrola.com/shareholders-investors/shareholders/shareholders-club/terms-use",
+          "type": "official",
+          "updated": "2025-02-26"
+        },
+        {
+          "title": "2026 General Shareholders' Meeting Participation Portal",
+          "url": "https://www.iberdrola.com/corporate-governance/general-shareholders-meeting/participation-meeting/participation-portal",
+          "type": "official",
+          "updated": "2026"
+        }
+      ],
+      "confidence": 0.98,
+      "notes": "Le club donne acces a des informations, questions, evenements, tirages au sort et visites. Ne pas inventer un seuil superieur a une action."
+    },
+    "intesa-sanpaolo": {
+      "programStatus": "formal_club",
+      "minShares": 1000,
+      "minSharesMeaning": "Les 1 000 actions doivent avoir ete deposees sans interruption pendant au moins 12 mois aupres d'une banque eligible du groupe.",
+      "holdingMode": "Depot administre aupres d'Intesa Sanpaolo, Intesa Sanpaolo Private Banking ou Fideuram, associe a un compte courant eligible dans la meme banque.",
+      "membershipCost": "Pas de cotisation distincte au Club. Un compte et un depot administre eligibles sont obligatoires. Les avantages de base peuvent ensuite annuler certains frais de compte, de depot et de carte.",
+      "proofRequirement": "Aucun justificatif externe a produire : la banque verifie elle-meme le compte, le depot, le nombre d'actions et les 12 mois de detention. Nouvelle verification au 31 decembre de chaque annee.",
+      "procedure": "Presenter une demande ecrite avec le formulaire prevu a l'agence ou sont tenus le compte courant et le depot d'actions. Une adhesion ne peut etre demandee qu'aupres d'une seule banque du groupe.",
+      "officialUrl": "https://www.intesasanpaolo.com/it/common/landing/club-azionisti.html",
+      "sources": [
+        {
+          "title": "Club Azionisti Intesa Sanpaolo",
+          "url": "https://www.intesasanpaolo.com/it/common/landing/club-azionisti.html",
+          "type": "official",
+          "updated": "2026"
+        },
+        {
+          "title": "Termini e Condizioni di Partecipazione",
+          "url": "https://www.intesasanpaolo.com/content/dam/vetrina/documenti/club-degli-azionisti/club-degli-azionisti-isp-termini-e-condizioni.pdf",
+          "type": "official",
+          "updated": "2026"
+        }
+      ],
+      "confidence": 0.99,
+      "notes": "Initiative annoncee jusqu'au 31 decembre 2026, avec possibilite de prorogation annuelle. Chez Intesa Sanpaolo, le compte requis est XME Conto Gold ; chez Fideuram, Fideuram ONE."
+    },
+    "jungfraubahn-holding": {
+      "programStatus": "formal_club",
+      "minShares": 250,
+      "minSharesMeaning": "Il faut detenir au moins 250 actions nominatives et etre inscrit au registre des actions a la date de reference. Prochaine date officielle : 1er octobre 2026.",
+      "holdingMode": "Actions nominatives inscrites au registre des actions de Jungfraubahn Holding AG.",
+      "membershipCost": "Adhesion automatique et sans cotisation publiee. Cout minimal d'investissement : 250 multiplie par le cours de l'action JFN, hors frais.",
+      "proofRequirement": "L'inscription au registre des actions constitue la preuve. Aucun justificatif ou formulaire d'adhesion separe n'est demande.",
+      "procedure": "Acheter 250 actions, demander a l'intermediaire leur inscription au registre des actions et les conserver jusqu'a la date de reference. L'entree dans le club est ensuite automatique.",
+      "officialUrl": "https://www.jungfrau.ch/en-gb/corporate/investor-relations/jungfraubahn-holding-ag/shareholder-information/shareholders-club/",
+      "sources": [
+        {
+          "title": "Shareholders' Club Jungfraubahn Holding AG",
+          "url": "https://www.jungfrau.ch/en-gb/corporate/investor-relations/jungfraubahn-holding-ag/shareholder-information/shareholders-club/",
+          "type": "official",
+          "updated": "2026"
+        },
+        {
+          "title": "Jungfraubahn Holding AG Annual Report 2024",
+          "url": "https://www.jungfrau.ch/business-report-2024/assets/pdfs/Jungfraubahn_GB2024_EN_WEB.pdf",
+          "type": "official",
+          "updated": "2025"
+        }
+      ],
+      "confidence": 0.99,
+      "notes": "Tous les actionnaires inscrits beneficient par ailleurs d'une offre annuelle, meme sous le seuil de 250 actions. Le club, lui, commence bien a 250 actions."
+    },
+    "kering": {
+      "programStatus": "no_program",
+      "minShares": null,
+      "minSharesMeaning": "Aucun club operationnel ni seuil d'adhesion n'est publie au 31 juillet 2026.",
+      "holdingMode": "Pour la detention ordinaire, Kering accepte le nominatif pur, le nominatif administre et le porteur.",
+      "membershipCost": "Sans objet : aucun club ou programme d'avantages permanent n'est actuellement propose.",
+      "proofRequirement": "Sans objet pour un club. Pour participer a l'assemblee generale, une carte d'admission ou une attestation de participation et une piece d'identite sont necessaires.",
+      "procedure": "Aucune procedure d'adhesion a un club. La lettre aux actionnaires peut etre demandee par e-mail ou telephone.",
+      "officialUrl": "https://www.kering.com/fr/finance/informations-actionnaires/",
+      "sources": [
+        {
+          "title": "Informations destinees aux actionnaires",
+          "url": "https://www.kering.com/fr/finance/informations-actionnaires/",
+          "type": "official",
+          "updated": "2026"
+        },
+        {
+          "title": "Guide de l'actionnaire 2026",
+          "url": "https://www.kering.com/api/download-file/?path=KERING_GUIDE_ACTIONNAIRE_2026_2b34bc4ed0.pdf",
+          "type": "official",
+          "updated": "2026-06-10"
+        },
+        {
+          "title": "Compte rendu de l'Assemblee generale du 28 mai 2026",
+          "url": "https://www.kering.com/api/download-file/?path=KERING_Compte_rendu_AG_28_05_2026_VF_f1085ed643.pdf",
+          "type": "official",
+          "updated": "2026-05-28"
+        }
+      ],
+      "confidence": 0.94,
+      "notes": "La creation d'un club a ete evoquee parmi les questions de l'AG 2026, mais aucune annonce de lancement, reglement ou formulaire n'a ete publie. Ne pas presenter Kering comme disposant deja d'un club."
+    },
+    "legrand": {
+      "programStatus": "shareholder_benefit_without_club",
+      "minShares": 1,
+      "minSharesMeaning": "Les visites ponctuelles demandent simplement d'etre actionnaire ; aucun nombre minimal superieur a une action n'est publie.",
+      "holdingMode": "Nominatif pur, nominatif administre ou porteur.",
+      "membershipCost": "Pas de cotisation. Les deplacements pour les visites restent a la charge du participant.",
+      "proofRequirement": "Le formulaire public observe demandait une declaration 'Je suis actionnaire', sans televersement obligatoire d'attestation. Legrand peut neanmoins controler l'eligibilite.",
+      "procedure": "Surveiller les annonces de visites dans l'espace actionnaires puis remplir le formulaire de l'evenement. Les places sont limitees et il n'existe pas d'adhesion permanente.",
+      "officialUrl": "https://www.legrandgroup.com/fr/investisseurs-et-actionnaires/espace-actionnaires",
+      "sources": [
+        {
+          "title": "Espace actionnaires Legrand",
+          "url": "https://www.legrandgroup.com/fr/investisseurs-et-actionnaires/espace-actionnaires",
+          "type": "official"
+        },
+        {
+          "title": "Visite de site Legrand",
+          "url": "https://www.legrandgroup.com/fr/investisseurs-et-actionnaires/visite-de-site-legrand",
+          "type": "official",
+          "eventDate": "2025-12-03"
+        }
+      ],
+      "confidence": 0.91,
+      "notes": "Legrand possede un espace actionnaires et organise ponctuellement des visites, mais aucun Club des actionnaires permanent avec carte, reglement ou adhesion n'a ete identifie."
+    },
+    "lvmh": {
+      "programStatus": "formal_club",
+      "minShares": 1,
+      "minSharesMeaning": "Une action LVMH cotee sur Euronext Paris suffit pour un actionnaire individuel francais ou etranger.",
+      "holdingMode": "Porteur, nominatif administre ou nominatif pur.",
+      "membershipCost": "Adhesion gratuite. Cout minimal variable : cours d'une action LVMH cotee a Paris, hors frais.",
+      "proofRequirement": "Au porteur, releve de compte ou attestation de l'intermediaire datant de moins de trois mois. Aucun justificatif supplementaire pour les titres nominatifs, verifiables dans le registre.",
+      "procedure": "Creer un compte sur le site du Club, selectionner 'Devenir membre', renseigner ses informations et joindre le justificatif recent si les actions sont au porteur. Adhesion valable deux ans puis renouvelable.",
+      "officialUrl": "https://www.lvmh.com/fr/actionnaires/club-des-actionnaires",
+      "sources": [
+        {
+          "title": "Club des Actionnaires LVMH",
+          "url": "https://www.lvmh.com/fr/actionnaires/club-des-actionnaires",
+          "type": "official",
+          "updated": "2026"
+        },
+        {
+          "title": "Method for holding shares",
+          "url": "https://www.lvmh.com/en/investors/being-a-lvmh-shareholder/method-for-holding-shares/",
+          "type": "official"
+        },
+        {
+          "title": "LVMH 2025 Interactive Annual Report",
+          "url": "https://hosting.fluidbook.com/LVMH/2025interactiveannualreport/en/170-2025-Interactive-Annual-Report-LVMH.html",
+          "type": "official",
+          "updated": "2026"
+        }
+      ],
+      "confidence": 0.98,
+      "notes": "L'action doit bien etre l'action LVMH cotee a Paris. Une ADR ou une cotation OTC etrangere ne doit pas etre presentee comme automatiquement eligible."
+    },
+    "mapfre": {
+      "programStatus": "formal_club",
+      "minShares": 1000,
+      "minSharesMeaning": "Le Club Mapfre Accionista exige 1 000 actions et la residence en Espagne. Ces conditions doivent rester remplies en permanence.",
+      "holdingMode": "Aucun mode nominatif particulier n'est impose ; les actions peuvent etre detenues via un compte-titres aupres d'un intermediaire.",
+      "membershipCost": "Aucun droit d'adhesion indique. Cout minimal d'investissement : 1 000 multiplie par le cours de l'action MAPFRE, hors frais.",
+      "proofRequirement": "Le formulaire demande notamment identite, adresse, NIF, e-mail et telephone. Aucun televersement de releve n'est publiquement demande ; Mapfre controle l'eligibilite a partir des informations d'actionnaire.",
+      "procedure": "Remplir d'abord le formulaire 'Mapfre Accionistas. Un valor unico'. Si les conditions sont remplies, Mapfre envoie par e-mail un code d'inscription. Utiliser ce code avec le DNI/NIE pour activer l'acces au Club.",
+      "officialUrl": "https://www.mapfre.com/accionistas-e-inversores/espacio-accionistas-e-inversores-particulares/",
+      "sources": [
+        {
+          "title": "Espacio accionistas e inversores particulares",
+          "url": "https://www.mapfre.com/accionistas-e-inversores/espacio-accionistas-e-inversores-particulares/",
+          "type": "official",
+          "updated": "2026"
+        },
+        {
+          "title": "Club MAPFRE Accionista - Bases del programa",
+          "url": "https://www.formulariomapfreaccionistas.com/bases/bases_ES.pdf",
+          "type": "official"
+        },
+        {
+          "title": "Formulario Mapfre Accionistas",
+          "url": "https://www.formulariomapfreaccionistas.com/",
+          "type": "official"
+        }
+      ],
+      "confidence": 0.98,
+      "notes": "Le plan d'information general commence a une action, mais le veritable Club Mapfre Accionista commence a 1 000 actions et reste limite aux personnes physiques residant en Espagne."
+    },
+    "mcdonalds": {
+      "programStatus": "no_program",
+      "minShares": null,
+      "minSharesMeaning": "McDonald's Corporation, cotee au NYSE sous MCD, ne publie aucun club ni avantage commercial accessible selon un seuil d'actions.",
+      "holdingMode": "Actions detenues chez un courtier ou directement enregistrees aupres de Computershare.",
+      "membershipCost": "Sans objet.",
+      "proofRequirement": "Sans objet.",
+      "procedure": "Aucune procedure d'adhesion. Computershare sert uniquement a la tenue des titres, au plan d'achat direct et au reinvestissement des dividendes.",
+      "officialUrl": "https://corporate.mcdonalds.com/corpmcd/investors/shareholder-resources.html",
+      "sources": [
+        {
+          "title": "McDonald's Investor Resources and Shareholder Information",
+          "url": "https://corporate.mcdonalds.com/corpmcd/investors/shareholder-resources.html",
+          "type": "official",
+          "updated": "2026"
+        },
+        {
+          "title": "McDonald's Corporation 2026 Proxy Statement",
+          "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/MCD%202026%20Proxy%20Statement.pdf",
+          "type": "official",
+          "updated": "2026"
+        },
+        {
+          "title": "Japan McDonald's shareholder-benefit FAQ",
+          "url": "https://www.mcdonalds.co.jp/cservice/list.shareholderbenefit2/",
+          "type": "official-separate-company"
+        }
+      ],
+      "confidence": 0.96,
+      "notes": "Ne pas attribuer a McDonald's Corporation le programme japonais de coupons. Celui-ci appartient a Japan McDonald's Holdings, societe cotee distincte, et exige 100 actions japonaises."
+    },
+    "michelin": {
+      "programStatus": "no_program",
+      "minShares": null,
+      "minSharesMeaning": "Une action suffit pour devenir actionnaire Michelin, mais cela ne correspond pas a l'adhesion a un club d'avantages.",
+      "holdingMode": "Michelin presente deux modes nominatifs : nominatif pur chez Societe Generale Securities Services ou nominatif administre aupres de l'etablissement financier.",
+      "membershipCost": "Sans objet pour un club. Au nominatif pur, les frais de garde et de gestion sont gratuits ; le courtage officiel indique est de 0,30 % HT avec un minimum de 6 EUR HT.",
+      "proofRequirement": "Sans objet pour un club. L'inscription au registre etablit la qualite d'actionnaire.",
+      "procedure": "Aucune adhesion a un club. Pour devenir actionnaire, acheter au moins une action au nominatif pur ou administre. Pour candidater au Comite des Actionnaires, envoyer un CV et une lettre de motivation.",
+      "officialUrl": "https://www.michelin.com/investisseurs/actionnaire",
+      "sources": [
+        {
+          "title": "Comment devenir actionnaire de Michelin",
+          "url": "https://www.michelin.com/investisseurs/actionnaire/guide-investir",
+          "type": "official",
+          "updated": "2026"
+        },
+        {
+          "title": "Comite des Actionnaires Michelin",
+          "url": "https://www.michelin.com/investisseurs/actionnaire/comite",
+          "type": "official",
+          "updated": "2026"
+        }
+      ],
+      "confidence": 0.97,
+      "notes": "Le Comite des Actionnaires est un organe consultatif restreint de dix membres selectionnes pour trois ans, pas un club ouvert donnant automatiquement des avantages a tous les detenteurs."
+    },
+    "norwegian-cruise-line": {
+      "programStatus": "shareholder_benefit_without_club",
+      "minShares": 100,
+      "minSharesMeaning": "Il faut posseder au moins 100 actions NCLH au moment de la croisiere. Le seuil s'applique par cabine demandant le credit.",
+      "holdingMode": "Tout compte de courtage ou detention enregistree permettant de produire un releve actuel ou une proxy card.",
+      "membershipCost": "Aucun frais de demande. Au cours de 18,53 USD releve le 31 juillet 2026, 100 actions representent environ 1 853 USD, hors frais et variations de marche.",
+      "proofRequirement": "Copie d'une proxy card ou d'un releve de courtage recent montrant au moins 100 actions. Le numero du compte de courtage doit etre masque.",
+      "procedure": "Remplir en ligne le Shareholder Benefit Request avec les coordonnees, le navire et la date de depart, joindre la preuve de detention et envoyer la demande au moins quinze jours avant le depart.",
+      "officialUrl": "https://www.nclhltd.com/investors/shareholder-benefits/shareholder-benefit-faqs",
+      "sources": [
+        {
+          "title": "NCLH Shareholder Benefit FAQs",
+          "url": "https://www.nclhltd.com/investors/shareholder-benefits/shareholder-benefit-faqs",
+          "type": "official",
+          "updated": "2026"
+        },
+        {
+          "title": "NCLH Shareholder Benefit Request",
+          "url": "https://nclh.my.salesforce-sites.com/ShareholderBenefitRequest",
+          "type": "official"
+        }
+      ],
+      "confidence": 0.99,
+      "notes": "Ce n'est pas un club. L'avantage est un credit par cabine de 50 USD pour 6 jours ou moins, 100 USD pour 7 a 14 jours et 250 USD pour 15 jours ou plus. Il est non transferable, non cumulable avec certaines offres et exclut les croisieres charter."
+    }
+  }
+}

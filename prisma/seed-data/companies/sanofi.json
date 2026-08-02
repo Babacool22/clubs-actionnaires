@@ -8,8 +8,8 @@
   "website": "https://www.sanofi.com/fr/investisseurs",
   "clubName": "Relations actionnaires individuels Sanofi",
   "clubUrl": "https://www.sanofi.com/fr/investisseurs/actionnaires-prives",
-  "minShares": 1,
-  "lastVerifiedAt": "2026-05-15",
+  "minShares": null,
+  "lastVerifiedAt": "2026-07-31",
   "benefits": [
     {
       "type": "priorite",

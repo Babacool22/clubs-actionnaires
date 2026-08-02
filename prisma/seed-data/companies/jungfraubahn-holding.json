@@ -1,0 +1,91 @@
+{
+  "slug": "jungfraubahn-holding",
+  "name": "Jungfraubahn Holding",
+  "description": "Jungfraubahn Holding AG est un groupe suisse de transport et de tourisme de montagne. Il exploite les chemins de fer de la Jungfrau et des activités liées aux destinations du Jungfraujoch, de Grindelwald et de la région de l'Oberland bernois.",
+  "sector": "Hôtellerie & Tourisme",
+  "stockIndex": "SIX Swiss Exchange",
+  "ticker": "JFN",
+  "website": "https://www.jungfrau.ch",
+  "clubName": "Shareholders' Club Jungfraubahn Holding AG",
+  "clubUrl": "https://www.jungfrau.ch/en-gb/corporate/investor-relations/jungfraubahn-holding-ag/shareholder-information/shareholders-club/",
+  "minShares": 250,
+  "lastVerifiedAt": "2026-07-31",
+  "benefits": [
+    {
+      "type": "cadeau",
+      "title": "Offre annuelle de billets",
+      "description": "Le Club adresse à la fin du mois d'octobre une offre annuelle variable comprenant un ou plusieurs billets gratuits ou à tarif réduit. Le contenu change d'une année à l'autre et ne doit pas être considéré comme un avantage fixe.",
+      "value": "Offre variable",
+      "requiredShares": 250,
+      "sourceUrl": "https://www.jungfrau.ch/en-gb/corporate/investor-relations/jungfraubahn-holding-ag/shareholder-information/shareholders-club/"
+    },
+    {
+      "type": "reduction",
+      "title": "50 % sur le réseau Jungfrau Railways",
+      "description": "La carte de membre donne droit à 50 % de réduction sur les billets du réseau Jungfrau Railways. Cette réduction ne peut pas être cumulée avec le demi-tarif suisse ni avec une autre réduction.",
+      "value": "-50 %",
+      "requiredShares": 250,
+      "sourceUrl": "https://www.jungfrau.ch/en-gb/corporate/investor-relations/jungfraubahn-holding-ag/shareholder-information/shareholders-club/"
+    },
+    {
+      "type": "reduction",
+      "title": "10 % sur l'AlpsPass hiver",
+      "description": "Les membres bénéficient de 10 % de réduction lors de l'achat de l'AlpsPass d'hiver couvrant Adelboden-Lenk, Aletsch Arena, Engelberg-Titlis et Jungfrau Skiregion.",
+      "value": "-10 %",
+      "requiredShares": 250,
+      "sourceUrl": "https://www.jungfrau.ch/en-gb/corporate/investor-relations/jungfraubahn-holding-ag/shareholder-information/shareholders-club/"
+    },
+    {
+      "type": "reduction",
+      "title": "10 % sur le Sportpass local",
+      "description": "Les membres domiciliés dans l'arrondissement Interlaken-Oberhasli et disposant de la carte locale orange bénéficient de 10 % sur le Sportpass hiver Jungfrau Ski Region.",
+      "value": "-10 %",
+      "requiredShares": 250,
+      "sourceUrl": "https://www.jungfrau.ch/en-gb/corporate/investor-relations/jungfraubahn-holding-ag/shareholder-information/shareholders-club/"
+    },
+    {
+      "type": "reduction",
+      "title": "10 % sur le pass été Jungfraubahnen",
+      "description": "Les membres bénéficient de 10 % de réduction lors de l'achat du pass saison d'été Jungfraubahnen.",
+      "value": "-10 %",
+      "requiredShares": 250,
+      "sourceUrl": "https://www.jungfrau.ch/en-gb/corporate/investor-relations/jungfraubahn-holding-ag/shareholder-information/shareholders-club/"
+    },
+    {
+      "type": "cadeau",
+      "title": "Calendrier Jungfrau Railways",
+      "description": "Un calendrier annuel Jungfrau Railways est envoyé gratuitement aux membres du Club.",
+      "value": "Gratuit",
+      "requiredShares": 250,
+      "sourceUrl": "https://www.jungfrau.ch/en-gb/corporate/investor-relations/jungfraubahn-holding-ag/shareholder-information/shareholders-club/"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Combien d'actions Jungfraubahn Holding faut-il pour entrer au Club ?",
+      "answer": "Il faut détenir au moins 250 actions inscrites au registre des actions à la date de référence annuelle. La prochaine date publiée est le 1er octobre 2026."
+    },
+    {
+      "question": "L'adhésion au Club Jungfraubahn est-elle automatique ?",
+      "answer": "Oui. Toute personne qui possède au moins 250 actions inscrites au registre à la date de référence est intégrée automatiquement. Il n'y a pas de formulaire d'adhésion séparé annoncé."
+    },
+    {
+      "question": "La réduction ferroviaire de 50 % est-elle cumulable ?",
+      "answer": "Non. Jungfraubahn précise que la réduction de 50 % sur les billets de son réseau ne se cumule ni avec le demi-tarif suisse ni avec d'autres réductions."
+    },
+    {
+      "question": "Tous les membres ont-ils droit au Sportpass local à -10 % ?",
+      "answer": "Non. Cette réduction particulière est réservée aux actionnaires locaux résidant dans l'arrondissement Interlaken-Oberhasli et disposant de la carte locale orange."
+    },
+    {
+      "question": "Quelle est la durée de validité de la carte actuelle ?",
+      "answer": "La page officielle indique que les cartes 2025-2026 restent valables jusqu'au 31 octobre 2026. Une nouvelle collecte des données des membres est prévue le 1er octobre 2026."
+    }
+  ],
+  "sources": [
+    "https://www.jungfrau.ch/en-gb/corporate/investor-relations/jungfraubahn-holding-ag/shareholder-information/shareholders-club/",
+    "https://www.jungfrau.ch/en-gb/corporate/investor-relations/jungfraubahn-holding-ag/factsheet/",
+    "https://www.six-group.com/en/market-data/shares/share-explorer/share-details.CH0017875789CHF4.html"
+  ],
+  "logoUrl": "/logos/jungfraubahn.png"
+}

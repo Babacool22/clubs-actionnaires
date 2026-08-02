@@ -7,7 +7,7 @@
   "ticker": "KER",
   "website": "https://www.kering.com/fr/",
   "minShares": null,
-  "lastVerifiedAt": "2026-07-21",
+  "lastVerifiedAt": "2026-07-31",
   "benefits": [
     {
       "type": "reduction",
@@ -63,5 +63,5 @@
     "https://www.kering.com/api/download-file/?path=01_Document_d_Enregistrement_Universel_2025_FR_5a41111e66.pdf",
     "https://www.kering.com/fr/groupe/"
   ],
-  "logoUrl": "/logos/kering.svg"
+  "logoUrl": "/logos/kering.png"
 }

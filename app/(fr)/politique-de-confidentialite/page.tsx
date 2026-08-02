@@ -8,6 +8,11 @@ export const metadata: Metadata = {
     "Politique de confidentialité de Clubs Actionnaires : données collectées, finalités, cookies, analytics et vos droits RGPD.",
   alternates: {
     canonical: `${BASE_URL}/politique-de-confidentialite`,
+    languages: {
+      "fr-FR": `${BASE_URL}/politique-de-confidentialite`,
+      "en-US": `${BASE_URL}/en/privacy-policy`,
+      "x-default": `${BASE_URL}/politique-de-confidentialite`,
+    },
   },
   openGraph: {
     title: `Politique de confidentialité | ${SITE_NAME}`,

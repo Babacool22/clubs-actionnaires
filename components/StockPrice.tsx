@@ -58,33 +58,65 @@ async function fetchQuote(symbol: string) {
   return request;
 }
 
-function formatPrice(price: number, currency: string): string {
+function formatPrice(
+  price: number,
+  currency: string,
+  locale: "fr-FR" | "en-US"
+): string {
   if (currency === "GBp") return `${price.toFixed(2)}p`;
-  const sym = CURRENCY_SYMBOL[currency] ?? currency;
-  const formatted = price.toLocaleString("fr-FR", {
+  const sym = CURRENCY_SYMBOL[currency];
+  const formatted = price.toLocaleString(locale, {
     minimumFractionDigits: 2,
     maximumFractionDigits: 2,
   });
-  return sym === "€" ? `${formatted} €` : `${sym}${formatted}`;
+  if (!sym) {
+    return locale === "fr-FR"
+      ? `${formatted} ${currency}`
+      : `${currency} ${formatted}`;
+  }
+  return sym === "€" && locale === "fr-FR"
+    ? `${formatted} €`
+    : `${sym}${formatted}`;
 }
 
-function formatTotal(total: number, currency: string): string {
+function formatTotal(
+  total: number,
+  currency: string,
+  locale: "fr-FR" | "en-US"
+): string {
   if (currency === "GBp") {
     const pounds = total / 100;
-    return `£${pounds.toLocaleString("fr-FR", {
+    return `£${pounds.toLocaleString(locale, {
       minimumFractionDigits: 0,
       maximumFractionDigits: 0,
     })}`;
   }
-  const sym = CURRENCY_SYMBOL[currency] ?? currency;
-  const formatted = total.toLocaleString("fr-FR", {
+  const sym = CURRENCY_SYMBOL[currency];
+  const formatted = total.toLocaleString(locale, {
     minimumFractionDigits: 0,
     maximumFractionDigits: 0,
   });
-  return sym === "€" ? `${formatted} €` : `${sym}${formatted}`;
+  if (!sym) {
+    return locale === "fr-FR"
+      ? `${formatted} ${currency}`
+      : `${currency} ${formatted}`;
+  }
+  return sym === "€" && locale === "fr-FR"
+    ? `${formatted} €`
+    : `${sym}${formatted}`;
 }
 
-export function StockPrice({ symbol }: { symbol: string }) {
+export function StockPrice({
+  symbol,
+  locale = "fr-FR",
+  loadingLabel = "COURS EN DIRECT",
+  unavailableLabel = "COURS INDISPONIBLE",
+}: {
+  symbol: string;
+  locale?: "fr-FR" | "en-US";
+  loadingLabel?: string;
+  unavailableLabel?: string;
+}) {
   const quote = useQuote(symbol);
 
   if (quote === "error") {
@@ -94,7 +126,7 @@ export function StockPrice({ symbol }: { symbol: string }) {
           —
         </p>
         <p className="break-words font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled mt-[var(--space-xs)] [overflow-wrap:anywhere]">
-          COURS INDISPONIBLE
+          {unavailableLabel}
         </p>
       </div>
     );
@@ -107,7 +139,7 @@ export function StockPrice({ symbol }: { symbol: string }) {
           ···
         </p>
         <p className="break-words font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] text-text-disabled mt-[var(--space-xs)] [overflow-wrap:anywhere]">
-          COURS EN DIRECT
+          {loadingLabel}
         </p>
       </div>
     );
@@ -120,7 +152,7 @@ export function StockPrice({ symbol }: { symbol: string }) {
   return (
     <div className="min-w-0">
       <p className="break-words font-[family-name:var(--font-display)] text-[36px] font-bold text-text-display leading-none [overflow-wrap:anywhere]">
-        {formatPrice(quote.price, quote.currency)}
+        {formatPrice(quote.price, quote.currency, locale)}
       </p>
       <p
         className={`break-words font-[family-name:var(--font-data)] text-[11px] tracking-[0.08em] ${colorClass} mt-[var(--space-xs)] [overflow-wrap:anywhere]`}
@@ -138,11 +170,17 @@ export function MinSharesCost({
   minShares,
   compact = false,
   label = "COÛT MIN.",
+  locale = "fr-FR",
+  loadingLabel = "COURS EN CHARGEMENT",
+  unavailableLabel = "INDISPONIBLE",
 }: {
   symbol: string;
   minShares: number;
   compact?: boolean;
   label?: string;
+  locale?: "fr-FR" | "en-US";
+  loadingLabel?: string;
+  unavailableLabel?: string;
 }) {
   const quote = useQuote(symbol);
   const valueClass = compact
@@ -157,7 +195,7 @@ export function MinSharesCost({
           —
         </p>
         <p className={`break-words font-[family-name:var(--font-data)] ${labelClass} tracking-[0.08em] text-text-disabled mt-[var(--space-xs)] [overflow-wrap:anywhere]`}>
-          INDISPONIBLE
+          {unavailableLabel}
         </p>
       </div>
     );
@@ -170,7 +208,7 @@ export function MinSharesCost({
           ···
         </p>
         <p className={`break-words font-[family-name:var(--font-data)] ${labelClass} tracking-[0.08em] text-text-disabled mt-[var(--space-xs)] [overflow-wrap:anywhere]`}>
-          COURS EN CHARGEMENT
+          {loadingLabel}
         </p>
       </div>
     );
@@ -181,7 +219,7 @@ export function MinSharesCost({
   return (
     <div className="min-w-0">
       <p className={`break-words font-[family-name:var(--font-display)] ${valueClass} font-bold text-text-display leading-none [overflow-wrap:anywhere]`}>
-        {formatTotal(total, quote.currency)}
+        {formatTotal(total, quote.currency, locale)}
       </p>
       <p className={`break-words font-[family-name:var(--font-data)] ${labelClass} tracking-[0.08em] text-text-disabled mt-[var(--space-xs)] [overflow-wrap:anywhere]`}>
         {label}

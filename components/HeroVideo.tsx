@@ -112,7 +112,7 @@ export default function HeroVideo() {
           <span />
         </div>
         <span className="hero-video-bar-title">
-          clubs-actionnaires — presentation.mp4
+          Clubs - Actionnaires
         </span>
         <span className="hero-video-bar-meta">{fmt(currentTime)}</span>
       </div>

@@ -1,0 +1,75 @@
+{
+  "slug": "fdj-united",
+  "name": "FDJ UNITED",
+  "description": "FDJ UNITED est un groupe européen de jeux d'argent et de divertissement actif dans la loterie, les paris sportifs et les jeux en ligne. Le Groupe est issu de La Française des Jeux et a adopté sa nouvelle identité après le rapprochement avec Kindred.",
+  "sector": "Jeux & Divertissement",
+  "stockIndex": "SBF 120",
+  "ticker": "FDJU",
+  "website": "https://www.fdjunited.com",
+  "clubName": "Club Actionnaires FDJ UNITED",
+  "clubUrl": "https://www.fdjunited.com/fr/actionnaires-individuels/",
+  "minShares": 1,
+  "lastVerifiedAt": "2026-07-31",
+  "benefits": [
+    {
+      "type": "evenement",
+      "title": "Découverte des coulisses du Groupe",
+      "description": "Dès 1 action, les membres peuvent candidater à des rencontres et visites permettant de découvrir les métiers, les sites et les coulisses de FDJ UNITED. Les inscriptions et sélections dépendent de chaque événement.",
+      "value": "Sur inscription",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.fdjunited.com/fr/actionnaires-individuels/"
+    },
+    {
+      "type": "evenement",
+      "title": "Invitations à des événements sportifs",
+      "description": "Le programme annuel du Club comprend des événements sportifs organisés dans différentes régions françaises. Une adhésion ne garantit pas automatiquement une invitation.",
+      "value": "Sur inscription",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.fdjunited.com/fr/actionnaires-individuels/"
+    },
+    {
+      "type": "evenement",
+      "title": "Invitations à des événements culturels",
+      "description": "Les membres peuvent candidater à des rendez-vous culturels proposés par le Club selon son calendrier et le nombre de places disponibles.",
+      "value": "Sur inscription",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.fdjunited.com/fr/actionnaires-individuels/"
+    },
+    {
+      "type": "service",
+      "title": "Décryptage de la stratégie",
+      "description": "Des échanges et contenus dédiés permettent aux membres de mieux comprendre la stratégie, les activités et l'actualité de FDJ UNITED. Le Groupe annonce plus de 70 événements par an pour l'ensemble de son Club.",
+      "value": "Plus de 70 événements par an",
+      "requiredShares": 1,
+      "sourceUrl": "https://www.fdjunited.com/fr/actionnaires-individuels/"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Combien d'actions faut-il pour rejoindre le Club FDJ UNITED ?",
+      "answer": "Une seule action FDJ UNITED suffit. Le Club est ouvert à toute personne majeure détenant au moins une action."
+    },
+    {
+      "question": "Comment adhérer au Club Actionnaires FDJ UNITED ?",
+      "answer": "L'adhésion se fait depuis le site officiel du Club. Le demandeur doit créer son espace et fournir les informations ou justificatifs permettant de confirmer qu'il détient au moins une action."
+    },
+    {
+      "question": "Combien d'événements le Club organise-t-il ?",
+      "answer": "FDJ UNITED annonce plus de 70 événements par an partout en France. Ce volume couvre l'ensemble du programme ; chaque membre doit s'inscrire ou candidater séparément et toutes les places ne sont pas garanties."
+    },
+    {
+      "question": "Quels types d'événements sont proposés ?",
+      "answer": "Le Groupe cite la découverte de ses coulisses, des invitations à des événements sportifs et culturels ainsi que des rendez-vous consacrés au décryptage de sa stratégie."
+    },
+    {
+      "question": "Le Club FDJ UNITED donne-t-il des jeux ou paris gratuits ?",
+      "answer": "Aucun crédit de jeu, pari gratuit ou avantage financier permanent n'est annoncé sur la page officielle. Les bénéfices publiés sont principalement des rencontres, visites, invitations et contenus d'information."
+    }
+  ],
+  "sources": [
+    "https://www.fdjunited.com/fr/actionnaires-individuels/",
+    "https://clubactionnaires-fdjunited.com/",
+    "https://live.euronext.com/en/product/equities/FR0013451333-XPAR"
+  ],
+  "logoUrl": "/logos/fdj-united.png"
+}

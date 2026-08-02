@@ -3,10 +3,14 @@
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import {
+  createBeehiivPost,
   createNextNewsletterIssue,
+  deleteNewsletterIssue,
   parisTimeToUtcDate,
+  scheduleBeehiivPost,
   updateNewsletterIssue,
   updateNewsletterIssueStatus,
+  type NewsletterIssueUpdateInput,
   type NewsletterIssueStatus,
 } from "@/lib/newsletter";
 
@@ -57,17 +61,21 @@ function adminNewsletterUrl(token: string, issueId?: number) {
   return `/admin/newsletter${query ? `?${query}` : ""}`;
 }
 
-export async function generateNewsletterDraftAction(formData: FormData) {
-  const token = assertAdminToken(formData);
-  const issue = await createNextNewsletterIssue();
-
-  revalidatePath("/admin/newsletter");
-  redirect(adminNewsletterUrl(token, issue.id));
+function adminNewsletterUrlWithFeedback(
+  token: string,
+  issueId: number,
+  feedback: Record<string, string>,
+) {
+  const params = new URLSearchParams();
+  if (token) params.set("token", token);
+  if (issueId > 0) params.set("issue", String(issueId));
+  for (const [key, value] of Object.entries(feedback)) {
+    params.set(key, value);
+  }
+  return `/admin/newsletter?${params.toString()}`;
 }
 
-export async function updateNewsletterIssueAction(formData: FormData) {
-  const token = assertAdminToken(formData);
-  const issueId = parseIssueId(formData);
+function parseIssueUpdateInput(formData: FormData): NewsletterIssueUpdateInput {
   const sendDate = parseParisDateTime(formData.get("sendDate"));
   const title = String(formData.get("title") ?? "").trim();
   const subject = String(formData.get("subject") ?? "").trim();
@@ -79,17 +87,107 @@ export async function updateNewsletterIssueAction(formData: FormData) {
     throw new Error("Titre, sujet, preview text et HTML sont requis.");
   }
 
-  await updateNewsletterIssue(issueId, {
+  return {
     sendDate,
     title,
     subject,
     previewText,
     html,
     segment,
-  });
+  };
+}
+
+function compactFeedbackMessage(message: string) {
+  return message.length > 600 ? `${message.slice(0, 597)}...` : message;
+}
+
+function beehiivActionError(error: unknown, fallback: string) {
+  const message = error instanceof Error ? error.message : fallback;
+  if (message.includes("SEND_API_NOT_ENTERPRISE_PLAN")) {
+    return "Le plan beehiiv actuel ne permet pas l'envoi automatique par API. Utilisez l'import HTML manuel du cockpit, puis programmez l'edition dans beehiiv.";
+  }
+  return compactFeedbackMessage(message);
+}
+
+export async function generateNewsletterDraftAction(formData: FormData) {
+  const token = assertAdminToken(formData);
+  const issue = await createNextNewsletterIssue();
+
+  revalidatePath("/admin/newsletter");
+  redirect(adminNewsletterUrl(token, issue.id));
+}
+
+export async function updateNewsletterIssueAction(formData: FormData) {
+  const token = assertAdminToken(formData);
+  const issueId = parseIssueId(formData);
+  const input = parseIssueUpdateInput(formData);
+
+  await updateNewsletterIssue(issueId, input);
 
   revalidatePath("/admin/newsletter");
   redirect(adminNewsletterUrl(token, issueId));
+}
+
+export async function sendNewsletterToBeehiivAction(formData: FormData) {
+  const token = assertAdminToken(formData);
+  const issueId = parseIssueId(formData);
+  const input = parseIssueUpdateInput(formData);
+
+  await updateNewsletterIssue(issueId, input);
+
+  try {
+    await createBeehiivPost(issueId, { confirm: false });
+  } catch (error) {
+    const message = beehiivActionError(
+      error,
+      "beehiiv a refuse la creation du brouillon.",
+    );
+
+    revalidatePath("/admin/newsletter");
+    redirect(
+      adminNewsletterUrlWithFeedback(token, issueId, {
+        beehiivError: message,
+      }),
+    );
+  }
+
+  revalidatePath("/admin/newsletter");
+  redirect(
+    adminNewsletterUrlWithFeedback(token, issueId, {
+      beehiivSuccess: "Brouillon cree dans beehiiv.",
+    }),
+  );
+}
+
+export async function scheduleNewsletterInBeehiivAction(formData: FormData) {
+  const token = assertAdminToken(formData);
+  const issueId = parseIssueId(formData);
+  const input = parseIssueUpdateInput(formData);
+
+  await updateNewsletterIssue(issueId, input);
+
+  try {
+    await scheduleBeehiivPost(issueId);
+  } catch (error) {
+    const message = beehiivActionError(
+      error,
+      "beehiiv a refuse la programmation.",
+    );
+
+    revalidatePath("/admin/newsletter");
+    redirect(
+      adminNewsletterUrlWithFeedback(token, issueId, {
+        beehiivError: message,
+      }),
+    );
+  }
+
+  revalidatePath("/admin/newsletter");
+  redirect(
+    adminNewsletterUrlWithFeedback(token, issueId, {
+      beehiivSuccess: "Envoi programme dans beehiiv.",
+    }),
+  );
 }
 
 export async function updateNewsletterStatusAction(formData: FormData) {
@@ -110,4 +208,18 @@ export async function updateNewsletterStatusAction(formData: FormData) {
 
   revalidatePath("/admin/newsletter");
   redirect(adminNewsletterUrl(token, issueId));
+}
+
+export async function deleteNewsletterIssueAction(formData: FormData) {
+  const token = assertAdminToken(formData);
+  const issueId = parseIssueId(formData);
+
+  await deleteNewsletterIssue(issueId);
+
+  revalidatePath("/admin/newsletter");
+  redirect(
+    adminNewsletterUrlWithFeedback(token, 0, {
+      deleted: "Le brouillon a ete supprime definitivement.",
+    }),
+  );
 }
